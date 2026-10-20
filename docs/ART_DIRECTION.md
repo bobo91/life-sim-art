@@ -1,0 +1,3 @@
+# Art direction — v0.1
+Stylized low-poly, contemporary fictional US small town. Warm, inviting, slightly mature, expressive and readable at a high-angle 3D camera. Coherent shape language and color palettes across characters, architecture, interiors, and vegetation. Avoid photo-realism, exaggerated toy proportions, flat unshaded primitives, and copying branded POLYGON pack designs.
+Create a visual benchmark sheet via actual renders before scaling production. Prioritize a house, tree, streetlamp, then an original adult character. Define texel/material strategy, modular grid, LOD/triangle budgets and lighting references as measurable pipeline outputs.
