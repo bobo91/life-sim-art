@@ -1,0 +1,11 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.env
+.env.*
+output/
+dist/
+build/
+*.blend1
+*.blend2
+.DS_Store
