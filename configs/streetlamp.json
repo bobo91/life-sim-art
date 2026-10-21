@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "1.0",
+  "requestId": "ART-001",
+  "assetId": "prop_streetlamp_pipeline_001",
+  "version": "0.1.0",
+  "category": "prop",
+  "generator": "streetlamp",
+  "seed": 1701,
+  "dimensionsMeters": [0.64, 3.2, 0.64],
+  "maxTriangles": 2400,
+  "blenderVersion": "4.5.14",
+  "palette": {
+    "metal": {"color": "#344A48", "roughness": 0.64, "metallic": 0.45},
+    "edge": {"color": "#70827A", "roughness": 0.57, "metallic": 0.35},
+    "glass": {"color": "#EFC88A", "roughness": 0.32, "metallic": 0.0},
+    "fastener": {"color": "#A9A08B", "roughness": 0.48, "metallic": 0.6}
+  },
+  "preview": {"resolution": 640, "samples": 32}
+}
