@@ -6,3 +6,7 @@ No final third-party meshes or asset packs.
 
 See [the headless pipeline guide](docs/PIPELINE.md) for pinned tools, build/validation
 commands, reproducibility guarantees, output schema and Unity compatibility limits.
+
+The [ART-002 visual bible](docs/ART_DIRECTION.md) defines proposed proportions,
+material roles and review criteria. [materials/library.json](materials/library.json)
+contains the original comparison palettes; visual approval is pending.
