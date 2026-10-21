@@ -47,6 +47,17 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: art-001-${{ github.sha }}
-          path: build/
+          path: build/run-*/
+          if-no-files-found: warn
+          retention-days: 30
+      - name: Render controlled ART-002 palette comparisons
+        if: hashFiles('materials/library.json') != ''
+        run: python scripts/render_benchmark.py --output build/art-002
+      - name: Upload versioned ART-002 comparison assets and evidence
+        if: always() && hashFiles('materials/library.json') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: art-002-${{ github.sha }}
+          path: build/art-002/
           if-no-files-found: warn
           retention-days: 30

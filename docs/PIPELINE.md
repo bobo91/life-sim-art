@@ -85,5 +85,9 @@ Commit source/configs/tests, a small preview pair and validation manifests under
 `evidence/`. Generated GLB and Blender logs remain in ignored `build/`. CI uploads
 the complete verified bundles as versioned workflow artifacts; production GLB files
 belong in versioned releases after contract reconciliation and visual approval.
+For a local review artifact, run `python scripts/package_bundle.py build/run-b
+--output build/artifacts/prop_streetlamp_pipeline_001-0.1.0-e6e6d06-windows.zip`
+on one line. The command validates first, includes the actual GLB/previews/logs and
+writes a SHA256 sidecar. Existing artifact files are preserved.
 Do not infer production quality from automated pass/fail. Inspect the actual renders
 and state limitations in the PR. Never auto-merge.
