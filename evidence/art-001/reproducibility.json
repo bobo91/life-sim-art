@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "modelSHA256": "8a540b1482b59a83a49187744e3a4da3d84348f291b9a9c5dfd439620e0c3642",
+  "byteIdentical": [
+    "model",
+    "front",
+    "isometric"
+  ]
+}

@@ -1,0 +1,52 @@
+name: Procedural art pipeline
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-and-render:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      BLENDER_VERSION: 4.5.14
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Standard-library unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Install official pinned Blender and verify archive checksum
+        shell: bash
+        run: |
+          curl --fail --location --retry 3 https://download.blender.org/release/Blender4.5/blender-4.5.14-linux-x64.tar.xz --output "$RUNNER_TEMP/blender.tar.xz"
+          printf '%s  %s\n' '9ba871ff2ecd36526b77432745980b7e6664ecd0c7ca11c48849073dcfe06da3' "$RUNNER_TEMP/blender.tar.xz" | sha256sum --check -
+          tar --extract --file "$RUNNER_TEMP/blender.tar.xz" --directory "$RUNNER_TEMP"
+          printf 'BLENDER_BIN=%s\n' "$RUNNER_TEMP/blender-4.5.14-linux-x64/blender" >> "$GITHUB_ENV"
+      - name: Audit actual tools
+        run: python -m art_pipeline audit
+      - name: Generate and independently validate first bundle
+        run: python -m art_pipeline build --config configs/streetlamp.json --output build/run-a
+      - name: Repeat in a fresh Blender process
+        run: python -m art_pipeline build --config configs/streetlamp.json --output build/run-b
+      - name: Require byte-identical model and renders
+        run: python -m art_pipeline compare build/run-a build/run-b
+      - name: Generate and verify a different seed and actual exported orientation
+        run: |
+          python -c "import json,pathlib; c=json.loads(pathlib.Path('configs/streetlamp.json').read_text()); c['seed']+=1; pathlib.Path('build/seed-variant.json').write_text(json.dumps(c))"
+          python -m art_pipeline build --config build/seed-variant.json --output build/run-seed
+          python scripts/verify_seed.py build/run-a build/run-seed
+      - name: Upload versioned generated assets, manifests, previews and logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: art-001-${{ github.sha }}
+          path: build/
+          if-no-files-found: warn
+          retention-days: 30

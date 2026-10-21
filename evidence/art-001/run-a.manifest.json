@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "1.0",
+  "requestId": "ART-001",
+  "assetId": "prop_streetlamp_pipeline_001",
+  "version": "0.1.0",
+  "category": "prop",
+  "seed": 1701,
+  "sourceCommit": "2f0e6b093d9efb2d88c208bac02646408cfeb410",
+  "sourceDigest": "2ecbf81878f0bd110d85d1688dc8d988a0c81d9989c8157f93a32952bde66aa8",
+  "sourceDirty": true,
+  "config": {
+    "schemaVersion": "1.0",
+    "requestId": "ART-001",
+    "assetId": "prop_streetlamp_pipeline_001",
+    "version": "0.1.0",
+    "category": "prop",
+    "generator": "streetlamp",
+    "seed": 1701,
+    "dimensionsMeters": [
+      0.64,
+      3.2,
+      0.64
+    ],
+    "maxTriangles": 2400,
+    "blenderVersion": "4.5.14",
+    "palette": {
+      "metal": {
+        "color": "#344A48",
+        "roughness": 0.64,
+        "metallic": 0.45
+      },
+      "edge": {
+        "color": "#70827A",
+        "roughness": 0.57,
+        "metallic": 0.35
+      },
+      "glass": {
+        "color": "#EFC88A",
+        "roughness": 0.32,
+        "metallic": 0.0
+      },
+      "fastener": {
+        "color": "#A9A08B",
+        "roughness": 0.48,
+        "metallic": 0.6
+      }
+    },
+    "preview": {
+      "resolution": 640,
+      "samples": 32
+    }
+  },
+  "configSHA256": "3addcd60b5fd48a31f6167b9291e32663d6a99a23fc647018e63e325f64223fb",
+  "units": "meters",
+  "axes": {
+    "sourceUp": "+Z",
+    "sourceForward": "-Y",
+    "exportUp": "+Y",
+    "exportForward": "+Z"
+  },
+  "pivot": "bottom-center",
+  "dimensionsMeters": [
+    0.64,
+    3.2,
+    0.64
+  ],
+  "maxTriangles": 2400,
+  "model": {
+    "file": "prop_streetlamp_pipeline_001.glb",
+    "sha256": "8a540b1482b59a83a49187744e3a4da3d84348f291b9a9c5dfd439620e0c3642",
+    "bytes": 30460
+  },
+  "geometry": {
+    "sha256": "8a540b1482b59a83a49187744e3a4da3d84348f291b9a9c5dfd439620e0c3642",
+    "bytes": 30460,
+    "triangles": 520,
+    "vertices": 992,
+    "meshInstances": 1,
+    "materials": [
+      "metal",
+      "edge",
+      "glass",
+      "fastener"
+    ],
+    "materialCount": 4,
+    "bounds": {
+      "min": [
+        -0.3199999928474426,
+        0.0,
+        -0.3199999928474426
+      ],
+      "max": [
+        0.3199999928474426,
+        3.200000047683716,
+        0.3199999928474426
+      ]
+    },
+    "dimensionsMeters": [
+      0.6399999856948853,
+      3.200000047683716,
+      0.6399999856948853
+    ],
+    "pivotErrorMeters": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "windingNormalsConsistent": true,
+    "coordinateSystem": {
+      "up": "+Y",
+      "forward": "+Z",
+      "units": "meters"
+    }
+  },
+  "materials": [
+    "metal",
+    "edge",
+    "glass",
+    "fastener"
+  ],
+  "previews": {
+    "front": {
+      "file": "front.png",
+      "sha256": "d8f19b3161bcca305c87a27a3f9e2d0b1d3441f105858588478a3fe1423fca1e",
+      "width": 640,
+      "height": 640
+    },
+    "isometric": {
+      "file": "isometric.png",
+      "sha256": "1b0c333fa12af298edb0254cf7be5a20810d376ad16786cf333e3cc01cd93d53",
+      "width": 640,
+      "height": 640
+    }
+  },
+  "provenance": {
+    "method": "procedural-blender-python",
+    "thirdPartyAssets": [],
+    "generator": "art_pipeline/blender_build.py",
+    "license": "original-project-content"
+  },
+  "tooling": {
+    "blender": "4.5.14",
+    "blenderBuildHash": "62c1db4208e8",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.11.15",
+    "engine": "CYCLES",
+    "device": "CPU"
+  },
+  "blenderMeshHealth": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "nonFiniteVertices": 0,
+    "duplicateFaces": 0,
+    "triangles": 520,
+    "vertices": 296,
+    "closedComponentsMayIntersect": true
+  },
+  "forwardProbe": {
+    "sourceAxis": "-Y",
+    "exportAxis": "+Z",
+    "feature": "service plate on front of shaft",
+    "servicePlateMinZMeters": 0.11469544470310211,
+    "servicePlateMaxZMeters": 0.15458698570728302,
+    "identityMeshOrigin": true
+  },
+  "command": "python -m art_pipeline build --blender <Blender-4.5.14> --config \"configs/streetlamp.json\" --output <new-directory>"
+}

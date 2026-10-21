@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "seedChangesGeometry": true,
+  "exportedForwardProbes": [
+    {
+      "sourceAxis": "-Y",
+      "exportAxis": "+Z",
+      "feature": "service plate on front of shaft",
+      "servicePlateMinZMeters": 0.11469544470310211,
+      "servicePlateMaxZMeters": 0.15458698570728302,
+      "identityMeshOrigin": true
+    },
+    {
+      "sourceAxis": "-Y",
+      "exportAxis": "+Z",
+      "feature": "service plate on front of shaft",
+      "servicePlateMinZMeters": 0.11469544470310211,
+      "servicePlateMaxZMeters": 0.1545877307653427,
+      "identityMeshOrigin": true
+    }
+  ]
+}
