@@ -1,0 +1,48 @@
+[
+  {
+    "command": [
+      "C:\\Users\\rcalm\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "exitCode": 0,
+    "output": "unit-tests.txt"
+  },
+  {
+    "command": [
+      "C:\\Users\\rcalm\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-m",
+      "art_pipeline",
+      "compare",
+      "build/run-a",
+      "build/run-b"
+    ],
+    "exitCode": 0,
+    "output": "reproducibility.json"
+  },
+  {
+    "command": [
+      "C:\\Users\\rcalm\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-m",
+      "art_pipeline",
+      "validate",
+      "build/run-b"
+    ],
+    "exitCode": 0,
+    "output": "validation.json"
+  },
+  {
+    "command": [
+      "C:\\Users\\rcalm\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "scripts/verify_seed.py",
+      "build/run-a",
+      "build/run-seed"
+    ],
+    "exitCode": 0,
+    "output": "seed-and-orientation.json"
+  }
+]
