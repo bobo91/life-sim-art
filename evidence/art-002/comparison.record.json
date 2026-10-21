@@ -1,0 +1,158 @@
+{
+  "controls": {
+    "blenderVersion": "4.5.14",
+    "category": "prop",
+    "dimensionsMeters": [
+      0.64,
+      3.2,
+      0.64
+    ],
+    "generator": "streetlamp",
+    "maxTriangles": 2400,
+    "preview": {
+      "resolution": 640,
+      "samples": 64
+    },
+    "requestId": "ART-002",
+    "schemaVersion": "1.0",
+    "seed": 1701,
+    "version": "0.1.0"
+  },
+  "geometrySHA256": "0c4435b5e914e12a2c9a293670dda4231b78981c9d764e511491dcc29bf2f26b",
+  "inputs": {
+    "baseConfig": {
+      "file": "configs/streetlamp.json",
+      "sha256": "6b85579598c4efdfe5255645411e68e5dcfa0be3e1bd386be6e508cc02fc2fde"
+    },
+    "benchmarkScript": {
+      "file": "scripts/render_benchmark.py",
+      "sha256": "26e5a4904c9b967c638b50cfd4f807b8992997aac8d8fbdda69c5f9a45f50ede"
+    },
+    "library": {
+      "file": "materials/library.json",
+      "sha256": "92f3ea197f31c59d36a48158824da63d58f7be1953795a6275357f8f86266b86"
+    }
+  },
+  "librarySHA256": "92f3ea197f31c59d36a48158824da63d58f7be1953795a6275357f8f86266b86",
+  "requestId": "ART-002",
+  "sameGeometry": true,
+  "schemaVersion": "1.0",
+  "sourceCommit": "ccf686667c21d4002eefd771e26c078e1141a15a",
+  "sourceDigest": "2ecbf81878f0bd110d85d1688dc8d988a0c81d9989c8157f93a32952bde66aa8",
+  "sourceDirty": false,
+  "status": "passed",
+  "tooling": {
+    "blender": "4.5.14",
+    "blenderBuildHash": "62c1db4208e8",
+    "device": "CPU",
+    "engine": "CYCLES",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.11.15"
+  },
+  "variants": {
+    "civic_sage": {
+      "assetId": "prop_streetlamp_benchmark_civic_sage",
+      "bounds": {
+        "max": [
+          0.3199999928474426,
+          3.200000047683716,
+          0.3199999928474426
+        ],
+        "min": [
+          -0.3199999928474426,
+          0.0,
+          -0.3199999928474426
+        ]
+      },
+      "bundle": "civic_sage",
+      "config": {
+        "canonicalSHA256": "1839ebc38a16a6214c574ddf478e40a84e342fe317a25a5b70896bf5b2c6db21",
+        "file": "configs/civic_sage.json",
+        "sha256": "ad02e52d17f3dd9c1c6535fb94ae9bbf3e2337be6112b2b59e1ecea4ca15c180"
+      },
+      "dimensionsMeters": [
+        0.6399999856948853,
+        3.200000047683716,
+        0.6399999856948853
+      ],
+      "geometrySHA256": "0c4435b5e914e12a2c9a293670dda4231b78981c9d764e511491dcc29bf2f26b",
+      "manifest": {
+        "file": "civic_sage/manifest.json",
+        "sha256": "ba705ff2ee474ad2cdcb78705870a2ae0363f01368afab6b1abbb7813723c3f7"
+      },
+      "model": {
+        "bytes": 30476,
+        "file": "civic_sage/prop_streetlamp_benchmark_civic_sage.glb",
+        "sha256": "066afb70d027a604ccd9ce1bb840bf9a272e8e7a4e337c1254f456417c06c212"
+      },
+      "previews": {
+        "front": {
+          "file": "civic_sage/front.png",
+          "height": 640,
+          "sha256": "c6433d812d8f87677f15b1d92834193323cc77482477cb0f340ea64cd6958db0",
+          "width": 640
+        },
+        "isometric": {
+          "file": "civic_sage/isometric.png",
+          "height": 640,
+          "sha256": "96aa120e6d79b29e25cc1ad8e306a596cd2b7a47d0f3f320f601515eb8fb852a",
+          "width": 640
+        }
+      },
+      "triangles": 520,
+      "vertices": 992
+    },
+    "harbor_slate": {
+      "assetId": "prop_streetlamp_benchmark_harbor_slate",
+      "bounds": {
+        "max": [
+          0.3199999928474426,
+          3.200000047683716,
+          0.3199999928474426
+        ],
+        "min": [
+          -0.3199999928474426,
+          0.0,
+          -0.3199999928474426
+        ]
+      },
+      "bundle": "harbor_slate",
+      "config": {
+        "canonicalSHA256": "596f40e052ef3818f5ced2017679d6b3c0ae47cbb1e7cb1e41d6be67eafccb97",
+        "file": "configs/harbor_slate.json",
+        "sha256": "c6491fb637b56f1459f94f9154036a2d92285b98aeceb9651396bdc8add013dd"
+      },
+      "dimensionsMeters": [
+        0.6399999856948853,
+        3.200000047683716,
+        0.6399999856948853
+      ],
+      "geometrySHA256": "0c4435b5e914e12a2c9a293670dda4231b78981c9d764e511491dcc29bf2f26b",
+      "manifest": {
+        "file": "harbor_slate/manifest.json",
+        "sha256": "535606cbc39045c9b24f2942a1728184fde37e4f57e0c89dc30f3019235f1529"
+      },
+      "model": {
+        "bytes": 30480,
+        "file": "harbor_slate/prop_streetlamp_benchmark_harbor_slate.glb",
+        "sha256": "8579b28c847bf4b684188901f58603549a7c8724165b5f216c1005900f7a3ba0"
+      },
+      "previews": {
+        "front": {
+          "file": "harbor_slate/front.png",
+          "height": 640,
+          "sha256": "afbad702a4a81147e8fc01a22408ae2cb75a86efea04a48c00226fd967c33fb5",
+          "width": 640
+        },
+        "isometric": {
+          "file": "harbor_slate/isometric.png",
+          "height": 640,
+          "sha256": "1096383141aab6cc69b4980803fa67ad66dd3c3cfff6440b87999922548ff294",
+          "width": 640
+        }
+      },
+      "triangles": 520,
+      "vertices": 992
+    }
+  }
+}

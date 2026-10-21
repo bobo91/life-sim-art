@@ -1,0 +1,118 @@
+{
+  "civic_sage": {
+    "assetId": "prop_streetlamp_benchmark_civic_sage",
+    "geometry": {
+      "sha256": "066afb70d027a604ccd9ce1bb840bf9a272e8e7a4e337c1254f456417c06c212",
+      "bytes": 30476,
+      "triangles": 520,
+      "vertices": 992,
+      "meshInstances": 1,
+      "materials": [
+        "metal",
+        "edge",
+        "glass",
+        "fastener"
+      ],
+      "materialCount": 4,
+      "bounds": {
+        "min": [
+          -0.3199999928474426,
+          0.0,
+          -0.3199999928474426
+        ],
+        "max": [
+          0.3199999928474426,
+          3.200000047683716,
+          0.3199999928474426
+        ]
+      },
+      "dimensionsMeters": [
+        0.6399999856948853,
+        3.200000047683716,
+        0.6399999856948853
+      ],
+      "pivotErrorMeters": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "windingNormalsConsistent": true,
+      "coordinateSystem": {
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      }
+    },
+    "previews": {
+      "front": {
+        "width": 640,
+        "height": 640,
+        "bytes": 417291
+      },
+      "isometric": {
+        "width": 640,
+        "height": 640,
+        "bytes": 551674
+      }
+    },
+    "valid": true
+  },
+  "harbor_slate": {
+    "assetId": "prop_streetlamp_benchmark_harbor_slate",
+    "geometry": {
+      "sha256": "8579b28c847bf4b684188901f58603549a7c8724165b5f216c1005900f7a3ba0",
+      "bytes": 30480,
+      "triangles": 520,
+      "vertices": 992,
+      "meshInstances": 1,
+      "materials": [
+        "metal",
+        "edge",
+        "glass",
+        "fastener"
+      ],
+      "materialCount": 4,
+      "bounds": {
+        "min": [
+          -0.3199999928474426,
+          0.0,
+          -0.3199999928474426
+        ],
+        "max": [
+          0.3199999928474426,
+          3.200000047683716,
+          0.3199999928474426
+        ]
+      },
+      "dimensionsMeters": [
+        0.6399999856948853,
+        3.200000047683716,
+        0.6399999856948853
+      ],
+      "pivotErrorMeters": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "windingNormalsConsistent": true,
+      "coordinateSystem": {
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      }
+    },
+    "previews": {
+      "front": {
+        "width": 640,
+        "height": 640,
+        "bytes": 418141
+      },
+      "isometric": {
+        "width": 640,
+        "height": 640,
+        "bytes": 552077
+      }
+    },
+    "valid": true
+  }
+}

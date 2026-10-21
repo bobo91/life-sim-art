@@ -1,0 +1,42 @@
+{
+  "assetId": "prop_streetlamp_benchmark_civic_sage",
+  "blenderVersion": "4.5.14",
+  "category": "prop",
+  "dimensionsMeters": [
+    0.64,
+    3.2,
+    0.64
+  ],
+  "generator": "streetlamp",
+  "maxTriangles": 2400,
+  "palette": {
+    "edge": {
+      "color": "#70827A",
+      "metallic": 0.35,
+      "roughness": 0.57
+    },
+    "fastener": {
+      "color": "#A9A08B",
+      "metallic": 0.6,
+      "roughness": 0.48
+    },
+    "glass": {
+      "color": "#EFC88A",
+      "metallic": 0.0,
+      "roughness": 0.32
+    },
+    "metal": {
+      "color": "#344A48",
+      "metallic": 0.45,
+      "roughness": 0.64
+    }
+  },
+  "preview": {
+    "resolution": 640,
+    "samples": 64
+  },
+  "requestId": "ART-002",
+  "schemaVersion": "1.0",
+  "seed": 1701,
+  "version": "0.1.0"
+}
