@@ -1,0 +1,85 @@
+{
+  "checkedAtUtc": "2026-10-24T13:39:54Z",
+  "checkedAtEuropeStockholm": "2026-10-24T15:39:54+02:00",
+  "scope": "Read-only public source/licensing/contact research. Only this new evidence file written. No message, purchase, cart creation, account change or mesh download.",
+  "exactProduct": {
+    "title": "Stylized Female Basemesh",
+    "publicProductId": "dB9BJ",
+    "marketplaceUrl": "https://www.artstation.com/marketplace/p/dB9BJ/stylized-female-basemesh",
+    "creatorStoreUrl": "https://valentinfischer.artstation.com/store/dB9BJ/stylized-female-basemesh",
+    "advertisedArchive": "StylisedFemaleBasemesh.rar",
+    "advertisedArchiveSizeMB": 480,
+    "advertisedContent": [
+      "ZTL 2021 with five subdivision levels and polygroups",
+      "lowest and highest subdivision OBJ without hair",
+      "three body types"
+    ],
+    "variantOffers": [
+      {
+        "variantName": "Standard License",
+        "displayedPriceUSD": "8.00",
+        "advertisedCommercialScope": "one commercial work, up to 2000 sales or 20000 views on product card"
+      },
+      {
+        "variantName": "Extended Commercial License",
+        "displayedPriceUSD": "60.00",
+        "advertisedCommercialScope": "unlimited commercial works with no sales or views cap"
+      }
+    ],
+    "checkedSourceFreshness": "Pages revisited at checked time; web tool identifies marketplace crawl four days old and creator store yesterday. Checkout was not inspected; these are current publicly returned advertised offers, not a binding quote.",
+    "upgradeCredit": "not established; no credit assumed",
+    "checkoutTaxAndTotal": {
+      "status": "NOT VERIFIED",
+      "reason": "Official buyer FAQ says taxes are added after billing address is entered at checkout. No billing address, VAT status or cart was entered/changed in this check.",
+      "standardFinalTotalUSD": null,
+      "extendedFinalTotalUSD": null,
+      "taxAmountUSD": null,
+      "taxRate": null,
+      "convertedSEKTotal": null,
+      "source": "https://help.artstation.com/en/articles/16155217-general-faq-for-buyers"
+    }
+  },
+  "sellerIdentity": {
+    "accountUsername": "valentinfischer",
+    "marketplaceDisplayName": "wysp",
+    "linkedOfficialPortfolioName": "Valentin Fischer",
+    "portfolioUrl": "https://valentinfischer.artstation.com/",
+    "communityProfileUrl": "https://www.artstation.com/valentinfischer",
+    "associationEvidence": "The exact product creator link resolves to the valentinfischer account/store; its official portfolio page title/header says Valentin Fischer. Different display names do not establish a different seller.",
+    "legalPayeeOrBusinessIdentity": "not independently verified; Seller Information endpoint was unavailable through web fetch",
+    "verifiedPublicEmail": null,
+    "officialContactRoute": {
+      "method": "ArtStation community profile Message button, if enabled",
+      "requires": "signed-in ArtStation account",
+      "actualButtonAvailability": "not established from text-only profile response; root must inspect UI",
+      "source": "https://help.artstation.com/en/articles/16155249-how-do-i-contact-an-artist"
+    },
+    "noMessageSent": true
+  },
+  "licensing": {
+    "productEula": "https://www.artstation.com/marketplace-product-eula",
+    "tos": "https://www.artstation.com/tos",
+    "stockAssetScope": "The product offers Standard and Extended commercial stock asset licenses; derivative use in a game is indicated subject to the selected scope. This does not independently settle NoAI or specific cloud processing permission.",
+    "noAiStatus": "UNRESOLVED for exact product: no explicit status in opened text; no inference that an absent text label means opt-out.",
+    "criticalDistinction": "Generic script authorship without asset input differs from sending actual mesh data or model renders to cloud Codex for visual inspection, reasoning and creation of deformation code. Seller permission must identify the latter expressly.",
+    "questionsForSeller": [
+      "Confirm ownership/authority and exact asset dB9BJ coverage, including all supplied component meshes and materials if any.",
+      "Confirm explicit permission for actual asset meshes and derived renders to be supplied to OpenAI cloud Codex for inspection and iterative Blender Python-assisted modification/render evaluation, notwithstanding any NoAI designation. This is not merely permission to write generic code.",
+      "Confirm permission to derive one Ava-neutral and later approximately 20-50 unique NPC for a commercial Unity game; distinguish Standard sales cap from Extended unlimited scope and any per-character charges.",
+      "Confirm private source storage and controlled cloud processing, with raw source/derivative mesh packages kept out of public repositories and no standalone asset resale.",
+      "Confirm whether Standard USD8 is sufficient for the bounded head-only evaluation and what additional license/price, if any, would be needed for production/NPC reuse. Do not assume upgrade credit."
+    ],
+    "permissionState": "Requested by owner to contact seller; no seller reply or special permission exists in this research record."
+  },
+  "primarySources": [
+    "https://www.artstation.com/marketplace/p/dB9BJ/stylized-female-basemesh",
+    "https://valentinfischer.artstation.com/store/dB9BJ/stylized-female-basemesh",
+    "https://valentinfischer.artstation.com/",
+    "https://www.artstation.com/valentinfischer",
+    "https://help.artstation.com/en/articles/16155249-how-do-i-contact-an-artist",
+    "https://help.artstation.com/en/articles/16155217-general-faq-for-buyers",
+    "https://help.artstation.com/en/articles/16155067-why-was-i-billed-more-than-the-listed-price",
+    "https://www.artstation.com/marketplace-product-eula",
+    "https://www.artstation.com/tos"
+  ]
+}
