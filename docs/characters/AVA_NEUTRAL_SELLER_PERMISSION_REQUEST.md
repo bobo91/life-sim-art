@@ -4,6 +4,8 @@ Prepared 2026-10-24. Intended recipient: Valentin Fischer / wysp, official
 ArtStation account [valentinfischer](https://www.artstation.com/valentinfischer).
 This is a pre-purchase inquiry, not an order or acceptance of a paid license.
 No reply or special permission has been received. No reference or mesh is attached.
+The owner subsequently instructed: **do not send any email**. This remains a
+review draft; it does not authorize an email or claim any seller contact.
 
 **Subject:** Pre-purchase permission check: Stylized Female Basemesh dB9BJ, Codex/Blender workflow
 
