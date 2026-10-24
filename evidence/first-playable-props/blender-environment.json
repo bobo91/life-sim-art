@@ -1,0 +1,21 @@
+{
+  "schema": "ava-neutral-environment-probe-1",
+  "utc": "2026-10-24T13:56:59.885356+00:00",
+  "python_version": "3.11.15 (main, Aug 12 2026, 16:53:25) [MSC v.1929 64 bit (AMD64)]",
+  "module_presence_in_this_interpreter_only": {
+    "torch": false,
+    "transformers": false,
+    "diffusers": false,
+    "PIL": false,
+    "numpy": true
+  },
+  "new_meshes_renders_exports_or_ai_generations": 0,
+  "blender": {
+    "version": "4.5.14 LTS",
+    "background": true,
+    "online_access": false,
+    "gpu_compute_tested": false,
+    "render_tested_this_probe": false
+  },
+  "publicationRedactions": "Local executable/workspace/home paths and host hardware/OS metadata removed; technical measurements and hashes retained."
+}

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "first-playable-props-geometry-replay-1",
+  "startedUTC": "2026-10-24T14:39:35.873739+00:00",
+  "scope": "One geometry-only replay after the frozen flag correction; no new asset version or rendering.",
+  "hostCommand": [
+    "<HOST_PYTHON>",
+    "<ART_REPO>\\scripts\\verify_first_playable_props.py",
+    "--blender",
+    "<BLENDER_4.5.14>",
+    "--reference",
+    "build/first-playable-props/run-004",
+    "--output",
+    "build/first-playable-props/replay-002",
+    "--report",
+    "build/first-playable-props/geometry-replay-002.json"
+  ],
+  "blenderCommand": [
+    "<BLENDER_4.5.14>",
+    "--background",
+    "--factory-startup",
+    "--offline-mode",
+    "--disable-autoexec",
+    "--threads",
+    "4",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "<ART_REPO>\\scripts\\verify_first_playable_props.py",
+    "--",
+    "--worker",
+    "--reference",
+    "<ART_REPO>\\build\\first-playable-props\\run-004",
+    "--output",
+    "<ART_REPO>\\build\\first-playable-props\\replay-002"
+  ],
+  "cwd": "<ART_REPO>",
+  "environment": {
+    "BLENDER_USER_RESOURCES": "<ART_REPO>\\build\\first-playable-props\\replay-002-isolated-profile",
+    "PYTHONHASHSEED": "0"
+  },
+  "verificationScriptSHA256": "b243603bd3146da252536624350dc5d987a7b33cd81c9eae75e15ac86ef80680",
+  "inputs": {
+    "prop_mailbox_001": {
+      "manifestPath": "build\\first-playable-props\\run-004\\prop_mailbox_001\\manifest.json",
+      "manifestSHA256": "694a5969a8305c6ac93ac4b37b90bd1fa3c7150db2c887b20e593fc45ecf82d2",
+      "sourceFilesSHA256": {
+        "scripts/build_first_playable_props.py": "6f762c89dc039198453f7346b57808e985a6602bb8b7fffbb9abb9503d342c5e",
+        "scripts/run_first_playable_props.py": "9e50733f7d64f1bd308dfbfb25b0299a87b0386f083b271dd61ad9cd6744afd5",
+        "scripts/props_mailbox.py": "b76d773d1cdd9e5d0470d9a5f0d2784b5be92ef608e0a55f20873521f272f63c",
+        "scripts/props_cafe_table.py": "159a0e3bb788c133f20f86a3bb4bfb51bed659500cae89e2d5c6ef0fc5f7df3f",
+        "art_pipeline/blender_build.py": "1602b3acbb5ba96e956cfb23e605e49b351cb803b0aa3f2ee4aed226fa4511eb",
+        "art_pipeline/validation.py": "516335248f5cdf7f3430da86045c8902342395a458ec52dc6132129086b67e55",
+        "art_pipeline/config.py": "3faa2389bdbb4e377bc2e9154526274bcd4360a837ea94912116526e066b78a9",
+        "art_pipeline/cli.py": "ad9ac05777328ed59879fc83ab064700632a3012b55f543fc5b6d4fe4c2bed46",
+        "art_pipeline/benchmark_checks.py": "94a9a56e0811755350f5a85646a98c3746b9eeebbf2023822ea32b5280f04ce8"
+      },
+      "sourceDigest": "b596228bb5fc8a7edbbe4b7f87c9fc31edc8618c3c11a8346126234eaf7fb3e8",
+      "configPath": "configs\\prop_mailbox_001.json",
+      "configSHA256": "3f2ba255a195e4271c2d775f66eaa10c34179927d3e9018f89e1afc451d52af7",
+      "referenceGlbPath": "build\\first-playable-props\\run-004\\prop_mailbox_001\\prop_mailbox_001.glb",
+      "referenceGlbSHA256": "b243a55a5d92da3cd3a51c3957d0b1e1f1b9737ad8f6ed988121bae69e654698"
+    },
+    "prop_cafe_table_001": {
+      "manifestPath": "build\\first-playable-props\\run-004\\prop_cafe_table_001\\manifest.json",
+      "manifestSHA256": "36f6c078ce32fd55aac2c7ff6cdc57b9c1ad424f376bdbbd71025520f2954133",
+      "sourceFilesSHA256": {
+        "scripts/build_first_playable_props.py": "6f762c89dc039198453f7346b57808e985a6602bb8b7fffbb9abb9503d342c5e",
+        "scripts/run_first_playable_props.py": "9e50733f7d64f1bd308dfbfb25b0299a87b0386f083b271dd61ad9cd6744afd5",
+        "scripts/props_mailbox.py": "b76d773d1cdd9e5d0470d9a5f0d2784b5be92ef608e0a55f20873521f272f63c",
+        "scripts/props_cafe_table.py": "159a0e3bb788c133f20f86a3bb4bfb51bed659500cae89e2d5c6ef0fc5f7df3f",
+        "art_pipeline/blender_build.py": "1602b3acbb5ba96e956cfb23e605e49b351cb803b0aa3f2ee4aed226fa4511eb",
+        "art_pipeline/validation.py": "516335248f5cdf7f3430da86045c8902342395a458ec52dc6132129086b67e55",
+        "art_pipeline/config.py": "3faa2389bdbb4e377bc2e9154526274bcd4360a837ea94912116526e066b78a9",
+        "art_pipeline/cli.py": "ad9ac05777328ed59879fc83ab064700632a3012b55f543fc5b6d4fe4c2bed46",
+        "art_pipeline/benchmark_checks.py": "94a9a56e0811755350f5a85646a98c3746b9eeebbf2023822ea32b5280f04ce8"
+      },
+      "sourceDigest": "b596228bb5fc8a7edbbe4b7f87c9fc31edc8618c3c11a8346126234eaf7fb3e8",
+      "configPath": "configs\\prop_cafe_table_001.json",
+      "configSHA256": "f453d418f0994bb6e1fc2cb8b0d8534e9f0a68bd869beaa297443dade0d009b4",
+      "referenceGlbPath": "build\\first-playable-props\\run-004\\prop_cafe_table_001\\prop_cafe_table_001.glb",
+      "referenceGlbSHA256": "6e122d9a172952fe237e9b24fe9c94b4eff70151e346f3ead95803a86a71ee54"
+    }
+  },
+  "launcherLogPath": "build\\first-playable-props\\replay-002-launcher.log",
+  "limitations": [
+    "Tests exact GLB bytes on this pinned Blender/OS only; does not claim cross-platform determinism.",
+    "No preview replay, new save/reopen, Unity test or exhaustive intersection test.",
+    "Verification script is additional evidence tooling, not an alteration of the frozen production SOURCES."
+  ],
+  "exitCode": 0,
+  "elapsedSeconds": 0.568,
+  "launcherLogSHA256": "fbd1108c1442644d4c129874aab92c30208e7045f1c849d50a32a4ec0d4d43c8",
+  "result": {
+    "blender": "4.5.14 LTS",
+    "blenderBuildHash": "62c1db4208e8",
+    "python": "3.11.15 (main, Aug 12 2026, 16:53:25) [MSC v.1929 64 bit (AMD64)]",
+    "background": true,
+    "onlineAccess": false,
+    "inputsUnchanged": true,
+    "assets": {
+      "prop_mailbox_001": {
+        "replayGlbPath": "build\\first-playable-props\\replay-002\\prop_mailbox_001.glb",
+        "bytes": 142356,
+        "sha256": "b243a55a5d92da3cd3a51c3957d0b1e1f1b9737ad8f6ed988121bae69e654698",
+        "referenceSHA256": "b243a55a5d92da3cd3a51c3957d0b1e1f1b9737ad8f6ed988121bae69e654698",
+        "byteIdentical": true,
+        "health": {
+          "triangles": 2324,
+          "vertices": 1212,
+          "nonManifoldEdges": 0,
+          "looseVertices": 0,
+          "degenerateFaces": 0,
+          "duplicateFaces": 0,
+          "nonFiniteVertices": 0,
+          "signedVolumeCubicMetersSum": 0.09230314463816104,
+          "closedConstructionComponents": 25,
+          "limitations": [
+            "Closed construction components intentionally meet/overlap at attachments; no exhaustive solid-intersection proof.",
+            "No collider or runtime interaction is included."
+          ]
+        }
+      },
+      "prop_cafe_table_001": {
+        "replayGlbPath": "build\\first-playable-props\\replay-002\\prop_cafe_table_001.glb",
+        "bytes": 48468,
+        "sha256": "6e122d9a172952fe237e9b24fe9c94b4eff70151e346f3ead95803a86a71ee54",
+        "referenceSHA256": "6e122d9a172952fe237e9b24fe9c94b4eff70151e346f3ead95803a86a71ee54",
+        "byteIdentical": true,
+        "health": {
+          "triangles": 856,
+          "vertices": 452,
+          "nonManifoldEdges": 0,
+          "looseVertices": 0,
+          "degenerateFaces": 0,
+          "duplicateFaces": 0,
+          "nonFiniteVertices": 0,
+          "signedVolumeCubicMetersSum": 0.035100423858736005,
+          "closedConstructionComponents": 12,
+          "limitations": [
+            "Closed construction components intentionally meet/overlap at attachments; no exhaustive solid-intersection proof.",
+            "No collider or runtime interaction is included."
+          ]
+        }
+      }
+    }
+  },
+  "sourceAndReferenceUnchangedAfterRun": true,
+  "status": "passed",
+  "publicationRedactions": "Local executable/workspace/home paths and host hardware/OS metadata removed; technical measurements and hashes retained."
+}

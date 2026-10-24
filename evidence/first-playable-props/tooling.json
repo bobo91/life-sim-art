@@ -1,0 +1,168 @@
+{
+  "blender": "4.5.14 LTS",
+  "buildHash": "62c1db4208e8",
+  "python": "3.11.15 (main, Aug 12 2026, 16:53:25) [MSC v.1929 64 bit (AMD64)]",
+  "renderer": "Cycles CPU",
+  "renderThreads": 4,
+  "thirdPartyMeshesTexturesHdri": [],
+  "reports": {
+    "prop_mailbox_001": {
+      "triangles": 2324,
+      "vertices": 1212,
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "duplicateFaces": 0,
+      "nonFiniteVertices": 0,
+      "signedVolumeCubicMetersSum": 0.09230314463816104,
+      "closedConstructionComponents": 25,
+      "limitations": [
+        "Closed construction components intentionally meet/overlap at attachments; no exhaustive solid-intersection proof.",
+        "No collider or runtime interaction is included."
+      ],
+      "sourceDimensionsBlenderXYZ": [
+        0.36000001430511475,
+        0.6200000047683716,
+        1.4299999475479126
+      ],
+      "materials": [
+        "prop_mailbox_001__paint",
+        "prop_mailbox_001__edge",
+        "prop_mailbox_001__wood",
+        "prop_mailbox_001__accent"
+      ],
+      "customProperties": {
+        "sourceAxisUp": "+Z",
+        "sourceAxisForward": "-Y",
+        "forwardProbe": "Front tunnel-profile pale door, latch and geometric 17 face Blender -Y",
+        "forwardProbeSourcePoint": "<bpy id property array [3]>",
+        "forwardProbeSourceVertexIndex": "512",
+        "provenance": "Original procedural vertices/faces/materials; no imported mesh, font or texture",
+        "seed": "2401",
+        "constructionParts": "[{\"name\":\"prop_mailbox_001__stone_foot\",\"vertexStart\":0,\"vertices\":56,\"polygons\":54},{\"name\":\"prop_mailbox_001__stone_post_collar\",\"vertexStart\":56,\"vertices\":24,\"polygons\":26},{\"name\":\"prop_mailbox_001__tapered_timber_post\",\"vertexStart\":80,\"vertices\":56,\"polygons\":54},{\"name\":\"prop_mailbox_001__timber_saddle\",\"vertexStart\":136,\"vertices\":56,\"polygons\":54},{\"name\":\"prop_mailbox_001__timber_front_brace\",\"vertexStart\":192,\"vertices\":24,\"polygons\":26},{\"name\":\"prop_mailbox_001__painted_mount_plate\",\"vertexStart\":216,\"vertices\":24,\"polygons\":26},{\"name\":\"prop_mailbox_001__rounded_tunnel_shell\",\"vertexStart\":240,\"vertices\":118,\"polygons\":103},{\"name\":\"prop_mailbox_001__front_door_seal\",\"vertexStart\":358,\"vertices\":118,\"polygons\":103},{\"name\":\"prop_mailbox_001__front_door\",\"vertexStart\":476,\"vertices\":118,\"polygons\":103},{\"name\":\"prop_mailbox_001__lower_hinge_barrel\",\"vertexStart\":594,\"vertices\":60,\"polygons\":62},{\"name\":\"prop_mailbox_001__front_latch\",\"vertexStart\":654,\"vertices\":24,\"polygons\":26},{\"name\":\"prop_mailbox_001__latch_grip\",\"vertexStart\":678,\"vertices\":24,\"polygons\":26},{\"name\":\"prop_mailbox_001__hinge_knuckle_0\",\"vertexStart\":702,\"vertices\":60,\"polygons\":62},{\"name\":\"prop_mailbox_001__hinge_knuckle_1\",\"vertexStart\":762,\"vertices\":60,\"polygons\":62},{\"name\":\"prop_mailbox_001__timber_bolt_0\",\"vertexStart\":822,\"vertices\":48,\"polygons\":50},{\"name\":\"prop_mailbox_001__timber_bolt_1\",\"vertexStart\":870,\"vertices\":48,\"polygons\":50},{\"name\":\"prop_mailbox_001__flag_pivot\",\"vertexStart\":918,\"vertices\":72,\"polygons\":74},{\"name\":\"prop_mailbox_001__flag_pivot_cap\",\"vertexStart\":990,\"vertices\":48,\"polygons\":50},{\"name\":\"prop_mailbox_001__raised_flag_stem\",\"vertexStart\":1038,\"vertices\":24,\"polygons\":26},{\"name\":\"prop_mailbox_001__flag_paddle\",\"vertexStart\":1062,\"vertices\":30,\"polygons\":32},{\"name\":\"prop_mailbox_001__address_stroke_0\",\"vertexStart\":1092,\"vertices\":24,\"polygons\":26},{\"name\":\"prop_mailbox_001__address_stroke_1\",\"vertexStart\":1116,\"vertices\":24,\"polygons\":26},{\"name\":\"prop_mailbox_001__address_stroke_2\",\"vertexStart\":1140,\"vertices\":24,\"polygons\":26},{\"name\":\"prop_mailbox_001__address_stroke_3\",\"vertexStart\":1164,\"vertices\":24,\"polygons\":26},{\"name\":\"prop_mailbox_001__address_stroke_4\",\"vertexStart\":1188,\"vertices\":24,\"polygons\":26}]",
+        "geometryNotes": "Individually closed parts intentionally overlap at construction attachments; static closed mailbox, no opening animation or collider"
+      },
+      "forwardProbeSourcePoint": [
+        -2.9103830456733704e-11,
+        -0.2889999747276306,
+        1.4020848274230957
+      ],
+      "previewCameras": {
+        "front": {
+          "orthoScale": 1.687399983406067,
+          "location": [
+            0.0,
+            -3.0,
+            0.7149994969367981
+          ],
+          "framing": {
+            "xywhPixelsBottomLeft": [
+              302.08,
+              58.58,
+              163.85,
+              650.85
+            ],
+            "insideFrame": true
+          }
+        },
+        "isometric": {
+          "orthoScale": 1.6674693822860718,
+          "location": [
+            2.298304796218872,
+            -2.281172513961792,
+            3.006922483444214
+          ],
+          "framing": {
+            "xywhPixelsBottomLeft": [
+              237.05,
+              58.58,
+              293.91,
+              650.85
+            ],
+            "insideFrame": true
+          }
+        }
+      },
+      "saveReopenExactGeometry": true,
+      "glbRoundtripExactPositions5DecimalsAndTriangles": true,
+      "glbImportedMeshCount": 1,
+      "positionSignatureSHA256": "53bcc7cb8b1a357bfe8752da4362ff9da9d933a55e24bb6982db307fae8410a6"
+    },
+    "prop_cafe_table_001": {
+      "triangles": 856,
+      "vertices": 452,
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "duplicateFaces": 0,
+      "nonFiniteVertices": 0,
+      "signedVolumeCubicMetersSum": 0.035100423858736005,
+      "closedConstructionComponents": 12,
+      "limitations": [
+        "Closed construction components intentionally meet/overlap at attachments; no exhaustive solid-intersection proof.",
+        "No collider or runtime interaction is included."
+      ],
+      "sourceDimensionsBlenderXYZ": [
+        0.7799999713897705,
+        0.7799999713897705,
+        0.7400000095367432
+      ],
+      "materials": [
+        "prop_cafe_table_001__wood",
+        "prop_cafe_table_001__woodVariation",
+        "prop_cafe_table_001__woodEdge",
+        "prop_cafe_table_001__metal"
+      ],
+      "customProperties": {
+        "assetId": "prop_cafe_table_001",
+        "generator": "scripts/props_cafe_table.py:build_cafe_table",
+        "seed": "5501",
+        "provenance": "Original procedural vertices/materials; no external content",
+        "constructionParts": "[\"timber_plank_1\", \"timber_plank_2\", \"timber_plank_3\", \"timber_plank_4\", \"central_hub\", \"tapered_pedestal\", \"upper_collar\", \"underside_mounting_plate\", \"cast_foot_45\", \"cast_foot_135\", \"cast_foot_225\", \"cast_foot_315\"]",
+        "constructionNotes": "Four closed bevelled planks with real narrow joins; closed cast-metal assembly components intentionally overlap at structural joints.",
+        "sourceAxes": "Blender Z-up / -Y-forward; symmetric table has no unique visual front"
+      },
+      "previewCameras": {
+        "front": {
+          "orthoScale": 0.9203999638557434,
+          "location": [
+            0.0,
+            -3.0,
+            0.3699995279312134
+          ],
+          "framing": {
+            "xywhPixelsBottomLeft": [
+              48.81,
+              62.72,
+              542.37,
+              514.56
+            ],
+            "insideFrame": true
+          }
+        },
+        "isometric": {
+          "orthoScale": 1.2516400814056396,
+          "location": [
+            2.2672362327575684,
+            -2.2672369480133057,
+            2.720726728439331
+          ],
+          "framing": {
+            "xywhPixelsBottomLeft": [
+              53.86,
+              48.81,
+              532.27,
+              542.37
+            ],
+            "insideFrame": true
+          }
+        }
+      },
+      "saveReopenExactGeometry": true,
+      "glbRoundtripExactPositions5DecimalsAndTriangles": true,
+      "glbImportedMeshCount": 1,
+      "positionSignatureSHA256": "0368bcbaf96467f2244fbdacab29274d8bba5983f36987eb4e4cf26ab6ada567"
+    }
+  },
+  "publicationRedactions": "Local executable/workspace/home paths and host hardware/OS metadata removed; technical measurements and hashes retained."
+}
