@@ -40,8 +40,10 @@ the current session has no connected browser/email; the browser inventory is
 empty and opening the in-app browser reports unavailable. Therefore:
 
 **The inquiry has NOT been sent. No seller response, special license or
-permission is claimed.** The owner has been asked to connect a signed-in
-contact channel. A [complete request](AVA_NEUTRAL_SELLER_PERMISSION_REQUEST.md)
+permission is claimed.** The owner subsequently instructed not to send any
+email; no email will be sent. The earlier request for an email connection no
+longer applies. Contact and permission remain unresolved. A
+[complete review draft](AVA_NEUTRAL_SELLER_PERMISSION_REQUEST.md)
 is ready; it identifies the exact asset, cloud Codex inputs, commercial game,
 future 20–50 derived NPC, license tier, restrictions and any additional charge.
 It makes no purchase commitment and attaches no reference or mesh.
