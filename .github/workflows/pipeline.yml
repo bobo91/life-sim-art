@@ -31,6 +31,21 @@ jobs:
           printf 'BLENDER_BIN=%s\n' "$RUNNER_TEMP/blender-4.5.14-linux-x64/blender" >> "$GITHUB_ENV"
       - name: Audit actual tools
         run: python -m art_pipeline audit
+      - name: Reproduce First Playable prop quality proofs
+        if: github.event_name == 'pull_request' && hashFiles('configs/prop_mailbox_001.json') != ''
+        run: |
+          python scripts/run_first_playable_props.py --blender "$BLENDER_BIN" --output build/first-playable-props/ci-review
+          python scripts/sanitize_first_playable_evidence.py --blender "$BLENDER_BIN" --directory build/first-playable-props/ci-review
+          python scripts/package_first_playable_props.py --input build/first-playable-props/ci-review --output build/artifacts/first-playable-props-v0.1.0-review.2.zip
+      - name: Upload versioned First Playable review artifact
+        if: success() && github.event_name == 'pull_request' && hashFiles('configs/prop_mailbox_001.json') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: first-playable-props-v0.1.0-review.2-${{ github.sha }}-${{ github.run_attempt }}
+          path: build/artifacts/first-playable-props-v0.1.0-review.2.zip*
+          if-no-files-found: error
+          retention-days: 30
+          compression-level: 0
       - name: Generate and independently validate first bundle
         run: python -m art_pipeline build --config configs/streetlamp.json --output build/run-a
       - name: Repeat in a fresh Blender process

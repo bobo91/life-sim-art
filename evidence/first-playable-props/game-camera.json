@@ -1,0 +1,154 @@
+{
+  "scope": "Actual Blender renders with game camera reconstructed from pinned game code; neutral preview scene, not a Unity screenshot or final game lighting.",
+  "previewGridMeters": 0.5,
+  "views": [
+    {
+      "file": "game_distance_6m.png",
+      "distanceMeters": 6.0,
+      "verticalFovDegrees": 40,
+      "unityYawDegrees": 180,
+      "pitchDegrees": 50,
+      "focusHeightMeters": 1,
+      "resolution": [
+        1280,
+        720
+      ],
+      "blenderLocation": [
+        -4.723126652899311e-16,
+        -3.8567256927490234,
+        5.596266746520996
+      ],
+      "assets": {
+        "prop_mailbox_001": {
+          "xywhPixelsBottomLeft": [
+            374.46,
+            249.73,
+            96.9,
+            194.28
+          ],
+          "insideFrame": true
+        },
+        "prop_cafe_table_001": {
+          "xywhPixelsBottomLeft": [
+            772.23,
+            240.14,
+            138.17,
+            139.34
+          ],
+          "insideFrame": true
+        }
+      }
+    },
+    {
+      "file": "game_distance_16m.png",
+      "distanceMeters": 16.0,
+      "verticalFovDegrees": 40,
+      "unityYawDegrees": 180,
+      "pitchDegrees": 50,
+      "focusHeightMeters": 1,
+      "resolution": [
+        1280,
+        720
+      ],
+      "blenderLocation": [
+        -1.2595005113592286e-15,
+        -10.284602165222168,
+        13.25671100616455
+      ],
+      "assets": {
+        "prop_mailbox_001": {
+          "xywhPixelsBottomLeft": [
+            544.49,
+            315.86,
+            26.88,
+            75.27
+          ],
+          "insideFrame": true
+        },
+        "prop_cafe_table_001": {
+          "xywhPixelsBottomLeft": [
+            691.76,
+            312.28,
+            49.6,
+            55.36
+          ],
+          "insideFrame": true
+        }
+      }
+    },
+    {
+      "file": "game_distance_30m.png",
+      "distanceMeters": 30.0,
+      "verticalFovDegrees": 40,
+      "unityYawDegrees": 180,
+      "pitchDegrees": 50,
+      "focusHeightMeters": 1,
+      "resolution": [
+        1280,
+        720
+      ],
+      "blenderLocation": [
+        -2.361563432328774e-15,
+        -19.283628463745117,
+        23.981332778930664
+      ],
+      "assets": {
+        "prop_mailbox_001": {
+          "xywhPixelsBottomLeft": [
+            589.61,
+            336.0,
+            12.9,
+            40.54
+          ],
+          "insideFrame": true
+        },
+        "prop_cafe_table_001": {
+          "xywhPixelsBottomLeft": [
+            667.95,
+            334.1,
+            26.12,
+            30.03
+          ],
+          "insideFrame": true
+        }
+      }
+    },
+    {
+      "file": "game_distance_16m_yaw225.png",
+      "distanceMeters": 16.0,
+      "verticalFovDegrees": 40,
+      "unityYawDegrees": 225,
+      "pitchDegrees": 50,
+      "focusHeightMeters": 1,
+      "resolution": [
+        1280,
+        720
+      ],
+      "blenderLocation": [
+        7.272311687469482,
+        -7.272311687469482,
+        13.25671100616455
+      ],
+      "assets": {
+        "prop_mailbox_001": {
+          "xywhPixelsBottomLeft": [
+            563.69,
+            355.72,
+            39.2,
+            75.76
+          ],
+          "insideFrame": true
+        },
+        "prop_cafe_table_001": {
+          "xywhPixelsBottomLeft": [
+            662.95,
+            265.06,
+            65.88,
+            67.07
+          ],
+          "insideFrame": true
+        }
+      }
+    }
+  ]
+}

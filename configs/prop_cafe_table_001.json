@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.0",
+  "requestId": "ART-003",
+  "assetId": "prop_cafe_table_001",
+  "version": "0.1.0",
+  "category": "prop",
+  "generator": "cafe_table",
+  "seed": 5501,
+  "dimensionsMeters": [0.78, 0.74, 0.78],
+  "maxTriangles": 2400,
+  "blenderVersion": "4.5.14",
+  "geometry": {
+    "topThicknessMeters": 0.045,
+    "cornerRadiusMeters": 0.075,
+    "edgeBevelMeters": 0.007,
+    "cornerSegments": 6,
+    "plankCount": 4,
+    "plankGapMeters": 0.0014,
+    "footSpanMeters": 0.58
+  },
+  "palette": {
+    "wood": {"color": "#A57C58", "roughness": 0.74, "metallic": 0.0},
+    "woodVariation": {"color": "#AE8662", "roughness": 0.76, "metallic": 0.0},
+    "woodEdge": {"color": "#8B634B", "roughness": 0.81, "metallic": 0.0},
+    "metal": {"color": "#344A48", "roughness": 0.64, "metallic": 0.45}
+  },
+  "preview": {"resolution": 640, "samples": 64},
+  "authoringNotes": {
+    "dimensionsStatus": "Proposal, not canonical gameplay collision or seating dimensions",
+    "design": "Warm rounded-square two-seat table with a restrained four-foot cast-metal pedestal",
+    "materials": "Four core opaque metallic/roughness roles; no textures or normal maps",
+    "scope": "Static original prop only; no collision, seating anchors, LODs or runtime state implemented"
+  }
+}

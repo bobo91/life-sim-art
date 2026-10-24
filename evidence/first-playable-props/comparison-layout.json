@@ -1,0 +1,135 @@
+{
+  "scope": "Actual Blender renders; layout/crops only, no repainting or AI enhancement.",
+  "inputs": {
+    "build\\first-playable-props\\run-004\\prop_mailbox_001\\front.png": "1053b26f487766445a4eeed9f7ac492426208cb77bb0d9ac6fd380d4477d65f5",
+    "build\\first-playable-props\\run-004\\prop_mailbox_001\\isometric.png": "5568db8574a22fa7e457162f0771678cc624edd57877335f11cab4bce73dffc9",
+    "build\\first-playable-props\\run-004\\prop_cafe_table_001\\front.png": "a0f7839672cb7eef597e929f4ddf312f1c040fd8d9b994c3e9018d3e22b5eea1",
+    "build\\first-playable-props\\run-004\\prop_cafe_table_001\\isometric.png": "05fcdedfb4234819841cba0e823c01989ab73adc3943d66f5f97bfe2c7688483",
+    "build\\first-playable-props\\run-004\\game_distance_6m.png": "a9a91603cabd2c497fbddc389444a9e7ee4ac6d4ae8812b3bfdf2626783e0d42",
+    "build\\first-playable-props\\run-004\\game_distance_16m.png": "1c526f67641f6500e8e8863ef48dbe1fdb12ea74a600e708d7643eac25ed1c6a",
+    "build\\first-playable-props\\run-004\\game_distance_30m.png": "3edf1bc2a5644bb8dd7fa6db796ff4fac6080a013738a4e3106c37f87011e1a0",
+    "build\\first-playable-props\\run-004\\game_distance_16m_yaw225.png": "d89ba36c22e503b50ad5a539223a7e73c89581e1c91b9aae25a83539521ef1b1"
+  },
+  "gameCrops": [
+    {
+      "source": "build\\first-playable-props\\run-004\\game_distance_6m.png",
+      "assetId": "prop_mailbox_001",
+      "boxTopLeftPixels": [
+        367,
+        268,
+        479,
+        478
+      ],
+      "displayScale": 1,
+      "position": [
+        28,
+        930
+      ]
+    },
+    {
+      "source": "build\\first-playable-props\\run-004\\game_distance_6m.png",
+      "assetId": "prop_cafe_table_001",
+      "boxTopLeftPixels": [
+        765,
+        333,
+        918,
+        487
+      ],
+      "displayScale": 1,
+      "position": [
+        186,
+        986
+      ]
+    },
+    {
+      "source": "build\\first-playable-props\\run-004\\game_distance_16m.png",
+      "assetId": "prop_mailbox_001",
+      "boxTopLeftPixels": [
+        537,
+        321,
+        579,
+        412
+      ],
+      "displayScale": 1,
+      "position": [
+        378,
+        1049
+      ]
+    },
+    {
+      "source": "build\\first-playable-props\\run-004\\game_distance_16m.png",
+      "assetId": "prop_cafe_table_001",
+      "boxTopLeftPixels": [
+        684,
+        345,
+        749,
+        415
+      ],
+      "displayScale": 1,
+      "position": [
+        536,
+        1070
+      ]
+    },
+    {
+      "source": "build\\first-playable-props\\run-004\\game_distance_30m.png",
+      "assetId": "prop_mailbox_001",
+      "boxTopLeftPixels": [
+        582,
+        336,
+        610,
+        392
+      ],
+      "displayScale": 1,
+      "position": [
+        728,
+        1084
+      ]
+    },
+    {
+      "source": "build\\first-playable-props\\run-004\\game_distance_30m.png",
+      "assetId": "prop_cafe_table_001",
+      "boxTopLeftPixels": [
+        660,
+        348,
+        702,
+        393
+      ],
+      "displayScale": 1,
+      "position": [
+        886,
+        1095
+      ]
+    },
+    {
+      "source": "build\\first-playable-props\\run-004\\game_distance_16m_yaw225.png",
+      "assetId": "prop_mailbox_001",
+      "boxTopLeftPixels": [
+        556,
+        281,
+        610,
+        372
+      ],
+      "displayScale": 1,
+      "position": [
+        1078,
+        1049
+      ]
+    },
+    {
+      "source": "build\\first-playable-props\\run-004\\game_distance_16m_yaw225.png",
+      "assetId": "prop_cafe_table_001",
+      "boxTopLeftPixels": [
+        655,
+        380,
+        736,
+        462
+      ],
+      "displayScale": 1,
+      "position": [
+        1236,
+        1058
+      ]
+    }
+  ]
+}
