@@ -1,0 +1,76 @@
+{
+  "triangles": 1676,
+  "vertices": 848,
+  "nonManifoldEdges": 0,
+  "looseVertices": 0,
+  "degenerateFaces": 0,
+  "duplicateFaces": 0,
+  "nonFiniteVertices": 0,
+  "signedVolumeCubicMetersSum": 0.03351498775801288,
+  "closedConstructionComponents": 5,
+  "limitations": [
+    "Closed construction components intentionally meet/overlap at attachments; no exhaustive solid-intersection proof.",
+    "No collider or runtime interaction is included."
+  ],
+  "sourceDimensionsBlenderXYZ": [
+    1.7999999523162842,
+    1.7999999523162842,
+    2.25
+  ],
+  "materials": [
+    "prop_cafe_parasol_001__canvasCream",
+    "prop_cafe_parasol_001__canvasTerracotta",
+    "prop_cafe_parasol_001__sageMetal",
+    "prop_cafe_parasol_001__timber"
+  ],
+  "customProperties": {
+    "assetId": "prop_cafe_parasol_001",
+    "seed": "5516",
+    "generator": "scripts/props_cafe_softgoods.py:build_cafe_parasol",
+    "constructionParts": "[\"closed_eight_panel_canopy_with_scalloped_valance\", \"bevelled_weighted_base\", \"base_pole_socket\", \"tapered_timber_pole\", \"rounded_canopy_finial\"]",
+    "provenance": "Original deterministic vertices/materials; no external content or simulation",
+    "sourceAxes": "Blender Z-up / -Y-forward; bottom-center origin",
+    "constructionNotes": "Closed thick octagonal roof and valance; weighted base, closed timber post and finial intentionally meet.",
+    "assemblyRecommendation": "Suggested Blender XY offset(.95,.60) from table center, clear of side chairs. Pole/base remain outside .78 m table. Canopy overhangs table corner; no table hole or mesh change."
+  },
+  "previewCameras": {
+    "front": {
+      "orthoScale": 2.6549999713897705,
+      "location": [
+        0.0,
+        -3.0,
+        1.1249995231628418
+      ],
+      "framing": {
+        "xywhPixelsBottomLeft": [
+          103.05,
+          48.81,
+          433.9,
+          542.37
+        ],
+        "insideFrame": true
+      }
+    },
+    "isometric": {
+      "orthoScale": 2.668761730194092,
+      "location": [
+        2.246194362640381,
+        -2.24619460105896,
+        3.4876110553741455
+      ],
+      "framing": {
+        "xywhPixelsBottomLeft": [
+          104.17,
+          48.81,
+          431.66,
+          542.37
+        ],
+        "insideFrame": true
+      }
+    }
+  },
+  "saveReopenExactGeometry": true,
+  "glbRoundtripExactPositions5DecimalsAndTriangles": true,
+  "glbImportedMeshCount": 1,
+  "positionSignatureSHA256": "5bc493ecd6e1a88f764755831c8a289ed089a0034e45630397fea9b2770a28c7"
+}

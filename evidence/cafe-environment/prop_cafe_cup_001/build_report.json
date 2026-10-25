@@ -1,0 +1,75 @@
+{
+  "triangles": 1844,
+  "vertices": 928,
+  "nonManifoldEdges": 0,
+  "looseVertices": 0,
+  "degenerateFaces": 0,
+  "duplicateFaces": 0,
+  "nonFiniteVertices": 0,
+  "signedVolumeCubicMetersSum": 0.0003083263005396669,
+  "closedConstructionComponents": 4,
+  "limitations": [
+    "Closed construction components intentionally meet/overlap at attachments; no exhaustive solid-intersection proof.",
+    "No collider or runtime interaction is included."
+  ],
+  "sourceDimensionsBlenderXYZ": [
+    0.15800000727176666,
+    0.15800000727176666,
+    0.10499999672174454
+  ],
+  "materials": [
+    "prop_cafe_cup_001__cream",
+    "prop_cafe_cup_001__terracotta",
+    "prop_cafe_cup_001__coffee"
+  ],
+  "customProperties": {
+    "assetId": "prop_cafe_cup_001",
+    "generator": "scripts/props_cafe_smallwares.py:build_cafe_cup",
+    "seed": "6104",
+    "provenance": "Original procedural vertices/materials; no external content",
+    "constructionParts": "[\"ceramic_saucer\", \"hollow_ceramic_cup\", \"curved_ceramic_handle\", \"static_coffee_surface\"]",
+    "constructionNotes": "Closed construction shells intentionally overlap at attachments; no exhaustive solid-intersection proof.",
+    "sourceAxes": "Blender Z-up / -Y-forward; export +Y-up/+Z-forward",
+    "assemblyNotes": "Single cup+saucer static prop; coffee is config-driven geometry, no liquid simulation or detachable saucer."
+  },
+  "previewCameras": {
+    "front": {
+      "orthoScale": 0.18644000589847565,
+      "location": [
+        0.0,
+        -3.0,
+        0.05249951034784317
+      ],
+      "framing": {
+        "xywhPixelsBottomLeft": [
+          48.81,
+          139.78,
+          542.37,
+          360.44
+        ],
+        "insideFrame": true
+      }
+    },
+    "isometric": {
+      "orthoScale": 0.18643999099731445,
+      "location": [
+        2.302150011062622,
+        -2.3021504878997803,
+        2.346099376678467
+      ],
+      "framing": {
+        "xywhPixelsBottomLeft": [
+          48.81,
+          70.6,
+          542.37,
+          498.8
+        ],
+        "insideFrame": true
+      }
+    }
+  },
+  "saveReopenExactGeometry": true,
+  "glbRoundtripExactPositions5DecimalsAndTriangles": true,
+  "glbImportedMeshCount": 1,
+  "positionSignatureSHA256": "7941bec8bb75a290e6c9d19d70df13a05d42eeab803e7ee415f12244f29272ff"
+}

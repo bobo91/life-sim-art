@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "1.0",
+  "requestId": "CAFE-ENVIRONMENT-PACK",
+  "assetId": "prop_cafe_chair_001",
+  "version": "0.1.0",
+  "category": "prop",
+  "generator": "cafe_chair",
+  "seed": 5512,
+  "dimensionsMeters": [0.46, 0.86, 0.51],
+  "maxTriangles": 2800,
+  "blenderVersion": "4.5.14",
+  "preview": {"resolution": 640, "samples": 48},
+  "palette": {
+    "wood": {"color": "#A57C58", "roughness": 0.74, "metallic": 0.0},
+    "woodVariation": {"color": "#AE8662", "roughness": 0.76, "metallic": 0.0},
+    "woodEdge": {"color": "#8B634B", "roughness": 0.81, "metallic": 0.0},
+    "metal": {"color": "#344A48", "roughness": 0.64, "metallic": 0.45}
+  },
+  "geometry": {
+    "seatHeightMeters": 0.46,
+    "seatThicknessMeters": 0.042,
+    "seatWidthMeters": 0.46,
+    "seatDepthMeters": 0.43,
+    "seatCornerRadiusMeters": 0.06,
+    "backrestTopMeters": 0.86,
+    "frameSides": 8
+  },
+  "authoringNotes": {
+    "dimensionsStatus": "Art proposal; measured Unity XYZ width/height/depth, not a seating contract",
+    "design": "Adult cafe chair with softened timber seat, shallow bowed back and coherent tapered sage metal frame",
+    "pivot": "Bottom-center, meters, identity root scale",
+    "forward": "Seated person faces Blender -Y / GLB +Z",
+    "scope": "Static original prop. No rig, seating animation or interaction anchor. Suggested seat center is a placement aid only."
+  },
+  "collisionProposal": {
+    "status": "Proposed only; game owns acceptance and seating routes",
+    "type": "BoxCollider",
+    "centerUnityXYZ": [0, 0.43, 0],
+    "sizeUnityXYZ": [0.46, 0.86, 0.51],
+    "notes": "Full footprint blocks walking under seat. Seating controller must decide whether to disable collider."
+  },
+  "placementProposal": {
+    "seatCenterUnityXYZ": [0, 0.46, 0.035],
+    "status": "Documented art assumption only; not a canonical game seating anchor"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "schema": "cafe-cup-options-check-1",
+  "status": "passed",
+  "blender": "4.5.14 LTS",
+  "scope": "Geometry/export regression only; no new render or production variant. Original render manifests retain their original source hashes.",
+  "allSixDefaultModelsByteIdentical": true,
+  "defaults": {
+    "prop_cafe_counter_001": {
+      "sha256": "5b55299d1d53167268ecccbfc64448b7a8446087815b981d974163b40b14d71e",
+      "referenceSHA256": "5b55299d1d53167268ecccbfc64448b7a8446087815b981d974163b40b14d71e",
+      "byteIdentical": true
+    },
+    "prop_cafe_chair_001": {
+      "sha256": "aa465489194e15243d80d8de92aefeca805a6a84afc7996cfd219ed36eb6753f",
+      "referenceSHA256": "aa465489194e15243d80d8de92aefeca805a6a84afc7996cfd219ed36eb6753f",
+      "byteIdentical": true
+    },
+    "prop_tin_001": {
+      "sha256": "a8e33cf47e79a33ab5995d720b8d1540dd3afff202318842c6dc24bb2c89a9a0",
+      "referenceSHA256": "a8e33cf47e79a33ab5995d720b8d1540dd3afff202318842c6dc24bb2c89a9a0",
+      "byteIdentical": true
+    },
+    "prop_cafe_cup_001": {
+      "sha256": "3a17473ac7a6044c417d7d28258c64ccb11a70f713c069cd63384640b1e5db8b",
+      "referenceSHA256": "3a17473ac7a6044c417d7d28258c64ccb11a70f713c069cd63384640b1e5db8b",
+      "byteIdentical": true
+    },
+    "prop_cafe_tablecloth_001": {
+      "sha256": "cdde8aea68e203b70489062ee7d68832b93b839f55a42099941917f5300a1ddf",
+      "referenceSHA256": "cdde8aea68e203b70489062ee7d68832b93b839f55a42099941917f5300a1ddf",
+      "byteIdentical": true
+    },
+    "prop_cafe_parasol_001": {
+      "sha256": "2edda1b0ba1b172b075babdb71ca7694433cbbd4187476408db5b5057ae15f46",
+      "referenceSHA256": "2edda1b0ba1b172b075babdb71ca7694433cbbd4187476408db5b5057ae15f46",
+      "byteIdentical": true
+    }
+  },
+  "coffeeFree": {
+    "includeCoffee": false,
+    "materials": [
+      "prop_cafe_cup_001__cream",
+      "prop_cafe_cup_001__terracotta"
+    ],
+    "geometry": {
+      "sha256": "878485e4f86ab45fdca1d9b4681fbca20c047ced3b0b4431ec908ecddb809128",
+      "bytes": 34924,
+      "triangles": 1656,
+      "vertices": 960,
+      "meshInstances": 1,
+      "materials": [
+        "prop_cafe_cup_001__cream",
+        "prop_cafe_cup_001__terracotta"
+      ],
+      "materialCount": 2,
+      "bounds": {
+        "min": [
+          -0.07900000363588333,
+          0.0,
+          -0.07900000363588333
+        ],
+        "max": [
+          0.07900000363588333,
+          0.10499999672174454,
+          0.07900000363588333
+        ]
+      },
+      "dimensionsMeters": [
+        0.15800000727176666,
+        0.10499999672174454,
+        0.15800000727176666
+      ],
+      "pivotErrorMeters": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "windingNormalsConsistent": true,
+      "coordinateSystem": {
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      }
+    },
+    "health": {
+      "triangles": 1656,
+      "vertices": 832,
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "duplicateFaces": 0,
+      "nonFiniteVertices": 0,
+      "signedVolumeCubicMetersSum": 0.00030097081831880124,
+      "closedConstructionComponents": 3,
+      "limitations": [
+        "Closed construction components intentionally meet/overlap at attachments; no exhaustive solid-intersection proof.",
+        "No collider or runtime interaction is included."
+      ]
+    }
+  },
+  "sourceSHA256": {
+    "scripts/props_cafe_smallwares.py": "5202ae6fd82e16cfaf9b3aacdea0c8dfb3cf07fced68700065de0bbfad7a8524",
+    "scripts/verify_cafe_cup_options.py": "188fa8d66fbc6666102949d0c329f8e2f2d0515ba890b7f96f20fe137cc1c0a9"
+  }
+}

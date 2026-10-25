@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0",
+  "requestId": "CAFE-ENVIRONMENT-PACK-01",
+  "assetId": "prop_tin_001",
+  "version": "0.1.0",
+  "category": "prop",
+  "generator": "cafe_tin",
+  "seed": 6103,
+  "blenderVersion": "4.5.14",
+  "dimensionsMeters": [0.14, 0.19, 0.11],
+  "maxTriangles": 1800,
+  "geometry": {"scope": "Closed decorative tea tin; lid is fixed, no inventory or opening state"},
+  "palette": {
+    "cream": {"color": "#D6C9A9", "roughness": 0.70, "metallic": 0.08},
+    "terracotta": {"color": "#B56E50", "roughness": 0.68, "metallic": 0.08},
+    "brass": {"color": "#A69B7E", "roughness": 0.56, "metallic": 0.48},
+    "sage": {"color": "#344A48", "roughness": 0.64, "metallic": 0.30}
+  },
+  "preview": {"resolution": 640, "samples": 48},
+  "candidateCollider": {"status": "Proposal only; game-owned decision remains open", "type": "BoxCollider", "center": [0, 0.095, 0], "size": [0.14, 0.19, 0.11], "enabledInExport": false},
+  "authoringNotes": {
+    "design": "Cream tin, broad terracotta band, sage lid and original geometric leaf seal; no typography or borrowed graphics",
+    "pivot": "Bottom-centre; Blender Z-up/-Y-front; GLB Y-up/+Z-front",
+    "scope": "Static original decorative prop. Story clue markings and interaction rules remain open; no claim of implementing game issue56 inventory."
+  }
+}

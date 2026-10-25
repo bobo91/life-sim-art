@@ -1,0 +1,42 @@
+{
+  "schema": "cafe-environment-attempts-1",
+  "date": "2026-10-25",
+  "runs": [
+    {
+      "id": "001",
+      "status": "failed-composition-framing",
+      "exitCode": 1,
+      "elapsedSeconds": 91.303,
+      "actualImages": 12,
+      "finding": "Landscape orthographic fit clipped overview. Individual renders exposed chair posts piercing visible back boards and coplanar counter corner bands."
+    },
+    {
+      "id": "002",
+      "status": "deliberately-stopped-for-counter-correction",
+      "elapsedSeconds": 76.523,
+      "finding": "Chair/camera/recipe corrections staged; stopped only verified owned headless process to remove coplanar counter side/front faces before spending more render time."
+    },
+    {
+      "id": "003",
+      "status": "passed",
+      "elapsedSeconds": 256.452,
+      "actualImages": 17,
+      "finding": "Chair supports behind boards; counter side returns inset; camera framing and recipes corrected. Geometry replay, independent GLB validation, save/reopen, roundtrip and targeted assembly contacts pass."
+    }
+  ],
+  "preflights": {
+    "001": "Six assets built/exported; original geometry before targeted fixes.",
+    "002": "Six assets built/exported after chair correction.",
+    "003": "Corrected six assets, shared-table identity, composition framing and five targeted surface checks passed."
+  },
+  "originalTableAndMailboxChanged": false,
+  "gameRepositoryChanged": false,
+  "unityTestForNewSixAssets": false,
+  "sharedTests": {
+    "actuallyRun": true,
+    "count": 52,
+    "result": "passed"
+  },
+  "ownerVisualApprovalForNewAssets": false,
+  "rawLogsAndFailedRunImages": "Retained locally under ignored build/; no private host paths or identifiers published."
+}

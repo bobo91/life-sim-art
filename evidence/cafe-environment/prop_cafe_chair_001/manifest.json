@@ -1,0 +1,269 @@
+{
+  "schemaVersion": "1.0",
+  "assetId": "prop_cafe_chair_001",
+  "version": "0.1.0",
+  "requestId": "CAFE-ENV-001",
+  "units": "meters",
+  "pivot": "bottom-center",
+  "axes": {
+    "sourceUp": "+Z",
+    "sourceForward": "-Y",
+    "exportUp": "+Y",
+    "exportForward": "+Z"
+  },
+  "dimensionsMeters": [
+    0.46,
+    0.86,
+    0.51
+  ],
+  "seed": 5512,
+  "config": {
+    "schemaVersion": "1.0",
+    "requestId": "CAFE-ENVIRONMENT-PACK",
+    "assetId": "prop_cafe_chair_001",
+    "version": "0.1.0",
+    "category": "prop",
+    "generator": "cafe_chair",
+    "seed": 5512,
+    "dimensionsMeters": [
+      0.46,
+      0.86,
+      0.51
+    ],
+    "maxTriangles": 2800,
+    "blenderVersion": "4.5.14",
+    "preview": {
+      "resolution": 640,
+      "samples": 48
+    },
+    "palette": {
+      "wood": {
+        "color": "#A57C58",
+        "roughness": 0.74,
+        "metallic": 0.0
+      },
+      "woodVariation": {
+        "color": "#AE8662",
+        "roughness": 0.76,
+        "metallic": 0.0
+      },
+      "woodEdge": {
+        "color": "#8B634B",
+        "roughness": 0.81,
+        "metallic": 0.0
+      },
+      "metal": {
+        "color": "#344A48",
+        "roughness": 0.64,
+        "metallic": 0.45
+      }
+    },
+    "geometry": {
+      "seatHeightMeters": 0.46,
+      "seatThicknessMeters": 0.042,
+      "seatWidthMeters": 0.46,
+      "seatDepthMeters": 0.43,
+      "seatCornerRadiusMeters": 0.06,
+      "backrestTopMeters": 0.86,
+      "frameSides": 8
+    },
+    "authoringNotes": {
+      "dimensionsStatus": "Art proposal; measured Unity XYZ width/height/depth, not a seating contract",
+      "design": "Adult cafe chair with softened timber seat, shallow bowed back and coherent tapered sage metal frame",
+      "pivot": "Bottom-center, meters, identity root scale",
+      "forward": "Seated person faces Blender -Y / GLB +Z",
+      "scope": "Static original prop. No rig, seating animation or interaction anchor. Suggested seat center is a placement aid only."
+    },
+    "collisionProposal": {
+      "status": "Proposed only; game owns acceptance and seating routes",
+      "type": "BoxCollider",
+      "centerUnityXYZ": [
+        0,
+        0.43,
+        0
+      ],
+      "sizeUnityXYZ": [
+        0.46,
+        0.86,
+        0.51
+      ],
+      "notes": "Full footprint blocks walking under seat. Seating controller must decide whether to disable collider."
+    },
+    "placementProposal": {
+      "seatCenterUnityXYZ": [
+        0,
+        0.46,
+        0.035
+      ],
+      "status": "Documented art assumption only; not a canonical game seating anchor"
+    }
+  },
+  "configSHA256": "05cf1d698e5ba0778b610daca12c90387f06026be6ac0e835eab3c73af6c7a9a",
+  "sourceCommit": "02d92463f142d83e3253c395c416e6cbba3ba5dd",
+  "sourceDirty": true,
+  "sourceFilesSHA256": {
+    "scripts/build_cafe_environment.py": "7d4fa5c65c7e24ee3d138837a026fd32bead0f2aa8a14175fa4dacb40f37e948",
+    "scripts/run_cafe_environment.py": "4d94ea96d937dedb51ac6cb5d9317e0235bade7f96a668dc79bc525d971090a8",
+    "scripts/props_cafe_furniture.py": "b02063e8b6eca131320e292d506156a1ee5c36a2a5e1d30edd3ba7d3a7b85ad5",
+    "scripts/props_cafe_smallwares.py": "bbe1fff8004420f7266730aa013e7d713a05edd3ee93c0324d849221b2021d86",
+    "scripts/props_cafe_softgoods.py": "b62ca947351621176a845be1ed7a325e6f36ce1b9bac374703721beead6d9082",
+    "scripts/build_first_playable_props.py": "6f762c89dc039198453f7346b57808e985a6602bb8b7fffbb9abb9503d342c5e",
+    "scripts/props_cafe_table.py": "159a0e3bb788c133f20f86a3bb4bfb51bed659500cae89e2d5c6ef0fc5f7df3f",
+    "scripts/props_mailbox.py": "b76d773d1cdd9e5d0470d9a5f0d2784b5be92ef608e0a55f20873521f272f63c",
+    "art_pipeline/blender_build.py": "1602b3acbb5ba96e956cfb23e605e49b351cb803b0aa3f2ee4aed226fa4511eb",
+    "art_pipeline/validation.py": "516335248f5cdf7f3430da86045c8902342395a458ec52dc6132129086b67e55",
+    "art_pipeline/config.py": "3faa2389bdbb4e377bc2e9154526274bcd4360a837ea94912116526e066b78a9",
+    "art_pipeline/cli.py": "ad9ac05777328ed59879fc83ab064700632a3012b55f543fc5b6d4fe4c2bed46",
+    "art_pipeline/benchmark_checks.py": "94a9a56e0811755350f5a85646a98c3746b9eeebbf2023822ea32b5280f04ce8"
+  },
+  "sourceIdentityNote": "Exact source/config hashes identify dirty local authoring; final PR versions the identical bytes.",
+  "model": {
+    "file": "prop_cafe_chair_001.glb",
+    "sha256": "aa465489194e15243d80d8de92aefeca805a6a84afc7996cfd219ed36eb6753f",
+    "bytes": 74652
+  },
+  "geometry": {
+    "sha256": "aa465489194e15243d80d8de92aefeca805a6a84afc7996cfd219ed36eb6753f",
+    "bytes": 74652,
+    "triangles": 1256,
+    "vertices": 2648,
+    "meshInstances": 1,
+    "materials": [
+      "prop_cafe_chair_001__wood",
+      "prop_cafe_chair_001__woodVariation",
+      "prop_cafe_chair_001__woodEdge",
+      "prop_cafe_chair_001__metal"
+    ],
+    "materialCount": 4,
+    "bounds": {
+      "min": [
+        -0.23000000417232513,
+        0.0,
+        -0.2549999952316284
+      ],
+      "max": [
+        0.23000000417232513,
+        0.8600000143051147,
+        0.2549999952316284
+      ]
+    },
+    "dimensionsMeters": [
+      0.46000000834465027,
+      0.8600000143051147,
+      0.5099999904632568
+    ],
+    "pivotErrorMeters": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "windingNormalsConsistent": true,
+    "coordinateSystem": {
+      "up": "+Y",
+      "forward": "+Z",
+      "units": "meters"
+    }
+  },
+  "blenderMeshHealth": {
+    "triangles": 1256,
+    "vertices": 656,
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "duplicateFaces": 0,
+    "nonFiniteVertices": 0,
+    "signedVolumeCubicMetersSum": 0.01750862794588625,
+    "closedConstructionComponents": 14,
+    "limitations": [
+      "Closed construction components intentionally meet/overlap at attachments; no exhaustive solid-intersection proof.",
+      "No collider or runtime interaction is included."
+    ],
+    "sourceDimensionsBlenderXYZ": [
+      0.46000000834465027,
+      0.5099999904632568,
+      0.8600000143051147
+    ],
+    "materials": [
+      "prop_cafe_chair_001__wood",
+      "prop_cafe_chair_001__woodVariation",
+      "prop_cafe_chair_001__woodEdge",
+      "prop_cafe_chair_001__metal"
+    ],
+    "customProperties": {
+      "assetId": "prop_cafe_chair_001",
+      "seed": "5512",
+      "generator": "scripts/props_cafe_furniture.py:build_cafe_chair",
+      "provenance": "Original procedural vertices/materials; no external content",
+      "constructionParts": "[\"rounded_solid_timber_seat\", \"bowed_timber_backrest\", \"lower_bowed_back_rail\", \"front_leg_-1\", \"rear_leg_and_back_post_-1\", \"side_seat_support_-1\", \"low_side_stretcher_-1\", \"front_leg_1\", \"rear_leg_and_back_post_1\", \"side_seat_support_1\", \"low_side_stretcher_1\", \"front_seat_apron\", \"rear_seat_apron\", \"rear_low_stretcher\"]",
+      "constructionNotes": "Adult46cm seat; original swept bowed timber back and tapered sage frame. Closed construction parts overlap at joins; no seating/animation anchor or gameplay collider.",
+      "sourceAxes": "Blender Z-up / -Y-forward; GLB +Y-up / +Z-forward"
+    },
+    "previewCameras": {
+      "front": {
+        "orthoScale": 1.0148000717163086,
+        "location": [
+          0.0,
+          -3.0,
+          0.4299995005130768
+        ],
+        "framing": {
+          "xywhPixelsBottomLeft": [
+            174.95,
+            48.81,
+            290.11,
+            542.37
+          ],
+          "insideFrame": true
+        }
+      },
+      "isometric": {
+        "orthoScale": 1.2655082941055298,
+        "location": [
+          2.297142744064331,
+          -2.296389102935791,
+          2.719268321990967
+        ],
+        "framing": {
+          "xywhPixelsBottomLeft": [
+            152.2,
+            48.81,
+            335.61,
+            542.37
+          ],
+          "insideFrame": true
+        }
+      }
+    },
+    "saveReopenExactGeometry": true,
+    "glbRoundtripExactPositions5DecimalsAndTriangles": true,
+    "glbImportedMeshCount": 1,
+    "positionSignatureSHA256": "e06d12e78cc052f09a94807a34b7804edffafd862f164981b1df2a7bac1a0692"
+  },
+  "sourceBlend": {
+    "file": "prop_cafe_chair_001.blend",
+    "sha256": "e199c80f01d8bea917755dd98659db915d3e969d534659894b8f2669975a5074"
+  },
+  "previews": {
+    "front": {
+      "file": "front.png",
+      "sha256": "80b6ec05a8f189c8db091b463cf007a99f4fe9fe5645d9dbee76fc392875817a"
+    },
+    "isometric": {
+      "file": "isometric.png",
+      "sha256": "9fe7097ce49d0f34271ad9a4761a2fe267b5b667cb635bd29cb2d17a85387229"
+    }
+  },
+  "provenance": {
+    "method": "original-procedural-blender-python",
+    "thirdPartyAssets": [],
+    "license": "original-project-content"
+  },
+  "tooling": {
+    "blender": "4.5.14",
+    "engine": "Cycles",
+    "device": "CPU",
+    "threads": 4
+  },
+  "command": "python scripts/run_cafe_environment.py --blender <Blender-4.5.14> --output <new-workspace-directory>",
+  "status": "quality-review-only; no Unity integration or accepted gameplay contract"
+}

@@ -1,0 +1,341 @@
+{
+  "schema": "cafe-environment-contact-layout-1",
+  "scope": "Actual Blender Cycles CPU renders; resizing/layout only, no repainting, relighting or AI enhancement.",
+  "approvalStatus": "Awaiting owner visual approval for the six new props.",
+  "pillowVersion": "12.3.0",
+  "font": {
+    "selection": "pillow-embedded-default",
+    "family": [
+      "Aileron",
+      "Regular"
+    ]
+  },
+  "inputs": {
+    "build/cafe-environment/run-003/prop_cafe_counter_001/manifest.json": "795dea94f50843ed087206ebefbed5a9ce97654757aafe3b28f21dca394669ab",
+    "build/cafe-environment/run-003/prop_cafe_counter_001/front.png": "82507297355329b447198602e04e1d22618e581eea30d4af2e4fca6e8e005237",
+    "build/cafe-environment/run-003/prop_cafe_counter_001/isometric.png": "338a16053a8a210951b8cd5ece1b36fb707223c043411a855926a6ebd8fe6882",
+    "build/cafe-environment/run-003/prop_cafe_chair_001/manifest.json": "2503fdd25e847f80ada2ba971bd38fb584855011e6bd75bfea7e9664f5fe67ac",
+    "build/cafe-environment/run-003/prop_cafe_chair_001/front.png": "80b6ec05a8f189c8db091b463cf007a99f4fe9fe5645d9dbee76fc392875817a",
+    "build/cafe-environment/run-003/prop_cafe_chair_001/isometric.png": "9fe7097ce49d0f34271ad9a4761a2fe267b5b667cb635bd29cb2d17a85387229",
+    "build/cafe-environment/run-003/prop_tin_001/manifest.json": "141cd28908ef181a1eabc0649a1e476512b011b706b5a3c25fbfcb60b2c3e826",
+    "build/cafe-environment/run-003/prop_tin_001/front.png": "b0798c4bc40d2f231b002151bcc7ca8fac82532e221c45037bba33733817e0ec",
+    "build/cafe-environment/run-003/prop_tin_001/isometric.png": "3fc5e89782dbbc7523f3afcf1ad1b16e8799dec7543c1ae320504a16998cac90",
+    "build/cafe-environment/run-003/prop_cafe_cup_001/manifest.json": "a7c0bad40411c755c09fbb4f202aadc3a5b990f0b291f65015ee2f45da7fe351",
+    "build/cafe-environment/run-003/prop_cafe_cup_001/front.png": "7ec70ae91ad455659257bf079bb2baeadbc1d8e6252ea9d480d28ef541e84611",
+    "build/cafe-environment/run-003/prop_cafe_cup_001/isometric.png": "90e7a24bee751d47ab05e3e8fc08b59870a85b49f1a8f2db8f9108c1a2ce22c4",
+    "build/cafe-environment/run-003/prop_cafe_tablecloth_001/manifest.json": "fb9fbcb62a026ef04ba14e302777c63af27422fd34a47416105eab5d42446305",
+    "build/cafe-environment/run-003/prop_cafe_tablecloth_001/front.png": "ee0e10ed651892961898cbc195a373a26931af74c78413323647bcd2c2c1c416",
+    "build/cafe-environment/run-003/prop_cafe_tablecloth_001/isometric.png": "063085bd3a486a2dc634e6cc7f76295e691184133c8f0490ed6ffe1f175f4b7d",
+    "build/cafe-environment/run-003/prop_cafe_parasol_001/manifest.json": "79d7efd0a3db8c388ae7069beb4d5a308cfb110928787f6df47586bb6b308cff",
+    "build/cafe-environment/run-003/prop_cafe_parasol_001/front.png": "38d8f9460676b66f896954e41bd19a8268f398e950e3564e1ad2aeb0d590f520",
+    "build/cafe-environment/run-003/prop_cafe_parasol_001/isometric.png": "c3a67d9684878f03db984c17831484ac78f02946a302df5a5948ec275ec69189",
+    "build/cafe-environment/run-003/arrangements.json": "03f1d98a12f99361cb4454761aec7162ef0d3a9a89c50d2de2b323a9694fb761",
+    "build/cafe-environment/run-003/table_bare.png": "01c396dced93f071a204248182faad7841384a87e26303ee784cacbb924d7f4f",
+    "build/cafe-environment/run-003/table_set.png": "e078040f09d934289102540ad291f798c5061d736c04bbba381cf130ee58cabc"
+  },
+  "models": {
+    "prop_cafe_counter_001": {
+      "sha256": "5b55299d1d53167268ecccbfc64448b7a8446087815b981d974163b40b14d71e",
+      "dimensionsMeters": [
+        1.6,
+        1.02,
+        0.65
+      ],
+      "triangles": 1732
+    },
+    "prop_cafe_chair_001": {
+      "sha256": "aa465489194e15243d80d8de92aefeca805a6a84afc7996cfd219ed36eb6753f",
+      "dimensionsMeters": [
+        0.46,
+        0.86,
+        0.51
+      ],
+      "triangles": 1256
+    },
+    "prop_tin_001": {
+      "sha256": "a8e33cf47e79a33ab5995d720b8d1540dd3afff202318842c6dc24bb2c89a9a0",
+      "dimensionsMeters": [
+        0.14,
+        0.19,
+        0.11
+      ],
+      "triangles": 904
+    },
+    "prop_cafe_cup_001": {
+      "sha256": "3a17473ac7a6044c417d7d28258c64ccb11a70f713c069cd63384640b1e5db8b",
+      "dimensionsMeters": [
+        0.158,
+        0.105,
+        0.158
+      ],
+      "triangles": 1844
+    },
+    "prop_cafe_tablecloth_001": {
+      "sha256": "cdde8aea68e203b70489062ee7d68832b93b839f55a42099941917f5300a1ddf",
+      "dimensionsMeters": [
+        0.94,
+        0.172,
+        0.94
+      ],
+      "triangles": 2048
+    },
+    "prop_cafe_parasol_001": {
+      "sha256": "2edda1b0ba1b172b075babdb71ca7694433cbbd4187476408db5b5057ae15f46",
+      "dimensionsMeters": [
+        1.8,
+        2.25,
+        1.8
+      ],
+      "triangles": 1676
+    }
+  },
+  "panels": [
+    {
+      "source": "build/cafe-environment/run-003/prop_cafe_counter_001/front.png",
+      "purpose": "prop_cafe_counter_001/front",
+      "sourceSize": [
+        640,
+        640
+      ],
+      "position": [
+        22,
+        252
+      ],
+      "size": [
+        224,
+        224
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "source": "build/cafe-environment/run-003/prop_cafe_counter_001/isometric.png",
+      "purpose": "prop_cafe_counter_001/isometric",
+      "sourceSize": [
+        640,
+        640
+      ],
+      "position": [
+        256,
+        252
+      ],
+      "size": [
+        224,
+        224
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "source": "build/cafe-environment/run-003/prop_cafe_chair_001/front.png",
+      "purpose": "prop_cafe_chair_001/front",
+      "sourceSize": [
+        640,
+        640
+      ],
+      "position": [
+        522,
+        252
+      ],
+      "size": [
+        224,
+        224
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "source": "build/cafe-environment/run-003/prop_cafe_chair_001/isometric.png",
+      "purpose": "prop_cafe_chair_001/isometric",
+      "sourceSize": [
+        640,
+        640
+      ],
+      "position": [
+        756,
+        252
+      ],
+      "size": [
+        224,
+        224
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "source": "build/cafe-environment/run-003/prop_tin_001/front.png",
+      "purpose": "prop_tin_001/front",
+      "sourceSize": [
+        640,
+        640
+      ],
+      "position": [
+        1022,
+        252
+      ],
+      "size": [
+        224,
+        224
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "source": "build/cafe-environment/run-003/prop_tin_001/isometric.png",
+      "purpose": "prop_tin_001/isometric",
+      "sourceSize": [
+        640,
+        640
+      ],
+      "position": [
+        1256,
+        252
+      ],
+      "size": [
+        224,
+        224
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "source": "build/cafe-environment/run-003/prop_cafe_cup_001/front.png",
+      "purpose": "prop_cafe_cup_001/front",
+      "sourceSize": [
+        640,
+        640
+      ],
+      "position": [
+        22,
+        752
+      ],
+      "size": [
+        224,
+        224
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "source": "build/cafe-environment/run-003/prop_cafe_cup_001/isometric.png",
+      "purpose": "prop_cafe_cup_001/isometric",
+      "sourceSize": [
+        640,
+        640
+      ],
+      "position": [
+        256,
+        752
+      ],
+      "size": [
+        224,
+        224
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "source": "build/cafe-environment/run-003/prop_cafe_tablecloth_001/front.png",
+      "purpose": "prop_cafe_tablecloth_001/front",
+      "sourceSize": [
+        640,
+        640
+      ],
+      "position": [
+        522,
+        752
+      ],
+      "size": [
+        224,
+        224
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "source": "build/cafe-environment/run-003/prop_cafe_tablecloth_001/isometric.png",
+      "purpose": "prop_cafe_tablecloth_001/isometric",
+      "sourceSize": [
+        640,
+        640
+      ],
+      "position": [
+        756,
+        752
+      ],
+      "size": [
+        224,
+        224
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "source": "build/cafe-environment/run-003/prop_cafe_parasol_001/front.png",
+      "purpose": "prop_cafe_parasol_001/front",
+      "sourceSize": [
+        640,
+        640
+      ],
+      "position": [
+        1022,
+        752
+      ],
+      "size": [
+        224,
+        224
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "source": "build/cafe-environment/run-003/prop_cafe_parasol_001/isometric.png",
+      "purpose": "prop_cafe_parasol_001/isometric",
+      "sourceSize": [
+        640,
+        640
+      ],
+      "position": [
+        1256,
+        752
+      ],
+      "size": [
+        224,
+        224
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "source": "build/cafe-environment/run-003/table_bare.png",
+      "purpose": "table-state/bare",
+      "sourceSize": [
+        1400,
+        1050
+      ],
+      "position": [
+        0,
+        145
+      ],
+      "size": [
+        700,
+        525
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "source": "build/cafe-environment/run-003/table_set.png",
+      "purpose": "table-state/set",
+      "sourceSize": [
+        1400,
+        1050
+      ],
+      "position": [
+        700,
+        145
+      ],
+      "size": [
+        700,
+        525
+      ],
+      "resampling": "LANCZOS"
+    }
+  ],
+  "outputs": {
+    "contact-sheet.png": "a39de05a1c1406b7c6c60a384e1d99bfd6e215be7fbfb14732ceefbbd7a1faa9",
+    "table-states.png": "04587d3f448cc23f01ed5fc8a35ae200cdf57490fb346470b38e92d58d5bb3a9"
+  },
+  "sharedTable": {
+    "assetId": "prop_cafe_table_001",
+    "sha256": "6e122d9a172952fe237e9b24fe9c94b4eff70151e346f3ead95803a86a71ee54",
+    "reuse": "Identical table geometry in bare and dressed arrangements; dressing is separate instances."
+  }
+}

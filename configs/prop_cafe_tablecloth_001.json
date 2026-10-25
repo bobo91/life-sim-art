@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "1.0",
+  "requestId": "CAFE-ENVIRONMENT-PACK-01",
+  "assetId": "prop_cafe_tablecloth_001",
+  "version": "0.1.0",
+  "category": "prop",
+  "generator": "build_cafe_tablecloth",
+  "seed": 5515,
+  "dimensionsMeters": [0.94, 0.172, 0.94],
+  "maxTriangles": 4000,
+  "blenderVersion": "4.5.14",
+  "geometry": {
+    "perimeterSamples": 64,
+    "thicknessMeters": 0.002,
+    "supportWidthMeters": 0.79,
+    "supportCornerRadiusMeters": 0.075,
+    "outerCornerRadiusMeters": 0.045,
+    "supportTopLocalMeters": 0.172,
+    "tableHeightMeters": 0.74,
+    "tableClearanceMeters": 0.001
+  },
+  "palette": {
+    "linen": {"color": "#D8CBB1", "roughness": 0.94, "metallic": 0.0},
+    "wovenHem": {"color": "#B68165", "roughness": 0.94, "metallic": 0.0}
+  },
+  "preview": {"resolution": 640, "samples": 48},
+  "assembly": {
+    "tableAssetId": "prop_cafe_table_001",
+    "supportTopLocalMeters": 0.172,
+    "supportUndersideLocalMeters": 0.170,
+    "originHeightForApprovedTableMeters": 0.571,
+    "surfaceTopWorldMeters": 0.743,
+    "tableMeshModified": false
+  },
+  "collisionProposal": {
+    "default": "None; visual dressing only. Reuse the table gameplay collider.",
+    "status": "Assumption; not a game-approved contract"
+  },
+  "authoringNotes": {
+    "pivot": "Bottom-center of standalone draped cloth. Place at assembly originHeight, not on table top directly.",
+    "scope": "Static reusable closed cloth shell fitted to approved table; no simulation or runtime transitions.",
+    "style": "Cream linen with restrained terracotta woven hem, broad corner drapes. No texture or tiny check pattern."
+  }
+}

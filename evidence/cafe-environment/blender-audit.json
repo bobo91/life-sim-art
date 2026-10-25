@@ -1,0 +1,19 @@
+{
+  "blender": "4.5.14 LTS",
+  "embeddedPython": "3.11.15",
+  "background": true,
+  "onlineAccess": false,
+  "renderDevicePlanned": "CPU",
+  "gpuComputeTested": false,
+  "reportedDeviceTypes": {
+    "CUDA": [],
+    "OPTIX": [],
+    "HIP": [
+      "HIP",
+      "HIP",
+      "CPU"
+    ],
+    "ONEAPI": [],
+    "METAL": []
+  }
+}
