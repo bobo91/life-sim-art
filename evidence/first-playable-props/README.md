@@ -45,6 +45,10 @@ artifact, retained for 30 days. This is not a production release. The
 
 ## What actually ran
 
+This section records the original Blender proof. The later
+[isolated Unity attempts](../first-playable-props-unity/README.md) are separate
+partial evidence; they do not establish game import/material acceptance.
+
 Environment audited before construction: Blender **4.5.14 LTS**, embedded
 Python **3.11.15**, system Python **3.14.6**. GPU availability was audited
 locally; **all actual renders used CPU**, four threads. No GPU kernel or Unity
@@ -172,8 +176,9 @@ owner-proposed; game #56 currently defines narration/story flags, not a physical
 tin/inventory implementation. Dimensions, collider envelopes, anchors and
 prefab/state conventions still need agreement. The pinned game tree contains
 **no GLB/glTF importer**, despite GLB in the provisional contract. No game
-package or code was changed to mask that gap. Static Unity import/material
-behavior remains **not tested**.
+package or code was changed to mask that gap. Import into the game project and
+realtime URP appearance remain **not tested**; the separate isolated probe
+provides only the partial geometry/material-data evidence linked above.
 
 Recommendation: **GO for owner visual review of these two proofs; hold the
 remaining three assets and game integration.** Ask Claude to acknowledge the

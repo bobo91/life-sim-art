@@ -1,0 +1,38 @@
+{
+  "schema": "props-isolated-unity-import-attempt-1",
+  "date": "2026-10-25",
+  "status": "blocked-before-import",
+  "unityVersionRequested": "6000.5.8f1",
+  "packagesPreparedOnly": {
+    "com.unity.cloud.gltfast": "6.20.0",
+    "com.unity.render-pipelines.universal": "17.5.0"
+  },
+  "launch": {
+    "mode": "-batchmode -nographics; isolated project under art workspace",
+    "attempts": 1,
+    "exitCode": 198,
+    "elapsedSeconds": 1.804,
+    "failure": "This Unity process could not obtain a valid Editor/headless license and exited before import.",
+    "logMessage": "No valid Unity Editor license found. Please activate your license.",
+    "interpretation": "This does not establish the licensing state outside the restricted process. No activation, credential changes, permission workaround or second launch was attempted."
+  },
+  "actualResults": {
+    "existingUnityEditorConflict": false,
+    "originalAndCopiedGlbHashesUnchanged": true,
+    "unityResultReportProduced": false,
+    "packageResolutionVerified": false,
+    "checkerCompilationVerified": false,
+    "glbImportVerified": false,
+    "urpMaterialsVerified": false,
+    "collidersVerified": false,
+    "saveReopenVerified": false,
+    "screenshotsRendered": false,
+    "gameFilesChanged": false
+  },
+  "assets": {
+    "prop_mailbox_001": "b243a55a5d92da3cd3a51c3957d0b1e1f1b9737ad8f6ed988121bae69e654698",
+    "prop_cafe_table_001": "6e122d9a172952fe237e9b24fe9c94b4eff70151e346f3ead95803a86a71ee54"
+  },
+  "privacy": "Raw command and Unity logs remain local under build/first-playable-props-unity/probe-001 and must not be uploaded: they contain host and licensing metadata.",
+  "scope": "No game integration, contract acceptance, production collider, new model, screenshot, external contact or merge."
+}

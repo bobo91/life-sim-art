@@ -1,0 +1,191 @@
+{
+  "schema": "props-isolated-unity-import-attempt-1",
+  "attempt": 2,
+  "date": "2026-10-25",
+  "status": "partial-import-verified-checker-failed",
+  "scope": "Isolated static props-only project in art workspace; no game project/code edits, integration, rendered screenshots or contract acceptance.",
+  "launch": {
+    "mode": "Authorized normal host Unity batchmode with -nographics and existing entitlement only. No activation or credential changes.",
+    "unityVersion": "6000.5.8f1",
+    "exitCode": 1,
+    "elapsedSeconds": 69.474,
+    "probeCount": 1,
+    "previousRestrictedAttempt": "attempt-001.json",
+    "noFurtherLaunches": true
+  },
+  "provenance": {
+    "testedChecker": "scripts/PropsStaticGlbImportCheck.cs",
+    "checkerSHA256": "a8346acf5d8c07fe5ea25baf70dfa8940612041887f25ee03e295c4530664744",
+    "testedHost": "scripts/run_props_static_glb_import.py",
+    "hostSHA256": "aa0ac28bca8855b63fe41a3214d08a8738404a008cb8e3c85ba41e8408abda1e",
+    "exactUnityReport": "unity-import-report-002.json",
+    "unityReportSHA256": "93f5d29e54cf5ba8056fcfb3088c80fcc9c9f2ccf2b565fe86684b97194f494c",
+    "packageLockSHA256": "f6647444ca07c78c09f8b332a5476421929afb183dc9b49695ad421d03858fb6",
+    "expectedInputSHA256": "f80fcc4bb02a07097600044fe63e7cf34a59bc21f1f82ad991909d3156c2045a",
+    "sourcesMatchTestedHashes": true
+  },
+  "resolvedPackages": {
+    "com.unity.burst": {
+      "version": "1.8.30",
+      "source": "registry"
+    },
+    "com.unity.cloud.gltfast": {
+      "version": "6.20.0",
+      "source": "registry"
+    },
+    "com.unity.collections": {
+      "version": "6.5.0",
+      "source": "builtin"
+    },
+    "com.unity.ext.nunit": {
+      "version": "2.1.0",
+      "source": "builtin"
+    },
+    "com.unity.mathematics": {
+      "version": "1.4.0",
+      "source": "builtin"
+    },
+    "com.unity.nuget.mono-cecil": {
+      "version": "1.11.6",
+      "source": "registry"
+    },
+    "com.unity.render-pipelines.core": {
+      "version": "17.5.0",
+      "source": "builtin"
+    },
+    "com.unity.render-pipelines.universal": {
+      "version": "17.5.0",
+      "source": "builtin"
+    },
+    "com.unity.render-pipelines.universal-config": {
+      "version": "17.5.0",
+      "source": "builtin"
+    },
+    "com.unity.searcher": {
+      "version": "4.9.5",
+      "source": "registry"
+    },
+    "com.unity.shadergraph": {
+      "version": "17.5.0",
+      "source": "builtin"
+    },
+    "com.unity.test-framework": {
+      "version": "1.7.0",
+      "source": "builtin"
+    },
+    "com.unity.test-framework.performance": {
+      "version": "3.5.0",
+      "source": "registry"
+    },
+    "com.unity.modules.imgui": {
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.jsonserialize": {
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.physics": {
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.terrain": {
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.unitywebrequest": {
+      "version": "1.0.0",
+      "source": "builtin"
+    }
+  },
+  "actualChecks": {
+    "checkerCompiled": true,
+    "editorGlbImportOccurred": true,
+    "importerTypes": [
+      "GLTFast.Editor.GltfImporter"
+    ],
+    "renderPipelineAsset": "UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset",
+    "graphicsDevice": "Null",
+    "originalsAndStagedCopiesUnchanged": true,
+    "importedGlbFilesPresent": true,
+    "importedGlbHashesMatch": true,
+    "geometryScalePivotAndMailboxForwardChecksPassed": true,
+    "allEightPbrMaterialPropertiesMatch": true,
+    "allEightShadersSupportedAndNoReportedShaderErrors": true,
+    "shaderName": "Shader Graphs/glTF-pbrMetallicRoughness",
+    "pipelineTagAcceptancePassed": false,
+    "reportedSceneSaveReopenAcceptancePassed": false,
+    "screenshotsRendered": false,
+    "gameCollisionBehaviorTested": false,
+    "claudeContractAccepted": false
+  },
+  "assets": {
+    "prop_mailbox_001": {
+      "sourceAndImportedSHA256": "b243a55a5d92da3cd3a51c3957d0b1e1f1b9737ad8f6ed988121bae69e654698",
+      "dimensionsMeters": [
+        0.36000001430511475,
+        1.4299999475479126,
+        0.6200000047683716
+      ],
+      "triangles": 2324,
+      "meshCount": 1,
+      "materialSlots": 4,
+      "rootScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "frontNearestVertexErrorMeters": 0.0,
+      "proposedTestColliderCenter": [
+        0.0,
+        0.7149999737739563,
+        0.0
+      ],
+      "proposedTestColliderSize": [
+        0.36000001430511475,
+        1.4299999475479126,
+        0.6200000047683716
+      ],
+      "colliderAgreement": "Not approved; test-scene envelope only."
+    },
+    "prop_cafe_table_001": {
+      "sourceAndImportedSHA256": "6e122d9a172952fe237e9b24fe9c94b4eff70151e346f3ead95803a86a71ee54",
+      "dimensionsMeters": [
+        0.7799999713897705,
+        0.7400000095367432,
+        0.7799999713897705
+      ],
+      "triangles": 856,
+      "meshCount": 1,
+      "materialSlots": 4,
+      "rootScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "frontNearestVertexErrorMeters": -1.0,
+      "proposedTestColliderCenter": [
+        0.0,
+        0.3700000047683716,
+        0.0
+      ],
+      "proposedTestColliderSize": [
+        0.7799999713897705,
+        0.7400000095367432,
+        0.7799999713897705
+      ],
+      "colliderAgreement": "Not approved; test-scene envelope only."
+    }
+  },
+  "actualFailure": {
+    "materialTagResult": "All eight Material.GetTag(RenderPipeline,false) values were empty; strict comparison to UniversalPipeline failed.",
+    "materialTagInterpretation": "The imported official shadergraph declares UniversalTarget and HDTarget. Empty selected-subshader tag under Null graphics does not establish an invalid URP shader. Actual URP appearance remains unverified.",
+    "sceneFlagInterpretation": "The checker reached save/open without exception, but repeated the same failing material-tag assertion after reopening. Its combined scene acceptance flag is false; no complete persistence pass is claimed.",
+    "overallCheckerErrors": [
+      "One or more imported props failed",
+      "Save/reopen mismatch"
+    ],
+    "completePassClaimed": false
+  },
+  "privacy": "Exact Unity result JSON scanned before copying: no private host paths, IP addresses or licensing identifiers. Raw command/licensing logs remain local and are not included."
+}

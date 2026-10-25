@@ -1,0 +1,258 @@
+{
+  "schema": "props-isolated-unity-glb-import-1",
+  "unityVersion": "6000.5.8f1",
+  "status": "failed",
+  "renderPipeline": "UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset",
+  "gltfastVersion": "6.20.0",
+  "urpVersion": "17.5.0",
+  "graphicsDevice": "Null",
+  "sceneSavedAndReopened": false,
+  "importedFilesUnchanged": true,
+  "screenshotsRendered": false,
+  "assets": [
+    {
+      "id": "prop_mailbox_001",
+      "importer": "GLTFast.Editor.GltfImporter",
+      "status": "failed",
+      "dimensions": [
+        0.36000001430511475,
+        1.4299999475479126,
+        0.6200000047683716
+      ],
+      "boundsMin": [
+        -0.18000000715255737,
+        0.0,
+        -0.3100000023841858
+      ],
+      "boundsMax": [
+        0.18000000715255737,
+        1.4299999475479126,
+        0.3100000023841858
+      ],
+      "rootScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshCount": 1,
+      "triangles": 2324,
+      "materialCount": 4,
+      "indicesValid": true,
+      "finiteVerticesNormals": true,
+      "dimensionsMatch": true,
+      "bottomCenterPivot": true,
+      "unitScale": true,
+      "mailboxFrontPositiveZ": true,
+      "frontNearestVertex": 0.0,
+      "materials": [
+        {
+          "name": "prop_mailbox_001__paint",
+          "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+          "pipelineTag": "",
+          "color": [
+            0.20392149686813354,
+            0.2901960015296936,
+            0.28235286474227905,
+            1.0
+          ],
+          "metallic": 0.30000001192092896,
+          "roughness": 0.6200000047683716,
+          "propertiesMatch": true,
+          "shaderHasError": false,
+          "shaderSupported": true
+        },
+        {
+          "name": "prop_mailbox_001__edge",
+          "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+          "pipelineTag": "",
+          "color": [
+            0.7176470160484314,
+            0.6823529005050659,
+            0.584313690662384,
+            1.0
+          ],
+          "metallic": 0.11999999731779099,
+          "roughness": 0.7799999713897705,
+          "propertiesMatch": true,
+          "shaderHasError": false,
+          "shaderSupported": true
+        },
+        {
+          "name": "prop_mailbox_001__wood",
+          "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+          "pipelineTag": "",
+          "color": [
+            0.5450979471206665,
+            0.3882352113723755,
+            0.2941175699234009,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.8199999928474426,
+          "propertiesMatch": true,
+          "shaderHasError": false,
+          "shaderSupported": true
+        },
+        {
+          "name": "prop_mailbox_001__accent",
+          "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+          "pipelineTag": "",
+          "color": [
+            0.725490152835846,
+            0.42352932691574097,
+            0.31372541189193726,
+            1.0
+          ],
+          "metallic": 0.2199999988079071,
+          "roughness": 0.6499999761581421,
+          "propertiesMatch": true,
+          "shaderHasError": false,
+          "shaderSupported": true
+        }
+      ],
+      "proposedColliderCenter": [
+        0.0,
+        0.7149999737739563,
+        0.0
+      ],
+      "proposedColliderSize": [
+        0.36000001430511475,
+        1.4299999475479126,
+        0.6200000047683716
+      ],
+      "errors": [
+        "Material/shader mismatch: prop_mailbox_001__paint",
+        "Material/shader mismatch: prop_mailbox_001__edge",
+        "Material/shader mismatch: prop_mailbox_001__wood",
+        "Material/shader mismatch: prop_mailbox_001__accent"
+      ]
+    },
+    {
+      "id": "prop_cafe_table_001",
+      "importer": "GLTFast.Editor.GltfImporter",
+      "status": "failed",
+      "dimensions": [
+        0.7799999713897705,
+        0.7400000095367432,
+        0.7799999713897705
+      ],
+      "boundsMin": [
+        -0.38999998569488525,
+        0.0,
+        -0.38999998569488525
+      ],
+      "boundsMax": [
+        0.38999998569488525,
+        0.7400000095367432,
+        0.38999998569488525
+      ],
+      "rootScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshCount": 1,
+      "triangles": 856,
+      "materialCount": 4,
+      "indicesValid": true,
+      "finiteVerticesNormals": true,
+      "dimensionsMatch": true,
+      "bottomCenterPivot": true,
+      "unitScale": true,
+      "mailboxFrontPositiveZ": true,
+      "frontNearestVertex": -1.0,
+      "materials": [
+        {
+          "name": "prop_cafe_table_001__wood",
+          "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+          "pipelineTag": "",
+          "color": [
+            0.6470587849617004,
+            0.48627448081970215,
+            0.34509795904159546,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.7400000095367432,
+          "propertiesMatch": true,
+          "shaderHasError": false,
+          "shaderSupported": true
+        },
+        {
+          "name": "prop_cafe_table_001__woodVariation",
+          "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+          "pipelineTag": "",
+          "color": [
+            0.6823529005050659,
+            0.5254900455474854,
+            0.3843136429786682,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.7599999904632568,
+          "propertiesMatch": true,
+          "shaderHasError": false,
+          "shaderSupported": true
+        },
+        {
+          "name": "prop_cafe_table_001__woodEdge",
+          "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+          "pipelineTag": "",
+          "color": [
+            0.5450979471206665,
+            0.3882352113723755,
+            0.2941175699234009,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.8100000023841858,
+          "propertiesMatch": true,
+          "shaderHasError": false,
+          "shaderSupported": true
+        },
+        {
+          "name": "prop_cafe_table_001__metal",
+          "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+          "pipelineTag": "",
+          "color": [
+            0.20392149686813354,
+            0.2901960015296936,
+            0.28235286474227905,
+            1.0
+          ],
+          "metallic": 0.44999998807907104,
+          "roughness": 0.6399999856948853,
+          "propertiesMatch": true,
+          "shaderHasError": false,
+          "shaderSupported": true
+        }
+      ],
+      "proposedColliderCenter": [
+        0.0,
+        0.3700000047683716,
+        0.0
+      ],
+      "proposedColliderSize": [
+        0.7799999713897705,
+        0.7400000095367432,
+        0.7799999713897705
+      ],
+      "errors": [
+        "Material/shader mismatch: prop_cafe_table_001__wood",
+        "Material/shader mismatch: prop_cafe_table_001__woodVariation",
+        "Material/shader mismatch: prop_cafe_table_001__woodEdge",
+        "Material/shader mismatch: prop_cafe_table_001__metal"
+      ]
+    }
+  ],
+  "errors": [
+    "One or more imported props failed",
+    "Save/reopen mismatch"
+  ],
+  "limitations": [
+    "Isolated art-workspace test only; Claude has not accepted the game import contract.",
+    "No screenshot/render was performed; Null graphics cannot prove realtime URP appearance.",
+    "Proposed collider boxes are test-scene envelopes only, not approved game collisions.",
+    "No animation, gameplay, runtime GLB loader, LOD or game integration test."
+  ]
+}

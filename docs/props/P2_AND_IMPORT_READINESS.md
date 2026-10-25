@@ -46,7 +46,12 @@ differs from issue51's prompt-from5m wording;5m currently means a HUD marker.
 Claude must reconcile and verify this in the standalone player. The flag is
 decorative/contextual and cannot be the sole interaction signal.
 
-An isolated art-workspace Unity import probe may supply technical evidence,
-but cannot approve a package choice, gameplay collider or UI behavior in the
-game repository. No game code, game package or integration is changed here.
+The isolated [Unity evidence](../../evidence/first-playable-props-unity/README.md)
+now records two attempts: the restricted launch stopped at licensing; the
+authorized host launch actually imported both GLBs with correct geometry,
+scale/pivot/forward and material property values. Its overall checker failed
+on an empty pipeline tag under Null graphics. No complete pass, URP appearance
+or independent Unity save/reopen acceptance is claimed. This partial evidence
+cannot approve a package choice, gameplay collider or UI behavior in the game
+repository. No game code, game package or integration is changed here.
 No merge; counter/chair/tin remain on hold.
