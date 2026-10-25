@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.0",
+  "requestId": "CAFE-ENVIRONMENT-PACK",
+  "assetId": "prop_cafe_counter_001",
+  "version": "0.1.0",
+  "category": "prop",
+  "generator": "cafe_counter",
+  "seed": 5511,
+  "dimensionsMeters": [1.6, 1.02, 0.65],
+  "maxTriangles": 3500,
+  "blenderVersion": "4.5.14",
+  "preview": {"resolution": 640, "samples": 48},
+  "palette": {
+    "wood": {"color": "#A57C58", "roughness": 0.74, "metallic": 0.0},
+    "woodVariation": {"color": "#AE8662", "roughness": 0.76, "metallic": 0.0},
+    "woodEdge": {"color": "#8B634B", "roughness": 0.81, "metallic": 0.0},
+    "metal": {"color": "#526960", "roughness": 0.75, "metallic": 0.08}
+  },
+  "geometry": {
+    "topThicknessMeters": 0.055,
+    "topCornerRadiusMeters": 0.055,
+    "frontPanels": 3,
+    "rearShelfBays": 2,
+    "rearShelfHeightsMeters": [0.145, 0.525]
+  },
+  "authoringNotes": {
+    "dimensionsStatus": "Art proposal; exact measured Unity XYZ width/height/depth, not a canonical gameplay contract",
+    "design": "Warm rounded three-plank worktop, broad framed sage customer front, recessed timber kick base and open rear two-bay shelves",
+    "pivot": "Bottom-center, meters, identity root scale",
+    "forward": "Customer face Blender -Y / GLB +Z; service shelves face the rear",
+    "scope": "Static modular cafe service furniture; no doors, cash register, interaction or gameplay state"
+  },
+  "collisionProposal": {
+    "status": "Proposed only; game owns acceptance and route checks",
+    "type": "BoxCollider",
+    "centerUnityXYZ": [0, 0.51, 0],
+    "sizeUnityXYZ": [1.6, 1.02, 0.65],
+    "notes": "Conservative full footprint; shelf access has no gameplay behavior. Keep service aisle at rear."
+  }
+}

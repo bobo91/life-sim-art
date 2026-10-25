@@ -1,0 +1,75 @@
+{
+  "triangles": 1732,
+  "vertices": 896,
+  "nonManifoldEdges": 0,
+  "looseVertices": 0,
+  "degenerateFaces": 0,
+  "duplicateFaces": 0,
+  "nonFiniteVertices": 0,
+  "signedVolumeCubicMetersSum": 0.3485025972448454,
+  "closedConstructionComponents": 15,
+  "limitations": [
+    "Closed construction components intentionally meet/overlap at attachments; no exhaustive solid-intersection proof.",
+    "No collider or runtime interaction is included."
+  ],
+  "sourceDimensionsBlenderXYZ": [
+    1.600000023841858,
+    0.6499999761581421,
+    1.0199999809265137
+  ],
+  "materials": [
+    "prop_cafe_counter_001__wood",
+    "prop_cafe_counter_001__woodVariation",
+    "prop_cafe_counter_001__woodEdge",
+    "prop_cafe_counter_001__metal"
+  ],
+  "customProperties": {
+    "assetId": "prop_cafe_counter_001",
+    "seed": "5511",
+    "generator": "scripts/props_cafe_furniture.py:build_cafe_counter",
+    "provenance": "Original procedural vertices/materials; no external content",
+    "constructionParts": "[\"recessed_kick_plinth\", \"front_sage_carcass\", \"sage_side_-1\", \"sage_side_1\", \"rear_bottom_shelf\", \"rear_middle_shelf\", \"two_bay_center_divider\", \"raised_front_panel_-0.465\", \"raised_front_panel_0\", \"raised_front_panel_0.465\", \"lower_timber_rail\", \"upper_timber_rail\", \"rounded_timber_countertop_1\", \"rounded_timber_countertop_2\", \"rounded_timber_countertop_3\"]",
+    "constructionNotes": "Rounded three-plank solid top; raised sage customer panels; open rear shelves. Individually closed components intentionally overlap at structural joints.",
+    "sourceAxes": "Blender Z-up / -Y-forward; GLB +Y-up / +Z-forward"
+  },
+  "previewCameras": {
+    "front": {
+      "orthoScale": 1.8880000114440918,
+      "location": [
+        0.0,
+        -3.0,
+        0.5099995136260986
+      ],
+      "framing": {
+        "xywhPixelsBottomLeft": [
+          48.81,
+          147.12,
+          542.37,
+          345.76
+        ],
+        "insideFrame": true
+      }
+    },
+    "isometric": {
+      "orthoScale": 1.9399622678756714,
+      "location": [
+        2.27846622467041,
+        -2.2784667015075684,
+        2.8326668739318848
+      ],
+      "framing": {
+        "xywhPixelsBottomLeft": [
+          65.3,
+          48.81,
+          509.39,
+          542.37
+        ],
+        "insideFrame": true
+      }
+    }
+  },
+  "saveReopenExactGeometry": true,
+  "glbRoundtripExactPositions5DecimalsAndTriangles": true,
+  "glbImportedMeshCount": 1,
+  "positionSignatureSHA256": "63d3fe7aeeef5ba558bdbfec4bbfababf45d028a43dad7d16e070968227843f9"
+}

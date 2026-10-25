@@ -1,0 +1,262 @@
+{
+  "schemaVersion": "1.0",
+  "assetId": "prop_cafe_counter_001",
+  "version": "0.1.0",
+  "requestId": "CAFE-ENV-001",
+  "units": "meters",
+  "pivot": "bottom-center",
+  "axes": {
+    "sourceUp": "+Z",
+    "sourceForward": "-Y",
+    "exportUp": "+Y",
+    "exportForward": "+Z"
+  },
+  "dimensionsMeters": [
+    1.6,
+    1.02,
+    0.65
+  ],
+  "seed": 5511,
+  "config": {
+    "schemaVersion": "1.0",
+    "requestId": "CAFE-ENVIRONMENT-PACK",
+    "assetId": "prop_cafe_counter_001",
+    "version": "0.1.0",
+    "category": "prop",
+    "generator": "cafe_counter",
+    "seed": 5511,
+    "dimensionsMeters": [
+      1.6,
+      1.02,
+      0.65
+    ],
+    "maxTriangles": 3500,
+    "blenderVersion": "4.5.14",
+    "preview": {
+      "resolution": 640,
+      "samples": 48
+    },
+    "palette": {
+      "wood": {
+        "color": "#A57C58",
+        "roughness": 0.74,
+        "metallic": 0.0
+      },
+      "woodVariation": {
+        "color": "#AE8662",
+        "roughness": 0.76,
+        "metallic": 0.0
+      },
+      "woodEdge": {
+        "color": "#8B634B",
+        "roughness": 0.81,
+        "metallic": 0.0
+      },
+      "metal": {
+        "color": "#526960",
+        "roughness": 0.75,
+        "metallic": 0.08
+      }
+    },
+    "geometry": {
+      "topThicknessMeters": 0.055,
+      "topCornerRadiusMeters": 0.055,
+      "frontPanels": 3,
+      "rearShelfBays": 2,
+      "rearShelfHeightsMeters": [
+        0.145,
+        0.525
+      ]
+    },
+    "authoringNotes": {
+      "dimensionsStatus": "Art proposal; exact measured Unity XYZ width/height/depth, not a canonical gameplay contract",
+      "design": "Warm rounded three-plank worktop, broad framed sage customer front, recessed timber kick base and open rear two-bay shelves",
+      "pivot": "Bottom-center, meters, identity root scale",
+      "forward": "Customer face Blender -Y / GLB +Z; service shelves face the rear",
+      "scope": "Static modular cafe service furniture; no doors, cash register, interaction or gameplay state"
+    },
+    "collisionProposal": {
+      "status": "Proposed only; game owns acceptance and route checks",
+      "type": "BoxCollider",
+      "centerUnityXYZ": [
+        0,
+        0.51,
+        0
+      ],
+      "sizeUnityXYZ": [
+        1.6,
+        1.02,
+        0.65
+      ],
+      "notes": "Conservative full footprint; shelf access has no gameplay behavior. Keep service aisle at rear."
+    }
+  },
+  "configSHA256": "e25091273e8bab01b7bab1c52b74081be4a649c788a075a49a542b6a995670d8",
+  "sourceCommit": "02d92463f142d83e3253c395c416e6cbba3ba5dd",
+  "sourceDirty": true,
+  "sourceFilesSHA256": {
+    "scripts/build_cafe_environment.py": "7d4fa5c65c7e24ee3d138837a026fd32bead0f2aa8a14175fa4dacb40f37e948",
+    "scripts/run_cafe_environment.py": "4d94ea96d937dedb51ac6cb5d9317e0235bade7f96a668dc79bc525d971090a8",
+    "scripts/props_cafe_furniture.py": "b02063e8b6eca131320e292d506156a1ee5c36a2a5e1d30edd3ba7d3a7b85ad5",
+    "scripts/props_cafe_smallwares.py": "bbe1fff8004420f7266730aa013e7d713a05edd3ee93c0324d849221b2021d86",
+    "scripts/props_cafe_softgoods.py": "b62ca947351621176a845be1ed7a325e6f36ce1b9bac374703721beead6d9082",
+    "scripts/build_first_playable_props.py": "6f762c89dc039198453f7346b57808e985a6602bb8b7fffbb9abb9503d342c5e",
+    "scripts/props_cafe_table.py": "159a0e3bb788c133f20f86a3bb4bfb51bed659500cae89e2d5c6ef0fc5f7df3f",
+    "scripts/props_mailbox.py": "b76d773d1cdd9e5d0470d9a5f0d2784b5be92ef608e0a55f20873521f272f63c",
+    "art_pipeline/blender_build.py": "1602b3acbb5ba96e956cfb23e605e49b351cb803b0aa3f2ee4aed226fa4511eb",
+    "art_pipeline/validation.py": "516335248f5cdf7f3430da86045c8902342395a458ec52dc6132129086b67e55",
+    "art_pipeline/config.py": "3faa2389bdbb4e377bc2e9154526274bcd4360a837ea94912116526e066b78a9",
+    "art_pipeline/cli.py": "ad9ac05777328ed59879fc83ab064700632a3012b55f543fc5b6d4fe4c2bed46",
+    "art_pipeline/benchmark_checks.py": "94a9a56e0811755350f5a85646a98c3746b9eeebbf2023822ea32b5280f04ce8"
+  },
+  "sourceIdentityNote": "Exact source/config hashes identify dirty local authoring; final PR versions the identical bytes.",
+  "model": {
+    "file": "prop_cafe_counter_001.glb",
+    "sha256": "5b55299d1d53167268ecccbfc64448b7a8446087815b981d974163b40b14d71e",
+    "bytes": 98888
+  },
+  "geometry": {
+    "sha256": "5b55299d1d53167268ecccbfc64448b7a8446087815b981d974163b40b14d71e",
+    "bytes": 98888,
+    "triangles": 1732,
+    "vertices": 3538,
+    "meshInstances": 1,
+    "materials": [
+      "prop_cafe_counter_001__wood",
+      "prop_cafe_counter_001__woodVariation",
+      "prop_cafe_counter_001__woodEdge",
+      "prop_cafe_counter_001__metal"
+    ],
+    "materialCount": 4,
+    "bounds": {
+      "min": [
+        -0.800000011920929,
+        0.0,
+        -0.32499998807907104
+      ],
+      "max": [
+        0.800000011920929,
+        1.0199999809265137,
+        0.32499998807907104
+      ]
+    },
+    "dimensionsMeters": [
+      1.600000023841858,
+      1.0199999809265137,
+      0.6499999761581421
+    ],
+    "pivotErrorMeters": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "windingNormalsConsistent": true,
+    "coordinateSystem": {
+      "up": "+Y",
+      "forward": "+Z",
+      "units": "meters"
+    }
+  },
+  "blenderMeshHealth": {
+    "triangles": 1732,
+    "vertices": 896,
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "duplicateFaces": 0,
+    "nonFiniteVertices": 0,
+    "signedVolumeCubicMetersSum": 0.3485025972448454,
+    "closedConstructionComponents": 15,
+    "limitations": [
+      "Closed construction components intentionally meet/overlap at attachments; no exhaustive solid-intersection proof.",
+      "No collider or runtime interaction is included."
+    ],
+    "sourceDimensionsBlenderXYZ": [
+      1.600000023841858,
+      0.6499999761581421,
+      1.0199999809265137
+    ],
+    "materials": [
+      "prop_cafe_counter_001__wood",
+      "prop_cafe_counter_001__woodVariation",
+      "prop_cafe_counter_001__woodEdge",
+      "prop_cafe_counter_001__metal"
+    ],
+    "customProperties": {
+      "assetId": "prop_cafe_counter_001",
+      "seed": "5511",
+      "generator": "scripts/props_cafe_furniture.py:build_cafe_counter",
+      "provenance": "Original procedural vertices/materials; no external content",
+      "constructionParts": "[\"recessed_kick_plinth\", \"front_sage_carcass\", \"sage_side_-1\", \"sage_side_1\", \"rear_bottom_shelf\", \"rear_middle_shelf\", \"two_bay_center_divider\", \"raised_front_panel_-0.465\", \"raised_front_panel_0\", \"raised_front_panel_0.465\", \"lower_timber_rail\", \"upper_timber_rail\", \"rounded_timber_countertop_1\", \"rounded_timber_countertop_2\", \"rounded_timber_countertop_3\"]",
+      "constructionNotes": "Rounded three-plank solid top; raised sage customer panels; open rear shelves. Individually closed components intentionally overlap at structural joints.",
+      "sourceAxes": "Blender Z-up / -Y-forward; GLB +Y-up / +Z-forward"
+    },
+    "previewCameras": {
+      "front": {
+        "orthoScale": 1.8880000114440918,
+        "location": [
+          0.0,
+          -3.0,
+          0.5099995136260986
+        ],
+        "framing": {
+          "xywhPixelsBottomLeft": [
+            48.81,
+            147.12,
+            542.37,
+            345.76
+          ],
+          "insideFrame": true
+        }
+      },
+      "isometric": {
+        "orthoScale": 1.9399622678756714,
+        "location": [
+          2.27846622467041,
+          -2.2784667015075684,
+          2.8326668739318848
+        ],
+        "framing": {
+          "xywhPixelsBottomLeft": [
+            65.3,
+            48.81,
+            509.39,
+            542.37
+          ],
+          "insideFrame": true
+        }
+      }
+    },
+    "saveReopenExactGeometry": true,
+    "glbRoundtripExactPositions5DecimalsAndTriangles": true,
+    "glbImportedMeshCount": 1,
+    "positionSignatureSHA256": "63d3fe7aeeef5ba558bdbfec4bbfababf45d028a43dad7d16e070968227843f9"
+  },
+  "sourceBlend": {
+    "file": "prop_cafe_counter_001.blend",
+    "sha256": "5933298261ddc12f2141435257d0ceb4d5756f9b9c13e8440d30d29fda6f6a58"
+  },
+  "previews": {
+    "front": {
+      "file": "front.png",
+      "sha256": "82507297355329b447198602e04e1d22618e581eea30d4af2e4fca6e8e005237"
+    },
+    "isometric": {
+      "file": "isometric.png",
+      "sha256": "338a16053a8a210951b8cd5ece1b36fb707223c043411a855926a6ebd8fe6882"
+    }
+  },
+  "provenance": {
+    "method": "original-procedural-blender-python",
+    "thirdPartyAssets": [],
+    "license": "original-project-content"
+  },
+  "tooling": {
+    "blender": "4.5.14",
+    "engine": "Cycles",
+    "device": "CPU",
+    "threads": 4
+  },
+  "command": "python scripts/run_cafe_environment.py --blender <Blender-4.5.14> --output <new-workspace-directory>",
+  "status": "quality-review-only; no Unity integration or accepted gameplay contract"
+}

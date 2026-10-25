@@ -1,0 +1,75 @@
+{
+  "triangles": 904,
+  "vertices": 468,
+  "nonManifoldEdges": 0,
+  "looseVertices": 0,
+  "degenerateFaces": 0,
+  "duplicateFaces": 0,
+  "nonFiniteVertices": 0,
+  "signedVolumeCubicMetersSum": 0.003375245735437768,
+  "closedConstructionComponents": 8,
+  "limitations": [
+    "Closed construction components intentionally meet/overlap at attachments; no exhaustive solid-intersection proof.",
+    "No collider or runtime interaction is included."
+  ],
+  "sourceDimensionsBlenderXYZ": [
+    0.14000000059604645,
+    0.10999999940395355,
+    0.1899999976158142
+  ],
+  "materials": [
+    "prop_tin_001__cream",
+    "prop_tin_001__terracotta",
+    "prop_tin_001__brass",
+    "prop_tin_001__sage"
+  ],
+  "customProperties": {
+    "assetId": "prop_tin_001",
+    "generator": "scripts/props_cafe_smallwares.py:build_tin",
+    "seed": "6103",
+    "provenance": "Original procedural vertices/materials; no external content",
+    "constructionParts": "[\"rolled_bottom_rim\", \"cream_tin_shell\", \"broad_terracotta_band\", \"brass_lid_rolled_rim\", \"sage_lid\", \"cream_oval_seal\", \"sage_leaf_left\", \"sage_leaf_right\"]",
+    "constructionNotes": "Closed construction shells intentionally overlap at attachments; no exhaustive solid-intersection proof.",
+    "sourceAxes": "Blender Z-up / -Y-forward; export +Y-up/+Z-forward"
+  },
+  "previewCameras": {
+    "front": {
+      "orthoScale": 0.22420001029968262,
+      "location": [
+        0.0,
+        -3.0,
+        0.09499950706958771
+      ],
+      "framing": {
+        "xywhPixelsBottomLeft": [
+          120.18,
+          48.81,
+          399.64,
+          542.37
+        ],
+        "insideFrame": true
+      }
+    },
+    "isometric": {
+      "orthoScale": 0.2906561493873596,
+      "location": [
+        2.298448324203491,
+        -2.2984490394592285,
+        2.3943026065826416
+      ],
+      "framing": {
+        "xywhPixelsBottomLeft": [
+          137.23,
+          48.81,
+          365.53,
+          542.37
+        ],
+        "insideFrame": true
+      }
+    }
+  },
+  "saveReopenExactGeometry": true,
+  "glbRoundtripExactPositions5DecimalsAndTriangles": true,
+  "glbImportedMeshCount": 1,
+  "positionSignatureSHA256": "738c0f2aec53862afc16c03a393f321112c6d3daf1f71aa26f1b4cf10d8e2fe4"
+}

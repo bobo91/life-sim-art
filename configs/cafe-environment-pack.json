@@ -1,0 +1,46 @@
+{
+  "schema": "willow-creek-cafe-environment-pack-1",
+  "packId": "cafe-environment-pack-001",
+  "version": "0.1.0",
+  "assets": ["prop_cafe_counter_001", "prop_cafe_chair_001", "prop_tin_001", "prop_cafe_cup_001", "prop_cafe_tablecloth_001", "prop_cafe_parasol_001"],
+  "sharedTable": {
+    "assetId": "prop_cafe_table_001",
+    "version": "0.1.0",
+    "approvedGlbSHA256": "6e122d9a172952fe237e9b24fe9c94b4eff70151e346f3ead95803a86a71ee54",
+    "newTableVariantMeshes": false
+  },
+  "camera": {"verticalFovDegrees": 40, "pitchDegrees": 50, "unityYawDegrees": 180, "focusHeightMeters": 1, "resolution": [1280, 720], "distancesMeters": [6, 16]},
+  "contractStatus": "Art authoring assumptions only; no game integration or accepted gameplay contract",
+  "productionAuthorization": "Owner explicitly authorizes independent art production while Claude lacks credits; supersedes earlier hold on remaining props. Import/gameplay decisions stay open.",
+  "assemblyCoordinates": "Unity meters, XYZ, +Y up, +Z front; rotations around Y in degrees",
+  "tableStates": {
+    "bare": {
+      "id": "assembly_cafe_table_bare_001",
+      "table": "prop_cafe_table_001",
+      "children": [
+        {"assetId": "prop_cafe_chair_001", "position": [-0.64, 0, 0], "yaw": 90},
+        {"assetId": "prop_cafe_chair_001", "position": [0.64, 0, 0], "yaw": -90}
+      ]
+    },
+    "set": {
+      "id": "assembly_cafe_table_set_001",
+      "table": "prop_cafe_table_001",
+      "children": [
+        {"assetId": "prop_cafe_chair_001", "position": [-0.64, 0, 0], "yaw": 90},
+        {"assetId": "prop_cafe_chair_001", "position": [0.64, 0, 0], "yaw": -90},
+        {"assetId": "prop_cafe_tablecloth_001", "position": [0, 0.571, 0], "positionRule": "underside0.741m, top0.743m; 1mm above approved table top"},
+        {"assetId": "prop_cafe_cup_001", "position": [-0.21, 0.7435, -0.08], "yaw": 90},
+        {"assetId": "prop_cafe_cup_001", "position": [0.21, 0.7435, 0.08], "yaw": -90},
+        {"assetId": "prop_cafe_parasol_001", "position": [0.95, 0, -0.60], "yaw": 0}
+      ]
+    }
+  },
+  "assumptions": [
+    "Table states are declarative composition recipes, not runtime state/prefab code. Both reference the same approved table mesh.",
+    "Chair seat height, seating clearance and navigation are proposals; no sitting animation or anchors are implemented.",
+    "Parasol is freestanding with its own weighted base; partial table overhang avoids drilling or modifying approved tabletop. Final placement/occlusion belongs to game review.",
+    "Cups and tin are decorative static objects; inventory, liquid interaction and tin opening are not implemented.",
+    "Cloth is a fixed original mesh fitted only to the approved0.78m table; not a universal cloth simulator.",
+    "Opaque PBR, identity root scale, bottom-center pivot, meters, +Y up/+Z forward on GLB export. Collision envelopes remain proposals."
+  ]
+}

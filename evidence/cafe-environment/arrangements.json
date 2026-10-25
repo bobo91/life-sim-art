@@ -1,0 +1,661 @@
+{
+  "scope": "Actual Blender Cycles CPU preview; no Unity/game integration.",
+  "tableIdentity": {
+    "assetId": "prop_cafe_table_001",
+    "version": "0.1.0",
+    "approvedGlbSHA256": "6e122d9a172952fe237e9b24fe9c94b4eff70151e346f3ead95803a86a71ee54",
+    "newTableVariantMeshes": false
+  },
+  "instances": [
+    {
+      "object": "prop_cafe_table_001__bare",
+      "assetId": "prop_cafe_table_001",
+      "state": "bare",
+      "positionUnityXYZ": [
+        -1.2200000286102295,
+        0.0,
+        0.8500000238418579
+      ],
+      "yaw": 0
+    },
+    {
+      "object": "prop_cafe_chair_001__bare",
+      "assetId": "prop_cafe_chair_001",
+      "state": "bare",
+      "positionUnityXYZ": [
+        -1.8600000143051147,
+        0.0,
+        0.8500000238418579
+      ],
+      "yaw": 90
+    },
+    {
+      "object": "prop_cafe_chair_001__bare.001",
+      "assetId": "prop_cafe_chair_001",
+      "state": "bare",
+      "positionUnityXYZ": [
+        -0.5800000429153442,
+        0.0,
+        0.8500000238418579
+      ],
+      "yaw": -90
+    },
+    {
+      "object": "prop_cafe_table_001__set",
+      "assetId": "prop_cafe_table_001",
+      "state": "set",
+      "positionUnityXYZ": [
+        1.2200000286102295,
+        0.0,
+        0.8500000238418579
+      ],
+      "yaw": 0
+    },
+    {
+      "object": "prop_cafe_chair_001__set",
+      "assetId": "prop_cafe_chair_001",
+      "state": "set",
+      "positionUnityXYZ": [
+        0.5800000429153442,
+        0.0,
+        0.8500000238418579
+      ],
+      "yaw": 90
+    },
+    {
+      "object": "prop_cafe_chair_001__set.001",
+      "assetId": "prop_cafe_chair_001",
+      "state": "set",
+      "positionUnityXYZ": [
+        1.8600000143051147,
+        0.0,
+        0.8500000238418579
+      ],
+      "yaw": -90
+    },
+    {
+      "object": "prop_cafe_tablecloth_001__set",
+      "assetId": "prop_cafe_tablecloth_001",
+      "state": "set",
+      "positionUnityXYZ": [
+        1.2200000286102295,
+        0.5709999799728394,
+        0.8500000238418579
+      ],
+      "yaw": 0
+    },
+    {
+      "object": "prop_cafe_cup_001__set",
+      "assetId": "prop_cafe_cup_001",
+      "state": "set",
+      "positionUnityXYZ": [
+        1.0099999904632568,
+        0.7434999942779541,
+        0.7700000405311584
+      ],
+      "yaw": 90
+    },
+    {
+      "object": "prop_cafe_cup_001__set.001",
+      "assetId": "prop_cafe_cup_001",
+      "state": "set",
+      "positionUnityXYZ": [
+        1.4300000667572021,
+        0.7434999942779541,
+        0.9300000071525574
+      ],
+      "yaw": -90
+    },
+    {
+      "object": "prop_cafe_parasol_001__set",
+      "assetId": "prop_cafe_parasol_001",
+      "state": "set",
+      "positionUnityXYZ": [
+        2.1700000762939453,
+        0.0,
+        0.25
+      ],
+      "yaw": 0
+    },
+    {
+      "object": "prop_cafe_counter_001__display",
+      "assetId": "prop_cafe_counter_001",
+      "state": "display",
+      "positionUnityXYZ": [
+        0,
+        0,
+        -1.35
+      ],
+      "yaw": 0
+    },
+    {
+      "object": "prop_tin_001__display",
+      "assetId": "prop_tin_001",
+      "state": "display",
+      "positionUnityXYZ": [
+        -0.46,
+        1.0205,
+        -1.26
+      ],
+      "yaw": 0
+    },
+    {
+      "object": "prop_cafe_cup_001__display",
+      "assetId": "prop_cafe_cup_001",
+      "state": "display",
+      "positionUnityXYZ": [
+        0.47,
+        1.0205,
+        -1.28
+      ],
+      "yaw": 15
+    }
+  ],
+  "views": [
+    {
+      "file": "cafe_game_16m.png",
+      "distanceMeters": 16,
+      "verticalFovDegrees": 40,
+      "pitchDegrees": 50,
+      "unityYawDegrees": 180,
+      "focusHeightMeters": 1,
+      "resolution": [
+        1280,
+        720
+      ],
+      "allInsideFrame": true,
+      "assets": {
+        "prop_cafe_table_001__bare": {
+          "xywhPixelsBottomLeft": [
+            520.97,
+            270.58,
+            51.79,
+            56.84
+          ],
+          "insideFrame": true
+        },
+        "prop_cafe_chair_001__bare": {
+          "xywhPixelsBottomLeft": [
+            488.56,
+            269.75,
+            39.24,
+            53.46
+          ],
+          "insideFrame": true
+        },
+        "prop_cafe_chair_001__bare.001": {
+          "xywhPixelsBottomLeft": [
+            572.23,
+            269.75,
+            32.23,
+            53.46
+          ],
+          "insideFrame": true
+        },
+        "prop_cafe_table_001__set": {
+          "xywhPixelsBottomLeft": [
+            676.11,
+            270.58,
+            50.92,
+            56.84
+          ],
+          "insideFrame": true
+        },
+        "prop_cafe_chair_001__set": {
+          "xywhPixelsBottomLeft": [
+            644.66,
+            269.75,
+            31.73,
+            53.46
+          ],
+          "insideFrame": true
+        },
+        "prop_cafe_chair_001__set.001": {
+          "xywhPixelsBottomLeft": [
+            721.96,
+            269.75,
+            37.46,
+            53.46
+          ],
+          "insideFrame": true
+        },
+        "prop_cafe_tablecloth_001__set": {
+          "xywhPixelsBottomLeft": [
+            670.85,
+            277.83,
+            60.85,
+            50.57
+          ],
+          "insideFrame": true
+        },
+        "prop_cafe_cup_001__set": {
+          "xywhPixelsBottomLeft": [
+            682.92,
+            308.94,
+            9.97,
+            9.67
+          ],
+          "insideFrame": true
+        },
+        "prop_cafe_cup_001__set.001": {
+          "xywhPixelsBottomLeft": [
+            709.85,
+            300.8,
+            10.04,
+            9.6
+          ],
+          "insideFrame": true
+        },
+        "prop_cafe_parasol_001__set": {
+          "xywhPixelsBottomLeft": [
+            706.71,
+            300.18,
+            118.24,
+            131.46
+          ],
+          "insideFrame": true
+        },
+        "prop_cafe_counter_001__display": {
+          "xywhPixelsBottomLeft": [
+            577.75,
+            372.25,
+            94.85,
+            62.59
+          ],
+          "insideFrame": true
+        },
+        "prop_tin_001__display": {
+          "xywhPixelsBottomLeft": [
+            593.59,
+            415.42,
+            8.65,
+            12.23
+          ],
+          "insideFrame": true
+        },
+        "prop_cafe_cup_001__display": {
+          "xywhPixelsBottomLeft": [
+            648.31,
+            415.58,
+            9.28,
+            8.86
+          ],
+          "insideFrame": true
+        }
+      }
+    },
+    {
+      "file": "cafe_game_6m.png",
+      "distanceMeters": 6,
+      "verticalFovDegrees": 40,
+      "pitchDegrees": 50,
+      "unityYawDegrees": 180,
+      "focusHeightMeters": 1,
+      "resolution": [
+        1280,
+        720
+      ],
+      "allInsideFrame": true,
+      "assets": {
+        "prop_cafe_table_001__bare": {
+          "xywhPixelsBottomLeft": [
+            302.48,
+            123.21,
+            156.04,
+            149.08
+          ],
+          "insideFrame": true
+        },
+        "prop_cafe_chair_001__bare": {
+          "xywhPixelsBottomLeft": [
+            210.48,
+            121.2,
+            140.65,
+            137.59
+          ],
+          "insideFrame": true
+        },
+        "prop_cafe_chair_001__bare.001": {
+          "xywhPixelsBottomLeft": [
+            454.64,
+            121.2,
+            93.85,
+            137.59
+          ],
+          "insideFrame": true
+        },
+        "prop_cafe_table_001__set": {
+          "xywhPixelsBottomLeft": [
+            737.46,
+            123.21,
+            149.2,
+            149.08
+          ],
+          "insideFrame": true
+        },
+        "prop_cafe_chair_001__set": {
+          "xywhPixelsBottomLeft": [
+            652.54,
+            121.2,
+            87.0,
+            137.59
+          ],
+          "insideFrame": true
+        },
+        "prop_cafe_chair_001__set.001": {
+          "xywhPixelsBottomLeft": [
+            851.01,
+            121.2,
+            127.7,
+            137.59
+          ],
+          "insideFrame": true
+        },
+        "prop_cafe_tablecloth_001__set": {
+          "xywhPixelsBottomLeft": [
+            722.03,
+            127.85,
+            175.45,
+            147.44
+          ],
+          "insideFrame": true
+        },
+        "prop_cafe_cup_001__set": {
+          "xywhPixelsBottomLeft": [
+            758.33,
+            218.42,
+            27.51,
+            27.32
+          ],
+          "insideFrame": true
+        },
+        "prop_cafe_cup_001__set.001": {
+          "xywhPixelsBottomLeft": [
+            834.75,
+            193.9,
+            28.25,
+            27.01
+          ],
+          "insideFrame": true
+        },
+        "prop_cafe_parasol_001__set": {
+          "xywhPixelsBottomLeft": [
+            836.93,
+            207.51,
+            352.04,
+            350.72
+          ],
+          "insideFrame": true
+        },
+        "prop_cafe_counter_001__display": {
+          "xywhPixelsBottomLeft": [
+            484.63,
+            388.64,
+            236.76,
+            152.25
+          ],
+          "insideFrame": true
+        },
+        "prop_tin_001__display": {
+          "xywhPixelsBottomLeft": [
+            523.53,
+            497.43,
+            23.35,
+            31.46
+          ],
+          "insideFrame": true
+        },
+        "prop_cafe_cup_001__display": {
+          "xywhPixelsBottomLeft": [
+            660.55,
+            497.91,
+            22.92,
+            21.97
+          ],
+          "insideFrame": true
+        }
+      }
+    }
+  ],
+  "tableInstancesShareMeshData": true,
+  "targetedSurfaceIntersectionChecks": [
+    {
+      "a": "prop_cafe_tablecloth_001__set",
+      "b": "prop_cafe_table_001__set",
+      "triangleIntersections": 0
+    },
+    {
+      "a": "prop_cafe_cup_001__set",
+      "b": "prop_cafe_tablecloth_001__set",
+      "triangleIntersections": 0
+    },
+    {
+      "a": "prop_cafe_cup_001__set.001",
+      "b": "prop_cafe_tablecloth_001__set",
+      "triangleIntersections": 0
+    },
+    {
+      "a": "prop_cafe_chair_001__set",
+      "b": "prop_cafe_table_001__set",
+      "triangleIntersections": 0
+    },
+    {
+      "a": "prop_cafe_chair_001__set.001",
+      "b": "prop_cafe_table_001__set",
+      "triangleIntersections": 0
+    }
+  ],
+  "overviewFraming": {
+    "prop_cafe_table_001__bare": {
+      "xywhPixelsBottomLeft": [
+        187.74,
+        398.05,
+        249.9,
+        258.5
+      ],
+      "insideFrame": true
+    },
+    "prop_cafe_chair_001__bare": {
+      "xywhPixelsBottomLeft": [
+        101.71,
+        442.96,
+        161.26,
+        258.98
+      ],
+      "insideFrame": true
+    },
+    "prop_cafe_chair_001__bare.001": {
+      "xywhPixelsBottomLeft": [
+        362.4,
+        341.17,
+        161.26,
+        220.62
+      ],
+      "insideFrame": true
+    },
+    "prop_cafe_table_001__set": {
+      "xywhPixelsBottomLeft": [
+        683.52,
+        201.51,
+        249.9,
+        258.5
+      ],
+      "insideFrame": true
+    },
+    "prop_cafe_chair_001__set": {
+      "xywhPixelsBottomLeft": [
+        597.49,
+        246.42,
+        161.26,
+        258.98
+      ],
+      "insideFrame": true
+    },
+    "prop_cafe_chair_001__set.001": {
+      "xywhPixelsBottomLeft": [
+        858.19,
+        144.63,
+        161.26,
+        220.62
+      ],
+      "insideFrame": true
+    },
+    "prop_cafe_tablecloth_001__set": {
+      "xywhPixelsBottomLeft": [
+        653.77,
+        261.56,
+        309.4,
+        202.06
+      ],
+      "insideFrame": true
+    },
+    "prop_cafe_cup_001__set": {
+      "xywhPixelsBottomLeft": [
+        757.34,
+        404.68,
+        38.58,
+        35.67
+      ],
+      "insideFrame": true
+    },
+    "prop_cafe_cup_001__set.001": {
+      "xywhPixelsBottomLeft": [
+        821.01,
+        351.52,
+        38.58,
+        35.67
+      ],
+      "insideFrame": true
+    },
+    "prop_cafe_parasol_001__set": {
+      "xywhPixelsBottomLeft": [
+        867.26,
+        207.89,
+        431.03,
+        548.39
+      ],
+      "insideFrame": true
+    },
+    "prop_cafe_counter_001__display": {
+      "xywhPixelsBottomLeft": [
+        657.22,
+        523.55,
+        402.74,
+        381.82
+      ],
+      "insideFrame": true
+    },
+    "prop_tin_001__display": {
+      "xywhPixelsBottomLeft": [
+        732.55,
+        821.29,
+        40.77,
+        59.2
+      ],
+      "insideFrame": true
+    },
+    "prop_cafe_cup_001__display": {
+      "xywhPixelsBottomLeft": [
+        925.36,
+        750.28,
+        38.5,
+        35.63
+      ],
+      "insideFrame": true
+    }
+  },
+  "bareFraming": {
+    "prop_cafe_table_001__bare": {
+      "xywhPixelsBottomLeft": [
+        312.11,
+        159.74,
+        366.66,
+        379.28
+      ],
+      "insideFrame": true
+    },
+    "prop_cafe_chair_001__bare": {
+      "xywhPixelsBottomLeft": [
+        185.89,
+        225.63,
+        236.61,
+        379.99
+      ],
+      "insideFrame": true
+    },
+    "prop_cafe_chair_001__bare.001": {
+      "xywhPixelsBottomLeft": [
+        568.38,
+        76.28,
+        236.61,
+        323.7
+      ],
+      "insideFrame": true
+    }
+  },
+  "setFraming": {
+    "prop_cafe_table_001__set": {
+      "xywhPixelsBottomLeft": [
+        312.11,
+        159.74,
+        366.66,
+        379.28
+      ],
+      "insideFrame": true
+    },
+    "prop_cafe_chair_001__set": {
+      "xywhPixelsBottomLeft": [
+        185.89,
+        225.63,
+        236.61,
+        379.99
+      ],
+      "insideFrame": true
+    },
+    "prop_cafe_chair_001__set.001": {
+      "xywhPixelsBottomLeft": [
+        568.38,
+        76.28,
+        236.61,
+        323.7
+      ],
+      "insideFrame": true
+    },
+    "prop_cafe_tablecloth_001__set": {
+      "xywhPixelsBottomLeft": [
+        268.46,
+        247.85,
+        453.96,
+        296.47
+      ],
+      "insideFrame": true
+    },
+    "prop_cafe_cup_001__set": {
+      "xywhPixelsBottomLeft": [
+        420.43,
+        457.84,
+        56.61,
+        52.34
+      ],
+      "insideFrame": true
+    },
+    "prop_cafe_cup_001__set.001": {
+      "xywhPixelsBottomLeft": [
+        513.84,
+        379.84,
+        56.61,
+        52.34
+      ],
+      "insideFrame": true
+    },
+    "prop_cafe_parasol_001__set": {
+      "xywhPixelsBottomLeft": [
+        581.7,
+        169.11,
+        632.42,
+        804.61
+      ],
+      "insideFrame": true
+    }
+  }
+}
