@@ -36,6 +36,8 @@ jobs:
         run: |
           "$BLENDER_BIN" --background --factory-startup --offline-mode --disable-autoexec --threads 4 --python-exit-code 1 --python scripts/build_cafe_environment.py -- --output build/cafe-environment/ci-preflight --geometry-only
           python scripts/run_cafe_environment.py --blender "$BLENDER_BIN" --output build/cafe-environment/ci-review --preflight build/cafe-environment/ci-preflight
+          "$BLENDER_BIN" --background --factory-startup --offline-mode --disable-autoexec --threads 4 --python-exit-code 1 --python scripts/verify_cafe_cup_options.py -- --reference build/cafe-environment/ci-review --output build/cafe-environment/ci-cup-options
+          cp build/cafe-environment/ci-cup-options/coffee-options-verification.json build/cafe-environment/ci-review/
           python scripts/compose_cafe_environment.py --input build/cafe-environment/ci-review --output build/cafe-environment/ci-sheets --font default
           python scripts/package_cafe_environment.py --input build/cafe-environment/ci-review --sheets build/cafe-environment/ci-sheets --output build/artifacts/cafe-environment-pack-v0.1.0-review.1.zip
       - name: Publish versioned GLB and editable Blender review package

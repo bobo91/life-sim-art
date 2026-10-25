@@ -142,6 +142,7 @@ def build_cafe_cup(config):
     if config['geometry'].get('includeCoffee', True):
         smooth.append(_profile(g, 'static_coffee_surface', [(.0341, .0870), (.0344, .0880),
                                (.0344, .0890)], sides, (2, 2)))
-    result = _finish(config, g, ('cream', 'terracotta', 'coffee'), smooth)
+    roles = ('cream', 'terracotta', 'coffee') if config['geometry'].get('includeCoffee', True) else ('cream', 'terracotta')
+    result = _finish(config, g, roles, smooth)
     result['assemblyNotes'] = 'Single cup+saucer static prop; coffee is config-driven geometry, no liquid simulation or detachable saucer.'
     return result

@@ -22,7 +22,7 @@ def main():
     if json.loads((source/'validation.json').read_text())['status']!='passed':raise ValueError('Require validated build')
     files=list(source.rglob('*'))+list(sheets.glob('*'))
     files += [ROOT/p for p in SOURCES]
-    files += [ROOT/'scripts'/p for p in ('package_cafe_environment.py','compose_cafe_environment.py','compose_first_playable_props.py')]
+    files += [ROOT/'scripts'/p for p in ('package_cafe_environment.py','compose_cafe_environment.py','compose_first_playable_props.py','verify_cafe_cup_options.py')]
     files += [ROOT/'configs'/(p+'.json') for p in (*ASSETS,'cafe-environment-pack','prop_cafe_table_001')]
     files += [ROOT/'docs/props/CAFE_ENVIRONMENT_PACK.md']
     files=sorted(set(p for p in files if p.is_file()))

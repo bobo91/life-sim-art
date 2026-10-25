@@ -128,8 +128,9 @@ from actual images, including native game-distance pixel coverage.
 
 ## Limits and remaining integration decisions
 
-- Cup and saucer are one static asset. Default coffee is a fixed surface,
-  not fluid; there is no empty/drinking/fill-state implementation.
+- Cup and saucer are one static asset. Default coffee is a fixed surface.
+  The authoring config supports includeCoffee=false for a coffee-free export;
+  no runtime drinking/fill-state behavior or fluid simulation is implemented.
 - Tin has a fixed lid. Inventory, opening, story-clue markings and interactions
   remain unspecified; the graphic seal does not implement game issue56.
 - Parasol is one static canopy/post/base assembly, without wind, folding or rig.
@@ -167,3 +168,19 @@ and verified pipeline sources; no merge of either PR is automatic. Large GLB
 and editable .blend files are delivered as a separately hashed versioned CI
 review artifact. Small previews, source/configs and reports are versioned in
 Git. Private host logs and system identifiers remain local.
+
+### P2 follow-up: optional coffee export
+
+Automated review found that includeCoffee=false retained an unused coffee
+material and failed independent GLB validation. Material roles now follow the
+geometry flag. An actual isolated Blender regression check exported all six
+defaults and the coffee-free diagnostic: all six default GLBs remain byte-
+identical to run003, and the coffee-free cup passes with two used materials.
+No new rendering or aesthetic change was needed for this code correction.
+[Actual option-check report](../../evidence/cafe-environment/coffee-options-verification.json).
+
+The original17 render manifests retain the hashes of the sources that actually
+produced them, versioned in commit243dd4c; they are not relabelled as newly
+rendered outputs. The follow-up report fingerprints the corrected source and
+proves identical default geometry. The latest CI reproduces the full pack with
+the corrected source, tests both options, and delivers a new per-file hash index.

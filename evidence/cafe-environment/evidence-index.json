@@ -68,7 +68,13 @@
     "prop_tin_001/build_report.json": "febff7d55907d1e35d20afb8341e5003d37be43362fa94d23a60a3632767ea81",
     "prop_tin_001/front.png": "b0798c4bc40d2f231b002151bcc7ca8fac82532e221c45037bba33733817e0ec",
     "prop_tin_001/isometric.png": "3fc5e89782dbbc7523f3afcf1ad1b16e8799dec7543c1ae320504a16998cac90",
-    "prop_tin_001/manifest.json": "141cd28908ef181a1eabc0649a1e476512b011b706b5a3c25fbfcb60b2c3e826"
+    "prop_tin_001/manifest.json": "141cd28908ef181a1eabc0649a1e476512b011b706b5a3c25fbfcb60b2c3e826",
+    "coffee-options-verification.json": "dd859166c5d9dd5b9e02cb929bdc395c2b83f2d1fcca84c946c2d0ee06c883ca"
   },
-  "limitations": "No Unity import for the new six assets, gameplay, navigation, collider approval or automatic merge."
+  "limitations": "No Unity import for the new six assets, gameplay, navigation, collider approval or automatic merge.",
+  "followupSourceVerification": {
+    "report": "coffee-options-verification.json",
+    "originalRenderSourceCommit": "243dd4cd4dd00a602db78f0e68535e132b930d78",
+    "claim": "Corrected optional-coffee branch; actual Blender replay keeps all six default GLBs byte-identical. Original render source hashes are preserved."
+  }
 }
