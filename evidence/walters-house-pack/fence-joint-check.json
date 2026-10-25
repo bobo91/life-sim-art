@@ -1,0 +1,8 @@
+{
+  "moduleCenterSpacingMeters": 1.5,
+  "railLengthMeters": 1.38,
+  "postShaftWidthMeters": 0.12,
+  "computedButtGapMeters": 1.1102230246251565e-16,
+  "straightAndCornerSamePost": true,
+  "scope": "Geometric seam contract + actual joint render, not Unity collision/nav verification."
+}

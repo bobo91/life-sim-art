@@ -1,0 +1,72 @@
+{
+  "triangles": 2480,
+  "vertices": 1280,
+  "nonManifoldEdges": 0,
+  "looseVertices": 0,
+  "degenerateFaces": 0,
+  "duplicateFaces": 0,
+  "nonFiniteVertices": 0,
+  "signedVolumeCubicMetersSum": 0.013881557507820734,
+  "closedConstructionComponents": 20,
+  "limitations": [
+    "Closed construction components intentionally meet/overlap at attachments; no exhaustive solid-intersection proof.",
+    "No collider or runtime interaction is included."
+  ],
+  "sourceDimensionsBlenderXYZ": [
+    0.47999998927116394,
+    0.3400000035762787,
+    0.3199999928474426
+  ],
+  "materials": [
+    "prop_wooden_crate_001__timber",
+    "prop_wooden_crate_001__faded",
+    "prop_wooden_crate_001__frame"
+  ],
+  "customProperties": {
+    "assetId": "prop_wooden_crate_001",
+    "seed": "6210",
+    "constructionParts": "[\"bottom_board\", \"bottom_board\", \"bottom_board\", \"bottom_board\", \"corner_batten\", \"corner_batten\", \"corner_batten\", \"corner_batten\", \"long_wall_board\", \"long_wall_board\", \"end_wall_board\", \"end_wall_board\", \"long_wall_board\", \"long_wall_board\", \"end_wall_board\", \"end_wall_board\", \"long_wall_board\", \"long_wall_board\", \"end_wall_board\", \"end_wall_board\"]",
+    "provenance": "Original procedural project geometry/materials; no external mesh/texture",
+    "geometryRecenteringSourceXYZ": "<bpy id property array [3]>"
+  },
+  "previewCameras": {
+    "front": {
+      "orthoScale": 0.5663999915122986,
+      "location": [
+        0.0,
+        -3.0,
+        0.15999950468540192
+      ],
+      "framing": {
+        "xywhPixelsBottomLeft": [
+          48.81,
+          139.21,
+          542.37,
+          361.58
+        ],
+        "insideFrame": true
+      }
+    },
+    "isometric": {
+      "orthoScale": 0.6921266913414001,
+      "location": [
+        2.2971315383911133,
+        -2.2971322536468506,
+        2.459336042404175
+      ],
+      "framing": {
+        "xywhPixelsBottomLeft": [
+          54.07,
+          48.81,
+          531.86,
+          542.37
+        ],
+        "insideFrame": true
+      }
+    }
+  },
+  "saveReopenExactGeometry": true,
+  "glbRoundtripExactPositions5DecimalsAndTriangles": true,
+  "glbImportedMeshCount": 1,
+  "positionSignatureSHA256": "ab8396f66687ef312d49bed1a4e8c8b5a619af4c0177fa826b29359c27460753"
+}

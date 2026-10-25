@@ -1,0 +1,72 @@
+{
+  "triangles": 2100,
+  "vertices": 1096,
+  "nonManifoldEdges": 0,
+  "looseVertices": 0,
+  "degenerateFaces": 0,
+  "duplicateFaces": 0,
+  "nonFiniteVertices": 0,
+  "signedVolumeCubicMetersSum": 0.0059021021161844624,
+  "closedConstructionComponents": 23,
+  "limitations": [
+    "Closed construction components intentionally meet/overlap at attachments; no exhaustive solid-intersection proof.",
+    "No collider or runtime interaction is included."
+  ],
+  "sourceDimensionsBlenderXYZ": [
+    0.33320680260658264,
+    0.337266743183136,
+    0.35018977522850037
+  ],
+  "materials": [
+    "prop_flower_pot_002__pot",
+    "prop_flower_pot_002__soil",
+    "prop_flower_pot_002__leaf"
+  ],
+  "customProperties": {
+    "assetId": "prop_flower_pot_002",
+    "seed": "6204",
+    "constructionParts": "[\"rounded_ceramic\", \"soil\", \"succulent_rosette\", \"succulent_rosette\", \"succulent_rosette\", \"succulent_rosette\", \"succulent_rosette\", \"succulent_rosette\", \"succulent_rosette\", \"succulent_rosette\", \"succulent_rosette\", \"succulent_rosette\", \"succulent_rosette\", \"succulent_rosette\", \"succulent_rosette\", \"succulent_rosette\", \"succulent_rosette\", \"succulent_rosette\", \"succulent_rosette\", \"succulent_rosette\", \"succulent_rosette\", \"succulent_rosette\", \"succulent_rosette\"]",
+    "provenance": "Original procedural project geometry/materials; no external mesh/texture",
+    "geometryRecenteringSourceXYZ": "<bpy id property array [3]>"
+  },
+  "previewCameras": {
+    "front": {
+      "orthoScale": 0.4132239818572998,
+      "location": [
+        0.0,
+        -3.0,
+        0.1750943958759308
+      ],
+      "framing": {
+        "xywhPixelsBottomLeft": [
+          61.97,
+          48.81,
+          516.07,
+          542.37
+        ],
+        "insideFrame": true
+      }
+    },
+    "isometric": {
+      "orthoScale": 0.4383387565612793,
+      "location": [
+        2.2989501953125,
+        -2.30082106590271,
+        2.468324661254883
+      ],
+      "framing": {
+        "xywhPixelsBottomLeft": [
+          74.91,
+          48.81,
+          490.17,
+          542.37
+        ],
+        "insideFrame": true
+      }
+    }
+  },
+  "saveReopenExactGeometry": true,
+  "glbRoundtripExactPositions5DecimalsAndTriangles": true,
+  "glbImportedMeshCount": 1,
+  "positionSignatureSHA256": "20cf70e9558341d53e64ae0fbfd5136779a0e3dd19611906a8d2b3e77e7a7dbe"
+}

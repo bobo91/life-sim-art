@@ -1,0 +1,72 @@
+{
+  "triangles": 632,
+  "vertices": 328,
+  "nonManifoldEdges": 0,
+  "looseVertices": 0,
+  "degenerateFaces": 0,
+  "duplicateFaces": 0,
+  "nonFiniteVertices": 0,
+  "signedVolumeCubicMetersSum": 0.0062209939060051235,
+  "closedConstructionComponents": 6,
+  "limitations": [
+    "Closed construction components intentionally meet/overlap at attachments; no exhaustive solid-intersection proof.",
+    "No collider or runtime interaction is included."
+  ],
+  "sourceDimensionsBlenderXYZ": [
+    0.7599999904632568,
+    0.44999998807907104,
+    0.020500000566244125
+  ],
+  "materials": [
+    "prop_welcome_mat_001__coir",
+    "prop_welcome_mat_001__border",
+    "prop_welcome_mat_001__faded"
+  ],
+  "customProperties": {
+    "assetId": "prop_welcome_mat_001",
+    "seed": "6205",
+    "constructionParts": "[\"rounded_coir\", \"side_border\", \"side_border\", \"end_border\", \"end_border\", \"worn_woven_lozenge\"]",
+    "provenance": "Original procedural project geometry/materials; no external mesh/texture",
+    "geometryRecenteringSourceXYZ": "<bpy id property array [3]>"
+  },
+  "previewCameras": {
+    "front": {
+      "orthoScale": 0.8967999815940857,
+      "location": [
+        0.0,
+        -3.0,
+        0.010249508544802666
+      ],
+      "framing": {
+        "xywhPixelsBottomLeft": [
+          48.81,
+          312.69,
+          542.37,
+          14.63
+        ],
+        "insideFrame": true
+      }
+    },
+    "isometric": {
+      "orthoScale": 1.001989722251892,
+      "location": [
+        2.3002796173095703,
+        -2.3002800941467285,
+        2.3092801570892334
+      ],
+      "framing": {
+        "xywhPixelsBottomLeft": [
+          48.81,
+          160.16,
+          542.37,
+          319.68
+        ],
+        "insideFrame": true
+      }
+    }
+  },
+  "saveReopenExactGeometry": true,
+  "glbRoundtripExactPositions5DecimalsAndTriangles": true,
+  "glbImportedMeshCount": 1,
+  "positionSignatureSHA256": "abec7306460af4e000faefd89740d8c83287ca7d320b2712e64e7fa1335eddc5"
+}

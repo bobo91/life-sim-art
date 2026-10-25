@@ -1,0 +1,283 @@
+{
+  "schema": "walter-contact-layout-1",
+  "scope": "Actual render inputs; resizing/layout only, no repainting or AI enhancement.",
+  "pillowVersion": "12.3.0",
+  "font": "Pillow embedded scalable default",
+  "inputs": {
+    "build/walter-porch/run-003/prop_porch_bench_001/front.png": "5c6b83480ce08050b4af799a1f97831ca1d8a759c467851f7f40298cd2f51597",
+    "build/walter-porch/run-003/prop_porch_bench_001/isometric.png": "9f832426036887977c02c9885d05fe373dde719ce69f94cf73a8e520dd92e4ed",
+    "build/walter-porch/run-003/prop_flower_pot_001/front.png": "8f4199765de377ff594374da7c094db039da4c1ba00f7399ee0726f05aaf6eb2",
+    "build/walter-porch/run-003/prop_flower_pot_001/isometric.png": "6bd08d03ac79db9232bf73adc6276e6f45b7f23f55071c03a3ad4ff08004fd13",
+    "build/walter-porch/run-003/prop_flower_pot_002/front.png": "fc8db693ed3420c2d76ee127f51e8583790cd3e4ae255eeac4fac1394115f200",
+    "build/walter-porch/run-003/prop_flower_pot_002/isometric.png": "cd88d7736d97f2e3bcae0fc67c10566d9834e895299911dba4a05f80abeba5bd",
+    "build/walter-porch/run-003/prop_welcome_mat_001/front.png": "2ba1f072f00c30bac3977f41d26461b80cc0d59a1e83ccc0c1dee5591a42bd13",
+    "build/walter-porch/run-003/prop_welcome_mat_001/isometric.png": "3801a86726d53d395839bbd907afb7d17f07fef2fa28ed5b89797eeac86edb86",
+    "build/walter-porch/run-003/prop_porch_lantern_001/front.png": "1c10be03c32d61594137e3398dfa6f0f0eab0020296e9bd7b3f95ad6ace38a80",
+    "build/walter-porch/run-003/prop_porch_lantern_001/isometric.png": "d387133cc30ac836c673dc2041dcc51713b46777c0b56eaa95206d94692e5738",
+    "build/walter-porch/run-003/prop_wooden_fence_001/front.png": "f7375bea12f8a317dfb44a443bdd6b9b4270945d6d33d09daea9153409e31c63",
+    "build/walter-porch/run-003/prop_wooden_fence_001/isometric.png": "f366a50dbf7bd533d2bc4c7a6c7bd9e2d82e442ac12acf3f381c6b62bea16d94",
+    "build/walter-porch/run-003/prop_fence_post_001/front.png": "252aa9ff797b88ed80a8cc1238ef4831c312ad90a6aaa915a6fab4e8c26cd41b",
+    "build/walter-porch/run-003/prop_fence_post_001/isometric.png": "00f45b2aa46dd4215c04c8bae098ad92e47d5bf601b1a303c4c3b9732babc866",
+    "build/walter-porch/run-003/prop_old_watering_can_001/front.png": "f7665faf96e1903db7b9f6a186afcf8e4cad48a49cd7b9262f6347d7d94cbb58",
+    "build/walter-porch/run-003/prop_old_watering_can_001/isometric.png": "37bb28fac2a0438b3e88ecbedf49339e9ae2a5f301d567239749b58c1f657ca5",
+    "build/walter-porch/run-003/prop_wooden_crate_001/front.png": "1151005435db825022eb3f33daca7362c4610a6b9d2558bc45b7de98253765d8",
+    "build/walter-porch/run-003/prop_wooden_crate_001/isometric.png": "f3d803a25dc6deab50468f02e4140e7c026ae279a3a8c6b2a3d5703858f1f341",
+    "build/walter-porch/run-003/prop_porch_rocking_chair_001/front.png": "4b4adbfe61d900f6cc1337eac5a73182e6ab64d16ae60fd474663dd353a0550b",
+    "build/walter-porch/run-003/prop_porch_rocking_chair_001/isometric.png": "169b9d576552c623bf27ef62dfcd8d699be8bc619758f555fef2177bf148f935"
+  },
+  "models": {
+    "prop_porch_bench_001": "491ac2c369c1724c0b152a8d0b9f751e2b684421ee3851b3da0f44838e5b0d61",
+    "prop_flower_pot_001": "0d234a932a58fbd37b7aba1dc0090a9296258884db072f3abc531383328ff929",
+    "prop_flower_pot_002": "e13cb5406359a9f3e28a0ef0126412beb95ee51906263969cc3a80cc87255d83",
+    "prop_welcome_mat_001": "727ed0bb5326a3c715891e3ff509a28548b851fc739ccad294d2980f9372cee4",
+    "prop_porch_lantern_001": "2234d5936b2a2dd5f1f047250d2ad944003bf8d70aa669b3652765ae2532de46",
+    "prop_wooden_fence_001": "95e4c3ea7fe2215fb9e5af25b5db3d94c5d971a484a027c5cbc90159d0b8c68a",
+    "prop_fence_post_001": "c57540ce7af827c69062fdc09cd3f1054e21b2ae106229fc82c2bb78387287d0",
+    "prop_old_watering_can_001": "617dff2f0e10289f2a608e1a488955a8924cb39f89a5c0d4070189ecac6a9bc3",
+    "prop_wooden_crate_001": "b4baa1d795966f2a7331d0740bcc216f788d44b49d93bfe66ee1d63a6527630d",
+    "prop_porch_rocking_chair_001": "e941a889b616ddd0b6336cc512cbac371f90c4e228fdf24bfda144162ea79207"
+  },
+  "panels": [
+    {
+      "source": "build/walter-porch/run-003/prop_porch_bench_001/front.png",
+      "position": [
+        17,
+        238
+      ],
+      "size": [
+        160,
+        160
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "source": "build/walter-porch/run-003/prop_porch_bench_001/isometric.png",
+      "position": [
+        183,
+        238
+      ],
+      "size": [
+        160,
+        160
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "source": "build/walter-porch/run-003/prop_flower_pot_001/front.png",
+      "position": [
+        377,
+        238
+      ],
+      "size": [
+        160,
+        160
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "source": "build/walter-porch/run-003/prop_flower_pot_001/isometric.png",
+      "position": [
+        543,
+        238
+      ],
+      "size": [
+        160,
+        160
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "source": "build/walter-porch/run-003/prop_flower_pot_002/front.png",
+      "position": [
+        737,
+        238
+      ],
+      "size": [
+        160,
+        160
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "source": "build/walter-porch/run-003/prop_flower_pot_002/isometric.png",
+      "position": [
+        903,
+        238
+      ],
+      "size": [
+        160,
+        160
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "source": "build/walter-porch/run-003/prop_welcome_mat_001/front.png",
+      "position": [
+        1097,
+        238
+      ],
+      "size": [
+        160,
+        160
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "source": "build/walter-porch/run-003/prop_welcome_mat_001/isometric.png",
+      "position": [
+        1263,
+        238
+      ],
+      "size": [
+        160,
+        160
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "source": "build/walter-porch/run-003/prop_porch_lantern_001/front.png",
+      "position": [
+        1457,
+        238
+      ],
+      "size": [
+        160,
+        160
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "source": "build/walter-porch/run-003/prop_porch_lantern_001/isometric.png",
+      "position": [
+        1623,
+        238
+      ],
+      "size": [
+        160,
+        160
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "source": "build/walter-porch/run-003/prop_wooden_fence_001/front.png",
+      "position": [
+        17,
+        678
+      ],
+      "size": [
+        160,
+        160
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "source": "build/walter-porch/run-003/prop_wooden_fence_001/isometric.png",
+      "position": [
+        183,
+        678
+      ],
+      "size": [
+        160,
+        160
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "source": "build/walter-porch/run-003/prop_fence_post_001/front.png",
+      "position": [
+        377,
+        678
+      ],
+      "size": [
+        160,
+        160
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "source": "build/walter-porch/run-003/prop_fence_post_001/isometric.png",
+      "position": [
+        543,
+        678
+      ],
+      "size": [
+        160,
+        160
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "source": "build/walter-porch/run-003/prop_old_watering_can_001/front.png",
+      "position": [
+        737,
+        678
+      ],
+      "size": [
+        160,
+        160
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "source": "build/walter-porch/run-003/prop_old_watering_can_001/isometric.png",
+      "position": [
+        903,
+        678
+      ],
+      "size": [
+        160,
+        160
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "source": "build/walter-porch/run-003/prop_wooden_crate_001/front.png",
+      "position": [
+        1097,
+        678
+      ],
+      "size": [
+        160,
+        160
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "source": "build/walter-porch/run-003/prop_wooden_crate_001/isometric.png",
+      "position": [
+        1263,
+        678
+      ],
+      "size": [
+        160,
+        160
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "source": "build/walter-porch/run-003/prop_porch_rocking_chair_001/front.png",
+      "position": [
+        1457,
+        678
+      ],
+      "size": [
+        160,
+        160
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "source": "build/walter-porch/run-003/prop_porch_rocking_chair_001/isometric.png",
+      "position": [
+        1623,
+        678
+      ],
+      "size": [
+        160,
+        160
+      ],
+      "resampling": "LANCZOS"
+    }
+  ],
+  "outputSHA256": "145097ad60ea139c34b7c30395611e3c0758a05b586510c83edf1896926b73e1"
+}

@@ -1,0 +1,72 @@
+{
+  "triangles": 464,
+  "vertices": 254,
+  "nonManifoldEdges": 0,
+  "looseVertices": 0,
+  "degenerateFaces": 0,
+  "duplicateFaces": 0,
+  "nonFiniteVertices": 0,
+  "signedVolumeCubicMetersSum": 0.03377525206257005,
+  "closedConstructionComponents": 11,
+  "limitations": [
+    "Closed construction components intentionally meet/overlap at attachments; no exhaustive solid-intersection proof.",
+    "No collider or runtime interaction is included."
+  ],
+  "sourceDimensionsBlenderXYZ": [
+    1.3799999952316284,
+    0.07199999690055847,
+    0.8119999766349792
+  ],
+  "materials": [
+    "prop_wooden_fence_001__timber",
+    "prop_wooden_fence_001__faded",
+    "prop_wooden_fence_001__frame"
+  ],
+  "customProperties": {
+    "assetId": "prop_wooden_fence_001",
+    "seed": "6207",
+    "constructionParts": "[\"soft_picket_0\", \"soft_picket_1\", \"soft_picket_2\", \"soft_picket_3\", \"soft_picket_4\", \"soft_picket_5\", \"soft_picket_6\", \"soft_picket_7\", \"soft_picket_8\", \"rear_rail\", \"rear_rail\"]",
+    "provenance": "Original procedural project geometry/materials; no external mesh/texture",
+    "geometryRecenteringSourceXYZ": "<bpy id property array [3]>"
+  },
+  "previewCameras": {
+    "front": {
+      "orthoScale": 1.6283999681472778,
+      "location": [
+        0.0,
+        -3.0,
+        0.4059995114803314
+      ],
+      "framing": {
+        "xywhPixelsBottomLeft": [
+          48.81,
+          160.43,
+          542.37,
+          319.14
+        ],
+        "insideFrame": true
+      }
+    },
+    "isometric": {
+      "orthoScale": 1.412682056427002,
+      "location": [
+        2.307466745376587,
+        -2.2964563369750977,
+        2.6858367919921875
+      ],
+      "framing": {
+        "xywhPixelsBottomLeft": [
+          92.71,
+          48.81,
+          454.58,
+          542.37
+        ],
+        "insideFrame": true
+      }
+    }
+  },
+  "saveReopenExactGeometry": true,
+  "glbRoundtripExactPositions5DecimalsAndTriangles": true,
+  "glbImportedMeshCount": 1,
+  "positionSignatureSHA256": "c62bf5c011bbb399e4324d5662d023207fc720aa0aafe72f73316502c69e6e23"
+}

@@ -1,0 +1,73 @@
+{
+  "triangles": 1648,
+  "vertices": 840,
+  "nonManifoldEdges": 0,
+  "looseVertices": 0,
+  "degenerateFaces": 0,
+  "duplicateFaces": 0,
+  "nonFiniteVertices": 0,
+  "signedVolumeCubicMetersSum": 0.0059063288296403674,
+  "closedConstructionComponents": 8,
+  "limitations": [
+    "Closed construction components intentionally meet/overlap at attachments; no exhaustive solid-intersection proof.",
+    "No collider or runtime interaction is included."
+  ],
+  "sourceDimensionsBlenderXYZ": [
+    0.510642409324646,
+    0.1720000058412552,
+    0.3840000033378601
+  ],
+  "materials": [
+    "prop_old_watering_can_001__metal",
+    "prop_old_watering_can_001__rim",
+    "prop_old_watering_can_001__handle",
+    "prop_old_watering_can_001__inside"
+  ],
+  "customProperties": {
+    "assetId": "prop_old_watering_can_001",
+    "seed": "6209",
+    "constructionParts": "[\"oval_can\", \"rolled_rim\", \"base_seam\", \"rising_spout\", \"rose_head\", \"rose_dark_face\", \"carrying_handle\", \"rear_grip\"]",
+    "provenance": "Original procedural project geometry/materials; no external mesh/texture",
+    "geometryRecenteringSourceXYZ": "<bpy id property array [3]>"
+  },
+  "previewCameras": {
+    "front": {
+      "orthoScale": 0.6025580167770386,
+      "location": [
+        0.0,
+        -3.0,
+        0.19199949502944946
+      ],
+      "framing": {
+        "xywhPixelsBottomLeft": [
+          48.81,
+          116.07,
+          542.37,
+          407.86
+        ],
+        "insideFrame": true
+      }
+    },
+    "isometric": {
+      "orthoScale": 0.43992650508880615,
+      "location": [
+        2.2921459674835205,
+        -2.3018436431884766,
+        2.490330219268799
+      ],
+      "framing": {
+        "xywhPixelsBottomLeft": [
+          62.22,
+          48.81,
+          515.57,
+          542.37
+        ],
+        "insideFrame": true
+      }
+    }
+  },
+  "saveReopenExactGeometry": true,
+  "glbRoundtripExactPositions5DecimalsAndTriangles": true,
+  "glbImportedMeshCount": 1,
+  "positionSignatureSHA256": "09497b95d03b5c606aecd05c4cc2622c3f8418b42605a26dde03a7b7eab4d5d4"
+}

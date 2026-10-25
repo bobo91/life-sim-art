@@ -1,0 +1,22 @@
+{
+  "schema": "walter-construction-checks-1",
+  "status": "passed",
+  "scope": "Actual saved meshes; targeted contacts only, no exhaustive interpenetration/navigation/physics test.",
+  "checkerSHA256": "6759e541b2bf68c7559b66280260f813b9c7bb5956cbca98df278d9d1d745632",
+  "frontArmSupportToLegTriangleIntersections": [
+    24,
+    22
+  ],
+  "crateBattenCapBelowRimMeters": [
+    0.01299998164176941,
+    0.01299998164176941,
+    0.01299998164176941,
+    0.01299998164176941
+  ],
+  "actualStraightRailPostGapMeters": 0.0,
+  "actualLanternWallGapMeters": 0.0,
+  "smallPotCrateSupportGapMeters": [
+    0.0004998445510864258,
+    0.0004998445510864258
+  ]
+}
