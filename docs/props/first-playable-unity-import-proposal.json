@@ -1,0 +1,54 @@
+{
+  "schema": "first-playable-unity-import-proposal-1",
+  "contractId": "FPD-PROPS-IMPORT-1",
+  "status": "proposed-awaiting-Claude-confirmation-in-game-issue53",
+  "ownerVisualApproval": "2026-10-25; no further aesthetic changes to the two reviewed models",
+  "gameIssue": "https://github.com/bobo91/life-sim-game/issues/53",
+  "artPR": "https://github.com/bobo91/life-sim-art/pull/34",
+  "import": {
+    "package": "com.unity.cloud.gltfast",
+    "version": "6.20.0",
+    "mode": "Editor static import to native Unity mesh/material assets; no runtime GLB loader",
+    "unity": "6000.5.8f1",
+    "urp": "17.5.0",
+    "units": "meters",
+    "rootScale": [1, 1, 1],
+    "pivot": "bottom-center",
+    "up": "+Y",
+    "forward": "+Z",
+    "scaleToPlaceholderBounds": false,
+    "materialSlotsPerAsset": 4,
+    "materialPolicy": "Preserve imported opaque PBR values and URP-capable glTF material graph; no palette retuning."
+  },
+  "assets": {
+    "prop_mailbox_001": {
+      "version": "0.1.0",
+      "sha256": "b243a55a5d92da3cd3a51c3957d0b1e1f1b9737ad8f6ed988121bae69e654698",
+      "dimensionsXYZ": [0.36, 1.43, 0.62],
+      "triangles": 2324,
+      "candidateCollider": {"type": "root BoxCollider", "center": [0, 0.715, 0], "size": [0.36, 1.43, 0.62]},
+      "interaction": "Explicit F/A action prompt independent of flag; Claude reconciles issue51's 5m prompt requirement and current 2.2m action/5m marker ranges."
+    },
+    "prop_cafe_table_001": {
+      "version": "0.1.0",
+      "sha256": "6e122d9a172952fe237e9b24fe9c94b4eff70151e346f3ead95803a86a71ee54",
+      "dimensionsXYZ": [0.78, 0.74, 0.78],
+      "triangles": 856,
+      "candidateCollider": {"type": "root BoxCollider", "center": [0, 0.37, 0], "size": [0.78, 0.74, 0.78]},
+      "state": "Approved bare neutral quest state; dressing is separate gameplay/assets.",
+      "collisionSimplification": "Candidate box intentionally blocks the full footprint; explicit Claude acceptance and route checks required."
+    }
+  },
+  "confirmationRequired": [
+    "Importer/version and static import mode",
+    "Measured scale/pivot/orientation and preserved material data",
+    "Acceptable URP appearance with actual game lighting",
+    "Exact game-owned collider envelopes and nearby-route checks",
+    "Visible mailbox action prompt independent of flag",
+    "Owner receives final report before merge"
+  ],
+  "claudeAccepted": false,
+  "silenceIsAcceptance": false,
+  "mergeAuthorized": false,
+  "remainingProps": "Counter/chair/tin may proceed in the same language once the Unity contract is ready; no new long design study. Held until that gate."
+}

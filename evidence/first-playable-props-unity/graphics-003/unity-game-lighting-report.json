@@ -1,0 +1,515 @@
+{
+  "schema": "props-game-lighting-validation-1",
+  "status": "passed-graphics-import-validation-only",
+  "sourceGameCommit": "9a85db5cb69ccf01ae584f42c9237703be4e2327",
+  "sourceArchiveSHA256": "001063dba9be7403067354596460cf60c6837fdfa24fa3acecb3212f66d4ebf3",
+  "unityVersion": "6000.5.8f1",
+  "graphicsDevice": "Direct3D11",
+  "activePipeline": "UnityEngine.Rendering.Universal.UniversalRenderPipeline",
+  "gltfastVersion": "6.20.0",
+  "urpVersion": "17.5.0",
+  "graphicsEnabled": true,
+  "urpActiveAfterRendering": true,
+  "declaredUrpShaders": true,
+  "importedSceneSavedAndReopened": true,
+  "originalBootstrapBytesUnchanged": true,
+  "originalGlbBytesUnchanged": true,
+  "noGameRepositoryWrites": true,
+  "gameContractAccepted": false,
+  "productionCollidersApproved": false,
+  "interactionPromptRuntimeTested": false,
+  "lighting": {
+    "skybox": "Default-Skybox",
+    "ambientMode": "Skybox",
+    "activeUrpAsset": "Assets/LifeSim/Settings/LifeSim_URP.asset",
+    "ambientIntensity": 1.0,
+    "reflectionIntensity": 1.0,
+    "sunIntensity": 1.2000000476837158,
+    "sunColor": [
+      1.0,
+      0.9399999976158142,
+      0.8199999928474426,
+      1.0
+    ],
+    "sunEuler": [
+      50.0000114440918,
+      150.0,
+      0.0
+    ],
+    "fog": false,
+    "postProcessing": false,
+    "hdr": true,
+    "environmentRefreshRequested": true
+  },
+  "assets": [
+    {
+      "id": "prop_mailbox_001",
+      "importer": "GLTFast.Editor.GltfImporter",
+      "placement": "Existing game mailbox anchor",
+      "worldPosition": [
+        -6.199999809265137,
+        0.0,
+        -4.849999904632568
+      ],
+      "localDimensions": [
+        0.3599996566772461,
+        1.4299999475479126,
+        0.619999885559082
+      ],
+      "localBoundsMin": [
+        -0.17999982833862305,
+        0.0,
+        -0.309999942779541
+      ],
+      "localBoundsMax": [
+        0.17999982833862305,
+        1.4299999475479126,
+        0.309999942779541
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshes": 1,
+      "triangles": 2324,
+      "materialSlots": 4,
+      "validIndices": true,
+      "finiteData": true,
+      "dimensionsMatch": true,
+      "bottomCenterPivot": true,
+      "unitScale": true,
+      "frontLandmarkMatch": true,
+      "nearestFrontLandmarkError": 5.960465188081798e-08,
+      "materials": [
+        {
+          "name": "prop_mailbox_001__paint",
+          "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+          "selectedPipelineTag": "UniversalPipeline",
+          "declaredPipelineTags": [
+            "UniversalPipeline",
+            "",
+            ""
+          ],
+          "baseColor": [
+            0.20392149686813354,
+            0.2901960015296936,
+            0.28235286474227905,
+            1.0
+          ],
+          "metallic": 0.30000001192092896,
+          "roughness": 0.6200000047683716,
+          "propertiesMatch": true,
+          "shaderHasError": false,
+          "shaderSupported": true,
+          "declaresUrp": true
+        },
+        {
+          "name": "prop_mailbox_001__edge",
+          "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+          "selectedPipelineTag": "UniversalPipeline",
+          "declaredPipelineTags": [
+            "UniversalPipeline",
+            "",
+            ""
+          ],
+          "baseColor": [
+            0.7176470160484314,
+            0.6823529005050659,
+            0.584313690662384,
+            1.0
+          ],
+          "metallic": 0.11999999731779099,
+          "roughness": 0.7799999713897705,
+          "propertiesMatch": true,
+          "shaderHasError": false,
+          "shaderSupported": true,
+          "declaresUrp": true
+        },
+        {
+          "name": "prop_mailbox_001__wood",
+          "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+          "selectedPipelineTag": "UniversalPipeline",
+          "declaredPipelineTags": [
+            "UniversalPipeline",
+            "",
+            ""
+          ],
+          "baseColor": [
+            0.5450979471206665,
+            0.3882352113723755,
+            0.2941175699234009,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.8199999928474426,
+          "propertiesMatch": true,
+          "shaderHasError": false,
+          "shaderSupported": true,
+          "declaresUrp": true
+        },
+        {
+          "name": "prop_mailbox_001__accent",
+          "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+          "selectedPipelineTag": "UniversalPipeline",
+          "declaredPipelineTags": [
+            "UniversalPipeline",
+            "",
+            ""
+          ],
+          "baseColor": [
+            0.725490152835846,
+            0.42352932691574097,
+            0.31372541189193726,
+            1.0
+          ],
+          "metallic": 0.2199999988079071,
+          "roughness": 0.6499999761581421,
+          "propertiesMatch": true,
+          "shaderHasError": false,
+          "shaderSupported": true,
+          "declaresUrp": true
+        }
+      ],
+      "collider": {
+        "status": "candidate-only-not-game-approved",
+        "type": "BoxCollider",
+        "center": [
+          0.0,
+          0.7149999737739563,
+          0.0
+        ],
+        "size": [
+          0.36000001430511475,
+          1.4299999475479126,
+          0.6200000047683716
+        ],
+        "containsMeshBounds": true,
+        "frontRayHit": true,
+        "topRayHit": true
+      },
+      "errors": []
+    },
+    {
+      "id": "prop_cafe_table_001",
+      "importer": "GLTFast.Editor.GltfImporter",
+      "placement": "Provisional cafe validation site; not a game anchor",
+      "worldPosition": [
+        14.199999809265137,
+        0.0,
+        -6.5
+      ],
+      "localDimensions": [
+        0.7800006866455078,
+        0.7400000095367432,
+        0.7799997329711914
+      ],
+      "localBoundsMin": [
+        -0.3900003433227539,
+        0.0,
+        -0.3899998664855957
+      ],
+      "localBoundsMax": [
+        0.3900003433227539,
+        0.7400000095367432,
+        0.3899998664855957
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshes": 1,
+      "triangles": 856,
+      "materialSlots": 4,
+      "validIndices": true,
+      "finiteData": true,
+      "dimensionsMatch": true,
+      "bottomCenterPivot": true,
+      "unitScale": true,
+      "frontLandmarkMatch": true,
+      "nearestFrontLandmarkError": -1.0,
+      "materials": [
+        {
+          "name": "prop_cafe_table_001__wood",
+          "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+          "selectedPipelineTag": "UniversalPipeline",
+          "declaredPipelineTags": [
+            "UniversalPipeline",
+            "",
+            ""
+          ],
+          "baseColor": [
+            0.6470587849617004,
+            0.48627448081970215,
+            0.34509795904159546,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.7400000095367432,
+          "propertiesMatch": true,
+          "shaderHasError": false,
+          "shaderSupported": true,
+          "declaresUrp": true
+        },
+        {
+          "name": "prop_cafe_table_001__woodVariation",
+          "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+          "selectedPipelineTag": "UniversalPipeline",
+          "declaredPipelineTags": [
+            "UniversalPipeline",
+            "",
+            ""
+          ],
+          "baseColor": [
+            0.6823529005050659,
+            0.5254900455474854,
+            0.3843136429786682,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.7599999904632568,
+          "propertiesMatch": true,
+          "shaderHasError": false,
+          "shaderSupported": true,
+          "declaresUrp": true
+        },
+        {
+          "name": "prop_cafe_table_001__woodEdge",
+          "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+          "selectedPipelineTag": "UniversalPipeline",
+          "declaredPipelineTags": [
+            "UniversalPipeline",
+            "",
+            ""
+          ],
+          "baseColor": [
+            0.5450979471206665,
+            0.3882352113723755,
+            0.2941175699234009,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.8100000023841858,
+          "propertiesMatch": true,
+          "shaderHasError": false,
+          "shaderSupported": true,
+          "declaresUrp": true
+        },
+        {
+          "name": "prop_cafe_table_001__metal",
+          "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+          "selectedPipelineTag": "UniversalPipeline",
+          "declaredPipelineTags": [
+            "UniversalPipeline",
+            "",
+            ""
+          ],
+          "baseColor": [
+            0.20392149686813354,
+            0.2901960015296936,
+            0.28235286474227905,
+            1.0
+          ],
+          "metallic": 0.44999998807907104,
+          "roughness": 0.6399999856948853,
+          "propertiesMatch": true,
+          "shaderHasError": false,
+          "shaderSupported": true,
+          "declaresUrp": true
+        }
+      ],
+      "collider": {
+        "status": "candidate-only-not-game-approved",
+        "type": "BoxCollider",
+        "center": [
+          0.0,
+          0.3700000047683716,
+          0.0
+        ],
+        "size": [
+          0.7799999713897705,
+          0.7400000095367432,
+          0.7799999713897705
+        ],
+        "containsMeshBounds": true,
+        "frontRayHit": true,
+        "topRayHit": true
+      },
+      "errors": []
+    }
+  ],
+  "views": [
+    {
+      "file": "01_game_start_placeholder.png",
+      "context": "Actual serialized Bootstrap camera and unchanged source world/light.",
+      "cameraPosition": [
+        -7.999999046325684,
+        13.25671100616455,
+        3.7845993041992188
+      ],
+      "cameraEuler": [
+        50.0000114440918,
+        180.0,
+        -3.166761286792913e-13
+      ],
+      "fov": 40.0,
+      "width": 1280,
+      "height": 720,
+      "magentaPixels": 0,
+      "changedPropPixels": 0,
+      "propRoiPixels": 0,
+      "nonUniformImage": true,
+      "propVisibilityVerified": false,
+      "propRoi": []
+    },
+    {
+      "file": "02_game_start_imported.png",
+      "context": "Actual serialized Bootstrap camera; imported mailbox replaces only placeholder visuals in the validation scene.",
+      "cameraPosition": [
+        -7.999999046325684,
+        13.25671100616455,
+        3.7845993041992188
+      ],
+      "cameraEuler": [
+        50.0000114440918,
+        180.0,
+        -3.166761286792913e-13
+      ],
+      "fov": 40.0,
+      "width": 1280,
+      "height": 720,
+      "magentaPixels": 0,
+      "changedPropPixels": 1837,
+      "propRoiPixels": 3132,
+      "nonUniformImage": true,
+      "propVisibilityVerified": true,
+      "propRoi": [
+        504.0,
+        223.0,
+        36.0,
+        87.0
+      ]
+    },
+    {
+      "file": "prop_mailbox_001_game16m.png",
+      "context": "Existing mailbox location, game camera parameters at16m.",
+      "cameraPosition": [
+        -6.19999885559082,
+        13.25671100616455,
+        5.43459939956665
+      ],
+      "cameraEuler": [
+        50.0000114440918,
+        180.0,
+        -3.166761286792913e-13
+      ],
+      "fov": 40.0,
+      "width": 1280,
+      "height": 720,
+      "magentaPixels": 0,
+      "changedPropPixels": 872,
+      "propRoiPixels": 2064,
+      "nonUniformImage": true,
+      "propVisibilityVerified": true,
+      "propRoi": [
+        628.0,
+        307.0,
+        24.0,
+        86.0
+      ]
+    },
+    {
+      "file": "prop_mailbox_001_game6m.png",
+      "context": "Game minimum zoom6m; source Bootstrap world, Sun, sky/ambient and URP unchanged.",
+      "cameraPosition": [
+        -6.1999993324279785,
+        5.596266746520996,
+        -0.9932751655578613
+      ],
+      "cameraEuler": [
+        50.0000114440918,
+        180.0,
+        -3.166761286792913e-13
+      ],
+      "fov": 40.0,
+      "width": 1280,
+      "height": 720,
+      "magentaPixels": 0,
+      "changedPropPixels": 9043,
+      "propRoiPixels": 14520,
+      "nonUniformImage": true,
+      "propVisibilityVerified": true,
+      "propRoi": [
+        607.0,
+        227.0,
+        66.0,
+        220.0
+      ]
+    },
+    {
+      "file": "prop_cafe_table_001_game16m.png",
+      "context": "Provisional cafe validation position, game camera parameters at16m.",
+      "cameraPosition": [
+        14.200000762939453,
+        13.25671100616455,
+        3.7845993041992188
+      ],
+      "cameraEuler": [
+        50.0000114440918,
+        180.0,
+        -3.166761286792913e-13
+      ],
+      "fov": 40.0,
+      "width": 1280,
+      "height": 720,
+      "magentaPixels": 0,
+      "changedPropPixels": 1897,
+      "propRoiPixels": 3250,
+      "nonUniformImage": true,
+      "propVisibilityVerified": true,
+      "propRoi": [
+        615.0,
+        303.0,
+        50.0,
+        65.0
+      ]
+    },
+    {
+      "file": "prop_cafe_table_001_game6m.png",
+      "context": "Game minimum zoom6m; source Bootstrap world, Sun, sky/ambient and URP unchanged.",
+      "cameraPosition": [
+        14.199999809265137,
+        5.596266746520996,
+        -2.643275260925293
+      ],
+      "cameraEuler": [
+        50.0000114440918,
+        180.0,
+        -3.166761286792913e-13
+      ],
+      "fov": 40.0,
+      "width": 1280,
+      "height": 720,
+      "magentaPixels": 0,
+      "changedPropPixels": 13210,
+      "propRoiPixels": 21320,
+      "nonUniformImage": true,
+      "propVisibilityVerified": true,
+      "propRoi": [
+        575.0,
+        217.0,
+        130.0,
+        164.0
+      ]
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Read-only pinned game snapshot in art workspace; no PlayMode or game repository integration.",
+    "Table placement is provisional validation-only; no table placeholder/accepted anchor exists in the pinned game.",
+    "Candidate box colliders are physics-tested envelopes, not Claude-approved navigation/collision contracts.",
+    "Editor offscreen URP renders verify this scene/configuration, not a shipping player build or interaction UI.",
+    "Original asset geometry/material values are immutable; no aesthetic tuning or new production props."
+  ]
+}

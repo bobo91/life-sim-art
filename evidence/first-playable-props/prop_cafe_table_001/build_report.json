@@ -1,0 +1,75 @@
+{
+  "triangles": 856,
+  "vertices": 452,
+  "nonManifoldEdges": 0,
+  "looseVertices": 0,
+  "degenerateFaces": 0,
+  "duplicateFaces": 0,
+  "nonFiniteVertices": 0,
+  "signedVolumeCubicMetersSum": 0.035100423858736005,
+  "closedConstructionComponents": 12,
+  "limitations": [
+    "Closed construction components intentionally meet/overlap at attachments; no exhaustive solid-intersection proof.",
+    "No collider or runtime interaction is included."
+  ],
+  "sourceDimensionsBlenderXYZ": [
+    0.7799999713897705,
+    0.7799999713897705,
+    0.7400000095367432
+  ],
+  "materials": [
+    "prop_cafe_table_001__wood",
+    "prop_cafe_table_001__woodVariation",
+    "prop_cafe_table_001__woodEdge",
+    "prop_cafe_table_001__metal"
+  ],
+  "customProperties": {
+    "assetId": "prop_cafe_table_001",
+    "generator": "scripts/props_cafe_table.py:build_cafe_table",
+    "seed": "5501",
+    "provenance": "Original procedural vertices/materials; no external content",
+    "constructionParts": "[\"timber_plank_1\", \"timber_plank_2\", \"timber_plank_3\", \"timber_plank_4\", \"central_hub\", \"tapered_pedestal\", \"upper_collar\", \"underside_mounting_plate\", \"cast_foot_45\", \"cast_foot_135\", \"cast_foot_225\", \"cast_foot_315\"]",
+    "constructionNotes": "Four closed bevelled planks with real narrow joins; closed cast-metal assembly components intentionally overlap at structural joints.",
+    "sourceAxes": "Blender Z-up / -Y-forward; symmetric table has no unique visual front"
+  },
+  "previewCameras": {
+    "front": {
+      "orthoScale": 0.9203999638557434,
+      "location": [
+        0.0,
+        -3.0,
+        0.3699995279312134
+      ],
+      "framing": {
+        "xywhPixelsBottomLeft": [
+          48.81,
+          62.72,
+          542.37,
+          514.56
+        ],
+        "insideFrame": true
+      }
+    },
+    "isometric": {
+      "orthoScale": 1.2516400814056396,
+      "location": [
+        2.2672362327575684,
+        -2.2672369480133057,
+        2.720726728439331
+      ],
+      "framing": {
+        "xywhPixelsBottomLeft": [
+          53.86,
+          48.81,
+          532.27,
+          542.37
+        ],
+        "insideFrame": true
+      }
+    }
+  },
+  "saveReopenExactGeometry": true,
+  "glbRoundtripExactPositions5DecimalsAndTriangles": true,
+  "glbImportedMeshCount": 1,
+  "positionSignatureSHA256": "0368bcbaf96467f2244fbdacab29274d8bba5983f36987eb4e4cf26ab6ada567"
+}

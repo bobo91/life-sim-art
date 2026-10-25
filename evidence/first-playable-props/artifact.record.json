@@ -1,0 +1,26 @@
+{
+  "schema": "first-playable-props-review-artifact-1",
+  "reviewVersion": "v0.1.0-review.2",
+  "approval": "Owner visual approval pending; no production release, merge or game integration.",
+  "localArtifact": {
+    "file": "build/artifacts/first-playable-props-v0.1.0-review.2.zip",
+    "bytes": 11873471,
+    "sha256": "2741469e1acaa86cfcd88e91941d66a2dd8d5ee753fdf8e23adf59e1a0fc4f3b",
+    "input": "build/first-playable-props/review-004-public",
+    "status": "Created and checked locally; not uploaded using the unauthenticated gh CLI."
+  },
+  "remotePublication": {
+    "method": "Existing pull_request GitHub Actions workflow reproduces and uploads a separate review artifact.",
+    "branch": "codex/first-playable-props-quality-01",
+    "workflow": ".github/workflows/pipeline.yml",
+    "artifactNamePattern": "first-playable-props-v0.1.0-review.2-<github.sha>-<github.run_attempt>",
+    "retentionDays": 30,
+    "ciStatusAtRecordCreation": "Not yet run; inspect the review PR checks and description for actual run/artifact links.",
+    "hashPolicy": "CI rebuilds on Linux; use the SHA256 sidecar/index inside that artifact, not the Windows archive hash above. Cross-platform byte identity is not claimed."
+  },
+  "privacy": "Raw review.1 remains local and is not uploaded. Published copies omit private host paths, OS and hardware metadata; hashes and technical measurements are preserved.",
+  "assets": {
+    "prop_mailbox_001": "b243a55a5d92da3cd3a51c3957d0b1e1f1b9737ad8f6ed988121bae69e654698",
+    "prop_cafe_table_001": "6e122d9a172952fe237e9b24fe9c94b4eff70151e346f3ead95803a86a71ee54"
+  }
+}

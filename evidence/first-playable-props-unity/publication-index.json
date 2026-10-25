@@ -1,0 +1,33 @@
+{
+  "schema": "props-graphics-publication-1",
+  "date": "2026-10-25",
+  "localGraphicsValidation": "passed",
+  "gameContractAccepted": false,
+  "mergeAuthorized": false,
+  "nativeCropsVerifiedAfterPngSave": 8,
+  "nativeFullFramesVerifiedAfterPngSave": 2,
+  "approvedOriginalComparisonHashesUnchanged": true,
+  "privateGameSourceAndLogsPublished": false,
+  "sources": {
+    "scripts/PropsGameLightingCheck.cs": "fb3a90a4f4548a618d623dfa921abf664c79e73bdc341ee9e49b7446e008a16d",
+    "scripts/run_props_game_lighting_check.py": "80637506b4c27d32e5d4415ec590a78a612592e76b96e06547c2d447e9a09c42",
+    "scripts/compose_props_unity_comparison.py": "f65a817881c3f88f31b644aed0083f0a56c0755f09996823a1877fae906f74f1"
+  },
+  "evidence": {
+    "graphics-003/attempt.json": "2dfd9aa1e49d93a3f09ea527655fc0487bbf017bb878aafa537ad66a13b12e9b",
+    "graphics-003/checker-source.cs": "62e3f65a523883a52346e68e4627c3438e5c05a930eaf6fd8ac630939163b556",
+    "graphics-003/prop_mailbox_001_game6m.png": "70b50e62c263eb37c49060c42fd05da2472cfd70861be3305f35cf3319b338eb",
+    "graphics-003/unity-game-lighting-report.json": "b796a430e9dade839686177ccbece5e07594bff48e788a526703da04be8546af",
+    "graphics-004/01_game_start_placeholder.png": "cf730092a3bacddef31174129a81201f97b709236142dff2e6d619877daf368a",
+    "graphics-004/02_game_start_imported.png": "304762573e68a26356055fa1816d93cf9fa59bb06a97561349d583ca1ddc4834",
+    "graphics-004/attempt.json": "89f09124e4eebec6ff78ac545651ee11e8bc65fbcbdaf7fdd193220a0550253a",
+    "graphics-004/prop_cafe_table_001_game16m.png": "df9ba8d220f0dc6f1d3c441a00dfe8e2bbb71888275aacc17ba31c274a1813d6",
+    "graphics-004/prop_cafe_table_001_game6m.png": "20b82d55610e8ecf96c08ba37c99e2ce69dc2a204dd1c79cb25aa2af38f7d5aa",
+    "graphics-004/prop_mailbox_001_game16m.png": "ae9ca7bf0899dc714756f2e695375988e8ad21ffbd3f981547437037eaa3626f",
+    "graphics-004/prop_mailbox_001_game6m.png": "ecfe811e6027b2c0687777400a544b1780d511f8f22ea86cc0f717c25143e4c4",
+    "graphics-004/unity-game-lighting-report.json": "86dd346528720882b96e6ee9a72dba21540feba38f4c97339b3fd91feab0fb6b",
+    "comparison/comparison-layout.json": "c2c4137162638a644d7bdcd45f36f52f8bb72e5402964e14f0e0673bedce56d7",
+    "comparison/prop_cafe_table_001_comparison.png": "a1597409b4d2853a08ef39f9575b8e304de65f0da89151ec06b5c286af9454aa",
+    "comparison/prop_mailbox_001_comparison.png": "f00d0dd52de1cff3b9a767c7bce7b132c08540f0d78e36145421b2ebb6d7ea54"
+  }
+}

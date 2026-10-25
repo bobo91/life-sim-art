@@ -1,0 +1,489 @@
+{
+  "date": "2026-10-24",
+  "scope": "Read-only game repo/GitHub review. No Unity/Blender run, asset import, game change, issue comment, message or merge.",
+  "gameRepository": {
+    "path": "<GAME_REPO>",
+    "pinnedMainCommit": "863906b5de720bca72105bfeeb126a5ba7a0af08",
+    "remoteMainVerifiedBy": "GitHub branches/main through connected GitHub read tool",
+    "initialWorkingCopy": {
+      "commit": "a466f5e73860fa0cecd6fdd4ebf32ad150fa47cb",
+      "branch": "game-037-camera-occlusion-impl"
+    },
+    "laterObservedWorkingCopy": {
+      "commit": "863906b5de720bca72105bfeeb126a5ba7a0af08",
+      "branch": "game-038-letter-on-the-porch"
+    },
+    "raceHandling": "The game working copy changed externally during review. Contract/camera conclusions are pinned to main commit, read through git show; reviewer did not checkout/edit game repo."
+  },
+  "sourceFiles": [
+    {
+      "path": "docs/contracts/ART_CONTRACT.md",
+      "commit": "863906b5de720bca72105bfeeb126a5ba7a0af08",
+      "gitBlob": "4622a6b89ff4a62597f6dd405137a2e0473edfa7",
+      "sha256": "edeac256480d57fb53b6b56008d99a574e0ca9134dad16801770cc678134f5a0",
+      "sourceUrl": "https://github.com/bobo91/life-sim-game/blob/863906b5de720bca72105bfeeb126a5ba7a0af08/docs/contracts/ART_CONTRACT.md"
+    },
+    {
+      "path": "Assets/LifeSim/Runtime/Camera/CameraRig.cs",
+      "commit": "863906b5de720bca72105bfeeb126a5ba7a0af08",
+      "gitBlob": "4de2e7c3e2336b4a0e6b86fca5e32234262439fe",
+      "sha256": "1ed081fe20a2a4b4bf37708e1a7d8b6a5bd835db8678b427e5aabfa07f6db870",
+      "sourceUrl": "https://github.com/bobo91/life-sim-game/blob/863906b5de720bca72105bfeeb126a5ba7a0af08/Assets/LifeSim/Runtime/Camera/CameraRig.cs"
+    },
+    {
+      "path": "Assets/LifeSim/Runtime/Camera/CameraMath.cs",
+      "commit": "863906b5de720bca72105bfeeb126a5ba7a0af08",
+      "gitBlob": "0381fc16e8873c8dffe4c56f6e0adc1fc0f896ba",
+      "sha256": "183c3fe377d358036101dc018abb5a32a8a71c4c9dca067139cbaf2814ee2b54",
+      "sourceUrl": "https://github.com/bobo91/life-sim-game/blob/863906b5de720bca72105bfeeb126a5ba7a0af08/Assets/LifeSim/Runtime/Camera/CameraMath.cs"
+    },
+    {
+      "path": "Assets/LifeSim/Editor/StarterNeighborhoodBuilder.cs",
+      "commit": "863906b5de720bca72105bfeeb126a5ba7a0af08",
+      "gitBlob": "ae03cd4557fe36f610789abbac7153d68f55a72c",
+      "sha256": "7adb27683a3044db365a027abba4e0cdc8d574a2408caf17620caeda1f4aaa34",
+      "sourceUrl": "https://github.com/bobo91/life-sim-game/blob/863906b5de720bca72105bfeeb126a5ba7a0af08/Assets/LifeSim/Editor/StarterNeighborhoodBuilder.cs"
+    },
+    {
+      "path": "Assets/LifeSim/Editor/ProjectBootstrapper.cs",
+      "commit": "863906b5de720bca72105bfeeb126a5ba7a0af08",
+      "gitBlob": "63ed74cafd740de90a710ee7ce0e1163977944ce",
+      "sha256": "15d6f58b69056706c985e75d322a6dab5f7d52cc5c0c2973b1fa16203fc0830a",
+      "sourceUrl": "https://github.com/bobo91/life-sim-game/blob/863906b5de720bca72105bfeeb126a5ba7a0af08/Assets/LifeSim/Editor/ProjectBootstrapper.cs"
+    },
+    {
+      "path": "Assets/LifeSim/Editor/EvidenceCapture.cs",
+      "commit": "863906b5de720bca72105bfeeb126a5ba7a0af08",
+      "gitBlob": "a17b56d33b20a85e62fb420a3eb324f11fce54d4",
+      "sha256": "0f5dd4840e30cf14e93e75a4c84f27b932e0938ac53fbff074ecff33e5e212ee",
+      "sourceUrl": "https://github.com/bobo91/life-sim-game/blob/863906b5de720bca72105bfeeb126a5ba7a0af08/Assets/LifeSim/Editor/EvidenceCapture.cs"
+    },
+    {
+      "path": "Assets/LifeSim/Runtime/World/PlaceholderAsset.cs",
+      "commit": "863906b5de720bca72105bfeeb126a5ba7a0af08",
+      "gitBlob": "55e0084d81feb745feeacd035c78a7bf91f6aa21",
+      "sha256": "0998a78b9e121b5ce70e4d0905320ae62de7d0ac200b5bea23838e3dcfcfd015",
+      "sourceUrl": "https://github.com/bobo91/life-sim-game/blob/863906b5de720bca72105bfeeb126a5ba7a0af08/Assets/LifeSim/Runtime/World/PlaceholderAsset.cs"
+    },
+    {
+      "path": "Assets/LifeSim/Core/Dialogue/InteractionRules.cs",
+      "commit": "863906b5de720bca72105bfeeb126a5ba7a0af08",
+      "gitBlob": "148e9364d54fcd85cd150d945bddde1a232d2025",
+      "sha256": "e36f2d0c60e18d7ad7f0454e5b8490926cc952f35f9fef2ec50f69a96db3f90c",
+      "sourceUrl": "https://github.com/bobo91/life-sim-game/blob/863906b5de720bca72105bfeeb126a5ba7a0af08/Assets/LifeSim/Core/Dialogue/InteractionRules.cs"
+    },
+    {
+      "path": "Assets/LifeSim/Runtime/GameInfo.cs",
+      "commit": "863906b5de720bca72105bfeeb126a5ba7a0af08",
+      "gitBlob": "ee3f3c6059f0853d63b610ca2f4563bb04564ff4",
+      "sha256": "4e48217aaf66c6ddf242ce5a6173ee7ec162a77ccee48f11afe826ff1ce61280",
+      "sourceUrl": "https://github.com/bobo91/life-sim-game/blob/863906b5de720bca72105bfeeb126a5ba7a0af08/Assets/LifeSim/Runtime/GameInfo.cs"
+    },
+    {
+      "path": "Assets/LifeSim/Scenes/Bootstrap.unity",
+      "commit": "863906b5de720bca72105bfeeb126a5ba7a0af08",
+      "gitBlob": "c88f67559b8c3abd3e91000600b9c2006eed600f",
+      "sha256": "27cf35b0be77b2fa2562d595db3bc9bd3a90d360bc0ba2b571bb8fbfebe45d22",
+      "sourceUrl": "https://github.com/bobo91/life-sim-game/blob/863906b5de720bca72105bfeeb126a5ba7a0af08/Assets/LifeSim/Scenes/Bootstrap.unity"
+    },
+    {
+      "path": "ProjectSettings/ProjectSettings.asset",
+      "commit": "863906b5de720bca72105bfeeb126a5ba7a0af08",
+      "gitBlob": "c19130db8bda7a7c0d123c0f9a6474bc559fc93e",
+      "sha256": "6c02d966400bcd74c4c1f5e11a504db134c9fd67f22db27e452f1a69b3a53606",
+      "sourceUrl": "https://github.com/bobo91/life-sim-game/blob/863906b5de720bca72105bfeeb126a5ba7a0af08/ProjectSettings/ProjectSettings.asset"
+    },
+    {
+      "path": "ProjectSettings/ProjectVersion.txt",
+      "commit": "863906b5de720bca72105bfeeb126a5ba7a0af08",
+      "gitBlob": "624f2335e9a6c178697b2601f7a513342b58ce41",
+      "sha256": "65532ce9de55509cbf186a332f027f49c2e4012ca5327b27e595c8245a327830",
+      "sourceUrl": "https://github.com/bobo91/life-sim-game/blob/863906b5de720bca72105bfeeb126a5ba7a0af08/ProjectSettings/ProjectVersion.txt"
+    },
+    {
+      "path": "Packages/manifest.json",
+      "commit": "863906b5de720bca72105bfeeb126a5ba7a0af08",
+      "gitBlob": "55dfcc07a1728f0f6bfc77bd713bd14d25ac6700",
+      "sha256": "03a15606d4f4ec8fa57033be9844059688d799c3262977570ab773d2e4d888d8",
+      "sourceUrl": "https://github.com/bobo91/life-sim-game/blob/863906b5de720bca72105bfeeb126a5ba7a0af08/Packages/manifest.json"
+    }
+  ],
+  "artSources": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "2e05c36bde4d5329aa81477aba12b6fea2e65f57d0040895f4f3c832b509c5a0"
+    },
+    {
+      "path": "docs/ART_CONTRACT.md",
+      "sha256": "02783a56182bad2312ad3ed6b9584052c2d55216c0a7cc5beaead0f46a6b8dd9"
+    },
+    {
+      "path": "docs/ART_DIRECTION.md",
+      "sha256": "4063820041a32248d755477fc850e160ceb73092914230b7880399de8be15fea"
+    }
+  ],
+  "issues": [
+    {
+      "number": 48,
+      "url": "https://github.com/bobo91/life-sim-game/issues/48",
+      "title": "GAME-037 — Camera occlusion: fade buildings that hide the player",
+      "state": "open",
+      "milestone": null,
+      "updatedAt": "2026-10-24T08:23:32Z",
+      "bodySha256": "9533dba202c1978b2d4f7e5ef5cfd25970c58ffa65b795415db8284448b173f5",
+      "assetIds": []
+    },
+    {
+      "number": 51,
+      "url": "https://github.com/bobo91/life-sim-game/issues/51",
+      "title": "GAME-038 — First Playable Day 1/8: The letter on the porch (story core, mailbox, objective line)",
+      "state": "open",
+      "milestone": 1,
+      "updatedAt": "2026-10-24T13:58:28Z",
+      "bodySha256": "7e919b24877b42c2b72802f85c0c702d2dc56fd6c86e52565c7dcb82b7468ef5",
+      "assetIds": [
+        "prop_mailbox_001"
+      ]
+    },
+    {
+      "number": 52,
+      "url": "https://github.com/bobo91/life-sim-game/issues/52",
+      "title": "GAME-039 — First Playable Day 2/8: Pause, save and continue (Esc menu, New Game/Continue, autosave, 07:30 start)",
+      "state": "open",
+      "milestone": 1,
+      "updatedAt": "2026-10-24T13:58:20Z",
+      "bodySha256": "84bb49ed42ffbc2fb45c0b94547ab3839cbff2a5add6f5d9225ac6781206975e",
+      "assetIds": []
+    },
+    {
+      "number": 53,
+      "url": "https://github.com/bobo91/life-sim-game/issues/53",
+      "title": "GAME-040 — First Playable Day 3/8: Ava's counter and the first meeting (review build 1)",
+      "state": "open",
+      "milestone": 1,
+      "updatedAt": "2026-10-24T13:58:21Z",
+      "bodySha256": "72eb1f1de7f9b6cea8d736aa401562e86a1498b95bfeffbf3a3421804390616b",
+      "assetIds": [
+        "prop_cafe_counter_001"
+      ]
+    },
+    {
+      "number": 54,
+      "url": "https://github.com/bobo91/life-sim-game/issues/54",
+      "title": "GAME-041 — First Playable Day 4/8: Your answer matters (limited dialogue choices and story effects)",
+      "state": "open",
+      "milestone": 1,
+      "updatedAt": "2026-10-24T13:58:22Z",
+      "bodySha256": "94c7de0fb5258fcef656262db23e348b77ce224966be0b6f0dd15e0611b77b42",
+      "assetIds": []
+    },
+    {
+      "number": 55,
+      "url": "https://github.com/bobo91/life-sim-game/issues/55",
+      "title": "GAME-042 — First Playable Day 5/8: Set up the terrace (an activity with a visible result)",
+      "state": "open",
+      "milestone": 1,
+      "updatedAt": "2026-10-24T13:58:23Z",
+      "bodySha256": "a5e7adeb36c214337bd7e200f21d9d98308502c7d38e0f33da706840d327420c",
+      "assetIds": [
+        "prop_cafe_chair_001",
+        "prop_cafe_table_001"
+      ]
+    },
+    {
+      "number": 56,
+      "url": "https://github.com/bobo91/life-sim-game/issues/56",
+      "title": "GAME-043 — First Playable Day 6/8: Walter's blue tin (payoff, the town reacts, completion)",
+      "state": "open",
+      "milestone": 1,
+      "updatedAt": "2026-10-24T13:58:25Z",
+      "bodySha256": "ac0749efc4e073dda339bf64f74ffeff56e960878c3b69a6e2d02b708d238ddc",
+      "assetIds": []
+    },
+    {
+      "number": 57,
+      "url": "https://github.com/bobo91/life-sim-game/issues/57",
+      "title": "GAME-044 — First Playable Day 7/8: Verify the whole day (end to end, restarts, builds, review build 2)",
+      "state": "open",
+      "milestone": 1,
+      "updatedAt": "2026-10-24T13:58:26Z",
+      "bodySha256": "8851b663ce7e012e2e798760154d3e2b13518969ce588d9637045d7bb8293f1f",
+      "assetIds": []
+    },
+    {
+      "number": 58,
+      "url": "https://github.com/bobo91/life-sim-game/issues/58",
+      "title": "GAME-045 — First Playable Day 8/8: Close the day and wake up (last in the milestone)",
+      "state": "open",
+      "milestone": 1,
+      "updatedAt": "2026-10-24T13:58:27Z",
+      "bodySha256": "0303289977e7ea3c02af52b144064e97c9b93dad5308f7aac859bc9f43b96218",
+      "assetIds": []
+    }
+  ],
+  "milestone": {
+    "number": 1,
+    "title": "First Playable Day",
+    "url": "https://github.com/bobo91/life-sim-game/milestone/1",
+    "confirmedIssueMembership": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58
+    ],
+    "source": "Milestone numeric field from every fetched issue and consistent milestone links in bodies",
+    "fullMetadataVerified": false,
+    "limitation": "Dedicated milestone API URL rejected by connector endpoint allowlist; read-only gh api fallback returned404. No due date/progress metadata invented."
+  },
+  "storyScript": {
+    "url": "https://github.com/bobo91/life-sim-game/issues/51#issuecomment-6385024357",
+    "id": 6385024357,
+    "title": "# Willow Creek, Day 1: \"Walter's blue tin\". Story script v2 (APPROVED BASIS, locked 2026-10-24)",
+    "createdAt": "2026-10-24T13:51:36Z",
+    "updatedAt": "2026-10-24T13:58:28Z",
+    "bodySha256": "ba124a5dc2ba7f3b941e1cc955273012ec58a28e6b2d5c3d9ffd8db3196e1b46",
+    "status": "v2 APPROVED BASIS, locked2026-10-24",
+    "sourceBackup": "build/first-playable-props/game-issue-source-readonly.json"
+  },
+  "deliveryContract": {
+    "status": "provisional shared proposal",
+    "units": "meters",
+    "unityUp": "+Y",
+    "unityForward": "+Z",
+    "blenderSourceUp": "+Z",
+    "blenderAuthoringFront": "-Y from art direction, not separately specified by game doc",
+    "pivotDefault": "bottom-center for buildings/props unless specified",
+    "modelFormat": ".glb",
+    "sidecars": [
+      "manifest.json",
+      "front.png",
+      "isometric.png"
+    ],
+    "manifestFields": [
+      "assetId",
+      "version",
+      "sourceCommit",
+      "SHA256",
+      "units",
+      "axes",
+      "bounds",
+      "triangles",
+      "materials"
+    ],
+    "otherRequiredProvenance": [
+      "generator",
+      "config",
+      "seed",
+      "deterministic command",
+      "licensing/provenance"
+    ],
+    "binaryDelivery": "versioned release artifacts or external artifact storage, not ordinary git blobs",
+    "validationRequired": [
+      "file/checksum/schema",
+      "positive dimensions",
+      "expected bounds within unspecified tolerance",
+      "orientation",
+      "material slots",
+      "mesh integrity",
+      "licensing/provenance",
+      "previews"
+    ],
+    "newPropDimensionsAndTolerances": null,
+    "newPropTriangleOrMaterialCaps": null
+  },
+  "assetFindings": [
+    {
+      "assetId": "prop_mailbox_001",
+      "idConfirmedInIssue": 51,
+      "role": "mailbox near spawn/gate for letter note",
+      "gameplayRequirements": [
+        "collider",
+        "at most8m from spawn",
+        "reachable in3s walking",
+        "prompt shown from5m",
+        "letter reread idempotent"
+      ],
+      "dimensions": null,
+      "pivot": "bottom-center by default",
+      "frontOverride": null,
+      "gameplayImplementation": "future GAME-038; absent in pinned main",
+      "hingeAnimation": "not specified in reviewed game sources"
+    },
+    {
+      "assetId": "prop_cafe_counter_001",
+      "idConfirmedInIssue": 53,
+      "role": "outdoor serving counter at cafe front, Ava visible/talkable weekdays08?16 and waits from07:50",
+      "gameplayRequirements": [
+        "collider",
+        "readable as counter rather than wall",
+        "player/Ava reachability and visibility at zoom6/16/30"
+      ],
+      "dimensions": null,
+      "pivot": "bottom-center by default",
+      "frontOverride": null,
+      "gameplayImplementation": "future GAME-040; absent in pinned main"
+    },
+    {
+      "assetId": "prop_cafe_table_001",
+      "idConfirmedInIssue": 55,
+      "role": "two interactable terrace tables with saved setup states",
+      "gameplayRequirements": [
+        "colliders do not block doorway/counter",
+        "before: bare table with chairs stacked on it",
+        "after: chairs around it, cloth, cups, small parasol",
+        "state visibly different at zoom6/16/30",
+        "player works near table, not through it",
+        "two tables within15s walking+working from counter"
+      ],
+      "dimensions": null,
+      "chairCount": null,
+      "pivot": "bottom-center by default",
+      "stateObjectNamingAndAnchors": null,
+      "gameplayImplementation": "future GAME-042; absent in pinned main"
+    },
+    {
+      "assetId": "prop_cafe_chair_001",
+      "idConfirmedInIssue": 55,
+      "role": "reusable chair visual for stacked/arranged table states",
+      "dimensions": null,
+      "pivot": "bottom-center by default",
+      "stackingSeatAndAttachmentAnchors": null,
+      "gameplayImplementation": "future GAME-042; absent in pinned main"
+    },
+    {
+      "assetId": "prop_tin_001",
+      "idConfirmedInIssue": null,
+      "idStatus": "owner/art requested candidate; absent from all reviewed issue bodies and pinned main",
+      "storySourceIssue": 56,
+      "storyRequirements": [
+        "blue coffee tin",
+        "dented at one corner",
+        "brass key on string",
+        "paper tag P.H. MILL, STOREROOM"
+      ],
+      "dimensions": null,
+      "pivot": "bottom-center default if delivered as prop",
+      "gameplayImplementation": "GAME-043 uses narration/story flags, no inventory screen; physical tin model/interaction/opening mechanism not specified",
+      "physicalTinGeometryRequirement": "not specified in GAME-043; owner/art requested ID is separate"
+    }
+  ],
+  "camera": {
+    "projection": "perspective",
+    "verticalFovDegrees": 40,
+    "pitchDegrees": 50,
+    "defaultYawDegrees": 180,
+    "distanceMeters": {
+      "min": 6,
+      "default": 16,
+      "max": 30
+    },
+    "focus": "target.position + Vector3.up*1m",
+    "rotation": "Quaternion.Euler(pitch,yaw,0)",
+    "position": "focus + rotation*(Vector3.back*distance)",
+    "nearClipMeters": 0.3,
+    "farClipMeters": 1000,
+    "sceneSerializedFocalLength": 50,
+    "sceneSerializedSensorSize": [
+      36,
+      24
+    ],
+    "lensNote": "Use effective perspective FOV40 as reference, not an assumed physical50mm lens. No film/lens equivalence claimed.",
+    "evidenceViewport": [
+      1280,
+      720
+    ],
+    "playerSettingsDefaultViewport": [
+      1920,
+      1080
+    ],
+    "defaultNativeResolution": true,
+    "actualRuntimeResolutionVerified": false,
+    "evidenceViews": [
+      {
+        "yaw": 180,
+        "distance": 16,
+        "name": "01_gameplay_default"
+      },
+      {
+        "yaw": 215,
+        "distance": 30,
+        "name": "02_overview_zoomed_out"
+      },
+      {
+        "yaw": 125,
+        "distance": 8,
+        "name": "03_rotated_closeup"
+      }
+    ],
+    "staleIssueContext": "#48/#53 mention defaultyaw0; pinned generator and scene use180. Match code/scene for future previews."
+  },
+  "lightingReadOnly": {
+    "source": "ProjectBootstrapper.cs",
+    "sunType": "Directional",
+    "sunEulerDegrees": [
+      50,
+      150,
+      0
+    ],
+    "color": [
+      1,
+      0.94,
+      0.82
+    ],
+    "intensity": 1.2,
+    "shadows": "Soft",
+    "cameraBackground": [
+      0.55,
+      0.72,
+      0.86
+    ],
+    "actualRenderedAppearanceTested": false
+  },
+  "unityAndImport": {
+    "projectUnity": "6000.5.8f1",
+    "projectUrp": "17.5.0",
+    "colorSpace": "Linear",
+    "placeholderShader": "Universal Render Pipeline/Lit",
+    "artGlbMaterialRecommendation": "opaque core glTF metallic/roughness materials with simple slots (art-direction proposal)",
+    "gltfImporterFoundInPinnedSourceOrDirectPackages": false,
+    "prefabContractForNewProps": null,
+    "colliderShapesAndDimensionsForNewProps": null,
+    "interactionComponentImplementationForNewProps": null,
+    "occlusion": "#48 proposes building_* fade, prop_* ignore; proposal not merged in pinned main and not a new prop shader/collider mandate"
+  },
+  "budgets": {
+    "canonicalPerNewProp": null,
+    "artDirectionOnlyProposals": {
+      "smallCivicLod0Triangles": 2400,
+      "materialSlots": 4,
+      "surfaceStrategy": "opaque glTF metallic/roughness, authored normals, no textures at benchmark stage"
+    },
+    "warning": "These art-direction values are provisional authoring targets, not accepted mailbox/table-specific contracts or game performance proof."
+  },
+  "notVerified": [
+    "new asset dimensions/footprints",
+    "collider geometry and tolerances",
+    "prefab hierarchy",
+    "interaction/seat/stack/lid anchor names",
+    "chair count and terrace layout",
+    "per-asset triangle/material/texture budget",
+    "actual Unity glTF import",
+    "runtime game resolution",
+    "new FirstPlayableDay scene/code not merged yet"
+  ],
+  "actionsNotTaken": [
+    "game repo edits",
+    "branch checkout",
+    "account/global git config change",
+    "Unity run",
+    "Blender run",
+    "new game asset import",
+    "issue posts/comments",
+    "merge"
+  ],
+  "publicationRedactions": "Local executable/workspace/home paths and host hardware/OS metadata removed; technical measurements and hashes retained."
+}
