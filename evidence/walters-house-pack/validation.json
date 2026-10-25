@@ -1,0 +1,496 @@
+{
+  "status": "passed",
+  "assets": {
+    "prop_porch_bench_001": {
+      "sha256": "491ac2c369c1724c0b152a8d0b9f751e2b684421ee3851b3da0f44838e5b0d61",
+      "bytes": 47344,
+      "triangles": 856,
+      "vertices": 1644,
+      "meshInstances": 1,
+      "materials": [
+        "prop_porch_bench_001__timber",
+        "prop_porch_bench_001__faded",
+        "prop_porch_bench_001__frame"
+      ],
+      "materialCount": 3,
+      "bounds": {
+        "min": [
+          -0.675000011920929,
+          0.0,
+          -0.2939800024032593
+        ],
+        "max": [
+          0.675000011920929,
+          0.9010896682739258,
+          0.2939800024032593
+        ]
+      },
+      "dimensionsMeters": [
+        1.350000023841858,
+        0.9010896682739258,
+        0.5879600048065186
+      ],
+      "pivotErrorMeters": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "windingNormalsConsistent": true,
+      "coordinateSystem": {
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      }
+    },
+    "prop_flower_pot_001": {
+      "sha256": "0d234a932a58fbd37b7aba1dc0090a9296258884db072f3abc531383328ff929",
+      "bytes": 51972,
+      "triangles": 2596,
+      "vertices": 1368,
+      "meshInstances": 1,
+      "materials": [
+        "prop_flower_pot_001__pot",
+        "prop_flower_pot_001__soil",
+        "prop_flower_pot_001__leaf",
+        "prop_flower_pot_001__flower"
+      ],
+      "materialCount": 4,
+      "bounds": {
+        "min": [
+          -0.23841193318367004,
+          0.0,
+          -0.23128202557563782
+        ],
+        "max": [
+          0.23841193318367004,
+          0.7109755277633667,
+          0.23128202557563782
+        ]
+      },
+      "dimensionsMeters": [
+        0.4768238663673401,
+        0.7109755277633667,
+        0.46256405115127563
+      ],
+      "pivotErrorMeters": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "windingNormalsConsistent": true,
+      "coordinateSystem": {
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      }
+    },
+    "prop_flower_pot_002": {
+      "sha256": "e13cb5406359a9f3e28a0ef0126412beb95ee51906263969cc3a80cc87255d83",
+      "bytes": 41644,
+      "triangles": 2100,
+      "vertices": 1096,
+      "meshInstances": 1,
+      "materials": [
+        "prop_flower_pot_002__pot",
+        "prop_flower_pot_002__soil",
+        "prop_flower_pot_002__leaf"
+      ],
+      "materialCount": 3,
+      "bounds": {
+        "min": [
+          -0.16660340130329132,
+          0.0,
+          -0.168633371591568
+        ],
+        "max": [
+          0.16660340130329132,
+          0.35018977522850037,
+          0.168633371591568
+        ]
+      },
+      "dimensionsMeters": [
+        0.33320680260658264,
+        0.35018977522850037,
+        0.337266743183136
+      ],
+      "pivotErrorMeters": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "windingNormalsConsistent": true,
+      "coordinateSystem": {
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      }
+    },
+    "prop_welcome_mat_001": {
+      "sha256": "727ed0bb5326a3c715891e3ff509a28548b851fc739ccad294d2980f9372cee4",
+      "bytes": 39952,
+      "triangles": 632,
+      "vertices": 1392,
+      "meshInstances": 1,
+      "materials": [
+        "prop_welcome_mat_001__coir",
+        "prop_welcome_mat_001__border",
+        "prop_welcome_mat_001__faded"
+      ],
+      "materialCount": 3,
+      "bounds": {
+        "min": [
+          -0.3799999952316284,
+          0.0,
+          -0.22499999403953552
+        ],
+        "max": [
+          0.3799999952316284,
+          0.020500000566244125,
+          0.22499999403953552
+        ]
+      },
+      "dimensionsMeters": [
+        0.7599999904632568,
+        0.020500000566244125,
+        0.44999998807907104
+      ],
+      "pivotErrorMeters": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "windingNormalsConsistent": true,
+      "coordinateSystem": {
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      }
+    },
+    "prop_porch_lantern_001": {
+      "sha256": "2234d5936b2a2dd5f1f047250d2ad944003bf8d70aa669b3652765ae2532de46",
+      "bytes": 27124,
+      "triangles": 484,
+      "vertices": 890,
+      "meshInstances": 1,
+      "materials": [
+        "prop_porch_lantern_001__metal",
+        "prop_porch_lantern_001__aged_edge",
+        "prop_porch_lantern_001__glow"
+      ],
+      "materialCount": 3,
+      "bounds": {
+        "min": [
+          -0.11500000208616257,
+          0.0,
+          -0.13199999928474426
+        ],
+        "max": [
+          0.11500000208616257,
+          0.37700000405311584,
+          0.13199999928474426
+        ]
+      },
+      "dimensionsMeters": [
+        0.23000000417232513,
+        0.37700000405311584,
+        0.2639999985694885
+      ],
+      "pivotErrorMeters": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "windingNormalsConsistent": true,
+      "coordinateSystem": {
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      }
+    },
+    "prop_wooden_fence_001": {
+      "sha256": "95e4c3ea7fe2215fb9e5af25b5db3d94c5d971a484a027c5cbc90159d0b8c68a",
+      "bytes": 27176,
+      "triangles": 464,
+      "vertices": 902,
+      "meshInstances": 1,
+      "materials": [
+        "prop_wooden_fence_001__timber",
+        "prop_wooden_fence_001__faded",
+        "prop_wooden_fence_001__frame"
+      ],
+      "materialCount": 3,
+      "bounds": {
+        "min": [
+          -0.6899999976158142,
+          0.0,
+          -0.035999998450279236
+        ],
+        "max": [
+          0.6899999976158142,
+          0.8119999766349792,
+          0.035999998450279236
+        ]
+      },
+      "dimensionsMeters": [
+        1.3799999952316284,
+        0.8119999766349792,
+        0.07199999690055847
+      ],
+      "pivotErrorMeters": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "windingNormalsConsistent": true,
+      "coordinateSystem": {
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      }
+    },
+    "prop_fence_post_001": {
+      "sha256": "c57540ce7af827c69062fdc09cd3f1054e21b2ae106229fc82c2bb78387287d0",
+      "bytes": 18908,
+      "triangles": 308,
+      "vertices": 630,
+      "meshInstances": 1,
+      "materials": [
+        "prop_fence_post_001__timber",
+        "prop_fence_post_001__faded"
+      ],
+      "materialCount": 2,
+      "bounds": {
+        "min": [
+          -0.07400000095367432,
+          0.0,
+          -0.07400000095367432
+        ],
+        "max": [
+          0.07400000095367432,
+          1.024999976158142,
+          0.07400000095367432
+        ]
+      },
+      "dimensionsMeters": [
+        0.14800000190734863,
+        1.024999976158142,
+        0.14800000190734863
+      ],
+      "pivotErrorMeters": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "windingNormalsConsistent": true,
+      "coordinateSystem": {
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      }
+    },
+    "prop_old_watering_can_001": {
+      "sha256": "617dff2f0e10289f2a608e1a488955a8924cb39f89a5c0d4070189ecac6a9bc3",
+      "bytes": 33720,
+      "triangles": 1648,
+      "vertices": 840,
+      "meshInstances": 1,
+      "materials": [
+        "prop_old_watering_can_001__metal",
+        "prop_old_watering_can_001__rim",
+        "prop_old_watering_can_001__handle",
+        "prop_old_watering_can_001__inside"
+      ],
+      "materialCount": 4,
+      "bounds": {
+        "min": [
+          -0.255321204662323,
+          0.0,
+          -0.0860000029206276
+        ],
+        "max": [
+          0.255321204662323,
+          0.3840000033378601,
+          0.0860000029206276
+        ]
+      },
+      "dimensionsMeters": [
+        0.510642409324646,
+        0.3840000033378601,
+        0.1720000058412552
+      ],
+      "pivotErrorMeters": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "windingNormalsConsistent": true,
+      "coordinateSystem": {
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      }
+    },
+    "prop_wooden_crate_001": {
+      "sha256": "b4baa1d795966f2a7331d0740bcc216f788d44b49d93bfe66ee1d63a6527630d",
+      "bytes": 139956,
+      "triangles": 2480,
+      "vertices": 5096,
+      "meshInstances": 1,
+      "materials": [
+        "prop_wooden_crate_001__timber",
+        "prop_wooden_crate_001__faded",
+        "prop_wooden_crate_001__frame"
+      ],
+      "materialCount": 3,
+      "bounds": {
+        "min": [
+          -0.23999999463558197,
+          0.0,
+          -0.17000000178813934
+        ],
+        "max": [
+          0.23999999463558197,
+          0.3199999928474426,
+          0.17000000178813934
+        ]
+      },
+      "dimensionsMeters": [
+        0.47999998927116394,
+        0.3199999928474426,
+        0.3400000035762787
+      ],
+      "pivotErrorMeters": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "windingNormalsConsistent": true,
+      "coordinateSystem": {
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      }
+    },
+    "prop_porch_rocking_chair_001": {
+      "sha256": "e941a889b616ddd0b6336cc512cbac371f90c4e228fdf24bfda144162ea79207",
+      "bytes": 97052,
+      "triangles": 1884,
+      "vertices": 3456,
+      "meshInstances": 1,
+      "materials": [
+        "prop_porch_rocking_chair_001__timber",
+        "prop_porch_rocking_chair_001__faded",
+        "prop_porch_rocking_chair_001__frame"
+      ],
+      "materialCount": 3,
+      "bounds": {
+        "min": [
+          -0.32899999618530273,
+          0.0,
+          -0.4350000023841858
+        ],
+        "max": [
+          0.32899999618530273,
+          1.0829999446868896,
+          0.4350000023841858
+        ]
+      },
+      "dimensionsMeters": [
+        0.6579999923706055,
+        1.0829999446868896,
+        0.8700000047683716
+      ],
+      "pivotErrorMeters": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "windingNormalsConsistent": true,
+      "coordinateSystem": {
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      }
+    }
+  },
+  "geometryReplay": {
+    "prop_porch_bench_001": {
+      "sha256": "491ac2c369c1724c0b152a8d0b9f751e2b684421ee3851b3da0f44838e5b0d61",
+      "preflightSHA256": "491ac2c369c1724c0b152a8d0b9f751e2b684421ee3851b3da0f44838e5b0d61",
+      "byteIdentical": true
+    },
+    "prop_flower_pot_001": {
+      "sha256": "0d234a932a58fbd37b7aba1dc0090a9296258884db072f3abc531383328ff929",
+      "preflightSHA256": "0d234a932a58fbd37b7aba1dc0090a9296258884db072f3abc531383328ff929",
+      "byteIdentical": true
+    },
+    "prop_flower_pot_002": {
+      "sha256": "e13cb5406359a9f3e28a0ef0126412beb95ee51906263969cc3a80cc87255d83",
+      "preflightSHA256": "e13cb5406359a9f3e28a0ef0126412beb95ee51906263969cc3a80cc87255d83",
+      "byteIdentical": true
+    },
+    "prop_welcome_mat_001": {
+      "sha256": "727ed0bb5326a3c715891e3ff509a28548b851fc739ccad294d2980f9372cee4",
+      "preflightSHA256": "727ed0bb5326a3c715891e3ff509a28548b851fc739ccad294d2980f9372cee4",
+      "byteIdentical": true
+    },
+    "prop_porch_lantern_001": {
+      "sha256": "2234d5936b2a2dd5f1f047250d2ad944003bf8d70aa669b3652765ae2532de46",
+      "preflightSHA256": "2234d5936b2a2dd5f1f047250d2ad944003bf8d70aa669b3652765ae2532de46",
+      "byteIdentical": true
+    },
+    "prop_wooden_fence_001": {
+      "sha256": "95e4c3ea7fe2215fb9e5af25b5db3d94c5d971a484a027c5cbc90159d0b8c68a",
+      "preflightSHA256": "95e4c3ea7fe2215fb9e5af25b5db3d94c5d971a484a027c5cbc90159d0b8c68a",
+      "byteIdentical": true
+    },
+    "prop_fence_post_001": {
+      "sha256": "c57540ce7af827c69062fdc09cd3f1054e21b2ae106229fc82c2bb78387287d0",
+      "preflightSHA256": "c57540ce7af827c69062fdc09cd3f1054e21b2ae106229fc82c2bb78387287d0",
+      "byteIdentical": true
+    },
+    "prop_old_watering_can_001": {
+      "sha256": "617dff2f0e10289f2a608e1a488955a8924cb39f89a5c0d4070189ecac6a9bc3",
+      "preflightSHA256": "617dff2f0e10289f2a608e1a488955a8924cb39f89a5c0d4070189ecac6a9bc3",
+      "byteIdentical": true
+    },
+    "prop_wooden_crate_001": {
+      "sha256": "b4baa1d795966f2a7331d0740bcc216f788d44b49d93bfe66ee1d63a6527630d",
+      "preflightSHA256": "b4baa1d795966f2a7331d0740bcc216f788d44b49d93bfe66ee1d63a6527630d",
+      "byteIdentical": true
+    },
+    "prop_porch_rocking_chair_001": {
+      "sha256": "e941a889b616ddd0b6336cc512cbac371f90c4e228fdf24bfda144162ea79207",
+      "preflightSHA256": "e941a889b616ddd0b6336cc512cbac371f90c4e228fdf24bfda144162ea79207",
+      "byteIdentical": true
+    }
+  },
+  "sourceHashes": {
+    "scripts/build_walter_porch.py": "062f02eff7705196a24982a8655f3349d1241c4c11cefec1795cf19b60a42cd4",
+    "scripts/run_walter_porch.py": "7e462a2018102657a3a83950a9f480f550d90db68f4661c5ddb901fd8a6136a5",
+    "scripts/props_walter.py": "2fc086ba351d9efdfb141a1847a988583f547622e29dcb977702a45563660146",
+    "scripts/walter_common.py": "0f3a1d5b844c7034e012b50a58804f681dbfcaa70fc01dce3590321ba04e7417",
+    "scripts/walter_mailbox_reference.py": "b76d773d1cdd9e5d0470d9a5f0d2784b5be92ef608e0a55f20873521f272f63c",
+    "art_pipeline/blender_build.py": "1602b3acbb5ba96e956cfb23e605e49b351cb803b0aa3f2ee4aed226fa4511eb",
+    "art_pipeline/validation.py": "516335248f5cdf7f3430da86045c8902342395a458ec52dc6132129086b67e55",
+    "art_pipeline/config.py": "3faa2389bdbb4e377bc2e9154526274bcd4360a837ea94912116526e066b78a9",
+    "art_pipeline/cli.py": "ad9ac05777328ed59879fc83ab064700632a3012b55f543fc5b6d4fe4c2bed46",
+    "art_pipeline/benchmark_checks.py": "94a9a56e0811755350f5a85646a98c3746b9eeebbf2023822ea32b5280f04ce8"
+  },
+  "configHashes": {
+    "prop_porch_bench_001": "db06f6870dab22e111b29c3f1263178e8ee186ffd9848f972cfce5a02c0a3dd3",
+    "prop_flower_pot_001": "4cd25938158adf58cda9b4848a07ee857ed99cf056eeee0cc0934cf017cfb59d",
+    "prop_flower_pot_002": "98d50532da113fa437fdeeb48a5ad27943eacad4e8693f83e0e454425ba2fb87",
+    "prop_welcome_mat_001": "2d9a1f3f63531f9cf7e0b8d7e83dcfa0eab0a7b0992fa9ed97c72f8da9bf1962",
+    "prop_porch_lantern_001": "b55740c3a639f141af8d935f2c670ae93d553f6b9a5b67fbf1d36dc471b02d4a",
+    "prop_wooden_fence_001": "9705cf126181581ab421ef327fc9bbc30e1190b2654ef35be844e1de3c7f63b8",
+    "prop_fence_post_001": "51baeaf4223c1a606edd0f0507a6405b2b0a7642d44b0c195adcd168dec31444",
+    "prop_old_watering_can_001": "98aab5338e2be30be82655b593bc0be22991287a3976c982b46dcd5819823658",
+    "prop_wooden_crate_001": "4c01c12a0b15f2227f1fa8062a6c648a878d477739c6a10a46412f8503a01aed",
+    "prop_porch_rocking_chair_001": "e8dfd8f9b7292072254dfcff4b00642635d4160aaf264dac860f4742969655df",
+    "walter-mailbox-reference": "3f2ba255a195e4271c2d775f66eaa10c34179927d3e9018f89e1afc451d52af7"
+  },
+  "elapsedSeconds": 192.393,
+  "originalMailboxSHA256": "b243a55a5d92da3cd3a51c3957d0b1e1f1b9737ad8f6ed988121bae69e654698",
+  "scope": "Actual Blender mesh checks, save/reopen, GLB roundtrip, independent GLB validation and renders. No Unity import, collisions, seating, rocking or navigation tests."
+}

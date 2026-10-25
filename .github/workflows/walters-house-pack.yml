@@ -1,0 +1,56 @@
+name: Walter's House Pack
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/*walter*'
+      - 'configs/prop_porch*'
+      - 'configs/prop_flower*'
+      - 'configs/prop_wooden*'
+      - 'configs/prop_fence*'
+      - 'configs/prop_welcome_mat_001.json'
+      - 'configs/prop_old_watering_can_001.json'
+      - 'configs/walter*'
+      - 'docs/props/WALTERS_HOUSE_PACK.md'
+      - '.github/workflows/walters-house-pack.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-walter-pack:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Shared independent-validator tests
+        run: python -m unittest discover -s tests -v
+      - name: Install portable contact-sheet dependency
+        run: python -m pip install Pillow==12.3.0
+      - name: Install official pinned Blender and verify checksum
+        shell: bash
+        run: |
+          curl --fail --location --retry 3 https://download.blender.org/release/Blender4.5/blender-4.5.14-linux-x64.tar.xz --output "$RUNNER_TEMP/blender.tar.xz"
+          printf '%s  %s\n' '9ba871ff2ecd36526b77432745980b7e6664ecd0c7ca11c48849073dcfe06da3' "$RUNNER_TEMP/blender.tar.xz" | sha256sum --check -
+          tar --extract --file "$RUNNER_TEMP/blender.tar.xz" --directory "$RUNNER_TEMP"
+          printf 'BLENDER_BIN=%s\n' "$RUNNER_TEMP/blender-4.5.14-linux-x64/blender" >> "$GITHUB_ENV"
+      - name: Reproduce models, roundtrips and actual porch renders
+        shell: bash
+        run: |
+          "$BLENDER_BIN" --background --factory-startup --offline-mode --disable-autoexec --threads 4 --python-exit-code 1 --python scripts/build_walter_porch.py -- --output build/walter-porch/ci-preflight --geometry-only
+          python scripts/run_walter_porch.py --blender "$BLENDER_BIN" --preflight build/walter-porch/ci-preflight --output build/walter-porch/ci-review
+          "$BLENDER_BIN" --background --factory-startup --offline-mode --disable-autoexec --threads 4 --python-exit-code 1 --python scripts/verify_walter_contacts.py -- --input build/walter-porch/ci-review
+          python scripts/compose_walter_porch.py --input build/walter-porch/ci-review --output build/walter-porch/ci-sheets
+          python scripts/package_walter_porch.py --input build/walter-porch/ci-review --sheets build/walter-porch/ci-sheets --output build/artifacts/walters-house-pack-v0.1.0-review.1.zip
+      - name: Publish versioned GLB, editable Blender and source review bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: walters-house-pack-v0.1.0-${{ github.sha }}-${{ github.run_attempt }}
+          path: build/artifacts/walters-house-pack-v0.1.0-review.1.zip*
+          if-no-files-found: error
+          retention-days: 30
+          compression-level: 0

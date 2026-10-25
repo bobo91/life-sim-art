@@ -1,0 +1,72 @@
+{
+  "triangles": 484,
+  "vertices": 262,
+  "nonManifoldEdges": 0,
+  "looseVertices": 0,
+  "degenerateFaces": 0,
+  "duplicateFaces": 0,
+  "nonFiniteVertices": 0,
+  "signedVolumeCubicMetersSum": 0.009848137145781755,
+  "closedConstructionComponents": 10,
+  "limitations": [
+    "Closed construction components intentionally meet/overlap at attachments; no exhaustive solid-intersection proof.",
+    "No collider or runtime interaction is included."
+  ],
+  "sourceDimensionsBlenderXYZ": [
+    0.23000000417232513,
+    0.2639999985694885,
+    0.37700000405311584
+  ],
+  "materials": [
+    "prop_porch_lantern_001__metal",
+    "prop_porch_lantern_001__aged_edge",
+    "prop_porch_lantern_001__glow"
+  ],
+  "customProperties": {
+    "assetId": "prop_porch_lantern_001",
+    "seed": "6206",
+    "constructionParts": "[\"wall_backplate\", \"upper_wall_arm\", \"warm_panel\", \"lantern_upright\", \"lantern_upright\", \"lantern_upright\", \"lantern_upright\", \"bottom_rim\", \"hood\", \"finial\"]",
+    "provenance": "Original procedural project geometry/materials; no external mesh/texture",
+    "geometryRecenteringSourceXYZ": "<bpy id property array [3]>"
+  },
+  "previewCameras": {
+    "front": {
+      "orthoScale": 0.4448600113391876,
+      "location": [
+        0.0,
+        -3.0,
+        0.18849951028823853
+      ],
+      "framing": {
+        "xywhPixelsBottomLeft": [
+          154.55,
+          48.81,
+          330.89,
+          542.37
+        ],
+        "insideFrame": true
+      }
+    },
+    "isometric": {
+      "orthoScale": 0.45303022861480713,
+      "location": [
+        2.3050262928009033,
+        -2.3220269680023193,
+        2.453906536102295
+      ],
+      "framing": {
+        "xywhPixelsBottomLeft": [
+          90.24,
+          48.81,
+          459.51,
+          542.37
+        ],
+        "insideFrame": true
+      }
+    }
+  },
+  "saveReopenExactGeometry": true,
+  "glbRoundtripExactPositions5DecimalsAndTriangles": true,
+  "glbImportedMeshCount": 1,
+  "positionSignatureSHA256": "c4b9620063854228df8bd7f94aa76129e8b464faaf9b7b1fe2545c4d89571b61"
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "1.0",
+  "requestId": "WALTER-PORCH-001",
+  "assetId": "prop_porch_lantern_001",
+  "version": "0.1.0",
+  "seed": 6206,
+  "blenderVersion": "4.5.14",
+  "dimensionsMeters": [
+    0.23,
+    0.377,
+    0.264
+  ],
+  "maxTriangles": 2500,
+  "preview": {
+    "resolution": 640,
+    "samples": 32
+  },
+  "palette": {
+    "metal": {
+      "color": "#344A48",
+      "roughness": 0.65,
+      "metallic": 0.35
+    },
+    "aged_edge": {
+      "color": "#8F8567",
+      "roughness": 0.8,
+      "metallic": 0.25
+    },
+    "glow": {
+      "color": "#D5AA68",
+      "roughness": 0.6,
+      "metallic": 0,
+      "emissionColor": "#E7BB78",
+      "emissionStrength": 0.8
+    }
+  },
+  "collisionProposal": "Optional fixture box; wall owns walking collision. Rear source+Y mounts to wall.",
+  "authoringNotes": {
+    "style": "Original warm aged timber, muted sage/terracotta; broad wear only. No external assets.",
+    "scope": "Static prop; meters, bottom-centre root, source+Zup/-Yfront, GLB+Yup/+Zfront. No game integration."
+  }
+}

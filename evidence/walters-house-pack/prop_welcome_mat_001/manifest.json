@@ -1,0 +1,220 @@
+{
+  "schemaVersion": "1.0",
+  "assetId": "prop_welcome_mat_001",
+  "version": "0.1.0",
+  "requestId": "WALTER-PORCH-001",
+  "units": "meters",
+  "pivot": "bottom-center",
+  "axes": {
+    "sourceUp": "+Z",
+    "sourceForward": "-Y",
+    "exportUp": "+Y",
+    "exportForward": "+Z"
+  },
+  "dimensionsMeters": [
+    0.76,
+    0.0205,
+    0.45
+  ],
+  "config": {
+    "schemaVersion": "1.0",
+    "requestId": "WALTER-PORCH-001",
+    "assetId": "prop_welcome_mat_001",
+    "version": "0.1.0",
+    "seed": 6205,
+    "blenderVersion": "4.5.14",
+    "dimensionsMeters": [
+      0.76,
+      0.0205,
+      0.45
+    ],
+    "maxTriangles": 2000,
+    "preview": {
+      "resolution": 640,
+      "samples": 32
+    },
+    "palette": {
+      "coir": {
+        "color": "#9C805B",
+        "roughness": 0.98,
+        "metallic": 0
+      },
+      "border": {
+        "color": "#6E735D",
+        "roughness": 0.96,
+        "metallic": 0
+      },
+      "faded": {
+        "color": "#A9906C",
+        "roughness": 0.98,
+        "metallic": 0
+      }
+    },
+    "collisionProposal": "No collider; visual overlay on walkable porch.",
+    "authoringNotes": {
+      "style": "Original warm aged timber, muted sage/terracotta; broad wear only. No external assets.",
+      "scope": "Static prop; meters, bottom-centre root, source+Zup/-Yfront, GLB+Yup/+Zfront. No game integration."
+    }
+  },
+  "configSHA256": "2d9a1f3f63531f9cf7e0b8d7e83dcfa0eab0a7b0992fa9ed97c72f8da9bf1962",
+  "seed": 6205,
+  "sourceCommit": "02d92463f142d83e3253c395c416e6cbba3ba5dd",
+  "sourceDirty": true,
+  "sourceFilesSHA256": {
+    "scripts/build_walter_porch.py": "062f02eff7705196a24982a8655f3349d1241c4c11cefec1795cf19b60a42cd4",
+    "scripts/run_walter_porch.py": "7e462a2018102657a3a83950a9f480f550d90db68f4661c5ddb901fd8a6136a5",
+    "scripts/props_walter.py": "2fc086ba351d9efdfb141a1847a988583f547622e29dcb977702a45563660146",
+    "scripts/walter_common.py": "0f3a1d5b844c7034e012b50a58804f681dbfcaa70fc01dce3590321ba04e7417",
+    "scripts/walter_mailbox_reference.py": "b76d773d1cdd9e5d0470d9a5f0d2784b5be92ef608e0a55f20873521f272f63c",
+    "art_pipeline/blender_build.py": "1602b3acbb5ba96e956cfb23e605e49b351cb803b0aa3f2ee4aed226fa4511eb",
+    "art_pipeline/validation.py": "516335248f5cdf7f3430da86045c8902342395a458ec52dc6132129086b67e55",
+    "art_pipeline/config.py": "3faa2389bdbb4e377bc2e9154526274bcd4360a837ea94912116526e066b78a9",
+    "art_pipeline/cli.py": "ad9ac05777328ed59879fc83ab064700632a3012b55f543fc5b6d4fe4c2bed46",
+    "art_pipeline/benchmark_checks.py": "94a9a56e0811755350f5a85646a98c3746b9eeebbf2023822ea32b5280f04ce8"
+  },
+  "sourceNote": "Exact source hashes identify actual build inputs; original local workspace may contain unrelated dirty files.",
+  "geometry": {
+    "sha256": "727ed0bb5326a3c715891e3ff509a28548b851fc739ccad294d2980f9372cee4",
+    "bytes": 39952,
+    "triangles": 632,
+    "vertices": 1392,
+    "meshInstances": 1,
+    "materials": [
+      "prop_welcome_mat_001__coir",
+      "prop_welcome_mat_001__border",
+      "prop_welcome_mat_001__faded"
+    ],
+    "materialCount": 3,
+    "bounds": {
+      "min": [
+        -0.3799999952316284,
+        0.0,
+        -0.22499999403953552
+      ],
+      "max": [
+        0.3799999952316284,
+        0.020500000566244125,
+        0.22499999403953552
+      ]
+    },
+    "dimensionsMeters": [
+      0.7599999904632568,
+      0.020500000566244125,
+      0.44999998807907104
+    ],
+    "pivotErrorMeters": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "windingNormalsConsistent": true,
+    "coordinateSystem": {
+      "up": "+Y",
+      "forward": "+Z",
+      "units": "meters"
+    }
+  },
+  "blenderMeshHealth": {
+    "triangles": 632,
+    "vertices": 328,
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "duplicateFaces": 0,
+    "nonFiniteVertices": 0,
+    "signedVolumeCubicMetersSum": 0.0062209939060051235,
+    "closedConstructionComponents": 6,
+    "limitations": [
+      "Closed construction components intentionally meet/overlap at attachments; no exhaustive solid-intersection proof.",
+      "No collider or runtime interaction is included."
+    ],
+    "sourceDimensionsBlenderXYZ": [
+      0.7599999904632568,
+      0.44999998807907104,
+      0.020500000566244125
+    ],
+    "materials": [
+      "prop_welcome_mat_001__coir",
+      "prop_welcome_mat_001__border",
+      "prop_welcome_mat_001__faded"
+    ],
+    "customProperties": {
+      "assetId": "prop_welcome_mat_001",
+      "seed": "6205",
+      "constructionParts": "[\"rounded_coir\", \"side_border\", \"side_border\", \"end_border\", \"end_border\", \"worn_woven_lozenge\"]",
+      "provenance": "Original procedural project geometry/materials; no external mesh/texture",
+      "geometryRecenteringSourceXYZ": "<bpy id property array [3]>"
+    },
+    "previewCameras": {
+      "front": {
+        "orthoScale": 0.8967999815940857,
+        "location": [
+          0.0,
+          -3.0,
+          0.010249508544802666
+        ],
+        "framing": {
+          "xywhPixelsBottomLeft": [
+            48.81,
+            312.69,
+            542.37,
+            14.63
+          ],
+          "insideFrame": true
+        }
+      },
+      "isometric": {
+        "orthoScale": 1.001989722251892,
+        "location": [
+          2.3002796173095703,
+          -2.3002800941467285,
+          2.3092801570892334
+        ],
+        "framing": {
+          "xywhPixelsBottomLeft": [
+            48.81,
+            160.16,
+            542.37,
+            319.68
+          ],
+          "insideFrame": true
+        }
+      }
+    },
+    "saveReopenExactGeometry": true,
+    "glbRoundtripExactPositions5DecimalsAndTriangles": true,
+    "glbImportedMeshCount": 1,
+    "positionSignatureSHA256": "abec7306460af4e000faefd89740d8c83287ca7d320b2712e64e7fa1335eddc5"
+  },
+  "model": {
+    "file": "prop_welcome_mat_001.glb",
+    "sha256": "727ed0bb5326a3c715891e3ff509a28548b851fc739ccad294d2980f9372cee4",
+    "bytes": 39952
+  },
+  "sourceBlend": {
+    "file": "prop_welcome_mat_001.blend",
+    "sha256": "092c94308b354727c3b1dc9ded623a378d0e8cd65ac896571a44d2ab1e7588e5"
+  },
+  "previews": {
+    "front": {
+      "file": "front.png",
+      "sha256": "2ba1f072f00c30bac3977f41d26461b80cc0d59a1e83ccc0c1dee5591a42bd13"
+    },
+    "isometric": {
+      "file": "isometric.png",
+      "sha256": "3801a86726d53d395839bbd907afb7d17f07fef2fa28ed5b89797eeac86edb86"
+    }
+  },
+  "provenance": {
+    "method": "original-procedural-Blender-Python",
+    "thirdPartyAssets": [],
+    "license": "original-project-content"
+  },
+  "tooling": {
+    "blender": "4.5.14",
+    "renderer": "Cycles CPU",
+    "threads": 4
+  },
+  "command": "python scripts/run_walter_porch.py --blender <Blender4.5.14> --preflight <fresh-geometry-preflight> --output <fresh-build-directory>",
+  "status": "owner visual review required; no game integration"
+}

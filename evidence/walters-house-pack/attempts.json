@@ -1,0 +1,43 @@
+{
+  "schema": "walter-attempts-1",
+  "date": "2026-10-25",
+  "final": "run-003",
+  "preflights": {
+    "001": "Stopped on palette role rail/frame mismatch; no complete pass.",
+    "002": "Ten closed meshes + reference mailbox + framing passed; dimensions measured without scaling.",
+    "003": "Crate cap inset verified.",
+    "004": "Rocker arm support correction verified.",
+    "005": "Final geometry and upturned-crate layout verified."
+  },
+  "draftViews": "Ten320px isometric views used to identify crate corner overlap; not final review renders.",
+  "fullRuns": [
+    {
+      "id": "001",
+      "technicalPass": true,
+      "elapsedSeconds": 218.965,
+      "renders": 26,
+      "visualFinding": "Front arm supports did not meet front legs."
+    },
+    {
+      "id": "002",
+      "technicalPass": true,
+      "elapsedSeconds": 215.144,
+      "renders": 26,
+      "visualFinding": "Open crate could not support pot at rim height; scene corrected."
+    },
+    {
+      "id": "003",
+      "technicalPass": true,
+      "elapsedSeconds": 192.393,
+      "renders": 26,
+      "visualFinding": "Final reviewed geometry and physical support checks pass."
+    }
+  ],
+  "sharedTests": {
+    "count": 52,
+    "status": "passed"
+  },
+  "ownerVisualApproval": false,
+  "mergePerformed": false,
+  "gameRepositoryChanged": false
+}

@@ -1,0 +1,227 @@
+{
+  "schemaVersion": "1.0",
+  "assetId": "prop_flower_pot_001",
+  "version": "0.1.0",
+  "requestId": "WALTER-PORCH-001",
+  "units": "meters",
+  "pivot": "bottom-center",
+  "axes": {
+    "sourceUp": "+Z",
+    "sourceForward": "-Y",
+    "exportUp": "+Y",
+    "exportForward": "+Z"
+  },
+  "dimensionsMeters": [
+    0.4768,
+    0.711,
+    0.4626
+  ],
+  "config": {
+    "schemaVersion": "1.0",
+    "requestId": "WALTER-PORCH-001",
+    "assetId": "prop_flower_pot_001",
+    "version": "0.1.0",
+    "seed": 6203,
+    "blenderVersion": "4.5.14",
+    "dimensionsMeters": [
+      0.4768,
+      0.711,
+      0.4626
+    ],
+    "maxTriangles": 5000,
+    "preview": {
+      "resolution": 640,
+      "samples": 32
+    },
+    "palette": {
+      "pot": {
+        "color": "#AD7155",
+        "roughness": 0.86,
+        "metallic": 0
+      },
+      "soil": {
+        "color": "#52463B",
+        "roughness": 0.99,
+        "metallic": 0
+      },
+      "leaf": {
+        "color": "#6C8060",
+        "roughness": 0.83,
+        "metallic": 0
+      },
+      "flower": {
+        "color": "#C69B73",
+        "roughness": 0.79,
+        "metallic": 0
+      }
+    },
+    "collisionProposal": "Pot-only box/cylinder; foliage has no collision.",
+    "authoringNotes": {
+      "style": "Original warm aged timber, muted sage/terracotta; broad wear only. No external assets.",
+      "scope": "Static prop; meters, bottom-centre root, source+Zup/-Yfront, GLB+Yup/+Zfront. No game integration."
+    }
+  },
+  "configSHA256": "4cd25938158adf58cda9b4848a07ee857ed99cf056eeee0cc0934cf017cfb59d",
+  "seed": 6203,
+  "sourceCommit": "02d92463f142d83e3253c395c416e6cbba3ba5dd",
+  "sourceDirty": true,
+  "sourceFilesSHA256": {
+    "scripts/build_walter_porch.py": "062f02eff7705196a24982a8655f3349d1241c4c11cefec1795cf19b60a42cd4",
+    "scripts/run_walter_porch.py": "7e462a2018102657a3a83950a9f480f550d90db68f4661c5ddb901fd8a6136a5",
+    "scripts/props_walter.py": "2fc086ba351d9efdfb141a1847a988583f547622e29dcb977702a45563660146",
+    "scripts/walter_common.py": "0f3a1d5b844c7034e012b50a58804f681dbfcaa70fc01dce3590321ba04e7417",
+    "scripts/walter_mailbox_reference.py": "b76d773d1cdd9e5d0470d9a5f0d2784b5be92ef608e0a55f20873521f272f63c",
+    "art_pipeline/blender_build.py": "1602b3acbb5ba96e956cfb23e605e49b351cb803b0aa3f2ee4aed226fa4511eb",
+    "art_pipeline/validation.py": "516335248f5cdf7f3430da86045c8902342395a458ec52dc6132129086b67e55",
+    "art_pipeline/config.py": "3faa2389bdbb4e377bc2e9154526274bcd4360a837ea94912116526e066b78a9",
+    "art_pipeline/cli.py": "ad9ac05777328ed59879fc83ab064700632a3012b55f543fc5b6d4fe4c2bed46",
+    "art_pipeline/benchmark_checks.py": "94a9a56e0811755350f5a85646a98c3746b9eeebbf2023822ea32b5280f04ce8"
+  },
+  "sourceNote": "Exact source hashes identify actual build inputs; original local workspace may contain unrelated dirty files.",
+  "geometry": {
+    "sha256": "0d234a932a58fbd37b7aba1dc0090a9296258884db072f3abc531383328ff929",
+    "bytes": 51972,
+    "triangles": 2596,
+    "vertices": 1368,
+    "meshInstances": 1,
+    "materials": [
+      "prop_flower_pot_001__pot",
+      "prop_flower_pot_001__soil",
+      "prop_flower_pot_001__leaf",
+      "prop_flower_pot_001__flower"
+    ],
+    "materialCount": 4,
+    "bounds": {
+      "min": [
+        -0.23841193318367004,
+        0.0,
+        -0.23128202557563782
+      ],
+      "max": [
+        0.23841193318367004,
+        0.7109755277633667,
+        0.23128202557563782
+      ]
+    },
+    "dimensionsMeters": [
+      0.4768238663673401,
+      0.7109755277633667,
+      0.46256405115127563
+    ],
+    "pivotErrorMeters": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "windingNormalsConsistent": true,
+    "coordinateSystem": {
+      "up": "+Y",
+      "forward": "+Z",
+      "units": "meters"
+    }
+  },
+  "blenderMeshHealth": {
+    "triangles": 2596,
+    "vertices": 1368,
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "duplicateFaces": 0,
+    "nonFiniteVertices": 0,
+    "signedVolumeCubicMetersSum": 0.016495718388549997,
+    "closedConstructionComponents": 35,
+    "limitations": [
+      "Closed construction components intentionally meet/overlap at attachments; no exhaustive solid-intersection proof.",
+      "No collider or runtime interaction is included."
+    ],
+    "sourceDimensionsBlenderXYZ": [
+      0.4768238663673401,
+      0.46256405115127563,
+      0.7109755277633667
+    ],
+    "materials": [
+      "prop_flower_pot_001__pot",
+      "prop_flower_pot_001__soil",
+      "prop_flower_pot_001__leaf",
+      "prop_flower_pot_001__flower"
+    ],
+    "customProperties": {
+      "assetId": "prop_flower_pot_001",
+      "seed": "6203",
+      "constructionParts": "[\"terracotta_body\", \"garden_soil\", \"broad_leaf_0\", \"broad_leaf_1\", \"broad_leaf_2\", \"broad_leaf_3\", \"broad_leaf_4\", \"broad_leaf_5\", \"broad_leaf_6\", \"broad_leaf_7\", \"broad_leaf_8\", \"broad_leaf_9\", \"broad_leaf_10\", \"broad_leaf_11\", \"flower_stem\", \"muted_petals\", \"muted_petals\", \"muted_petals\", \"muted_petals\", \"muted_petals\", \"flower_centre\", \"flower_stem\", \"muted_petals\", \"muted_petals\", \"muted_petals\", \"muted_petals\", \"muted_petals\", \"flower_centre\", \"flower_stem\", \"muted_petals\", \"muted_petals\", \"muted_petals\", \"muted_petals\", \"muted_petals\", \"flower_centre\"]",
+      "provenance": "Original procedural project geometry/materials; no external mesh/texture",
+      "geometryRecenteringSourceXYZ": "<bpy id property array [3]>"
+    },
+    "previewCameras": {
+      "front": {
+        "orthoScale": 0.8389511704444885,
+        "location": [
+          0.0,
+          -3.0,
+          0.35548728704452515
+        ],
+        "framing": {
+          "xywhPixelsBottomLeft": [
+            138.13,
+            48.81,
+            363.75,
+            542.37
+          ],
+          "insideFrame": true
+        }
+      },
+      "isometric": {
+        "orthoScale": 0.829505980014801,
+        "location": [
+          2.3058178424835205,
+          -2.3066506385803223,
+          2.6288113594055176
+        ],
+        "framing": {
+          "xywhPixelsBottomLeft": [
+            142.54,
+            48.81,
+            354.91,
+            542.37
+          ],
+          "insideFrame": true
+        }
+      }
+    },
+    "saveReopenExactGeometry": true,
+    "glbRoundtripExactPositions5DecimalsAndTriangles": true,
+    "glbImportedMeshCount": 1,
+    "positionSignatureSHA256": "1800968f3eba961dcd551bfe7a08b39480d2a95a371ddcf7f39ca0051cb1a983"
+  },
+  "model": {
+    "file": "prop_flower_pot_001.glb",
+    "sha256": "0d234a932a58fbd37b7aba1dc0090a9296258884db072f3abc531383328ff929",
+    "bytes": 51972
+  },
+  "sourceBlend": {
+    "file": "prop_flower_pot_001.blend",
+    "sha256": "03aeecf67012f1b0579a32a7e3a4a34904dfca5eabe4cfa8e85eda60997d2fcd"
+  },
+  "previews": {
+    "front": {
+      "file": "front.png",
+      "sha256": "8f4199765de377ff594374da7c094db039da4c1ba00f7399ee0726f05aaf6eb2"
+    },
+    "isometric": {
+      "file": "isometric.png",
+      "sha256": "6bd08d03ac79db9232bf73adc6276e6f45b7f23f55071c03a3ad4ff08004fd13"
+    }
+  },
+  "provenance": {
+    "method": "original-procedural-Blender-Python",
+    "thirdPartyAssets": [],
+    "license": "original-project-content"
+  },
+  "tooling": {
+    "blender": "4.5.14",
+    "renderer": "Cycles CPU",
+    "threads": 4
+  },
+  "command": "python scripts/run_walter_porch.py --blender <Blender4.5.14> --preflight <fresh-geometry-preflight> --output <fresh-build-directory>",
+  "status": "owner visual review required; no game integration"
+}

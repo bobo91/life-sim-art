@@ -1,0 +1,222 @@
+{
+  "schemaVersion": "1.0",
+  "assetId": "prop_porch_lantern_001",
+  "version": "0.1.0",
+  "requestId": "WALTER-PORCH-001",
+  "units": "meters",
+  "pivot": "bottom-center",
+  "axes": {
+    "sourceUp": "+Z",
+    "sourceForward": "-Y",
+    "exportUp": "+Y",
+    "exportForward": "+Z"
+  },
+  "dimensionsMeters": [
+    0.23,
+    0.377,
+    0.264
+  ],
+  "config": {
+    "schemaVersion": "1.0",
+    "requestId": "WALTER-PORCH-001",
+    "assetId": "prop_porch_lantern_001",
+    "version": "0.1.0",
+    "seed": 6206,
+    "blenderVersion": "4.5.14",
+    "dimensionsMeters": [
+      0.23,
+      0.377,
+      0.264
+    ],
+    "maxTriangles": 2500,
+    "preview": {
+      "resolution": 640,
+      "samples": 32
+    },
+    "palette": {
+      "metal": {
+        "color": "#344A48",
+        "roughness": 0.65,
+        "metallic": 0.35
+      },
+      "aged_edge": {
+        "color": "#8F8567",
+        "roughness": 0.8,
+        "metallic": 0.25
+      },
+      "glow": {
+        "color": "#D5AA68",
+        "roughness": 0.6,
+        "metallic": 0,
+        "emissionColor": "#E7BB78",
+        "emissionStrength": 0.8
+      }
+    },
+    "collisionProposal": "Optional fixture box; wall owns walking collision. Rear source+Y mounts to wall.",
+    "authoringNotes": {
+      "style": "Original warm aged timber, muted sage/terracotta; broad wear only. No external assets.",
+      "scope": "Static prop; meters, bottom-centre root, source+Zup/-Yfront, GLB+Yup/+Zfront. No game integration."
+    }
+  },
+  "configSHA256": "b55740c3a639f141af8d935f2c670ae93d553f6b9a5b67fbf1d36dc471b02d4a",
+  "seed": 6206,
+  "sourceCommit": "02d92463f142d83e3253c395c416e6cbba3ba5dd",
+  "sourceDirty": true,
+  "sourceFilesSHA256": {
+    "scripts/build_walter_porch.py": "062f02eff7705196a24982a8655f3349d1241c4c11cefec1795cf19b60a42cd4",
+    "scripts/run_walter_porch.py": "7e462a2018102657a3a83950a9f480f550d90db68f4661c5ddb901fd8a6136a5",
+    "scripts/props_walter.py": "2fc086ba351d9efdfb141a1847a988583f547622e29dcb977702a45563660146",
+    "scripts/walter_common.py": "0f3a1d5b844c7034e012b50a58804f681dbfcaa70fc01dce3590321ba04e7417",
+    "scripts/walter_mailbox_reference.py": "b76d773d1cdd9e5d0470d9a5f0d2784b5be92ef608e0a55f20873521f272f63c",
+    "art_pipeline/blender_build.py": "1602b3acbb5ba96e956cfb23e605e49b351cb803b0aa3f2ee4aed226fa4511eb",
+    "art_pipeline/validation.py": "516335248f5cdf7f3430da86045c8902342395a458ec52dc6132129086b67e55",
+    "art_pipeline/config.py": "3faa2389bdbb4e377bc2e9154526274bcd4360a837ea94912116526e066b78a9",
+    "art_pipeline/cli.py": "ad9ac05777328ed59879fc83ab064700632a3012b55f543fc5b6d4fe4c2bed46",
+    "art_pipeline/benchmark_checks.py": "94a9a56e0811755350f5a85646a98c3746b9eeebbf2023822ea32b5280f04ce8"
+  },
+  "sourceNote": "Exact source hashes identify actual build inputs; original local workspace may contain unrelated dirty files.",
+  "geometry": {
+    "sha256": "2234d5936b2a2dd5f1f047250d2ad944003bf8d70aa669b3652765ae2532de46",
+    "bytes": 27124,
+    "triangles": 484,
+    "vertices": 890,
+    "meshInstances": 1,
+    "materials": [
+      "prop_porch_lantern_001__metal",
+      "prop_porch_lantern_001__aged_edge",
+      "prop_porch_lantern_001__glow"
+    ],
+    "materialCount": 3,
+    "bounds": {
+      "min": [
+        -0.11500000208616257,
+        0.0,
+        -0.13199999928474426
+      ],
+      "max": [
+        0.11500000208616257,
+        0.37700000405311584,
+        0.13199999928474426
+      ]
+    },
+    "dimensionsMeters": [
+      0.23000000417232513,
+      0.37700000405311584,
+      0.2639999985694885
+    ],
+    "pivotErrorMeters": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "windingNormalsConsistent": true,
+    "coordinateSystem": {
+      "up": "+Y",
+      "forward": "+Z",
+      "units": "meters"
+    }
+  },
+  "blenderMeshHealth": {
+    "triangles": 484,
+    "vertices": 262,
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "duplicateFaces": 0,
+    "nonFiniteVertices": 0,
+    "signedVolumeCubicMetersSum": 0.009848137145781755,
+    "closedConstructionComponents": 10,
+    "limitations": [
+      "Closed construction components intentionally meet/overlap at attachments; no exhaustive solid-intersection proof.",
+      "No collider or runtime interaction is included."
+    ],
+    "sourceDimensionsBlenderXYZ": [
+      0.23000000417232513,
+      0.2639999985694885,
+      0.37700000405311584
+    ],
+    "materials": [
+      "prop_porch_lantern_001__metal",
+      "prop_porch_lantern_001__aged_edge",
+      "prop_porch_lantern_001__glow"
+    ],
+    "customProperties": {
+      "assetId": "prop_porch_lantern_001",
+      "seed": "6206",
+      "constructionParts": "[\"wall_backplate\", \"upper_wall_arm\", \"warm_panel\", \"lantern_upright\", \"lantern_upright\", \"lantern_upright\", \"lantern_upright\", \"bottom_rim\", \"hood\", \"finial\"]",
+      "provenance": "Original procedural project geometry/materials; no external mesh/texture",
+      "geometryRecenteringSourceXYZ": "<bpy id property array [3]>"
+    },
+    "previewCameras": {
+      "front": {
+        "orthoScale": 0.4448600113391876,
+        "location": [
+          0.0,
+          -3.0,
+          0.18849951028823853
+        ],
+        "framing": {
+          "xywhPixelsBottomLeft": [
+            154.55,
+            48.81,
+            330.89,
+            542.37
+          ],
+          "insideFrame": true
+        }
+      },
+      "isometric": {
+        "orthoScale": 0.45303022861480713,
+        "location": [
+          2.3050262928009033,
+          -2.3220269680023193,
+          2.453906536102295
+        ],
+        "framing": {
+          "xywhPixelsBottomLeft": [
+            90.24,
+            48.81,
+            459.51,
+            542.37
+          ],
+          "insideFrame": true
+        }
+      }
+    },
+    "saveReopenExactGeometry": true,
+    "glbRoundtripExactPositions5DecimalsAndTriangles": true,
+    "glbImportedMeshCount": 1,
+    "positionSignatureSHA256": "c4b9620063854228df8bd7f94aa76129e8b464faaf9b7b1fe2545c4d89571b61"
+  },
+  "model": {
+    "file": "prop_porch_lantern_001.glb",
+    "sha256": "2234d5936b2a2dd5f1f047250d2ad944003bf8d70aa669b3652765ae2532de46",
+    "bytes": 27124
+  },
+  "sourceBlend": {
+    "file": "prop_porch_lantern_001.blend",
+    "sha256": "a41a9b1addbdf95842f21323eff8ac75f220bdcf30d35d3241034ef87630cfef"
+  },
+  "previews": {
+    "front": {
+      "file": "front.png",
+      "sha256": "1c10be03c32d61594137e3398dfa6f0f0eab0020296e9bd7b3f95ad6ace38a80"
+    },
+    "isometric": {
+      "file": "isometric.png",
+      "sha256": "d387133cc30ac836c673dc2041dcc51713b46777c0b56eaa95206d94692e5738"
+    }
+  },
+  "provenance": {
+    "method": "original-procedural-Blender-Python",
+    "thirdPartyAssets": [],
+    "license": "original-project-content"
+  },
+  "tooling": {
+    "blender": "4.5.14",
+    "renderer": "Cycles CPU",
+    "threads": 4
+  },
+  "command": "python scripts/run_walter_porch.py --blender <Blender4.5.14> --preflight <fresh-geometry-preflight> --output <fresh-build-directory>",
+  "status": "owner visual review required; no game integration"
+}

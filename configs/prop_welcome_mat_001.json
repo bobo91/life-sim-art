@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.0",
+  "requestId": "WALTER-PORCH-001",
+  "assetId": "prop_welcome_mat_001",
+  "version": "0.1.0",
+  "seed": 6205,
+  "blenderVersion": "4.5.14",
+  "dimensionsMeters": [
+    0.76,
+    0.0205,
+    0.45
+  ],
+  "maxTriangles": 2000,
+  "preview": {
+    "resolution": 640,
+    "samples": 32
+  },
+  "palette": {
+    "coir": {
+      "color": "#9C805B",
+      "roughness": 0.98,
+      "metallic": 0
+    },
+    "border": {
+      "color": "#6E735D",
+      "roughness": 0.96,
+      "metallic": 0
+    },
+    "faded": {
+      "color": "#A9906C",
+      "roughness": 0.98,
+      "metallic": 0
+    }
+  },
+  "collisionProposal": "No collider; visual overlay on walkable porch.",
+  "authoringNotes": {
+    "style": "Original warm aged timber, muted sage/terracotta; broad wear only. No external assets.",
+    "scope": "Static prop; meters, bottom-centre root, source+Zup/-Yfront, GLB+Yup/+Zfront. No game integration."
+  }
+}

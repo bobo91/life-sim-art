@@ -1,0 +1,198 @@
+{
+  "schema": "walters-house-pack-1",
+  "version": "0.1.0",
+  "packId": "walters-house-pack-001",
+  "assets": [
+    "prop_porch_bench_001",
+    "prop_flower_pot_001",
+    "prop_flower_pot_002",
+    "prop_welcome_mat_001",
+    "prop_porch_lantern_001",
+    "prop_wooden_fence_001",
+    "prop_fence_post_001",
+    "prop_old_watering_can_001",
+    "prop_wooden_crate_001",
+    "prop_porch_rocking_chair_001"
+  ],
+  "baseMainCommit": "8fd7379a6ce1023cf8fd7a690bad0f5ac5bed33f",
+  "unmergedBranchDependency": false,
+  "referenceMailbox": {
+    "assetId": "prop_mailbox_001",
+    "version": "0.1.0",
+    "approvedGlbSHA256": "b243a55a5d92da3cd3a51c3957d0b1e1f1b9737ad8f6ed988121bae69e654698",
+    "sourcePR": "https://github.com/bobo91/life-sim-art/pull/34",
+    "sourceCommit": "96eb13ada9bab56a3c8cfa5de307a16753025f65",
+    "pinnedGenerator": "scripts/walter_mailbox_reference.py",
+    "generatorSHA256": "b76d773d1cdd9e5d0470d9a5f0d2784b5be92ef608e0a55f20873521f272f63c",
+    "pinnedConfig": "configs/walter-mailbox-reference.json",
+    "configSHA256": "3f2ba255a195e4271c2d775f66eaa10c34179927d3e9018f89e1afc451d52af7",
+    "note": "Byte-for-byte project-owned source/config snapshots, same approved mesh; no new mailbox variant."
+  },
+  "coordinateContract": {
+    "units": "meters",
+    "rootScale": [
+      1,
+      1,
+      1
+    ],
+    "pivot": "bottom-center",
+    "sourceUp": "+Z",
+    "sourceFront": "-Y",
+    "exportUp": "+Y",
+    "exportFront": "+Z"
+  },
+  "collisionProposals": {
+    "prop_porch_bench_001": {
+      "type": "BoxCollider proposal",
+      "centerUnityXYZ": [
+        0,
+        0.45055,
+        0
+      ],
+      "sizeUnityXYZ": [
+        1.35,
+        0.9011,
+        0.588
+      ]
+    },
+    "prop_flower_pot_001": {
+      "type": "BoxCollider proposal",
+      "centerUnityXYZ": [
+        0,
+        0.1775,
+        0
+      ],
+      "sizeUnityXYZ": [
+        0.48,
+        0.355,
+        0.48
+      ],
+      "note": "Pot only; no foliage collision."
+    },
+    "prop_flower_pot_002": {
+      "type": "BoxCollider proposal",
+      "centerUnityXYZ": [
+        0,
+        0.089,
+        0
+      ],
+      "sizeUnityXYZ": [
+        0.3,
+        0.178,
+        0.3
+      ],
+      "note": "Pot only; no foliage collision."
+    },
+    "prop_welcome_mat_001": {
+      "type": "none",
+      "note": "Visual mat on walkable surface."
+    },
+    "prop_porch_lantern_001": {
+      "type": "BoxCollider proposal",
+      "centerUnityXYZ": [
+        0,
+        0.1885,
+        0
+      ],
+      "sizeUnityXYZ": [
+        0.23,
+        0.377,
+        0.264
+      ],
+      "note": "Optional fixture box; wall handles walking collision. Wall mount source+Y=.132m, exported-Z=-.132m."
+    },
+    "prop_wooden_fence_001": {
+      "type": "BoxCollider proposal",
+      "centerUnityXYZ": [
+        0,
+        0.406,
+        0
+      ],
+      "sizeUnityXYZ": [
+        1.38,
+        0.812,
+        0.072
+      ]
+    },
+    "prop_fence_post_001": {
+      "type": "BoxCollider proposal",
+      "centerUnityXYZ": [
+        0,
+        0.5125,
+        0
+      ],
+      "sizeUnityXYZ": [
+        0.12,
+        1.025,
+        0.12
+      ],
+      "note": "Shaft envelope; cap overhang visual."
+    },
+    "prop_old_watering_can_001": {
+      "type": "BoxCollider proposal",
+      "centerUnityXYZ": [
+        -0.0603,
+        0.1325,
+        0
+      ],
+      "sizeUnityXYZ": [
+        0.24,
+        0.265,
+        0.172
+      ],
+      "note": "Optional body-only box; no pouring/pickup physics."
+    },
+    "prop_wooden_crate_001": {
+      "type": "BoxCollider proposal",
+      "centerUnityXYZ": [
+        0,
+        0.16,
+        0
+      ],
+      "sizeUnityXYZ": [
+        0.48,
+        0.32,
+        0.34
+      ]
+    },
+    "prop_porch_rocking_chair_001": {
+      "type": "BoxCollider proposal",
+      "centerUnityXYZ": [
+        0,
+        0.5415,
+        0
+      ],
+      "sizeUnityXYZ": [
+        0.658,
+        1.083,
+        0.87
+      ]
+    }
+  },
+  "fenceModule": {
+    "postCenterSpacingMeters": 1.5,
+    "sectionMeshLengthMeters": 1.38,
+    "postShaftWidthMeters": 0.12,
+    "sourceConnectionCentersX": [
+      -0.75,
+      0.75
+    ],
+    "cornerAndEndUseSamePost": true
+  },
+  "presentation": {
+    "kind": "temporary porch/facade fragment; not a canonical house",
+    "finalHouseDimensionsLocked": false,
+    "crateUsage": "Same open-top crate is rotated180deg as a plant stand; small pot rests on its bottom boards.",
+    "camera": "Perspective40deg, pitch50deg, yaw180deg, focus1m,1280x720;6m porch crop and16m whole set."
+  },
+  "openDecisions": [
+    "Unity importer/version and new-asset URP appearance",
+    "Game-owned final house and porch anchors",
+    "Navigation/seating/rocking and interaction behavior",
+    "Collision simplifications and lantern night-light behavior",
+    "Mailbox action prompt independent of flag remains game-owned"
+  ],
+  "gameRepositoryChanged": false,
+  "mergeAuthorized": false,
+  "paidToolsOrAssets": false
+}

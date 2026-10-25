@@ -1,0 +1,1098 @@
+{
+  "scope": "Temporary presentation porch/facade, not a production house or final game layout. Blender studio lighting, not Unity.",
+  "mailboxSHA256": "b243a55a5d92da3cd3a51c3957d0b1e1f1b9737ad8f6ed988121bae69e654698",
+  "instances": [
+    {
+      "object": "prop_porch_rocking_chair_001__porch",
+      "assetId": "prop_porch_rocking_chair_001",
+      "positionUnityXYZ": [
+        -1.65,
+        0.42,
+        -0.55
+      ],
+      "sourceEulerDegrees": [
+        0,
+        0,
+        12
+      ],
+      "unityEulerDegrees": [
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "object": "prop_porch_bench_001__porch",
+      "assetId": "prop_porch_bench_001",
+      "positionUnityXYZ": [
+        1.85,
+        0.42,
+        -0.52
+      ],
+      "sourceEulerDegrees": [
+        0,
+        0,
+        0
+      ],
+      "unityEulerDegrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "object": "prop_flower_pot_001__porch",
+      "assetId": "prop_flower_pot_001",
+      "positionUnityXYZ": [
+        -2.35,
+        0.42,
+        0.4
+      ],
+      "sourceEulerDegrees": [
+        0,
+        0,
+        0
+      ],
+      "unityEulerDegrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "object": "prop_old_watering_can_001__porch",
+      "assetId": "prop_old_watering_can_001",
+      "positionUnityXYZ": [
+        -1.8,
+        0.42,
+        0.35
+      ],
+      "sourceEulerDegrees": [
+        0,
+        0,
+        -10
+      ],
+      "unityEulerDegrees": [
+        0,
+        -10,
+        0
+      ]
+    },
+    {
+      "object": "prop_wooden_crate_001__porch",
+      "assetId": "prop_wooden_crate_001",
+      "positionUnityXYZ": [
+        2.53,
+        0.74,
+        0.22
+      ],
+      "sourceEulerDegrees": [
+        180,
+        0,
+        0
+      ],
+      "unityEulerDegrees": [
+        180,
+        0,
+        0
+      ]
+    },
+    {
+      "object": "prop_flower_pot_002__porch",
+      "assetId": "prop_flower_pot_002",
+      "positionUnityXYZ": [
+        2.53,
+        0.7405,
+        0.22
+      ],
+      "sourceEulerDegrees": [
+        0,
+        0,
+        0
+      ],
+      "unityEulerDegrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "object": "prop_welcome_mat_001__porch",
+      "assetId": "prop_welcome_mat_001",
+      "positionUnityXYZ": [
+        0.15,
+        0.4205,
+        -1.08
+      ],
+      "sourceEulerDegrees": [
+        0,
+        0,
+        0
+      ],
+      "unityEulerDegrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "object": "prop_porch_lantern_001__porch",
+      "assetId": "prop_porch_lantern_001",
+      "positionUnityXYZ": [
+        0.83,
+        2.02,
+        -1.2680000007152556
+      ],
+      "sourceEulerDegrees": [
+        0,
+        0,
+        0
+      ],
+      "unityEulerDegrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "object": "prop_mailbox_001__porch",
+      "assetId": "prop_mailbox_001",
+      "positionUnityXYZ": [
+        -1.16,
+        0,
+        2.37
+      ],
+      "sourceEulerDegrees": [
+        0,
+        0,
+        0
+      ],
+      "unityEulerDegrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "object": "prop_wooden_fence_001__porch",
+      "assetId": "prop_wooden_fence_001",
+      "positionUnityXYZ": [
+        -2.25,
+        0,
+        2.5
+      ],
+      "sourceEulerDegrees": [
+        0,
+        0,
+        0
+      ],
+      "unityEulerDegrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "object": "prop_wooden_fence_001__porch.001",
+      "assetId": "prop_wooden_fence_001",
+      "positionUnityXYZ": [
+        2.25,
+        0,
+        2.5
+      ],
+      "sourceEulerDegrees": [
+        0,
+        0,
+        0
+      ],
+      "unityEulerDegrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "object": "prop_fence_post_001__porch",
+      "assetId": "prop_fence_post_001",
+      "positionUnityXYZ": [
+        -3,
+        0,
+        2.5
+      ],
+      "sourceEulerDegrees": [
+        0,
+        0,
+        0
+      ],
+      "unityEulerDegrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "object": "prop_fence_post_001__porch.001",
+      "assetId": "prop_fence_post_001",
+      "positionUnityXYZ": [
+        -1.5,
+        0,
+        2.5
+      ],
+      "sourceEulerDegrees": [
+        0,
+        0,
+        0
+      ],
+      "unityEulerDegrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "object": "prop_fence_post_001__porch.002",
+      "assetId": "prop_fence_post_001",
+      "positionUnityXYZ": [
+        1.5,
+        0,
+        2.5
+      ],
+      "sourceEulerDegrees": [
+        0,
+        0,
+        0
+      ],
+      "unityEulerDegrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "object": "prop_fence_post_001__porch.003",
+      "assetId": "prop_fence_post_001",
+      "positionUnityXYZ": [
+        3,
+        0,
+        2.5
+      ],
+      "sourceEulerDegrees": [
+        0,
+        0,
+        0
+      ],
+      "unityEulerDegrees": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "lanternBackPlaneSourceY": 0.13199999928474426,
+  "views": [
+    {
+      "file": "porch_game_6m.png",
+      "distanceMeters": 6,
+      "verticalFovDegrees": 40,
+      "pitchDegrees": 50,
+      "yawDegrees": 180,
+      "resolution": [
+        1280,
+        720
+      ],
+      "allPropsInsideFrame": false,
+      "assets": {
+        "prop_porch_rocking_chair_001__porch": {
+          "xywhPixelsBottomLeft": [
+            328.85,
+            361.12,
+            127.15,
+            200.62
+          ],
+          "insideFrame": true
+        },
+        "prop_porch_bench_001__porch": {
+          "xywhPixelsBottomLeft": [
+            810.24,
+            372.73,
+            215.5,
+            152.38
+          ],
+          "insideFrame": true
+        },
+        "prop_flower_pot_001__porch": {
+          "xywhPixelsBottomLeft": [
+            216.81,
+            277.14,
+            86.22,
+            103.75
+          ],
+          "insideFrame": true
+        },
+        "prop_old_watering_can_001__porch": {
+          "xywhPixelsBottomLeft": [
+            320.54,
+            294.51,
+            71.34,
+            47.29
+          ],
+          "insideFrame": true
+        },
+        "prop_wooden_crate_001__porch": {
+          "xywhPixelsBottomLeft": [
+            981.55,
+            298.09,
+            101.02,
+            71.11
+          ],
+          "insideFrame": true
+        },
+        "prop_flower_pot_002__porch": {
+          "xywhPixelsBottomLeft": [
+            1018.56,
+            337.83,
+            57.67,
+            56.01
+          ],
+          "insideFrame": true
+        },
+        "prop_welcome_mat_001__porch": {
+          "xywhPixelsBottomLeft": [
+            608.46,
+            435.83,
+            104.22,
+            43.5
+          ],
+          "insideFrame": true
+        },
+        "prop_porch_lantern_001__porch": {
+          "xywhPixelsBottomLeft": [
+            755.47,
+            649.91,
+            40.92,
+            63.56
+          ],
+          "insideFrame": true
+        },
+        "prop_mailbox_001__porch": {
+          "xywhPixelsBottomLeft": [
+            338.07,
+            -61.75,
+            127.71,
+            195.86
+          ],
+          "insideFrame": false
+        },
+        "prop_wooden_fence_001__porch": {
+          "xywhPixelsBottomLeft": [
+            38.53,
+            -67.55,
+            309.84,
+            60.37
+          ],
+          "insideFrame": false
+        },
+        "prop_wooden_fence_001__porch.001": {
+          "xywhPixelsBottomLeft": [
+            931.64,
+            -67.55,
+            309.84,
+            60.37
+          ],
+          "insideFrame": false
+        },
+        "prop_fence_post_001__porch": {
+          "xywhPixelsBottomLeft": [
+            -20.18,
+            -71.85,
+            122.85,
+            91.57
+          ],
+          "insideFrame": false
+        },
+        "prop_fence_post_001__porch.001": {
+          "xywhPixelsBottomLeft": [
+            302.05,
+            -71.85,
+            74.73,
+            91.57
+          ],
+          "insideFrame": false
+        },
+        "prop_fence_post_001__porch.002": {
+          "xywhPixelsBottomLeft": [
+            903.22,
+            -71.85,
+            74.73,
+            91.57
+          ],
+          "insideFrame": false
+        },
+        "prop_fence_post_001__porch.003": {
+          "xywhPixelsBottomLeft": [
+            1177.32,
+            -71.85,
+            122.85,
+            91.57
+          ],
+          "insideFrame": false
+        }
+      }
+    },
+    {
+      "file": "porch_game_16m.png",
+      "distanceMeters": 16,
+      "verticalFovDegrees": 40,
+      "pitchDegrees": 50,
+      "yawDegrees": 180,
+      "resolution": [
+        1280,
+        720
+      ],
+      "allPropsInsideFrame": true,
+      "assets": {
+        "prop_porch_rocking_chair_001__porch": {
+          "xywhPixelsBottomLeft": [
+            518.89,
+            360.45,
+            47.22,
+            78.63
+          ],
+          "insideFrame": true
+        },
+        "prop_porch_bench_001__porch": {
+          "xywhPixelsBottomLeft": [
+            709.07,
+            365.16,
+            82.53,
+            59.97
+          ],
+          "insideFrame": true
+        },
+        "prop_flower_pot_001__porch": {
+          "xywhPixelsBottomLeft": [
+            480.79,
+            327.93,
+            29.41,
+            39.86
+          ],
+          "insideFrame": true
+        },
+        "prop_old_watering_can_001__porch": {
+          "xywhPixelsBottomLeft": [
+            515.93,
+            334.44,
+            29.19,
+            18.62
+          ],
+          "insideFrame": true
+        },
+        "prop_wooden_crate_001__porch": {
+          "xywhPixelsBottomLeft": [
+            776.19,
+            335.8,
+            32.9,
+            27.78
+          ],
+          "insideFrame": true
+        },
+        "prop_flower_pot_002__porch": {
+          "xywhPixelsBottomLeft": [
+            784.74,
+            351.51,
+            20.78,
+            21.36
+          ],
+          "insideFrame": true
+        },
+        "prop_welcome_mat_001__porch": {
+          "xywhPixelsBottomLeft": [
+            626.78,
+            391.78,
+            43.67,
+            19.34
+          ],
+          "insideFrame": true
+        },
+        "prop_porch_lantern_001__porch": {
+          "xywhPixelsBottomLeft": [
+            683.86,
+            470.86,
+            14.64,
+            22.76
+          ],
+          "insideFrame": true
+        },
+        "prop_mailbox_001__porch": {
+          "xywhPixelsBottomLeft": [
+            548.94,
+            212.59,
+            28.78,
+            76.37
+          ],
+          "insideFrame": true
+        },
+        "prop_wooden_fence_001__porch": {
+          "xywhPixelsBottomLeft": [
+            444.49,
+            210.78,
+            94.24,
+            30.77
+          ],
+          "insideFrame": true
+        },
+        "prop_wooden_fence_001__porch.001": {
+          "xywhPixelsBottomLeft": [
+            741.26,
+            210.78,
+            94.24,
+            30.77
+          ],
+          "insideFrame": true
+        },
+        "prop_fence_post_001__porch": {
+          "xywhPixelsBottomLeft": [
+            431.84,
+            209.65,
+            19.46,
+            41.62
+          ],
+          "insideFrame": true
+        },
+        "prop_fence_post_001__porch.001": {
+          "xywhPixelsBottomLeft": [
+            533.42,
+            209.65,
+            14.16,
+            41.62
+          ],
+          "insideFrame": true
+        },
+        "prop_fence_post_001__porch.002": {
+          "xywhPixelsBottomLeft": [
+            732.42,
+            209.65,
+            14.16,
+            41.62
+          ],
+          "insideFrame": true
+        },
+        "prop_fence_post_001__porch.003": {
+          "xywhPixelsBottomLeft": [
+            828.69,
+            209.65,
+            19.46,
+            41.62
+          ],
+          "insideFrame": true
+        }
+      }
+    }
+  ],
+  "overview": {
+    "prop_porch_rocking_chair_001__porch": {
+      "xywhPixelsBottomLeft": [
+        511.27,
+        513.41,
+        137.41,
+        198.82
+      ],
+      "insideFrame": true
+    },
+    "prop_porch_bench_001__porch": {
+      "xywhPixelsBottomLeft": [
+        897.12,
+        333.69,
+        212.06,
+        204.54
+      ],
+      "insideFrame": true
+    },
+    "prop_flower_pot_001__porch": {
+      "xywhPixelsBottomLeft": [
+        379.69,
+        500.02,
+        68.1,
+        104.27
+      ],
+      "insideFrame": true
+    },
+    "prop_old_watering_can_001__porch": {
+      "xywhPixelsBottomLeft": [
+        457.75,
+        486.04,
+        52.64,
+        55.99
+      ],
+      "insideFrame": true
+    },
+    "prop_wooden_crate_001__porch": {
+      "xywhPixelsBottomLeft": [
+        979.58,
+        274.46,
+        86.74,
+        83.57
+      ],
+      "insideFrame": true
+    },
+    "prop_flower_pot_002__porch": {
+      "xywhPixelsBottomLeft": [
+        997.9,
+        329.66,
+        49.78,
+        55.58
+      ],
+      "insideFrame": true
+    },
+    "prop_welcome_mat_001__porch": {
+      "xywhPixelsBottomLeft": [
+        779.14,
+        462.27,
+        129.94,
+        66.61
+      ],
+      "insideFrame": true
+    },
+    "prop_porch_lantern_001__porch": {
+      "xywhPixelsBottomLeft": [
+        917.61,
+        662.99,
+        47.57,
+        57.4
+      ],
+      "insideFrame": true
+    },
+    "prop_mailbox_001__porch": {
+      "xywhPixelsBottomLeft": [
+        348.48,
+        256.97,
+        88.14,
+        213.25
+      ],
+      "insideFrame": true
+    },
+    "prop_wooden_fence_001__porch": {
+      "xywhPixelsBottomLeft": [
+        163.46,
+        282.19,
+        170.28,
+        162.66
+      ],
+      "insideFrame": true
+    },
+    "prop_wooden_fence_001__porch.001": {
+      "xywhPixelsBottomLeft": [
+        710.93,
+        72.12,
+        170.28,
+        162.66
+      ],
+      "insideFrame": true
+    },
+    "prop_fence_post_001__porch": {
+      "xywhPixelsBottomLeft": [
+        141.27,
+        344.57,
+        29.43,
+        134.33
+      ],
+      "insideFrame": true
+    },
+    "prop_fence_post_001__porch.001": {
+      "xywhPixelsBottomLeft": [
+        323.77,
+        274.54,
+        29.43,
+        134.33
+      ],
+      "insideFrame": true
+    },
+    "prop_fence_post_001__porch.002": {
+      "xywhPixelsBottomLeft": [
+        688.75,
+        134.5,
+        29.43,
+        134.33
+      ],
+      "insideFrame": true
+    },
+    "prop_fence_post_001__porch.003": {
+      "xywhPixelsBottomLeft": [
+        871.24,
+        64.47,
+        29.43,
+        134.33
+      ],
+      "insideFrame": true
+    },
+    "TEMP_porch_foundation": {
+      "xywhPixelsBottomLeft": [
+        319.32,
+        193.48,
+        888.73,
+        457.61
+      ],
+      "insideFrame": true
+    },
+    "TEMP_deck_board": {
+      "xywhPixelsBottomLeft": [
+        319.99,
+        494.9,
+        215.83,
+        164.63
+      ],
+      "insideFrame": true
+    },
+    "TEMP_deck_board.001": {
+      "xywhPixelsBottomLeft": [
+        353.57,
+        482.01,
+        215.83,
+        164.63
+      ],
+      "insideFrame": true
+    },
+    "TEMP_deck_board.002": {
+      "xywhPixelsBottomLeft": [
+        387.15,
+        469.13,
+        215.83,
+        164.63
+      ],
+      "insideFrame": true
+    },
+    "TEMP_deck_board.003": {
+      "xywhPixelsBottomLeft": [
+        420.72,
+        456.24,
+        215.83,
+        164.63
+      ],
+      "insideFrame": true
+    },
+    "TEMP_deck_board.004": {
+      "xywhPixelsBottomLeft": [
+        454.3,
+        443.36,
+        215.83,
+        164.63
+      ],
+      "insideFrame": true
+    },
+    "TEMP_deck_board.005": {
+      "xywhPixelsBottomLeft": [
+        487.88,
+        430.47,
+        215.83,
+        164.63
+      ],
+      "insideFrame": true
+    },
+    "TEMP_deck_board.006": {
+      "xywhPixelsBottomLeft": [
+        521.46,
+        417.59,
+        215.83,
+        164.63
+      ],
+      "insideFrame": true
+    },
+    "TEMP_deck_board.007": {
+      "xywhPixelsBottomLeft": [
+        555.04,
+        404.71,
+        215.83,
+        164.63
+      ],
+      "insideFrame": true
+    },
+    "TEMP_deck_board.008": {
+      "xywhPixelsBottomLeft": [
+        588.62,
+        391.82,
+        215.83,
+        164.63
+      ],
+      "insideFrame": true
+    },
+    "TEMP_deck_board.009": {
+      "xywhPixelsBottomLeft": [
+        622.2,
+        378.94,
+        215.83,
+        164.63
+      ],
+      "insideFrame": true
+    },
+    "TEMP_deck_board.010": {
+      "xywhPixelsBottomLeft": [
+        655.77,
+        366.05,
+        215.83,
+        164.63
+      ],
+      "insideFrame": true
+    },
+    "TEMP_deck_board.011": {
+      "xywhPixelsBottomLeft": [
+        689.35,
+        353.17,
+        215.83,
+        164.63
+      ],
+      "insideFrame": true
+    },
+    "TEMP_deck_board.012": {
+      "xywhPixelsBottomLeft": [
+        722.93,
+        340.28,
+        215.83,
+        164.63
+      ],
+      "insideFrame": true
+    },
+    "TEMP_deck_board.013": {
+      "xywhPixelsBottomLeft": [
+        756.51,
+        327.4,
+        215.83,
+        164.63
+      ],
+      "insideFrame": true
+    },
+    "TEMP_deck_board.014": {
+      "xywhPixelsBottomLeft": [
+        790.09,
+        314.52,
+        215.83,
+        164.63
+      ],
+      "insideFrame": true
+    },
+    "TEMP_deck_board.015": {
+      "xywhPixelsBottomLeft": [
+        823.67,
+        301.63,
+        215.83,
+        164.63
+      ],
+      "insideFrame": true
+    },
+    "TEMP_deck_board.016": {
+      "xywhPixelsBottomLeft": [
+        857.24,
+        288.75,
+        215.83,
+        164.63
+      ],
+      "insideFrame": true
+    },
+    "TEMP_deck_board.017": {
+      "xywhPixelsBottomLeft": [
+        890.82,
+        275.86,
+        215.83,
+        164.63
+      ],
+      "insideFrame": true
+    },
+    "TEMP_deck_board.018": {
+      "xywhPixelsBottomLeft": [
+        924.4,
+        262.98,
+        215.83,
+        164.63
+      ],
+      "insideFrame": true
+    },
+    "TEMP_deck_board.019": {
+      "xywhPixelsBottomLeft": [
+        957.98,
+        250.1,
+        215.83,
+        164.63
+      ],
+      "insideFrame": true
+    },
+    "TEMP_deck_board.020": {
+      "xywhPixelsBottomLeft": [
+        991.56,
+        237.21,
+        215.83,
+        164.63
+      ],
+      "insideFrame": true
+    },
+    "TEMP_facade_fragment": {
+      "xywhPixelsBottomLeft": [
+        457.71,
+        371.02,
+        801.02,
+        614.5
+      ],
+      "insideFrame": true
+    },
+    "TEMP_door_frame": {
+      "xywhPixelsBottomLeft": [
+        798.7,
+        485.56,
+        139.36,
+        314.04
+      ],
+      "insideFrame": true
+    },
+    "TEMP_door": {
+      "xywhPixelsBottomLeft": [
+        805.04,
+        488.37,
+        119.35,
+        297.72
+      ],
+      "insideFrame": true
+    },
+    "TEMP_door_inset": {
+      "xywhPixelsBottomLeft": [
+        817.06,
+        526.6,
+        91.56,
+        109.03
+      ],
+      "insideFrame": true
+    },
+    "TEMP_door_inset.001": {
+      "xywhPixelsBottomLeft": [
+        817.06,
+        633.41,
+        91.56,
+        109.03
+      ],
+      "insideFrame": true
+    },
+    "TEMP_door_handle": {
+      "xywhPixelsBottomLeft": [
+        901.1,
+        610.04,
+        5.6,
+        17.45
+      ],
+      "insideFrame": true
+    },
+    "TEMP_window_trim": {
+      "xywhPixelsBottomLeft": [
+        559.57,
+        689.63,
+        141.43,
+        176.06
+      ],
+      "insideFrame": true
+    },
+    "TEMP_opaque_window": {
+      "xywhPixelsBottomLeft": [
+        566.73,
+        701.03,
+        119.28,
+        147.12
+      ],
+      "insideFrame": true
+    },
+    "TEMP_window_mullion": {
+      "xywhPixelsBottomLeft": [
+        621.24,
+        721.14,
+        6.51,
+        103.96
+      ],
+      "insideFrame": true
+    },
+    "TEMP_window_crossbar": {
+      "xywhPixelsBottomLeft": [
+        564.56,
+        747.4,
+        119.53,
+        51.19
+      ],
+      "insideFrame": true
+    },
+    "TEMP_window_sill": {
+      "xywhPixelsBottomLeft": [
+        541.9,
+        671.59,
+        161.44,
+        75.92
+      ],
+      "insideFrame": true
+    },
+    "TEMP_window_trim.001": {
+      "xywhPixelsBottomLeft": [
+        1009.72,
+        516.9,
+        141.43,
+        176.06
+      ],
+      "insideFrame": true
+    },
+    "TEMP_opaque_window.001": {
+      "xywhPixelsBottomLeft": [
+        1016.88,
+        528.3,
+        119.28,
+        147.12
+      ],
+      "insideFrame": true
+    },
+    "TEMP_window_mullion.001": {
+      "xywhPixelsBottomLeft": [
+        1071.39,
+        548.42,
+        6.51,
+        103.96
+      ],
+      "insideFrame": true
+    },
+    "TEMP_window_crossbar.001": {
+      "xywhPixelsBottomLeft": [
+        1014.7,
+        574.67,
+        119.53,
+        51.19
+      ],
+      "insideFrame": true
+    },
+    "TEMP_window_sill.001": {
+      "xywhPixelsBottomLeft": [
+        992.05,
+        498.87,
+        161.44,
+        75.92
+      ],
+      "insideFrame": true
+    },
+    "TEMP_upper_step": {
+      "xywhPixelsBottomLeft": [
+        578.46,
+        267.01,
+        194.05,
+        121.14
+      ],
+      "insideFrame": true
+    },
+    "TEMP_lower_step": {
+      "xywhPixelsBottomLeft": [
+        552.06,
+        246.33,
+        190.64,
+        101.08
+      ],
+      "insideFrame": true
+    },
+    "TEMP_walkway": {
+      "xywhPixelsBottomLeft": [
+        374.55,
+        103.08,
+        341.26,
+        207.17
+      ],
+      "insideFrame": true
+    }
+  }
+}

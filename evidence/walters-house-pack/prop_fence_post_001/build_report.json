@@ -1,0 +1,71 @@
+{
+  "triangles": 308,
+  "vertices": 160,
+  "nonManifoldEdges": 0,
+  "looseVertices": 0,
+  "degenerateFaces": 0,
+  "duplicateFaces": 0,
+  "nonFiniteVertices": 0,
+  "signedVolumeCubicMetersSum": 0.015046911980580646,
+  "closedConstructionComponents": 3,
+  "limitations": [
+    "Closed construction components intentionally meet/overlap at attachments; no exhaustive solid-intersection proof.",
+    "No collider or runtime interaction is included."
+  ],
+  "sourceDimensionsBlenderXYZ": [
+    0.14800000190734863,
+    0.14800000190734863,
+    1.024999976158142
+  ],
+  "materials": [
+    "prop_fence_post_001__timber",
+    "prop_fence_post_001__faded"
+  ],
+  "customProperties": {
+    "assetId": "prop_fence_post_001",
+    "seed": "6208",
+    "constructionParts": "[\"post_shaft\", \"cap_band\", \"weathered_pyramid_cap\"]",
+    "provenance": "Original procedural project geometry/materials; no external mesh/texture",
+    "geometryRecenteringSourceXYZ": "<bpy id property array [3]>"
+  },
+  "previewCameras": {
+    "front": {
+      "orthoScale": 1.2094999551773071,
+      "location": [
+        0.0,
+        -3.0,
+        0.5124995112419128
+      ],
+      "framing": {
+        "xywhPixelsBottomLeft": [
+          280.84,
+          48.81,
+          78.31,
+          542.37
+        ],
+        "insideFrame": true
+      }
+    },
+    "isometric": {
+      "orthoScale": 1.0469852685928345,
+      "location": [
+        2.3003780841827393,
+        -2.3003785610198975,
+        2.791243314743042
+      ],
+      "framing": {
+        "xywhPixelsBottomLeft": [
+          258.77,
+          48.81,
+          122.46,
+          542.37
+        ],
+        "insideFrame": true
+      }
+    }
+  },
+  "saveReopenExactGeometry": true,
+  "glbRoundtripExactPositions5DecimalsAndTriangles": true,
+  "glbImportedMeshCount": 1,
+  "positionSignatureSHA256": "5e53c307759adf6cf992bdcc62778004fd22a521db60daab5a9f72ef6465b510"
+}

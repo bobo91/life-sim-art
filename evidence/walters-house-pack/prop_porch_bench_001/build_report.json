@@ -1,0 +1,72 @@
+{
+  "triangles": 856,
+  "vertices": 460,
+  "nonManifoldEdges": 0,
+  "looseVertices": 0,
+  "degenerateFaces": 0,
+  "duplicateFaces": 0,
+  "nonFiniteVertices": 0,
+  "signedVolumeCubicMetersSum": 0.05460561283285397,
+  "closedConstructionComponents": 16,
+  "limitations": [
+    "Closed construction components intentionally meet/overlap at attachments; no exhaustive solid-intersection proof.",
+    "No collider or runtime interaction is included."
+  ],
+  "sourceDimensionsBlenderXYZ": [
+    1.350000023841858,
+    0.5879600048065186,
+    0.9010896682739258
+  ],
+  "materials": [
+    "prop_porch_bench_001__timber",
+    "prop_porch_bench_001__faded",
+    "prop_porch_bench_001__frame"
+  ],
+  "customProperties": {
+    "assetId": "prop_porch_bench_001",
+    "seed": "6201",
+    "constructionParts": "[\"seat_slat_0\", \"seat_slat_1\", \"seat_slat_2\", \"seat_slat_3\", \"aged_leg\", \"aged_leg\", \"seat_bearer\", \"back_stile\", \"aged_leg\", \"aged_leg\", \"seat_bearer\", \"back_stile\", \"bowed_back_slat_0\", \"bowed_back_slat_1\", \"bowed_back_slat_2\", \"lower_crossbar\"]",
+    "provenance": "Original procedural project geometry/materials; no external mesh/texture",
+    "geometryRecenteringSourceXYZ": "<bpy id property array [3]>"
+  },
+  "previewCameras": {
+    "front": {
+      "orthoScale": 1.593000054359436,
+      "location": [
+        0.0,
+        -3.0,
+        0.4505443274974823
+      ],
+      "framing": {
+        "xywhPixelsBottomLeft": [
+          48.81,
+          138.99,
+          542.37,
+          362.02
+        ],
+        "insideFrame": true
+      }
+    },
+    "isometric": {
+      "orthoScale": 1.714570164680481,
+      "location": [
+        2.2863540649414062,
+        -2.285740375518799,
+        2.7604334354400635
+      ],
+      "framing": {
+        "xywhPixelsBottomLeft": [
+          67.05,
+          48.81,
+          505.91,
+          542.37
+        ],
+        "insideFrame": true
+      }
+    }
+  },
+  "saveReopenExactGeometry": true,
+  "glbRoundtripExactPositions5DecimalsAndTriangles": true,
+  "glbImportedMeshCount": 1,
+  "positionSignatureSHA256": "c677a7ab9f641e221deb6c59bc0b5d685ecb5246fb161eaddd8993bcb589092b"
+}
