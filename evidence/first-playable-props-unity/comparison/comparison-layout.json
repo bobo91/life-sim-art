@@ -1,0 +1,206 @@
+{
+  "scope": "Actual renders; layout/resizing/crops only, no repainting or color adjustment.",
+  "font": {
+    "selection": "pillow-embedded-default",
+    "family": [
+      "Aileron",
+      "Regular"
+    ]
+  },
+  "sourceGameCommit": "9a85db5cb69ccf01ae584f42c9237703be4e2327",
+  "inputs": {
+    "build/first-playable-props/run-004/prop_mailbox_001/isometric.png": "5568db8574a22fa7e457162f0771678cc624edd57877335f11cab4bce73dffc9",
+    "build/first-playable-props-unity/game-lighting-004-results/prop_mailbox_001_game6m.png": "ecfe811e6027b2c0687777400a544b1780d511f8f22ea86cc0f717c25143e4c4",
+    "build/first-playable-props/run-004/game_distance_6m.png": "a9a91603cabd2c497fbddc389444a9e7ee4ac6d4ae8812b3bfdf2626783e0d42",
+    "build/first-playable-props/run-004/game_distance_16m.png": "1c526f67641f6500e8e8863ef48dbe1fdb12ea74a600e708d7643eac25ed1c6a",
+    "build/first-playable-props-unity/game-lighting-004-results/prop_mailbox_001_game16m.png": "ae9ca7bf0899dc714756f2e695375988e8ad21ffbd3f981547437037eaa3626f",
+    "build/first-playable-props/run-004/prop_cafe_table_001/isometric.png": "05fcdedfb4234819841cba0e823c01989ab73adc3943d66f5f97bfe2c7688483",
+    "build/first-playable-props-unity/game-lighting-004-results/prop_cafe_table_001_game6m.png": "20b82d55610e8ecf96c08ba37c99e2ce69dc2a204dd1c79cb25aa2af38f7d5aa",
+    "build/first-playable-props-unity/game-lighting-004-results/prop_cafe_table_001_game16m.png": "df9ba8d220f0dc6f1d3c441a00dfe8e2bbb71888275aacc17ba31c274a1813d6",
+    "build/first-playable-props-unity/game-lighting-004-results/unity-game-lighting-report.json": "86dd346528720882b96e6ee9a72dba21540feba38f4c97339b3fd91feab0fb6b"
+  },
+  "models": {
+    "prop_mailbox_001": "b243a55a5d92da3cd3a51c3957d0b1e1f1b9737ad8f6ed988121bae69e654698",
+    "prop_cafe_table_001": "6e122d9a172952fe237e9b24fe9c94b4eff70151e346f3ead95803a86a71ee54"
+  },
+  "panels": [
+    {
+      "asset": "prop_mailbox_001",
+      "source": "build/first-playable-props/run-004/prop_mailbox_001/isometric.png",
+      "position": [
+        40,
+        135
+      ],
+      "size": [
+        450,
+        450
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "asset": "prop_mailbox_001",
+      "source": "build/first-playable-props-unity/game-lighting-004-results/prop_mailbox_001_game6m.png",
+      "position": [
+        550,
+        135
+      ],
+      "size": [
+        800,
+        450
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "asset": "prop_cafe_table_001",
+      "source": "build/first-playable-props/run-004/prop_cafe_table_001/isometric.png",
+      "position": [
+        40,
+        135
+      ],
+      "size": [
+        450,
+        450
+      ],
+      "resampling": "LANCZOS"
+    },
+    {
+      "asset": "prop_cafe_table_001",
+      "source": "build/first-playable-props-unity/game-lighting-004-results/prop_cafe_table_001_game6m.png",
+      "position": [
+        550,
+        135
+      ],
+      "size": [
+        800,
+        450
+      ],
+      "resampling": "LANCZOS"
+    }
+  ],
+  "nativeCrops": [
+    {
+      "asset": "prop_mailbox_001",
+      "source": "build/first-playable-props/run-004/game_distance_6m.png",
+      "boxTopLeftPixels": [
+        367,
+        268,
+        479,
+        478
+      ],
+      "position": [
+        30,
+        705
+      ],
+      "displayScale": 1
+    },
+    {
+      "asset": "prop_mailbox_001",
+      "source": "build/first-playable-props-unity/game-lighting-004-results/prop_mailbox_001_game6m.png",
+      "boxTopLeftPixels": [
+        600,
+        266,
+        680,
+        500
+      ],
+      "position": [
+        380,
+        705
+      ],
+      "displayScale": 1
+    },
+    {
+      "asset": "prop_mailbox_001",
+      "source": "build/first-playable-props/run-004/game_distance_16m.png",
+      "boxTopLeftPixels": [
+        537,
+        321,
+        579,
+        412
+      ],
+      "position": [
+        730,
+        705
+      ],
+      "displayScale": 1
+    },
+    {
+      "asset": "prop_mailbox_001",
+      "source": "build/first-playable-props-unity/game-lighting-004-results/prop_mailbox_001_game16m.png",
+      "boxTopLeftPixels": [
+        621,
+        320,
+        659,
+        420
+      ],
+      "position": [
+        1080,
+        705
+      ],
+      "displayScale": 1
+    },
+    {
+      "asset": "prop_cafe_table_001",
+      "source": "build/first-playable-props/run-004/game_distance_6m.png",
+      "boxTopLeftPixels": [
+        765,
+        333,
+        918,
+        487
+      ],
+      "position": [
+        30,
+        705
+      ],
+      "displayScale": 1
+    },
+    {
+      "asset": "prop_cafe_table_001",
+      "source": "build/first-playable-props-unity/game-lighting-004-results/prop_cafe_table_001_game6m.png",
+      "boxTopLeftPixels": [
+        568,
+        332,
+        712,
+        510
+      ],
+      "position": [
+        380,
+        705
+      ],
+      "displayScale": 1
+    },
+    {
+      "asset": "prop_cafe_table_001",
+      "source": "build/first-playable-props/run-004/game_distance_16m.png",
+      "boxTopLeftPixels": [
+        684,
+        345,
+        749,
+        415
+      ],
+      "position": [
+        730,
+        705
+      ],
+      "displayScale": 1
+    },
+    {
+      "asset": "prop_cafe_table_001",
+      "source": "build/first-playable-props-unity/game-lighting-004-results/prop_cafe_table_001_game16m.png",
+      "boxTopLeftPixels": [
+        608,
+        345,
+        672,
+        424
+      ],
+      "position": [
+        1080,
+        705
+      ],
+      "displayScale": 1
+    }
+  ],
+  "outputs": {
+    "prop_mailbox_001_comparison.png": "f00d0dd52de1cff3b9a767c7bce7b132c08540f0d78e36145421b2ebb6d7ea54",
+    "prop_cafe_table_001_comparison.png": "a1597409b4d2853a08ef39f9575b8e304de65f0da89151ec06b5c286af9454aa"
+  }
+}

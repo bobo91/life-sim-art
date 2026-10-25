@@ -1,0 +1,34 @@
+{
+  "schema": "first-playable-props-owner-visual-approval-1",
+  "date": "2026-10-25",
+  "authority": "Owner's explicit decision in this task conversation",
+  "status": "visually-approved-for-first-playable-day",
+  "assets": {
+    "prop_mailbox_001": {
+      "modelSHA256": "b243a55a5d92da3cd3a51c3957d0b1e1f1b9737ad8f6ed988121bae69e654698",
+      "requirements": "Clear Unity interaction prompt independent of flag and distant detail visibility."
+    },
+    "prop_cafe_table_001": {
+      "modelSHA256": "6e122d9a172952fe237e9b24fe9c94b4eff70151e346f3ead95803a86a71ee54",
+      "approvedState": "Bare neutral table for the quest; dressed details remain separate gameplay/future assets."
+    }
+  },
+  "reviewedComparisons": {
+    "quality-sheet.png": "f8be98583976b41c165c976e2788bd2915b5991ceddb523332d9b208d2c7b1cd",
+    "game-camera-comparison.png": "56662888024f57b2a14831a016e7351305a8988965f2d9826bb7d64875a8c697"
+  },
+  "aestheticChangesRequested": false,
+  "remainingBeforeMerge": [
+    "Claude explicitly confirms the game import contract in game issue53",
+    "Unity import, scale, pivot, materials and collision envelopes verified",
+    "URP appearance checked with actual game lighting; Blender/Unity differences documented",
+    "Final report returned to owner before any merge"
+  ],
+  "conditionalNextAssets": {
+    "ids": ["prop_cafe_counter_001", "prop_cafe_chair_001", "prop_tin_001"],
+    "condition": "Unity contract ready; preserve approved visual language and avoid another long design study.",
+    "currentState": "Held pending the contract gate; no production started."
+  },
+  "coordination": "Claude currently has no credits. PR34 is the reviewable handoff for later confirmation; silence is not acceptance.",
+  "automaticMergeAuthorized": false
+}

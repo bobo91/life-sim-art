@@ -1,109 +1,121 @@
-# Isolated props Unity import evidence
+# First Playable Day: actual Unity URP validation
 
-2026-10-25. **Partially verified; the overall diagnostic failed due to empty
-material pipeline tags. No complete Unity/URP compatibility pass is claimed.**
-Only the exact two reviewed run-004 GLBs were used. No game project/code,
-original mesh, character, other prop, gameplay integration or contract was
-changed. No screenshot or realtime material render was produced.
+2026-10-25. **Local graphics/import validation passed. Game import-contract
+acceptance and merge remain pending.** The owner visually approved both props.
+No mesh, material value or approved Blender image changed.
 
-## What ran
+Claude currently has no credits. PR34 is the reviewable handoff; an unanswered
+request in [game53](https://github.com/bobo91/life-sim-game/issues/53) is not
+acceptance. [Claude checklist](../../docs/props/CLAUDE_IMPORT_HANDOFF.md) and
+[FPD-PROPS-IMPORT-1](../../docs/props/first-playable-unity-import-proposal.json).
 
-1. [Attempt 001](attempt-001.json): one restricted-process Unity6000.5.8f1
-   launch exited **198 after 1.804s**, before package resolution, compilation
-   or import. That process could not obtain an Editor/headless entitlement;
-   this did not establish that the installed Editor lacked a valid license.
-2. [Attempt 002](attempt-002.json): one authorized normal-host batch launch,
-   using the existing entitlement without activation or credential changes,
-   resolved packages, compiled the checker and imported both GLBs. It exited
-   **1 after 69.474s** on the material-tag assertion described below. No third
-   attempt was made.
+![Mailbox: preserved Blender and actual game URP](comparison/prop_mailbox_001_comparison.png)
 
-Before the second launch, staging order was corrected: GLBs remain outside
-Assets while Unity starts. The checker configures URP/Linear first, then
-copies and imports the two files. This avoids choosing a cached Built-in
-material generator before URP is selected. Original GLB bytes are unchanged.
+![Bare cafe table: preserved Blender and actual game URP](comparison/prop_cafe_table_001_comparison.png)
 
-## Actual second-attempt results
+## What actually ran
 
-Unity **6000.5.8f1**, official **glTFast6.20.0**, **URP17.5.0** and Null graphics
-device. The actual lock selected **Collections6.5.0 builtin** and
-**Burst1.8.30 registry**, rather than glTFast's minimum Collections2.6.8.
-The [summary](attempt-002.json) records every resolved version and lock hash.
+Unity **6000.5.8f1**, **Direct3D11**, official **glTFast6.20.0**, **URP17.5.0**,
+Linear color. A fresh art-workspace copy of committed game branch
+`9a85db5cb69ccf01ae584f42c9237703be4e2327` was opened in EditMode. No PlayMode,
+game source/package change, bootstrap regeneration, save-service call, player
+build or integration. Private source archive stays local; SHA256
+`001063dba9be7403067354596460cf60c6837fdfa24fa3acecb3212f66d4ebf3`.
 
-| Asset | Dimensions X/Y/Z (m) | Triangles | Meshes / material slots |
-|---|---|---:|---:|
+| Attempt | Actual result | Time | Visual finding |
+| --- | --- | ---: | --- |
+| [003](graphics-003/attempt.json) | Exit0, graphics/import passed | 59.964s | Serialized EditMode UI obscures props with a fixed black/purple rectangle; [original capture retained](graphics-003/prop_mailbox_001_game6m.png). |
+| [004](graphics-004/attempt.json) | Exit0, graphics/import passed | 44.431s | Sole targeted correction disables three Canvas components in the isolated scene. Rectangle absent; no retouching. |
+
+Two graphics launches; no further iteration. Earlier restricted launch001 and
+Null-graphics diagnostic002 retain their failures in the
+[historical report](HISTORICAL_IMPORT_001_002.md).
+
+[Final report004](graphics-004/unity-game-lighting-report.json), SHA256
+`86dd346528720882b96e6ee9a72dba21540feba38f4c97339b3fd91feab0fb6b`.
+The host adds only original-file integrity fields after Unity exits. Error
+arrays are empty. Raw host/licensing logs and private game project are not
+published. [Report003](graphics-003/unity-game-lighting-report.json) and its
+[exact checker](graphics-003/checker-source.cs) are preserved.
+
+## Verified results and limits
+
+| Asset | Measured XYZ (m, rounded) | Triangles | Meshes / material slots |
+| --- | --- | ---: | ---: |
 | prop_mailbox_001 | .36 / 1.43 / .62 | 2,324 | 1 / 4 |
 | prop_cafe_table_001 | .78 / .74 / .78 | 856 | 1 / 4 |
 
-- Both files actually imported through GLTFast.Editor.GltfImporter.
-- Expected dimensions, bottom-center pivot, unit root scale, triangle counts,
-  valid indices and finite positions/normals passed. The mailbox's positive-Z
-  front landmark matched with zero nearest-vertex error. The symmetric table
-  has no semantic-front landmark.
-- All eight material names and imported base-color/metallic/roughness values
-  matched the GLB expectations. Each uses
-  Shader Graphs/glTF-pbrMetallicRoughness, reports supported, and has no
-  reported shader error. glTFast's color-factor gamma conversion is included
-  in the expectation; this verifies material data, not a rendered match.
-- Original, staged and imported GLB copies retain the same reviewed SHA256
-  values. The exact unmodified Unity result is
-  [unity-import-report-002.json](unity-import-report-002.json), SHA256
-  `93f5d29e54cf5ba8056fcfb3088c80fcc9c9f2ccf2b565fe86684b97194f494c`.
+- Actual GLTFast.Editor.GltfImporter import. Unit scale, bottom-center pivot,
+  finite positions/normals, valid indices, counts and dimensions pass. Mailbox
+  +Z landmark passes; the symmetric table has no unique semantic-front landmark.
+- All eight names/base colors/metallic/roughness values match the unchanged
+  GLBs, including glTFast's expected color-factor gamma conversion. Shaders
+  are supported, declare UniversalPipeline, and have no reported shader error.
+  Selected tags also now read UniversalPipeline, unlike diagnostic002.
+- Actual UniversalRenderPipeline render requests produced six nonempty PNGs
+  without error-magenta pixels. Renderer-on/off comparisons verify prop pixels
+  in projected bounds. Root visually inspected final sheets/source captures.
+- New validation scene saved/reopened; geometry/material/transform/collider
+  checks repeated successfully. Original Bootstrap bytes and every original,
+  staged and imported GLB retain their hashes.
+- Candidate root BoxColliders contain meshes and pass front/top raycasts:
+  mailbox center(0,.715,0), size(.36,1.43,.62); table center(0,.37,0),
+  size(.78,.74,.78). **Tested proposals, not game-approved collisions.**
+  Table box blocks its full footprint. Routes, seating and final anchor untested.
 
-## Why the checker failed and what remains unknown
+Mailbox uses its existing anchor. Table has no accepted anchor in this snapshot;
+its cafe-side site is provisional. First two raw images use the serialized
+start camera. Prop views use game FOV40/pitch50/yaw180, focus1m, distance6/16m.
+These are offscreen Editor renders, not a running standalone player or UI test.
+The mailbox needs an action prompt independent of its decorative flag. Claude
+must reconcile action2.2m/marker5m with issue51's prompt-from5m criterion.
 
-Every Material.GetTag("RenderPipeline", false) result was empty, so the
-checker's strict comparison with UniversalPipeline failed all eight
-materials. The installed official shadergraph declares both UniversalTarget
-and HDTarget. An empty selected-subshader tag under Null graphics is
-insufficient to establish that the imported shader is invalid for URP.
+## Blender versus Unity
 
-The checker reached scene save/open without an exception and then repeated
-the same failing material assertion. Its combined scene acceptance flag is
-therefore **false**. The exact report retains that failure; no complete
-save/reopen pass is inferred or rewritten.
+Blender Cycles uses AgX and three large studio area lights. Actual game settings
+are preserved: warm directional Sun1.2, color1/.94/.82, Euler50/150/0; default
+skybox ambient/reflections1; HDR camera, postprocessing off, no fog or active
+tonemapping pass. URP soft-shadow support is off, MSAA1. Only UI is disabled.
 
-The two box colliders are **proposed test-scene envelopes only**. They do not
-establish agreed gameplay collisions, walking clearance, interaction reach or
-an accepted game prefab. Actual realtime URP appearance, game import policy,
-collisions and the flag-independent mailbox prompt still require Claude's
-verification/agreement in game issue #53. There is no automatic merge.
+Unity looks darker/flatter with harder shadow edges and more pixel aliasing.
+Sage metal, timber, cream trim and silhouettes remain distinguishable. No
+missing surfaces, floating parts or erroneous material blocks appear in final
+images. At16m flag/number and plank seams have limited pixels. No aesthetic
+change is proposed; the explicit mailbox prompt remains necessary.
 
-## Tested source and reproduction template
+Native crops share camera settings but not identical composition: Blender
+frames two props side by side/off-axis; Unity centers each at its game/test
+site. Crop extents therefore differ. The hero uses a separate studio camera.
+Lower Unity16m frames and crop panels retain100% pixels. No color adjustment,
+relighting, repainting or AI enhancement. [Layout/input/model hashes](comparison/comparison-layout.json).
 
-- [Checker](../../scripts/PropsStaticGlbImportCheck.cs), compiled during
-  attempt002: SHA256
-  `a8346acf5d8c07fe5ea25baf70dfa8940612041887f25ee03e295c4530664744`.
-- [Host runner](../../scripts/run_props_static_glb_import.py): SHA256
-  `aa0ac28bca8855b63fe41a3214d08a8738404a008cb8e3c85ba41e8408abda1e`.
+## Tested source and reproduction
 
-Replace the Editor path placeholder with the installed executable. The host
-runner uses a Windows process-conflict check, requires a new workspace project
-directory and refuses an existing Unity process. Omitting --run prepares only.
-The template does not authorize an additional test iteration:
+[Final checker](../../scripts/PropsGameLightingCheck.cs) SHA256
+`fb3a90a4f4548a618d623dfa921abf664c79e73bdc341ee9e49b7446e008a16d`;
+[host](../../scripts/run_props_game_lighting_check.py) SHA256
+`80637506b4c27d32e5d4415ec590a78a612592e76b96e06547c2d447e9a09c42`.
+Host requires fresh directories and no active Unity process, stages only a
+pinned committed snapshot and verifies immutable source/model hashes.
 
 ```powershell
-python scripts/run_props_static_glb_import.py --editor "<path-to-Unity-6000.5.8f1>" --input build/first-playable-props/run-004 --project build/first-playable-props-unity/probe-new --run
+python scripts/run_props_game_lighting_check.py --snapshot <private-pinned-game-source.zip> --project build/first-playable-props-unity/game-lighting-new --output build/first-playable-props-unity/game-lighting-new-results
+python scripts/run_props_game_lighting_check.py --project build/first-playable-props-unity/game-lighting-new --output build/first-playable-props-unity/game-lighting-new-results --editor "<Unity-6000.5.8f1-executable>" --run
+python scripts/compose_props_unity_comparison.py --unity build/first-playable-props-unity/game-lighting-004-results --output build/first-playable-props-unity/comparison-new --font default
 ```
 
-Project, input copies, test scene, log and report paths are under art build/.
-Normal Unity package/licensing caches may also be used. Raw logs/command files
-remain local because they contain private host/licensing metadata. The exact
-public result JSON was scanned before copying and contains none of those fields.
+Composition actually ran with portable Pillow embedded font and checked eight
+native crop panels byte-for-byte. Original Blender PNGs are unchanged; their
+historical embedded "awaiting approval" captions do not override owner approval.
+All prop geometry/material provenance remains in original manifests. No
+purchased/prebuilt mesh, paid tools or further prop production.
 
-## Importer source and license
+Official importer [Editor docs](https://docs.unity3d.com/Packages/com.unity.cloud.gltfast@6.20/manual/ImportEditor.html),
+[registry](https://packages.unity.com/com.unity.cloud.gltfast). Exact Apache-2.0
+package license evidence remains in the historical report; Unity/dependency
+terms are separate. No license activation, seller contact or purchase.
 
-Official com.unity.cloud.gltfast6.20.0 requires Unity6000.0 or newer and
-documents URP support and Editor GLB import. The exact package tarball was
-checked against the registry SHA1 and its Apache-2.0 license inspected before
-the probe. Unity Editor and dependency terms remain separate.
-
-Sources: [registry](https://packages.unity.com/com.unity.cloud.gltfast),
-[official overview](https://docs.unity3d.com/Packages/com.unity.cloud.gltfast@6.20/manual/index.html),
-[Editor import](https://docs.unity3d.com/Packages/com.unity.cloud.gltfast@6.20/manual/ImportEditor.html),
-[package license](https://github.com/Unity-Technologies/com.unity.cloud.gltfast/blob/main/Packages/com.unity.cloud.gltfast/LICENSE.md).
-
-6.20.0 tarball SHA256:
-`bc51a487caf6c75c93c69bfc272a7cd13a0e9f5b8738594b7661d45e3fc1e136`.
-Its LICENSE.md SHA256:
-`cccf2d7a6c705ec991d5229a775e7fbd41fa6de57d4e3f33bbecb967c3055ef9`.
+**Recommendation: local import/render GO; game integration/merge HOLD.**
+Explicit #53 confirmation and game runtime checklist remain open. Counter/chair/
+tin start after that gate in the approved style, without a new long design study.
+No automatic merge. Ava work and draft PR33 stay paused.

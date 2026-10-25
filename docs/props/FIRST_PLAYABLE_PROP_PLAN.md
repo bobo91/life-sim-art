@@ -64,5 +64,7 @@ decision. Keep paid assets and Ava exception PR completely outside this work.
 
 Small renders, configs, sources and reports belong in the art review PR. GLB and
 editable `.blend` outputs go into a versioned **CI review** artifact,
-with SHA256 and 30-day retention; no production release or automatic merge. Human visual acceptance
-remains pending even when geometry checks pass.
+with SHA256 and 30-day retention; no production release or automatic merge. The owner has now visually approved mailbox and bare table. Actual isolated
+Unity URP checks pass; the explicit game import contract remains pending in53.
+Counter/chair/tin may proceed after that gate without a new long design study.
+See [Claude handoff](CLAUDE_IMPORT_HANDOFF.md); no automatic merge.

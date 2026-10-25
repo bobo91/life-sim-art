@@ -1,9 +1,15 @@
 # First Playable Day — mailbox and cafe table quality proofs
 
-2026-10-24. **Ready for owner visual review, not production/game approval.**
-Only two props were built. Counter, chair and tin remain a
-[five-ID plan](../../docs/props/FIRST_PLAYABLE_PROP_PLAN.md). Ava and PR #33 stay
-paused/draft; no seller contact or purchases occurred.
+2026-10-25 update: **Owner visually approved mailbox and bare cafe table for
+First Playable Day.** No further aesthetic changes. Actual isolated Unity URP
+import/render checks now pass; game contract and merge remain pending.
+[Visual decision and immutable hashes](visual-approval.json) ·
+[Unity comparisons/results](../first-playable-props-unity/README.md) ·
+[Claude handoff](../../docs/props/CLAUDE_IMPORT_HANDOFF.md).
+Counter, chair and tin remain a [five-ID plan](../../docs/props/FIRST_PLAYABLE_PROP_PLAN.md)
+until the Unity contract is ready. Ava and PR33 stay paused/draft; no seller
+contact or purchases. Original comparison PNGs below are preserved, including
+their historical review captions.
 
 ![Actual front/isometric renders](quality-sheet.png)
 
@@ -47,12 +53,13 @@ artifact, retained for 30 days. This is not a production release. The
 
 This section records the original Blender proof. The later
 [isolated Unity attempts](../first-playable-props-unity/README.md) are separate
-partial evidence; they do not establish game import/material acceptance.
+local graphics/import evidence. They do not establish game contract acceptance,
+runtime integration or prompt/navigation behavior.
 
 Environment audited before construction: Blender **4.5.14 LTS**, embedded
 Python **3.11.15**, system Python **3.14.6**. GPU availability was audited
-locally; **all actual renders used CPU**, four threads. No GPU kernel or Unity
-test was run. Public copies omit local paths and host hardware/OS details;
+locally; **all original Blender renders used CPU**, four threads. No Blender GPU
+kernel was run. Later Unity Direct3D11 checks are separately recorded above. Public copies omit local paths and host hardware/OS details;
 raw audit logs remain local. [System](system-environment.json), [Blender](blender-environment.json).
 
 Reproduce from the art PR source tree in this repository:
@@ -171,16 +178,19 @@ floating parts or shading defects were observed in the final viewed renders.
 
 ## Coordination and next gate
 
-IDs for mailbox/counter/table/chair occur in game #51/#53/#55. The tin ID is
-owner-proposed; game #56 currently defines narration/story flags, not a physical
-tin/inventory implementation. Dimensions, collider envelopes, anchors and
-prefab/state conventions still need agreement. The pinned game tree contains
-**no GLB/glTF importer**, despite GLB in the provisional contract. No game
-package or code was changed to mask that gap. Import into the game project and
-realtime URP appearance remain **not tested**; the separate isolated probe
-provides only the partial geometry/material-data evidence linked above.
+IDs for mailbox/counter/table/chair occur in game #51/#53/#55. Tin is owner-proposed;
+game #56 currently defines story flags, not a physical inventory implementation.
+The owner approved these two props and their bare/neutral state. A bounded
+actual-game scene-copy check now verifies glTFast6.20.0/URP17.5.0 imports and
+appearance; the original game has no importer added by this art work.
 
-Recommendation: **GO for owner visual review of these two proofs; hold the
-remaining three assets and game integration.** Ask Claude to acknowledge the
-IDs/proposed envelopes and choose the GLB import/material path on the game
-side. Do not silently replace the contract with FBX. No merge is performed.
+[FPD-PROPS-IMPORT-1](../../docs/props/first-playable-unity-import-proposal.json)
+proposes measured dimensions, bottom-center pivot and game-owned candidate
+collisions. [Claude's checklist](../../docs/props/CLAUDE_IMPORT_HANDOFF.md) still
+requires explicit confirmation in game53, route/collision decisions and a
+flag-independent mailbox action prompt. Claude currently has no credits;
+PR34 is the handoff and silence is not acceptance.
+
+Recommendation: **GO for the local import/render route; HOLD game integration
+and merge.** Counter/chair/tin may proceed in the approved style once the Unity
+contract is ready, without a new long design study. No automatic merge.

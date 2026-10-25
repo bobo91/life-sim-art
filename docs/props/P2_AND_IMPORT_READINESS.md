@@ -1,7 +1,11 @@
 # PR34: portable contact sheets and import readiness
 
-2026-10-25. Owner decision: mailbox/table are provisionally technically approved;
-final visual approval and merge are pending. No other prop production.
+2026-10-25. Owner decision: mailbox and bare cafe table are visually approved
+for First Playable Day; no further aesthetic changes are needed. Merge remains
+pending the final report and explicit Unity import-contract confirmation in
+game issue53. Claude currently has no credits; PR34 and the
+[handoff checklist](CLAUDE_IMPORT_HANDOFF.md) preserve the work for later review.
+No other prop production before that contract gate is cleared.
 
 ## P2 change and evidence
 
@@ -47,11 +51,20 @@ Claude must reconcile and verify this in the standalone player. The flag is
 decorative/contextual and cannot be the sole interaction signal.
 
 The isolated [Unity evidence](../../evidence/first-playable-props-unity/README.md)
-now records two attempts: the restricted launch stopped at licensing; the
-authorized host launch actually imported both GLBs with correct geometry,
-scale/pivot/forward and material property values. Its overall checker failed
-on an empty pipeline tag under Null graphics. No complete pass, URP appearance
-or independent Unity save/reopen acceptance is claimed. This partial evidence
-cannot approve a package choice, gameplay collider or UI behavior in the game
-repository. No game code, game package or integration is changed here.
-No merge; counter/chair/tin remain on hold.
+preserves the earlier restricted-license and partial Null-graphics attempts.
+The later [graphics validation004](../../evidence/first-playable-props-unity/graphics-004/unity-game-lighting-report.json)
+passed in an isolated copy of the actual game scene from commit9a85db5, using
+its real URP lighting. Materials, normals, bounds, scale/pivot/orientation,
+save/reopen and candidate-collider physics checks passed. Original Bootstrap
+scene bytes and approved GLB bytes remain unchanged. Three Canvas components
+were disabled only in the validation copy to remove UI rectangles from the
+comparison views; no aesthetic or mesh change was made.
+
+This is an EditMode graphics/import pass, without PlayMode or UI verification.
+It does not accept the proposed importer contract, gameplay colliders, routes,
+table placement or prompt behavior on Claude's behalf. No original game code,
+game package or integration is changed here. Explicit confirmation is still
+required in #53; silence while Claude lacks credits is not acceptance.
+No automatic merge. Counter/chair/tin remain on hold until the Unity contract
+is ready, then may proceed in the same visual style without a new long design
+study.

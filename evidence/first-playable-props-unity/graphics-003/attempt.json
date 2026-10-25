@@ -1,0 +1,29 @@
+{
+  "schema": "props-graphics-attempt-1",
+  "date": "2026-10-25",
+  "attempt": "003",
+  "scope": "Isolated committed game scene snapshot; no game repository changes, PlayMode, integration, contract acceptance or merge.",
+  "sourceGameCommit": "9a85db5cb69ccf01ae584f42c9237703be4e2327",
+  "sourceArchiveSHA256": "001063dba9be7403067354596460cf60c6837fdfa24fa3acecb3212f66d4ebf3",
+  "checkerSHA256": "62e3f65a523883a52346e68e4627c3438e5c05a930eaf6fd8ac630939163b556",
+  "hostSHA256": "80637506b4c27d32e5d4415ec590a78a612592e76b96e06547c2d447e9a09c42",
+  "exitCode": 0,
+  "elapsedSeconds": 59.964,
+  "originalModelsUnchanged": true,
+  "sourceBootstrapCopyUnchanged": true,
+  "allModelCopiesUnchanged": true,
+  "reportSHA256": "b796a430e9dade839686177ccbece5e07594bff48e788a526703da04be8546af",
+  "publishedImages": {
+    "prop_mailbox_001_game6m.png": {
+      "sha256": "70b50e62c263eb37c49060c42fd05da2472cfd70861be3305f35cf3319b338eb",
+      "bytes": 72088
+    }
+  },
+  "observation": "Technical checks passed; serialized EditMode UI obscured props with fixed black/purple screen rectangle. This is retained evidence, not accepted review imagery.",
+  "privateLogsPublished": false,
+  "inputModels": {
+    "prop_mailbox_001": "b243a55a5d92da3cd3a51c3957d0b1e1f1b9737ad8f6ed988121bae69e654698",
+    "prop_cafe_table_001": "6e122d9a172952fe237e9b24fe9c94b4eff70151e346f3ead95803a86a71ee54"
+  },
+  "sourceBootstrapSHA256": "de26fbd27e90d9a0d15e3d592f1c90c6eb824cebbc9d82771d46ca03ffacb021"
+}

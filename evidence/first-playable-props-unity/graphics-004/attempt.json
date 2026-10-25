@@ -1,0 +1,49 @@
+{
+  "schema": "props-graphics-attempt-1",
+  "date": "2026-10-25",
+  "attempt": "004",
+  "scope": "Isolated committed game scene snapshot; no game repository changes, PlayMode, integration, contract acceptance or merge.",
+  "sourceGameCommit": "9a85db5cb69ccf01ae584f42c9237703be4e2327",
+  "sourceArchiveSHA256": "001063dba9be7403067354596460cf60c6837fdfa24fa3acecb3212f66d4ebf3",
+  "checkerSHA256": "fb3a90a4f4548a618d623dfa921abf664c79e73bdc341ee9e49b7446e008a16d",
+  "hostSHA256": "80637506b4c27d32e5d4415ec590a78a612592e76b96e06547c2d447e9a09c42",
+  "exitCode": 0,
+  "elapsedSeconds": 44.431,
+  "originalModelsUnchanged": true,
+  "sourceBootstrapCopyUnchanged": true,
+  "allModelCopiesUnchanged": true,
+  "reportSHA256": "86dd346528720882b96e6ee9a72dba21540feba38f4c97339b3fd91feab0fb6b",
+  "publishedImages": {
+    "01_game_start_placeholder.png": {
+      "sha256": "cf730092a3bacddef31174129a81201f97b709236142dff2e6d619877daf368a",
+      "bytes": 123330
+    },
+    "02_game_start_imported.png": {
+      "sha256": "304762573e68a26356055fa1816d93cf9fa59bb06a97561349d583ca1ddc4834",
+      "bytes": 124928
+    },
+    "prop_cafe_table_001_game16m.png": {
+      "sha256": "df9ba8d220f0dc6f1d3c441a00dfe8e2bbb71888275aacc17ba31c274a1813d6",
+      "bytes": 69560
+    },
+    "prop_cafe_table_001_game6m.png": {
+      "sha256": "20b82d55610e8ecf96c08ba37c99e2ce69dc2a204dd1c79cb25aa2af38f7d5aa",
+      "bytes": 90323
+    },
+    "prop_mailbox_001_game16m.png": {
+      "sha256": "ae9ca7bf0899dc714756f2e695375988e8ad21ffbd3f981547437037eaa3626f",
+      "bytes": 112831
+    },
+    "prop_mailbox_001_game6m.png": {
+      "sha256": "ecfe811e6027b2c0687777400a544b1780d511f8f22ea86cc0f717c25143e4c4",
+      "bytes": 61485
+    }
+  },
+  "observation": "One focused correction: disabled three Canvas components in isolated scene before capture. Rectangle is absent. World, camera parameters, light, source scene bytes and approved models unchanged. No retouching or color grading.",
+  "privateLogsPublished": false,
+  "inputModels": {
+    "prop_mailbox_001": "b243a55a5d92da3cd3a51c3957d0b1e1f1b9737ad8f6ed988121bae69e654698",
+    "prop_cafe_table_001": "6e122d9a172952fe237e9b24fe9c94b4eff70151e346f3ead95803a86a71ee54"
+  },
+  "sourceBootstrapSHA256": "de26fbd27e90d9a0d15e3d592f1c90c6eb824cebbc9d82771d46ca03ffacb021"
+}
