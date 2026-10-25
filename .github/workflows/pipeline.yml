@@ -22,6 +22,9 @@ jobs:
           python-version: '3.11'
       - name: Standard-library unit tests
         run: python -m unittest discover -s tests -v
+      - name: Install contact-sheet dependency
+        if: github.event_name == 'pull_request' && hashFiles('configs/prop_mailbox_001.json') != ''
+        run: python -m pip install Pillow==12.3.0
       - name: Install official pinned Blender and verify archive checksum
         shell: bash
         run: |
@@ -36,7 +39,16 @@ jobs:
         run: |
           python scripts/run_first_playable_props.py --blender "$BLENDER_BIN" --output build/first-playable-props/ci-review
           python scripts/sanitize_first_playable_evidence.py --blender "$BLENDER_BIN" --directory build/first-playable-props/ci-review
+          python scripts/verify_first_playable_contact_sheets.py --input build/first-playable-props/ci-review --output build/first-playable-props/ci-contact-sheets
           python scripts/package_first_playable_props.py --input build/first-playable-props/ci-review --output build/artifacts/first-playable-props-v0.1.0-review.2.zip
+      - name: Upload Linux contact-sheet reproduction evidence
+        if: success() && github.event_name == 'pull_request' && hashFiles('configs/prop_mailbox_001.json') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: first-playable-contact-sheets-${{ github.sha }}-${{ github.run_attempt }}
+          path: build/first-playable-props/ci-contact-sheets/
+          if-no-files-found: error
+          retention-days: 30
       - name: Upload versioned First Playable review artifact
         if: success() && github.event_name == 'pull_request' && hashFiles('configs/prop_mailbox_001.json') != ''
         uses: actions/upload-artifact@v4

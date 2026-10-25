@@ -59,6 +59,25 @@ python scripts/compose_first_playable_props.py --input build/first-playable-prop
 python -m unittest discover -s tests -v
 ```
 
+Contact-sheet composition requires **Pillow >=10.1** (CI pins the tested
+12.3.0). The compositor now accepts `--font <path-or-name>`; automatic selection
+tries Arial, DejaVu Sans and Liberation Sans, then uses Pillow's embedded
+scalable font. `--font default` forces that portable fallback. No font file is
+bundled with the meshes. Use a fresh output directory: reviewed images are
+never overwritten.
+
+```powershell
+python scripts/verify_first_playable_contact_sheets.py --input build/first-playable-props/run-004 --output build/first-playable-props/contact-sheet-replay
+```
+
+This separate reproduction tool runs no Blender process. It checks both font
+paths, the actual GLBs against the reviewed model hashes, unchanged source and
+evidence files, four hero panels, all eight native pixel crops and the full
+game-camera frame. Linux CI runs it on the newly reproduced **same meshes** and
+uploads the sheets plus `verification.json` separately. Label typography may
+change with the available font; render pixels and model identity are checked.
+The original two comparison sheets remain the visual-review baseline.
+
 The runner requires a new output directory, uses offline/factory startup with
 auto-execution disabled, records commands, hashes, seed/config and the dirty
 source snapshot, and refuses a source change during a build. Its common

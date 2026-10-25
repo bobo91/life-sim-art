@@ -6,36 +6,70 @@ from pathlib import Path
 import shutil
 
 from PIL import Image, ImageDraw, ImageFont
+import PIL
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ('prop_mailbox_001', 'prop_cafe_table_001')
 
 
-def font(size): return ImageFont.truetype('C:/Windows/Fonts/arial.ttf', size)
 def sha(path): return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+
+
+def resolve_font(preferred=None):
+    """Use an explicit font, a host font, or Pillow's size-aware embedded font."""
+    candidates = [preferred] if preferred and preferred != 'default' else []
+    if not preferred:
+        candidates = ['arial.ttf', 'DejaVuSans.ttf', 'LiberationSans-Regular.ttf']
+    for candidate in candidates:
+        try:
+            probe = ImageFont.truetype(candidate, 20)
+        except OSError:
+            if preferred:
+                raise ValueError('The explicitly requested font could not be opened') from None
+            continue
+        path = Path(probe.path)
+        info = {'selection': 'explicit' if preferred else 'available-host-font',
+            'file': path.name, 'family': list(probe.getname()),
+            'sha256': sha(path) if path.is_file() else None}
+        return lambda size: ImageFont.truetype(candidate, size), info
+    # Pillow >=10.1 embeds a scalable font, so a minimal Linux host needs no font package.
+    probe = ImageFont.load_default(size=20)
+    return lambda size: ImageFont.load_default(size=size), {
+        'selection': 'pillow-embedded-default', 'family': list(probe.getname())}
 
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--input', required=True)
     parser.add_argument('--output', default='evidence/first-playable-props')
+    parser.add_argument('--font', help='Optional font path/name, or "default" for the embedded fallback; requires Pillow >=10.1')
     args = parser.parse_args()
     source = Path(args.input).resolve(); target = Path(args.output).resolve()
-    source.relative_to(ROOT); target.relative_to(ROOT); target.mkdir(parents=True, exist_ok=True)
-    layout = {'scope':'Actual Blender renders; layout/crops only, no repainting or AI enhancement.', 'inputs':{},'gameCrops':[]}
+    source.relative_to(ROOT); target.relative_to(ROOT)
+    if target.exists(): raise FileExistsError('Choose a fresh output directory; preserve existing render evidence')
+    font, font_info = resolve_font(args.font)
+    target.mkdir(parents=True)
+    layout = {'scope':'Actual Blender renders; layout/crops only, no repainting or AI enhancement.',
+        'pillowVersion': PIL.__version__, 'font': font_info, 'inputs':{}, 'models':{}, 'heroPanels':[], 'gameCrops':[]}
     sheet = Image.new('RGB', (1400, 1400), '#EFECE3'); draw = ImageDraw.Draw(sheet)
     draw.text((32,20), 'WILLOW CREEK / FIRST PLAYABLE DAY', fill='#344A48', font=font(30))
     draw.text((32,62), 'Original Blender geometry / quality proofs v0.1.0 / awaiting visual approval', fill='#625B50',font=font(20))
     for column, asset_id in enumerate(ASSETS):
         config = json.loads((ROOT/'configs'/(asset_id+'.json')).read_text(encoding='utf-8'))
         manifest = json.loads((source/asset_id/'manifest.json').read_text(encoding='utf-8'))
+        model = source/asset_id/manifest['model']['file']
+        if sha(model) != manifest['model']['sha256']: raise ValueError('Input mesh does not match manifest: '+asset_id)
+        layout['models'][asset_id] = {'sha256':sha(model), 'bytes':model.stat().st_size}
         folder = target/asset_id; folder.mkdir(exist_ok=True)
         for row, view in enumerate(('front','isometric')):
             path = source/asset_id/(view+'.png'); image = Image.open(path).convert('RGB')
-            layout['inputs'][str(path.relative_to(ROOT))] = sha(path)
+            if sha(path) != manifest['previews'][view]['sha256']: raise ValueError('Input render does not match manifest')
+            layout['inputs'][path.relative_to(ROOT).as_posix()] = sha(path)
             image.thumbnail((640,570), Image.Resampling.LANCZOS)
             x=column*700+(700-image.width)//2; y=140+row*620
             sheet.paste(image,(x,y))
+            layout['heroPanels'].append({'source':path.relative_to(ROOT).as_posix(),
+                'position':[x,y], 'size':list(image.size), 'resampling':'LANCZOS', 'maximumSize':[640,570]})
             draw.text((column*700+32,y-35),asset_id+' / '+view,fill='#344A48',font=font(21))
             shutil.copy2(path,folder/(view+'.png'))
         dims=config['dimensionsMeters']
@@ -52,7 +86,7 @@ def main():
     sheet.paste(full,(60,100))
     for column, view in enumerate(camera['views']):
         path=source/view['file']; image=Image.open(path).convert('RGB')
-        layout['inputs'][str(path.relative_to(ROOT))]=sha(path)
+        layout['inputs'][path.relative_to(ROOT).as_posix()]=sha(path)
         xbase=column*350
         draw.text((xbase+20,855),f'{view["distanceMeters"]:g} m / yaw {view["unityYawDegrees"]}',fill='#344A48',font=font(22))
         draw.text((xbase+20,886),'Native pixel crops (100%)',fill='#625B50',font=font(17))
@@ -63,7 +97,7 @@ def main():
             position=(xbase+28+index*158,930+210-crop.height)
             sheet.paste(crop,position)
             draw.text((xbase+20+index*158,1155),f'{"mailbox" if index==0 else "table"}: {w:.0f} x {h:.0f}px',fill='#625B50',font=font(15))
-            layout['gameCrops'].append({'source':str(path.relative_to(ROOT)),'assetId':asset_id,'boxTopLeftPixels':box,'displayScale':1,'position':position})
+            layout['gameCrops'].append({'source':path.relative_to(ROOT).as_posix(),'assetId':asset_id,'boxTopLeftPixels':box,'displayScale':1,'position':position})
     draw.text((32,1192),'Neutral preview ground grid: 0.5 m. Game lighting, collisions, cafe context and terrace setup states are not tested.',fill='#625B50',font=font(16))
     sheet.save(target/'game-camera-comparison.png',optimize=True)
     for name in ('game_distance_16m.png','game_distance_16m_yaw225.png','game-camera.json','validation.json','tooling.json'):
