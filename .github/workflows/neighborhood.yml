@@ -1,0 +1,58 @@
+name: Willow Creek First Neighborhood
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/*neighborhood*'
+      - 'scripts/building_*.py'
+      - 'scripts/build_modular_building.py'
+      - 'scripts/props_*.py'
+      - 'scripts/walter_*.py'
+      - 'configs/neighborhood*'
+      - 'configs/modular-building.json'
+      - 'configs/prop_*.json'
+      - 'configs/walter-mailbox-reference.json'
+      - 'configs/streetlamp.json'
+      - 'art_pipeline/**'
+      - 'tests/**'
+      - 'docs/neighborhood/**'
+      - 'reports/neighborhood-v0.1.0/**'
+      - '.github/workflows/neighborhood.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate-neighborhood:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run independent validator and layout regressions
+        run: python -m unittest discover -s tests -v
+      - name: Install portable contact-sheet dependency
+        run: python -m pip install Pillow==12.3.0
+      - name: Install official pinned Blender and verify checksum
+        shell: bash
+        run: |
+          curl --fail --location --retry 3 https://download.blender.org/release/Blender4.5/blender-4.5.14-linux-x64.tar.xz --output "$RUNNER_TEMP/blender.tar.xz"
+          printf '%s  %s\n' '9ba871ff2ecd36526b77432745980b7e6664ecd0c7ca11c48849073dcfe06da3' "$RUNNER_TEMP/blender.tar.xz" | sha256sum --check -
+          tar --extract --file "$RUNNER_TEMP/blender.tar.xz" --directory "$RUNNER_TEMP"
+          printf 'BLENDER_BIN=%s\n' "$RUNNER_TEMP/blender-4.5.14-linux-x64/blender" >> "$GITHUB_ENV"
+      - name: Reproduce separate assets, pinned references, layout and actual render views
+        shell: bash
+        run: |
+          python scripts/run_neighborhood.py --blender "$BLENDER_BIN" --output build/neighborhood/ci
+          python scripts/compose_neighborhood.py --input build/neighborhood/ci --output build/neighborhood/ci/review
+          python scripts/package_neighborhood.py --input build/neighborhood/ci --output build/artifacts/neighborhood-v0.1.0-review.1.zip
+      - name: Publish versioned neighborhood models, editable sources and review bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: neighborhood-v0.1.0-${{ github.sha }}-${{ github.run_attempt }}
+          path: build/artifacts/neighborhood-v0.1.0-review.1.zip*
+          if-no-files-found: error
+          retention-days: 30
+          compression-level: 0

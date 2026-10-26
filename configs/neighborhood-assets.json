@@ -1,0 +1,528 @@
+{
+  "schema": "neighborhood-assets-1",
+  "version": "0.1.0",
+  "packId": "willow-first-neighborhood-001",
+  "palette": {
+    "grass": {
+      "color": "#91A978",
+      "roughness": 0.8,
+      "metallic": 0
+    },
+    "asphalt": {
+      "color": "#69716D",
+      "roughness": 0.8,
+      "metallic": 0
+    },
+    "paving": {
+      "color": "#D0C6AE",
+      "roughness": 0.8,
+      "metallic": 0
+    },
+    "curb": {
+      "color": "#BEBCAA",
+      "roughness": 0.8,
+      "metallic": 0
+    },
+    "marking": {
+      "color": "#E8DFC8",
+      "roughness": 0.8,
+      "metallic": 0
+    },
+    "metal": {
+      "color": "#425C53",
+      "roughness": 0.8,
+      "metallic": 0.3
+    },
+    "signPaint": {
+      "color": "#4F7868",
+      "roughness": 0.8,
+      "metallic": 0
+    },
+    "trunk": {
+      "color": "#86654A",
+      "roughness": 0.8,
+      "metallic": 0
+    },
+    "foliage": {
+      "color": "#6F945E",
+      "roughness": 0.8,
+      "metallic": 0
+    },
+    "foliageLight": {
+      "color": "#91AC72",
+      "roughness": 0.8,
+      "metallic": 0
+    },
+    "flower": {
+      "color": "#DCA18E",
+      "roughness": 0.8,
+      "metallic": 0
+    },
+    "siding": {
+      "color": "#C2B09B",
+      "roughness": 0.8,
+      "metallic": 0
+    },
+    "trim": {
+      "color": "#EBDDBA",
+      "roughness": 0.8,
+      "metallic": 0
+    },
+    "wood": {
+      "color": "#A57953",
+      "roughness": 0.8,
+      "metallic": 0
+    },
+    "glass": {
+      "color": "#527E86",
+      "roughness": 0.8,
+      "metallic": 0
+    },
+    "roof": {
+      "color": "#865E49",
+      "roughness": 0.8,
+      "metallic": 0
+    },
+    "soil": {
+      "color": "#947957",
+      "roughness": 0.95,
+      "metallic": 0
+    }
+  },
+  "assets": [
+    {
+      "assetId": "env_ground_400_001",
+      "version": "0.1.0",
+      "seed": 8800,
+      "maxTriangles": 12000,
+      "dimensionsMeters": [
+        4,
+        0.12,
+        4
+      ],
+      "expectedBounds": {
+        "min": [
+          -2,
+          -0.12,
+          -2
+        ],
+        "max": [
+          2,
+          0,
+          2
+        ]
+      },
+      "pivot": "authored-module-anchor",
+      "cafeName": "Juniper Cafe",
+      "streetName": "WILLOW ST"
+    },
+    {
+      "assetId": "env_road_600_001",
+      "version": "0.1.0",
+      "seed": 8801,
+      "maxTriangles": 12000,
+      "dimensionsMeters": [
+        6,
+        0.12,
+        6
+      ],
+      "expectedBounds": {
+        "min": [
+          -3,
+          -0.1,
+          -3
+        ],
+        "max": [
+          3,
+          0.02,
+          3
+        ]
+      },
+      "pivot": "authored-module-anchor",
+      "cafeName": "Juniper Cafe",
+      "streetName": "WILLOW ST"
+    },
+    {
+      "assetId": "env_sidewalk_200_001",
+      "version": "0.1.0",
+      "seed": 8802,
+      "maxTriangles": 12000,
+      "dimensionsMeters": [
+        2,
+        0.12,
+        2
+      ],
+      "expectedBounds": {
+        "min": [
+          -1,
+          0,
+          -1
+        ],
+        "max": [
+          1,
+          0.12,
+          1
+        ]
+      },
+      "pivot": "authored-module-anchor",
+      "cafeName": "Juniper Cafe",
+      "streetName": "WILLOW ST"
+    },
+    {
+      "assetId": "env_curb_200_001",
+      "version": "0.1.0",
+      "seed": 8803,
+      "maxTriangles": 12000,
+      "dimensionsMeters": [
+        2,
+        0.15,
+        0.15
+      ],
+      "expectedBounds": {
+        "min": [
+          -1,
+          0,
+          -0.075
+        ],
+        "max": [
+          1,
+          0.15,
+          0.075
+        ]
+      },
+      "pivot": "authored-module-anchor",
+      "cafeName": "Juniper Cafe",
+      "streetName": "WILLOW ST"
+    },
+    {
+      "assetId": "env_sidewalk_corner_001",
+      "version": "0.1.0",
+      "seed": 8804,
+      "maxTriangles": 12000,
+      "dimensionsMeters": [
+        2,
+        0.15,
+        2
+      ],
+      "expectedBounds": {
+        "min": [
+          -1,
+          0,
+          -1
+        ],
+        "max": [
+          1,
+          0.15,
+          1
+        ]
+      },
+      "pivot": "authored-module-anchor",
+      "cafeName": "Juniper Cafe",
+      "streetName": "WILLOW ST"
+    },
+    {
+      "assetId": "env_crosswalk_001",
+      "version": "0.1.0",
+      "seed": 8805,
+      "maxTriangles": 12000,
+      "dimensionsMeters": [
+        2.72,
+        0.006,
+        5.6
+      ],
+      "expectedBounds": {
+        "min": [
+          -1.36,
+          0,
+          -2.8
+        ],
+        "max": [
+          1.36,
+          0.006,
+          2.8
+        ]
+      },
+      "pivot": "authored-module-anchor",
+      "cafeName": "Juniper Cafe",
+      "streetName": "WILLOW ST"
+    },
+    {
+      "assetId": "prop_street_name_001",
+      "version": "0.1.0",
+      "seed": 8806,
+      "maxTriangles": 12000,
+      "dimensionsMeters": [
+        1.65,
+        2.66,
+        0.130825
+      ],
+      "expectedBounds": {
+        "min": [
+          -0.825,
+          0,
+          -0.052308
+        ],
+        "max": [
+          0.825,
+          2.66,
+          0.078517
+        ]
+      },
+      "pivot": "authored-module-anchor",
+      "cafeName": "Juniper Cafe",
+      "streetName": "WILLOW ST"
+    },
+    {
+      "assetId": "env_deciduous_tree_001",
+      "version": "0.1.0",
+      "seed": 8807,
+      "maxTriangles": 12000,
+      "dimensionsMeters": [
+        4.06,
+        5.0608,
+        3.69925
+      ],
+      "expectedBounds": {
+        "min": [
+          -2.03,
+          0,
+          -1.849625
+        ],
+        "max": [
+          2.03,
+          5.0608,
+          1.849625
+        ]
+      },
+      "pivot": "authored-module-anchor",
+      "cafeName": "Juniper Cafe",
+      "streetName": "WILLOW ST"
+    },
+    {
+      "assetId": "env_small_tree_001",
+      "version": "0.1.0",
+      "seed": 8808,
+      "maxTriangles": 12000,
+      "dimensionsMeters": [
+        2.03,
+        3.4424,
+        1.59425
+      ],
+      "expectedBounds": {
+        "min": [
+          -1.015,
+          0,
+          -0.797125
+        ],
+        "max": [
+          1.015,
+          3.4424,
+          0.797125
+        ]
+      },
+      "pivot": "authored-module-anchor",
+      "cafeName": "Juniper Cafe",
+      "streetName": "WILLOW ST"
+    },
+    {
+      "assetId": "env_shrub_001",
+      "version": "0.1.0",
+      "seed": 8809,
+      "maxTriangles": 12000,
+      "dimensionsMeters": [
+        1.62015,
+        0.9212,
+        1.18675
+      ],
+      "expectedBounds": {
+        "min": [
+          -0.810075,
+          0,
+          -0.593375
+        ],
+        "max": [
+          0.810075,
+          0.9212,
+          0.593375
+        ]
+      },
+      "pivot": "authored-module-anchor",
+      "cafeName": "Juniper Cafe",
+      "streetName": "WILLOW ST"
+    },
+    {
+      "assetId": "env_shrub_002",
+      "version": "0.1.0",
+      "seed": 8810,
+      "maxTriangles": 12000,
+      "dimensionsMeters": [
+        1.8,
+        0.67,
+        1.06275
+      ],
+      "expectedBounds": {
+        "min": [
+          -0.9,
+          0,
+          -0.531375
+        ],
+        "max": [
+          0.9,
+          0.67,
+          0.531375
+        ]
+      },
+      "pivot": "authored-module-anchor",
+      "cafeName": "Juniper Cafe",
+      "streetName": "WILLOW ST"
+    },
+    {
+      "assetId": "bld_cafe_storefront_200_001",
+      "version": "0.1.0",
+      "seed": 8811,
+      "maxTriangles": 12000,
+      "dimensionsMeters": [
+        2,
+        2.8,
+        0.26
+      ],
+      "expectedBounds": {
+        "min": [
+          -1,
+          0,
+          -0.09
+        ],
+        "max": [
+          1,
+          2.8,
+          0.17
+        ]
+      },
+      "pivot": "authored-module-anchor",
+      "cafeName": "Juniper Cafe",
+      "streetName": "WILLOW ST"
+    },
+    {
+      "assetId": "bld_cafe_fascia_200_001",
+      "version": "0.1.0",
+      "seed": 8812,
+      "maxTriangles": 12000,
+      "dimensionsMeters": [
+        2,
+        1.0,
+        1.19
+      ],
+      "expectedBounds": {
+        "min": [
+          -1,
+          -0.44,
+          0.04
+        ],
+        "max": [
+          1,
+          0.56,
+          1.23
+        ]
+      },
+      "pivot": "authored-module-anchor",
+      "cafeName": "Juniper Cafe",
+      "streetName": "WILLOW ST"
+    },
+    {
+      "assetId": "prop_cafe_sign_001",
+      "version": "0.1.0",
+      "seed": 8813,
+      "maxTriangles": 12000,
+      "dimensionsMeters": [
+        3.0,
+        0.55,
+        0.17
+      ],
+      "expectedBounds": {
+        "min": [
+          -1.5,
+          0,
+          -0.07
+        ],
+        "max": [
+          1.5,
+          0.55,
+          0.1
+        ]
+      },
+      "pivot": "authored-module-anchor",
+      "cafeName": "Juniper Cafe",
+      "streetName": "WILLOW ST"
+    },
+    {
+      "assetId": "env_curb_ramp_001",
+      "version": "0.1.0",
+      "seed": 8814,
+      "maxTriangles": 1000,
+      "dimensionsMeters": [
+        2,
+        0.13,
+        2
+      ],
+      "expectedBounds": {
+        "min": [
+          -1,
+          -0.01,
+          -1
+        ],
+        "max": [
+          1,
+          0.12,
+          1
+        ]
+      },
+      "pivot": "authored-module-anchor"
+    },
+    {
+      "assetId": "env_soil_bed_001",
+      "version": "0.1.0",
+      "seed": 8815,
+      "maxTriangles": 1000,
+      "dimensionsMeters": [
+        3,
+        0.06,
+        2
+      ],
+      "expectedBounds": {
+        "min": [
+          -1.5,
+          0,
+          -1
+        ],
+        "max": [
+          1.5,
+          0.06,
+          1
+        ]
+      },
+      "pivot": "authored-module-anchor"
+    }
+  ],
+  "assemblies": {
+    "cafe-building": {
+      "expectedBounds": {
+        "min": [
+          -3.35,
+          -0.48,
+          -8.171
+        ],
+        "max": [
+          4.23,
+          4.82,
+          1.23
+        ]
+      },
+      "dimensionsMeters": [
+        7.58,
+        5.3,
+        9.401
+      ],
+      "maxTriangles": 100000
+    }
+  }
+}

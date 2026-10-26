@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0",
+  "requestId": "CAFE-ENVIRONMENT-PACK-01",
+  "assetId": "prop_cafe_cup_001",
+  "version": "0.1.0",
+  "category": "prop",
+  "generator": "cafe_cup",
+  "seed": 6104,
+  "blenderVersion": "4.5.14",
+  "dimensionsMeters": [0.158, 0.105, 0.158],
+  "maxTriangles": 2800,
+  "geometry": {"includeCoffee": true, "sides": 32, "scope": "Single static cup+saucer prop; optional static coffee surface, no fluid or detachable parts"},
+  "palette": {
+    "cream": {"color": "#DDD0B3", "roughness": 0.30, "metallic": 0.0},
+    "terracotta": {"color": "#B56E50", "roughness": 0.34, "metallic": 0.0},
+    "coffee": {"color": "#493026", "roughness": 0.25, "metallic": 0.0}
+  },
+  "preview": {"resolution": 640, "samples": 48},
+  "candidateCollider": {"status": "Proposal only; no small-item gameplay physics specified", "type": "BoxCollider", "center": [0, 0.0525, 0], "size": [0.158, 0.105, 0.158], "enabledInExport": false},
+  "authoringNotes": {
+    "design": "Soft cream glazed ceramic cup with an actual hollow profile and curved handle; terracotta-edged matching saucer",
+    "pivot": "Bottom-centre of saucer; Blender Z-up/-Y-front; GLB Y-up/+Z-front",
+    "placement": "Place the root on the supporting tabletop or cloth top surface. Cup and saucer are one reusable static asset.",
+    "scope": "Default cup contains a static coffee disk. This does not implement drinking, fill states or interaction physics."
+  }
+}

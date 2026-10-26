@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0",
+  "requestId": "ART-003",
+  "assetId": "prop_mailbox_001",
+  "version": "0.1.0",
+  "category": "prop",
+  "generator": "mailbox",
+  "seed": 2401,
+  "dimensionsMeters": [0.36, 1.43, 0.62],
+  "maxTriangles": 2400,
+  "blenderVersion": "4.5.14",
+  "addressMark": "17",
+  "palette": {
+    "paint": {"color": "#344A48", "roughness": 0.62, "metallic": 0.30},
+    "edge": {"color": "#B7AE95", "roughness": 0.78, "metallic": 0.12},
+    "wood": {"color": "#8B634B", "roughness": 0.82, "metallic": 0.0},
+    "accent": {"color": "#B96C50", "roughness": 0.65, "metallic": 0.22}
+  },
+  "preview": {"resolution": 768, "samples": 64}
+}

@@ -1,0 +1,1437 @@
+{
+  "schema": "neighborhood-review-evidence-1",
+  "baseMainCommit": "8fd7379a6ce1023cf8fd7a690bad0f5ac5bed33f",
+  "localSourceCommit": "02d92463f142d83e3253c395c416e6cbba3ba5dd",
+  "localSourceDirty": true,
+  "sourceIdentityNote": "Local unrelated work is preserved. Exact source hashes identify actual generation inputs; remote branch starts from main. CI independently reproduces a clean checkout.",
+  "sourceHashes": {
+    "scripts/build_neighborhood.py": "be650d7a96b12dbfc219cdff522ee94808d9f5cdf67de0c4781b21c39dc61575",
+    "scripts/neighborhood_street.py": "1f438bf6fd5649bd842ce066a63f5ad4aa2d466a53368b0aa26b897fa415df8b",
+    "scripts/neighborhood_greenery.py": "77da4590bea0542bc9b59245b4a2a8c7342fc017e49a48cc0d6523f7b8885c91",
+    "scripts/neighborhood_cafe.py": "b96a74daefce20ef040af3742b71163ccf97dce30a80020749af591a4e1ab47f",
+    "scripts/neighborhood_references.py": "ea0be2e8f62e069523dcb1ffd1f5b3de20d649cbd74d1607c1ab53fbaeb62434",
+    "scripts/run_neighborhood.py": "88c01fd86374f723f2a0d5cc6510ee9e1feb143e2c8c46a6c8b502815c80504c",
+    "scripts/compose_neighborhood.py": "b44820d25a7ace4bfc52485f21193672c57d58534e3fa9ee8e6089cfa94e20b5",
+    "scripts/package_neighborhood.py": "473542ae770e503cdd7971617fa91865218e0c3de9a21e44193098323d2d327f",
+    "scripts/building_validation.py": "a3b606deb26edff03b03c96a2a7921ed3496529bcf8bcaa2b95dad0f030ffa0c",
+    "configs/neighborhood-assets.json": "8911e717d1efa5143c80db9e542f32e37a53005d81b5c812fe0d83b988636204",
+    "configs/neighborhood-layout.json": "4add45def5f66ae3f457c8e5a9f22db1d1b5c86b79bb23840940a38e602dc7e7",
+    "configs/neighborhood-reference-locks.json": "957a6b413e6c73ce61b3efb4fd084bdbe927af0094df3f3fa597a81b6965badc",
+    "scripts/building_geometry.py": "eee7ff9da5ae8dc360509ad8afe5300bdcab1a2516e95baa435295df8021582c",
+    "scripts/building_core.py": "2f250ddd74b86a349e3eb8ae2e41928fce640f11e4e5ff26d76683922c00e838",
+    "scripts/building_roof.py": "22be4480dcfb9a59971ac51074bba97f0d623cbe3dd6f5215b20367e9e551f35",
+    "scripts/building_openings.py": "d9bdc9a656d137de7256195953db3892c9ddc38ee6c43c60fbbc862ef8082347",
+    "scripts/build_modular_building.py": "fe36b7ed657d5350a8bbb965a0c660c2d04369604fcc65593de8052041677031",
+    "scripts/props_walter.py": "2fc086ba351d9efdfb141a1847a988583f547622e29dcb977702a45563660146",
+    "scripts/walter_common.py": "0f3a1d5b844c7034e012b50a58804f681dbfcaa70fc01dce3590321ba04e7417",
+    "scripts/walter_mailbox_reference.py": "b76d773d1cdd9e5d0470d9a5f0d2784b5be92ef608e0a55f20873521f272f63c",
+    "scripts/props_cafe_table.py": "159a0e3bb788c133f20f86a3bb4bfb51bed659500cae89e2d5c6ef0fc5f7df3f",
+    "scripts/props_cafe_furniture.py": "b02063e8b6eca131320e292d506156a1ee5c36a2a5e1d30edd3ba7d3a7b85ad5",
+    "scripts/props_cafe_smallwares.py": "5202ae6fd82e16cfaf9b3aacdea0c8dfb3cf07fced68700065de0bbfad7a8524",
+    "scripts/props_cafe_softgoods.py": "b62ca947351621176a845be1ed7a325e6f36ce1b9bac374703721beead6d9082",
+    "art_pipeline/blender_build.py": "1602b3acbb5ba96e956cfb23e605e49b351cb803b0aa3f2ee4aed226fa4511eb",
+    "art_pipeline/cli.py": "ad9ac05777328ed59879fc83ab064700632a3012b55f543fc5b6d4fe4c2bed46",
+    "art_pipeline/config.py": "3faa2389bdbb4e377bc2e9154526274bcd4360a837ea94912116526e066b78a9",
+    "art_pipeline/validation.py": "516335248f5cdf7f3430da86045c8902342395a458ec52dc6132129086b67e55",
+    "art_pipeline/benchmark_checks.py": "94a9a56e0811755350f5a85646a98c3746b9eeebbf2023822ea32b5280f04ce8",
+    "configs/modular-building.json": "3fe3dc7901a08b6bde54143dc694b8e0bf88ef033b851096c8a8ad4f49a5130b",
+    "configs/prop_cafe_chair_001.json": "05cf1d698e5ba0778b610daca12c90387f06026be6ac0e835eab3c73af6c7a9a",
+    "configs/prop_cafe_counter_001.json": "e25091273e8bab01b7bab1c52b74081be4a649c788a075a49a542b6a995670d8",
+    "configs/prop_cafe_cup_001.json": "c507efd97b8e7c135e68f8bd57be3b85a4a761d00aefb48d002844ee32472b05",
+    "configs/prop_cafe_parasol_001.json": "28cf64bd2447fd1d1262cd1b7af28c62f0a329e6e1290cfc4c1c45220b84963c",
+    "configs/prop_cafe_table_001.json": "f453d418f0994bb6e1fc2cb8b0d8534e9f0a68bd869beaa297443dade0d009b4",
+    "configs/prop_cafe_tablecloth_001.json": "e67f269910c39dd243b16b103a6822227f8eceeab07ad56bf917d4ac02760687",
+    "configs/prop_fence_post_001.json": "51baeaf4223c1a606edd0f0507a6405b2b0a7642d44b0c195adcd168dec31444",
+    "configs/prop_flower_pot_001.json": "4cd25938158adf58cda9b4848a07ee857ed99cf056eeee0cc0934cf017cfb59d",
+    "configs/prop_flower_pot_002.json": "98d50532da113fa437fdeeb48a5ad27943eacad4e8693f83e0e454425ba2fb87",
+    "configs/prop_old_watering_can_001.json": "98aab5338e2be30be82655b593bc0be22991287a3976c982b46dcd5819823658",
+    "configs/prop_porch_bench_001.json": "db06f6870dab22e111b29c3f1263178e8ee186ffd9848f972cfce5a02c0a3dd3",
+    "configs/prop_porch_lantern_001.json": "b55740c3a639f141af8d935f2c670ae93d553f6b9a5b67fbf1d36dc471b02d4a",
+    "configs/prop_porch_rocking_chair_001.json": "e8dfd8f9b7292072254dfcff4b00642635d4160aaf264dac860f4742969655df",
+    "configs/prop_tin_001.json": "5fa4f21ded80942cff31d7d73740766d503772a9babe46d1cd88789f13cdfbce",
+    "configs/prop_welcome_mat_001.json": "2d9a1f3f63531f9cf7e0b8d7e83dcfa0eab0a7b0992fa9ed97c72f8da9bf1962",
+    "configs/prop_wooden_crate_001.json": "4c01c12a0b15f2227f1fa8062a6c648a878d477739c6a10a46412f8503a01aed",
+    "configs/prop_wooden_fence_001.json": "9705cf126181581ab421ef327fc9bbc30e1190b2654ef35be844e1de3c7f63b8",
+    "configs/streetlamp.json": "6b85579598c4efdfe5255645411e68e5dcfa0be3e1bd386be6e508cc02fc2fde",
+    "configs/walter-mailbox-reference.json": "3f2ba255a195e4271c2d775f66eaa10c34179927d3e9018f89e1afc451d52af7"
+  },
+  "environment": {
+    "blender": "4.5.14 LTS",
+    "python": "3.11.15",
+    "devices": [
+      {
+        "name": "AMD Ryzen 7 9800X3D 8-Core Processor",
+        "type": "CPU"
+      },
+      {
+        "name": "AMD Radeon RX 9070 XT",
+        "type": "HIP"
+      },
+      {
+        "name": "AMD Radeon(TM) Graphics",
+        "type": "HIP"
+      }
+    ],
+    "actualRenderDevice": "CPU",
+    "threads": 4
+  },
+  "elapsedSeconds": 160.659,
+  "unitTestsPassed": 80,
+  "newAssets": {
+    "env_ground_400_001": {
+      "sha256": "4f9407bf659fd84c24fc1bb568b73ac1c71a996987aa5b513183a8e960c8b883",
+      "bytes": 8844,
+      "triangles": 124,
+      "vertices": 284,
+      "meshInstances": 1,
+      "materials": [
+        "env_ground_400_001__grass"
+      ],
+      "materialCount": 1,
+      "bounds": {
+        "min": [
+          -2.0,
+          -0.11999999731779099,
+          -2.0
+        ],
+        "max": [
+          2.0,
+          0.0,
+          2.0
+        ]
+      },
+      "dimensionsMeters": [
+        4.0,
+        0.11999999731779099,
+        4.0
+      ],
+      "windingNormalsConsistent": true,
+      "coordinateSystem": {
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      },
+      "pivotPolicy": "authored-module-anchor",
+      "normalizedPivotErrorMeters": [
+        0.0,
+        2.682209010451686e-09,
+        0.0
+      ],
+      "anchorBoundsErrorMeters": [
+        0.0,
+        2.682209010451686e-09,
+        0.0
+      ],
+      "validationNormalization": {
+        "method": "configured-bounds-to-bottom-center",
+        "translationMeters": [
+          -0.0,
+          0.12,
+          -0.0
+        ],
+        "productionBytesModified": false
+      }
+    },
+    "env_road_600_001": {
+      "sha256": "a5c2b2e859bcd16148d3ab32884ae4f634094d0ed343c276fe5b2832314d5efd",
+      "bytes": 8960,
+      "triangles": 124,
+      "vertices": 288,
+      "meshInstances": 1,
+      "materials": [
+        "env_road_600_001__asphalt"
+      ],
+      "materialCount": 1,
+      "bounds": {
+        "min": [
+          -3.0,
+          -0.10000000149011612,
+          -3.0
+        ],
+        "max": [
+          3.0,
+          0.019999999552965164,
+          3.0
+        ]
+      },
+      "dimensionsMeters": [
+        6.0,
+        0.12000000104308128,
+        6.0
+      ],
+      "windingNormalsConsistent": true,
+      "coordinateSystem": {
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      },
+      "pivotPolicy": "authored-module-anchor",
+      "normalizedPivotErrorMeters": [
+        0.0,
+        1.4901161138336505e-09,
+        0.0
+      ],
+      "anchorBoundsErrorMeters": [
+        0.0,
+        1.4901161138336505e-09,
+        0.0
+      ],
+      "validationNormalization": {
+        "method": "configured-bounds-to-bottom-center",
+        "translationMeters": [
+          -0.0,
+          0.1,
+          -0.0
+        ],
+        "productionBytesModified": false
+      }
+    },
+    "env_sidewalk_200_001": {
+      "sha256": "bf1198deb82aa1120c3a5298c51a2f3177684383c31bdfb150f23930411c7184",
+      "bytes": 8176,
+      "triangles": 124,
+      "vertices": 256,
+      "meshInstances": 1,
+      "materials": [
+        "env_sidewalk_200_001__paving"
+      ],
+      "materialCount": 1,
+      "bounds": {
+        "min": [
+          -1.0,
+          0.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          0.11999999731779099,
+          1.0
+        ]
+      },
+      "dimensionsMeters": [
+        2.0,
+        0.11999999731779099,
+        2.0
+      ],
+      "windingNormalsConsistent": true,
+      "coordinateSystem": {
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      },
+      "pivotPolicy": "authored-module-anchor",
+      "normalizedPivotErrorMeters": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchorBoundsErrorMeters": [
+        0.0,
+        2.682209010451686e-09,
+        0.0
+      ],
+      "validationNormalization": {
+        "method": "configured-bounds-to-bottom-center",
+        "translationMeters": [
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "productionBytesModified": false
+      }
+    },
+    "env_curb_200_001": {
+      "sha256": "8fdacbb254ed63c4bfdc002dbc26ab2933f04f5c96ba85070872b258f5e8a98b",
+      "bytes": 7612,
+      "triangles": 124,
+      "vertices": 232,
+      "meshInstances": 1,
+      "materials": [
+        "env_curb_200_001__curb"
+      ],
+      "materialCount": 1,
+      "bounds": {
+        "min": [
+          -1.0,
+          0.0,
+          -0.07500000298023224
+        ],
+        "max": [
+          1.0,
+          0.15000000596046448,
+          0.07500000298023224
+        ]
+      },
+      "dimensionsMeters": [
+        2.0,
+        0.15000000596046448,
+        0.15000000596046448
+      ],
+      "windingNormalsConsistent": true,
+      "coordinateSystem": {
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      },
+      "pivotPolicy": "authored-module-anchor",
+      "normalizedPivotErrorMeters": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchorBoundsErrorMeters": [
+        0.0,
+        5.960464483090178e-09,
+        2.980232241545089e-09
+      ],
+      "validationNormalization": {
+        "method": "configured-bounds-to-bottom-center",
+        "translationMeters": [
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "productionBytesModified": false
+      }
+    },
+    "env_sidewalk_corner_001": {
+      "sha256": "7e63c594a816de18e975c3789614c3130c3ffc7bb974302afdd6be655cdda04b",
+      "bytes": 20684,
+      "triangles": 360,
+      "vertices": 682,
+      "meshInstances": 1,
+      "materials": [
+        "env_sidewalk_corner_001__paving",
+        "env_sidewalk_corner_001__curb"
+      ],
+      "materialCount": 2,
+      "bounds": {
+        "min": [
+          -1.0,
+          0.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          0.15000000596046448,
+          1.0
+        ]
+      },
+      "dimensionsMeters": [
+        2.0,
+        0.15000000596046448,
+        2.0
+      ],
+      "windingNormalsConsistent": true,
+      "coordinateSystem": {
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      },
+      "pivotPolicy": "authored-module-anchor",
+      "normalizedPivotErrorMeters": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchorBoundsErrorMeters": [
+        0.0,
+        5.960464483090178e-09,
+        0.0
+      ],
+      "validationNormalization": {
+        "method": "configured-bounds-to-bottom-center",
+        "translationMeters": [
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "productionBytesModified": false
+      }
+    },
+    "env_crosswalk_001": {
+      "sha256": "0ee5602579d1d9687b0dd865fc5faf67c2b6e13314d554746edc612202448348",
+      "bytes": 54684,
+      "triangles": 868,
+      "vertices": 2000,
+      "meshInstances": 1,
+      "materials": [
+        "env_crosswalk_001__marking"
+      ],
+      "materialCount": 1,
+      "bounds": {
+        "min": [
+          -1.3600000143051147,
+          0.0,
+          -2.799999952316284
+        ],
+        "max": [
+          1.3600000143051147,
+          0.006000000052154064,
+          2.799999952316284
+        ]
+      },
+      "dimensionsMeters": [
+        2.7200000286102295,
+        0.006000000052154064,
+        5.599999904632568
+      ],
+      "windingNormalsConsistent": true,
+      "coordinateSystem": {
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      },
+      "pivotPolicy": "authored-module-anchor",
+      "normalizedPivotErrorMeters": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchorBoundsErrorMeters": [
+        1.4305114648394124e-08,
+        5.2154064053566707e-11,
+        4.7683715642676816e-08
+      ],
+      "validationNormalization": {
+        "method": "configured-bounds-to-bottom-center",
+        "translationMeters": [
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "productionBytesModified": false
+      }
+    },
+    "prop_street_name_001": {
+      "sha256": "60eb1c46c39ff4104657de575ed61a366048028345e637bd8eaf3af30e211f99",
+      "bytes": 65028,
+      "triangles": 1152,
+      "vertices": 2253,
+      "meshInstances": 1,
+      "materials": [
+        "prop_street_name_001__metal",
+        "prop_street_name_001__signPaint",
+        "prop_street_name_001__marking"
+      ],
+      "materialCount": 3,
+      "bounds": {
+        "min": [
+          -0.824999988079071,
+          0.0,
+          -0.052308108657598495
+        ],
+        "max": [
+          0.824999988079071,
+          2.6600000858306885,
+          0.07851724326610565
+        ]
+      },
+      "dimensionsMeters": [
+        1.649999976158142,
+        2.6600000858306885,
+        0.13082535192370415
+      ],
+      "windingNormalsConsistent": true,
+      "coordinateSystem": {
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      },
+      "pivotPolicy": "authored-module-anchor",
+      "normalizedPivotErrorMeters": [
+        0.0,
+        0.0,
+        6.730425357315273e-08
+      ],
+      "anchorBoundsErrorMeters": [
+        1.1920928910669204e-08,
+        8.583068833445395e-08,
+        2.432661056483987e-07
+      ],
+      "validationNormalization": {
+        "method": "configured-bounds-to-bottom-center",
+        "translationMeters": [
+          -0.0,
+          -0.0,
+          -0.013104500000000002
+        ],
+        "productionBytesModified": false
+      }
+    },
+    "env_deciduous_tree_001": {
+      "sha256": "4e130c5ba02bda86b5bac1a5a69ff6c296a699195701277a193ac3751bfd8d21",
+      "bytes": 42364,
+      "triangles": 2132,
+      "vertices": 1088,
+      "meshInstances": 1,
+      "materials": [
+        "env_deciduous_tree_001__trunk",
+        "env_deciduous_tree_001__foliage",
+        "env_deciduous_tree_001__foliageLight"
+      ],
+      "materialCount": 3,
+      "bounds": {
+        "min": [
+          -2.0299999713897705,
+          0.0,
+          -1.8496249914169312
+        ],
+        "max": [
+          2.0299999713897705,
+          5.060800075531006,
+          1.8496249914169312
+        ]
+      },
+      "dimensionsMeters": [
+        4.059999942779541,
+        5.060800075531006,
+        3.6992499828338623
+      ],
+      "windingNormalsConsistent": true,
+      "coordinateSystem": {
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      },
+      "pivotPolicy": "authored-module-anchor",
+      "normalizedPivotErrorMeters": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchorBoundsErrorMeters": [
+        2.8610229296788248e-08,
+        7.553100545010238e-08,
+        8.583068922263237e-09
+      ],
+      "validationNormalization": {
+        "method": "configured-bounds-to-bottom-center",
+        "translationMeters": [
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "productionBytesModified": false
+      }
+    },
+    "env_small_tree_001": {
+      "sha256": "c8fc3c371b6433d7a5d2063b57946e37addb3d3e2fb21c00501362692194da01",
+      "bytes": 27860,
+      "triangles": 1340,
+      "vertices": 684,
+      "meshInstances": 1,
+      "materials": [
+        "env_small_tree_001__trunk",
+        "env_small_tree_001__foliage",
+        "env_small_tree_001__foliageLight"
+      ],
+      "materialCount": 3,
+      "bounds": {
+        "min": [
+          -1.0149999856948853,
+          0.0,
+          -0.797124981880188
+        ],
+        "max": [
+          1.0149999856948853,
+          3.4423999786376953,
+          0.797124981880188
+        ]
+      },
+      "dimensionsMeters": [
+        2.0299999713897705,
+        3.4423999786376953,
+        1.594249963760376
+      ],
+      "windingNormalsConsistent": true,
+      "coordinateSystem": {
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      },
+      "pivotPolicy": "authored-module-anchor",
+      "normalizedPivotErrorMeters": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchorBoundsErrorMeters": [
+        1.4305114648394124e-08,
+        2.1362304813976607e-08,
+        1.811981198418522e-08
+      ],
+      "validationNormalization": {
+        "method": "configured-bounds-to-bottom-center",
+        "translationMeters": [
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "productionBytesModified": false
+      }
+    },
+    "env_shrub_001": {
+      "sha256": "378289dbba1bf5c71082d91c61157aa338137b60a4cdf7ef71b3eca133cf7aa4",
+      "bytes": 21264,
+      "triangles": 980,
+      "vertices": 504,
+      "meshInstances": 1,
+      "materials": [
+        "env_shrub_001__trunk",
+        "env_shrub_001__foliage",
+        "env_shrub_001__foliageLight"
+      ],
+      "materialCount": 3,
+      "bounds": {
+        "min": [
+          -0.8100749850273132,
+          0.0,
+          -0.593375027179718
+        ],
+        "max": [
+          0.8100749850273132,
+          0.9211999773979187,
+          0.593375027179718
+        ]
+      },
+      "dimensionsMeters": [
+        1.6201499700546265,
+        0.9211999773979187,
+        1.186750054359436
+      ],
+      "windingNormalsConsistent": true,
+      "coordinateSystem": {
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      },
+      "pivotPolicy": "authored-module-anchor",
+      "normalizedPivotErrorMeters": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchorBoundsErrorMeters": [
+        1.497268675709762e-08,
+        2.2602081317657507e-08,
+        2.717971803178898e-08
+      ],
+      "validationNormalization": {
+        "method": "configured-bounds-to-bottom-center",
+        "translationMeters": [
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "productionBytesModified": false
+      }
+    },
+    "env_shrub_002": {
+      "sha256": "4c0f436988da8adad07b680d7259e8f5fcc2f93f90999603cbe2eb23217e38ad",
+      "bytes": 29660,
+      "triangles": 1372,
+      "vertices": 714,
+      "meshInstances": 1,
+      "materials": [
+        "env_shrub_002__trunk",
+        "env_shrub_002__foliage",
+        "env_shrub_002__foliageLight",
+        "env_shrub_002__flower"
+      ],
+      "materialCount": 4,
+      "bounds": {
+        "min": [
+          -0.8999999761581421,
+          0.0,
+          -0.531374990940094
+        ],
+        "max": [
+          0.8999999761581421,
+          0.6700000166893005,
+          0.531374990940094
+        ]
+      },
+      "dimensionsMeters": [
+        1.7999999523162842,
+        0.6700000166893005,
+        1.062749981880188
+      ],
+      "windingNormalsConsistent": true,
+      "coordinateSystem": {
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      },
+      "pivotPolicy": "authored-module-anchor",
+      "normalizedPivotErrorMeters": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchorBoundsErrorMeters": [
+        2.384185793236071e-08,
+        1.6689300497141346e-08,
+        9.05990604760376e-09
+      ],
+      "validationNormalization": {
+        "method": "configured-bounds-to-bottom-center",
+        "translationMeters": [
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "productionBytesModified": false
+      }
+    },
+    "bld_cafe_storefront_200_001": {
+      "sha256": "e1f1e5c69012f50c95354cc0ffe3bdd7c7f6eb78913c9fbb63238f66729e19a6",
+      "bytes": 121380,
+      "triangles": 1984,
+      "vertices": 4374,
+      "meshInstances": 1,
+      "materials": [
+        "bld_cafe_storefront_200_001__siding",
+        "bld_cafe_storefront_200_001__trim",
+        "bld_cafe_storefront_200_001__wood",
+        "bld_cafe_storefront_200_001__glass"
+      ],
+      "materialCount": 4,
+      "bounds": {
+        "min": [
+          -1.0,
+          0.0,
+          -0.09000000357627869
+        ],
+        "max": [
+          1.0,
+          2.799999952316284,
+          0.17000000178813934
+        ]
+      },
+      "dimensionsMeters": [
+        2.0,
+        2.799999952316284,
+        0.26000000536441803
+      ],
+      "windingNormalsConsistent": true,
+      "coordinateSystem": {
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      },
+      "pivotPolicy": "authored-module-anchor",
+      "normalizedPivotErrorMeters": [
+        0.0,
+        0.0,
+        8.940696794024205e-10
+      ],
+      "anchorBoundsErrorMeters": [
+        0.0,
+        4.7683715642676816e-08,
+        3.5762786898541066e-09
+      ],
+      "validationNormalization": {
+        "method": "configured-bounds-to-bottom-center",
+        "translationMeters": [
+          -0.0,
+          -0.0,
+          -0.04000000000000001
+        ],
+        "productionBytesModified": false
+      }
+    },
+    "bld_cafe_fascia_200_001": {
+      "sha256": "880dd2408a657f9a035b5bb4cc3fb45824ce1b3f609f1e75efcee81d4778a2ec",
+      "bytes": 37396,
+      "triangles": 628,
+      "vertices": 1262,
+      "meshInstances": 1,
+      "materials": [
+        "bld_cafe_fascia_200_001__roof",
+        "bld_cafe_fascia_200_001__trim",
+        "bld_cafe_fascia_200_001__wood"
+      ],
+      "materialCount": 3,
+      "bounds": {
+        "min": [
+          -1.0,
+          -0.4399999976158142,
+          0.03999999910593033
+        ],
+        "max": [
+          1.0,
+          0.5600000023841858,
+          1.2300000190734863
+        ]
+      },
+      "dimensionsMeters": [
+        2.0,
+        1.0,
+        1.190000019967556
+      ],
+      "windingNormalsConsistent": true,
+      "coordinateSystem": {
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      },
+      "pivotPolicy": "authored-module-anchor",
+      "normalizedPivotErrorMeters": [
+        0.0,
+        2.384185793236071e-09,
+        9.089708319365286e-09
+      ],
+      "anchorBoundsErrorMeters": [
+        0.0,
+        2.384185793236071e-09,
+        1.907348634588857e-08
+      ],
+      "validationNormalization": {
+        "method": "configured-bounds-to-bottom-center",
+        "translationMeters": [
+          -0.0,
+          0.44,
+          -0.635
+        ],
+        "productionBytesModified": false
+      }
+    },
+    "prop_cafe_sign_001": {
+      "sha256": "6063681394f90fef95b64e6b51980026bbe69190e771e911c4b3ca5b6380cc77",
+      "bytes": 105352,
+      "triangles": 2020,
+      "vertices": 3686,
+      "meshInstances": 1,
+      "materials": [
+        "prop_cafe_sign_001__roof",
+        "prop_cafe_sign_001__trim",
+        "prop_cafe_sign_001__wood"
+      ],
+      "materialCount": 3,
+      "bounds": {
+        "min": [
+          -1.5,
+          0.0,
+          -0.07000000029802322
+        ],
+        "max": [
+          1.5,
+          0.550000011920929,
+          0.10000000149011612
+        ]
+      },
+      "dimensionsMeters": [
+        3.0,
+        0.550000011920929,
+        0.17000000178813934
+      ],
+      "windingNormalsConsistent": true,
+      "coordinateSystem": {
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      },
+      "pivotPolicy": "authored-module-anchor",
+      "normalizedPivotErrorMeters": [
+        0.0,
+        0.0,
+        5.960464483090178e-10
+      ],
+      "anchorBoundsErrorMeters": [
+        0.0,
+        1.1920928910669204e-08,
+        1.4901161138336505e-09
+      ],
+      "validationNormalization": {
+        "method": "configured-bounds-to-bottom-center",
+        "translationMeters": [
+          -0.0,
+          -0.0,
+          -0.015
+        ],
+        "productionBytesModified": false
+      }
+    },
+    "env_curb_ramp_001": {
+      "sha256": "c7e111ba81fdaa9e44df5596e33feadd931732d6b616384cd13abfbf61cc1916",
+      "bytes": 2108,
+      "triangles": 16,
+      "vertices": 30,
+      "meshInstances": 1,
+      "materials": [
+        "env_curb_ramp_001__paving"
+      ],
+      "materialCount": 1,
+      "bounds": {
+        "min": [
+          -1.0,
+          -0.009999999776482582,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          0.119999997317791,
+          1.0
+        ]
+      },
+      "dimensionsMeters": [
+        2.0,
+        0.12999999709427357,
+        2.0
+      ],
+      "windingNormalsConsistent": true,
+      "coordinateSystem": {
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      },
+      "pivotPolicy": "authored-module-anchor",
+      "normalizedPivotErrorMeters": [
+        0.0,
+        2.2351741811588166e-10,
+        0.0
+      ],
+      "anchorBoundsErrorMeters": [
+        0.0,
+        2.6822089965738982e-09,
+        0.0
+      ],
+      "validationNormalization": {
+        "method": "configured-bounds-to-bottom-center",
+        "translationMeters": [
+          -0.0,
+          0.01,
+          -0.0
+        ],
+        "productionBytesModified": false
+      }
+    },
+    "env_soil_bed_001": {
+      "sha256": "5621392e7c92aec36d7fb9d85f72f4dcafd670bc6ff1433513d348f5565926ef",
+      "bytes": 3844,
+      "triangles": 140,
+      "vertices": 72,
+      "meshInstances": 1,
+      "materials": [
+        "env_soil_bed_001__soil"
+      ],
+      "materialCount": 1,
+      "bounds": {
+        "min": [
+          -1.5,
+          0.0,
+          -1.0
+        ],
+        "max": [
+          1.5,
+          0.05999999865889549,
+          1.0
+        ]
+      },
+      "dimensionsMeters": [
+        3.0,
+        0.05999999865889549,
+        2.0
+      ],
+      "windingNormalsConsistent": true,
+      "coordinateSystem": {
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      },
+      "pivotPolicy": "authored-module-anchor",
+      "normalizedPivotErrorMeters": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchorBoundsErrorMeters": [
+        0.0,
+        1.341104505225843e-09,
+        0.0
+      ],
+      "validationNormalization": {
+        "method": "configured-bounds-to-bottom-center",
+        "translationMeters": [
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "productionBytesModified": false
+      }
+    }
+  },
+  "geometryReplay": {
+    "env_ground_400_001": true,
+    "env_road_600_001": true,
+    "env_sidewalk_200_001": true,
+    "env_curb_200_001": true,
+    "env_sidewalk_corner_001": true,
+    "env_crosswalk_001": true,
+    "prop_street_name_001": true,
+    "env_deciduous_tree_001": true,
+    "env_small_tree_001": true,
+    "env_shrub_001": true,
+    "env_shrub_002": true,
+    "bld_cafe_storefront_200_001": true,
+    "bld_cafe_fascia_200_001": true,
+    "prop_cafe_sign_001": true,
+    "env_curb_ramp_001": true,
+    "env_soil_bed_001": true
+  },
+  "references": {
+    "walter-house": {
+      "model": {
+        "file": "walter-house.glb",
+        "sha256": "867835f7f17732b783e5cd01a9a31954e4652b197f0c53afd13b6bedb8874a7c",
+        "bytes": 635064
+      },
+      "exactApprovedGLBBytes": false,
+      "worldGeometrySHA256": "029975eff9db5d7c04a5285ea50e8e2acb3e51987b8a9f50e783856d3aa48c23",
+      "approvedWorldGeometrySHA256": "029975eff9db5d7c04a5285ea50e8e2acb3e51987b8a9f50e783856d3aa48c23",
+      "geometryRoundtrip": true
+    },
+    "alternate-house": {
+      "model": {
+        "file": "alternate-house.glb",
+        "sha256": "6daee5587fe0a07280366c56797da8da19f44c293d2d74d40c436ef00ae8ce7f",
+        "bytes": 618988
+      },
+      "exactApprovedGLBBytes": false,
+      "worldGeometrySHA256": "9643b4bd29419d440a265f3c6644989d8c89511fd45d8e661b43502922cc0e12",
+      "approvedWorldGeometrySHA256": "9643b4bd29419d440a265f3c6644989d8c89511fd45d8e661b43502922cc0e12",
+      "geometryRoundtrip": true
+    },
+    "prop_fence_post_001": {
+      "model": {
+        "file": "prop_fence_post_001.glb",
+        "sha256": "c57540ce7af827c69062fdc09cd3f1054e21b2ae106229fc82c2bb78387287d0",
+        "bytes": 18908
+      },
+      "exactApprovedGLBBytes": true,
+      "worldGeometrySHA256": "5689bcad60cb27f1ff7e447ce65cd26df050f1bb4ea35b0579d0a746d8bb60a0",
+      "approvedWorldGeometrySHA256": null,
+      "geometryRoundtrip": true
+    },
+    "prop_flower_pot_001": {
+      "model": {
+        "file": "prop_flower_pot_001.glb",
+        "sha256": "0d234a932a58fbd37b7aba1dc0090a9296258884db072f3abc531383328ff929",
+        "bytes": 51972
+      },
+      "exactApprovedGLBBytes": true,
+      "worldGeometrySHA256": "8149e83959ab1f1651e391dc221b389744e89ff8041a3f94b839b3dca5e33fe1",
+      "approvedWorldGeometrySHA256": null,
+      "geometryRoundtrip": true
+    },
+    "prop_flower_pot_002": {
+      "model": {
+        "file": "prop_flower_pot_002.glb",
+        "sha256": "e13cb5406359a9f3e28a0ef0126412beb95ee51906263969cc3a80cc87255d83",
+        "bytes": 41644
+      },
+      "exactApprovedGLBBytes": true,
+      "worldGeometrySHA256": "b068fc90b11bd9c3df1e572cfa8641ddaf25ee82afecb12709e70bb138539656",
+      "approvedWorldGeometrySHA256": null,
+      "geometryRoundtrip": true
+    },
+    "prop_mailbox_001": {
+      "model": {
+        "file": "prop_mailbox_001.glb",
+        "sha256": "b243a55a5d92da3cd3a51c3957d0b1e1f1b9737ad8f6ed988121bae69e654698",
+        "bytes": 142356
+      },
+      "exactApprovedGLBBytes": true,
+      "worldGeometrySHA256": "a820f5994d61cbdbd1bb71400000cf0031a7352bf55b3cbfe1102b6cda33a0a2",
+      "approvedWorldGeometrySHA256": null,
+      "geometryRoundtrip": true
+    },
+    "prop_old_watering_can_001": {
+      "model": {
+        "file": "prop_old_watering_can_001.glb",
+        "sha256": "617dff2f0e10289f2a608e1a488955a8924cb39f89a5c0d4070189ecac6a9bc3",
+        "bytes": 33720
+      },
+      "exactApprovedGLBBytes": true,
+      "worldGeometrySHA256": "06b966225ad50d242f4387f5bb9684508506054d47a9d6c63fcfde7e43350c5d",
+      "approvedWorldGeometrySHA256": null,
+      "geometryRoundtrip": true
+    },
+    "prop_porch_bench_001": {
+      "model": {
+        "file": "prop_porch_bench_001.glb",
+        "sha256": "491ac2c369c1724c0b152a8d0b9f751e2b684421ee3851b3da0f44838e5b0d61",
+        "bytes": 47344
+      },
+      "exactApprovedGLBBytes": true,
+      "worldGeometrySHA256": "592de6886102279ae83de16848d08e546f023bbaf8061e929da26d365c761808",
+      "approvedWorldGeometrySHA256": null,
+      "geometryRoundtrip": true
+    },
+    "prop_porch_lantern_001": {
+      "model": {
+        "file": "prop_porch_lantern_001.glb",
+        "sha256": "2234d5936b2a2dd5f1f047250d2ad944003bf8d70aa669b3652765ae2532de46",
+        "bytes": 27124
+      },
+      "exactApprovedGLBBytes": true,
+      "worldGeometrySHA256": "6899f506c9f3def652c25d35dc7e29670a77f21582fc1916b5c9fd84464b50b8",
+      "approvedWorldGeometrySHA256": null,
+      "geometryRoundtrip": true
+    },
+    "prop_porch_rocking_chair_001": {
+      "model": {
+        "file": "prop_porch_rocking_chair_001.glb",
+        "sha256": "e941a889b616ddd0b6336cc512cbac371f90c4e228fdf24bfda144162ea79207",
+        "bytes": 97052
+      },
+      "exactApprovedGLBBytes": true,
+      "worldGeometrySHA256": "9311e949f3dd828b08d1d65ed6431b93da1eba27303e9bfc35f7a5b09a5ede12",
+      "approvedWorldGeometrySHA256": null,
+      "geometryRoundtrip": true
+    },
+    "prop_welcome_mat_001": {
+      "model": {
+        "file": "prop_welcome_mat_001.glb",
+        "sha256": "727ed0bb5326a3c715891e3ff509a28548b851fc739ccad294d2980f9372cee4",
+        "bytes": 39952
+      },
+      "exactApprovedGLBBytes": true,
+      "worldGeometrySHA256": "f7772830ccd52e10f75810dfccb126f443b9cd119f6e4256ce9ae38f89e1cd03",
+      "approvedWorldGeometrySHA256": null,
+      "geometryRoundtrip": true
+    },
+    "prop_wooden_crate_001": {
+      "model": {
+        "file": "prop_wooden_crate_001.glb",
+        "sha256": "b4baa1d795966f2a7331d0740bcc216f788d44b49d93bfe66ee1d63a6527630d",
+        "bytes": 139956
+      },
+      "exactApprovedGLBBytes": true,
+      "worldGeometrySHA256": "9dd9b868a0fa3a645ff66ea919772be90fd117e288f3e73771f054128b7f42cf",
+      "approvedWorldGeometrySHA256": null,
+      "geometryRoundtrip": true
+    },
+    "prop_wooden_fence_001": {
+      "model": {
+        "file": "prop_wooden_fence_001.glb",
+        "sha256": "95e4c3ea7fe2215fb9e5af25b5db3d94c5d971a484a027c5cbc90159d0b8c68a",
+        "bytes": 27176
+      },
+      "exactApprovedGLBBytes": true,
+      "worldGeometrySHA256": "77240eac2fc8e3dd0f49753a36ba7a6a650221287a9b263727c8917ba3852420",
+      "approvedWorldGeometrySHA256": null,
+      "geometryRoundtrip": true
+    },
+    "prop_cafe_chair_001": {
+      "model": {
+        "file": "prop_cafe_chair_001.glb",
+        "sha256": "aa465489194e15243d80d8de92aefeca805a6a84afc7996cfd219ed36eb6753f",
+        "bytes": 74652
+      },
+      "exactApprovedGLBBytes": true,
+      "worldGeometrySHA256": "44b3e68bf815915d4cceceb829df4787322a446340cb65fd59d4d59d63d23826",
+      "approvedWorldGeometrySHA256": null,
+      "geometryRoundtrip": true
+    },
+    "prop_cafe_counter_001": {
+      "model": {
+        "file": "prop_cafe_counter_001.glb",
+        "sha256": "5b55299d1d53167268ecccbfc64448b7a8446087815b981d974163b40b14d71e",
+        "bytes": 98888
+      },
+      "exactApprovedGLBBytes": true,
+      "worldGeometrySHA256": "e0a7249eb99fbebf247eaa2072d5a4cb25243473034baef8328eb5b0aa12e2dc",
+      "approvedWorldGeometrySHA256": null,
+      "geometryRoundtrip": true
+    },
+    "prop_cafe_cup_001": {
+      "model": {
+        "file": "prop_cafe_cup_001.glb",
+        "sha256": "3a17473ac7a6044c417d7d28258c64ccb11a70f713c069cd63384640b1e5db8b",
+        "bytes": 40684
+      },
+      "exactApprovedGLBBytes": true,
+      "worldGeometrySHA256": "ac1f346f3e3c3c1ce6b633c1eebd7f15762262e59056a2ecd26eb89f359534da",
+      "approvedWorldGeometrySHA256": null,
+      "geometryRoundtrip": true
+    },
+    "prop_cafe_parasol_001": {
+      "model": {
+        "file": "prop_cafe_parasol_001.glb",
+        "sha256": "2edda1b0ba1b172b075babdb71ca7694433cbbd4187476408db5b5057ae15f46",
+        "bytes": 54156
+      },
+      "exactApprovedGLBBytes": true,
+      "worldGeometrySHA256": "883f3291f316fbc4a3136cf8268acf6838b3da2aa30f2c7f4f558664242fe1b2",
+      "approvedWorldGeometrySHA256": null,
+      "geometryRoundtrip": true
+    },
+    "prop_cafe_tablecloth_001": {
+      "model": {
+        "file": "prop_cafe_tablecloth_001.glb",
+        "sha256": "cdde8aea68e203b70489062ee7d68832b93b839f55a42099941917f5300a1ddf",
+        "bytes": 41944
+      },
+      "exactApprovedGLBBytes": true,
+      "worldGeometrySHA256": "2c70344ee50340e2438b05ae0a980001f44b5fa9eae44836a2bde8401a481256",
+      "approvedWorldGeometrySHA256": null,
+      "geometryRoundtrip": true
+    },
+    "prop_tin_001": {
+      "model": {
+        "file": "prop_tin_001.glb",
+        "sha256": "a8e33cf47e79a33ab5995d720b8d1540dd3afff202318842c6dc24bb2c89a9a0",
+        "bytes": 48152
+      },
+      "exactApprovedGLBBytes": true,
+      "worldGeometrySHA256": "1223f00c06a015a3ed6a5f793db4e3f372d567cb3c4944dbbc659f68aec255db",
+      "approvedWorldGeometrySHA256": null,
+      "geometryRoundtrip": true
+    },
+    "prop_cafe_table_001": {
+      "model": {
+        "file": "prop_cafe_table_001.glb",
+        "sha256": "6e122d9a172952fe237e9b24fe9c94b4eff70151e346f3ead95803a86a71ee54",
+        "bytes": 48468
+      },
+      "exactApprovedGLBBytes": true,
+      "worldGeometrySHA256": "babe6a4acf9e66380de38f94b6add50b50816a76d50c41d88480b107e652e19e",
+      "approvedWorldGeometrySHA256": null,
+      "geometryRoundtrip": true
+    },
+    "prop_streetlamp_pipeline_001": {
+      "model": {
+        "file": "prop_streetlamp_pipeline_001.glb",
+        "sha256": "8a540b1482b59a83a49187744e3a4da3d84348f291b9a9c5dfd439620e0c3642",
+        "bytes": 30460
+      },
+      "exactApprovedGLBBytes": false,
+      "worldGeometrySHA256": "dd9c9ae7a1f77d13fade5f5025769750498208f4b7ed72949fe9e8ce66901c22",
+      "approvedWorldGeometrySHA256": null,
+      "geometryRoundtrip": true
+    }
+  },
+  "cafe": {
+    "sha256": "3deadd5feb9cfd30a1b1c388247e9a364d84dd1b3ad49ac3a85377d3757e8e87",
+    "bytes": 735512,
+    "triangles": 42276,
+    "vertices": 89596,
+    "meshInstances": 74,
+    "materials": [
+      "cafe__roof",
+      "cafe__trim",
+      "cafe__wood",
+      "cafe__siding",
+      "cafe__glass",
+      "walter__door",
+      "cafe__metal",
+      "walter__stone",
+      "walter__interior"
+    ],
+    "materialCount": 9,
+    "bounds": {
+      "min": [
+        -3.349999992055345,
+        -0.47999998927116394,
+        -8.171000024796163
+      ],
+      "max": [
+        4.2300003186937385,
+        4.820000052452087,
+        1.2300000190734863
+      ]
+    },
+    "dimensionsMeters": [
+      7.580000310749083,
+      5.300000041723251,
+      9.401000043869649
+    ],
+    "windingNormalsConsistent": true,
+    "coordinateSystem": {
+      "up": "+Y",
+      "forward": "+Z",
+      "units": "meters"
+    },
+    "pivotPolicy": "authored-module-anchor",
+    "normalizedPivotErrorMeters": [
+      1.6331919661105587e-07,
+      1.0728836041806744e-08,
+      2.861338721515949e-09
+    ],
+    "anchorBoundsErrorMeters": [
+      3.1869373806614476e-07,
+      5.2452087118126656e-08,
+      2.4796163344831257e-08
+    ],
+    "validationNormalization": {
+      "method": "configured-bounds-to-bottom-center",
+      "translationMeters": [
+        -0.44000000000000017,
+        0.48,
+        3.4704999999999995
+      ],
+      "productionBytesModified": false
+    }
+  },
+  "sceneTriangles": 233516,
+  "sceneInstances": 269,
+  "worldBoundsSourceXY": [
+    -18,
+    -18,
+    18,
+    18
+  ],
+  "routeXYLengthMeters": 36.0,
+  "presentation": {
+    "views": {
+      "overview": {
+        "locationSourceXYZ": [
+          -12.484554290771484,
+          -16.22991943359375,
+          16.604482650756836
+        ],
+        "rotationRadiansXYZ": [
+          0.9005690813064575,
+          -2.7210836250901593e-08,
+          -0.6556956171989441
+        ],
+        "type": "ORTHO",
+        "orthoScale": 52.50187683105469,
+        "verticalFovDegrees": 26.991466429975517,
+        "resolution": [
+          1400,
+          1050
+        ],
+        "allGeometryInsideFrame": true,
+        "file": "overview.png",
+        "sha256": "ba0ba4920a4e32e01d0e33c6da1cfb859b230ef47bbd0434beb421f3d6ecd973"
+      },
+      "walter-street": {
+        "locationSourceXYZ": [
+          -21.0,
+          -1.7999999523162842,
+          2.0999999046325684
+        ],
+        "rotationRadiansXYZ": [
+          1.5637269020080566,
+          8.160653663935591e-08,
+          -0.8053956627845764
+        ],
+        "type": "PERSP",
+        "orthoScale": 52.50187683105469,
+        "verticalFovDegrees": 51.999999170302104,
+        "resolution": [
+          1400,
+          1050
+        ],
+        "allGeometryInsideFrame": false,
+        "file": "walter-street.png",
+        "sha256": "e1d9427e0878ac90efc3b050be5ca2fb5b5672eca65cf0d09178bad1aae750cf"
+      },
+      "cafe-terrace": {
+        "locationSourceXYZ": [
+          19.0,
+          3.0,
+          5.800000190734863
+        ],
+        "rotationRadiansXYZ": [
+          1.2867014408111572,
+          -6.599794488693078e-08,
+          2.4558629989624023
+        ],
+        "type": "PERSP",
+        "orthoScale": 52.50187683105469,
+        "verticalFovDegrees": 47.9999979206271,
+        "resolution": [
+          1400,
+          1050
+        ],
+        "allGeometryInsideFrame": false,
+        "file": "cafe-terrace.png",
+        "sha256": "5248946ac9ca1865a1e29872bece3ab99245e9089b9825988b0508a07ea28d9f"
+      },
+      "game-16m": {
+        "locationSourceXYZ": [
+          -10.0,
+          -4.484601974487305,
+          13.656710624694824
+        ],
+        "rotationRadiansXYZ": [
+          0.6981317400932312,
+          -0.0,
+          0.0
+        ],
+        "type": "PERSP",
+        "orthoScale": 52.50187683105469,
+        "verticalFovDegrees": 39.99999883637168,
+        "resolution": [
+          1280,
+          720
+        ],
+        "allGeometryInsideFrame": false,
+        "file": "game-16m.png",
+        "sha256": "7bc360ef1ded5fb3e843e7ed0f7d7618bf1b2d41bb9e6a2754cc6dcf054502b0"
+      },
+      "walking-route": {
+        "locationSourceXYZ": [
+          -12.484554290771484,
+          -16.22991943359375,
+          16.604482650756836
+        ],
+        "rotationRadiansXYZ": [
+          0.9005690813064575,
+          -2.7210836250901593e-08,
+          -0.6556956171989441
+        ],
+        "type": "ORTHO",
+        "orthoScale": 52.50187683105469,
+        "verticalFovDegrees": 39.99999883637168,
+        "resolution": [
+          1400,
+          1050
+        ],
+        "allGeometryInsideFrame": true,
+        "file": "walking-route.png",
+        "sha256": "7f9aa9398eaf1f307bf971246f27c77426a4332676f18241577cca2453be8a37"
+      },
+      "top-down": {
+        "locationSourceXYZ": [
+          0.0,
+          0.0,
+          70.0
+        ],
+        "rotationRadiansXYZ": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "type": "ORTHO",
+        "orthoScale": 52.0,
+        "verticalFovDegrees": 39.99999883637168,
+        "resolution": [
+          1400,
+          1050
+        ],
+        "allGeometryInsideFrame": true,
+        "file": "top-down.png",
+        "sha256": "1f52535aa02957cb8b268bd81bcc150fa13906edc7e1003a1b441d3fddbf4a8c"
+      }
+    },
+    "sceneSaveReopenExactGeometry": true,
+    "instances": 269,
+    "triangles": 233516,
+    "scope": "Actual Blender previews. Route line/top-down labels are review overlays only. No Unity/game/nav verification."
+  },
+  "reviewImages": {
+    "cafe-terrace.png": "5248946ac9ca1865a1e29872bece3ab99245e9089b9825988b0508a07ea28d9f",
+    "contact-sheet.png": "45d4c0851b47fcf220361d80a7b567bd59922e856a557fbe537cc7fe35a7aed5",
+    "game-16m.png": "7bc360ef1ded5fb3e843e7ed0f7d7618bf1b2d41bb9e6a2754cc6dcf054502b0",
+    "overview.png": "ba0ba4920a4e32e01d0e33c6da1cfb859b230ef47bbd0434beb421f3d6ecd973",
+    "top-down.png": "1f52535aa02957cb8b268bd81bcc150fa13906edc7e1003a1b441d3fddbf4a8c",
+    "walking-route.png": "7f9aa9398eaf1f307bf971246f27c77426a4332676f18241577cca2453be8a37",
+    "walter-street.png": "e1d9427e0878ac90efc3b050be5ca2fb5b5672eca65cf0d09178bad1aae750cf"
+  },
+  "scope": "Actual mesh checks, independent GLB validation, source-pinned references, persistence, roundtrips and Blender renders. Route/obstacle regressions are geometric proposals; no Unity/nav/collision simulation."
+}

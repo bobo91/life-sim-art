@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0",
+  "requestId": "CAFE-ENVIRONMENT-PACK-01",
+  "assetId": "prop_cafe_parasol_001",
+  "version": "0.1.0",
+  "category": "prop",
+  "generator": "build_cafe_parasol",
+  "seed": 5516,
+  "dimensionsMeters": [1.8, 2.25, 1.8],
+  "maxTriangles": 4500,
+  "blenderVersion": "4.5.14",
+  "geometry": {
+    "perimeterSamples": 48,
+    "canopyRadiusMeters": 0.9,
+    "crownHeightMeters": 2.22
+  },
+  "palette": {
+    "canvasCream": {"color": "#DCCDB0", "roughness": 0.92, "metallic": 0.0},
+    "canvasTerracotta": {"color": "#B98569", "roughness": 0.92, "metallic": 0.0},
+    "sageMetal": {"color": "#344A48", "roughness": 0.70, "metallic": 0.3},
+    "timber": {"color": "#A57C58", "roughness": 0.78, "metallic": 0.0}
+  },
+  "preview": {"resolution": 640, "samples": 48},
+  "assembly": {
+    "kind": "Freestanding center-pole parasol beside approved table; no table hole",
+    "suggestedHorizontalOffsetFromTableMeters": [0.95, 0.60],
+    "minimumValanceHeightMeters": 1.91,
+    "placementStatus": "Proposed display layout; routes and head clearance need gameplay confirmation"
+  },
+  "collisionProposal": {
+    "base": {"type": "BoxCollider", "centerXYZ": [0.0, 0.043, 0.0], "sizeXYZ": [0.44, 0.086, 0.44]},
+    "pole": {"type": "CapsuleCollider", "centerXYZ": [0.0, 1.12, 0.0], "height": 2.24, "radius": 0.028, "direction": "+Y"},
+    "canopy": "No collider by default; candidate decorative overhead shade. Check tall actors and route clearance.",
+    "status": "Assumption; not a game-approved contract"
+  },
+  "authoringNotes": {
+    "pivot": "Bottom-center of weighted base, meters, identity transform",
+    "scope": "One static closed canopy/base/post assembly. No wind, opening animation or rig.",
+    "style": "Soft octagonal cream/terracotta canvas, scalloped valance, timber pole and quiet sage weighted foot"
+  }
+}

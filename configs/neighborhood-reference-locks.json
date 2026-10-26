@@ -1,0 +1,244 @@
+{
+  "schema": "neighborhood-reference-locks-1",
+  "baseMainCommit": "8fd7379a6ce1023cf8fd7a690bad0f5ac5bed33f",
+  "checkedPRStateUTC": "2026-10-26",
+  "pullRequests": {
+    "34": {
+      "head": "96eb13ada9bab56a3c8cfa5de307a16753025f65",
+      "state": "open",
+      "merged": false
+    },
+    "35": {
+      "head": "6f6306fe56598ab9e32a4946ed0d255174a73ad7",
+      "state": "open",
+      "merged": false
+    },
+    "36": {
+      "head": "b290bcf5702344d1a911cd31f793f77d8cafcbaf",
+      "state": "open",
+      "merged": false
+    },
+    "37": {
+      "head": "573c6756820e1c3baf759286aab7b89f2cf239cd",
+      "state": "open",
+      "merged": false
+    }
+  },
+  "provenance": "Existing original project procedural geometry/materials. No purchased or third-party meshes/textures. No additional external asset license required. Existing PRs retain their own merge decisions.",
+  "runtimePolicy": "Regenerate from unchanged pinned project sources without rendering approved assets. Bootstrap paths are local audit hints only, never CI/runtime dependencies. Houses require world geometry fingerprints because harmless export node/container names may differ.",
+  "worldGeometryFingerprint": "SHA256 of UTF-8 json.dumps(signature,separators=(comma,colon)); signature uses build_modular_building.signature(meshObjects), world source positions rounded5decimals unique/sorted with all zero coordinates normalized to+0.0, plus triangle count. Use neighborhood_references.geometry_fingerprint.",
+  "sourceFilesSHA256": {
+    "scripts/building_geometry.py": "eee7ff9da5ae8dc360509ad8afe5300bdcab1a2516e95baa435295df8021582c",
+    "scripts/building_core.py": "2f250ddd74b86a349e3eb8ae2e41928fce640f11e4e5ff26d76683922c00e838",
+    "scripts/building_roof.py": "22be4480dcfb9a59971ac51074bba97f0d623cbe3dd6f5215b20367e9e551f35",
+    "scripts/building_openings.py": "d9bdc9a656d137de7256195953db3892c9ddc38ee6c43c60fbbc862ef8082347",
+    "scripts/build_modular_building.py": "fe36b7ed657d5350a8bbb965a0c660c2d04369604fcc65593de8052041677031",
+    "scripts/props_walter.py": "2fc086ba351d9efdfb141a1847a988583f547622e29dcb977702a45563660146",
+    "scripts/walter_common.py": "0f3a1d5b844c7034e012b50a58804f681dbfcaa70fc01dce3590321ba04e7417",
+    "scripts/walter_mailbox_reference.py": "b76d773d1cdd9e5d0470d9a5f0d2784b5be92ef608e0a55f20873521f272f63c",
+    "scripts/props_cafe_table.py": "159a0e3bb788c133f20f86a3bb4bfb51bed659500cae89e2d5c6ef0fc5f7df3f",
+    "scripts/props_cafe_furniture.py": "b02063e8b6eca131320e292d506156a1ee5c36a2a5e1d30edd3ba7d3a7b85ad5",
+    "scripts/props_cafe_smallwares.py": "5202ae6fd82e16cfaf9b3aacdea0c8dfb3cf07fced68700065de0bbfad7a8524",
+    "scripts/props_cafe_softgoods.py": "b62ca947351621176a845be1ed7a325e6f36ce1b9bac374703721beead6d9082",
+    "art_pipeline/blender_build.py": "1602b3acbb5ba96e956cfb23e605e49b351cb803b0aa3f2ee4aed226fa4511eb",
+    "art_pipeline/cli.py": "ad9ac05777328ed59879fc83ab064700632a3012b55f543fc5b6d4fe4c2bed46",
+    "art_pipeline/config.py": "3faa2389bdbb4e377bc2e9154526274bcd4360a837ea94912116526e066b78a9",
+    "art_pipeline/validation.py": "516335248f5cdf7f3430da86045c8902342395a458ec52dc6132129086b67e55",
+    "art_pipeline/benchmark_checks.py": "94a9a56e0811755350f5a85646a98c3746b9eeebbf2023822ea32b5280f04ce8",
+    "configs/modular-building.json": "3fe3dc7901a08b6bde54143dc694b8e0bf88ef033b851096c8a8ad4f49a5130b",
+    "configs/prop_cafe_chair_001.json": "05cf1d698e5ba0778b610daca12c90387f06026be6ac0e835eab3c73af6c7a9a",
+    "configs/prop_cafe_counter_001.json": "e25091273e8bab01b7bab1c52b74081be4a649c788a075a49a542b6a995670d8",
+    "configs/prop_cafe_cup_001.json": "c507efd97b8e7c135e68f8bd57be3b85a4a761d00aefb48d002844ee32472b05",
+    "configs/prop_cafe_parasol_001.json": "28cf64bd2447fd1d1262cd1b7af28c62f0a329e6e1290cfc4c1c45220b84963c",
+    "configs/prop_cafe_table_001.json": "f453d418f0994bb6e1fc2cb8b0d8534e9f0a68bd869beaa297443dade0d009b4",
+    "configs/prop_cafe_tablecloth_001.json": "e67f269910c39dd243b16b103a6822227f8eceeab07ad56bf917d4ac02760687",
+    "configs/prop_fence_post_001.json": "51baeaf4223c1a606edd0f0507a6405b2b0a7642d44b0c195adcd168dec31444",
+    "configs/prop_flower_pot_001.json": "4cd25938158adf58cda9b4848a07ee857ed99cf056eeee0cc0934cf017cfb59d",
+    "configs/prop_flower_pot_002.json": "98d50532da113fa437fdeeb48a5ad27943eacad4e8693f83e0e454425ba2fb87",
+    "configs/prop_old_watering_can_001.json": "98aab5338e2be30be82655b593bc0be22991287a3976c982b46dcd5819823658",
+    "configs/prop_porch_bench_001.json": "db06f6870dab22e111b29c3f1263178e8ee186ffd9848f972cfce5a02c0a3dd3",
+    "configs/prop_porch_lantern_001.json": "b55740c3a639f141af8d935f2c670ae93d553f6b9a5b67fbf1d36dc471b02d4a",
+    "configs/prop_porch_rocking_chair_001.json": "e8dfd8f9b7292072254dfcff4b00642635d4160aaf264dac860f4742969655df",
+    "configs/prop_tin_001.json": "5fa4f21ded80942cff31d7d73740766d503772a9babe46d1cd88789f13cdfbce",
+    "configs/prop_welcome_mat_001.json": "2d9a1f3f63531f9cf7e0b8d7e83dcfa0eab0a7b0992fa9ed97c72f8da9bf1962",
+    "configs/prop_wooden_crate_001.json": "4c01c12a0b15f2227f1fa8062a6c648a878d477739c6a10a46412f8503a01aed",
+    "configs/prop_wooden_fence_001.json": "9705cf126181581ab421ef327fc9bbc30e1190b2654ef35be844e1de3c7f63b8",
+    "configs/streetlamp.json": "6b85579598c4efdfe5255645411e68e5dcfa0be3e1bd386be6e508cc02fc2fde",
+    "configs/walter-mailbox-reference.json": "3f2ba255a195e4271c2d775f66eaa10c34179927d3e9018f89e1afc451d52af7"
+  },
+  "references": {
+    "walter-house": {
+      "kind": "house",
+      "houseName": "walter",
+      "sourcePR": 37,
+      "sourceCommit": "573c6756820e1c3baf759286aab7b89f2cf239cd",
+      "config": "configs/modular-building.json",
+      "approvedGLBSHA256": "3d0d957af21db790496336917d3290d290756ca45bb0c3a5bf9f2e67538deb4f",
+      "bootstrapPath": "build/modular-building/run-005/assemblies/walter-house.glb",
+      "expectedWorldGeometrySHA256": "029975eff9db5d7c04a5285ea50e8e2acb3e51987b8a9f50e783856d3aa48c23"
+    },
+    "alternate-house": {
+      "kind": "house",
+      "houseName": "alternate",
+      "sourcePR": 37,
+      "sourceCommit": "573c6756820e1c3baf759286aab7b89f2cf239cd",
+      "config": "configs/modular-building.json",
+      "approvedGLBSHA256": "4c80f2918134b9a84c77956c6ab858d0b2f68aeb830ffc5e055b00eb5da32717",
+      "bootstrapPath": "build/modular-building/run-005/assemblies/alternate-house.glb",
+      "expectedWorldGeometrySHA256": "9643b4bd29419d440a265f3c6644989d8c89511fd45d8e661b43502922cc0e12"
+    },
+    "prop_fence_post_001": {
+      "kind": "prop",
+      "sourcePR": 36,
+      "sourceCommit": "b290bcf5702344d1a911cd31f793f77d8cafcbaf",
+      "config": "configs/prop_fence_post_001.json",
+      "approvedGLBSHA256": "c57540ce7af827c69062fdc09cd3f1054e21b2ae106229fc82c2bb78387287d0",
+      "bootstrapPath": "build/modular-building/run-005/references/prop_fence_post_001/prop_fence_post_001.glb"
+    },
+    "prop_flower_pot_001": {
+      "kind": "prop",
+      "sourcePR": 36,
+      "sourceCommit": "b290bcf5702344d1a911cd31f793f77d8cafcbaf",
+      "config": "configs/prop_flower_pot_001.json",
+      "approvedGLBSHA256": "0d234a932a58fbd37b7aba1dc0090a9296258884db072f3abc531383328ff929",
+      "bootstrapPath": "build/modular-building/run-005/references/prop_flower_pot_001/prop_flower_pot_001.glb"
+    },
+    "prop_flower_pot_002": {
+      "kind": "prop",
+      "sourcePR": 36,
+      "sourceCommit": "b290bcf5702344d1a911cd31f793f77d8cafcbaf",
+      "config": "configs/prop_flower_pot_002.json",
+      "approvedGLBSHA256": "e13cb5406359a9f3e28a0ef0126412beb95ee51906263969cc3a80cc87255d83",
+      "bootstrapPath": "build/modular-building/run-005/references/prop_flower_pot_002/prop_flower_pot_002.glb"
+    },
+    "prop_mailbox_001": {
+      "kind": "prop",
+      "sourcePR": 34,
+      "sourceCommit": "96eb13ada9bab56a3c8cfa5de307a16753025f65",
+      "config": "configs/walter-mailbox-reference.json",
+      "approvedGLBSHA256": "b243a55a5d92da3cd3a51c3957d0b1e1f1b9737ad8f6ed988121bae69e654698",
+      "bootstrapPath": "build/modular-building/run-005/references/prop_mailbox_001/prop_mailbox_001.glb"
+    },
+    "prop_old_watering_can_001": {
+      "kind": "prop",
+      "sourcePR": 36,
+      "sourceCommit": "b290bcf5702344d1a911cd31f793f77d8cafcbaf",
+      "config": "configs/prop_old_watering_can_001.json",
+      "approvedGLBSHA256": "617dff2f0e10289f2a608e1a488955a8924cb39f89a5c0d4070189ecac6a9bc3",
+      "bootstrapPath": "build/modular-building/run-005/references/prop_old_watering_can_001/prop_old_watering_can_001.glb"
+    },
+    "prop_porch_bench_001": {
+      "kind": "prop",
+      "sourcePR": 36,
+      "sourceCommit": "b290bcf5702344d1a911cd31f793f77d8cafcbaf",
+      "config": "configs/prop_porch_bench_001.json",
+      "approvedGLBSHA256": "491ac2c369c1724c0b152a8d0b9f751e2b684421ee3851b3da0f44838e5b0d61",
+      "bootstrapPath": "build/modular-building/run-005/references/prop_porch_bench_001/prop_porch_bench_001.glb"
+    },
+    "prop_porch_lantern_001": {
+      "kind": "prop",
+      "sourcePR": 36,
+      "sourceCommit": "b290bcf5702344d1a911cd31f793f77d8cafcbaf",
+      "config": "configs/prop_porch_lantern_001.json",
+      "approvedGLBSHA256": "2234d5936b2a2dd5f1f047250d2ad944003bf8d70aa669b3652765ae2532de46",
+      "bootstrapPath": "build/modular-building/run-005/references/prop_porch_lantern_001/prop_porch_lantern_001.glb"
+    },
+    "prop_porch_rocking_chair_001": {
+      "kind": "prop",
+      "sourcePR": 36,
+      "sourceCommit": "b290bcf5702344d1a911cd31f793f77d8cafcbaf",
+      "config": "configs/prop_porch_rocking_chair_001.json",
+      "approvedGLBSHA256": "e941a889b616ddd0b6336cc512cbac371f90c4e228fdf24bfda144162ea79207",
+      "bootstrapPath": "build/modular-building/run-005/references/prop_porch_rocking_chair_001/prop_porch_rocking_chair_001.glb"
+    },
+    "prop_welcome_mat_001": {
+      "kind": "prop",
+      "sourcePR": 36,
+      "sourceCommit": "b290bcf5702344d1a911cd31f793f77d8cafcbaf",
+      "config": "configs/prop_welcome_mat_001.json",
+      "approvedGLBSHA256": "727ed0bb5326a3c715891e3ff509a28548b851fc739ccad294d2980f9372cee4",
+      "bootstrapPath": "build/modular-building/run-005/references/prop_welcome_mat_001/prop_welcome_mat_001.glb"
+    },
+    "prop_wooden_crate_001": {
+      "kind": "prop",
+      "sourcePR": 36,
+      "sourceCommit": "b290bcf5702344d1a911cd31f793f77d8cafcbaf",
+      "config": "configs/prop_wooden_crate_001.json",
+      "approvedGLBSHA256": "b4baa1d795966f2a7331d0740bcc216f788d44b49d93bfe66ee1d63a6527630d",
+      "bootstrapPath": "build/modular-building/run-005/references/prop_wooden_crate_001/prop_wooden_crate_001.glb"
+    },
+    "prop_wooden_fence_001": {
+      "kind": "prop",
+      "sourcePR": 36,
+      "sourceCommit": "b290bcf5702344d1a911cd31f793f77d8cafcbaf",
+      "config": "configs/prop_wooden_fence_001.json",
+      "approvedGLBSHA256": "95e4c3ea7fe2215fb9e5af25b5db3d94c5d971a484a027c5cbc90159d0b8c68a",
+      "bootstrapPath": "build/modular-building/run-005/references/prop_wooden_fence_001/prop_wooden_fence_001.glb"
+    },
+    "prop_cafe_chair_001": {
+      "kind": "prop",
+      "sourcePR": 35,
+      "sourceCommit": "6f6306fe56598ab9e32a4946ed0d255174a73ad7",
+      "config": "configs/prop_cafe_chair_001.json",
+      "approvedGLBSHA256": "aa465489194e15243d80d8de92aefeca805a6a84afc7996cfd219ed36eb6753f",
+      "bootstrapPath": "build/cafe-environment/run-003/prop_cafe_chair_001/prop_cafe_chair_001.glb"
+    },
+    "prop_cafe_counter_001": {
+      "kind": "prop",
+      "sourcePR": 35,
+      "sourceCommit": "6f6306fe56598ab9e32a4946ed0d255174a73ad7",
+      "config": "configs/prop_cafe_counter_001.json",
+      "approvedGLBSHA256": "5b55299d1d53167268ecccbfc64448b7a8446087815b981d974163b40b14d71e",
+      "bootstrapPath": "build/cafe-environment/run-003/prop_cafe_counter_001/prop_cafe_counter_001.glb"
+    },
+    "prop_cafe_cup_001": {
+      "kind": "prop",
+      "sourcePR": 35,
+      "sourceCommit": "6f6306fe56598ab9e32a4946ed0d255174a73ad7",
+      "config": "configs/prop_cafe_cup_001.json",
+      "approvedGLBSHA256": "3a17473ac7a6044c417d7d28258c64ccb11a70f713c069cd63384640b1e5db8b",
+      "bootstrapPath": "build/cafe-environment/run-003/prop_cafe_cup_001/prop_cafe_cup_001.glb"
+    },
+    "prop_cafe_parasol_001": {
+      "kind": "prop",
+      "sourcePR": 35,
+      "sourceCommit": "6f6306fe56598ab9e32a4946ed0d255174a73ad7",
+      "config": "configs/prop_cafe_parasol_001.json",
+      "approvedGLBSHA256": "2edda1b0ba1b172b075babdb71ca7694433cbbd4187476408db5b5057ae15f46",
+      "bootstrapPath": "build/cafe-environment/run-003/prop_cafe_parasol_001/prop_cafe_parasol_001.glb"
+    },
+    "prop_cafe_tablecloth_001": {
+      "kind": "prop",
+      "sourcePR": 35,
+      "sourceCommit": "6f6306fe56598ab9e32a4946ed0d255174a73ad7",
+      "config": "configs/prop_cafe_tablecloth_001.json",
+      "approvedGLBSHA256": "cdde8aea68e203b70489062ee7d68832b93b839f55a42099941917f5300a1ddf",
+      "bootstrapPath": "build/cafe-environment/run-003/prop_cafe_tablecloth_001/prop_cafe_tablecloth_001.glb"
+    },
+    "prop_tin_001": {
+      "kind": "prop",
+      "sourcePR": 35,
+      "sourceCommit": "6f6306fe56598ab9e32a4946ed0d255174a73ad7",
+      "config": "configs/prop_tin_001.json",
+      "approvedGLBSHA256": "a8e33cf47e79a33ab5995d720b8d1540dd3afff202318842c6dc24bb2c89a9a0",
+      "bootstrapPath": "build/cafe-environment/run-003/prop_tin_001/prop_tin_001.glb"
+    },
+    "prop_cafe_table_001": {
+      "kind": "prop",
+      "sourcePR": 34,
+      "sourceCommit": "96eb13ada9bab56a3c8cfa5de307a16753025f65",
+      "config": "configs/prop_cafe_table_001.json",
+      "approvedGLBSHA256": "6e122d9a172952fe237e9b24fe9c94b4eff70151e346f3ead95803a86a71ee54",
+      "bootstrapPath": "build/first-playable-props/run-004/prop_cafe_table_001/prop_cafe_table_001.glb"
+    },
+    "prop_streetlamp_pipeline_001": {
+      "kind": "main-prop",
+      "sourcePR": null,
+      "sourceCommit": "8fd7379a6ce1023cf8fd7a690bad0f5ac5bed33f",
+      "config": "configs/streetlamp.json",
+      "approvedGLBSHA256": null,
+      "bootstrapPath": null,
+      "note": "Canonical existing main streetlamp generator/config, not a new lamp design. Fresh cache records actual export digest."
+    }
+  }
+}

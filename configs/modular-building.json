@@ -1,0 +1,684 @@
+{
+  "schema": "modular-building-1",
+  "version": "0.1.0",
+  "packId": "willow-modular-building-001",
+  "baseMainCommit": "8fd7379a6ce1023cf8fd7a690bad0f5ac5bed33f",
+  "gridMeters": 2,
+  "wallHeightMeters": 2.8,
+  "wallThicknessMeters": 0.18,
+  "floorLevelMeters": 0.6,
+  "roofSpanMeters": 6,
+  "roofRiseMeters": 1.8,
+  "palette": {
+    "siding": {
+      "color": "#BDB99F",
+      "roughness": 0.78,
+      "metallic": 0
+    },
+    "interior": {
+      "color": "#DCD4BB",
+      "roughness": 0.78,
+      "metallic": 0
+    },
+    "trim": {
+      "color": "#EEE0BE",
+      "roughness": 0.78,
+      "metallic": 0
+    },
+    "wood": {
+      "color": "#94704D",
+      "roughness": 0.78,
+      "metallic": 0
+    },
+    "stone": {
+      "color": "#88877A",
+      "roughness": 0.78,
+      "metallic": 0
+    },
+    "roof": {
+      "color": "#4A625F",
+      "roughness": 0.78,
+      "metallic": 0
+    },
+    "glass": {
+      "color": "#547E88",
+      "roughness": 0.78,
+      "metallic": 0
+    },
+    "door": {
+      "color": "#788F78",
+      "roughness": 0.78,
+      "metallic": 0
+    },
+    "metal": {
+      "color": "#9D8152",
+      "roughness": 0.78,
+      "metallic": 0
+    }
+  },
+  "alternatePalette": {
+    "siding": "#889B8B",
+    "door": "#9C7956",
+    "roof": "#59636A"
+  },
+  "assets": [
+    {
+      "assetId": "bld_wall_solid_200_001",
+      "version": "0.1.0",
+      "seed": 7400,
+      "maxTriangles": 12000,
+      "expectedBounds": {
+        "min": [
+          -1,
+          0,
+          -0.09
+        ],
+        "max": [
+          1,
+          2.8,
+          0.116
+        ]
+      },
+      "dimensionsMeters": [
+        2,
+        2.8,
+        0.206
+      ],
+      "anchor": "authored-module-anchor",
+      "collisionProposal": {
+        "type": "compound-boxes",
+        "boxes": [
+          {
+            "minSourceXYZ": [
+              -1,
+              -0.09,
+              0
+            ],
+            "maxSourceXYZ": [
+              1,
+              0.09,
+              2.8
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "assetId": "bld_wall_window_200_001",
+      "version": "0.1.0",
+      "seed": 7401,
+      "maxTriangles": 12000,
+      "expectedBounds": {
+        "min": [
+          -1,
+          0,
+          -0.09
+        ],
+        "max": [
+          1,
+          2.8,
+          0.116
+        ]
+      },
+      "dimensionsMeters": [
+        2,
+        2.8,
+        0.206
+      ],
+      "anchor": "authored-module-anchor",
+      "collisionProposal": {
+        "type": "compound-boxes",
+        "boxes": [
+          {
+            "minSourceXYZ": [
+              -1,
+              -0.09,
+              0
+            ],
+            "maxSourceXYZ": [
+              -0.55,
+              0.09,
+              2.8
+            ]
+          },
+          {
+            "minSourceXYZ": [
+              0.55,
+              -0.09,
+              0
+            ],
+            "maxSourceXYZ": [
+              1,
+              0.09,
+              2.8
+            ]
+          },
+          {
+            "minSourceXYZ": [
+              -0.55,
+              -0.09,
+              2.1
+            ],
+            "maxSourceXYZ": [
+              0.55,
+              0.09,
+              2.8
+            ]
+          },
+          {
+            "minSourceXYZ": [
+              -0.55,
+              -0.09,
+              0
+            ],
+            "maxSourceXYZ": [
+              0.55,
+              0.09,
+              0.85
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "assetId": "bld_wall_door_200_001",
+      "version": "0.1.0",
+      "seed": 7402,
+      "maxTriangles": 12000,
+      "expectedBounds": {
+        "min": [
+          -1,
+          0,
+          -0.09
+        ],
+        "max": [
+          1,
+          2.8,
+          0.116
+        ]
+      },
+      "dimensionsMeters": [
+        2,
+        2.8,
+        0.206
+      ],
+      "anchor": "authored-module-anchor",
+      "collisionProposal": {
+        "type": "compound-boxes",
+        "boxes": [
+          {
+            "minSourceXYZ": [
+              -1,
+              -0.09,
+              0
+            ],
+            "maxSourceXYZ": [
+              -0.55,
+              0.09,
+              2.8
+            ]
+          },
+          {
+            "minSourceXYZ": [
+              0.55,
+              -0.09,
+              0
+            ],
+            "maxSourceXYZ": [
+              1,
+              0.09,
+              2.8
+            ]
+          },
+          {
+            "minSourceXYZ": [
+              -0.55,
+              -0.09,
+              2.2
+            ],
+            "maxSourceXYZ": [
+              0.55,
+              0.09,
+              2.8
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "assetId": "bld_corner_trim_001",
+      "version": "0.1.0",
+      "seed": 7403,
+      "maxTriangles": 12000,
+      "expectedBounds": {
+        "min": [
+          -0.14,
+          0,
+          -0.14
+        ],
+        "max": [
+          0.145,
+          2.8,
+          0.145
+        ]
+      },
+      "dimensionsMeters": [
+        0.285,
+        2.8,
+        0.285
+      ],
+      "anchor": "authored-module-anchor",
+      "collisionProposal": {
+        "type": "none or simple per-module envelope",
+        "note": "Proposal; game-owned. No generated colliders."
+      }
+    },
+    {
+      "assetId": "bld_floor_200_001",
+      "version": "0.1.0",
+      "seed": 7404,
+      "maxTriangles": 12000,
+      "expectedBounds": {
+        "min": [
+          -1,
+          0,
+          -1
+        ],
+        "max": [
+          1,
+          0.18,
+          1
+        ]
+      },
+      "dimensionsMeters": [
+        2,
+        0.18,
+        2
+      ],
+      "anchor": "authored-module-anchor",
+      "collisionProposal": {
+        "type": "none or simple per-module envelope",
+        "note": "Proposal; game-owned. No generated colliders."
+      }
+    },
+    {
+      "assetId": "bld_foundation_200_001",
+      "version": "0.1.0",
+      "seed": 7405,
+      "maxTriangles": 12000,
+      "expectedBounds": {
+        "min": [
+          -1,
+          0,
+          -0.16
+        ],
+        "max": [
+          1,
+          0.42,
+          0.16
+        ]
+      },
+      "dimensionsMeters": [
+        2,
+        0.42,
+        0.32
+      ],
+      "anchor": "authored-module-anchor",
+      "collisionProposal": {
+        "type": "none or simple per-module envelope",
+        "note": "Proposal; game-owned. No generated colliders."
+      }
+    },
+    {
+      "assetId": "bld_porch_200_001",
+      "version": "0.1.0",
+      "seed": 7406,
+      "maxTriangles": 12000,
+      "expectedBounds": {
+        "min": [
+          -1,
+          0,
+          -1
+        ],
+        "max": [
+          1,
+          0.6,
+          1.015
+        ]
+      },
+      "dimensionsMeters": [
+        2,
+        0.6,
+        2.015
+      ],
+      "anchor": "authored-module-anchor",
+      "collisionProposal": {
+        "type": "none or simple per-module envelope",
+        "note": "Proposal; game-owned. No generated colliders."
+      }
+    },
+    {
+      "assetId": "bld_porch_steps_001",
+      "version": "0.1.0",
+      "seed": 7407,
+      "maxTriangles": 12000,
+      "expectedBounds": {
+        "min": [
+          -0.715,
+          0,
+          0
+        ],
+        "max": [
+          0.715,
+          0.6,
+          0.9
+        ]
+      },
+      "dimensionsMeters": [
+        1.43,
+        0.6,
+        0.9
+      ],
+      "anchor": "authored-module-anchor",
+      "collisionProposal": {
+        "type": "none or simple per-module envelope",
+        "note": "Proposal; game-owned. No generated colliders."
+      }
+    },
+    {
+      "assetId": "bld_porch_post_001",
+      "version": "0.1.0",
+      "seed": 7408,
+      "maxTriangles": 12000,
+      "expectedBounds": {
+        "min": [
+          -0.328,
+          0,
+          -0.095
+        ],
+        "max": [
+          0.328,
+          2.0,
+          0.095
+        ]
+      },
+      "dimensionsMeters": [
+        0.656,
+        2.0,
+        0.19
+      ],
+      "anchor": "authored-module-anchor",
+      "collisionProposal": {
+        "type": "none or simple per-module envelope",
+        "note": "Proposal; game-owned. No generated colliders."
+      }
+    },
+    {
+      "assetId": "bld_roof_half_200_001",
+      "version": "0.1.0",
+      "seed": 7409,
+      "maxTriangles": 12000,
+      "expectedBounds": {
+        "min": [
+          0,
+          -0.35,
+          -1
+        ],
+        "max": [
+          3.35,
+          1.808,
+          1
+        ]
+      },
+      "dimensionsMeters": [
+        3.35,
+        2.158,
+        2
+      ],
+      "anchor": "authored-module-anchor",
+      "collisionProposal": {
+        "type": "none or simple per-module envelope",
+        "note": "Proposal; game-owned. No generated colliders."
+      }
+    },
+    {
+      "assetId": "bld_roof_ridge_200_001",
+      "version": "0.1.0",
+      "seed": 7410,
+      "maxTriangles": 12000,
+      "expectedBounds": {
+        "min": [
+          -0.13,
+          1.73,
+          -1
+        ],
+        "max": [
+          0.13,
+          1.9,
+          1
+        ]
+      },
+      "dimensionsMeters": [
+        0.26,
+        0.17,
+        2
+      ],
+      "anchor": "authored-module-anchor",
+      "collisionProposal": {
+        "type": "none or simple per-module envelope",
+        "note": "Proposal; game-owned. No generated colliders."
+      }
+    },
+    {
+      "assetId": "bld_gable_end_600_001",
+      "version": "0.1.0",
+      "seed": 7411,
+      "maxTriangles": 12000,
+      "expectedBounds": {
+        "min": [
+          -3.04,
+          0,
+          -0.09
+        ],
+        "max": [
+          3.04,
+          1.8,
+          0.171
+        ]
+      },
+      "dimensionsMeters": [
+        6.08,
+        1.8,
+        0.261
+      ],
+      "anchor": "authored-module-anchor",
+      "collisionProposal": {
+        "type": "none or simple per-module envelope",
+        "note": "Proposal; game-owned. No generated colliders."
+      }
+    },
+    {
+      "assetId": "bld_gable_trim_600_001",
+      "version": "0.1.0",
+      "seed": 7412,
+      "maxTriangles": 12000,
+      "expectedBounds": {
+        "min": [
+          -3.35,
+          -0.37,
+          -0.025
+        ],
+        "max": [
+          3.35,
+          1.865,
+          0.13
+        ]
+      },
+      "dimensionsMeters": [
+        6.7,
+        2.235,
+        0.155
+      ],
+      "anchor": "authored-module-anchor",
+      "collisionProposal": {
+        "type": "none or simple per-module envelope",
+        "note": "Proposal; game-owned. No generated colliders."
+      }
+    },
+    {
+      "assetId": "bld_porch_canopy_200_001",
+      "version": "0.1.0",
+      "seed": 7413,
+      "maxTriangles": 12000,
+      "expectedBounds": {
+        "min": [
+          -1,
+          -0.53,
+          0
+        ],
+        "max": [
+          1,
+          0.008,
+          2.25
+        ]
+      },
+      "dimensionsMeters": [
+        2,
+        0.538,
+        2.25
+      ],
+      "anchor": "authored-module-anchor",
+      "collisionProposal": {
+        "type": "none or simple per-module envelope",
+        "note": "Proposal; game-owned. No generated colliders."
+      }
+    },
+    {
+      "assetId": "bld_window_110_001",
+      "version": "0.1.0",
+      "seed": 7414,
+      "maxTriangles": 12000,
+      "expectedBounds": {
+        "min": [
+          -0.62,
+          -0.07,
+          -0.051
+        ],
+        "max": [
+          0.62,
+          1.32,
+          0.16
+        ]
+      },
+      "dimensionsMeters": [
+        1.24,
+        1.39,
+        0.211
+      ],
+      "anchor": "authored-module-anchor",
+      "collisionProposal": {
+        "type": "none or simple per-module envelope",
+        "note": "Proposal; game-owned. No generated colliders."
+      }
+    },
+    {
+      "assetId": "bld_door_100_001",
+      "version": "0.1.0",
+      "seed": 7415,
+      "maxTriangles": 12000,
+      "expectedBounds": {
+        "min": [
+          -0.62,
+          0,
+          -0.08
+        ],
+        "max": [
+          0.62,
+          2.3,
+          0.13
+        ]
+      },
+      "dimensionsMeters": [
+        1.24,
+        2.3,
+        0.21
+      ],
+      "anchor": "authored-module-anchor",
+      "collisionProposal": {
+        "type": "none or simple per-module envelope",
+        "note": "Proposal; game-owned. No generated colliders."
+      }
+    }
+  ],
+  "houses": {
+    "walter": {
+      "widthMeters": 6,
+      "lengthMeters": 8,
+      "porchCentersX": [
+        -2,
+        0
+      ],
+      "doorCenterX": 0,
+      "sideWindowBays": [
+        0,
+        2
+      ],
+      "frontWallModules": [
+        "window",
+        "door",
+        "window"
+      ]
+    },
+    "alternate": {
+      "widthMeters": 6,
+      "lengthMeters": 4,
+      "porchCentersX": [
+        2
+      ],
+      "doorCenterX": 2,
+      "sideWindowBays": [
+        0
+      ],
+      "frontWallModules": [
+        "window",
+        "solid",
+        "door"
+      ]
+    }
+  },
+  "camera": {
+    "gameDistanceMeters": 16,
+    "verticalFieldOfViewDegrees": 40,
+    "pitchDegrees": 50,
+    "yawDegrees": 180,
+    "focusHeightMeters": 1,
+    "buildingFocusSourceXYZ": [
+      0,
+      0.7,
+      3.35
+    ],
+    "note": "16m to building review anchor; pitch50/yaw180/FOV40 game-perspective proxy, recentered to include full house; not a runtime player-focus screenshot. Entry closeup uses lower15deg inspection angle."
+  },
+  "collisionPolicy": "Per-region wall boxes excluding openings; floor tiles; steps boxes; no house-wide solid BoxCollider. Roof optional separate static hull. Door leaf separate future collider. Proposals only, not authored colliders.",
+  "openDecisions": [
+    "Game-owned importer/version and URP appearance",
+    "Game-owned placement and final door portal alignment",
+    "Runtime hide groups, navigation and camera behavior",
+    "Collision layer and trigger policy"
+  ],
+  "gameRepositoryChanged": false,
+  "mergeAuthorized": false,
+  "referenceGLBSHA256": {
+    "prop_fence_post_001": "c57540ce7af827c69062fdc09cd3f1054e21b2ae106229fc82c2bb78387287d0",
+    "prop_flower_pot_001": "0d234a932a58fbd37b7aba1dc0090a9296258884db072f3abc531383328ff929",
+    "prop_flower_pot_002": "e13cb5406359a9f3e28a0ef0126412beb95ee51906263969cc3a80cc87255d83",
+    "prop_old_watering_can_001": "617dff2f0e10289f2a608e1a488955a8924cb39f89a5c0d4070189ecac6a9bc3",
+    "prop_porch_bench_001": "491ac2c369c1724c0b152a8d0b9f751e2b684421ee3851b3da0f44838e5b0d61",
+    "prop_porch_lantern_001": "2234d5936b2a2dd5f1f047250d2ad944003bf8d70aa669b3652765ae2532de46",
+    "prop_porch_rocking_chair_001": "e941a889b616ddd0b6336cc512cbac371f90c4e228fdf24bfda144162ea79207",
+    "prop_welcome_mat_001": "727ed0bb5326a3c715891e3ff509a28548b851fc739ccad294d2980f9372cee4",
+    "prop_wooden_crate_001": "b4baa1d795966f2a7331d0740bcc216f788d44b49d93bfe66ee1d63a6527630d",
+    "prop_wooden_fence_001": "95e4c3ea7fe2215fb9e5af25b5db3d94c5d971a484a027c5cbc90159d0b8c68a",
+    "prop_mailbox_001": "b243a55a5d92da3cd3a51c3957d0b1e1f1b9737ad8f6ed988121bae69e654698"
+  }
+}

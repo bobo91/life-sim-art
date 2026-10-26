@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.0",
+  "requestId": "WALTER-PORCH-001",
+  "assetId": "prop_wooden_crate_001",
+  "version": "0.1.0",
+  "seed": 6210,
+  "blenderVersion": "4.5.14",
+  "dimensionsMeters": [
+    0.48,
+    0.32,
+    0.34
+  ],
+  "maxTriangles": 4000,
+  "preview": {
+    "resolution": 640,
+    "samples": 32
+  },
+  "palette": {
+    "timber": {
+      "color": "#9E7959",
+      "roughness": 0.78,
+      "metallic": 0
+    },
+    "faded": {
+      "color": "#AF9272",
+      "roughness": 0.85,
+      "metallic": 0
+    },
+    "frame": {
+      "color": "#70664F",
+      "roughness": 0.84,
+      "metallic": 0
+    }
+  },
+  "collisionProposal": "Full footprint box; open top is visual, not an inventory container.",
+  "authoringNotes": {
+    "style": "Original warm aged timber, muted sage/terracotta; broad wear only. No external assets.",
+    "scope": "Static prop; meters, bottom-centre root, source+Zup/-Yfront, GLB+Yup/+Zfront. No game integration."
+  }
+}
