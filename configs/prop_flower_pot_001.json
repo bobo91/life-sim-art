@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "1.0",
+  "requestId": "WALTER-PORCH-001",
+  "assetId": "prop_flower_pot_001",
+  "version": "0.1.0",
+  "seed": 6203,
+  "blenderVersion": "4.5.14",
+  "dimensionsMeters": [
+    0.4768,
+    0.711,
+    0.4626
+  ],
+  "maxTriangles": 5000,
+  "preview": {
+    "resolution": 640,
+    "samples": 32
+  },
+  "palette": {
+    "pot": {
+      "color": "#AD7155",
+      "roughness": 0.86,
+      "metallic": 0
+    },
+    "soil": {
+      "color": "#52463B",
+      "roughness": 0.99,
+      "metallic": 0
+    },
+    "leaf": {
+      "color": "#6C8060",
+      "roughness": 0.83,
+      "metallic": 0
+    },
+    "flower": {
+      "color": "#C69B73",
+      "roughness": 0.79,
+      "metallic": 0
+    }
+  },
+  "collisionProposal": "Pot-only box/cylinder; foliage has no collision.",
+  "authoringNotes": {
+    "style": "Original warm aged timber, muted sage/terracotta; broad wear only. No external assets.",
+    "scope": "Static prop; meters, bottom-centre root, source+Zup/-Yfront, GLB+Yup/+Zfront. No game integration."
+  }
+}
