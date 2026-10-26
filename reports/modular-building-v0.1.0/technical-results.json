@@ -1,0 +1,2009 @@
+{
+  "schema": "modular-building-review-evidence-1",
+  "baseMainCommit": "8fd7379a6ce1023cf8fd7a690bad0f5ac5bed33f",
+  "localSourceCommit": "02d92463f142d83e3253c395c416e6cbba3ba5dd",
+  "localSourceDirty": true,
+  "sourceIdentityNote": "Local checkout contains preserved unrelated work. Exact source hashes identify build inputs; the remote PR is main-based. CI provides a separate clean-checkout reproduction.",
+  "sourceHashes": {
+    "scripts/building_geometry.py": "eee7ff9da5ae8dc360509ad8afe5300bdcab1a2516e95baa435295df8021582c",
+    "scripts/building_core.py": "2f250ddd74b86a349e3eb8ae2e41928fce640f11e4e5ff26d76683922c00e838",
+    "scripts/building_roof.py": "22be4480dcfb9a59971ac51074bba97f0d623cbe3dd6f5215b20367e9e551f35",
+    "scripts/building_openings.py": "d9bdc9a656d137de7256195953db3892c9ddc38ee6c43c60fbbc862ef8082347",
+    "scripts/building_validation.py": "a3b606deb26edff03b03c96a2a7921ed3496529bcf8bcaa2b95dad0f030ffa0c",
+    "scripts/build_modular_building.py": "fe36b7ed657d5350a8bbb965a0c660c2d04369604fcc65593de8052041677031",
+    "scripts/run_modular_building.py": "5717d5b93e56f4d57ff2bdae4aa53c0a596a1e7d3b5b7f755e6164d78239913d",
+    "scripts/compose_modular_building.py": "f39bad1c03aaa127e37a9f3385b711826ac4c7041299fc8ba27accc1e08d2a68",
+    "scripts/package_modular_building.py": "ef2b35e24bc05383ca1983b16a0d4305a10a134dbecaccea569a328e847d62c8",
+    "scripts/walter_common.py": "0f3a1d5b844c7034e012b50a58804f681dbfcaa70fc01dce3590321ba04e7417",
+    "scripts/props_walter.py": "2fc086ba351d9efdfb141a1847a988583f547622e29dcb977702a45563660146",
+    "scripts/walter_mailbox_reference.py": "b76d773d1cdd9e5d0470d9a5f0d2784b5be92ef608e0a55f20873521f272f63c",
+    "art_pipeline/blender_build.py": "1602b3acbb5ba96e956cfb23e605e49b351cb803b0aa3f2ee4aed226fa4511eb",
+    "art_pipeline/validation.py": "516335248f5cdf7f3430da86045c8902342395a458ec52dc6132129086b67e55",
+    "art_pipeline/cli.py": "ad9ac05777328ed59879fc83ab064700632a3012b55f543fc5b6d4fe4c2bed46",
+    "art_pipeline/config.py": "3faa2389bdbb4e377bc2e9154526274bcd4360a837ea94912116526e066b78a9",
+    "art_pipeline/benchmark_checks.py": "94a9a56e0811755350f5a85646a98c3746b9eeebbf2023822ea32b5280f04ce8",
+    "configs/modular-building.json": "3fe3dc7901a08b6bde54143dc694b8e0bf88ef033b851096c8a8ad4f49a5130b",
+    "configs/prop_fence_post_001.json": "51baeaf4223c1a606edd0f0507a6405b2b0a7642d44b0c195adcd168dec31444",
+    "configs/prop_flower_pot_001.json": "4cd25938158adf58cda9b4848a07ee857ed99cf056eeee0cc0934cf017cfb59d",
+    "configs/prop_old_watering_can_001.json": "98aab5338e2be30be82655b593bc0be22991287a3976c982b46dcd5819823658",
+    "configs/prop_porch_bench_001.json": "db06f6870dab22e111b29c3f1263178e8ee186ffd9848f972cfce5a02c0a3dd3",
+    "configs/prop_porch_lantern_001.json": "b55740c3a639f141af8d935f2c670ae93d553f6b9a5b67fbf1d36dc471b02d4a",
+    "configs/prop_porch_rocking_chair_001.json": "e8dfd8f9b7292072254dfcff4b00642635d4160aaf264dac860f4742969655df",
+    "configs/prop_welcome_mat_001.json": "2d9a1f3f63531f9cf7e0b8d7e83dcfa0eab0a7b0992fa9ed97c72f8da9bf1962",
+    "configs/prop_wooden_crate_001.json": "4c01c12a0b15f2227f1fa8062a6c648a878d477739c6a10a46412f8503a01aed",
+    "configs/prop_wooden_fence_001.json": "9705cf126181581ab421ef327fc9bbc30e1190b2654ef35be844e1de3c7f63b8",
+    "configs/prop_flower_pot_002.json": "98d50532da113fa437fdeeb48a5ad27943eacad4e8693f83e0e454425ba2fb87",
+    "configs/walter-mailbox-reference.json": "3f2ba255a195e4271c2d775f66eaa10c34179927d3e9018f89e1afc451d52af7"
+  },
+  "environment": {
+    "blender": "4.5.14 LTS",
+    "python": "3.11.15",
+    "background": true,
+    "onlineAccess": false,
+    "devicesEnumerated": [
+      {
+        "name": "AMD Ryzen 7 9800X3D 8-Core Processor",
+        "type": "CPU"
+      },
+      {
+        "name": "AMD Radeon RX 9070 XT",
+        "type": "HIP"
+      },
+      {
+        "name": "AMD Radeon(TM) Graphics",
+        "type": "HIP"
+      }
+    ],
+    "actualRenderDevice": "CPU",
+    "threads": 4
+  },
+  "elapsedSeconds": 146.087,
+  "freshBuild": true,
+  "unitTestsPassed": 66,
+  "modules": {
+    "bld_wall_solid_200_001": {
+      "triangles": 292,
+      "dimensionsMeters": [
+        2.0,
+        2.799999952316284,
+        0.20600000023841858
+      ],
+      "sha256": "eda4a3fefc9fce13d4844fe159c341ae2672437711661430aa8a295637d5ecb3",
+      "reproducedByteIdentically": true
+    },
+    "bld_wall_window_200_001": {
+      "triangles": 772,
+      "dimensionsMeters": [
+        2.0,
+        2.799999952316284,
+        0.20600000023841858
+      ],
+      "sha256": "0a50ff1d356689f460f53c8ece068ba6034647e6163c478dd1e164d2c53c5a5a",
+      "reproducedByteIdentically": true
+    },
+    "bld_wall_door_200_001": {
+      "triangles": 672,
+      "dimensionsMeters": [
+        2.0,
+        2.799999952316284,
+        0.20600000023841858
+      ],
+      "sha256": "7a6caff6bb74bbcb31d0cde1c3cecc7b8d123b9960d8bb994bd5fa4b0b4c1c25",
+      "reproducedByteIdentically": true
+    },
+    "bld_corner_trim_001": {
+      "triangles": 20,
+      "dimensionsMeters": [
+        0.2849999964237213,
+        2.799999952316284,
+        0.2849999964237213
+      ],
+      "sha256": "ed8049e1b9af98e4b4c5f42f111b3689c0d372c03e70b301d0b6fdd0ea43fef5",
+      "reproducedByteIdentically": true
+    },
+    "bld_floor_200_001": {
+      "triangles": 124,
+      "dimensionsMeters": [
+        2.0,
+        0.18000000715255737,
+        2.0
+      ],
+      "sha256": "3d5ecb39563f7cac605e04a0c5caf75ba24527ab4d557f67136608316b657eeb",
+      "reproducedByteIdentically": true
+    },
+    "bld_foundation_200_001": {
+      "triangles": 248,
+      "dimensionsMeters": [
+        2.0,
+        0.41999998688697815,
+        0.3199999928474426
+      ],
+      "sha256": "b42bd3a88f8dfc2106cddf3d9978b76fdc5c48c8e7af9db29bf0d5f9021e4612",
+      "reproducedByteIdentically": true
+    },
+    "bld_porch_200_001": {
+      "triangles": 1240,
+      "dimensionsMeters": [
+        2.0,
+        0.6000000238418579,
+        2.0149999856948853
+      ],
+      "sha256": "20324fbe524f58d7e256f171cedebd97b2dc579a8468a373fba8d07dff62be7a",
+      "reproducedByteIdentically": true
+    },
+    "bld_porch_steps_001": {
+      "triangles": 744,
+      "dimensionsMeters": [
+        1.4299999475479126,
+        0.6000000238418579,
+        0.8999999761581421
+      ],
+      "sha256": "f26929bd4635aab1727f381ec6a94c53f98ba800ada6151496c43719e475a3e5",
+      "reproducedByteIdentically": true
+    },
+    "bld_porch_post_001": {
+      "triangles": 428,
+      "dimensionsMeters": [
+        0.6554837226867676,
+        2.0,
+        0.1899999976158142
+      ],
+      "sha256": "1bbddc6cf4f92199642576bb7109cdcba341e601db8c0f5314b64bd7fb302370",
+      "reproducedByteIdentically": true
+    },
+    "bld_roof_half_200_001": {
+      "triangles": 356,
+      "dimensionsMeters": [
+        3.3499999046325684,
+        2.157999962568283,
+        2.0
+      ],
+      "sha256": "2fa3d8ef51bdb1845212b266d22e2f5d1f9d60afd969cac7ed7ae034298ec18a",
+      "reproducedByteIdentically": true
+    },
+    "bld_roof_ridge_200_001": {
+      "triangles": 20,
+      "dimensionsMeters": [
+        0.25999999046325684,
+        0.16999995708465576,
+        2.0
+      ],
+      "sha256": "1ed72aaf90130d5f6a9eecb8748500f0764740fa70f75bbed08b6cd5fe14b3e4",
+      "reproducedByteIdentically": true
+    },
+    "bld_gable_end_600_001": {
+      "triangles": 912,
+      "dimensionsMeters": [
+        6.079999923706055,
+        1.7999999523162842,
+        0.26100000739097595
+      ],
+      "sha256": "85c73fc7dcf4bb736e90dfbc6b7949dc97005d3acb610035b3617ae08ab69ee1",
+      "reproducedByteIdentically": true
+    },
+    "bld_gable_trim_600_001": {
+      "triangles": 40,
+      "dimensionsMeters": [
+        6.699999809265137,
+        2.2350000143051147,
+        0.15499999560415745
+      ],
+      "sha256": "a995052f62e7dcb845e3a732a0cbd3a19ef408e5e355180d08b078cbef8536ef",
+      "reproducedByteIdentically": true
+    },
+    "bld_porch_canopy_200_001": {
+      "triangles": 332,
+      "dimensionsMeters": [
+        2.0,
+        0.5379999717697501,
+        2.25
+      ],
+      "sha256": "6d7f5f9c83a01ea59d6b78af26416c97683f6bf9bdc60f15fa35926115fc9c8c",
+      "reproducedByteIdentically": true
+    },
+    "bld_window_110_001": {
+      "triangles": 1984,
+      "dimensionsMeters": [
+        1.2400000095367432,
+        1.3900000527501106,
+        0.210999995470047
+      ],
+      "sha256": "e817c0d34b93b9776ba4a549d8a1ab471d7a5034e18c99355b7e471ba0d7a47b",
+      "reproducedByteIdentically": true
+    },
+    "bld_door_100_001": {
+      "triangles": 1668,
+      "dimensionsMeters": [
+        1.2400000095367432,
+        2.299999952316284,
+        0.20999999344348907
+      ],
+      "sha256": "921285c79cff784e319d06fca16b021d3f53211751118be25a3adf15e1f94015",
+      "reproducedByteIdentically": true
+    }
+  },
+  "assemblies": {
+    "walter": {
+      "sha256": "3d0d957af21db790496336917d3290d290756ca45bb0c3a5bf9f2e67538deb4f",
+      "bytes": 635072,
+      "triangles": 40892,
+      "vertices": 87492,
+      "meshInstances": 78,
+      "materials": [
+        "walter__trim",
+        "walter__door",
+        "walter__metal",
+        "walter__wood",
+        "walter__stone",
+        "walter__siding",
+        "walter__interior",
+        "walter__roof",
+        "walter__glass"
+      ],
+      "materialCount": 9,
+      "bounds": {
+        "min": [
+          -3.349999992055345,
+          0.0,
+          -8.171000024796164
+        ],
+        "max": [
+          3.349999906818138,
+          5.300000071525574,
+          2.899999976158142
+        ]
+      },
+      "dimensionsMeters": [
+        6.699999898873482,
+        5.300000071525574,
+        11.071000000954307
+      ],
+      "windingNormalsConsistent": true,
+      "coordinateSystem": {
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      },
+      "pivotPolicy": "authored-module-anchor",
+      "normalizedPivotErrorMeters": [
+        4.261860353516056e-08,
+        0.0,
+        2.4319011249218647e-08
+      ],
+      "anchorBoundsErrorMeters": [
+        9.31818622262881e-08,
+        7.152557390810443e-08,
+        2.4796165121188096e-08
+      ],
+      "validationNormalization": {
+        "method": "configured-bounds-to-bottom-center",
+        "translationMeters": [
+          -0.0,
+          -0.0,
+          2.6354999999999995
+        ],
+        "productionBytesModified": false
+      }
+    },
+    "alternate": {
+      "sha256": "4c80f2918134b9a84c77956c6ab858d0b2f68aeb830ffc5e055b00eb5da32717",
+      "bytes": 618928,
+      "triangles": 27132,
+      "vertices": 57959,
+      "meshInstances": 52,
+      "materials": [
+        "alternate__trim",
+        "alternate__door",
+        "alternate__metal",
+        "alternate__wood",
+        "alternate__stone",
+        "alternate__siding",
+        "alternate__interior",
+        "alternate__roof",
+        "alternate__glass"
+      ],
+      "materialCount": 9,
+      "bounds": {
+        "min": [
+          -3.349999992055345,
+          0.0,
+          -4.171000024796163
+        ],
+        "max": [
+          3.349999906818138,
+          5.300000071525574,
+          2.899999976158142
+        ]
+      },
+      "dimensionsMeters": [
+        6.699999898873482,
+        5.300000071525574,
+        7.071000000954305
+      ],
+      "windingNormalsConsistent": true,
+      "coordinateSystem": {
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      },
+      "pivotPolicy": "authored-module-anchor",
+      "normalizedPivotErrorMeters": [
+        4.261860353516056e-08,
+        0.0,
+        2.4319010138995623e-08
+      ],
+      "anchorBoundsErrorMeters": [
+        9.31818622262881e-08,
+        7.152557390810443e-08,
+        2.4796162456652837e-08
+      ],
+      "validationNormalization": {
+        "method": "configured-bounds-to-bottom-center",
+        "translationMeters": [
+          -0.0,
+          -0.0,
+          0.6355000000000002
+        ],
+        "productionBytesModified": false
+      }
+    }
+  },
+  "presentation": {
+    "scope": "Actual Blender house prototypes. No Unity runtime/camera/import test. Ground floor empty; attic expression only, no upper floor.",
+    "views": {
+      "walter-three-quarter": {
+        "locationSourceXYZ": [
+          12.552061080932617,
+          -15.790509223937988,
+          14.297794342041016
+        ],
+        "rotationRadiansXYZ": [
+          1.0662840604782104,
+          3.39867831655738e-08,
+          0.6202495694160461
+        ],
+        "type": "ORTHO",
+        "orthoScale": 15.822002410888672,
+        "verticalFovDegrees": 26.991466429975517,
+        "resolution": [
+          1280,
+          960
+        ],
+        "allGeometryInsideFrame": true,
+        "file": "walter-three-quarter.png",
+        "sha256": "4f788f83ad21326f2deb2a37338e39e59c842d1e08083c20e666f379892c4d8a"
+      },
+      "walter-game-16m": {
+        "locationSourceXYZ": [
+          1.2595005113592286e-15,
+          -9.584602355957031,
+          15.606710433959961
+        ],
+        "rotationRadiansXYZ": [
+          0.6981317400932312,
+          -1.8813158764494163e-23,
+          1.2246471172829639e-16
+        ],
+        "type": "PERSP",
+        "orthoScale": 15.822002410888672,
+        "verticalFovDegrees": 39.99999883637168,
+        "resolution": [
+          1280,
+          720
+        ],
+        "allGeometryInsideFrame": true,
+        "distanceMeters": 16,
+        "pitchDegrees": 50,
+        "yawDegrees": 180,
+        "focusSourceXYZ": [
+          0,
+          0.7,
+          3.35
+        ],
+        "file": "walter-game-16m.png",
+        "sha256": "c1c11e8a9bf12d3d59547616d4c8f7e2dba00f38ac6704cdbe8acfeed993d9c9"
+      },
+      "walter-entry-6m": {
+        "locationSourceXYZ": [
+          0.4049636721611023,
+          -6.368907928466797,
+          3.202914237976074
+        ],
+        "rotationRadiansXYZ": [
+          1.3089970350265503,
+          1.7943714070156602e-08,
+          0.20943957567214966
+        ],
+        "type": "PERSP",
+        "orthoScale": 15.822002410888672,
+        "verticalFovDegrees": 39.99999883637168,
+        "resolution": [
+          1280,
+          720
+        ],
+        "allGeometryInsideFrame": false,
+        "distanceMeters": 6,
+        "pitchDegrees": 15,
+        "yawDegrees": 168,
+        "focusSourceXYZ": [
+          -0.8,
+          -0.7,
+          1.65
+        ],
+        "file": "walter-entry-6m.png",
+        "sha256": "84b5cb23968df0174840862926678f8fefa98c9677f19a96f6628cccfdb8f7df"
+      },
+      "walter-roof-hidden": {
+        "locationSourceXYZ": [
+          -13.32906723022461,
+          -11.99487590789795,
+          17.954084396362305
+        ],
+        "rotationRadiansXYZ": [
+          0.8959149718284607,
+          -5.9028121057735916e-08,
+          -0.6947383880615234
+        ],
+        "type": "ORTHO",
+        "orthoScale": 15.997034072875977,
+        "verticalFovDegrees": 39.99999883637168,
+        "resolution": [
+          1280,
+          960
+        ],
+        "allGeometryInsideFrame": true,
+        "file": "walter-roof-hidden.png",
+        "sha256": "e06c7fd17d255dc85c15fffc80bdf319ddfe23121123f718fcb11b181a7ea27d"
+      },
+      "walter-cutaway": {
+        "locationSourceXYZ": [
+          -13.32906723022461,
+          -11.99487590789795,
+          17.954084396362305
+        ],
+        "rotationRadiansXYZ": [
+          0.8959149718284607,
+          -5.9028121057735916e-08,
+          -0.6947383880615234
+        ],
+        "type": "ORTHO",
+        "orthoScale": 15.997034072875977,
+        "verticalFovDegrees": 39.99999883637168,
+        "resolution": [
+          1280,
+          960
+        ],
+        "allGeometryInsideFrame": true,
+        "file": "walter-cutaway.png",
+        "sha256": "b0a1815288ff410db637db293af4837dd332820384fd44d9b29df4c2eff924c3"
+      },
+      "alternate-house": {
+        "locationSourceXYZ": [
+          13.477660179138184,
+          -16.86871910095215,
+          14.386357307434082
+        ],
+        "rotationRadiansXYZ": [
+          1.0662840604782104,
+          3.39867831655738e-08,
+          0.6202495694160461
+        ],
+        "type": "ORTHO",
+        "orthoScale": 12.779997825622559,
+        "verticalFovDegrees": 39.99999883637168,
+        "resolution": [
+          1280,
+          960
+        ],
+        "allGeometryInsideFrame": true,
+        "file": "alternate-house.png",
+        "sha256": "0ce94f5342981aaef64a993c91606bd2518f8c3a54ed457f531af6fe60027401"
+      }
+    },
+    "walter": {
+      "instances": [
+        {
+          "moduleId": "bld_floor_200_001",
+          "location": [
+            -2,
+            1,
+            0.42
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "floor"
+        },
+        {
+          "moduleId": "bld_floor_200_001",
+          "location": [
+            0,
+            1,
+            0.42
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "floor"
+        },
+        {
+          "moduleId": "bld_floor_200_001",
+          "location": [
+            2,
+            1,
+            0.42
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "floor"
+        },
+        {
+          "moduleId": "bld_foundation_200_001",
+          "location": [
+            3,
+            1,
+            0
+          ],
+          "rotationZDegrees": 90,
+          "hideGroup": "foundation"
+        },
+        {
+          "moduleId": "bld_wall_window_200_001",
+          "location": [
+            3,
+            1,
+            0.6
+          ],
+          "rotationZDegrees": 90,
+          "hideGroup": "wall.east"
+        },
+        {
+          "moduleId": "bld_window_110_001",
+          "location": [
+            3,
+            1,
+            1.45
+          ],
+          "rotationZDegrees": 90,
+          "hideGroup": "wall.east"
+        },
+        {
+          "moduleId": "bld_foundation_200_001",
+          "location": [
+            -3,
+            1,
+            0
+          ],
+          "rotationZDegrees": -90,
+          "hideGroup": "foundation"
+        },
+        {
+          "moduleId": "bld_wall_window_200_001",
+          "location": [
+            -3,
+            1,
+            0.6
+          ],
+          "rotationZDegrees": -90,
+          "hideGroup": "wall.west"
+        },
+        {
+          "moduleId": "bld_window_110_001",
+          "location": [
+            -3,
+            1,
+            1.45
+          ],
+          "rotationZDegrees": -90,
+          "hideGroup": "wall.west"
+        },
+        {
+          "moduleId": "bld_floor_200_001",
+          "location": [
+            -2,
+            3,
+            0.42
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "floor"
+        },
+        {
+          "moduleId": "bld_floor_200_001",
+          "location": [
+            0,
+            3,
+            0.42
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "floor"
+        },
+        {
+          "moduleId": "bld_floor_200_001",
+          "location": [
+            2,
+            3,
+            0.42
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "floor"
+        },
+        {
+          "moduleId": "bld_foundation_200_001",
+          "location": [
+            3,
+            3,
+            0
+          ],
+          "rotationZDegrees": 90,
+          "hideGroup": "foundation"
+        },
+        {
+          "moduleId": "bld_wall_solid_200_001",
+          "location": [
+            3,
+            3,
+            0.6
+          ],
+          "rotationZDegrees": 90,
+          "hideGroup": "wall.east"
+        },
+        {
+          "moduleId": "bld_foundation_200_001",
+          "location": [
+            -3,
+            3,
+            0
+          ],
+          "rotationZDegrees": -90,
+          "hideGroup": "foundation"
+        },
+        {
+          "moduleId": "bld_wall_solid_200_001",
+          "location": [
+            -3,
+            3,
+            0.6
+          ],
+          "rotationZDegrees": -90,
+          "hideGroup": "wall.west"
+        },
+        {
+          "moduleId": "bld_floor_200_001",
+          "location": [
+            -2,
+            5,
+            0.42
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "floor"
+        },
+        {
+          "moduleId": "bld_floor_200_001",
+          "location": [
+            0,
+            5,
+            0.42
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "floor"
+        },
+        {
+          "moduleId": "bld_floor_200_001",
+          "location": [
+            2,
+            5,
+            0.42
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "floor"
+        },
+        {
+          "moduleId": "bld_foundation_200_001",
+          "location": [
+            3,
+            5,
+            0
+          ],
+          "rotationZDegrees": 90,
+          "hideGroup": "foundation"
+        },
+        {
+          "moduleId": "bld_wall_window_200_001",
+          "location": [
+            3,
+            5,
+            0.6
+          ],
+          "rotationZDegrees": 90,
+          "hideGroup": "wall.east"
+        },
+        {
+          "moduleId": "bld_window_110_001",
+          "location": [
+            3,
+            5,
+            1.45
+          ],
+          "rotationZDegrees": 90,
+          "hideGroup": "wall.east"
+        },
+        {
+          "moduleId": "bld_foundation_200_001",
+          "location": [
+            -3,
+            5,
+            0
+          ],
+          "rotationZDegrees": -90,
+          "hideGroup": "foundation"
+        },
+        {
+          "moduleId": "bld_wall_window_200_001",
+          "location": [
+            -3,
+            5,
+            0.6
+          ],
+          "rotationZDegrees": -90,
+          "hideGroup": "wall.west"
+        },
+        {
+          "moduleId": "bld_window_110_001",
+          "location": [
+            -3,
+            5,
+            1.45
+          ],
+          "rotationZDegrees": -90,
+          "hideGroup": "wall.west"
+        },
+        {
+          "moduleId": "bld_floor_200_001",
+          "location": [
+            -2,
+            7,
+            0.42
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "floor"
+        },
+        {
+          "moduleId": "bld_floor_200_001",
+          "location": [
+            0,
+            7,
+            0.42
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "floor"
+        },
+        {
+          "moduleId": "bld_floor_200_001",
+          "location": [
+            2,
+            7,
+            0.42
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "floor"
+        },
+        {
+          "moduleId": "bld_foundation_200_001",
+          "location": [
+            3,
+            7,
+            0
+          ],
+          "rotationZDegrees": 90,
+          "hideGroup": "foundation"
+        },
+        {
+          "moduleId": "bld_wall_solid_200_001",
+          "location": [
+            3,
+            7,
+            0.6
+          ],
+          "rotationZDegrees": 90,
+          "hideGroup": "wall.east"
+        },
+        {
+          "moduleId": "bld_foundation_200_001",
+          "location": [
+            -3,
+            7,
+            0
+          ],
+          "rotationZDegrees": -90,
+          "hideGroup": "foundation"
+        },
+        {
+          "moduleId": "bld_wall_solid_200_001",
+          "location": [
+            -3,
+            7,
+            0.6
+          ],
+          "rotationZDegrees": -90,
+          "hideGroup": "wall.west"
+        },
+        {
+          "moduleId": "bld_foundation_200_001",
+          "location": [
+            -2,
+            0,
+            0
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "foundation"
+        },
+        {
+          "moduleId": "bld_wall_window_200_001",
+          "location": [
+            -2,
+            0,
+            0.6
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "wall.south"
+        },
+        {
+          "moduleId": "bld_window_110_001",
+          "location": [
+            -2,
+            0,
+            1.45
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "wall.south"
+        },
+        {
+          "moduleId": "bld_foundation_200_001",
+          "location": [
+            -2,
+            8,
+            0
+          ],
+          "rotationZDegrees": 180,
+          "hideGroup": "foundation"
+        },
+        {
+          "moduleId": "bld_wall_window_200_001",
+          "location": [
+            -2,
+            8,
+            0.6
+          ],
+          "rotationZDegrees": 180,
+          "hideGroup": "wall.north"
+        },
+        {
+          "moduleId": "bld_window_110_001",
+          "location": [
+            -2,
+            8,
+            1.45
+          ],
+          "rotationZDegrees": 180,
+          "hideGroup": "wall.north"
+        },
+        {
+          "moduleId": "bld_foundation_200_001",
+          "location": [
+            0,
+            0,
+            0
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "foundation"
+        },
+        {
+          "moduleId": "bld_wall_door_200_001",
+          "location": [
+            0,
+            0,
+            0.6
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "wall.south"
+        },
+        {
+          "moduleId": "bld_door_100_001",
+          "location": [
+            0,
+            0,
+            0.6
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "wall.south"
+        },
+        {
+          "moduleId": "bld_foundation_200_001",
+          "location": [
+            0,
+            8,
+            0
+          ],
+          "rotationZDegrees": 180,
+          "hideGroup": "foundation"
+        },
+        {
+          "moduleId": "bld_wall_solid_200_001",
+          "location": [
+            0,
+            8,
+            0.6
+          ],
+          "rotationZDegrees": 180,
+          "hideGroup": "wall.north"
+        },
+        {
+          "moduleId": "bld_foundation_200_001",
+          "location": [
+            2,
+            0,
+            0
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "foundation"
+        },
+        {
+          "moduleId": "bld_wall_window_200_001",
+          "location": [
+            2,
+            0,
+            0.6
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "wall.south"
+        },
+        {
+          "moduleId": "bld_window_110_001",
+          "location": [
+            2,
+            0,
+            1.45
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "wall.south"
+        },
+        {
+          "moduleId": "bld_foundation_200_001",
+          "location": [
+            2,
+            8,
+            0
+          ],
+          "rotationZDegrees": 180,
+          "hideGroup": "foundation"
+        },
+        {
+          "moduleId": "bld_wall_window_200_001",
+          "location": [
+            2,
+            8,
+            0.6
+          ],
+          "rotationZDegrees": 180,
+          "hideGroup": "wall.north"
+        },
+        {
+          "moduleId": "bld_window_110_001",
+          "location": [
+            2,
+            8,
+            1.45
+          ],
+          "rotationZDegrees": 180,
+          "hideGroup": "wall.north"
+        },
+        {
+          "moduleId": "bld_corner_trim_001",
+          "location": [
+            3,
+            0,
+            0.6
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "corner.south.east"
+        },
+        {
+          "moduleId": "bld_corner_trim_001",
+          "location": [
+            -3,
+            0,
+            0.6
+          ],
+          "rotationZDegrees": -90,
+          "hideGroup": "corner.south.west"
+        },
+        {
+          "moduleId": "bld_corner_trim_001",
+          "location": [
+            3,
+            8,
+            0.6
+          ],
+          "rotationZDegrees": 90,
+          "hideGroup": "corner.north.east"
+        },
+        {
+          "moduleId": "bld_corner_trim_001",
+          "location": [
+            -3,
+            8,
+            0.6
+          ],
+          "rotationZDegrees": 180,
+          "hideGroup": "corner.north.west"
+        },
+        {
+          "moduleId": "bld_roof_half_200_001",
+          "location": [
+            0,
+            1,
+            3.4
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "roof"
+        },
+        {
+          "moduleId": "bld_roof_half_200_001",
+          "location": [
+            0,
+            1,
+            3.4
+          ],
+          "rotationZDegrees": 180,
+          "hideGroup": "roof"
+        },
+        {
+          "moduleId": "bld_roof_ridge_200_001",
+          "location": [
+            0,
+            1,
+            3.4
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "roof"
+        },
+        {
+          "moduleId": "bld_roof_half_200_001",
+          "location": [
+            0,
+            3,
+            3.4
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "roof"
+        },
+        {
+          "moduleId": "bld_roof_half_200_001",
+          "location": [
+            0,
+            3,
+            3.4
+          ],
+          "rotationZDegrees": 180,
+          "hideGroup": "roof"
+        },
+        {
+          "moduleId": "bld_roof_ridge_200_001",
+          "location": [
+            0,
+            3,
+            3.4
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "roof"
+        },
+        {
+          "moduleId": "bld_roof_half_200_001",
+          "location": [
+            0,
+            5,
+            3.4
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "roof"
+        },
+        {
+          "moduleId": "bld_roof_half_200_001",
+          "location": [
+            0,
+            5,
+            3.4
+          ],
+          "rotationZDegrees": 180,
+          "hideGroup": "roof"
+        },
+        {
+          "moduleId": "bld_roof_ridge_200_001",
+          "location": [
+            0,
+            5,
+            3.4
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "roof"
+        },
+        {
+          "moduleId": "bld_roof_half_200_001",
+          "location": [
+            0,
+            7,
+            3.4
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "roof"
+        },
+        {
+          "moduleId": "bld_roof_half_200_001",
+          "location": [
+            0,
+            7,
+            3.4
+          ],
+          "rotationZDegrees": 180,
+          "hideGroup": "roof"
+        },
+        {
+          "moduleId": "bld_roof_ridge_200_001",
+          "location": [
+            0,
+            7,
+            3.4
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "roof"
+        },
+        {
+          "moduleId": "bld_gable_end_600_001",
+          "location": [
+            0,
+            0,
+            3.4
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "wall.south"
+        },
+        {
+          "moduleId": "bld_gable_trim_600_001",
+          "location": [
+            0,
+            0,
+            3.4
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "roof"
+        },
+        {
+          "moduleId": "bld_gable_end_600_001",
+          "location": [
+            0,
+            8,
+            3.4
+          ],
+          "rotationZDegrees": 180,
+          "hideGroup": "wall.north"
+        },
+        {
+          "moduleId": "bld_gable_trim_600_001",
+          "location": [
+            0,
+            8,
+            3.4
+          ],
+          "rotationZDegrees": 180,
+          "hideGroup": "roof"
+        },
+        {
+          "moduleId": "bld_porch_200_001",
+          "location": [
+            -2,
+            -1,
+            0
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "porch"
+        },
+        {
+          "moduleId": "bld_porch_canopy_200_001",
+          "location": [
+            -2,
+            0,
+            3.1
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "roof"
+        },
+        {
+          "moduleId": "bld_porch_200_001",
+          "location": [
+            0,
+            -1,
+            0
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "porch"
+        },
+        {
+          "moduleId": "bld_porch_canopy_200_001",
+          "location": [
+            0,
+            0,
+            3.1
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "roof"
+        },
+        {
+          "moduleId": "bld_porch_post_001",
+          "location": [
+            -3,
+            -1.94,
+            0.6
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "porch"
+        },
+        {
+          "moduleId": "bld_porch_post_001",
+          "location": [
+            -1,
+            -1.94,
+            0.6
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "porch"
+        },
+        {
+          "moduleId": "bld_porch_post_001",
+          "location": [
+            1,
+            -1.94,
+            0.6
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "porch"
+        },
+        {
+          "moduleId": "bld_porch_steps_001",
+          "location": [
+            0,
+            -2,
+            0
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "porch"
+        }
+      ],
+      "saveReopenGeometryAndGroups": true,
+      "glbRoundtripExactPositions5DecimalsAndTriangles": true
+    },
+    "alternate": {
+      "instances": [
+        {
+          "moduleId": "bld_floor_200_001",
+          "location": [
+            -2,
+            1,
+            0.42
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "floor"
+        },
+        {
+          "moduleId": "bld_floor_200_001",
+          "location": [
+            0,
+            1,
+            0.42
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "floor"
+        },
+        {
+          "moduleId": "bld_floor_200_001",
+          "location": [
+            2,
+            1,
+            0.42
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "floor"
+        },
+        {
+          "moduleId": "bld_foundation_200_001",
+          "location": [
+            3,
+            1,
+            0
+          ],
+          "rotationZDegrees": 90,
+          "hideGroup": "foundation"
+        },
+        {
+          "moduleId": "bld_wall_window_200_001",
+          "location": [
+            3,
+            1,
+            0.6
+          ],
+          "rotationZDegrees": 90,
+          "hideGroup": "wall.east"
+        },
+        {
+          "moduleId": "bld_window_110_001",
+          "location": [
+            3,
+            1,
+            1.45
+          ],
+          "rotationZDegrees": 90,
+          "hideGroup": "wall.east"
+        },
+        {
+          "moduleId": "bld_foundation_200_001",
+          "location": [
+            -3,
+            1,
+            0
+          ],
+          "rotationZDegrees": -90,
+          "hideGroup": "foundation"
+        },
+        {
+          "moduleId": "bld_wall_window_200_001",
+          "location": [
+            -3,
+            1,
+            0.6
+          ],
+          "rotationZDegrees": -90,
+          "hideGroup": "wall.west"
+        },
+        {
+          "moduleId": "bld_window_110_001",
+          "location": [
+            -3,
+            1,
+            1.45
+          ],
+          "rotationZDegrees": -90,
+          "hideGroup": "wall.west"
+        },
+        {
+          "moduleId": "bld_floor_200_001",
+          "location": [
+            -2,
+            3,
+            0.42
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "floor"
+        },
+        {
+          "moduleId": "bld_floor_200_001",
+          "location": [
+            0,
+            3,
+            0.42
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "floor"
+        },
+        {
+          "moduleId": "bld_floor_200_001",
+          "location": [
+            2,
+            3,
+            0.42
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "floor"
+        },
+        {
+          "moduleId": "bld_foundation_200_001",
+          "location": [
+            3,
+            3,
+            0
+          ],
+          "rotationZDegrees": 90,
+          "hideGroup": "foundation"
+        },
+        {
+          "moduleId": "bld_wall_solid_200_001",
+          "location": [
+            3,
+            3,
+            0.6
+          ],
+          "rotationZDegrees": 90,
+          "hideGroup": "wall.east"
+        },
+        {
+          "moduleId": "bld_foundation_200_001",
+          "location": [
+            -3,
+            3,
+            0
+          ],
+          "rotationZDegrees": -90,
+          "hideGroup": "foundation"
+        },
+        {
+          "moduleId": "bld_wall_solid_200_001",
+          "location": [
+            -3,
+            3,
+            0.6
+          ],
+          "rotationZDegrees": -90,
+          "hideGroup": "wall.west"
+        },
+        {
+          "moduleId": "bld_foundation_200_001",
+          "location": [
+            -2,
+            0,
+            0
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "foundation"
+        },
+        {
+          "moduleId": "bld_wall_window_200_001",
+          "location": [
+            -2,
+            0,
+            0.6
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "wall.south"
+        },
+        {
+          "moduleId": "bld_window_110_001",
+          "location": [
+            -2,
+            0,
+            1.45
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "wall.south"
+        },
+        {
+          "moduleId": "bld_foundation_200_001",
+          "location": [
+            -2,
+            4,
+            0
+          ],
+          "rotationZDegrees": 180,
+          "hideGroup": "foundation"
+        },
+        {
+          "moduleId": "bld_wall_window_200_001",
+          "location": [
+            -2,
+            4,
+            0.6
+          ],
+          "rotationZDegrees": 180,
+          "hideGroup": "wall.north"
+        },
+        {
+          "moduleId": "bld_window_110_001",
+          "location": [
+            -2,
+            4,
+            1.45
+          ],
+          "rotationZDegrees": 180,
+          "hideGroup": "wall.north"
+        },
+        {
+          "moduleId": "bld_foundation_200_001",
+          "location": [
+            0,
+            0,
+            0
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "foundation"
+        },
+        {
+          "moduleId": "bld_wall_solid_200_001",
+          "location": [
+            0,
+            0,
+            0.6
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "wall.south"
+        },
+        {
+          "moduleId": "bld_foundation_200_001",
+          "location": [
+            0,
+            4,
+            0
+          ],
+          "rotationZDegrees": 180,
+          "hideGroup": "foundation"
+        },
+        {
+          "moduleId": "bld_wall_solid_200_001",
+          "location": [
+            0,
+            4,
+            0.6
+          ],
+          "rotationZDegrees": 180,
+          "hideGroup": "wall.north"
+        },
+        {
+          "moduleId": "bld_foundation_200_001",
+          "location": [
+            2,
+            0,
+            0
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "foundation"
+        },
+        {
+          "moduleId": "bld_wall_door_200_001",
+          "location": [
+            2,
+            0,
+            0.6
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "wall.south"
+        },
+        {
+          "moduleId": "bld_door_100_001",
+          "location": [
+            2,
+            0,
+            0.6
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "wall.south"
+        },
+        {
+          "moduleId": "bld_foundation_200_001",
+          "location": [
+            2,
+            4,
+            0
+          ],
+          "rotationZDegrees": 180,
+          "hideGroup": "foundation"
+        },
+        {
+          "moduleId": "bld_wall_window_200_001",
+          "location": [
+            2,
+            4,
+            0.6
+          ],
+          "rotationZDegrees": 180,
+          "hideGroup": "wall.north"
+        },
+        {
+          "moduleId": "bld_window_110_001",
+          "location": [
+            2,
+            4,
+            1.45
+          ],
+          "rotationZDegrees": 180,
+          "hideGroup": "wall.north"
+        },
+        {
+          "moduleId": "bld_corner_trim_001",
+          "location": [
+            3,
+            0,
+            0.6
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "corner.south.east"
+        },
+        {
+          "moduleId": "bld_corner_trim_001",
+          "location": [
+            -3,
+            0,
+            0.6
+          ],
+          "rotationZDegrees": -90,
+          "hideGroup": "corner.south.west"
+        },
+        {
+          "moduleId": "bld_corner_trim_001",
+          "location": [
+            3,
+            4,
+            0.6
+          ],
+          "rotationZDegrees": 90,
+          "hideGroup": "corner.north.east"
+        },
+        {
+          "moduleId": "bld_corner_trim_001",
+          "location": [
+            -3,
+            4,
+            0.6
+          ],
+          "rotationZDegrees": 180,
+          "hideGroup": "corner.north.west"
+        },
+        {
+          "moduleId": "bld_roof_half_200_001",
+          "location": [
+            0,
+            1,
+            3.4
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "roof"
+        },
+        {
+          "moduleId": "bld_roof_half_200_001",
+          "location": [
+            0,
+            1,
+            3.4
+          ],
+          "rotationZDegrees": 180,
+          "hideGroup": "roof"
+        },
+        {
+          "moduleId": "bld_roof_ridge_200_001",
+          "location": [
+            0,
+            1,
+            3.4
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "roof"
+        },
+        {
+          "moduleId": "bld_roof_half_200_001",
+          "location": [
+            0,
+            3,
+            3.4
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "roof"
+        },
+        {
+          "moduleId": "bld_roof_half_200_001",
+          "location": [
+            0,
+            3,
+            3.4
+          ],
+          "rotationZDegrees": 180,
+          "hideGroup": "roof"
+        },
+        {
+          "moduleId": "bld_roof_ridge_200_001",
+          "location": [
+            0,
+            3,
+            3.4
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "roof"
+        },
+        {
+          "moduleId": "bld_gable_end_600_001",
+          "location": [
+            0,
+            0,
+            3.4
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "wall.south"
+        },
+        {
+          "moduleId": "bld_gable_trim_600_001",
+          "location": [
+            0,
+            0,
+            3.4
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "roof"
+        },
+        {
+          "moduleId": "bld_gable_end_600_001",
+          "location": [
+            0,
+            4,
+            3.4
+          ],
+          "rotationZDegrees": 180,
+          "hideGroup": "wall.north"
+        },
+        {
+          "moduleId": "bld_gable_trim_600_001",
+          "location": [
+            0,
+            4,
+            3.4
+          ],
+          "rotationZDegrees": 180,
+          "hideGroup": "roof"
+        },
+        {
+          "moduleId": "bld_porch_200_001",
+          "location": [
+            2,
+            -1,
+            0
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "porch"
+        },
+        {
+          "moduleId": "bld_porch_canopy_200_001",
+          "location": [
+            2,
+            0,
+            3.1
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "roof"
+        },
+        {
+          "moduleId": "bld_porch_post_001",
+          "location": [
+            1,
+            -1.94,
+            0.6
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "porch"
+        },
+        {
+          "moduleId": "bld_porch_post_001",
+          "location": [
+            3,
+            -1.94,
+            0.6
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "porch"
+        },
+        {
+          "moduleId": "bld_porch_steps_001",
+          "location": [
+            2,
+            -2,
+            0
+          ],
+          "rotationZDegrees": 0,
+          "hideGroup": "porch"
+        }
+      ],
+      "sharedMeshData": true,
+      "saveReopenExactGeometry": true,
+      "glbRoundtripExactPositions5DecimalsAndTriangles": true,
+      "newModuleIds": []
+    },
+    "reusedProps": [
+      {
+        "assetId": "prop_porch_rocking_chair_001",
+        "location": [
+          -2.25,
+          -0.7,
+          0.6
+        ],
+        "rotationZDegrees": -8,
+        "rotationXDegrees": 0
+      },
+      {
+        "assetId": "prop_porch_bench_001",
+        "location": [
+          -1.2,
+          -0.46,
+          0.6
+        ],
+        "rotationZDegrees": 0,
+        "rotationXDegrees": 0
+      },
+      {
+        "assetId": "prop_flower_pot_001",
+        "location": [
+          -2.63,
+          -1.57,
+          0.6
+        ],
+        "rotationZDegrees": 0,
+        "rotationXDegrees": 0
+      },
+      {
+        "assetId": "prop_old_watering_can_001",
+        "location": [
+          -1.97,
+          -1.45,
+          0.6
+        ],
+        "rotationZDegrees": -20,
+        "rotationXDegrees": 0
+      },
+      {
+        "assetId": "prop_wooden_crate_001",
+        "location": [
+          0.62,
+          -0.52,
+          0.92
+        ],
+        "rotationZDegrees": 0,
+        "rotationXDegrees": 180
+      },
+      {
+        "assetId": "prop_flower_pot_002",
+        "location": [
+          0.62,
+          -0.52,
+          0.9205
+        ],
+        "rotationZDegrees": 0,
+        "rotationXDegrees": 0
+      },
+      {
+        "assetId": "prop_welcome_mat_001",
+        "location": [
+          0,
+          -0.43,
+          0.6005
+        ],
+        "rotationZDegrees": 0,
+        "rotationXDegrees": 0
+      },
+      {
+        "assetId": "prop_porch_lantern_001",
+        "location": [
+          0.78,
+          -0.248,
+          2.3
+        ],
+        "rotationZDegrees": 0,
+        "rotationXDegrees": 0
+      },
+      {
+        "assetId": "prop_mailbox_001",
+        "location": [
+          -3.8,
+          -3.4,
+          0
+        ],
+        "rotationZDegrees": -12,
+        "rotationXDegrees": 0
+      },
+      {
+        "assetId": "prop_wooden_fence_001",
+        "location": [
+          -2.55,
+          -3.7,
+          0
+        ],
+        "rotationZDegrees": 0,
+        "rotationXDegrees": 0
+      },
+      {
+        "assetId": "prop_wooden_fence_001",
+        "location": [
+          1.95,
+          -3.7,
+          0
+        ],
+        "rotationZDegrees": 0,
+        "rotationXDegrees": 0
+      },
+      {
+        "assetId": "prop_fence_post_001",
+        "location": [
+          -3.3,
+          -3.7,
+          0
+        ],
+        "rotationZDegrees": 0,
+        "rotationXDegrees": 0
+      },
+      {
+        "assetId": "prop_fence_post_001",
+        "location": [
+          -1.8,
+          -3.7,
+          0
+        ],
+        "rotationZDegrees": 0,
+        "rotationXDegrees": 0
+      },
+      {
+        "assetId": "prop_fence_post_001",
+        "location": [
+          1.2,
+          -3.7,
+          0
+        ],
+        "rotationZDegrees": 0,
+        "rotationXDegrees": 0
+      },
+      {
+        "assetId": "prop_fence_post_001",
+        "location": [
+          2.7,
+          -3.7,
+          0
+        ],
+        "rotationZDegrees": 0,
+        "rotationXDegrees": 0
+      }
+    ]
+  },
+  "references": {
+    "prop_fence_post_001": {
+      "sha256": "c57540ce7af827c69062fdc09cd3f1054e21b2ae106229fc82c2bb78387287d0",
+      "unchangedPinnedGLB": true
+    },
+    "prop_flower_pot_001": {
+      "sha256": "0d234a932a58fbd37b7aba1dc0090a9296258884db072f3abc531383328ff929",
+      "unchangedPinnedGLB": true
+    },
+    "prop_flower_pot_002": {
+      "sha256": "e13cb5406359a9f3e28a0ef0126412beb95ee51906263969cc3a80cc87255d83",
+      "unchangedPinnedGLB": true
+    },
+    "prop_mailbox_001": {
+      "sha256": "b243a55a5d92da3cd3a51c3957d0b1e1f1b9737ad8f6ed988121bae69e654698",
+      "unchangedPinnedGLB": true
+    },
+    "prop_old_watering_can_001": {
+      "sha256": "617dff2f0e10289f2a608e1a488955a8924cb39f89a5c0d4070189ecac6a9bc3",
+      "unchangedPinnedGLB": true
+    },
+    "prop_porch_bench_001": {
+      "sha256": "491ac2c369c1724c0b152a8d0b9f751e2b684421ee3851b3da0f44838e5b0d61",
+      "unchangedPinnedGLB": true
+    },
+    "prop_porch_lantern_001": {
+      "sha256": "2234d5936b2a2dd5f1f047250d2ad944003bf8d70aa669b3652765ae2532de46",
+      "unchangedPinnedGLB": true
+    },
+    "prop_porch_rocking_chair_001": {
+      "sha256": "e941a889b616ddd0b6336cc512cbac371f90c4e228fdf24bfda144162ea79207",
+      "unchangedPinnedGLB": true
+    },
+    "prop_welcome_mat_001": {
+      "sha256": "727ed0bb5326a3c715891e3ff509a28548b851fc739ccad294d2980f9372cee4",
+      "unchangedPinnedGLB": true
+    },
+    "prop_wooden_crate_001": {
+      "sha256": "b4baa1d795966f2a7331d0740bcc216f788d44b49d93bfe66ee1d63a6527630d",
+      "unchangedPinnedGLB": true
+    },
+    "prop_wooden_fence_001": {
+      "sha256": "95e4c3ea7fe2215fb9e5af25b5db3d94c5d971a484a027c5cbc90159d0b8c68a",
+      "unchangedPinnedGLB": true
+    }
+  },
+  "reviewImages": {
+    "alternate-house.png": "0ce94f5342981aaef64a993c91606bd2518f8c3a54ed457f531af6fe60027401",
+    "contact-sheet.png": "50666ba51caac5a1e9d4d7a85d33a198eea37f4ff49de929657247093c4ed02d",
+    "walter-cutaway.png": "b0a1815288ff410db637db293af4837dd332820384fd44d9b29df4c2eff924c3",
+    "walter-entry-6m.png": "84b5cb23968df0174840862926678f8fefa98c9677f19a96f6628cccfdb8f7df",
+    "walter-game-16m.png": "c1c11e8a9bf12d3d59547616d4c8f7e2dba00f38ac6704cdbe8acfeed993d9c9",
+    "walter-roof-hidden.png": "e06c7fd17d255dc85c15fffc80bdf319ddfe23121123f718fcb11b181a7ea27d",
+    "walter-three-quarter.png": "4f788f83ad21326f2deb2a37338e39e59c842d1e08083c20e666f379892c4d8a"
+  },
+  "limits": [
+    "No Unity import, URP appearance, runtime collision/navigation or gameplay tests.",
+    "Closed construction solids overlap at intended joints; no exhaustive intersection/UV/lightmap proof."
+  ]
+}

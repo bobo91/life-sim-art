@@ -1,0 +1,60 @@
+name: Willow Creek Modular Building System
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/*building*'
+      - 'scripts/walter_common.py'
+      - 'scripts/props_walter.py'
+      - 'scripts/walter_mailbox_reference.py'
+      - 'configs/modular-building.json'
+      - 'configs/prop_porch*'
+      - 'configs/prop_flower*'
+      - 'configs/prop_wooden*'
+      - 'configs/prop_fence*'
+      - 'configs/prop_welcome_mat_001.json'
+      - 'configs/prop_old_watering_can_001.json'
+      - 'configs/walter-mailbox-reference.json'
+      - 'art_pipeline/**'
+      - 'tests/**'
+      - 'docs/buildings/**'
+      - 'reports/modular-building-v0.1.0/**'
+      - '.github/workflows/modular-building.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate-modular-building:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run independent validator regressions
+        run: python -m unittest discover -s tests -v
+      - name: Install portable contact-sheet dependency
+        run: python -m pip install Pillow==12.3.0
+      - name: Install official pinned Blender and verify checksum
+        shell: bash
+        run: |
+          curl --fail --location --retry 3 https://download.blender.org/release/Blender4.5/blender-4.5.14-linux-x64.tar.xz --output "$RUNNER_TEMP/blender.tar.xz"
+          printf '%s  %s\n' '9ba871ff2ecd36526b77432745980b7e6664ecd0c7ca11c48849073dcfe06da3' "$RUNNER_TEMP/blender.tar.xz" | sha256sum --check -
+          tar --extract --file "$RUNNER_TEMP/blender.tar.xz" --directory "$RUNNER_TEMP"
+          printf 'BLENDER_BIN=%s\n' "$RUNNER_TEMP/blender-4.5.14-linux-x64/blender" >> "$GITHUB_ENV"
+      - name: Reproduce modules, houses, roundtrips and actual render views
+        shell: bash
+        run: |
+          python scripts/run_modular_building.py --blender "$BLENDER_BIN" --output build/modular-building/ci
+          python scripts/compose_modular_building.py --input build/modular-building/ci --output build/modular-building/ci/review
+          python scripts/package_modular_building.py --input build/modular-building/ci --output build/artifacts/modular-building-v0.1.0-review.1.zip
+      - name: Publish versioned models, editable Blender and review bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: modular-building-v0.1.0-${{ github.sha }}-${{ github.run_attempt }}
+          path: build/artifacts/modular-building-v0.1.0-review.1.zip*
+          if-no-files-found: error
+          retention-days: 30
+          compression-level: 0

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "1.0",
+  "requestId": "WALTER-PORCH-001",
+  "assetId": "prop_wooden_fence_001",
+  "version": "0.1.0",
+  "seed": 6207,
+  "blenderVersion": "4.5.14",
+  "dimensionsMeters": [
+    1.38,
+    0.812,
+    0.072
+  ],
+  "maxTriangles": 2500,
+  "preview": {
+    "resolution": 640,
+    "samples": 32
+  },
+  "palette": {
+    "timber": {
+      "color": "#9E7959",
+      "roughness": 0.78,
+      "metallic": 0
+    },
+    "faded": {
+      "color": "#AF9272",
+      "roughness": 0.85,
+      "metallic": 0
+    },
+    "frame": {
+      "color": "#70664F",
+      "roughness": 0.84,
+      "metallic": 0
+    }
+  },
+  "collisionProposal": "Continuous section box for navigation. Post spacing1.5m; rail endpoints\u00b1.69X butt to.12m post faces.",
+  "authoringNotes": {
+    "style": "Original warm aged timber, muted sage/terracotta; broad wear only. No external assets.",
+    "scope": "Static prop; meters, bottom-centre root, source+Zup/-Yfront, GLB+Yup/+Zfront. No game integration."
+  },
+  "moduleContract": {
+    "postCenterSpacingMeters": 1.5,
+    "connectionCentersSourceX": [
+      -0.75,
+      0.75
+    ],
+    "railEndpointsSourceX": [
+      -0.69,
+      0.69
+    ],
+    "picketCount": 9
+  }
+}
