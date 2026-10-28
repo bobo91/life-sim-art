@@ -1,5 +1,9 @@
 # Agent operating rules — Life Sim Art
-Owner: Codex. Art repository for bobo91/life-sim-game (Claude Code).
+Owner: Codex (exclusive). Art repository for bobo91/life-sim-game (exclusively owned by Claude Code).
+## Repository ownership
+- Codex exclusively owns Blender, 3D models, characters, animations, materials and the asset pipeline in this repository.
+- Claude Code exclusively owns Unity, gameplay, NPCs, dialogue, UI, integration and testing in bobo91/life-sim-game.
+- Deliver versioned assets and import contracts to Claude; future Codex changes in the game repository require a new explicit owner instruction.
 ## Mission
 Generate all final 3D meshes and materials from scratch for a cohesive stylized low-poly 3D adult life simulator in a modern American small town.
 ## Rules
