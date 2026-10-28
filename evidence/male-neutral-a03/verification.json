@@ -1,0 +1,3789 @@
+{
+  "schema": "male-neutral-a01-static-validation-v1",
+  "assetId": "chr_player_male_poc_001",
+  "blender": "4.5.14 LTS",
+  "startedUtc": "2026-10-28T18:35:26.068704+00:00",
+  "checks": [
+    {
+      "stage": "savedBlendReopen",
+      "name": "asset mesh names",
+      "status": "pass",
+      "actual": [
+        "M01_body",
+        "M01_eyebrows",
+        "M01_eyes",
+        "M01_hair_base",
+        "M01_head",
+        "M01_pants",
+        "M01_shirt",
+        "M01_shoes_base",
+        "M01_shoes_bottom",
+        "M01_shoes_parts"
+      ],
+      "expected": [
+        "M01_body",
+        "M01_eyebrows",
+        "M01_eyes",
+        "M01_hair_base",
+        "M01_head",
+        "M01_pants",
+        "M01_shirt",
+        "M01_shoes_base",
+        "M01_shoes_bottom",
+        "M01_shoes_parts"
+      ]
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "stable asset tags",
+      "status": "pass",
+      "actual": {
+        "M01_body": "chr_player_male_poc_001",
+        "M01_eyebrows": "chr_player_male_poc_001",
+        "M01_eyes": "chr_player_male_poc_001",
+        "M01_hair_base": "chr_player_male_poc_001",
+        "M01_head": "chr_player_male_poc_001",
+        "M01_pants": "chr_player_male_poc_001",
+        "M01_shirt": "chr_player_male_poc_001",
+        "M01_shoes_base": "chr_player_male_poc_001",
+        "M01_shoes_bottom": "chr_player_male_poc_001",
+        "M01_shoes_parts": "chr_player_male_poc_001"
+      },
+      "expected": "chr_player_male_poc_001"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "no rig objects or armature datablocks",
+      "status": "pass",
+      "actual": {
+        "objects": [],
+        "datablocks": 0
+      },
+      "expected": 0
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "no embedded rig or autorun scripts",
+      "status": "pass",
+      "actual": [],
+      "expected": []
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "no active asset drivers",
+      "status": "pass",
+      "actual": [],
+      "expected": []
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "no armature modifiers on asset",
+      "status": "pass",
+      "actual": [],
+      "expected": []
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_body: surface geometry",
+      "status": "pass",
+      "actual": {
+        "vertices": 2748,
+        "triangles": 5460
+      },
+      "expected": "nonempty surface"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_body: finite coordinates and normals",
+      "status": "pass",
+      "actual": {
+        "vertices": 0,
+        "normals": 0
+      },
+      "expected": 0
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_body: nondegenerate triangles",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_body: manifold edge junctions",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_eyebrows: surface geometry",
+      "status": "pass",
+      "actual": {
+        "vertices": 806,
+        "triangles": 1504
+      },
+      "expected": "nonempty surface"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_eyebrows: finite coordinates and normals",
+      "status": "pass",
+      "actual": {
+        "vertices": 0,
+        "normals": 0
+      },
+      "expected": 0
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_eyebrows: nondegenerate triangles",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_eyebrows: manifold edge junctions",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_eyes: surface geometry",
+      "status": "pass",
+      "actual": {
+        "vertices": 1418,
+        "triangles": 2756
+      },
+      "expected": "nonempty surface"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_eyes: finite coordinates and normals",
+      "status": "pass",
+      "actual": {
+        "vertices": 0,
+        "normals": 0
+      },
+      "expected": 0
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_eyes: nondegenerate triangles",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_eyes: manifold edge junctions",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_hair_base: surface geometry",
+      "status": "pass",
+      "actual": {
+        "vertices": 1309,
+        "triangles": 2528
+      },
+      "expected": "nonempty surface"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_hair_base: finite coordinates and normals",
+      "status": "pass",
+      "actual": {
+        "vertices": 0,
+        "normals": 0
+      },
+      "expected": 0
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_hair_base: nondegenerate triangles",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_hair_base: manifold edge junctions",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_head: surface geometry",
+      "status": "pass",
+      "actual": {
+        "vertices": 3719,
+        "triangles": 7264
+      },
+      "expected": "nonempty surface"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_head: finite coordinates and normals",
+      "status": "pass",
+      "actual": {
+        "vertices": 0,
+        "normals": 0
+      },
+      "expected": 0
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_head: nondegenerate triangles",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_head: manifold edge junctions",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_pants: surface geometry",
+      "status": "pass",
+      "actual": {
+        "vertices": 1724,
+        "triangles": 3365
+      },
+      "expected": "nonempty surface"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_pants: finite coordinates and normals",
+      "status": "pass",
+      "actual": {
+        "vertices": 0,
+        "normals": 0
+      },
+      "expected": 0
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_pants: nondegenerate triangles",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_pants: manifold edge junctions",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shirt: surface geometry",
+      "status": "pass",
+      "actual": {
+        "vertices": 1240,
+        "triangles": 2368
+      },
+      "expected": "nonempty surface"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shirt: finite coordinates and normals",
+      "status": "pass",
+      "actual": {
+        "vertices": 0,
+        "normals": 0
+      },
+      "expected": 0
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shirt: nondegenerate triangles",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shirt: manifold edge junctions",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shoes_base: surface geometry",
+      "status": "pass",
+      "actual": {
+        "vertices": 591,
+        "triangles": 1130
+      },
+      "expected": "nonempty surface"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shoes_base: finite coordinates and normals",
+      "status": "pass",
+      "actual": {
+        "vertices": 0,
+        "normals": 0
+      },
+      "expected": 0
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shoes_base: nondegenerate triangles",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shoes_base: manifold edge junctions",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shoes_bottom: surface geometry",
+      "status": "pass",
+      "actual": {
+        "vertices": 376,
+        "triangles": 576
+      },
+      "expected": "nonempty surface"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shoes_bottom: finite coordinates and normals",
+      "status": "pass",
+      "actual": {
+        "vertices": 0,
+        "normals": 0
+      },
+      "expected": 0
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shoes_bottom: nondegenerate triangles",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shoes_bottom: manifold edge junctions",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shoes_parts: surface geometry",
+      "status": "pass",
+      "actual": {
+        "vertices": 1478,
+        "triangles": 2416
+      },
+      "expected": "nonempty surface"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shoes_parts: finite coordinates and normals",
+      "status": "pass",
+      "actual": {
+        "vertices": 0,
+        "normals": 0
+      },
+      "expected": 0
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shoes_parts: nondegenerate triangles",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shoes_parts: manifold edge junctions",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_body: exact vertices",
+      "status": "pass",
+      "actual": 2748,
+      "expected": 2748
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_body: exact triangles",
+      "status": "pass",
+      "actual": 5460,
+      "expected": 5460
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_body: exact geometrySha256",
+      "status": "pass",
+      "actual": "5abbb8b126c30c4fbb804864b5efa23eb8b699460f035c5d45a5ad3a71f4dff1",
+      "expected": "5abbb8b126c30c4fbb804864b5efa23eb8b699460f035c5d45a5ad3a71f4dff1"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_body: expected AABB",
+      "status": "pass",
+      "actual": 0.0,
+      "expected": {
+        "maximumErrorMeters": 0.0001
+      }
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_eyebrows: exact vertices",
+      "status": "pass",
+      "actual": 806,
+      "expected": 806
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_eyebrows: exact triangles",
+      "status": "pass",
+      "actual": 1504,
+      "expected": 1504
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_eyebrows: exact geometrySha256",
+      "status": "pass",
+      "actual": "24b8fe665cd9d72279fa26e04be19d2ba212618b9e6bb6e2be267776ef21a13c",
+      "expected": "24b8fe665cd9d72279fa26e04be19d2ba212618b9e6bb6e2be267776ef21a13c"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_eyebrows: expected AABB",
+      "status": "pass",
+      "actual": 0.0,
+      "expected": {
+        "maximumErrorMeters": 0.0001
+      }
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_eyes: exact vertices",
+      "status": "pass",
+      "actual": 1418,
+      "expected": 1418
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_eyes: exact triangles",
+      "status": "pass",
+      "actual": 2756,
+      "expected": 2756
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_eyes: exact geometrySha256",
+      "status": "pass",
+      "actual": "8a0872e241e2a8ef21b19b5648b819c909cec73790c26992b91af309da37b01a",
+      "expected": "8a0872e241e2a8ef21b19b5648b819c909cec73790c26992b91af309da37b01a"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_eyes: expected AABB",
+      "status": "pass",
+      "actual": 0.0,
+      "expected": {
+        "maximumErrorMeters": 0.0001
+      }
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_hair_base: exact vertices",
+      "status": "pass",
+      "actual": 1309,
+      "expected": 1309
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_hair_base: exact triangles",
+      "status": "pass",
+      "actual": 2528,
+      "expected": 2528
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_hair_base: exact geometrySha256",
+      "status": "pass",
+      "actual": "d7c77d8f16fad82e32b25ae4e6f481782359bfebc1139e8be38570c873db1aac",
+      "expected": "d7c77d8f16fad82e32b25ae4e6f481782359bfebc1139e8be38570c873db1aac"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_hair_base: expected AABB",
+      "status": "pass",
+      "actual": 0.0,
+      "expected": {
+        "maximumErrorMeters": 0.0001
+      }
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_head: exact vertices",
+      "status": "pass",
+      "actual": 3719,
+      "expected": 3719
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_head: exact triangles",
+      "status": "pass",
+      "actual": 7264,
+      "expected": 7264
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_head: exact geometrySha256",
+      "status": "pass",
+      "actual": "461370a918be1486ed2d16b5212dbbf964ef808dd466a4a39b3444c74e2da234",
+      "expected": "461370a918be1486ed2d16b5212dbbf964ef808dd466a4a39b3444c74e2da234"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_head: expected AABB",
+      "status": "pass",
+      "actual": 0.0,
+      "expected": {
+        "maximumErrorMeters": 0.0001
+      }
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_pants: exact vertices",
+      "status": "pass",
+      "actual": 1724,
+      "expected": 1724
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_pants: exact triangles",
+      "status": "pass",
+      "actual": 3365,
+      "expected": 3365
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_pants: exact geometrySha256",
+      "status": "pass",
+      "actual": "f595a6f151cbd250f565e697777e35a6999c3071b914219ed8a93f106635c017",
+      "expected": "f595a6f151cbd250f565e697777e35a6999c3071b914219ed8a93f106635c017"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_pants: expected AABB",
+      "status": "pass",
+      "actual": 0.0,
+      "expected": {
+        "maximumErrorMeters": 0.0001
+      }
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shirt: exact vertices",
+      "status": "pass",
+      "actual": 1240,
+      "expected": 1240
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shirt: exact triangles",
+      "status": "pass",
+      "actual": 2368,
+      "expected": 2368
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shirt: exact geometrySha256",
+      "status": "pass",
+      "actual": "ba02b0f701c7dd3c204707d937f9a44387a1d3c078d468624f173d022291a3ba",
+      "expected": "ba02b0f701c7dd3c204707d937f9a44387a1d3c078d468624f173d022291a3ba"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shirt: expected AABB",
+      "status": "pass",
+      "actual": 0.0,
+      "expected": {
+        "maximumErrorMeters": 0.0001
+      }
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shoes_base: exact vertices",
+      "status": "pass",
+      "actual": 591,
+      "expected": 591
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shoes_base: exact triangles",
+      "status": "pass",
+      "actual": 1130,
+      "expected": 1130
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shoes_base: exact geometrySha256",
+      "status": "pass",
+      "actual": "28e0f653cbf26fed03d24884e96a72fac85b5fdd5178a7efa6a536561f54a08f",
+      "expected": "28e0f653cbf26fed03d24884e96a72fac85b5fdd5178a7efa6a536561f54a08f"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shoes_base: expected AABB",
+      "status": "pass",
+      "actual": 0.0,
+      "expected": {
+        "maximumErrorMeters": 0.0001
+      }
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shoes_bottom: exact vertices",
+      "status": "pass",
+      "actual": 376,
+      "expected": 376
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shoes_bottom: exact triangles",
+      "status": "pass",
+      "actual": 576,
+      "expected": 576
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shoes_bottom: exact geometrySha256",
+      "status": "pass",
+      "actual": "723d2a3ced53ff7e84c4ebe3ce8f5ddb7a15e06721d910c95ad5755dfb23abde",
+      "expected": "723d2a3ced53ff7e84c4ebe3ce8f5ddb7a15e06721d910c95ad5755dfb23abde"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shoes_bottom: expected AABB",
+      "status": "pass",
+      "actual": 0.0,
+      "expected": {
+        "maximumErrorMeters": 0.0001
+      }
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shoes_parts: exact vertices",
+      "status": "pass",
+      "actual": 1478,
+      "expected": 1478
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shoes_parts: exact triangles",
+      "status": "pass",
+      "actual": 2416,
+      "expected": 2416
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shoes_parts: exact geometrySha256",
+      "status": "pass",
+      "actual": "7db8672d9c4e756865a9ddfe837752b6d0a956bb90f8e13be2709236bfd0dff4",
+      "expected": "7db8672d9c4e756865a9ddfe837752b6d0a956bb90f8e13be2709236bfd0dff4"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shoes_parts: expected AABB",
+      "status": "pass",
+      "actual": 0.0,
+      "expected": {
+        "maximumErrorMeters": 0.0001
+      }
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_body: material assignments",
+      "status": "pass",
+      "actual": [
+        "M01_skin"
+      ],
+      "expected": "at least one assigned material; no empty slots"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_eyebrows: material assignments",
+      "status": "pass",
+      "actual": [
+        "M01_hair"
+      ],
+      "expected": "at least one assigned material; no empty slots"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_eyes: material assignments",
+      "status": "pass",
+      "actual": [
+        "M01_eyes"
+      ],
+      "expected": "at least one assigned material; no empty slots"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_hair_base: material assignments",
+      "status": "pass",
+      "actual": [
+        "M01_hair"
+      ],
+      "expected": "at least one assigned material; no empty slots"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_head: material assignments",
+      "status": "pass",
+      "actual": [
+        "M01_skin",
+        "M01_skin_darker",
+        "M01_skin_upper_lip",
+        "M01_skin_lower_lip"
+      ],
+      "expected": "at least one assigned material; no empty slots"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_pants: material assignments",
+      "status": "pass",
+      "actual": [
+        "M01_pants"
+      ],
+      "expected": "at least one assigned material; no empty slots"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shirt: material assignments",
+      "status": "pass",
+      "actual": [
+        "M01_shirt"
+      ],
+      "expected": "at least one assigned material; no empty slots"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shoes_base: material assignments",
+      "status": "pass",
+      "actual": [
+        "M01_canvas_shoes"
+      ],
+      "expected": "at least one assigned material; no empty slots"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shoes_bottom: material assignments",
+      "status": "pass",
+      "actual": [
+        "M01_canvas_shoes"
+      ],
+      "expected": "at least one assigned material; no empty slots"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shoes_parts: material assignments",
+      "status": "pass",
+      "actual": [
+        "M01_canvas_shoes"
+      ],
+      "expected": "at least one assigned material; no empty slots"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_canvas_shoes: PBR surface",
+      "status": "pass",
+      "actual": {
+        "principled": 1,
+        "activeOutputs": 1
+      },
+      "expected": "Principled surface linked to active material output"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_canvas_shoes: finite PBR values",
+      "status": "pass",
+      "actual": {
+        "scalarComponents": 7
+      },
+      "expected": "all finite"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_canvas_shoes: texture shoes_diffuse.png.001",
+      "status": "pass",
+      "actual": {
+        "packed": true,
+        "missingFiles": [],
+        "source": "FILE"
+      },
+      "expected": "packed/generated image or existing files"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_canvas_shoes: texture shoes_roughness.png.001",
+      "status": "pass",
+      "actual": {
+        "packed": true,
+        "missingFiles": [],
+        "source": "FILE"
+      },
+      "expected": "packed/generated image or existing files"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_canvas_shoes: texture shoes_normal.png.001",
+      "status": "pass",
+      "actual": {
+        "packed": true,
+        "missingFiles": [],
+        "source": "FILE"
+      },
+      "expected": "packed/generated image or existing files"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_eyes: PBR surface",
+      "status": "pass",
+      "actual": {
+        "principled": 1,
+        "activeOutputs": 1
+      },
+      "expected": "Principled surface linked to active material output"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_eyes: finite PBR values",
+      "status": "pass",
+      "actual": {
+        "scalarComponents": 7
+      },
+      "expected": "all finite"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_eyes: texture eyes_diffuse.png.001",
+      "status": "pass",
+      "actual": {
+        "packed": true,
+        "missingFiles": [],
+        "source": "FILE"
+      },
+      "expected": "packed/generated image or existing files"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_eyes: texture eyes_normal.png.001",
+      "status": "pass",
+      "actual": {
+        "packed": true,
+        "missingFiles": [],
+        "source": "FILE"
+      },
+      "expected": "packed/generated image or existing files"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_hair: PBR surface",
+      "status": "pass",
+      "actual": {
+        "principled": 1,
+        "activeOutputs": 1
+      },
+      "expected": "Principled surface linked to active material output"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_hair: finite PBR values",
+      "status": "pass",
+      "actual": {
+        "scalarComponents": 7
+      },
+      "expected": "all finite"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_pants: PBR surface",
+      "status": "pass",
+      "actual": {
+        "principled": 1,
+        "activeOutputs": 1
+      },
+      "expected": "Principled surface linked to active material output"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_pants: finite PBR values",
+      "status": "pass",
+      "actual": {
+        "scalarComponents": 7
+      },
+      "expected": "all finite"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_pants: texture pants_tinted_diffuse.png",
+      "status": "pass",
+      "actual": {
+        "packed": true,
+        "missingFiles": [],
+        "source": "FILE"
+      },
+      "expected": "packed/generated image or existing files"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_pants: texture pants_roughness.png.001",
+      "status": "pass",
+      "actual": {
+        "packed": true,
+        "missingFiles": [],
+        "source": "FILE"
+      },
+      "expected": "packed/generated image or existing files"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_pants: texture pants_normal.png.001",
+      "status": "pass",
+      "actual": {
+        "packed": true,
+        "missingFiles": [],
+        "source": "FILE"
+      },
+      "expected": "packed/generated image or existing files"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shirt: PBR surface",
+      "status": "pass",
+      "actual": {
+        "principled": 1,
+        "activeOutputs": 1
+      },
+      "expected": "Principled surface linked to active material output"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shirt: finite PBR values",
+      "status": "pass",
+      "actual": {
+        "scalarComponents": 7
+      },
+      "expected": "all finite"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_shirt: texture shirt_normal.png.001",
+      "status": "pass",
+      "actual": {
+        "packed": true,
+        "missingFiles": [],
+        "source": "FILE"
+      },
+      "expected": "packed/generated image or existing files"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_skin: PBR surface",
+      "status": "pass",
+      "actual": {
+        "principled": 1,
+        "activeOutputs": 1
+      },
+      "expected": "Principled surface linked to active material output"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_skin: finite PBR values",
+      "status": "pass",
+      "actual": {
+        "scalarComponents": 7
+      },
+      "expected": "all finite"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_skin: texture skin_diffuse_atlas.png",
+      "status": "pass",
+      "actual": {
+        "packed": true,
+        "missingFiles": [],
+        "source": "FILE"
+      },
+      "expected": "packed/generated image or existing files"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_skin_darker: PBR surface",
+      "status": "pass",
+      "actual": {
+        "principled": 1,
+        "activeOutputs": 1
+      },
+      "expected": "Principled surface linked to active material output"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_skin_darker: finite PBR values",
+      "status": "pass",
+      "actual": {
+        "scalarComponents": 7
+      },
+      "expected": "all finite"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_skin_darker: texture skin_darker_diffuse_atlas.png",
+      "status": "pass",
+      "actual": {
+        "packed": true,
+        "missingFiles": [],
+        "source": "FILE"
+      },
+      "expected": "packed/generated image or existing files"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_skin_lower_lip: PBR surface",
+      "status": "pass",
+      "actual": {
+        "principled": 1,
+        "activeOutputs": 1
+      },
+      "expected": "Principled surface linked to active material output"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_skin_lower_lip: finite PBR values",
+      "status": "pass",
+      "actual": {
+        "scalarComponents": 7
+      },
+      "expected": "all finite"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_skin_lower_lip: texture skin_lower_lip_diffuse_atlas.png",
+      "status": "pass",
+      "actual": {
+        "packed": true,
+        "missingFiles": [],
+        "source": "FILE"
+      },
+      "expected": "packed/generated image or existing files"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_skin_upper_lip: PBR surface",
+      "status": "pass",
+      "actual": {
+        "principled": 1,
+        "activeOutputs": 1
+      },
+      "expected": "Principled surface linked to active material output"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_skin_upper_lip: finite PBR values",
+      "status": "pass",
+      "actual": {
+        "scalarComponents": 7
+      },
+      "expected": "all finite"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "M01_skin_upper_lip: texture skin_upper_lip_diffuse_atlas.png",
+      "status": "pass",
+      "actual": {
+        "packed": true,
+        "missingFiles": [],
+        "source": "FILE"
+      },
+      "expected": "packed/generated image or existing files"
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "expected global dimensionsMeters",
+      "status": "pass",
+      "actual": {
+        "dimensionsMeters": [
+          1.7383147478103638,
+          0.30627286434173584,
+          1.7494054030788107
+        ],
+        "maximumErrorMeters": 0.0
+      },
+      "expected": [
+        1.7383147478103638,
+        0.30627286434173584,
+        1.7494054030788107
+      ]
+    },
+    {
+      "stage": "savedBlendReopen",
+      "name": "expected global AABB",
+      "status": "pass",
+      "actual": 0.0,
+      "expected": 0.0001
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "exact imported mesh names (no extras or omissions)",
+      "status": "pass",
+      "actual": {
+        "names": [
+          "M01_body",
+          "M01_eyebrows",
+          "M01_eyes",
+          "M01_hair_base",
+          "M01_head",
+          "M01_pants",
+          "M01_shirt",
+          "M01_shoes_base",
+          "M01_shoes_bottom",
+          "M01_shoes_parts"
+        ],
+        "extras": [],
+        "missing": []
+      },
+      "expected": [
+        "M01_body",
+        "M01_eyebrows",
+        "M01_eyes",
+        "M01_hair_base",
+        "M01_head",
+        "M01_pants",
+        "M01_shirt",
+        "M01_shoes_base",
+        "M01_shoes_bottom",
+        "M01_shoes_parts"
+      ]
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "static import contains no armatures",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_body: surface geometry",
+      "status": "pass",
+      "actual": {
+        "vertices": 3244,
+        "triangles": 5460
+      },
+      "expected": "nonempty surface"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_body: finite coordinates and normals",
+      "status": "pass",
+      "actual": {
+        "vertices": 0,
+        "normals": 0
+      },
+      "expected": 0
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_body: nondegenerate triangles",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_body: manifold edge junctions",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_eyebrows: surface geometry",
+      "status": "pass",
+      "actual": {
+        "vertices": 1014,
+        "triangles": 1504
+      },
+      "expected": "nonempty surface"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_eyebrows: finite coordinates and normals",
+      "status": "pass",
+      "actual": {
+        "vertices": 0,
+        "normals": 0
+      },
+      "expected": 0
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_eyebrows: nondegenerate triangles",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_eyebrows: manifold edge junctions",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_eyes: surface geometry",
+      "status": "pass",
+      "actual": {
+        "vertices": 1482,
+        "triangles": 2756
+      },
+      "expected": "nonempty surface"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_eyes: finite coordinates and normals",
+      "status": "pass",
+      "actual": {
+        "vertices": 0,
+        "normals": 0
+      },
+      "expected": 0
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_eyes: nondegenerate triangles",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_eyes: manifold edge junctions",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_hair_base: surface geometry",
+      "status": "pass",
+      "actual": {
+        "vertices": 1309,
+        "triangles": 2528
+      },
+      "expected": "nonempty surface"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_hair_base: finite coordinates and normals",
+      "status": "pass",
+      "actual": {
+        "vertices": 0,
+        "normals": 0
+      },
+      "expected": 0
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_hair_base: nondegenerate triangles",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_hair_base: manifold edge junctions",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_head: surface geometry",
+      "status": "pass",
+      "actual": {
+        "vertices": 4118,
+        "triangles": 7264
+      },
+      "expected": "nonempty surface"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_head: finite coordinates and normals",
+      "status": "pass",
+      "actual": {
+        "vertices": 0,
+        "normals": 0
+      },
+      "expected": 0
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_head: nondegenerate triangles",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_head: manifold edge junctions",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_pants: surface geometry",
+      "status": "pass",
+      "actual": {
+        "vertices": 2070,
+        "triangles": 3365
+      },
+      "expected": "nonempty surface"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_pants: finite coordinates and normals",
+      "status": "pass",
+      "actual": {
+        "vertices": 0,
+        "normals": 0
+      },
+      "expected": 0
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_pants: nondegenerate triangles",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_pants: manifold edge junctions",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shirt: surface geometry",
+      "status": "pass",
+      "actual": {
+        "vertices": 1384,
+        "triangles": 2368
+      },
+      "expected": "nonempty surface"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shirt: finite coordinates and normals",
+      "status": "pass",
+      "actual": {
+        "vertices": 0,
+        "normals": 0
+      },
+      "expected": 0
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shirt: nondegenerate triangles",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shirt: manifold edge junctions",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shoes_base: surface geometry",
+      "status": "pass",
+      "actual": {
+        "vertices": 984,
+        "triangles": 1130
+      },
+      "expected": "nonempty surface"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shoes_base: finite coordinates and normals",
+      "status": "pass",
+      "actual": {
+        "vertices": 0,
+        "normals": 0
+      },
+      "expected": 0
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shoes_base: nondegenerate triangles",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shoes_base: manifold edge junctions",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shoes_bottom: surface geometry",
+      "status": "pass",
+      "actual": {
+        "vertices": 376,
+        "triangles": 576
+      },
+      "expected": "nonempty surface"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shoes_bottom: finite coordinates and normals",
+      "status": "pass",
+      "actual": {
+        "vertices": 0,
+        "normals": 0
+      },
+      "expected": 0
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shoes_bottom: nondegenerate triangles",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shoes_bottom: manifold edge junctions",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shoes_parts: surface geometry",
+      "status": "pass",
+      "actual": {
+        "vertices": 1813,
+        "triangles": 2416
+      },
+      "expected": "nonempty surface"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shoes_parts: finite coordinates and normals",
+      "status": "pass",
+      "actual": {
+        "vertices": 0,
+        "normals": 0
+      },
+      "expected": 0
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shoes_parts: nondegenerate triangles",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shoes_parts: manifold edge junctions",
+      "status": "pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_body: triangle count",
+      "status": "pass",
+      "actual": 5460,
+      "expected": 5460
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_body: world AABB",
+      "status": "pass",
+      "actual": 0.0,
+      "expected": 0.0001
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_body: bidirectional point cloud",
+      "status": "pass",
+      "actual": {
+        "positionEpsilonMetersPerComponent": 1e-05,
+        "sourceUniqueQuantizedPositions": 2748,
+        "importedUniqueQuantizedPositions": 2748,
+        "quantizedCoordinateSetsEqual": true,
+        "neighborBinFallbackUsed": false,
+        "sourceToImported": {
+          "unmatchedPoints": 0,
+          "examples": []
+        },
+        "importedToSource": {
+          "unmatchedPoints": 0,
+          "examples": []
+        },
+        "equivalentWithinTolerance": true
+      },
+      "expected": "same positions within stated epsilon; UV/normal seam duplication allowed"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_eyebrows: triangle count",
+      "status": "pass",
+      "actual": 1504,
+      "expected": 1504
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_eyebrows: world AABB",
+      "status": "pass",
+      "actual": 0.0,
+      "expected": 0.0001
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_eyebrows: bidirectional point cloud",
+      "status": "pass",
+      "actual": {
+        "positionEpsilonMetersPerComponent": 1e-05,
+        "sourceUniqueQuantizedPositions": 806,
+        "importedUniqueQuantizedPositions": 806,
+        "quantizedCoordinateSetsEqual": true,
+        "neighborBinFallbackUsed": false,
+        "sourceToImported": {
+          "unmatchedPoints": 0,
+          "examples": []
+        },
+        "importedToSource": {
+          "unmatchedPoints": 0,
+          "examples": []
+        },
+        "equivalentWithinTolerance": true
+      },
+      "expected": "same positions within stated epsilon; UV/normal seam duplication allowed"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_eyes: triangle count",
+      "status": "pass",
+      "actual": 2756,
+      "expected": 2756
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_eyes: world AABB",
+      "status": "pass",
+      "actual": 0.0,
+      "expected": 0.0001
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_eyes: bidirectional point cloud",
+      "status": "pass",
+      "actual": {
+        "positionEpsilonMetersPerComponent": 1e-05,
+        "sourceUniqueQuantizedPositions": 1418,
+        "importedUniqueQuantizedPositions": 1418,
+        "quantizedCoordinateSetsEqual": true,
+        "neighborBinFallbackUsed": false,
+        "sourceToImported": {
+          "unmatchedPoints": 0,
+          "examples": []
+        },
+        "importedToSource": {
+          "unmatchedPoints": 0,
+          "examples": []
+        },
+        "equivalentWithinTolerance": true
+      },
+      "expected": "same positions within stated epsilon; UV/normal seam duplication allowed"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_hair_base: triangle count",
+      "status": "pass",
+      "actual": 2528,
+      "expected": 2528
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_hair_base: world AABB",
+      "status": "pass",
+      "actual": 0.0,
+      "expected": 0.0001
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_hair_base: bidirectional point cloud",
+      "status": "pass",
+      "actual": {
+        "positionEpsilonMetersPerComponent": 1e-05,
+        "sourceUniqueQuantizedPositions": 1309,
+        "importedUniqueQuantizedPositions": 1309,
+        "quantizedCoordinateSetsEqual": true,
+        "neighborBinFallbackUsed": false,
+        "sourceToImported": {
+          "unmatchedPoints": 0,
+          "examples": []
+        },
+        "importedToSource": {
+          "unmatchedPoints": 0,
+          "examples": []
+        },
+        "equivalentWithinTolerance": true
+      },
+      "expected": "same positions within stated epsilon; UV/normal seam duplication allowed"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_head: triangle count",
+      "status": "pass",
+      "actual": 7264,
+      "expected": 7264
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_head: world AABB",
+      "status": "pass",
+      "actual": 0.0,
+      "expected": 0.0001
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_head: bidirectional point cloud",
+      "status": "pass",
+      "actual": {
+        "positionEpsilonMetersPerComponent": 1e-05,
+        "sourceUniqueQuantizedPositions": 3719,
+        "importedUniqueQuantizedPositions": 3719,
+        "quantizedCoordinateSetsEqual": true,
+        "neighborBinFallbackUsed": false,
+        "sourceToImported": {
+          "unmatchedPoints": 0,
+          "examples": []
+        },
+        "importedToSource": {
+          "unmatchedPoints": 0,
+          "examples": []
+        },
+        "equivalentWithinTolerance": true
+      },
+      "expected": "same positions within stated epsilon; UV/normal seam duplication allowed"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_pants: triangle count",
+      "status": "pass",
+      "actual": 3365,
+      "expected": 3365
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_pants: world AABB",
+      "status": "pass",
+      "actual": 0.0,
+      "expected": 0.0001
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_pants: bidirectional point cloud",
+      "status": "pass",
+      "actual": {
+        "positionEpsilonMetersPerComponent": 1e-05,
+        "sourceUniqueQuantizedPositions": 1724,
+        "importedUniqueQuantizedPositions": 1724,
+        "quantizedCoordinateSetsEqual": true,
+        "neighborBinFallbackUsed": false,
+        "sourceToImported": {
+          "unmatchedPoints": 0,
+          "examples": []
+        },
+        "importedToSource": {
+          "unmatchedPoints": 0,
+          "examples": []
+        },
+        "equivalentWithinTolerance": true
+      },
+      "expected": "same positions within stated epsilon; UV/normal seam duplication allowed"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shirt: triangle count",
+      "status": "pass",
+      "actual": 2368,
+      "expected": 2368
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shirt: world AABB",
+      "status": "pass",
+      "actual": 0.0,
+      "expected": 0.0001
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shirt: bidirectional point cloud",
+      "status": "pass",
+      "actual": {
+        "positionEpsilonMetersPerComponent": 1e-05,
+        "sourceUniqueQuantizedPositions": 1240,
+        "importedUniqueQuantizedPositions": 1240,
+        "quantizedCoordinateSetsEqual": true,
+        "neighborBinFallbackUsed": false,
+        "sourceToImported": {
+          "unmatchedPoints": 0,
+          "examples": []
+        },
+        "importedToSource": {
+          "unmatchedPoints": 0,
+          "examples": []
+        },
+        "equivalentWithinTolerance": true
+      },
+      "expected": "same positions within stated epsilon; UV/normal seam duplication allowed"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shoes_base: triangle count",
+      "status": "pass",
+      "actual": 1130,
+      "expected": 1130
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shoes_base: world AABB",
+      "status": "pass",
+      "actual": 0.0,
+      "expected": 0.0001
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shoes_base: bidirectional point cloud",
+      "status": "pass",
+      "actual": {
+        "positionEpsilonMetersPerComponent": 1e-05,
+        "sourceUniqueQuantizedPositions": 591,
+        "importedUniqueQuantizedPositions": 591,
+        "quantizedCoordinateSetsEqual": true,
+        "neighborBinFallbackUsed": false,
+        "sourceToImported": {
+          "unmatchedPoints": 0,
+          "examples": []
+        },
+        "importedToSource": {
+          "unmatchedPoints": 0,
+          "examples": []
+        },
+        "equivalentWithinTolerance": true
+      },
+      "expected": "same positions within stated epsilon; UV/normal seam duplication allowed"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shoes_bottom: triangle count",
+      "status": "pass",
+      "actual": 576,
+      "expected": 576
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shoes_bottom: world AABB",
+      "status": "pass",
+      "actual": 0.0,
+      "expected": 0.0001
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shoes_bottom: bidirectional point cloud",
+      "status": "pass",
+      "actual": {
+        "positionEpsilonMetersPerComponent": 1e-05,
+        "sourceUniqueQuantizedPositions": 376,
+        "importedUniqueQuantizedPositions": 376,
+        "quantizedCoordinateSetsEqual": true,
+        "neighborBinFallbackUsed": false,
+        "sourceToImported": {
+          "unmatchedPoints": 0,
+          "examples": []
+        },
+        "importedToSource": {
+          "unmatchedPoints": 0,
+          "examples": []
+        },
+        "equivalentWithinTolerance": true
+      },
+      "expected": "same positions within stated epsilon; UV/normal seam duplication allowed"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shoes_parts: triangle count",
+      "status": "pass",
+      "actual": 2416,
+      "expected": 2416
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shoes_parts: world AABB",
+      "status": "pass",
+      "actual": 0.0,
+      "expected": 0.0001
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shoes_parts: bidirectional point cloud",
+      "status": "pass",
+      "actual": {
+        "positionEpsilonMetersPerComponent": 1e-05,
+        "sourceUniqueQuantizedPositions": 1478,
+        "importedUniqueQuantizedPositions": 1478,
+        "quantizedCoordinateSetsEqual": true,
+        "neighborBinFallbackUsed": false,
+        "sourceToImported": {
+          "unmatchedPoints": 0,
+          "examples": []
+        },
+        "importedToSource": {
+          "unmatchedPoints": 0,
+          "examples": []
+        },
+        "equivalentWithinTolerance": true
+      },
+      "expected": "same positions within stated epsilon; UV/normal seam duplication allowed"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_body: material assignments",
+      "status": "pass",
+      "actual": [
+        "M01_skin"
+      ],
+      "expected": "at least one assigned material; no empty slots"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_eyebrows: material assignments",
+      "status": "pass",
+      "actual": [
+        "M01_hair"
+      ],
+      "expected": "at least one assigned material; no empty slots"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_eyes: material assignments",
+      "status": "pass",
+      "actual": [
+        "M01_eyes"
+      ],
+      "expected": "at least one assigned material; no empty slots"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_hair_base: material assignments",
+      "status": "pass",
+      "actual": [
+        "M01_hair"
+      ],
+      "expected": "at least one assigned material; no empty slots"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_head: material assignments",
+      "status": "pass",
+      "actual": [
+        "M01_skin",
+        "M01_skin_darker",
+        "M01_skin_upper_lip",
+        "M01_skin_lower_lip"
+      ],
+      "expected": "at least one assigned material; no empty slots"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_pants: material assignments",
+      "status": "pass",
+      "actual": [
+        "M01_pants"
+      ],
+      "expected": "at least one assigned material; no empty slots"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shirt: material assignments",
+      "status": "pass",
+      "actual": [
+        "M01_shirt"
+      ],
+      "expected": "at least one assigned material; no empty slots"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shoes_base: material assignments",
+      "status": "pass",
+      "actual": [
+        "M01_canvas_shoes"
+      ],
+      "expected": "at least one assigned material; no empty slots"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shoes_bottom: material assignments",
+      "status": "pass",
+      "actual": [
+        "M01_canvas_shoes"
+      ],
+      "expected": "at least one assigned material; no empty slots"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shoes_parts: material assignments",
+      "status": "pass",
+      "actual": [
+        "M01_canvas_shoes"
+      ],
+      "expected": "at least one assigned material; no empty slots"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_canvas_shoes: PBR surface",
+      "status": "pass",
+      "actual": {
+        "principled": 1,
+        "activeOutputs": 1
+      },
+      "expected": "Principled surface linked to active material output"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_canvas_shoes: finite PBR values",
+      "status": "pass",
+      "actual": {
+        "scalarComponents": 7
+      },
+      "expected": "all finite"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_canvas_shoes: texture shoes_diffuse",
+      "status": "pass",
+      "actual": {
+        "packed": true,
+        "missingFiles": [],
+        "source": "FILE"
+      },
+      "expected": "packed/generated image or existing files"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_canvas_shoes: texture shoes_roughness",
+      "status": "pass",
+      "actual": {
+        "packed": true,
+        "missingFiles": [],
+        "source": "FILE"
+      },
+      "expected": "packed/generated image or existing files"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_canvas_shoes: texture shoes_normal",
+      "status": "pass",
+      "actual": {
+        "packed": true,
+        "missingFiles": [],
+        "source": "FILE"
+      },
+      "expected": "packed/generated image or existing files"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_eyes: PBR surface",
+      "status": "pass",
+      "actual": {
+        "principled": 1,
+        "activeOutputs": 1
+      },
+      "expected": "Principled surface linked to active material output"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_eyes: finite PBR values",
+      "status": "pass",
+      "actual": {
+        "scalarComponents": 7
+      },
+      "expected": "all finite"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_eyes: texture eyes_diffuse",
+      "status": "pass",
+      "actual": {
+        "packed": true,
+        "missingFiles": [],
+        "source": "FILE"
+      },
+      "expected": "packed/generated image or existing files"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_eyes: texture eyes_normal",
+      "status": "pass",
+      "actual": {
+        "packed": true,
+        "missingFiles": [],
+        "source": "FILE"
+      },
+      "expected": "packed/generated image or existing files"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_hair: PBR surface",
+      "status": "pass",
+      "actual": {
+        "principled": 1,
+        "activeOutputs": 1
+      },
+      "expected": "Principled surface linked to active material output"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_hair: finite PBR values",
+      "status": "pass",
+      "actual": {
+        "scalarComponents": 7
+      },
+      "expected": "all finite"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_pants: PBR surface",
+      "status": "pass",
+      "actual": {
+        "principled": 1,
+        "activeOutputs": 1
+      },
+      "expected": "Principled surface linked to active material output"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_pants: finite PBR values",
+      "status": "pass",
+      "actual": {
+        "scalarComponents": 7
+      },
+      "expected": "all finite"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_pants: texture pants_tinted_diffuse",
+      "status": "pass",
+      "actual": {
+        "packed": true,
+        "missingFiles": [],
+        "source": "FILE"
+      },
+      "expected": "packed/generated image or existing files"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_pants: texture pants_roughness",
+      "status": "pass",
+      "actual": {
+        "packed": true,
+        "missingFiles": [],
+        "source": "FILE"
+      },
+      "expected": "packed/generated image or existing files"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_pants: texture pants_normal",
+      "status": "pass",
+      "actual": {
+        "packed": true,
+        "missingFiles": [],
+        "source": "FILE"
+      },
+      "expected": "packed/generated image or existing files"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shirt: PBR surface",
+      "status": "pass",
+      "actual": {
+        "principled": 1,
+        "activeOutputs": 1
+      },
+      "expected": "Principled surface linked to active material output"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shirt: finite PBR values",
+      "status": "pass",
+      "actual": {
+        "scalarComponents": 7
+      },
+      "expected": "all finite"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_shirt: texture shirt_normal",
+      "status": "pass",
+      "actual": {
+        "packed": true,
+        "missingFiles": [],
+        "source": "FILE"
+      },
+      "expected": "packed/generated image or existing files"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_skin: PBR surface",
+      "status": "pass",
+      "actual": {
+        "principled": 1,
+        "activeOutputs": 1
+      },
+      "expected": "Principled surface linked to active material output"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_skin: finite PBR values",
+      "status": "pass",
+      "actual": {
+        "scalarComponents": 7
+      },
+      "expected": "all finite"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_skin: texture skin_diffuse_atlas",
+      "status": "pass",
+      "actual": {
+        "packed": true,
+        "missingFiles": [],
+        "source": "FILE"
+      },
+      "expected": "packed/generated image or existing files"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_skin_darker: PBR surface",
+      "status": "pass",
+      "actual": {
+        "principled": 1,
+        "activeOutputs": 1
+      },
+      "expected": "Principled surface linked to active material output"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_skin_darker: finite PBR values",
+      "status": "pass",
+      "actual": {
+        "scalarComponents": 7
+      },
+      "expected": "all finite"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_skin_darker: texture skin_darker_diffuse_atlas",
+      "status": "pass",
+      "actual": {
+        "packed": true,
+        "missingFiles": [],
+        "source": "FILE"
+      },
+      "expected": "packed/generated image or existing files"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_skin_lower_lip: PBR surface",
+      "status": "pass",
+      "actual": {
+        "principled": 1,
+        "activeOutputs": 1
+      },
+      "expected": "Principled surface linked to active material output"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_skin_lower_lip: finite PBR values",
+      "status": "pass",
+      "actual": {
+        "scalarComponents": 7
+      },
+      "expected": "all finite"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_skin_lower_lip: texture skin_lower_lip_diffuse_atlas",
+      "status": "pass",
+      "actual": {
+        "packed": true,
+        "missingFiles": [],
+        "source": "FILE"
+      },
+      "expected": "packed/generated image or existing files"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_skin_upper_lip: PBR surface",
+      "status": "pass",
+      "actual": {
+        "principled": 1,
+        "activeOutputs": 1
+      },
+      "expected": "Principled surface linked to active material output"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_skin_upper_lip: finite PBR values",
+      "status": "pass",
+      "actual": {
+        "scalarComponents": 7
+      },
+      "expected": "all finite"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "M01_skin_upper_lip: texture skin_upper_lip_diffuse_atlas",
+      "status": "pass",
+      "actual": {
+        "packed": true,
+        "missingFiles": [],
+        "source": "FILE"
+      },
+      "expected": "packed/generated image or existing files"
+    },
+    {
+      "stage": "actualGlbReimport",
+      "name": "global world AABB",
+      "status": "pass",
+      "actual": 0.0,
+      "expected": 0.0001
+    }
+  ],
+  "diagnostics": [
+    {
+      "stage": "savedBlendReopen",
+      "mesh": "M01_body",
+      "boundaryEdges": 32,
+      "wireEdges": 0,
+      "zeroLengthVertexNormals": 0,
+      "note": "Open part boundaries are not an automatic failure; counts do not certify visible seams or anatomical contacts."
+    },
+    {
+      "stage": "savedBlendReopen",
+      "mesh": "M01_eyebrows",
+      "boundaryEdges": 104,
+      "wireEdges": 0,
+      "zeroLengthVertexNormals": 0,
+      "note": "Open part boundaries are not an automatic failure; counts do not certify visible seams or anatomical contacts."
+    },
+    {
+      "stage": "savedBlendReopen",
+      "mesh": "M01_eyes",
+      "boundaryEdges": 72,
+      "wireEdges": 0,
+      "zeroLengthVertexNormals": 0,
+      "note": "Open part boundaries are not an automatic failure; counts do not certify visible seams or anatomical contacts."
+    },
+    {
+      "stage": "savedBlendReopen",
+      "mesh": "M01_hair_base",
+      "boundaryEdges": 76,
+      "wireEdges": 0,
+      "zeroLengthVertexNormals": 0,
+      "note": "Open part boundaries are not an automatic failure; counts do not certify visible seams or anatomical contacts."
+    },
+    {
+      "stage": "savedBlendReopen",
+      "mesh": "M01_head",
+      "boundaryEdges": 180,
+      "wireEdges": 0,
+      "zeroLengthVertexNormals": 0,
+      "note": "Open part boundaries are not an automatic failure; counts do not certify visible seams or anatomical contacts."
+    },
+    {
+      "stage": "savedBlendReopen",
+      "mesh": "M01_pants",
+      "boundaryEdges": 85,
+      "wireEdges": 0,
+      "zeroLengthVertexNormals": 0,
+      "note": "Open part boundaries are not an automatic failure; counts do not certify visible seams or anatomical contacts."
+    },
+    {
+      "stage": "savedBlendReopen",
+      "mesh": "M01_shirt",
+      "boundaryEdges": 116,
+      "wireEdges": 0,
+      "zeroLengthVertexNormals": 0,
+      "note": "Open part boundaries are not an automatic failure; counts do not certify visible seams or anatomical contacts."
+    },
+    {
+      "stage": "savedBlendReopen",
+      "mesh": "M01_shoes_base",
+      "boundaryEdges": 48,
+      "wireEdges": 0,
+      "zeroLengthVertexNormals": 0,
+      "note": "Open part boundaries are not an automatic failure; counts do not certify visible seams or anatomical contacts."
+    },
+    {
+      "stage": "savedBlendReopen",
+      "mesh": "M01_shoes_bottom",
+      "boundaryEdges": 172,
+      "wireEdges": 0,
+      "zeroLengthVertexNormals": 0,
+      "note": "Open part boundaries are not an automatic failure; counts do not certify visible seams or anatomical contacts."
+    },
+    {
+      "stage": "savedBlendReopen",
+      "mesh": "M01_shoes_parts",
+      "boundaryEdges": 496,
+      "wireEdges": 0,
+      "zeroLengthVertexNormals": 0,
+      "note": "Open part boundaries are not an automatic failure; counts do not certify visible seams or anatomical contacts."
+    },
+    {
+      "stage": "actualGlbReimport",
+      "mesh": "M01_body",
+      "boundaryEdges": 1016,
+      "wireEdges": 0,
+      "zeroLengthVertexNormals": 0,
+      "note": "Open part boundaries are not an automatic failure; counts do not certify visible seams or anatomical contacts."
+    },
+    {
+      "stage": "actualGlbReimport",
+      "mesh": "M01_eyebrows",
+      "boundaryEdges": 590,
+      "wireEdges": 0,
+      "zeroLengthVertexNormals": 0,
+      "note": "Open part boundaries are not an automatic failure; counts do not certify visible seams or anatomical contacts."
+    },
+    {
+      "stage": "actualGlbReimport",
+      "mesh": "M01_eyes",
+      "boundaryEdges": 200,
+      "wireEdges": 0,
+      "zeroLengthVertexNormals": 0,
+      "note": "Open part boundaries are not an automatic failure; counts do not certify visible seams or anatomical contacts."
+    },
+    {
+      "stage": "actualGlbReimport",
+      "mesh": "M01_hair_base",
+      "boundaryEdges": 76,
+      "wireEdges": 0,
+      "zeroLengthVertexNormals": 0,
+      "note": "Open part boundaries are not an automatic failure; counts do not certify visible seams or anatomical contacts."
+    },
+    {
+      "stage": "actualGlbReimport",
+      "mesh": "M01_head",
+      "boundaryEdges": 928,
+      "wireEdges": 0,
+      "zeroLengthVertexNormals": 0,
+      "note": "Open part boundaries are not an automatic failure; counts do not certify visible seams or anatomical contacts."
+    },
+    {
+      "stage": "actualGlbReimport",
+      "mesh": "M01_pants",
+      "boundaryEdges": 761,
+      "wireEdges": 0,
+      "zeroLengthVertexNormals": 0,
+      "note": "Open part boundaries are not an automatic failure; counts do not certify visible seams or anatomical contacts."
+    },
+    {
+      "stage": "actualGlbReimport",
+      "mesh": "M01_shirt",
+      "boundaryEdges": 388,
+      "wireEdges": 0,
+      "zeroLengthVertexNormals": 0,
+      "note": "Open part boundaries are not an automatic failure; counts do not certify visible seams or anatomical contacts."
+    },
+    {
+      "stage": "actualGlbReimport",
+      "mesh": "M01_shoes_base",
+      "boundaryEdges": 814,
+      "wireEdges": 0,
+      "zeroLengthVertexNormals": 0,
+      "note": "Open part boundaries are not an automatic failure; counts do not certify visible seams or anatomical contacts."
+    },
+    {
+      "stage": "actualGlbReimport",
+      "mesh": "M01_shoes_bottom",
+      "boundaryEdges": 172,
+      "wireEdges": 0,
+      "zeroLengthVertexNormals": 0,
+      "note": "Open part boundaries are not an automatic failure; counts do not certify visible seams or anatomical contacts."
+    },
+    {
+      "stage": "actualGlbReimport",
+      "mesh": "M01_shoes_parts",
+      "boundaryEdges": 1202,
+      "wireEdges": 0,
+      "zeroLengthVertexNormals": 0,
+      "note": "Open part boundaries are not an automatic failure; counts do not certify visible seams or anatomical contacts."
+    }
+  ],
+  "pass": true,
+  "notVerified": [
+    "visual quality/identity",
+    "complete self-intersection or anatomical contact coverage",
+    "rigging/animation",
+    "Unity import/runtime",
+    "UV, tangent and rendered material equivalence"
+  ],
+  "inputs": {
+    "blend": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-a03\\delivery-003\\character.blend",
+    "blendSha256": "dcd7681255f49fa704844492b0ffc6964e434ccb4ae59aaba7788b0af56ffd90",
+    "glb": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-a03\\delivery-003\\chr_player_male_poc_001.glb",
+    "glbSha256": "bed475ead3c8ab6ad21463085ed52ffa09467ccd64654f7850999655105c55a1",
+    "expected": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-a03\\delivery-003\\asset-report.json",
+    "expectedSha256": "e391fd7dc6e29e2253f74d66da8c8736368cc75831f2698105a72e221e573a5b"
+  },
+  "embeddedTextBlocks": [],
+  "autoExecution": {
+    "openMainfileUseScripts": false,
+    "preferenceAutoExecutionEnabled": false
+  },
+  "savedMeshes": [
+    {
+      "name": "M01_body",
+      "vertices": 2748,
+      "triangles": 5460,
+      "boundsWorld": {
+        "min": [
+          -0.8691573739051819,
+          -0.04207108914852142,
+          1.2382690906524658
+        ],
+        "max": [
+          0.8691573739051819,
+          0.12187062203884125,
+          1.364959955215454
+        ]
+      },
+      "geometrySha256": "5abbb8b126c30c4fbb804864b5efa23eb8b699460f035c5d45a5ad3a71f4dff1",
+      "nonfiniteVertices": 0,
+      "nonfiniteNormals": 0,
+      "zeroLengthVertexNormals": 0,
+      "zeroLengthCornerNormals": 0,
+      "degenerateTriangles": 0,
+      "degenerateAreaThresholdM2": 1e-14,
+      "minimumTriangleAreaM2": 1.0944973383467625e-06,
+      "boundaryEdges": 32,
+      "nonManifoldEdgesExcludingBoundaries": 0,
+      "wireEdges": 0,
+      "materials": [
+        "M01_skin"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "M01_eyebrows",
+      "vertices": 806,
+      "triangles": 1504,
+      "boundsWorld": {
+        "min": [
+          -0.06890058517456055,
+          -0.10374384373426437,
+          1.6079280376434326
+        ],
+        "max": [
+          0.06890099495649338,
+          -0.0650172233581543,
+          1.6240283250808716
+        ]
+      },
+      "geometrySha256": "24b8fe665cd9d72279fa26e04be19d2ba212618b9e6bb6e2be267776ef21a13c",
+      "nonfiniteVertices": 0,
+      "nonfiniteNormals": 0,
+      "zeroLengthVertexNormals": 0,
+      "zeroLengthCornerNormals": 0,
+      "degenerateTriangles": 0,
+      "degenerateAreaThresholdM2": 1e-14,
+      "minimumTriangleAreaM2": 2.543801716772049e-08,
+      "boundaryEdges": 104,
+      "nonManifoldEdgesExcludingBoundaries": 0,
+      "wireEdges": 0,
+      "materials": [
+        "M01_hair"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "M01_eyes",
+      "vertices": 1418,
+      "triangles": 2756,
+      "boundsWorld": {
+        "min": [
+          -0.06509490311145782,
+          -0.07198294252157211,
+          1.5539789199829102
+        ],
+        "max": [
+          0.06509555876255035,
+          -0.01959618367254734,
+          1.608659029006958
+        ]
+      },
+      "geometrySha256": "8a0872e241e2a8ef21b19b5648b819c909cec73790c26992b91af309da37b01a",
+      "nonfiniteVertices": 0,
+      "nonfiniteNormals": 0,
+      "zeroLengthVertexNormals": 0,
+      "zeroLengthCornerNormals": 0,
+      "degenerateTriangles": 0,
+      "degenerateAreaThresholdM2": 1e-14,
+      "minimumTriangleAreaM2": 2.193428000290943e-07,
+      "boundaryEdges": 72,
+      "nonManifoldEdgesExcludingBoundaries": 0,
+      "wireEdges": 0,
+      "materials": [
+        "M01_eyes"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "M01_hair_base",
+      "vertices": 1309,
+      "triangles": 2528,
+      "boundsWorld": {
+        "min": [
+          -0.08554205298423767,
+          -0.10049102455377579,
+          1.5050681829452515
+        ],
+        "max": [
+          0.0931101143360138,
+          0.14716488122940063,
+          1.7494049072265625
+        ]
+      },
+      "geometrySha256": "d7c77d8f16fad82e32b25ae4e6f481782359bfebc1139e8be38570c873db1aac",
+      "nonfiniteVertices": 0,
+      "nonfiniteNormals": 0,
+      "zeroLengthVertexNormals": 0,
+      "zeroLengthCornerNormals": 0,
+      "degenerateTriangles": 0,
+      "degenerateAreaThresholdM2": 1e-14,
+      "minimumTriangleAreaM2": 1.0386345063537238e-06,
+      "boundaryEdges": 76,
+      "nonManifoldEdgesExcludingBoundaries": 0,
+      "wireEdges": 0,
+      "materials": [
+        "M01_hair"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "M01_head",
+      "vertices": 3719,
+      "triangles": 7264,
+      "boundsWorld": {
+        "min": [
+          -0.1501130610704422,
+          -0.12261877208948135,
+          1.305263876914978
+        ],
+        "max": [
+          0.1501137614250183,
+          0.13333843648433685,
+          1.7179937362670898
+        ]
+      },
+      "geometrySha256": "461370a918be1486ed2d16b5212dbbf964ef808dd466a4a39b3444c74e2da234",
+      "nonfiniteVertices": 0,
+      "nonfiniteNormals": 0,
+      "zeroLengthVertexNormals": 0,
+      "zeroLengthCornerNormals": 0,
+      "degenerateTriangles": 0,
+      "degenerateAreaThresholdM2": 1e-14,
+      "minimumTriangleAreaM2": 3.414698650252969e-07,
+      "boundaryEdges": 180,
+      "nonManifoldEdgesExcludingBoundaries": 0,
+      "wireEdges": 0,
+      "materials": [
+        "M01_skin",
+        "M01_skin_darker",
+        "M01_skin_upper_lip",
+        "M01_skin_lower_lip"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "M01_pants",
+      "vertices": 1724,
+      "triangles": 3365,
+      "boundsWorld": {
+        "min": [
+          -0.14694811403751373,
+          -0.06886786967515945,
+          0.0390436165034771
+        ],
+        "max": [
+          0.14702510833740234,
+          0.14509885013103485,
+          0.9482239484786987
+        ]
+      },
+      "geometrySha256": "f595a6f151cbd250f565e697777e35a6999c3071b914219ed8a93f106635c017",
+      "nonfiniteVertices": 0,
+      "nonfiniteNormals": 0,
+      "zeroLengthVertexNormals": 0,
+      "zeroLengthCornerNormals": 0,
+      "degenerateTriangles": 0,
+      "degenerateAreaThresholdM2": 1e-14,
+      "minimumTriangleAreaM2": 2.2529057718060627e-06,
+      "boundaryEdges": 85,
+      "nonManifoldEdgesExcludingBoundaries": 0,
+      "wireEdges": 0,
+      "materials": [
+        "M01_pants"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "M01_shirt",
+      "vertices": 1240,
+      "triangles": 2368,
+      "boundsWorld": {
+        "min": [
+          -0.29856956005096436,
+          -0.09518158435821533,
+          0.8468518853187561
+        ],
+        "max": [
+          0.298569917678833,
+          0.15313643217086792,
+          1.4032644033432007
+        ]
+      },
+      "geometrySha256": "ba02b0f701c7dd3c204707d937f9a44387a1d3c078d468624f173d022291a3ba",
+      "nonfiniteVertices": 0,
+      "nonfiniteNormals": 0,
+      "zeroLengthVertexNormals": 0,
+      "zeroLengthCornerNormals": 0,
+      "degenerateTriangles": 0,
+      "degenerateAreaThresholdM2": 1e-14,
+      "minimumTriangleAreaM2": 9.744501346330382e-07,
+      "boundaryEdges": 116,
+      "nonManifoldEdgesExcludingBoundaries": 0,
+      "wireEdges": 0,
+      "materials": [
+        "M01_shirt"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "M01_shoes_base",
+      "vertices": 591,
+      "triangles": 1130,
+      "boundsWorld": {
+        "min": [
+          -0.1447799801826477,
+          -0.15313643217086792,
+          0.001639520050957799
+        ],
+        "max": [
+          0.14477942883968353,
+          0.11791855841875076,
+          0.10462723672389984
+        ]
+      },
+      "geometrySha256": "28e0f653cbf26fed03d24884e96a72fac85b5fdd5178a7efa6a536561f54a08f",
+      "nonfiniteVertices": 0,
+      "nonfiniteNormals": 0,
+      "zeroLengthVertexNormals": 0,
+      "zeroLengthCornerNormals": 0,
+      "degenerateTriangles": 0,
+      "degenerateAreaThresholdM2": 1e-14,
+      "minimumTriangleAreaM2": 3.289816844744271e-07,
+      "boundaryEdges": 48,
+      "nonManifoldEdgesExcludingBoundaries": 0,
+      "wireEdges": 0,
+      "materials": [
+        "M01_canvas_shoes"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "M01_shoes_bottom",
+      "vertices": 376,
+      "triangles": 576,
+      "boundsWorld": {
+        "min": [
+          -0.13979443907737732,
+          -0.15027569234371185,
+          -4.958522481501859e-07
+        ],
+        "max": [
+          0.1397951990365982,
+          0.11318141222000122,
+          0.0030402489937841892
+        ]
+      },
+      "geometrySha256": "723d2a3ced53ff7e84c4ebe3ce8f5ddb7a15e06721d910c95ad5755dfb23abde",
+      "nonfiniteVertices": 0,
+      "nonfiniteNormals": 0,
+      "zeroLengthVertexNormals": 0,
+      "zeroLengthCornerNormals": 0,
+      "degenerateTriangles": 0,
+      "degenerateAreaThresholdM2": 1e-14,
+      "minimumTriangleAreaM2": 1.5106195531917626e-06,
+      "boundaryEdges": 172,
+      "nonManifoldEdgesExcludingBoundaries": 0,
+      "wireEdges": 0,
+      "materials": [
+        "M01_canvas_shoes"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "M01_shoes_parts",
+      "vertices": 1478,
+      "triangles": 2416,
+      "boundsWorld": {
+        "min": [
+          -0.13616441190242767,
+          -0.05791256204247475,
+          0.026189053431153297
+        ],
+        "max": [
+          0.1359918713569641,
+          0.11975684016942978,
+          0.0917687714099884
+        ]
+      },
+      "geometrySha256": "7db8672d9c4e756865a9ddfe837752b6d0a956bb90f8e13be2709236bfd0dff4",
+      "nonfiniteVertices": 0,
+      "nonfiniteNormals": 0,
+      "zeroLengthVertexNormals": 0,
+      "zeroLengthCornerNormals": 0,
+      "degenerateTriangles": 0,
+      "degenerateAreaThresholdM2": 1e-14,
+      "minimumTriangleAreaM2": 4.4308144603097925e-07,
+      "boundaryEdges": 496,
+      "nonManifoldEdgesExcludingBoundaries": 0,
+      "wireEdges": 0,
+      "materials": [
+        "M01_canvas_shoes"
+      ],
+      "modifiers": []
+    }
+  ],
+  "savedMaterials": [
+    {
+      "name": "M01_canvas_shoes",
+      "textures": [
+        {
+          "image": "shoes_diffuse.png.001",
+          "source": "FILE",
+          "packed": true,
+          "dimensionsPixels": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB",
+          "filepaths": [],
+          "missingFiles": []
+        },
+        {
+          "image": "shoes_roughness.png.001",
+          "source": "FILE",
+          "packed": true,
+          "dimensionsPixels": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "filepaths": [],
+          "missingFiles": []
+        },
+        {
+          "image": "shoes_normal.png.001",
+          "source": "FILE",
+          "packed": true,
+          "dimensionsPixels": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "filepaths": [],
+          "missingFiles": []
+        }
+      ]
+    },
+    {
+      "name": "M01_eyes",
+      "textures": [
+        {
+          "image": "eyes_diffuse.png.001",
+          "source": "FILE",
+          "packed": true,
+          "dimensionsPixels": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB",
+          "filepaths": [],
+          "missingFiles": []
+        },
+        {
+          "image": "eyes_normal.png.001",
+          "source": "FILE",
+          "packed": true,
+          "dimensionsPixels": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "filepaths": [],
+          "missingFiles": []
+        }
+      ]
+    },
+    {
+      "name": "M01_hair",
+      "textures": []
+    },
+    {
+      "name": "M01_pants",
+      "textures": [
+        {
+          "image": "pants_tinted_diffuse.png",
+          "source": "FILE",
+          "packed": true,
+          "dimensionsPixels": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB",
+          "filepaths": [],
+          "missingFiles": []
+        },
+        {
+          "image": "pants_roughness.png.001",
+          "source": "FILE",
+          "packed": true,
+          "dimensionsPixels": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "filepaths": [],
+          "missingFiles": []
+        },
+        {
+          "image": "pants_normal.png.001",
+          "source": "FILE",
+          "packed": true,
+          "dimensionsPixels": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "filepaths": [],
+          "missingFiles": []
+        }
+      ]
+    },
+    {
+      "name": "M01_shirt",
+      "textures": [
+        {
+          "image": "shirt_normal.png.001",
+          "source": "FILE",
+          "packed": true,
+          "dimensionsPixels": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "filepaths": [],
+          "missingFiles": []
+        }
+      ]
+    },
+    {
+      "name": "M01_skin",
+      "textures": [
+        {
+          "image": "skin_diffuse_atlas.png",
+          "source": "FILE",
+          "packed": true,
+          "dimensionsPixels": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB",
+          "filepaths": [],
+          "missingFiles": []
+        }
+      ]
+    },
+    {
+      "name": "M01_skin_darker",
+      "textures": [
+        {
+          "image": "skin_darker_diffuse_atlas.png",
+          "source": "FILE",
+          "packed": true,
+          "dimensionsPixels": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB",
+          "filepaths": [],
+          "missingFiles": []
+        }
+      ]
+    },
+    {
+      "name": "M01_skin_lower_lip",
+      "textures": [
+        {
+          "image": "skin_lower_lip_diffuse_atlas.png",
+          "source": "FILE",
+          "packed": true,
+          "dimensionsPixels": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB",
+          "filepaths": [],
+          "missingFiles": []
+        }
+      ]
+    },
+    {
+      "name": "M01_skin_upper_lip",
+      "textures": [
+        {
+          "image": "skin_upper_lip_diffuse_atlas.png",
+          "source": "FILE",
+          "packed": true,
+          "dimensionsPixels": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB",
+          "filepaths": [],
+          "missingFiles": []
+        }
+      ]
+    }
+  ],
+  "savedGlobalBoundsWorld": {
+    "min": [
+      -0.8691573739051819,
+      -0.15313643217086792,
+      -4.958522481501859e-07
+    ],
+    "max": [
+      0.8691573739051819,
+      0.15313643217086792,
+      1.7494049072265625
+    ]
+  },
+  "savedGlobalDimensionsMeters": [
+    1.7383147478103638,
+    0.30627286434173584,
+    1.7494054030788107
+  ],
+  "importedMeshes": [
+    {
+      "name": "M01_body",
+      "vertices": 3244,
+      "triangles": 5460,
+      "boundsWorld": {
+        "min": [
+          -0.8691573739051819,
+          -0.04207108914852142,
+          1.2382690906524658
+        ],
+        "max": [
+          0.8691573739051819,
+          0.12187062203884125,
+          1.364959955215454
+        ]
+      },
+      "geometrySha256": "4a20dfc10a880ac92ab078185b1754a235d15e7ca57e8d7e1f0f8c8b4ef834da",
+      "nonfiniteVertices": 0,
+      "nonfiniteNormals": 0,
+      "zeroLengthVertexNormals": 0,
+      "zeroLengthCornerNormals": 0,
+      "degenerateTriangles": 0,
+      "degenerateAreaThresholdM2": 1e-14,
+      "minimumTriangleAreaM2": 1.0944973383467625e-06,
+      "boundaryEdges": 1016,
+      "nonManifoldEdgesExcludingBoundaries": 0,
+      "wireEdges": 0,
+      "materials": [
+        "M01_skin"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "M01_eyebrows",
+      "vertices": 1014,
+      "triangles": 1504,
+      "boundsWorld": {
+        "min": [
+          -0.06890058517456055,
+          -0.10374384373426437,
+          1.6079280376434326
+        ],
+        "max": [
+          0.06890099495649338,
+          -0.0650172233581543,
+          1.6240283250808716
+        ]
+      },
+      "geometrySha256": "d9098b612b2d3ff4ad9a7e20aabe6bb08b90e18af74c564be14d3d37b280971d",
+      "nonfiniteVertices": 0,
+      "nonfiniteNormals": 0,
+      "zeroLengthVertexNormals": 0,
+      "zeroLengthCornerNormals": 0,
+      "degenerateTriangles": 0,
+      "degenerateAreaThresholdM2": 1e-14,
+      "minimumTriangleAreaM2": 2.543801716772049e-08,
+      "boundaryEdges": 590,
+      "nonManifoldEdgesExcludingBoundaries": 0,
+      "wireEdges": 0,
+      "materials": [
+        "M01_hair"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "M01_eyes",
+      "vertices": 1482,
+      "triangles": 2756,
+      "boundsWorld": {
+        "min": [
+          -0.06509490311145782,
+          -0.07198294252157211,
+          1.5539789199829102
+        ],
+        "max": [
+          0.06509555876255035,
+          -0.01959618367254734,
+          1.608659029006958
+        ]
+      },
+      "geometrySha256": "cf66e53129da66672a5d830dbcc606613e0bbbb616dd92bd75b285e1ba956240",
+      "nonfiniteVertices": 0,
+      "nonfiniteNormals": 0,
+      "zeroLengthVertexNormals": 0,
+      "zeroLengthCornerNormals": 0,
+      "degenerateTriangles": 0,
+      "degenerateAreaThresholdM2": 1e-14,
+      "minimumTriangleAreaM2": 2.193428000290943e-07,
+      "boundaryEdges": 200,
+      "nonManifoldEdgesExcludingBoundaries": 0,
+      "wireEdges": 0,
+      "materials": [
+        "M01_eyes"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "M01_hair_base",
+      "vertices": 1309,
+      "triangles": 2528,
+      "boundsWorld": {
+        "min": [
+          -0.08554205298423767,
+          -0.10049102455377579,
+          1.5050681829452515
+        ],
+        "max": [
+          0.0931101143360138,
+          0.14716488122940063,
+          1.7494049072265625
+        ]
+      },
+      "geometrySha256": "d7c77d8f16fad82e32b25ae4e6f481782359bfebc1139e8be38570c873db1aac",
+      "nonfiniteVertices": 0,
+      "nonfiniteNormals": 0,
+      "zeroLengthVertexNormals": 0,
+      "zeroLengthCornerNormals": 0,
+      "degenerateTriangles": 0,
+      "degenerateAreaThresholdM2": 1e-14,
+      "minimumTriangleAreaM2": 1.0386345063537238e-06,
+      "boundaryEdges": 76,
+      "nonManifoldEdgesExcludingBoundaries": 0,
+      "wireEdges": 0,
+      "materials": [
+        "M01_hair"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "M01_head",
+      "vertices": 4118,
+      "triangles": 7264,
+      "boundsWorld": {
+        "min": [
+          -0.1501130610704422,
+          -0.12261877208948135,
+          1.305263876914978
+        ],
+        "max": [
+          0.1501137614250183,
+          0.13333843648433685,
+          1.7179937362670898
+        ]
+      },
+      "geometrySha256": "d502ff76c515a70e3bec53ab4baa59c6a882148b0245a655b0e92c452175309d",
+      "nonfiniteVertices": 0,
+      "nonfiniteNormals": 0,
+      "zeroLengthVertexNormals": 0,
+      "zeroLengthCornerNormals": 0,
+      "degenerateTriangles": 0,
+      "degenerateAreaThresholdM2": 1e-14,
+      "minimumTriangleAreaM2": 3.414698650252969e-07,
+      "boundaryEdges": 928,
+      "nonManifoldEdgesExcludingBoundaries": 0,
+      "wireEdges": 0,
+      "materials": [
+        "M01_skin",
+        "M01_skin_darker",
+        "M01_skin_upper_lip",
+        "M01_skin_lower_lip"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "M01_pants",
+      "vertices": 2070,
+      "triangles": 3365,
+      "boundsWorld": {
+        "min": [
+          -0.14694811403751373,
+          -0.06886786967515945,
+          0.0390436165034771
+        ],
+        "max": [
+          0.14702510833740234,
+          0.14509885013103485,
+          0.9482239484786987
+        ]
+      },
+      "geometrySha256": "cb91878ad76ee980b5db1bd28e6aee8afc7d9a976b1a050711bc4251e6c9420d",
+      "nonfiniteVertices": 0,
+      "nonfiniteNormals": 0,
+      "zeroLengthVertexNormals": 0,
+      "zeroLengthCornerNormals": 0,
+      "degenerateTriangles": 0,
+      "degenerateAreaThresholdM2": 1e-14,
+      "minimumTriangleAreaM2": 2.2529057718060627e-06,
+      "boundaryEdges": 761,
+      "nonManifoldEdgesExcludingBoundaries": 0,
+      "wireEdges": 0,
+      "materials": [
+        "M01_pants"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "M01_shirt",
+      "vertices": 1384,
+      "triangles": 2368,
+      "boundsWorld": {
+        "min": [
+          -0.29856956005096436,
+          -0.09518158435821533,
+          0.8468518853187561
+        ],
+        "max": [
+          0.298569917678833,
+          0.15313643217086792,
+          1.4032644033432007
+        ]
+      },
+      "geometrySha256": "1e25766e8a4c0ea337e2ded8e1ad610bac8b5c8986c7e8ec2ed4b0764bfa4d1e",
+      "nonfiniteVertices": 0,
+      "nonfiniteNormals": 0,
+      "zeroLengthVertexNormals": 0,
+      "zeroLengthCornerNormals": 0,
+      "degenerateTriangles": 0,
+      "degenerateAreaThresholdM2": 1e-14,
+      "minimumTriangleAreaM2": 9.744501346330382e-07,
+      "boundaryEdges": 388,
+      "nonManifoldEdgesExcludingBoundaries": 0,
+      "wireEdges": 0,
+      "materials": [
+        "M01_shirt"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "M01_shoes_base",
+      "vertices": 984,
+      "triangles": 1130,
+      "boundsWorld": {
+        "min": [
+          -0.1447799801826477,
+          -0.15313643217086792,
+          0.001639520050957799
+        ],
+        "max": [
+          0.14477942883968353,
+          0.11791855841875076,
+          0.10462723672389984
+        ]
+      },
+      "geometrySha256": "9e19e4465639bb49258c3f8b40b1f7078ec2f061dac0a7346b055a1c03921139",
+      "nonfiniteVertices": 0,
+      "nonfiniteNormals": 0,
+      "zeroLengthVertexNormals": 0,
+      "zeroLengthCornerNormals": 0,
+      "degenerateTriangles": 0,
+      "degenerateAreaThresholdM2": 1e-14,
+      "minimumTriangleAreaM2": 3.289816844744271e-07,
+      "boundaryEdges": 814,
+      "nonManifoldEdgesExcludingBoundaries": 0,
+      "wireEdges": 0,
+      "materials": [
+        "M01_canvas_shoes"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "M01_shoes_bottom",
+      "vertices": 376,
+      "triangles": 576,
+      "boundsWorld": {
+        "min": [
+          -0.13979443907737732,
+          -0.15027569234371185,
+          -4.958522481501859e-07
+        ],
+        "max": [
+          0.1397951990365982,
+          0.11318141222000122,
+          0.0030402489937841892
+        ]
+      },
+      "geometrySha256": "723d2a3ced53ff7e84c4ebe3ce8f5ddb7a15e06721d910c95ad5755dfb23abde",
+      "nonfiniteVertices": 0,
+      "nonfiniteNormals": 0,
+      "zeroLengthVertexNormals": 0,
+      "zeroLengthCornerNormals": 0,
+      "degenerateTriangles": 0,
+      "degenerateAreaThresholdM2": 1e-14,
+      "minimumTriangleAreaM2": 1.5106195531917626e-06,
+      "boundaryEdges": 172,
+      "nonManifoldEdgesExcludingBoundaries": 0,
+      "wireEdges": 0,
+      "materials": [
+        "M01_canvas_shoes"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "M01_shoes_parts",
+      "vertices": 1813,
+      "triangles": 2416,
+      "boundsWorld": {
+        "min": [
+          -0.13616441190242767,
+          -0.05791256204247475,
+          0.026189053431153297
+        ],
+        "max": [
+          0.1359918713569641,
+          0.11975684016942978,
+          0.0917687714099884
+        ]
+      },
+      "geometrySha256": "b9981526341dd959fdc2860ffd76541438c932e2981fea60943c265fe9c658ce",
+      "nonfiniteVertices": 0,
+      "nonfiniteNormals": 0,
+      "zeroLengthVertexNormals": 0,
+      "zeroLengthCornerNormals": 0,
+      "degenerateTriangles": 0,
+      "degenerateAreaThresholdM2": 1e-14,
+      "minimumTriangleAreaM2": 4.4308144603097925e-07,
+      "boundaryEdges": 1202,
+      "nonManifoldEdgesExcludingBoundaries": 0,
+      "wireEdges": 0,
+      "materials": [
+        "M01_canvas_shoes"
+      ],
+      "modifiers": []
+    }
+  ],
+  "importedMaterials": [
+    {
+      "name": "M01_canvas_shoes",
+      "textures": [
+        {
+          "image": "shoes_diffuse",
+          "source": "FILE",
+          "packed": true,
+          "dimensionsPixels": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB",
+          "filepaths": [],
+          "missingFiles": []
+        },
+        {
+          "image": "shoes_roughness",
+          "source": "FILE",
+          "packed": true,
+          "dimensionsPixels": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "filepaths": [],
+          "missingFiles": []
+        },
+        {
+          "image": "shoes_normal",
+          "source": "FILE",
+          "packed": true,
+          "dimensionsPixels": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "filepaths": [],
+          "missingFiles": []
+        }
+      ]
+    },
+    {
+      "name": "M01_eyes",
+      "textures": [
+        {
+          "image": "eyes_diffuse",
+          "source": "FILE",
+          "packed": true,
+          "dimensionsPixels": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB",
+          "filepaths": [],
+          "missingFiles": []
+        },
+        {
+          "image": "eyes_normal",
+          "source": "FILE",
+          "packed": true,
+          "dimensionsPixels": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "filepaths": [],
+          "missingFiles": []
+        }
+      ]
+    },
+    {
+      "name": "M01_hair",
+      "textures": []
+    },
+    {
+      "name": "M01_pants",
+      "textures": [
+        {
+          "image": "pants_tinted_diffuse",
+          "source": "FILE",
+          "packed": true,
+          "dimensionsPixels": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB",
+          "filepaths": [],
+          "missingFiles": []
+        },
+        {
+          "image": "pants_roughness",
+          "source": "FILE",
+          "packed": true,
+          "dimensionsPixels": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "filepaths": [],
+          "missingFiles": []
+        },
+        {
+          "image": "pants_normal",
+          "source": "FILE",
+          "packed": true,
+          "dimensionsPixels": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "filepaths": [],
+          "missingFiles": []
+        }
+      ]
+    },
+    {
+      "name": "M01_shirt",
+      "textures": [
+        {
+          "image": "shirt_normal",
+          "source": "FILE",
+          "packed": true,
+          "dimensionsPixels": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "filepaths": [],
+          "missingFiles": []
+        }
+      ]
+    },
+    {
+      "name": "M01_skin",
+      "textures": [
+        {
+          "image": "skin_diffuse_atlas",
+          "source": "FILE",
+          "packed": true,
+          "dimensionsPixels": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB",
+          "filepaths": [],
+          "missingFiles": []
+        }
+      ]
+    },
+    {
+      "name": "M01_skin_darker",
+      "textures": [
+        {
+          "image": "skin_darker_diffuse_atlas",
+          "source": "FILE",
+          "packed": true,
+          "dimensionsPixels": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB",
+          "filepaths": [],
+          "missingFiles": []
+        }
+      ]
+    },
+    {
+      "name": "M01_skin_lower_lip",
+      "textures": [
+        {
+          "image": "skin_lower_lip_diffuse_atlas",
+          "source": "FILE",
+          "packed": true,
+          "dimensionsPixels": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB",
+          "filepaths": [],
+          "missingFiles": []
+        }
+      ]
+    },
+    {
+      "name": "M01_skin_upper_lip",
+      "textures": [
+        {
+          "image": "skin_upper_lip_diffuse_atlas",
+          "source": "FILE",
+          "packed": true,
+          "dimensionsPixels": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB",
+          "filepaths": [],
+          "missingFiles": []
+        }
+      ]
+    }
+  ],
+  "roundtripPointClouds": [
+    {
+      "name": "M01_body",
+      "sourceVertices": 2748,
+      "importedVertices": 3244,
+      "vertexCountEqualityRequired": false,
+      "positionEpsilonMetersPerComponent": 1e-05,
+      "sourceUniqueQuantizedPositions": 2748,
+      "importedUniqueQuantizedPositions": 2748,
+      "quantizedCoordinateSetsEqual": true,
+      "neighborBinFallbackUsed": false,
+      "sourceToImported": {
+        "unmatchedPoints": 0,
+        "examples": []
+      },
+      "importedToSource": {
+        "unmatchedPoints": 0,
+        "examples": []
+      },
+      "equivalentWithinTolerance": true
+    },
+    {
+      "name": "M01_eyebrows",
+      "sourceVertices": 806,
+      "importedVertices": 1014,
+      "vertexCountEqualityRequired": false,
+      "positionEpsilonMetersPerComponent": 1e-05,
+      "sourceUniqueQuantizedPositions": 806,
+      "importedUniqueQuantizedPositions": 806,
+      "quantizedCoordinateSetsEqual": true,
+      "neighborBinFallbackUsed": false,
+      "sourceToImported": {
+        "unmatchedPoints": 0,
+        "examples": []
+      },
+      "importedToSource": {
+        "unmatchedPoints": 0,
+        "examples": []
+      },
+      "equivalentWithinTolerance": true
+    },
+    {
+      "name": "M01_eyes",
+      "sourceVertices": 1418,
+      "importedVertices": 1482,
+      "vertexCountEqualityRequired": false,
+      "positionEpsilonMetersPerComponent": 1e-05,
+      "sourceUniqueQuantizedPositions": 1418,
+      "importedUniqueQuantizedPositions": 1418,
+      "quantizedCoordinateSetsEqual": true,
+      "neighborBinFallbackUsed": false,
+      "sourceToImported": {
+        "unmatchedPoints": 0,
+        "examples": []
+      },
+      "importedToSource": {
+        "unmatchedPoints": 0,
+        "examples": []
+      },
+      "equivalentWithinTolerance": true
+    },
+    {
+      "name": "M01_hair_base",
+      "sourceVertices": 1309,
+      "importedVertices": 1309,
+      "vertexCountEqualityRequired": false,
+      "positionEpsilonMetersPerComponent": 1e-05,
+      "sourceUniqueQuantizedPositions": 1309,
+      "importedUniqueQuantizedPositions": 1309,
+      "quantizedCoordinateSetsEqual": true,
+      "neighborBinFallbackUsed": false,
+      "sourceToImported": {
+        "unmatchedPoints": 0,
+        "examples": []
+      },
+      "importedToSource": {
+        "unmatchedPoints": 0,
+        "examples": []
+      },
+      "equivalentWithinTolerance": true
+    },
+    {
+      "name": "M01_head",
+      "sourceVertices": 3719,
+      "importedVertices": 4118,
+      "vertexCountEqualityRequired": false,
+      "positionEpsilonMetersPerComponent": 1e-05,
+      "sourceUniqueQuantizedPositions": 3719,
+      "importedUniqueQuantizedPositions": 3719,
+      "quantizedCoordinateSetsEqual": true,
+      "neighborBinFallbackUsed": false,
+      "sourceToImported": {
+        "unmatchedPoints": 0,
+        "examples": []
+      },
+      "importedToSource": {
+        "unmatchedPoints": 0,
+        "examples": []
+      },
+      "equivalentWithinTolerance": true
+    },
+    {
+      "name": "M01_pants",
+      "sourceVertices": 1724,
+      "importedVertices": 2070,
+      "vertexCountEqualityRequired": false,
+      "positionEpsilonMetersPerComponent": 1e-05,
+      "sourceUniqueQuantizedPositions": 1724,
+      "importedUniqueQuantizedPositions": 1724,
+      "quantizedCoordinateSetsEqual": true,
+      "neighborBinFallbackUsed": false,
+      "sourceToImported": {
+        "unmatchedPoints": 0,
+        "examples": []
+      },
+      "importedToSource": {
+        "unmatchedPoints": 0,
+        "examples": []
+      },
+      "equivalentWithinTolerance": true
+    },
+    {
+      "name": "M01_shirt",
+      "sourceVertices": 1240,
+      "importedVertices": 1384,
+      "vertexCountEqualityRequired": false,
+      "positionEpsilonMetersPerComponent": 1e-05,
+      "sourceUniqueQuantizedPositions": 1240,
+      "importedUniqueQuantizedPositions": 1240,
+      "quantizedCoordinateSetsEqual": true,
+      "neighborBinFallbackUsed": false,
+      "sourceToImported": {
+        "unmatchedPoints": 0,
+        "examples": []
+      },
+      "importedToSource": {
+        "unmatchedPoints": 0,
+        "examples": []
+      },
+      "equivalentWithinTolerance": true
+    },
+    {
+      "name": "M01_shoes_base",
+      "sourceVertices": 591,
+      "importedVertices": 984,
+      "vertexCountEqualityRequired": false,
+      "positionEpsilonMetersPerComponent": 1e-05,
+      "sourceUniqueQuantizedPositions": 591,
+      "importedUniqueQuantizedPositions": 591,
+      "quantizedCoordinateSetsEqual": true,
+      "neighborBinFallbackUsed": false,
+      "sourceToImported": {
+        "unmatchedPoints": 0,
+        "examples": []
+      },
+      "importedToSource": {
+        "unmatchedPoints": 0,
+        "examples": []
+      },
+      "equivalentWithinTolerance": true
+    },
+    {
+      "name": "M01_shoes_bottom",
+      "sourceVertices": 376,
+      "importedVertices": 376,
+      "vertexCountEqualityRequired": false,
+      "positionEpsilonMetersPerComponent": 1e-05,
+      "sourceUniqueQuantizedPositions": 376,
+      "importedUniqueQuantizedPositions": 376,
+      "quantizedCoordinateSetsEqual": true,
+      "neighborBinFallbackUsed": false,
+      "sourceToImported": {
+        "unmatchedPoints": 0,
+        "examples": []
+      },
+      "importedToSource": {
+        "unmatchedPoints": 0,
+        "examples": []
+      },
+      "equivalentWithinTolerance": true
+    },
+    {
+      "name": "M01_shoes_parts",
+      "sourceVertices": 1478,
+      "importedVertices": 1813,
+      "vertexCountEqualityRequired": false,
+      "positionEpsilonMetersPerComponent": 1e-05,
+      "sourceUniqueQuantizedPositions": 1478,
+      "importedUniqueQuantizedPositions": 1478,
+      "quantizedCoordinateSetsEqual": true,
+      "neighborBinFallbackUsed": false,
+      "sourceToImported": {
+        "unmatchedPoints": 0,
+        "examples": []
+      },
+      "importedToSource": {
+        "unmatchedPoints": 0,
+        "examples": []
+      },
+      "equivalentWithinTolerance": true
+    }
+  ],
+  "importedGlobalBoundsWorld": {
+    "min": [
+      -0.8691573739051819,
+      -0.15313643217086792,
+      -4.958522481501859e-07
+    ],
+    "max": [
+      0.8691573739051819,
+      0.15313643217086792,
+      1.7494049072265625
+    ]
+  },
+  "importedGlobalDimensionsMeters": [
+    1.7383147478103638,
+    0.30627286434173584,
+    1.7494054030788107
+  ],
+  "durationSeconds": 2.1410000000614673,
+  "finishedUtc": "2026-10-28T18:35:28.209858+00:00",
+  "passedChecks": 243,
+  "failedChecks": 0
+}

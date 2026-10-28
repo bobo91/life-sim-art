@@ -1,0 +1,15 @@
+{
+  "experiment": "MALE-NEUTRAL-A03",
+  "startedUtc": "2026-10-28T14:33:57.417327+00:00",
+  "ownerDecision": "A02 visual foundation GO; Phase B and production NO-GO",
+  "scope": "Subtle A03 visual polish plus controlled actual25-28k optimization, preserve appearance and A01/A02, update draftPR39, no rig/animation system",
+  "notAuthorized": [
+    "merge",
+    "Phase B",
+    "new character identity",
+    "game changes",
+    "purchases",
+    "new external base",
+    "vendor contact"
+  ]
+}

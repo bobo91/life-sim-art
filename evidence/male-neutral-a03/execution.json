@@ -1,0 +1,34 @@
+{
+  "schema": "male-a03-execution-1",
+  "final": "build/male-neutral-a03/delivery-003",
+  "visualWork": "One focused A02-copy refinement; eyes95%, lower-lid0.6mm, chin/jaw<2mm, rounded/varied hair, softened brow corners. No subsequent identity redesign.",
+  "technicalSetupFailure": "First unrendered build asserted a wrong hair vertex-allocation assumption; replaced it with explicit connected-ring traversal. Original files unchanged.",
+  "optimizationChoices": [
+    {
+      "candidate": "28263",
+      "decision": "Rejected as final: visible flattened/jagged lace volume in extreme shoe close-up"
+    },
+    {
+      "candidate": "UNSUBDIVIDE1",
+      "triangles": 29795,
+      "decision": "Rejected: pinched/jagged lace sections"
+    },
+    {
+      "candidate": "Gentler collapse .45 decoration/.30 sole",
+      "triangles": 29367,
+      "decision": "Selected for rounded lace volume, with source split normals on shoes; no geometry change from normal transfer"
+    }
+  ],
+  "targetRange": [
+    25000,
+    28000
+  ],
+  "targetMet": false,
+  "overTargetTriangles": 1367,
+  "validation": "Existing static Blender/GLB243 checks, one isolated Unity import/reopen, limited one-face reproduction; no expanded test suite",
+  "rigReuse": "Unproven; no rig/animation system or binding tests",
+  "gameChanges": false,
+  "merge": false,
+  "phaseB": false,
+  "lastShadingRepair": "Thin-surface source-normal transfer selected reversed normals at some shoe corners. Own-face hemisphere guard replaces only those shading normals; no geometry/count/identity changes. Final source/export/renders regenerated consistently."
+}

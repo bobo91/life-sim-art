@@ -1,4 +1,4 @@
-# Agent operating rules — Life Sim Art
+# Agent operating rules â€” Life Sim Art
 Owner: Codex (exclusive). Art repository for bobo91/life-sim-game (exclusively owned by Claude Code).
 ## Repository ownership
 - Codex exclusively owns Blender, 3D models, characters, animations, materials and the asset pipeline in this repository.
@@ -22,11 +22,11 @@ Every PR states generated assets, preview locations, commands/tests actually run
 
 ## Approved limited Phase A exception (2026-10-28)
 
-Owner reply: "kör på" to the named Snow v4 experiment described in
+Owner reply: "kÃ¶r pÃ¥" to the named Snow v4 experiment described in
 docs/characters/male-player/POLICY_EXCEPTION_PROPOSAL.md. This authorizes only
 MALE-NEUTRAL-A01; all unrelated rules remain. Evidence: evidence/male-neutral-a01/authorization.json.
 
-Owner-approved exception — MALE-NEUTRAL-A01, Phase A only
+Owner-approved exception â€” MALE-NEUTRAL-A01, Phase A only
 
 Allow one static male-player quality experiment using Blender Studio Snow v4
 under its documented CC BY 4.0 asset terms. Allow free source acquisition,
@@ -73,3 +73,15 @@ traceable multi-view comparison. Evaluate future deformation compatibility and
 triangle reduction without building a rig, animation or clothing system.
 No additional base acquisition, purchase, vendor contact, paid service, game-repo
 change, merge or Phase B is authorized. Stop after A02 review delivery.
+
+## Owner-authorized Phase A refinement A03 (2026-10-28)
+
+The owner approved A02 as the visual foundation, explicitly rejected Phase B/
+production for now, and requested A03 on the same draft PR39. Permit only subtle
+eye/jaw/chin/hair/brow refinement of the existing A02 copy, controlled static
+optimization toward25-28k without sacrificing appearance, and actual matched
+Blender/isolated URP verification. Preserve A01, A02 and original Snow unchanged.
+Keep a high-quality editable A03 source before optimization. Rig reuse remains
+unproven unless actually tested; do not build any rig/animation/clothing system.
+No new base, purchase, vendor contact, game edit, merge or Phase B. Stop after
+A03 visual review delivery. This extends only the completed A02 pass limit.

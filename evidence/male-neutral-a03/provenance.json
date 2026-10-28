@@ -1,0 +1,35 @@
+{
+  "schema": "male-neutral-a03-provenance-1",
+  "source": "Blender Studio Snow v4 via preserved A02 static derivative",
+  "sourceUrl": "https://studio.blender.org/characters/snow/v4/",
+  "license": "CC-BY-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "credit": "Snow Rig (CC) Blender Foundation | studio.blender.org",
+  "originalSnowBlendSha256": "80fd0a81bca90f0efdcdcb98422df0e198ae57f4a1c239e13fb795922779b1fc",
+  "a01BlendSha256": "8124cc0ef646300ffbc756793582c3a1e4749051cd36d9dd4738ec08a5ee87db",
+  "a01SourceCommit": "8f5cc5a963e57ddcdef4fba24808e7ee3a1bc8f5",
+  "a01ArtifactUrl": "https://github.com/bobo91/life-sim-art/releases/download/male-neutral-a01-v0.1/male-neutral-a01-v0.1-review.zip",
+  "a01ArtifactSha256": "d7f16b1b7b4b712825811cc1fa6bf82ee32220632267683fd64a1dd647c2a790",
+  "modifications": [
+    "Subtle eye/socket scale95% and lower-lid0.6mm relaxation",
+    "Local jaw/chin smoothing and projection change, head max1.94mm shift from A02",
+    "Softened brow edges, rounded forelock ends and mild width/crest variation; hair+144 triangles",
+    "Controlled nonfacial collapse with seam/boundary/hand protection; gentler shoe settings after visual QC",
+    "Source split normals transferred on optimized shoes, preserving geometry",
+    "All13 A02 texture PNG bytes and palette retained; hair roughness .86"
+  ],
+  "stillFromSnow": [
+    "All body/clothes/shoes geometry and their source textures",
+    "Head/eye/brow topology and head UV, underlying authored facial structure",
+    "Brown iris texture",
+    "547-vertex scalp cap"
+  ],
+  "sourceScriptsExecutedOrDelivered": false,
+  "rigOrAnimationsDelivered": false,
+  "spendSEK": 0,
+  "purchasesOrVendorContact": false,
+  "a02BlendSha256": "a1bc76a1a35791c307b1ea8b9194b7f603e3b1d438a8e15864810db4eb9ad8f4",
+  "a02ArtifactUrl": "https://github.com/bobo91/life-sim-art/releases/download/male-neutral-a02-v0.2/male-neutral-a02-v0.2-review.zip",
+  "a02ArtifactSha256": "76bd885d90c8cef3b592c1a82c80b8fa296c5de6ed0f9dcd3733cb2f60b5ad62",
+  "originalAndPriorFilesUnchanged": true
+}

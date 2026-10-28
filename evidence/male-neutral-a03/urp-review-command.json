@@ -1,0 +1,21 @@
+{
+  "command": [
+    "C:\\Program Files\\Unity\\Hub\\Editor\\6000.5.8f1\\Editor\\Unity.exe",
+    "-batchmode",
+    "-force-d3d11",
+    "-projectPath",
+    "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-a03\\unity-static-002",
+    "-logFile",
+    "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-a03\\urp-review-final-003\\render.log",
+    "-executeMethod",
+    "RenderMaleA03UrpReview.Run",
+    "-reviewOutput",
+    "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-a03\\urp-review-final-003",
+    "-a02Glb",
+    "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-a02\\delivery-002\\chr_player_male_poc_001.glb"
+  ],
+  "startedUtc": "2026-10-28T18:39:52.996604+00:00",
+  "scope": "Final matched A02/A03 art-only URP captures: body, face, and true16m perspective proxy; no postFX or game changes",
+  "checkerSha256": "091c9e2d3ae8fdc0439adef2f7fc06066b1406c7fb653fc5b2757309fc92ffb5",
+  "exitCode": 0
+}

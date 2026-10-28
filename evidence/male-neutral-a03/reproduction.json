@@ -1,0 +1,9 @@
+{
+  "geometryHashesEqual": true,
+  "glbBytesIdentical": true,
+  "faceFrontPixelsIdentical": true,
+  "testedViews": [
+    "face_front"
+  ],
+  "otherViewsNotRepeated": 16
+}

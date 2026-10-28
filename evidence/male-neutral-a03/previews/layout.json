@@ -1,0 +1,91 @@
+{
+  "schema": "male-a03-review-layout-1",
+  "nativeBlenderRenders": [
+    {
+      "file": "back.png",
+      "sha256": "e17e804e3d7bd94ac611deb8002618c6aa2f600c2371c494c0f02df7aa9dfddf",
+      "nativeFileUnchanged": true
+    },
+    {
+      "file": "face_front.png",
+      "sha256": "2b381703baf3e5fa1394fc6da5e956dbd929bd21e3be8ddbc79b674f8ea37ecf",
+      "nativeFileUnchanged": true
+    },
+    {
+      "file": "face_three_quarter.png",
+      "sha256": "95101a97e6e1916129fd10c342ccaad44ae634a33c42650cdf5e7a4759ac130b",
+      "nativeFileUnchanged": true
+    },
+    {
+      "file": "front.png",
+      "sha256": "2ee7e2b2e1c997a70fe26c785ff483dd1a91f4161bf212ec150cdaff41e7e4f8",
+      "nativeFileUnchanged": true
+    },
+    {
+      "file": "game_16m_back.png",
+      "sha256": "8938b4ea2babe981a17958a16eac8a1387a0f5394a3d5c37a60a3dea864e6c39",
+      "nativeFileUnchanged": true
+    },
+    {
+      "file": "game_16m_front.png",
+      "sha256": "4a6e6b3f5b6c4c31e7baf90de82a1687d9fcd1b1b3a051d4abfe70257c5ae9ff",
+      "nativeFileUnchanged": true
+    },
+    {
+      "file": "hand_close.png",
+      "sha256": "9c93f6adaa5305bc0ea1af3f20e5749587396c6cbe1370b02a14d9ebd47caa9b",
+      "nativeFileUnchanged": true
+    },
+    {
+      "file": "high_game_16m_front.png",
+      "sha256": "451ff297ab038c37efb373a344a2fbe288179c6af6a91f397d15c41a6c82a542",
+      "nativeFileUnchanged": true
+    },
+    {
+      "file": "high_hand_close.png",
+      "sha256": "3d6912c0a502ca212abd27012b5a3fe02998870b409bae6452cbc7773b922e8c",
+      "nativeFileUnchanged": true
+    },
+    {
+      "file": "high_near_third_person.png",
+      "sha256": "6ceabd71336e07f36b2875e84f1b445cd14a49ae524e1dff7bc5116c80cf02b4",
+      "nativeFileUnchanged": true
+    },
+    {
+      "file": "high_shoe_close.png",
+      "sha256": "bf7578a2d19d6312a5dc1eaedb9305c5a9d85cc96c62c4f56a3d2861436af88c",
+      "nativeFileUnchanged": true
+    },
+    {
+      "file": "high_side.png",
+      "sha256": "b48d2da68b3133a005b3516244b7e49945d1c05a00f2419bea4c974a30a1d0c3",
+      "nativeFileUnchanged": true
+    },
+    {
+      "file": "high_three_quarter.png",
+      "sha256": "b329d28417f58a1240ff466117850d9d3295b116fa022fcd7be943f76a5809a0",
+      "nativeFileUnchanged": true
+    },
+    {
+      "file": "near_third_person.png",
+      "sha256": "82a989c43394bd5f8c48b7915ebaa0e2bc4417fb51a54cd6f69110c87f1f306b",
+      "nativeFileUnchanged": true
+    },
+    {
+      "file": "shoe_close.png",
+      "sha256": "b7dbc4e57bfca5d04ba943d2e7e056ea5407f23cda978a3638aec2bd904bb53f",
+      "nativeFileUnchanged": true
+    },
+    {
+      "file": "side.png",
+      "sha256": "a3bcf277c68d02810c551c177e5b06fea2fe9fe7c7c49864fbdb44d3240bbeb9",
+      "nativeFileUnchanged": true
+    },
+    {
+      "file": "three_quarter.png",
+      "sha256": "cee918bb33e270dc8064a2e4750960ba8c9be6ba35eb0760ab8d6202d75806e8",
+      "nativeFileUnchanged": true
+    }
+  ],
+  "composites": "Resize/layout and labels only, no retouch or recolor."
+}

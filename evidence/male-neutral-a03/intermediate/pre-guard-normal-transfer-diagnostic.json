@@ -1,0 +1,29 @@
+{
+  "meshes": [
+    {
+      "mesh": "M01_shoes_base",
+      "cornerNormals": 3390,
+      "changedMoreThanPoint1Degrees": 3390,
+      "maximumChangeDegrees": 149.61872252409265,
+      "meanChangeDegrees": 10.019273126653546,
+      "customNormalsPresent": true
+    },
+    {
+      "mesh": "M01_shoes_bottom",
+      "cornerNormals": 1728,
+      "changedMoreThanPoint1Degrees": 1656,
+      "maximumChangeDegrees": 13.065891481272287,
+      "meanChangeDegrees": 2.532854034987771,
+      "customNormalsPresent": true
+    },
+    {
+      "mesh": "M01_shoes_parts",
+      "cornerNormals": 7248,
+      "changedMoreThanPoint1Degrees": 7226,
+      "maximumChangeDegrees": 159.67382649186194,
+      "meanChangeDegrees": 5.580121401933768,
+      "customNormalsPresent": true
+    }
+  ],
+  "interpretation": "Verifies the source-normal transfer actually changed normals, not merely created an empty custom layer. Geometry identity is independently asserted during transfer."
+}

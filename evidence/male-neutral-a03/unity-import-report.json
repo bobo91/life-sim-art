@@ -1,0 +1,223 @@
+{
+  "schema": "male-neutral-a01-isolated-unity-import-1",
+  "unityVersion": "6000.5.8f1",
+  "status": "passed-static-import-and-reopen",
+  "renderPipeline": "UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset",
+  "gltfastVersion": "6.20.0",
+  "urpVersion": "17.5.0",
+  "graphicsDevice": "Direct3D11",
+  "sceneSavedAndReopened": true,
+  "importedFilesUnchanged": true,
+  "screenshotsRendered": true,
+  "assets": [
+    {
+      "id": "chr_player_male_poc_001",
+      "importer": "GLTFast.Editor.GltfImporter",
+      "status": "passed",
+      "dimensions": [
+        1.7383146286010742,
+        1.7494053840637207,
+        0.30627286434173584
+      ],
+      "boundsMin": [
+        -0.8691573143005371,
+        -4.76837158203125e-07,
+        -0.15313643217086792
+      ],
+      "boundsMax": [
+        0.8691573143005371,
+        1.7494049072265625,
+        0.15313643217086792
+      ],
+      "rootScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshCount": 10,
+      "triangles": 29367,
+      "materialCount": 9,
+      "indicesValid": true,
+      "finiteVerticesNormals": true,
+      "dimensionsMatch": true,
+      "bottomCenterPivot": true,
+      "unitScale": true,
+      "frontPositiveZ": true,
+      "frontNearestVertex": -1.0,
+      "materials": [
+        {
+          "name": "M01_skin",
+          "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+          "pipelineTag": "UniversalPipeline",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.7200000286102295,
+          "propertiesMatch": true,
+          "shaderHasError": false,
+          "shaderSupported": true,
+          "baseTexturePresent": true
+        },
+        {
+          "name": "M01_hair",
+          "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+          "pipelineTag": "UniversalPipeline",
+          "color": [
+            0.16007757186889648,
+            0.10612612217664719,
+            0.07016473263502121,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.8600000143051147,
+          "propertiesMatch": true,
+          "shaderHasError": false,
+          "shaderSupported": true,
+          "baseTexturePresent": false
+        },
+        {
+          "name": "M01_eyes",
+          "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+          "pipelineTag": "UniversalPipeline",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.30000001192092896,
+          "propertiesMatch": true,
+          "shaderHasError": false,
+          "shaderSupported": true,
+          "baseTexturePresent": true
+        },
+        {
+          "name": "M01_skin_darker",
+          "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+          "pipelineTag": "UniversalPipeline",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.7200000286102295,
+          "propertiesMatch": true,
+          "shaderHasError": false,
+          "shaderSupported": true,
+          "baseTexturePresent": true
+        },
+        {
+          "name": "M01_skin_upper_lip",
+          "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+          "pipelineTag": "UniversalPipeline",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.6700000166893005,
+          "propertiesMatch": true,
+          "shaderHasError": false,
+          "shaderSupported": true,
+          "baseTexturePresent": true
+        },
+        {
+          "name": "M01_skin_lower_lip",
+          "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+          "pipelineTag": "UniversalPipeline",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.6700000166893005,
+          "propertiesMatch": true,
+          "shaderHasError": false,
+          "shaderSupported": true,
+          "baseTexturePresent": true
+        },
+        {
+          "name": "M01_pants",
+          "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+          "pipelineTag": "UniversalPipeline",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 1.0,
+          "propertiesMatch": true,
+          "shaderHasError": false,
+          "shaderSupported": true,
+          "baseTexturePresent": true
+        },
+        {
+          "name": "M01_shirt",
+          "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+          "pipelineTag": "UniversalPipeline",
+          "color": [
+            0.2347950041294098,
+            0.3318299651145935,
+            0.2716996967792511,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.8399999737739563,
+          "propertiesMatch": true,
+          "shaderHasError": false,
+          "shaderSupported": true,
+          "baseTexturePresent": false
+        },
+        {
+          "name": "M01_canvas_shoes",
+          "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+          "pipelineTag": "UniversalPipeline",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 1.0,
+          "propertiesMatch": true,
+          "shaderHasError": false,
+          "shaderSupported": true,
+          "baseTexturePresent": true
+        }
+      ],
+      "proposedColliderCenter": [
+        0.0,
+        0.8747026920318604,
+        0.0
+      ],
+      "proposedColliderSize": [
+        1.7383147478103638,
+        1.7494053840637207,
+        0.30627286434173584
+      ],
+      "errors": [],
+      "importerMessages": []
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Isolated static character import in art workspace; no game changes or contract acceptance.",
+    "One isolated URP/D3D review render; different lighting/tonemapping from Blender, no game-lighting equivalence.",
+    "Proposed collider boxes are test-scene envelopes only, not approved game collisions.",
+    "No skinning, animation, Humanoid Avatar, LOD, gameplay or game integration test."
+  ]
+}

@@ -1,0 +1,387 @@
+{
+  "views": [
+    {
+      "view": "high_side",
+      "cameraType": "ORTHO",
+      "location": [
+        5.25,
+        -3.214697822599943e-16,
+        0.875
+      ],
+      "focus": [
+        0.0,
+        0.0,
+        0.875
+      ],
+      "distanceMeters": 5.25,
+      "orthoScale": 2.1524999141693115,
+      "verticalFovDegrees": null,
+      "resolution": [
+        1100,
+        1100
+      ]
+    },
+    {
+      "view": "high_three_quarter",
+      "cameraType": "ORTHO",
+      "location": [
+        3.0112762451171875,
+        -4.300548076629639,
+        0.875
+      ],
+      "focus": [
+        0.0,
+        0.0,
+        0.875
+      ],
+      "distanceMeters": 5.249999727521617,
+      "orthoScale": 2.1524999141693115,
+      "verticalFovDegrees": null,
+      "resolution": [
+        1100,
+        1100
+      ]
+    },
+    {
+      "view": "high_near_third_person",
+      "cameraType": "PERSP",
+      "location": [
+        1.772903323173523,
+        -2.531968355178833,
+        1.7032209634780884
+      ],
+      "focus": [
+        0.0,
+        0.0,
+        0.875
+      ],
+      "distanceMeters": 3.1999999921768905,
+      "orthoScale": null,
+      "verticalFovDegrees": 39.99999883637168,
+      "resolution": [
+        1100,
+        1100
+      ]
+    },
+    {
+      "view": "high_game_16m_front",
+      "cameraType": "PERSP",
+      "location": [
+        0.0,
+        -10.284602165222168,
+        13.13171100616455
+      ],
+      "focus": [
+        0.0,
+        0.0,
+        0.875
+      ],
+      "distanceMeters": 16.0,
+      "orthoScale": null,
+      "verticalFovDegrees": 39.99999883637168,
+      "resolution": [
+        1280,
+        720
+      ]
+    },
+    {
+      "view": "high_shoe_close",
+      "cameraType": "ORTHO",
+      "location": [
+        0.8999999761581421,
+        -1.309999942779541,
+        0.6050000190734863
+      ],
+      "focus": [
+        0.0,
+        -0.009999999776482582,
+        0.054999999701976776
+      ],
+      "distanceMeters": 1.6740668359173012,
+      "orthoScale": 0.36000001430511475,
+      "verticalFovDegrees": null,
+      "resolution": [
+        900,
+        900
+      ]
+    },
+    {
+      "view": "high_hand_close",
+      "cameraType": "ORTHO",
+      "location": [
+        1.0149999856948853,
+        -0.6850000023841858,
+        1.899999976158142
+      ],
+      "focus": [
+        0.7649999856948853,
+        0.014999999664723873,
+        1.2999999523162842
+      ],
+      "distanceMeters": 0.9552486556072903,
+      "orthoScale": 0.30000001192092896,
+      "verticalFovDegrees": null,
+      "resolution": [
+        900,
+        900
+      ]
+    },
+    {
+      "view": "front",
+      "cameraType": "ORTHO",
+      "location": [
+        0.0,
+        -5.25,
+        0.875
+      ],
+      "focus": [
+        0.0,
+        0.0,
+        0.875
+      ],
+      "distanceMeters": 5.25,
+      "orthoScale": 2.1524999141693115,
+      "verticalFovDegrees": null,
+      "resolution": [
+        1100,
+        1100
+      ]
+    },
+    {
+      "view": "side",
+      "cameraType": "ORTHO",
+      "location": [
+        5.25,
+        -3.214697822599943e-16,
+        0.875
+      ],
+      "focus": [
+        0.0,
+        0.0,
+        0.875
+      ],
+      "distanceMeters": 5.25,
+      "orthoScale": 2.1524999141693115,
+      "verticalFovDegrees": null,
+      "resolution": [
+        1100,
+        1100
+      ]
+    },
+    {
+      "view": "back",
+      "cameraType": "ORTHO",
+      "location": [
+        6.429395645199886e-16,
+        5.25,
+        0.875
+      ],
+      "focus": [
+        0.0,
+        0.0,
+        0.875
+      ],
+      "distanceMeters": 5.25,
+      "orthoScale": 2.1524999141693115,
+      "verticalFovDegrees": null,
+      "resolution": [
+        1100,
+        1100
+      ]
+    },
+    {
+      "view": "three_quarter",
+      "cameraType": "ORTHO",
+      "location": [
+        3.0112762451171875,
+        -4.300548076629639,
+        0.875
+      ],
+      "focus": [
+        0.0,
+        0.0,
+        0.875
+      ],
+      "distanceMeters": 5.249999727521617,
+      "orthoScale": 2.1524999141693115,
+      "verticalFovDegrees": null,
+      "resolution": [
+        1100,
+        1100
+      ]
+    },
+    {
+      "view": "face_front",
+      "cameraType": "ORTHO",
+      "location": [
+        0.0,
+        -5.28000020980835,
+        1.5399999618530273
+      ],
+      "focus": [
+        0.0,
+        -0.029999999329447746,
+        1.5399999618530273
+      ],
+      "distanceMeters": 5.25,
+      "orthoScale": 0.5425000190734863,
+      "verticalFovDegrees": null,
+      "resolution": [
+        1100,
+        1100
+      ]
+    },
+    {
+      "view": "face_three_quarter",
+      "cameraType": "ORTHO",
+      "location": [
+        3.0112762451171875,
+        -4.330548286437988,
+        1.5399999618530273
+      ],
+      "focus": [
+        0.0,
+        -0.029999999329447746,
+        1.5399999618530273
+      ],
+      "distanceMeters": 5.249999727521617,
+      "orthoScale": 0.5425000190734863,
+      "verticalFovDegrees": null,
+      "resolution": [
+        1100,
+        1100
+      ]
+    },
+    {
+      "view": "near_third_person",
+      "cameraType": "PERSP",
+      "location": [
+        1.772903323173523,
+        -2.531968355178833,
+        1.7032209634780884
+      ],
+      "focus": [
+        0.0,
+        0.0,
+        0.875
+      ],
+      "distanceMeters": 3.1999999921768905,
+      "orthoScale": null,
+      "verticalFovDegrees": 39.99999883637168,
+      "resolution": [
+        1100,
+        1100
+      ]
+    },
+    {
+      "view": "game_16m_front",
+      "cameraType": "PERSP",
+      "location": [
+        0.0,
+        -10.284602165222168,
+        13.13171100616455
+      ],
+      "focus": [
+        0.0,
+        0.0,
+        0.875
+      ],
+      "distanceMeters": 16.0,
+      "orthoScale": null,
+      "verticalFovDegrees": 39.99999883637168,
+      "resolution": [
+        1280,
+        720
+      ]
+    },
+    {
+      "view": "game_16m_back",
+      "cameraType": "PERSP",
+      "location": [
+        1.2595005113592286e-15,
+        10.284602165222168,
+        13.13171100616455
+      ],
+      "focus": [
+        0.0,
+        0.0,
+        0.875
+      ],
+      "distanceMeters": 16.0,
+      "orthoScale": null,
+      "verticalFovDegrees": 39.99999883637168,
+      "resolution": [
+        1280,
+        720
+      ]
+    },
+    {
+      "view": "shoe_close",
+      "cameraType": "ORTHO",
+      "location": [
+        0.8999999761581421,
+        -1.309999942779541,
+        0.6050000190734863
+      ],
+      "focus": [
+        0.0,
+        -0.009999999776482582,
+        0.054999999701976776
+      ],
+      "distanceMeters": 1.6740668359173012,
+      "orthoScale": 0.36000001430511475,
+      "verticalFovDegrees": null,
+      "resolution": [
+        900,
+        900
+      ]
+    },
+    {
+      "view": "hand_close",
+      "cameraType": "ORTHO",
+      "location": [
+        1.0149999856948853,
+        -0.6850000023841858,
+        1.899999976158142
+      ],
+      "focus": [
+        0.7649999856948853,
+        0.014999999664723873,
+        1.2999999523162842
+      ],
+      "distanceMeters": 0.9552486556072903,
+      "orthoScale": 0.30000001192092896,
+      "verticalFovDegrees": null,
+      "resolution": [
+        900,
+        900
+      ]
+    }
+  ],
+  "renderConfig": {
+    "engine": "CYCLES",
+    "device": "CPU",
+    "samples": 32,
+    "denoise": true,
+    "threads": 6,
+    "viewTransform": "AgX",
+    "exposure": 0,
+    "fullResolution": [
+      1100,
+      1100
+    ],
+    "faceResolution": [
+      1100,
+      1100
+    ],
+    "gameResolution": [
+      1280,
+      720
+    ],
+    "lightPowerMultiplier": 0.55
+  },
+  "sameWorldAndLightsAsA02": true,
+  "imageRetouching": false,
+  "seed": 28102026,
+  "elapsedBuildSeconds": 116.8333694934845
+}

@@ -1,0 +1,123 @@
+{
+  "schema": "male-neutral-a01-static-contact-diagnostics-1",
+  "headBoundaryComponents": [
+    {
+      "vertices": 50,
+      "centerWorld": [
+        -0.0004416328447405249,
+        0.028615513816475868,
+        1.3554447889328003
+      ],
+      "boundsMin": [
+        -0.1501130610704422,
+        -0.05503488704562187,
+        1.305263876914978
+      ],
+      "boundsMax": [
+        0.1501137614250183,
+        0.13333843648433685,
+        1.3919355869293213
+      ],
+      "nearestEyeSurfaceDistanceMeters": {
+        "min": 0.20168621838092804,
+        "max": 0.2640722095966339,
+        "mean": 0.22986593335866928
+      }
+    },
+    {
+      "vertices": 58,
+      "centerWorld": [
+        2.8699724907710333e-07,
+        0.031618114560842514,
+        1.6228549480438232
+      ],
+      "boundsMin": [
+        -0.08509387075901031,
+        -0.051642581820487976,
+        1.5166853666305542
+      ],
+      "boundsMax": [
+        0.08509423583745956,
+        0.11213210970163345,
+        1.7179937362670898
+      ],
+      "nearestEyeSurfaceDistanceMeters": {
+        "min": 0.055142104625701904,
+        "max": 0.1484920084476471,
+        "mean": 0.10095111794512847
+      }
+    },
+    {
+      "vertices": 24,
+      "centerWorld": [
+        3.607119083426369e-07,
+        0.033116597682237625,
+        1.406569242477417
+      ],
+      "boundsMin": [
+        -0.018200119957327843,
+        0.021822474896907806,
+        1.3996790647506714
+      ],
+      "boundsMax": [
+        0.018200833350419998,
+        0.044229213148355484,
+        1.411838412284851
+      ],
+      "nearestEyeSurfaceDistanceMeters": {
+        "min": 0.16527214646339417,
+        "max": 0.17052938044071198,
+        "mean": 0.16711124032735825
+      }
+    },
+    {
+      "vertices": 24,
+      "centerWorld": [
+        0.040836017578840256,
+        -0.061211422085762024,
+        1.5813019275665283
+      ],
+      "boundsMin": [
+        0.02369096502661705,
+        -0.0659831315279007,
+        1.5654513835906982
+      ],
+      "boundsMax": [
+        0.060581497848033905,
+        -0.05077524483203888,
+        1.6016876697540283
+      ],
+      "nearestEyeSurfaceDistanceMeters": {
+        "min": 7.006164378253743e-05,
+        "max": 0.007139064371585846,
+        "mean": 0.0033978043208359545
+      }
+    },
+    {
+      "vertices": 24,
+      "centerWorld": [
+        -0.040835388004779816,
+        -0.06121143326163292,
+        1.5813016891479492
+      ],
+      "boundsMin": [
+        -0.06058084964752197,
+        -0.06598314642906189,
+        1.5654515027999878
+      ],
+      "boundsMax": [
+        -0.023690320551395416,
+        -0.05077524483203888,
+        1.6016877889633179
+      ],
+      "nearestEyeSurfaceDistanceMeters": {
+        "min": 7.002363417996094e-05,
+        "max": 0.00713906716555357,
+        "mean": 0.0033978031130269906
+      }
+    }
+  ],
+  "headEyeIntersectingTrianglePairs": 248,
+  "headHairIntersectingTrianglePairs": 273,
+  "interpretation": "Diagnostic only, not blanket penetration failures: socket rims and hair roots intentionally overlap skin. Boundary groups need anatomical classification; distances are to nearest eye surface, not signed clearance. No animation/deformation contact guarantee."
+}
