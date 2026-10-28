@@ -9,8 +9,12 @@
   "releaseUrl": "https://github.com/bobo91/life-sim-art/releases/tag/male-neutral-b01-v0.1",
   "internalFiles": 204,
   "zipAndInternalHashesPassed": true,
-  "downloadVerified": false,
+  "downloadVerified": true,
   "reviewOnly": true,
   "integrationGo": false,
-  "videoUrl": "https://github.com/bobo91/life-sim-art/releases/download/male-neutral-b01-v0.1/a03-b01-unity-motion.mp4"
+  "videoUrl": "https://github.com/bobo91/life-sim-art/releases/download/male-neutral-b01-v0.1/a03-b01-unity-motion.mp4",
+  "downloadVerifiedUtc": "2026-10-28T19:32:15.931209+00:00",
+  "downloadInternalFileChecks": 204,
+  "downloadedModelBlendAndVideoMatchFinal": true,
+  "videoDownloadVerified": true
 }
