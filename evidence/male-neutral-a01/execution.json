@@ -69,5 +69,12 @@
     "actual game camera/lighting/integration",
     "game repository edits",
     "merge"
-  ]
+  ],
+  "repositoryUnitTests": {
+    "command": "python -m unittest discover -s tests -v",
+    "passed": 52,
+    "failed": 0,
+    "exitCode": 0,
+    "scope": "Existing standard-library suite; character geometry/material proof is in separate Blender/Unity evidence."
+  }
 }

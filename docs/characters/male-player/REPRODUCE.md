@@ -2,7 +2,7 @@
 
 Tested on Windows with Blender 4.5.14 LTS, bundled Python 3.11.15 and system Python 3.14.6/Pillow. No Linux or GPU execution is claimed. Commands use `blender` for the installed executable; the tested path was `C:/Users/rcalm/tools/blender/blender-4.5.14-windows-x64/blender.exe`.
 
-Use fresh output directories. The scripts refuse to overwrite earlier models. Source scripts remain disabled. Obtain only the owner-authorized [Snow v4 official ZIP](https://studio.blender.org/download-source/files/ba/0f/ba0fe6d810333b1d73c1c359e4dc03cb-6.zip), verify the hashes in PROVENANCE.md, and extract unchanged under `build/source-audit/original/`. Do not enable its embedded rig scripts.
+The sheet composer requires the source-gate PNGs; run the source-gate command below before composing it. Use fresh output directories. The scripts refuse to overwrite earlier models. Source scripts remain disabled. Obtain only the owner-authorized [Snow v4 official ZIP](https://studio.blender.org/download-source/files/ba/0f/ba0fe6d810333b1d73c1c359e4dc03cb-6.zip), verify the hashes in PROVENANCE.md, and extract unchanged under `build/source-audit/original/`. Do not enable its embedded rig scripts.
 
 ```powershell
 python scripts/prepare_male_textures.py --source build/source-audit/original/Snow/textures --output build/male-neutral-a01/textures-portable --max-size 2048 --config configs/male-neutral-a01.json
