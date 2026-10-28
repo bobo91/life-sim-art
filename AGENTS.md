@@ -61,3 +61,15 @@ required before Phase B, rig/animation work or further character production.
 This exception applies only to the named source and scope. No purchases,
 commissions, subscriptions, paid model/API calls, vendor contact or automatic
 merge. All other repository rules remain in effect.
+
+## Owner-authorized Phase A visual revision A02 (2026-10-28)
+
+The owner visually rejected A01 while approving its technical method and explicitly
+requested a distinct second male visual iteration on the same PR #39. This extends
+the completed A01-only pass limit solely for A02: retain the source, A01 and its
+evidence unchanged, reuse the same approved CC BY Snow source and working export
+pipeline, and perform artist-directed facial geometry/material changes with
+traceable multi-view comparison. Evaluate future deformation compatibility and
+triangle reduction without building a rig, animation or clothing system.
+No additional base acquisition, purchase, vendor contact, paid service, game-repo
+change, merge or Phase B is authorized. Stop after A02 review delivery.

@@ -1,0 +1,19 @@
+{
+  "schema": "male-a02-comparison-integrity-1",
+  "nativeCameraMetadataMatchesA01": true,
+  "A01WorldAndAreaLightsRetained": "A02 loads A01 and never edits world/light objects; same key/fill/rim and AgX0 recipe",
+  "unchangedBodyGeometry": {
+    "M01_body": true,
+    "M01_shirt": true,
+    "M01_pants": true,
+    "M01_shoes_base": true,
+    "M01_shoes_bottom": true,
+    "M01_shoes_parts": true
+  },
+  "headTopologyAndUvPreserved": true,
+  "A01BlendUnchanged": true,
+  "sourceSnowBlendUnchanged": true,
+  "actualTriangleReduction": 1432,
+  "reductionPercent": 3.4032844546902106,
+  "reductionLocation": "Hair only; all head/eye/brow/body/cloth/shoe triangle counts retained. Face positions changed, body positions do not."
+}

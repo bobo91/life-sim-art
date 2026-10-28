@@ -1,0 +1,71 @@
+{
+  "schema": "male-a02-review-layout-1",
+  "nativeRenders": [
+    {
+      "file": "A01_clay_face_front.png",
+      "sha256": "b381ead5b9baea5eeea5d5a6e070465d619a598a43d3fa7430c592a29faef5d2",
+      "nativePixelsAndFileUnchanged": true
+    },
+    {
+      "file": "A01_clay_face_three_quarter.png",
+      "sha256": "9e454e7d076c5c9cf23c3dd334f9b5acf9d654fe49f3ebbfd43b448e1bb4d151",
+      "nativePixelsAndFileUnchanged": true
+    },
+    {
+      "file": "A02_clay_face_front.png",
+      "sha256": "cc31171716aac54bbe2040974abf185400ec708525ed036f5cec5972c9a9f5af",
+      "nativePixelsAndFileUnchanged": true
+    },
+    {
+      "file": "A02_clay_face_three_quarter.png",
+      "sha256": "0f26deed60363c91563d951b77843dbba7c4fecf20379467386b431d6ae62ccb",
+      "nativePixelsAndFileUnchanged": true
+    },
+    {
+      "file": "back.png",
+      "sha256": "cb96789acde73b979e386cddd101b78e02cc524a4d37143902b97327a4a7c203",
+      "nativePixelsAndFileUnchanged": true
+    },
+    {
+      "file": "face_front.png",
+      "sha256": "b80c4d2ff154487ed8cd30e081f64f4bf987572548c629deece021878abaf224",
+      "nativePixelsAndFileUnchanged": true
+    },
+    {
+      "file": "face_three_quarter.png",
+      "sha256": "5d3f0c0e1a104b0a0f561f1e0c88be61ead0e1298fe383112a942609b842877b",
+      "nativePixelsAndFileUnchanged": true
+    },
+    {
+      "file": "front.png",
+      "sha256": "f4e88c4eab0c283a0b25e21e50a907bd296851d7b1a81c2bbea17755cfa1189a",
+      "nativePixelsAndFileUnchanged": true
+    },
+    {
+      "file": "game_16m_back.png",
+      "sha256": "7966e97f68969c6dafde23b531ffb72c104e82795c29f6b12f56b427c094b436",
+      "nativePixelsAndFileUnchanged": true
+    },
+    {
+      "file": "game_16m_front.png",
+      "sha256": "b6d9231a3706194d6c0d719ea22cbfff0f07a1ce671e20a311b5f5f484502cf4",
+      "nativePixelsAndFileUnchanged": true
+    },
+    {
+      "file": "near_third_person.png",
+      "sha256": "5a96c9c2aba27ccd75734d3923282ffe74af2dd08848392dc7c2033b4f8487b8",
+      "nativePixelsAndFileUnchanged": true
+    },
+    {
+      "file": "side.png",
+      "sha256": "a947bc80aec141d5b4fcb2fed8705f0bc7f627fc0c1460b4b9515c536d7ac56b",
+      "nativePixelsAndFileUnchanged": true
+    },
+    {
+      "file": "three_quarter.png",
+      "sha256": "ae31afe92d4da690349d44f1b7e34966edf2bd31bea8b8ba0abc966120a20e01",
+      "nativePixelsAndFileUnchanged": true
+    }
+  ],
+  "composites": "Resize/layout/labels only; no color changes or retouch. Both revisions use identical Blender light/camera recipes."
+}

@@ -1,0 +1,14 @@
+{
+  "schema": "male-a02-artifact-1",
+  "tag": "male-neutral-a02-v0.2",
+  "file": "male-neutral-a02-v0.2-review.zip",
+  "bytes": 138368494,
+  "sha256": "76bd885d90c8cef3b592c1a82c80b8fa296c5de6ed0f9dcd3733cb2f60b5ad62",
+  "downloadUrl": "https://github.com/bobo91/life-sim-art/releases/download/male-neutral-a02-v0.2/male-neutral-a02-v0.2-review.zip",
+  "releaseUrl": "https://github.com/bobo91/life-sim-art/releases/tag/male-neutral-a02-v0.2",
+  "zipAndInternalHashesPassed": true,
+  "internalFiles": 86,
+  "downloadVerified": false,
+  "modelSha256": "8af805722524a38435c9dce4154e1792842bba5696d4ea8ff52be072b4fcceae",
+  "reviewOnly": true
+}

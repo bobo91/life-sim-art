@@ -1,0 +1,76 @@
+{
+  "schema": "willow-creek-character-static-review-1",
+  "status": "A02 static Phase A visual review; owner approval pending",
+  "assetId": "chr_player_male_poc_001",
+  "source": "Blender Studio Snow v4, CC-BY-4.0 attributed derivative",
+  "units": "meters",
+  "blenderDimensionsXYZ": [
+    1.7383147478103638,
+    0.30627286434173584,
+    1.7511872053146362
+  ],
+  "unityDimensionsXYZ": [
+    1.7383146286010742,
+    1.7511870861053467,
+    0.30627286434173584
+  ],
+  "heightMeters": 1.7511872053146362,
+  "pivot": "Root identity at bottom center of asset bounds; Y=0 feet in Unity. T-pose width includes arms.",
+  "axes": {
+    "blender": "Z up, -Y front",
+    "glTF": "Y up, +Z front",
+    "unity": "Y up, +Z front; glTFast mirrors X for handedness"
+  },
+  "orientationValidation": "Derived from source front renders and glTF axis conversion; no asymmetric semantic-front landmark asserted in Unity checker (frontPoint empty).",
+  "files": [
+    "chr_player_male_poc_001.glb",
+    "character.blend",
+    "textures/",
+    "manifest.json"
+  ],
+  "glbSha256": "8af805722524a38435c9dce4154e1792842bba5696d4ea8ff52be072b4fcceae",
+  "triangles": 40645,
+  "meshCount": 10,
+  "materials": {
+    "count": 9,
+    "textures": 13,
+    "maxTextureEdge": 2048,
+    "model": "Core glTF metallic/roughness dielectric: metallic0, IOR1.5, specular0.5; skin roughness.72, lips.67, hair.83, shirt.84, eyes.30",
+    "unityDifference": "No unsupported extensions in A02. Blender AgX/area lights and isolated Unity linear/sRGB key/fill still differ; no game-lighting match certified."
+  },
+  "rig": null,
+  "animations": [],
+  "shapeKeysDelivered": false,
+  "pose": "Static source T-pose",
+  "unityTest": {
+    "editor": "6000.5.8f1",
+    "URP": "17.5.0",
+    "glTFast": "6.20.0",
+    "graphics": "Direct3D11",
+    "staticImportAndReopenPassed": true,
+    "imageRendered": true,
+    "gameIntegrationTested": false,
+    "HumanoidAvatarTested": false,
+    "requiredBuiltinTextureModules": [
+      "com.unity.modules.imageconversion",
+      "com.unity.modules.unitywebrequesttexture"
+    ],
+    "recommendation": "Import GLB through glTFast after URP/Linear setup; verify expected 10 meshes, 9 materials, 13 embedded images and no error diagnostics. Keep source vertex colors absent. Review lighting and material gloss before any shipping approval."
+  },
+  "collision": "None delivered. Probe box is an unapproved T-pose bounds envelope, not a character controller. Claude owns gameplay collision decisions.",
+  "budget": "Current40,645; proposed future25-28k LOD0 protects full current head/eye/brow topology. Reduction plan is not implemented or certified.",
+  "gameCameraProxy": {
+    "distanceMeters": 16,
+    "elevationDegrees": 50,
+    "verticalFovDegrees": 40,
+    "resolution": [
+      1280,
+      720
+    ],
+    "actualGameCameraVerified": false
+  },
+  "licenseCredit": "Snow Rig (CC) Blender Foundation | studio.blender.org",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "nextGate": "Owner visual approval; no Phase B or game integration authorized",
+  "iteration": "A02"
+}

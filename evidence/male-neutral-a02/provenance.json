@@ -1,0 +1,30 @@
+{
+  "schema": "male-neutral-a02-provenance-1",
+  "source": "Blender Studio Snow v4, via preserved A01 static derivative",
+  "sourceUrl": "https://studio.blender.org/characters/snow/v4/",
+  "license": "CC-BY-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "credit": "Snow Rig (CC) Blender Foundation | studio.blender.org",
+  "originalSnowBlendSha256": "80fd0a81bca90f0efdcdcb98422df0e198ae57f4a1c239e13fb795922779b1fc",
+  "a01BlendSha256": "8124cc0ef646300ffbc756793582c3a1e4749051cd36d9dd4738ec08a5ee87db",
+  "a01SourceCommit": "8f5cc5a963e57ddcdef4fba24808e7ee3a1bc8f5",
+  "a01ArtifactUrl": "https://github.com/bobo91/life-sim-art/releases/download/male-neutral-a01-v0.1/male-neutral-a01-v0.1-review.zip",
+  "a01ArtifactSha256": "d7f16b1b7b4b712825811cc1fa6bf82ee32220632267683fd64a1dd647c2a790",
+  "modifications": [
+    "Geometry-first oval head/feature deformation, topology and UV retained",
+    "Uniform eye geometry transform and coordinated sockets; lid expression relaxed",
+    "Original three broad swept quiff forms; only source scalp cap retained",
+    "Fair warm skin remap, compressed subtle variation",
+    "Core dielectric PBR, higher roughness, no specular extension"
+  ],
+  "stillFromSnow": [
+    "All body/clothes/shoes geometry and their source textures",
+    "Head/eye/brow topology and head UV, underlying authored facial structure",
+    "Brown iris texture",
+    "547-vertex scalp cap"
+  ],
+  "sourceScriptsExecutedOrDelivered": false,
+  "rigOrAnimationsDelivered": false,
+  "spendSEK": 0,
+  "purchasesOrVendorContact": false
+}

@@ -1,0 +1,507 @@
+{
+  "schema": "male-neutral-a02-texture-processing-1",
+  "recipe": {
+    "sourceMedianSrgb8": [
+      111,
+      81,
+      59
+    ],
+    "targetMedianSrgb8": [
+      169,
+      130,
+      110
+    ],
+    "exponent": 0.55,
+    "darkerTintLinear": [
+      0.82,
+      0.78,
+      0.76
+    ],
+    "upperLipTintLinear": [
+      0.96,
+      0.88,
+      0.86
+    ],
+    "lowerLipTintLinear": [
+      0.99,
+      0.92,
+      0.91
+    ]
+  },
+  "sourceMedianLinear": [
+    0.1589608350608804,
+    0.0822827071298148,
+    0.043735029256973465
+  ],
+  "targetMedianLinear": [
+    0.39675523072562685,
+    0.2232279573168085,
+    0.1559264637078274
+  ],
+  "formula": "srgb_encode(clamp(targetLinear * (srgb_decode(source)/sourceMedianLinear)^exponent * linearTint,0,1)); round to 8-bit",
+  "sourcePreparedDirectory": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-a01\\textures-portable",
+  "config": null,
+  "sourceMapping": {
+    "file": "atlas-mapping.json",
+    "sha256": "28d3db54c2af29992924a51cb9fb8aae4a5c992be96358d542f49f4cf2aff7f5"
+  },
+  "outputMapping": {
+    "file": "atlas-mapping.json",
+    "sha256": "9dda36594eaef41d5e89538cfd7fb84d307bed8df013c3c8212b583005c9d51d"
+  },
+  "occupiedPixelBoxes": [
+    [
+      0,
+      1024,
+      1024,
+      2048
+    ],
+    [
+      1024,
+      1024,
+      2048,
+      2048
+    ],
+    [
+      0,
+      0,
+      1024,
+      1024
+    ]
+  ],
+  "unusedPixelBox": [
+    1024,
+    0,
+    2048,
+    1024
+  ],
+  "inputs": [
+    {
+      "file": "eyes_diffuse.png",
+      "bytes": 1286452,
+      "sha256": "7ec88aa8ddb70b7cad01fe96d82179c1b440ddfa4fb91f413d0cae71f9cd746f",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "eyes_normal.png",
+      "bytes": 322608,
+      "sha256": "f0908a7026ee93b73abbf1aed8d344f6c20cbd3b90e1bac421003dd3f51051ee",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "hair_roughness.png",
+      "bytes": 187462,
+      "sha256": "c6818f7d7add7cf25f4cbabf7126aee6895887e8d94a7c00c306e8d02c6b9ae3",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "L"
+    },
+    {
+      "file": "pants_diffuse.png",
+      "bytes": 6335467,
+      "sha256": "0c48087b8bf7981790e7836fca766187fe6769e3e14e8dfda156bf6704a8999e",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "pants_normal.png",
+      "bytes": 4691039,
+      "sha256": "107de7037b35fc62d01bd606f0ae0a719c29ea22b8a5486960c3653044ec6dff",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "pants_roughness.png",
+      "bytes": 1381051,
+      "sha256": "dd81fe669bbc00b4802cbb2f16ba67f0ee12a46768f8d96f0347acf4fbd79474",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "L"
+    },
+    {
+      "file": "pants_tinted_diffuse.png",
+      "bytes": 6237637,
+      "sha256": "b225a00982b9859abe724f695700f98ab8ccdabb2e8da8d6b380ba38c5fdcca1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "shirt_normal.png",
+      "bytes": 4157409,
+      "sha256": "7a90766714b9a431b17b2e5f90a2c1d267a73e0433f1080a31526a3ee88e95e6",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "shoes_diffuse.png",
+      "bytes": 2910242,
+      "sha256": "6e4940a480c245c0d68947686b2242f1b48bb7624cc6131fa71e8f6281892b27",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "shoes_metalness.png",
+      "bytes": 8940,
+      "sha256": "654125022f464e69ce97ff24d7f41ff5d3c11057c97bc697df1c9bd7a0bc1dd3",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "shoes_normal.png",
+      "bytes": 5677803,
+      "sha256": "2ae017a1b444857625c0dcf28a887adb058536995f752a030800973c86fc7e99",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "shoes_roughness.png",
+      "bytes": 1234818,
+      "sha256": "6ea8699896b76bcb97f9051f945993ad1a91084d0507cd8e22bba5ebe740e018",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "L"
+    },
+    {
+      "file": "skin_darker_diffuse_atlas.png",
+      "bytes": 1303105,
+      "sha256": "25905ab7cefa4900ba4ceb1bf56d4bbfc5fd991344afd63469e71aaae8d4748c",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "skin_diffuse_atlas.png",
+      "bytes": 1407053,
+      "sha256": "4b6db9d501df3f41890abe9d766da88f2f8041655376e5015eac97d9a70d6120",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "skin_lower_lip_diffuse_atlas.png",
+      "bytes": 1389968,
+      "sha256": "2e6b4f5d2951651ec25d64c21807fcd1263b08ab83ea085d5de079aeb4c9c3a1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "skin_roughness_atlas.png",
+      "bytes": 1188873,
+      "sha256": "6915fadaf8182ba0308ce9548eea5d164a6d729c5b11c4768f27e0c3b815f7fa",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "skin_upper_lip_diffuse_atlas.png",
+      "bytes": 1363077,
+      "sha256": "c54a9e0dfd7892a32d6469b2d7dd66bdf6f887486a6371b8cd09de57402a0d5b",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "eyes_diffuse.png",
+      "bytes": 1286452,
+      "sha256": "7ec88aa8ddb70b7cad01fe96d82179c1b440ddfa4fb91f413d0cae71f9cd746f",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "operation": "byte-for-byte copy",
+      "inputFile": "eyes_diffuse.png",
+      "inputBytesUnchanged": true
+    },
+    {
+      "file": "eyes_normal.png",
+      "bytes": 322608,
+      "sha256": "f0908a7026ee93b73abbf1aed8d344f6c20cbd3b90e1bac421003dd3f51051ee",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "operation": "byte-for-byte copy",
+      "inputFile": "eyes_normal.png",
+      "inputBytesUnchanged": true
+    },
+    {
+      "file": "hair_roughness.png",
+      "bytes": 187462,
+      "sha256": "c6818f7d7add7cf25f4cbabf7126aee6895887e8d94a7c00c306e8d02c6b9ae3",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "operation": "byte-for-byte copy",
+      "inputFile": "hair_roughness.png",
+      "inputBytesUnchanged": true
+    },
+    {
+      "file": "pants_diffuse.png",
+      "bytes": 6335467,
+      "sha256": "0c48087b8bf7981790e7836fca766187fe6769e3e14e8dfda156bf6704a8999e",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "operation": "byte-for-byte copy",
+      "inputFile": "pants_diffuse.png",
+      "inputBytesUnchanged": true
+    },
+    {
+      "file": "pants_normal.png",
+      "bytes": 4691039,
+      "sha256": "107de7037b35fc62d01bd606f0ae0a719c29ea22b8a5486960c3653044ec6dff",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "operation": "byte-for-byte copy",
+      "inputFile": "pants_normal.png",
+      "inputBytesUnchanged": true
+    },
+    {
+      "file": "pants_roughness.png",
+      "bytes": 1381051,
+      "sha256": "dd81fe669bbc00b4802cbb2f16ba67f0ee12a46768f8d96f0347acf4fbd79474",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "L",
+      "operation": "byte-for-byte copy",
+      "inputFile": "pants_roughness.png",
+      "inputBytesUnchanged": true
+    },
+    {
+      "file": "pants_tinted_diffuse.png",
+      "bytes": 6237637,
+      "sha256": "b225a00982b9859abe724f695700f98ab8ccdabb2e8da8d6b380ba38c5fdcca1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "operation": "byte-for-byte copy",
+      "inputFile": "pants_tinted_diffuse.png",
+      "inputBytesUnchanged": true
+    },
+    {
+      "file": "shirt_normal.png",
+      "bytes": 4157409,
+      "sha256": "7a90766714b9a431b17b2e5f90a2c1d267a73e0433f1080a31526a3ee88e95e6",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "operation": "byte-for-byte copy",
+      "inputFile": "shirt_normal.png",
+      "inputBytesUnchanged": true
+    },
+    {
+      "file": "shoes_diffuse.png",
+      "bytes": 2910242,
+      "sha256": "6e4940a480c245c0d68947686b2242f1b48bb7624cc6131fa71e8f6281892b27",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "operation": "byte-for-byte copy",
+      "inputFile": "shoes_diffuse.png",
+      "inputBytesUnchanged": true
+    },
+    {
+      "file": "shoes_metalness.png",
+      "bytes": 8940,
+      "sha256": "654125022f464e69ce97ff24d7f41ff5d3c11057c97bc697df1c9bd7a0bc1dd3",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "operation": "byte-for-byte copy",
+      "inputFile": "shoes_metalness.png",
+      "inputBytesUnchanged": true
+    },
+    {
+      "file": "shoes_normal.png",
+      "bytes": 5677803,
+      "sha256": "2ae017a1b444857625c0dcf28a887adb058536995f752a030800973c86fc7e99",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "operation": "byte-for-byte copy",
+      "inputFile": "shoes_normal.png",
+      "inputBytesUnchanged": true
+    },
+    {
+      "file": "shoes_roughness.png",
+      "bytes": 1234818,
+      "sha256": "6ea8699896b76bcb97f9051f945993ad1a91084d0507cd8e22bba5ebe740e018",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "L",
+      "operation": "byte-for-byte copy",
+      "inputFile": "shoes_roughness.png",
+      "inputBytesUnchanged": true
+    },
+    {
+      "file": "skin_darker_diffuse_atlas.png",
+      "bytes": 1296786,
+      "sha256": "a99b12e51e1d6c555ac8f3a63bf08dda3a42edcc46bcb26b92fa3a25e7db6c74",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "operation": "fixed linear skin remap and optional linear tint; one final 8-bit quantization",
+      "inputFile": "skin_diffuse_atlas.png",
+      "originalUnusedQuadrantFile": "skin_darker_diffuse_atlas.png",
+      "unusedQuadrantPixelsUnchanged": true,
+      "linearTint": [
+        0.82,
+        0.78,
+        0.76
+      ]
+    },
+    {
+      "file": "skin_diffuse_atlas.png",
+      "bytes": 1365452,
+      "sha256": "2039ddcb4b392ba7093b42d8438e237da753531c7428fe89109bc7a2003facf3",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "operation": "fixed linear skin remap and optional linear tint; one final 8-bit quantization",
+      "inputFile": "skin_diffuse_atlas.png",
+      "originalUnusedQuadrantFile": "skin_diffuse_atlas.png",
+      "unusedQuadrantPixelsUnchanged": true,
+      "linearTint": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "file": "skin_lower_lip_diffuse_atlas.png",
+      "bytes": 1350940,
+      "sha256": "8760c9bb405eca20e1a25cd5cc6e2fd01b74767d7f6d4109c84714977123172b",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "operation": "fixed linear skin remap and optional linear tint; one final 8-bit quantization",
+      "inputFile": "skin_diffuse_atlas.png",
+      "originalUnusedQuadrantFile": "skin_lower_lip_diffuse_atlas.png",
+      "unusedQuadrantPixelsUnchanged": true,
+      "linearTint": [
+        0.99,
+        0.92,
+        0.91
+      ]
+    },
+    {
+      "file": "skin_roughness_atlas.png",
+      "bytes": 1188873,
+      "sha256": "6915fadaf8182ba0308ce9548eea5d164a6d729c5b11c4768f27e0c3b815f7fa",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "operation": "byte-for-byte copy",
+      "inputFile": "skin_roughness_atlas.png",
+      "inputBytesUnchanged": true
+    },
+    {
+      "file": "skin_upper_lip_diffuse_atlas.png",
+      "bytes": 1331777,
+      "sha256": "c87fc712adb2166544746364620353033cfd36559a954435112441557118eb14",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "operation": "fixed linear skin remap and optional linear tint; one final 8-bit quantization",
+      "inputFile": "skin_diffuse_atlas.png",
+      "originalUnusedQuadrantFile": "skin_upper_lip_diffuse_atlas.png",
+      "unusedQuadrantPixelsUnchanged": true,
+      "linearTint": [
+        0.96,
+        0.88,
+        0.86
+      ]
+    }
+  ],
+  "allInputsUnchanged": true,
+  "nonSkinMapsCopiedByteForByte": true,
+  "pantsTintedMapByteForByte": true,
+  "eyeColorChanged": false,
+  "pixelEditingScope": "Only three occupied skin-color quadrants; existing source variation compressed, no painted facial features. Source topology/UV coordinates untouched.",
+  "license": "CC-BY-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "sourceUrl": "https://studio.blender.org/characters/snow/v4/",
+  "credit": "Snow Rig (CC) Blender Foundation | studio.blender.org",
+  "pillowVersion": "12.3.0"
+}

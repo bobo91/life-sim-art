@@ -1,0 +1,268 @@
+{
+  "assetId": "chr_player_male_poc_001",
+  "iteration": "A02",
+  "phase": "A",
+  "blender": "4.5.14 LTS",
+  "sourceBlendSha256": "80fd0a81bca90f0efdcdcb98422df0e198ae57f4a1c239e13fb795922779b1fc",
+  "sourceA01BlendSha256": "8124cc0ef646300ffbc756793582c3a1e4749051cd36d9dd4738ec08a5ee87db",
+  "meshes": [
+    {
+      "name": "M01_body",
+      "vertices": 3268,
+      "triangles": 6500,
+      "boundsWorld": {
+        "min": [
+          -0.8691573739051819,
+          -0.04207108914852142,
+          1.2382690906524658
+        ],
+        "max": [
+          0.8691573739051819,
+          0.12187062203884125,
+          1.364959955215454
+        ]
+      },
+      "geometrySha256": "fa100628943573f0fb7f4ad94b933253cc45b213bffa9ec8a6576b6e9d1b756c",
+      "materials": [
+        "M01_skin"
+      ]
+    },
+    {
+      "name": "M01_head",
+      "vertices": 3719,
+      "triangles": 7264,
+      "boundsWorld": {
+        "min": [
+          -0.1501130610704422,
+          -0.12261877208948135,
+          1.305263876914978
+        ],
+        "max": [
+          0.1501137614250183,
+          0.13333843648433685,
+          1.7179937362670898
+        ]
+      },
+      "geometrySha256": "a396de59957e30b78bf40d3c3c141a51bb420a280da3569122a59e84ea7085e5",
+      "materials": [
+        "M01_skin",
+        "M01_skin_darker",
+        "M01_skin_upper_lip",
+        "M01_skin_lower_lip"
+      ]
+    },
+    {
+      "name": "M01_eyes",
+      "vertices": 1418,
+      "triangles": 2756,
+      "boundsWorld": {
+        "min": [
+          -0.06637171655893326,
+          -0.07336099445819855,
+          1.5525410175323486
+        ],
+        "max": [
+          0.06637240201234818,
+          -0.01821703463792801,
+          1.610098958015442
+        ]
+      },
+      "geometrySha256": "cf85c9e331ea23c4bf29ba287086a1c832927982a4c48a8a94b97303cdc5ad20",
+      "materials": [
+        "M01_eyes"
+      ]
+    },
+    {
+      "name": "M01_eyebrows",
+      "vertices": 806,
+      "triangles": 1504,
+      "boundsWorld": {
+        "min": [
+          -0.06943667680025101,
+          -0.1037701740860939,
+          1.6086771488189697
+        ],
+        "max": [
+          0.06943707913160324,
+          -0.06552121788263321,
+          1.6243526935577393
+        ]
+      },
+      "geometrySha256": "b802a5649a79a60b88bbddf10b3546eaa55e3f72a7fd3443f5b440d7ea1ea34a",
+      "materials": [
+        "M01_hair"
+      ]
+    },
+    {
+      "name": "M01_hair_base",
+      "vertices": 1237,
+      "triangles": 2384,
+      "boundsWorld": {
+        "min": [
+          -0.08554205298423767,
+          -0.10167817026376724,
+          1.5050681829452515
+        ],
+        "max": [
+          0.0936305969953537,
+          0.14716488122940063,
+          1.7511872053146362
+        ]
+      },
+      "geometrySha256": "64bbe8f1eaa2c1e7c95470c617e94424bd7bd1f6a9d65df965abb7f5faff7d8c",
+      "materials": [
+        "M01_hair"
+      ]
+    },
+    {
+      "name": "M01_shirt",
+      "vertices": 1679,
+      "triangles": 3246,
+      "boundsWorld": {
+        "min": [
+          -0.29851508140563965,
+          -0.09538592398166656,
+          0.8465721607208252
+        ],
+        "max": [
+          0.2985154688358307,
+          0.15313643217086792,
+          1.4033740758895874
+        ]
+      },
+      "geometrySha256": "485c16565005539fadc46c2e98f65bef431c825ce66c02fd25d85d1e0e87c5ba",
+      "materials": [
+        "M01_shirt"
+      ]
+    },
+    {
+      "name": "M01_pants",
+      "vertices": 2631,
+      "triangles": 5179,
+      "boundsWorld": {
+        "min": [
+          -0.14694811403751373,
+          -0.06886786967515945,
+          0.039108265191316605
+        ],
+        "max": [
+          0.14702510833740234,
+          0.14427460730075836,
+          0.9482239484786987
+        ]
+      },
+      "geometrySha256": "7e30ef1c952ba452c1ebb17d091f63bae20d373838097bb3aee6d2ba554979c8",
+      "materials": [
+        "M01_pants"
+      ]
+    },
+    {
+      "name": "M01_shoes_base",
+      "vertices": 2286,
+      "triangles": 4520,
+      "boundsWorld": {
+        "min": [
+          -0.14454522728919983,
+          -0.15313643217086792,
+          0.001639520050957799
+        ],
+        "max": [
+          0.14454598724842072,
+          0.11791855841875076,
+          0.10462723672389984
+        ]
+      },
+      "geometrySha256": "da5329c260a795679be422bb819e3a2da7def1649f3df58c517935063a3d4e4c",
+      "materials": [
+        "M01_canvas_shoes"
+      ]
+    },
+    {
+      "name": "M01_shoes_bottom",
+      "vertices": 1048,
+      "triangles": 1920,
+      "boundsWorld": {
+        "min": [
+          -0.13979443907737732,
+          -0.15027569234371185,
+          0.0
+        ],
+        "max": [
+          0.1397951990365982,
+          0.11318141222000122,
+          0.0030402489937841892
+        ]
+      },
+      "geometrySha256": "67609a34a12d617190b0eda228ed6ed92eed19ea814e64a772b0e26030255366",
+      "materials": [
+        "M01_canvas_shoes"
+      ]
+    },
+    {
+      "name": "M01_shoes_parts",
+      "vertices": 2956,
+      "triangles": 5372,
+      "boundsWorld": {
+        "min": [
+          -0.13625650107860565,
+          -0.0577511340379715,
+          0.026196980848908424
+        ],
+        "max": [
+          0.13625724613666534,
+          0.11975684016942978,
+          0.09173710644245148
+        ]
+      },
+      "geometrySha256": "ec3eb79aa486573aa6be7e7828781cf33309bb69dcc6d8cfff90e63f9cfb1df9",
+      "materials": [
+        "M01_canvas_shoes"
+      ]
+    }
+  ],
+  "dimensionsMeters": [
+    1.7383147478103638,
+    0.30627286434173584,
+    1.7511872053146362
+  ],
+  "boundsWorld": {
+    "min": [
+      -0.8691573739051819,
+      -0.15313643217086792,
+      0.0
+    ],
+    "max": [
+      0.8691573739051819,
+      0.15313643217086792,
+      1.7511872053146362
+    ]
+  },
+  "triangles": 40645,
+  "materialCount": 9,
+  "meshCount": 10,
+  "rigsDelivered": 0,
+  "animationsDelivered": 0,
+  "embeddedTextScripts": 0,
+  "headTopologyAndUvPreserved": true,
+  "headFieldJacobianDeterminant": {
+    "min": 0.31302765011787415,
+    "max": 1.6192381381988525,
+    "sampledVertices": 3719
+  },
+  "headDisplacementMeters": {
+    "max": 0.029071296904017652,
+    "mean": 0.007441552719859458
+  },
+  "unchangedBodyClothesShoes": [
+    "M01_body",
+    "M01_shirt",
+    "M01_pants",
+    "M01_shoes_base",
+    "M01_shoes_bottom",
+    "M01_shoes_parts"
+  ],
+  "sourceHairCapVerticesRetained": 547,
+  "authoredNewHairClumps": 3,
+  "eyeTransform": "Uniform scale .91 around each globe center; coordinated compact affine socket transform, upper lid skin separately relaxed",
+  "limitation": "Static A01-frame deformation, NOT a verified bind/rig edit. Source 50-key head remains unchanged; future original Basis/key/weight/bone/lattice transport requires separate Phase B validation."
+}

@@ -1,0 +1,20 @@
+{
+  "experiment": "MALE-NEUTRAL-A02",
+  "startedUtc": "2026-10-28T13:14:12.358074+00:00",
+  "ownerDecision": "A01 technical method GO; visual main character NO-GO",
+  "approved": "One distinct young-adult male Phase A visual revision using existing source/pipeline, geometry-first; assess Snow suitability, topology/animation potential, triangle reduction and URP gloss",
+  "source": "Same approved Blender Studio Snow v4 CC-BY-4.0, original hash unchanged",
+  "preserve": [
+    "A01 config/model/renders/evidence",
+    "source original"
+  ],
+  "notAuthorized": [
+    "merge",
+    "Phase B",
+    "rig/animation/clothing-system production",
+    "game changes",
+    "purchases",
+    "vendor contact",
+    "additional base download"
+  ]
+}
