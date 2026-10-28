@@ -74,8 +74,8 @@
     },
     {
       "path": "evidence/male-neutral-a01/downloaded-verification.json",
-      "bytes": 103745,
-      "sha256": "63a911a95085c1886410a9befe4cfeba18019b75d7e8e99078483b093f0b51cd"
+      "bytes": 99956,
+      "sha256": "322a7b053ff43c27567a90f848217a8488996f68fdf397c4177f3e8d04c4b351"
     },
     {
       "path": "evidence/male-neutral-a01/execution.json",
