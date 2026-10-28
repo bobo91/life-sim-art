@@ -1,0 +1,58 @@
+{
+  "schema": "ava-neutral-environment-probe-1",
+  "utc": "2026-10-28T07:47:58.319373+00:00",
+  "python_version": "3.11.15 (main, Aug 12 2026, 16:53:25) [MSC v.1929 64 bit (AMD64)]",
+  "python_executable": "C:\\Users\\rcalm\\tools\\blender\\blender-4.5.14-windows-x64\\4.5\\python\\bin\\python.exe",
+  "os": "Windows-10-10.0.26200-SP0",
+  "processor": "AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD",
+  "logical_cpu_count": 16,
+  "memory": {
+    "physical_bytes": 33457483776,
+    "available_physical_bytes_at_probe": 9946206208
+  },
+  "gpu_driver_metadata": [
+    {
+      "HardwareInformation.AdapterString": "AMD Radeon RX 9070 XT",
+      "HardwareInformation.qwMemorySize": 17095983104,
+      "HardwareInformation.MemorySize": 4293918720
+    },
+    {
+      "HardwareInformation.AdapterString": "AMD Radeon(TM) Graphics",
+      "HardwareInformation.qwMemorySize": 536870912,
+      "HardwareInformation.MemorySize": 536870912
+    }
+  ],
+  "module_presence_in_this_interpreter_only": {
+    "torch": false,
+    "transformers": false,
+    "diffusers": false,
+    "PIL": false,
+    "numpy": true
+  },
+  "new_meshes_renders_exports_or_ai_generations": 0,
+  "blender": {
+    "version": "4.5.14 LTS",
+    "background": true,
+    "online_access": false,
+    "gpu_compute_tested": false,
+    "render_tested_this_probe": false,
+    "cycles_reported_devices": {
+      "CUDA": [],
+      "OPTIX": [],
+      "HIP": [
+        {
+          "name": "AMD Radeon RX 9070 XT",
+          "type": "HIP"
+        },
+        {
+          "name": "AMD Radeon(TM) Graphics",
+          "type": "HIP"
+        },
+        {
+          "name": "AMD Ryzen 7 9800X3D 8-Core Processor",
+          "type": "CPU"
+        }
+      ]
+    }
+  }
+}

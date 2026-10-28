@@ -1,0 +1,73 @@
+{
+  "schema": "male-neutral-a01-execution-1",
+  "startedUtc": "2026-10-28T08:37:48.434682+00:00",
+  "reportedUtc": "2026-10-28T12:42:47.181305+00:00",
+  "artisticFormPasses": 1,
+  "targetedArtisticCorrections": 1,
+  "activeHoursSeparatelyMeasured": false,
+  "timeAccounting": "Six-hour wall-clock cutoff is stricter than six active hours; includes owner pauses. Final elapsed wall time recorded in completion.json.",
+  "workingBranch": "art/male-neutral-a01",
+  "baseMain": "facdbc400973193c10eb5ab012ee6445555daa6d",
+  "canonicalDelivery": "build/male-neutral-a01/delivery-002",
+  "sourceGate": "Unmodified source geometry rendered at original artist render subdivision, offline with scripts disabled. Passed for bounded trial.",
+  "actualFinalTests": {
+    "BlenderChecksPassed": 243,
+    "BlenderChecksFailed": 0,
+    "UnityStatus": "passed-static-import-and-reopen",
+    "UnityWarning": [
+      "glTF extension KHR_materials_specular is not supported"
+    ],
+    "reproduction": {
+      "schema": "male-neutral-a01-reproduction-1",
+      "geometryHashesEqual": true,
+      "triangleCountEqual": true,
+      "glbBytesIdentical": true,
+      "frontPngBytesIdentical": false,
+      "frontPixelsIdentical": true,
+      "testedViews": [
+        "front"
+      ],
+      "remainingViewsNotReRenderedForReproduction": 8,
+      "sourceZipUnchanged": true,
+      "sourceBlendUnchanged": true
+    }
+  },
+  "intermediateProblems": [
+    {
+      "stage": "Initial technical texture extraction",
+      "problem": "Edit-active tattoo UV map was not source render UV0; strict tile mapping rejected unexpected tile.",
+      "fix": "Select and preserve source render-active UVMap, remove unused auxiliary map. No arbitrary tile fallback."
+    },
+    {
+      "stage": "First saved/GLB roundtrip",
+      "problem": "111 source masked loose vertices and 110 wire edges absent in GLB, causing 2 point/bounds failures.",
+      "fix": "Remove only vertices with no linked surface faces; zero surface faces removed."
+    },
+    {
+      "stage": "First artistic proposal",
+      "problem": "Hair, brows and shirt too pale; stare too wide.",
+      "fix": "One targeted correction: darker/rougher hair, muted sage shirt, slightly lower existing upper lids and raised existing mouth corners; light power scaled .55."
+    },
+    {
+      "stage": "Static material export",
+      "problem": "Source polygon material indices were reset by slot clearing; unused source color attributes darkened glTF. Shader tint nodes were not a safe portable representation.",
+      "fix": "Preserve polygon material indices, remove unused color attributes, bake existing linear multipliers to textures. Geometry/form/look settings otherwise unchanged."
+    },
+    {
+      "stage": "Isolated Unity attempts 1-3",
+      "problem": "Null mode had no active URP shader subshader; fresh probe lacked built-in PNG decoding modules.",
+      "fix": "D3D11 render initializes URP; enable already installed Image Conversion and Unity Web Request Texture modules. Fail missing texture bindings and actual importer Error/Exception messages. Retain optional specular warning."
+    }
+  ],
+  "notPerformed": [
+    "paid services",
+    "manual sculpting",
+    "new generic parameter bank",
+    "rigging or animation production",
+    "Humanoid skin deformation",
+    "LOD/NPC population performance",
+    "actual game camera/lighting/integration",
+    "game repository edits",
+    "merge"
+  ]
+}

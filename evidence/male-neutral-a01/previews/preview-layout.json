@@ -1,0 +1,61 @@
+{
+  "schema": "male-neutral-a01-preview-layout-1",
+  "nativeImages": [
+    {
+      "file": "back.png",
+      "sourceSha256": "70e0f9994658f25a00eca3739982231746fe68db4aaf283045af87d631814e7e",
+      "previewSha256": "70e0f9994658f25a00eca3739982231746fe68db4aaf283045af87d631814e7e",
+      "nativePixelsUnchanged": true
+    },
+    {
+      "file": "face_front.png",
+      "sourceSha256": "560262b893a545663ba7c2bacc60d2b03df8452a773d818bfe78d8f3a582c083",
+      "previewSha256": "560262b893a545663ba7c2bacc60d2b03df8452a773d818bfe78d8f3a582c083",
+      "nativePixelsUnchanged": true
+    },
+    {
+      "file": "face_three_quarter.png",
+      "sourceSha256": "8c684cd8a8f76aca1d1575985df25162246ace8808907c6c605d41303c0dfba1",
+      "previewSha256": "8c684cd8a8f76aca1d1575985df25162246ace8808907c6c605d41303c0dfba1",
+      "nativePixelsUnchanged": true
+    },
+    {
+      "file": "front.png",
+      "sourceSha256": "bf4c91eae076399b3fcf542466301a4414942608a0e921298634fdc2bf1d688a",
+      "previewSha256": "bf4c91eae076399b3fcf542466301a4414942608a0e921298634fdc2bf1d688a",
+      "nativePixelsUnchanged": true
+    },
+    {
+      "file": "game_16m_back.png",
+      "sourceSha256": "3e2b314c01519978bc9b371902bdb17607267f4940efc7827590072db3740fd4",
+      "previewSha256": "3e2b314c01519978bc9b371902bdb17607267f4940efc7827590072db3740fd4",
+      "nativePixelsUnchanged": true
+    },
+    {
+      "file": "game_16m_front.png",
+      "sourceSha256": "4608b090e9df29040d7afe7026794e086253fce5364d57b9f7de41c84880caa4",
+      "previewSha256": "4608b090e9df29040d7afe7026794e086253fce5364d57b9f7de41c84880caa4",
+      "nativePixelsUnchanged": true
+    },
+    {
+      "file": "near_third_person.png",
+      "sourceSha256": "7d95ba059c7b87abaf483122428941f0d7f6dcd671aad543f6ef8aefec40d4dd",
+      "previewSha256": "7d95ba059c7b87abaf483122428941f0d7f6dcd671aad543f6ef8aefec40d4dd",
+      "nativePixelsUnchanged": true
+    },
+    {
+      "file": "side.png",
+      "sourceSha256": "bc6a724da9bf59cb9a864585d64e3c0210acfe864048208cf535f2d18a50a4b8",
+      "previewSha256": "bc6a724da9bf59cb9a864585d64e3c0210acfe864048208cf535f2d18a50a4b8",
+      "nativePixelsUnchanged": true
+    },
+    {
+      "file": "three_quarter.png",
+      "sourceSha256": "cf49a7df64dd4e5de89815ef5f7a62ea37b17bc23d127ec0bb0f32baff9075cb",
+      "previewSha256": "cf49a7df64dd4e5de89815ef5f7a62ea37b17bc23d127ec0bb0f32baff9075cb",
+      "nativePixelsUnchanged": true
+    }
+  ],
+  "composites": "Resize and layout only; no retouching or recoloring. Source comparison cameras, subdivision and lights differ; see report.",
+  "pillow": "12.3.0"
+}

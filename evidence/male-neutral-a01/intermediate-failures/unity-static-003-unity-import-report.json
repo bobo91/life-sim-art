@@ -1,0 +1,250 @@
+{
+  "schema": "male-neutral-a01-isolated-unity-import-1",
+  "unityVersion": "6000.5.8f1",
+  "status": "failed",
+  "renderPipeline": "UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset",
+  "gltfastVersion": "6.20.0",
+  "urpVersion": "17.5.0",
+  "graphicsDevice": "Direct3D11",
+  "sceneSavedAndReopened": false,
+  "importedFilesUnchanged": true,
+  "screenshotsRendered": true,
+  "assets": [
+    {
+      "id": "chr_player_male_poc_001",
+      "importer": "GLTFast.Editor.GltfImporter",
+      "status": "failed",
+      "dimensions": [
+        1.7383146286010742,
+        1.750000238418579,
+        0.30627286434173584
+      ],
+      "boundsMin": [
+        -0.8691573143005371,
+        0.0,
+        -0.15313643217086792
+      ],
+      "boundsMax": [
+        0.8691573143005371,
+        1.750000238418579,
+        0.15313643217086792
+      ],
+      "rootScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshCount": 10,
+      "triangles": 42077,
+      "materialCount": 9,
+      "indicesValid": true,
+      "finiteVerticesNormals": true,
+      "dimensionsMatch": true,
+      "bottomCenterPivot": true,
+      "unitScale": true,
+      "frontPositiveZ": true,
+      "frontNearestVertex": -1.0,
+      "materials": [
+        {
+          "name": "M01_skin",
+          "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+          "pipelineTag": "UniversalPipeline",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.5600000023841858,
+          "propertiesMatch": false,
+          "shaderHasError": false,
+          "shaderSupported": true,
+          "baseTexturePresent": false
+        },
+        {
+          "name": "M01_hair",
+          "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+          "pipelineTag": "UniversalPipeline",
+          "color": [
+            0.11207488924264908,
+            0.06100849807262421,
+            0.03229999914765358,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.7799999713897705,
+          "propertiesMatch": true,
+          "shaderHasError": false,
+          "shaderSupported": true,
+          "baseTexturePresent": false
+        },
+        {
+          "name": "M01_eyes",
+          "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+          "pipelineTag": "UniversalPipeline",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.2199999988079071,
+          "propertiesMatch": false,
+          "shaderHasError": false,
+          "shaderSupported": true,
+          "baseTexturePresent": false
+        },
+        {
+          "name": "M01_skin_darker",
+          "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+          "pipelineTag": "UniversalPipeline",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.5600000023841858,
+          "propertiesMatch": false,
+          "shaderHasError": false,
+          "shaderSupported": true,
+          "baseTexturePresent": false
+        },
+        {
+          "name": "M01_skin_upper_lip",
+          "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+          "pipelineTag": "UniversalPipeline",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.5600000023841858,
+          "propertiesMatch": false,
+          "shaderHasError": false,
+          "shaderSupported": true,
+          "baseTexturePresent": false
+        },
+        {
+          "name": "M01_skin_lower_lip",
+          "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+          "pipelineTag": "UniversalPipeline",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.5600000023841858,
+          "propertiesMatch": false,
+          "shaderHasError": false,
+          "shaderSupported": true,
+          "baseTexturePresent": false
+        },
+        {
+          "name": "M01_pants",
+          "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+          "pipelineTag": "UniversalPipeline",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 1.0,
+          "propertiesMatch": false,
+          "shaderHasError": false,
+          "shaderSupported": true,
+          "baseTexturePresent": false
+        },
+        {
+          "name": "M01_shirt",
+          "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+          "pipelineTag": "UniversalPipeline",
+          "color": [
+            0.2347950041294098,
+            0.3318299651145935,
+            0.2716996967792511,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.8199999928474426,
+          "propertiesMatch": true,
+          "shaderHasError": false,
+          "shaderSupported": true,
+          "baseTexturePresent": false
+        },
+        {
+          "name": "M01_canvas_shoes",
+          "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+          "pipelineTag": "UniversalPipeline",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 1.0,
+          "propertiesMatch": false,
+          "shaderHasError": false,
+          "shaderSupported": true,
+          "baseTexturePresent": false
+        }
+      ],
+      "proposedColliderCenter": [
+        0.0,
+        0.875,
+        0.0
+      ],
+      "proposedColliderSize": [
+        1.7383147478103638,
+        1.75,
+        0.30627286434173584
+      ],
+      "errors": [
+        "Material/shader mismatch: M01_skin",
+        "Material/shader mismatch: M01_eyes",
+        "Material/shader mismatch: M01_skin_darker",
+        "Material/shader mismatch: M01_skin_upper_lip",
+        "Material/shader mismatch: M01_skin_lower_lip",
+        "Material/shader mismatch: M01_pants",
+        "Material/shader mismatch: M01_canvas_shoes"
+      ],
+      "importerMessages": [
+        "glTF extension KHR_materials_specular is not supported",
+        "Jpeg/PNG textures failed because required built-in packages \"Image Conversion\"/\"Unity Web Request Texture\" are not enabled. See com.unity.cloud.gltfast/Documentation~/ProjectSetup.md#texture-support for details.",
+        "Jpeg/PNG textures failed because required built-in packages \"Image Conversion\"/\"Unity Web Request Texture\" are not enabled. See com.unity.cloud.gltfast/Documentation~/ProjectSetup.md#texture-support for details.",
+        "Jpeg/PNG textures failed because required built-in packages \"Image Conversion\"/\"Unity Web Request Texture\" are not enabled. See com.unity.cloud.gltfast/Documentation~/ProjectSetup.md#texture-support for details.",
+        "Jpeg/PNG textures failed because required built-in packages \"Image Conversion\"/\"Unity Web Request Texture\" are not enabled. See com.unity.cloud.gltfast/Documentation~/ProjectSetup.md#texture-support for details.",
+        "Jpeg/PNG textures failed because required built-in packages \"Image Conversion\"/\"Unity Web Request Texture\" are not enabled. See com.unity.cloud.gltfast/Documentation~/ProjectSetup.md#texture-support for details.",
+        "Jpeg/PNG textures failed because required built-in packages \"Image Conversion\"/\"Unity Web Request Texture\" are not enabled. See com.unity.cloud.gltfast/Documentation~/ProjectSetup.md#texture-support for details.",
+        "Jpeg/PNG textures failed because required built-in packages \"Image Conversion\"/\"Unity Web Request Texture\" are not enabled. See com.unity.cloud.gltfast/Documentation~/ProjectSetup.md#texture-support for details.",
+        "Jpeg/PNG textures failed because required built-in packages \"Image Conversion\"/\"Unity Web Request Texture\" are not enabled. See com.unity.cloud.gltfast/Documentation~/ProjectSetup.md#texture-support for details.",
+        "Jpeg/PNG textures failed because required built-in packages \"Image Conversion\"/\"Unity Web Request Texture\" are not enabled. See com.unity.cloud.gltfast/Documentation~/ProjectSetup.md#texture-support for details.",
+        "Jpeg/PNG textures failed because required built-in packages \"Image Conversion\"/\"Unity Web Request Texture\" are not enabled. See com.unity.cloud.gltfast/Documentation~/ProjectSetup.md#texture-support for details.",
+        "Jpeg/PNG textures failed because required built-in packages \"Image Conversion\"/\"Unity Web Request Texture\" are not enabled. See com.unity.cloud.gltfast/Documentation~/ProjectSetup.md#texture-support for details.",
+        "Jpeg/PNG textures failed because required built-in packages \"Image Conversion\"/\"Unity Web Request Texture\" are not enabled. See com.unity.cloud.gltfast/Documentation~/ProjectSetup.md#texture-support for details.",
+        "Jpeg/PNG textures failed because required built-in packages \"Image Conversion\"/\"Unity Web Request Texture\" are not enabled. See com.unity.cloud.gltfast/Documentation~/ProjectSetup.md#texture-support for details."
+      ]
+    }
+  ],
+  "errors": [
+    "Importer emitted diagnostics; inspect reportItems: glTF extension KHR_materials_specular is not supported; Jpeg/PNG textures failed because required built-in packages \"Image Conversion\"/\"Unity Web Request Texture\" are not enabled. See com.unity.cloud.gltfast/Documentation~/ProjectSetup.md#texture-support for details.; Jpeg/PNG textures failed because required built-in packages \"Image Conversion\"/\"Unity Web Request Texture\" are not enabled. See com.unity.cloud.gltfast/Documentation~/ProjectSetup.md#texture-support for details.; Jpeg/PNG textures failed because required built-in packages \"Image Conversion\"/\"Unity Web Request Texture\" are not enabled. See com.unity.cloud.gltfast/Documentation~/ProjectSetup.md#texture-support for details.; Jpeg/PNG textures failed because required built-in packages \"Image Conversion\"/\"Unity Web Request Texture\" are not enabled. See com.unity.cloud.gltfast/Documentation~/ProjectSetup.md#texture-support for details.; Jpeg/PNG textures failed because required built-in packages \"Image Conversion\"/\"Unity Web Request Texture\" are not enabled. See com.unity.cloud.gltfast/Documentation~/ProjectSetup.md#texture-support for details.; Jpeg/PNG textures failed because required built-in packages \"Image Conversion\"/\"Unity Web Request Texture\" are not enabled. See com.unity.cloud.gltfast/Documentation~/ProjectSetup.md#texture-support for details.; Jpeg/PNG textures failed because required built-in packages \"Image Conversion\"/\"Unity Web Request Texture\" are not enabled. See com.unity.cloud.gltfast/Documentation~/ProjectSetup.md#texture-support for details.; Jpeg/PNG textures failed because required built-in packages \"Image Conversion\"/\"Unity Web Request Texture\" are not enabled. See com.unity.cloud.gltfast/Documentation~/ProjectSetup.md#texture-support for details.; Jpeg/PNG textures failed because required built-in packages \"Image Conversion\"/\"Unity Web Request Texture\" are not enabled. See com.unity.cloud.gltfast/Documentation~/ProjectSetup.md#texture-support for details.; Jpeg/PNG textures failed because required built-in packages \"Image Conversion\"/\"Unity Web Request Texture\" are not enabled. See com.unity.cloud.gltfast/Documentation~/ProjectSetup.md#texture-support for details.; Jpeg/PNG textures failed because required built-in packages \"Image Conversion\"/\"Unity Web Request Texture\" are not enabled. See com.unity.cloud.gltfast/Documentation~/ProjectSetup.md#texture-support for details.; Jpeg/PNG textures failed because required built-in packages \"Image Conversion\"/\"Unity Web Request Texture\" are not enabled. See com.unity.cloud.gltfast/Documentation~/ProjectSetup.md#texture-support for details.; Jpeg/PNG textures failed because required built-in packages \"Image Conversion\"/\"Unity Web Request Texture\" are not enabled. See com.unity.cloud.gltfast/Documentation~/ProjectSetup.md#texture-support for details.",
+    "One or more imported props failed",
+    "Save/reopen mismatch"
+  ],
+  "limitations": [
+    "Isolated static character import in art workspace; no game changes or contract acceptance.",
+    "One isolated URP/D3D review render; different lighting/tonemapping from Blender, no game-lighting equivalence.",
+    "Proposed collider boxes are test-scene envelopes only, not approved game collisions.",
+    "No skinning, animation, Humanoid Avatar, LOD, gameplay or game integration test."
+  ]
+}

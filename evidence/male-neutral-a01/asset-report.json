@@ -1,0 +1,426 @@
+{
+  "assetId": "chr_player_male_poc_001",
+  "phase": "A",
+  "sourceBlendSha256": "80fd0a81bca90f0efdcdcb98422df0e198ae57f4a1c239e13fb795922779b1fc",
+  "blender": "4.5.14 LTS",
+  "meshes": [
+    {
+      "name": "M01_body",
+      "vertices": 3268,
+      "triangles": 6500,
+      "boundsWorld": {
+        "min": [
+          -0.8691573739051819,
+          -0.04207108914852142,
+          1.2382690906524658
+        ],
+        "max": [
+          0.8691573739051819,
+          0.12187062203884125,
+          1.364959955215454
+        ]
+      },
+      "geometrySha256": "fa100628943573f0fb7f4ad94b933253cc45b213bffa9ec8a6576b6e9d1b756c",
+      "materials": [
+        "M01_skin"
+      ]
+    },
+    {
+      "name": "M01_head",
+      "vertices": 3719,
+      "triangles": 7264,
+      "boundsWorld": {
+        "min": [
+          -0.15028491616249084,
+          -0.12935134768486023,
+          1.305263876914978
+        ],
+        "max": [
+          0.15028563141822815,
+          0.13333843648433685,
+          1.7179937362670898
+        ]
+      },
+      "geometrySha256": "a4bb1286f7715b6fcec629954da55cd5812b9b3843aca025628d5fd185dc6de6",
+      "materials": [
+        "M01_skin",
+        "M01_skin_darker",
+        "M01_skin_upper_lip",
+        "M01_skin_lower_lip"
+      ]
+    },
+    {
+      "name": "M01_eyes",
+      "vertices": 1418,
+      "triangles": 2756,
+      "boundsWorld": {
+        "min": [
+          -0.07150379568338394,
+          -0.07608680427074432,
+          1.549696683883667
+        ],
+        "max": [
+          0.07150454819202423,
+          -0.015489049255847931,
+          1.6129472255706787
+        ]
+      },
+      "geometrySha256": "f6c7101fccffac4c764628a4f157683209b6d1879107ad6d08b77eb860d8ee2a",
+      "materials": [
+        "M01_eyes"
+      ]
+    },
+    {
+      "name": "M01_eyebrows",
+      "vertices": 806,
+      "triangles": 1504,
+      "boundsWorld": {
+        "min": [
+          -0.07623148709535599,
+          -0.10377013683319092,
+          1.606164813041687
+        ],
+        "max": [
+          0.0762319564819336,
+          -0.06660513579845428,
+          1.6257753372192383
+        ]
+      },
+      "geometrySha256": "aacf0661370d26bffb7fee3c4204a738a09a0c5ac52a23bda2d480c71006e2a4",
+      "materials": [
+        "M01_hair"
+      ]
+    },
+    {
+      "name": "M01_hair_base",
+      "vertices": 2134,
+      "triangles": 3816,
+      "boundsWorld": {
+        "min": [
+          -0.10286790132522583,
+          -0.09374268352985382,
+          1.5050681829452515
+        ],
+        "max": [
+          0.10527888685464859,
+          0.14716488122940063,
+          1.75
+        ]
+      },
+      "geometrySha256": "1c6a907ec6e5253c2e8d30bcceb3d748177cf3888435e575aaed10eb40854556",
+      "materials": [
+        "M01_hair"
+      ]
+    },
+    {
+      "name": "M01_shirt",
+      "vertices": 1679,
+      "triangles": 3246,
+      "boundsWorld": {
+        "min": [
+          -0.29851508140563965,
+          -0.09538592398166656,
+          0.8465721607208252
+        ],
+        "max": [
+          0.2985154688358307,
+          0.15313643217086792,
+          1.4033740758895874
+        ]
+      },
+      "geometrySha256": "485c16565005539fadc46c2e98f65bef431c825ce66c02fd25d85d1e0e87c5ba",
+      "materials": [
+        "M01_shirt"
+      ]
+    },
+    {
+      "name": "M01_pants",
+      "vertices": 2631,
+      "triangles": 5179,
+      "boundsWorld": {
+        "min": [
+          -0.14694811403751373,
+          -0.06886786967515945,
+          0.039108265191316605
+        ],
+        "max": [
+          0.14702510833740234,
+          0.14427460730075836,
+          0.9482239484786987
+        ]
+      },
+      "geometrySha256": "7e30ef1c952ba452c1ebb17d091f63bae20d373838097bb3aee6d2ba554979c8",
+      "materials": [
+        "M01_pants"
+      ]
+    },
+    {
+      "name": "M01_shoes_base",
+      "vertices": 2286,
+      "triangles": 4520,
+      "boundsWorld": {
+        "min": [
+          -0.14454522728919983,
+          -0.15313643217086792,
+          0.001639520050957799
+        ],
+        "max": [
+          0.14454598724842072,
+          0.11791855841875076,
+          0.10462723672389984
+        ]
+      },
+      "geometrySha256": "da5329c260a795679be422bb819e3a2da7def1649f3df58c517935063a3d4e4c",
+      "materials": [
+        "M01_canvas_shoes"
+      ]
+    },
+    {
+      "name": "M01_shoes_bottom",
+      "vertices": 1048,
+      "triangles": 1920,
+      "boundsWorld": {
+        "min": [
+          -0.13979443907737732,
+          -0.15027569234371185,
+          0.0
+        ],
+        "max": [
+          0.1397951990365982,
+          0.11318141222000122,
+          0.0030402489937841892
+        ]
+      },
+      "geometrySha256": "67609a34a12d617190b0eda228ed6ed92eed19ea814e64a772b0e26030255366",
+      "materials": [
+        "M01_canvas_shoes"
+      ]
+    },
+    {
+      "name": "M01_shoes_parts",
+      "vertices": 2956,
+      "triangles": 5372,
+      "boundsWorld": {
+        "min": [
+          -0.13625650107860565,
+          -0.0577511340379715,
+          0.026196980848908424
+        ],
+        "max": [
+          0.13625724613666534,
+          0.11975684016942978,
+          0.09173710644245148
+        ]
+      },
+      "geometrySha256": "ec3eb79aa486573aa6be7e7828781cf33309bb69dcc6d8cfff90e63f9cfb1df9",
+      "materials": [
+        "M01_canvas_shoes"
+      ]
+    }
+  ],
+  "dimensionsMeters": [
+    1.7383147478103638,
+    0.30627286434173584,
+    1.75
+  ],
+  "boundsWorld": {
+    "min": [
+      -0.8691573739051819,
+      -0.15313643217086792,
+      0.0
+    ],
+    "max": [
+      0.8691573739051819,
+      0.15313643217086792,
+      1.75
+    ]
+  },
+  "triangles": 42077,
+  "materialCount": 9,
+  "meshCount": 10,
+  "rigsDelivered": 0,
+  "animationsDelivered": 0,
+  "embeddedTextScripts": 0,
+  "looseGeometryCleanup": [
+    {
+      "mesh": "M01_body",
+      "unreferencedVerticesRemoved": 111,
+      "surfaceFacesRemoved": 0
+    },
+    {
+      "mesh": "M01_head",
+      "unreferencedVerticesRemoved": 0,
+      "surfaceFacesRemoved": 0
+    },
+    {
+      "mesh": "M01_eyes",
+      "unreferencedVerticesRemoved": 0,
+      "surfaceFacesRemoved": 0
+    },
+    {
+      "mesh": "M01_eyebrows",
+      "unreferencedVerticesRemoved": 0,
+      "surfaceFacesRemoved": 0
+    },
+    {
+      "mesh": "M01_hair_base",
+      "unreferencedVerticesRemoved": 0,
+      "surfaceFacesRemoved": 0
+    },
+    {
+      "mesh": "M01_shirt",
+      "unreferencedVerticesRemoved": 0,
+      "surfaceFacesRemoved": 0
+    },
+    {
+      "mesh": "M01_pants",
+      "unreferencedVerticesRemoved": 0,
+      "surfaceFacesRemoved": 0
+    },
+    {
+      "mesh": "M01_shoes_base",
+      "unreferencedVerticesRemoved": 0,
+      "surfaceFacesRemoved": 0
+    },
+    {
+      "mesh": "M01_shoes_bottom",
+      "unreferencedVerticesRemoved": 0,
+      "surfaceFacesRemoved": 0
+    },
+    {
+      "mesh": "M01_shoes_parts",
+      "unreferencedVerticesRemoved": 0,
+      "surfaceFacesRemoved": 0
+    }
+  ],
+  "hairComponentsBefore": 12,
+  "hairComponentsRemoved": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "existingLidControlPose": [
+    {
+      "bone": "MSTR-Eyelid_Upper.L",
+      "before": [
+        0.04269305616617203,
+        -0.14101539552211761,
+        1.637351155281067
+      ],
+      "after": [
+        0.04269305616617203,
+        -0.14101539552211761,
+        1.637351155281067
+      ]
+    },
+    {
+      "bone": "ACT-Lips_Corner.L",
+      "before": [
+        0.033201202750205994,
+        -0.14196977019309998,
+        1.5319721698760986
+      ],
+      "after": [
+        0.033201202750205994,
+        -0.14196977019309998,
+        1.5319721698760986
+      ]
+    },
+    {
+      "bone": "MSTR-Eyelid_Upper.R",
+      "before": [
+        -0.04269305616617203,
+        -0.1410154104232788,
+        1.637351155281067
+      ],
+      "after": [
+        -0.04269305616617203,
+        -0.1410154104232788,
+        1.637351155281067
+      ]
+    },
+    {
+      "bone": "ACT-Lips_Corner.R",
+      "before": [
+        -0.033201202750205994,
+        -0.14196977019309998,
+        1.5319721698760986
+      ],
+      "after": [
+        -0.033201202750205994,
+        -0.14196977019309998,
+        1.5319721698760986
+      ]
+    }
+  ],
+  "existingCorrectives": {
+    "Smile.L": 0.12,
+    "Smile.R": 0.12
+  },
+  "nativeHeadShapeKeyValuesBefore": {
+    "Basis": 1.0,
+    "Fixholes": 1.0,
+    "RIG-snow-LipsWide.L": 0.0,
+    "RIG-snow-LipsWide.R": 0.0,
+    "RIG-snow-LipsUp.L": 0.0,
+    "RIG-snow-LipsUp.R": 0.0,
+    "RIG-snow-Lips_Up+Wide.L": 0.0,
+    "RIG-snow-Lips_Up+Wide.R": 0.0,
+    "Smile.L": 0.0,
+    "Smile.R": 0.0,
+    "RIG-snow-LipsDown.L": -0.0,
+    "RIG-snow-LipsDown.R": -0.0,
+    "RIG-snow-LipsDown+Wide.L": -0.0,
+    "RIG-snow-LipsDown+Wide.R": -0.0,
+    "RIG-snow-LipsNarrow.L": 3.104408463627806e-08,
+    "RIG-snow-LipsNarrow.R": 3.104408463627806e-08,
+    "RIG-snow-LipsUp+Narrow.L": 0.0,
+    "RIG-snow-LipsUp+Narrow.R": -0.0,
+    "RIG-snow-LipsDown+Narrow.L": -0.0,
+    "RIG-snow-LipsDown+Narrow.R": 0.0,
+    "Bothbrows_Down": 0.0,
+    "Bothbrows_Up": 0.0,
+    "RIG-snow-EyebrowsIn.L": -0.0,
+    "RIG-snow-EyebrowsIn.R": 0.0,
+    "RIG-snow-CheekPuff.L": -0.0,
+    "RIG-snow-CheekPuff.R": 0.0,
+    "Bothbrows_Down+In": 0.0,
+    "RIG-snow-Lip_Upper_RollIn": 1.696295814621366e-15,
+    "RIG-snow-Lip_Lower_RollIn": 0.0,
+    "RIG-snow-Lip_Upper_RollOut": 0.0,
+    "RIG-snow-Lip_Lower_RollOut": 1.4022711756957879e-13,
+    "RIG-snow-CheekRaise.L": 0.0,
+    "RIG-snow-CheekRaise.R": 0.0,
+    "NeckRotZPos": 0.0,
+    "NeckRotZNeg": 0.0,
+    "RIG-snow-EyebrowsDown.L": 0.0,
+    "RIG-snow-EyebrowsDown.R": -0.0,
+    "EyebrowDown+In.L": 0.0,
+    "EyebrowDown+In.R": 0.0,
+    "RIG-snow-EyebrowsUp.L": 5.9604644775390625e-06,
+    "RIG-snow-EyebrowsUp.R": 0.0,
+    "Eyebrow_Up+In.L": 0.0,
+    "Eyebrow_Up+In.R": 0.0,
+    "Bothbrows_Up+In": 0.0,
+    "NeckTwist.L": 0.0,
+    "NeckTwist.R": 0.0,
+    "RIG-snow-JawOpen": -0.0,
+    "JawOpenTranslate": 0.0,
+    "RIG-snow-CenterCheekRaise.L": 0.0,
+    "RIG-snow-CenterCheekRaise.R": 0.0
+  },
+  "heightScaleApplied": 0.9725384948534507,
+  "sourceTposePreserved": true,
+  "exportCleanup": "Polygon material indices preserved across slot replacement; unused source color attributes removed to avoid glTF vertex-color multiplication",
+  "uvSelection": "Source render-active UVMap retained; auxiliary edit-active tattoo_light_map removed",
+  "omittedInvisibleSourceParts": [
+    "internal teeth/gums/tongue",
+    "eye-dot overlay",
+    "corneal shell",
+    "rig/deformation helpers/widgets"
+  ],
+  "limitation": "Static prototype. Source face family remains; no identity-range, skinning, animation or production Unity certification."
+}

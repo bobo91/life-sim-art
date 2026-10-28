@@ -1,0 +1,50 @@
+{
+  "schema": "male-neutral-a01-unity-command-1",
+  "startedUtc": "2026-10-28T12:24:58.748998+00:00",
+  "command": [
+    "C:\\Program Files\\Unity\\Hub\\Editor\\6000.5.8f1\\Editor\\Unity.exe",
+    "-batchmode",
+    "-nographics",
+    "-projectPath",
+    "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-a01\\unity-static-001",
+    "-logFile",
+    "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-a01\\unity-static-001\\unity-import.log",
+    "-executeMethod",
+    "MaleNeutralA01ImportCheck.Run",
+    "-propsReport",
+    "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-a01\\unity-static-001\\unity-import-report.json",
+    "-propsExpected",
+    "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-a01\\unity-static-001\\expected.json"
+  ],
+  "sourceGlbSha256": "b23d87e9f4f3bbff7b6293bee2a4b23cd82adff907437f4ce865485c1a8166aa",
+  "checkerSha256": "8430873063dbb66274956125669f748bd4b2cbad8382f651339fd3f79ac76614",
+  "runnerSha256": "58a6e682de176c3ea2aa6f9633361a108fea1ca8602896c6e27a2daa97a82cb1",
+  "scope": "Art-only isolated static import, cached local packages, no game or rig",
+  "packagesManifest": {
+    "dependencies": {
+      "com.unity.burst": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.burst@2f3d916873ea",
+      "com.unity.cloud.gltfast": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.cloud.gltfast@11ddc2436f97",
+      "com.unity.collections": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.collections@ec2c217e4cb2",
+      "com.unity.ext.nunit": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.ext.nunit@44f7d31723bd",
+      "com.unity.mathematics": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.mathematics@981956d94fb6",
+      "com.unity.modules.imgui": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.modules.imgui",
+      "com.unity.modules.jsonserialize": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.modules.jsonserialize",
+      "com.unity.modules.physics": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.modules.physics",
+      "com.unity.modules.terrain": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.modules.terrain",
+      "com.unity.modules.unitywebrequest": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.modules.unitywebrequest",
+      "com.unity.nuget.mono-cecil": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff",
+      "com.unity.render-pipelines.core": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.render-pipelines.core@a4c9a9793789",
+      "com.unity.render-pipelines.universal-config": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.render-pipelines.universal-config@fdda01c80fe3",
+      "com.unity.render-pipelines.universal": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.render-pipelines.universal@73b4c4ff130e",
+      "com.unity.searcher": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.searcher@a463122f2c00",
+      "com.unity.shadergraph": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.shadergraph@8d7376ec43ee",
+      "com.unity.test-framework.performance": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.test-framework.performance@8b56083ec0f0",
+      "com.unity.test-framework": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.test-framework@1405238725ab"
+    }
+  },
+  "exitCode": 1,
+  "elapsedSeconds": 52.94029999990016,
+  "sourceAndImportedGlbUnchanged": true,
+  "reportExists": true,
+  "reportSha256": "bedec71154eb475f0b8aea8715da271dec24ae3832f41d447665de6ba60799c1"
+}

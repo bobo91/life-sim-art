@@ -1,0 +1,524 @@
+{
+  "schema": "male-neutral-a01-textures-v1",
+  "license": "CC-BY-4.0",
+  "credit": "Snow Rig (CC) Blender Foundation | studio.blender.org",
+  "source_url": "https://studio.blender.org/characters/snow/v4/",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "modifications": "Skin UDIMs repacked/downsampled; selected maps downsized; optional existing linear tint multipliers baked to 8-bit sRGB for portable PBR.",
+  "resampling": "Pillow LANCZOS on encoded channel values; no normal-vector renormalization. Fitting source maps retain exact PNG bytes.",
+  "atlas_dimensions": [
+    2048,
+    2048
+  ],
+  "tile_dimensions": [
+    1024,
+    1024
+  ],
+  "padding_rgb": [
+    128,
+    128,
+    128
+  ],
+  "uv_formula": "atlas_uv = (source_uv - source_uv_origin) * scale + offset",
+  "tiles": {
+    "1001": {
+      "source_uv_origin": [
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "atlas_pixel_origin_top_left": [
+        0,
+        1024
+      ]
+    },
+    "1002": {
+      "source_uv_origin": [
+        1,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5
+      ],
+      "offset": [
+        0.5,
+        0
+      ],
+      "atlas_pixel_origin_top_left": [
+        1024,
+        1024
+      ]
+    },
+    "1003": {
+      "source_uv_origin": [
+        2,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5
+      ],
+      "offset": [
+        0,
+        0.5
+      ],
+      "atlas_pixel_origin_top_left": [
+        0,
+        0
+      ]
+    }
+  },
+  "source_files": {
+    "skin_diffuse.1001.png": {
+      "file": "skin_diffuse.1001.png",
+      "sha256": "d8658b31dcc9d8611c9ad74b50778eebcad2c0f0d08a5162d622d5ec55d7f417",
+      "bytes": 7739547,
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "mode": "RGB"
+    },
+    "skin_diffuse.1002.png": {
+      "file": "skin_diffuse.1002.png",
+      "sha256": "3b3ce7927a90887fef733fd3bfe4c39fba0ec2e10c3ca724bd49512d0b829799",
+      "bytes": 777615,
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB"
+    },
+    "skin_diffuse.1003.png": {
+      "file": "skin_diffuse.1003.png",
+      "sha256": "18746c5f7f1ad1dea1a5c430f27b34671f0876a22f43cb22ffa7205af642a6d5",
+      "bytes": 1749732,
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB"
+    },
+    "skin_roughness.1001.png": {
+      "file": "skin_roughness.1001.png",
+      "sha256": "f11c0f1b6aa15f820c026b4a484dcf662b6fbc148fe7283278a1df04524bfcf6",
+      "bytes": 5908666,
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "mode": "RGB"
+    },
+    "skin_roughness.1002.png": {
+      "file": "skin_roughness.1002.png",
+      "sha256": "85f23ee7e68e6e9cd9f21304347198849e97b1cb719d426587317860f4399332",
+      "bytes": 628553,
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB"
+    },
+    "skin_roughness.1003.png": {
+      "file": "skin_roughness.1003.png",
+      "sha256": "cd85a058e80385bacff31ea25358a97dad9a7d5e6dee6177f12ce2a814cb7744",
+      "bytes": 1754544,
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB"
+    },
+    "eyes_diffuse.png": {
+      "file": "eyes_diffuse.png",
+      "sha256": "7ec88aa8ddb70b7cad01fe96d82179c1b440ddfa4fb91f413d0cae71f9cd746f",
+      "bytes": 1286452,
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB"
+    },
+    "eyes_normal.png": {
+      "file": "eyes_normal.png",
+      "sha256": "f0908a7026ee93b73abbf1aed8d344f6c20cbd3b90e1bac421003dd3f51051ee",
+      "bytes": 322608,
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA"
+    },
+    "shirt_normal.png": {
+      "file": "shirt_normal.png",
+      "sha256": "7a90766714b9a431b17b2e5f90a2c1d267a73e0433f1080a31526a3ee88e95e6",
+      "bytes": 4157409,
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB"
+    },
+    "pants_diffuse.png": {
+      "file": "pants_diffuse.png",
+      "sha256": "8503904e867bf5c6481b45dc6baa0177e1bbe54e68b06cbe88811db9c623209b",
+      "bytes": 22205417,
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "mode": "RGB"
+    },
+    "pants_normal.png": {
+      "file": "pants_normal.png",
+      "sha256": "32a898effd3950a850496f82b707ae810b05cf8608b6c24e867ebfabe9e5d89e",
+      "bytes": 24855323,
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "mode": "RGB"
+    },
+    "pants_roughness.png": {
+      "file": "pants_roughness.png",
+      "sha256": "2bbe19d63ec1b50508ffed0fe7147c80ba22b433dfcae40c058b329eeeed52ae",
+      "bytes": 7087235,
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "mode": "L"
+    },
+    "shoes_diffuse.png": {
+      "file": "shoes_diffuse.png",
+      "sha256": "6e4940a480c245c0d68947686b2242f1b48bb7624cc6131fa71e8f6281892b27",
+      "bytes": 2910242,
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB"
+    },
+    "shoes_normal.png": {
+      "file": "shoes_normal.png",
+      "sha256": "2ae017a1b444857625c0dcf28a887adb058536995f752a030800973c86fc7e99",
+      "bytes": 5677803,
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB"
+    },
+    "shoes_roughness.png": {
+      "file": "shoes_roughness.png",
+      "sha256": "6ea8699896b76bcb97f9051f945993ad1a91084d0507cd8e22bba5ebe740e018",
+      "bytes": 1234818,
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "L"
+    },
+    "shoes_metalness.png": {
+      "file": "shoes_metalness.png",
+      "sha256": "654125022f464e69ce97ff24d7f41ff5d3c11057c97bc697df1c9bd7a0bc1dd3",
+      "bytes": 8940,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    "hair_roughness.png": {
+      "file": "hair_roughness.png",
+      "sha256": "ef1e5883f0b44ca074da92e6b73e6c15b0b8b1a2bb82650fa3226d787cae50e2",
+      "bytes": 522116,
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "L"
+    }
+  },
+  "output_files": [
+    {
+      "file": "skin_diffuse_atlas.png",
+      "sha256": "4b6db9d501df3f41890abe9d766da88f2f8041655376e5015eac97d9a70d6120",
+      "bytes": 1407053,
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "colour_space": "sRGB",
+      "source_files": [
+        "skin_diffuse.1001.png",
+        "skin_diffuse.1002.png",
+        "skin_diffuse.1003.png"
+      ]
+    },
+    {
+      "file": "skin_roughness_atlas.png",
+      "sha256": "6915fadaf8182ba0308ce9548eea5d164a6d729c5b11c4768f27e0c3b815f7fa",
+      "bytes": 1188873,
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "colour_space": "Non-Color",
+      "source_files": [
+        "skin_roughness.1001.png",
+        "skin_roughness.1002.png",
+        "skin_roughness.1003.png"
+      ]
+    },
+    {
+      "file": "eyes_diffuse.png",
+      "sha256": "7ec88aa8ddb70b7cad01fe96d82179c1b440ddfa4fb91f413d0cae71f9cd746f",
+      "bytes": 1286452,
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "colour_space": "sRGB",
+      "source_files": [
+        "eyes_diffuse.png"
+      ],
+      "original_png_bytes_preserved": true
+    },
+    {
+      "file": "eyes_normal.png",
+      "sha256": "f0908a7026ee93b73abbf1aed8d344f6c20cbd3b90e1bac421003dd3f51051ee",
+      "bytes": 322608,
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "colour_space": "Non-Color",
+      "source_files": [
+        "eyes_normal.png"
+      ],
+      "original_png_bytes_preserved": true
+    },
+    {
+      "file": "shirt_normal.png",
+      "sha256": "7a90766714b9a431b17b2e5f90a2c1d267a73e0433f1080a31526a3ee88e95e6",
+      "bytes": 4157409,
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "colour_space": "Non-Color",
+      "source_files": [
+        "shirt_normal.png"
+      ],
+      "original_png_bytes_preserved": true
+    },
+    {
+      "file": "pants_diffuse.png",
+      "sha256": "0c48087b8bf7981790e7836fca766187fe6769e3e14e8dfda156bf6704a8999e",
+      "bytes": 6335467,
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "colour_space": "sRGB",
+      "source_files": [
+        "pants_diffuse.png"
+      ],
+      "original_png_bytes_preserved": false
+    },
+    {
+      "file": "pants_normal.png",
+      "sha256": "107de7037b35fc62d01bd606f0ae0a719c29ea22b8a5486960c3653044ec6dff",
+      "bytes": 4691039,
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "colour_space": "Non-Color",
+      "source_files": [
+        "pants_normal.png"
+      ],
+      "original_png_bytes_preserved": false
+    },
+    {
+      "file": "pants_roughness.png",
+      "sha256": "dd81fe669bbc00b4802cbb2f16ba67f0ee12a46768f8d96f0347acf4fbd79474",
+      "bytes": 1381051,
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "L",
+      "colour_space": "Non-Color",
+      "source_files": [
+        "pants_roughness.png"
+      ],
+      "original_png_bytes_preserved": false
+    },
+    {
+      "file": "shoes_diffuse.png",
+      "sha256": "6e4940a480c245c0d68947686b2242f1b48bb7624cc6131fa71e8f6281892b27",
+      "bytes": 2910242,
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "colour_space": "sRGB",
+      "source_files": [
+        "shoes_diffuse.png"
+      ],
+      "original_png_bytes_preserved": true
+    },
+    {
+      "file": "shoes_normal.png",
+      "sha256": "2ae017a1b444857625c0dcf28a887adb058536995f752a030800973c86fc7e99",
+      "bytes": 5677803,
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "colour_space": "Non-Color",
+      "source_files": [
+        "shoes_normal.png"
+      ],
+      "original_png_bytes_preserved": true
+    },
+    {
+      "file": "shoes_roughness.png",
+      "sha256": "6ea8699896b76bcb97f9051f945993ad1a91084d0507cd8e22bba5ebe740e018",
+      "bytes": 1234818,
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "L",
+      "colour_space": "Non-Color",
+      "source_files": [
+        "shoes_roughness.png"
+      ],
+      "original_png_bytes_preserved": true
+    },
+    {
+      "file": "shoes_metalness.png",
+      "sha256": "654125022f464e69ce97ff24d7f41ff5d3c11057c97bc697df1c9bd7a0bc1dd3",
+      "bytes": 8940,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "colour_space": "Non-Color",
+      "source_files": [
+        "shoes_metalness.png"
+      ],
+      "original_png_bytes_preserved": true
+    },
+    {
+      "file": "hair_roughness.png",
+      "sha256": "c6818f7d7add7cf25f4cbabf7126aee6895887e8d94a7c00c306e8d02c6b9ae3",
+      "bytes": 187462,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "colour_space": "Non-Color",
+      "source_files": [
+        "hair_roughness.png"
+      ],
+      "original_png_bytes_preserved": false
+    },
+    {
+      "file": "skin_darker_diffuse_atlas.png",
+      "sha256": "25905ab7cefa4900ba4ceb1bf56d4bbfc5fd991344afd63469e71aaae8d4748c",
+      "bytes": 1303105,
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "colour_space": "sRGB",
+      "operation": "sRGB decode -> fixed existing linear tint -> sRGB encode, round to 8-bit",
+      "input_prepared_image": "skin_diffuse_atlas.png",
+      "linear_multiplier": [
+        0.65,
+        0.58,
+        0.54
+      ]
+    },
+    {
+      "file": "skin_upper_lip_diffuse_atlas.png",
+      "sha256": "c54a9e0dfd7892a32d6469b2d7dd66bdf6f887486a6371b8cd09de57402a0d5b",
+      "bytes": 1363077,
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "colour_space": "sRGB",
+      "operation": "sRGB decode -> fixed existing linear tint -> sRGB encode, round to 8-bit",
+      "input_prepared_image": "skin_diffuse_atlas.png",
+      "linear_multiplier": [
+        0.9,
+        0.71,
+        0.68
+      ]
+    },
+    {
+      "file": "skin_lower_lip_diffuse_atlas.png",
+      "sha256": "2e6b4f5d2951651ec25d64c21807fcd1263b08ab83ea085d5de079aeb4c9c3a1",
+      "bytes": 1389968,
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "colour_space": "sRGB",
+      "operation": "sRGB decode -> fixed existing linear tint -> sRGB encode, round to 8-bit",
+      "input_prepared_image": "skin_diffuse_atlas.png",
+      "linear_multiplier": [
+        0.96,
+        0.8,
+        0.76
+      ]
+    },
+    {
+      "file": "pants_tinted_diffuse.png",
+      "sha256": "b225a00982b9859abe724f695700f98ab8ccdabb2e8da8d6b380ba38c5fdcca1",
+      "bytes": 6237637,
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "colour_space": "sRGB",
+      "operation": "sRGB decode -> fixed existing linear tint -> sRGB encode, round to 8-bit",
+      "input_prepared_image": "pants_diffuse.png",
+      "linear_multiplier": [
+        0.7,
+        0.82,
+        0.91
+      ]
+    }
+  ],
+  "source_hashes_unchanged_after_processing": true,
+  "pillow_version": "12.3.0"
+}

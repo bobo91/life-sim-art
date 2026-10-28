@@ -1,0 +1,144 @@
+{
+  "schema": "male-phase-a-primary-sources-1",
+  "checkedDate": "2026-10-28",
+  "sourceAssetsDownloaded": false,
+  "entries": [
+    {
+      "id": "snow-v4",
+      "url": "https://studio.blender.org/characters/snow/v4/",
+      "access": "Official indexed page read; direct open and public thumbnail returned HTTP402 in web tool",
+      "facts": [
+        "Free; Blender4.1; CC-BY; published update2025-05-08",
+        "Publisher says Blender4.1 and beyond; included rig UI scripts and face controls",
+        "Requested credit: Snow Rig (CC) Blender Foundation | studio.blender.org"
+      ],
+      "notVerified": [
+        "download/account process",
+        "embedded component licences",
+        "full-resolution preview appearance",
+        "actual mesh/topology/triangles/eyes/hair",
+        "local Blender compatibility",
+        "Unity import"
+      ],
+      "decision": "Conditional source-inspection candidate only, owner source/policy approval required"
+    },
+    {
+      "id": "studio-terms",
+      "url": "https://studio.blender.org/terms-and-conditions/",
+      "access": "Official indexed text read; direct open failed",
+      "facts": [
+        "Digital content including3Ddata is CC BY4.0 unless otherwise notified",
+        "Software uses free/open licences; logos/trademarks reserved"
+      ],
+      "notVerified": [
+        "file-level component terms"
+      ]
+    },
+    {
+      "id": "cc-by-4",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "access": "Official deed opened",
+      "facts": [
+        "Commercial adaptation and redistribution with attribution, licence link and change notice"
+      ],
+      "notVerified": [
+        "Whether every component in a not-yet-acquired source has these terms"
+      ]
+    },
+    {
+      "id": "bozo",
+      "url": "https://marketplace.unity.com/packages/3d/characters/humanoids/humans/bozo-stylized-modular-characters-base-pack-281577",
+      "access": "Official indexed listing plus collaborator live listing read",
+      "facts": [
+        "Displayed40USD before tax",
+        "Vendor lists modular body/face/hair/clothes and Humanoid/URP",
+        "Vendor description lists no included animations or LOD"
+      ],
+      "metadataConflict": "Different primary retrievals report2.6.4/2026-10-16/113.8MB versus2.6.3.1/2026-09-01/112.7MB. Licence-type labels also differ. Installed contents, exact current package and seats not verified.",
+      "notVerified": [
+        "actual preview image quality",
+        "mesh source files",
+        "Blender/Python workflow",
+        "Unity6000.5 compatibility",
+        "Codex inspection permission"
+      ],
+      "decision": "Not approved; no purchase/contact/import"
+    },
+    {
+      "id": "unity-asset-terms",
+      "url": "https://unity.com/legal/as-terms",
+      "access": "Official current terms read",
+      "facts": [
+        "Section3.8(v) includes AI-program inputs; no assumption intended Codex asset loop permitted",
+        "Standalone asset/source redistribution differs from embedding assets in a licensed game"
+      ],
+      "decision": "Clarification required before any proposed proprietary-source acquisition; no seller contacted"
+    },
+    {
+      "id": "synty-modern",
+      "url": "https://syntystore.com/products/modern-civilians-sidekick-modular-characters",
+      "access": "Official product page read by collaborator",
+      "facts": [
+        "Displayed199.99USD; taxes/checkout not confirmed",
+        "Vendor advertises modular characters and Humanoid support"
+      ],
+      "notVerified": [
+        "actual meshes",
+        "nativeblend sources",
+        "our Blender roundtrip"
+      ]
+    },
+    {
+      "id": "synty-faq",
+      "url": "https://syntystore.com/community/faq",
+      "access": "Official FAQ read by collaborator",
+      "facts": [
+        "Blender editing discussed; custommodularparts not recommended; native sources only when listed"
+      ]
+    },
+    {
+      "id": "synty-license",
+      "url": "https://syntystore.com/pages/one-time-purchase-licence",
+      "access": "Official licence read by collaborator",
+      "facts": [
+        "Commercial game use with source-sharing and AI-use restrictions"
+      ],
+      "decision": "No clearance for intended Codex loop or public source-artifact library"
+    },
+    {
+      "id": "blender-license",
+      "url": "https://www.blender.org/support/faq/",
+      "access": "Official FAQ read",
+      "facts": [
+        "Blender and authored output can be used commercially; does not grant rights in third-party inputs"
+      ]
+    },
+    {
+      "id": "unity-humanoid",
+      "url": "https://docs.unity3d.com/6000.0/Documentation/Manual/AvatarCreationandSetup.html",
+      "access": "Official Unity manual opened",
+      "facts": [
+        "Avatar mapping is the basis for humanoid animation reuse"
+      ],
+      "decision": "PhaseB design reference, no rig/import implemented or claimed"
+    },
+    {
+      "id": "vincent-reserve",
+      "url": "https://studio.blender.org/characters/vincent/v1/",
+      "access": "Official indexed page read by collaborator",
+      "facts": [
+        "Free/CC-BY/Blender2.80/BlenRig"
+      ],
+      "decision": "Not a concurrent model trial; older reserve only"
+    },
+    {
+      "id": "einar-rejected",
+      "url": "https://studio.blender.org/characters/einar/v1/",
+      "access": "Official indexed page read by collaborator",
+      "facts": [
+        "Publisher describes realistic character"
+      ],
+      "decision": "Style/context mismatch; no model trial"
+    }
+  ]
+}

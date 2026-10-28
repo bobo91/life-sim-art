@@ -1,0 +1,41 @@
+{
+  "scope": "Existing source/evidence read, unchanged. Images are historical actual Blender renders, not a new male prototype.",
+  "files": [
+    {
+      "path": "evidence/art-009e1-method-v02/comparison.png",
+      "sha256": "d199a8ef66196d47263bebcd804c6ab84b438cf341ad047b12e33ae9180aba45"
+    },
+    {
+      "path": "evidence/ava-quality-poc/portraits-front-three-quarter.png",
+      "sha256": "2fb1bb77bfaf96afb1cfa927005feea7d38ca1e55b700920c0a76b3df0f42481"
+    },
+    {
+      "path": "evidence/ava-quality-poc/quality-gates.json",
+      "sha256": "6fa99605104d9204e38f467bd05dc27342600b4dba5f6d2989fb1c51cc2eda8b"
+    },
+    {
+      "path": "docs/characters/ava-morgan/AVA_QUALITY_VISUAL_REVIEW.md",
+      "sha256": "82c4d216ef007851e422c77ff556a10fc89f404b1ae5d26345d86f766138f3fb"
+    },
+    {
+      "path": "docs/characters/WILLOW_CREEK_CHARACTER_PIPELINE_REVIEW.md",
+      "sha256": "4faea0e65cd882e6c48a0d4cc7d357adff74302ae5da8ae4b6195a144a1693d5"
+    },
+    {
+      "path": "docs/characters/AVA_NEUTRAL_FEASIBILITY_REVIEW.md",
+      "sha256": "eed4f796412463f90cd45fc1cd15be5b3bd296367c3406398c0474c646be3fb7"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "9788bbc64f6bc1da54f96e17a1fd43692ecb09f0ef380e8282791a1720d05540"
+    },
+    {
+      "path": "docs/ART_DIRECTION.md",
+      "sha256": "4063820041a32248d755477fc850e160ceb73092914230b7880399de8be15fea"
+    },
+    {
+      "path": "configs/neighborhood-layout.json",
+      "sha256": "4add45def5f66ae3f457c8e5a9f22db1d1b5c86b79bb23840940a38e602dc7e7"
+    }
+  ]
+}
