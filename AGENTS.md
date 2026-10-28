@@ -85,3 +85,15 @@ Keep a high-quality editable A03 source before optimization. Rig reuse remains
 unproven unless actually tested; do not build any rig/animation/clothing system.
 No new base, purchase, vendor contact, game edit, merge or Phase B. Stop after
 A03 visual review delivery. This extends only the completed A02 pass limit.
+
+## Owner-authorized Phase B A03 motion feasibility (2026-10-28)
+
+The owner explicitly approved A03 visual identity and its 29,367-triangle budget,
+retaining A01/A02 as history with no A04 or merge. Permit a bounded Phase B on
+the same approved Snow/A03 source copies: inspect source rig/weights, test skinning
+and basic idle/walk/run/turn motion, export/reimport and isolated Unity URP proof.
+Preserve approved face, palette and overall style. No life-sim-game changes, new
+generic animation/clothing/character system, purchases, paid services or merge.
+If the source rig proves unsuitable, document it and propose a limited alternative
+before extensive rebuilding. Existing source licences/credit and script-isolation
+requirements remain. Stop at a documented playable-character GO/NO-GO review gate.

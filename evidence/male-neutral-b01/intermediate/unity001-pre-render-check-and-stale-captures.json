@@ -1,0 +1,746 @@
+{
+    "schema": "male-b01-unity-motion-1",
+    "status": "failed",
+    "unityVersion": "6000.5.8f1",
+    "graphicsDevice": "Direct3D11",
+    "gltfastVersion": "6.20.0",
+    "urpVersion": "17.5.0",
+    "importer": "GLTFast.Editor.GltfImporter",
+    "savedReopenedPoseMatches": true,
+    "urpRendered": true,
+    "humanoidTested": false,
+    "gameIntegrationTested": false,
+    "triangles": 29367,
+    "materialCount": 9,
+    "skinnedMeshes": 10,
+    "staticMeshes": 0,
+    "meshes": [
+        {
+            "name": "M01_body",
+            "vertices": 3244,
+            "triangles": 5460,
+            "bones": 52,
+            "bindposes": 52,
+            "maxInfluences": 4,
+            "maxWeightSumError": 1.1920928955078126e-7,
+            "finite": true,
+            "indicesValid": true,
+            "bonesAssigned": true
+        },
+        {
+            "name": "M01_eyebrows",
+            "vertices": 1014,
+            "triangles": 1504,
+            "bones": 52,
+            "bindposes": 52,
+            "maxInfluences": 1,
+            "maxWeightSumError": 0.0,
+            "finite": true,
+            "indicesValid": true,
+            "bonesAssigned": true
+        },
+        {
+            "name": "M01_eyes",
+            "vertices": 1482,
+            "triangles": 2756,
+            "bones": 52,
+            "bindposes": 52,
+            "maxInfluences": 1,
+            "maxWeightSumError": 0.0,
+            "finite": true,
+            "indicesValid": true,
+            "bonesAssigned": true
+        },
+        {
+            "name": "M01_hair_base",
+            "vertices": 1309,
+            "triangles": 2528,
+            "bones": 52,
+            "bindposes": 52,
+            "maxInfluences": 1,
+            "maxWeightSumError": 0.0,
+            "finite": true,
+            "indicesValid": true,
+            "bonesAssigned": true
+        },
+        {
+            "name": "M01_head",
+            "vertices": 4118,
+            "triangles": 7264,
+            "bones": 52,
+            "bindposes": 52,
+            "maxInfluences": 4,
+            "maxWeightSumError": 1.1920928955078126e-7,
+            "finite": true,
+            "indicesValid": true,
+            "bonesAssigned": true
+        },
+        {
+            "name": "M01_pants",
+            "vertices": 2070,
+            "triangles": 3365,
+            "bones": 52,
+            "bindposes": 52,
+            "maxInfluences": 4,
+            "maxWeightSumError": 1.1920928955078126e-7,
+            "finite": true,
+            "indicesValid": true,
+            "bonesAssigned": true
+        },
+        {
+            "name": "M01_shirt",
+            "vertices": 1384,
+            "triangles": 2368,
+            "bones": 52,
+            "bindposes": 52,
+            "maxInfluences": 3,
+            "maxWeightSumError": 1.1920928955078126e-7,
+            "finite": true,
+            "indicesValid": true,
+            "bonesAssigned": true
+        },
+        {
+            "name": "M01_shoes_base",
+            "vertices": 984,
+            "triangles": 1130,
+            "bones": 52,
+            "bindposes": 52,
+            "maxInfluences": 2,
+            "maxWeightSumError": 0.0,
+            "finite": true,
+            "indicesValid": true,
+            "bonesAssigned": true
+        },
+        {
+            "name": "M01_shoes_bottom",
+            "vertices": 376,
+            "triangles": 576,
+            "bones": 52,
+            "bindposes": 52,
+            "maxInfluences": 2,
+            "maxWeightSumError": 0.0,
+            "finite": true,
+            "indicesValid": true,
+            "bonesAssigned": true
+        },
+        {
+            "name": "M01_shoes_parts",
+            "vertices": 1813,
+            "triangles": 2416,
+            "bones": 52,
+            "bindposes": 52,
+            "maxInfluences": 1,
+            "maxWeightSumError": 0.0,
+            "finite": true,
+            "indicesValid": true,
+            "bonesAssigned": true
+        }
+    ],
+    "clips": [
+        {
+            "name": "idle",
+            "duration": 2.0416667461395265,
+            "curves": 520,
+            "frameCount": 49,
+            "legacy": false,
+            "finite": true,
+            "hasMotion": true,
+            "loopClosureMeters": 0.0,
+            "samples": [
+                {
+                    "time": 0.0,
+                    "min": [
+                        -0.31320810317993166,
+                        -3.7290877230589106e-7,
+                        -0.15313640236854554
+                    ],
+                    "max": [
+                        0.31320714950561526,
+                        1.7274047136306763,
+                        0.15313759446144105
+                    ],
+                    "sha256": "1f28b6e46ecb05addba0a8f9bda181f2f9b8ffa402ec46a48ce1049424d36dd4",
+                    "maxChangeFromFirst": 0.0
+                },
+                {
+                    "time": 0.2552083432674408,
+                    "min": [
+                        -0.31320810317993166,
+                        -3.719945880220621e-7,
+                        -0.15313640236854554
+                    ],
+                    "max": [
+                        0.31320714950561526,
+                        1.7283363342285157,
+                        0.15313765406608582
+                    ],
+                    "sha256": "5041a6c90b9e78ea026cf1e623a0b2303cdb516ed367092eb0aa264dd510d443",
+                    "maxChangeFromFirst": 0.005934656132012606
+                },
+                {
+                    "time": 0.5104166865348816,
+                    "min": [
+                        -0.3132079839706421,
+                        -4.364300139059196e-7,
+                        -0.15313638746738435
+                    ],
+                    "max": [
+                        0.3132070302963257,
+                        1.7288951873779297,
+                        0.15313760936260224
+                    ],
+                    "sha256": "5f81e5bba19b1eb5f69786311415d71bfc6c00e3891cede8bc9b12078889de2b",
+                    "maxChangeFromFirst": 0.009498445317149163
+                },
+                {
+                    "time": 0.765625,
+                    "min": [
+                        -0.3132082223892212,
+                        -3.640343777533417e-7,
+                        -0.15313638746738435
+                    ],
+                    "max": [
+                        0.3132072687149048,
+                        1.728546380996704,
+                        0.15313765406608582
+                    ],
+                    "sha256": "6fcb369b298bca8a7a01b748b825dbe629fac1547ebfbb45524d340dd4dcbf07",
+                    "maxChangeFromFirst": 0.007273110561072826
+                },
+                {
+                    "time": 1.0208333730697632,
+                    "min": [
+                        -0.31320810317993166,
+                        -5.449585387395928e-7,
+                        -0.15313640236854554
+                    ],
+                    "max": [
+                        0.3132070302963257,
+                        1.7275025844573975,
+                        0.15313763916492463
+                    ],
+                    "sha256": "42674da0431d498c6eb431063a1362bf739aa59b6fa2d6c80234f2ed7c628d75",
+                    "maxChangeFromFirst": 0.0006232449086382985
+                },
+                {
+                    "time": 1.2760417461395264,
+                    "min": [
+                        -0.31320810317993166,
+                        -2.9253089905978415e-7,
+                        -0.15313640236854554
+                    ],
+                    "max": [
+                        0.31320691108703616,
+                        1.7263994216918946,
+                        0.15313762426376344
+                    ],
+                    "sha256": "5323071c83152a7471c6eccb66a9cffb3ddb29eb8dcf09ec64f3e7859061b393",
+                    "maxChangeFromFirst": 0.006394689902663231
+                },
+                {
+                    "time": 1.53125,
+                    "min": [
+                        -0.31320810317993166,
+                        -3.179582108714385e-7,
+                        -0.15313638746738435
+                    ],
+                    "max": [
+                        0.3132070302963257,
+                        1.7259079217910767,
+                        0.15313759446144105
+                    ],
+                    "sha256": "e4f21f4f0b5c2450eb50c5507b6bf674750a143dcdab11a2a2c4145959b9b37a",
+                    "maxChangeFromFirst": 0.009517035447061062
+                },
+                {
+                    "time": 1.7864583730697632,
+                    "min": [
+                        -0.3132079839706421,
+                        -3.814794524714671e-7,
+                        -0.15313640236854554
+                    ],
+                    "max": [
+                        0.3132070302963257,
+                        1.726327896118164,
+                        0.15313762426376344
+                    ],
+                    "sha256": "114c51ab04e759ccdc03bc22d26f22b4dbf854ab7713fefe76d3c2b9cbf01e36",
+                    "maxChangeFromFirst": 0.006849008146673441
+                },
+                {
+                    "time": 2.0416667461395265,
+                    "min": [
+                        -0.31320810317993166,
+                        -3.7290877230589106e-7,
+                        -0.15313640236854554
+                    ],
+                    "max": [
+                        0.31320714950561526,
+                        1.7274047136306763,
+                        0.15313759446144105
+                    ],
+                    "sha256": "1f28b6e46ecb05addba0a8f9bda181f2f9b8ffa402ec46a48ce1049424d36dd4",
+                    "maxChangeFromFirst": 0.0
+                }
+            ]
+        },
+        {
+            "name": "run",
+            "duration": 0.7916666865348816,
+            "curves": 520,
+            "frameCount": 19,
+            "legacy": false,
+            "finite": true,
+            "hasMotion": true,
+            "loopClosureMeters": 0.0,
+            "samples": [
+                {
+                    "time": 0.0,
+                    "min": [
+                        -0.3128018379211426,
+                        4.777382400789065e-8,
+                        -0.32308804988861086
+                    ],
+                    "max": [
+                        0.312801718711853,
+                        1.7230355739593506,
+                        0.3831378221511841
+                    ],
+                    "sha256": "4de0c5872dbcbdf338561bf5ec219c8fcc80598e706f7ea29d3741c3d422b986",
+                    "maxChangeFromFirst": 0.0
+                },
+                {
+                    "time": 0.0989583358168602,
+                    "min": [
+                        -0.31629478931427,
+                        -0.001370931975543499,
+                        -0.26079487800598147
+                    ],
+                    "max": [
+                        0.3091928958892822,
+                        1.7176004648208619,
+                        0.4048197269439697
+                    ],
+                    "sha256": "c122e9002c6749db7840dc3caaae7dd481098c3611c65cbbf85ab85c7dd43cf6",
+                    "maxChangeFromFirst": 0.11363206058740616
+                },
+                {
+                    "time": 0.1979166716337204,
+                    "min": [
+                        -0.3201955556869507,
+                        -0.0005625462508760393,
+                        -0.1947624385356903
+                    ],
+                    "max": [
+                        0.30530452728271487,
+                        1.7010990381240845,
+                        0.46071624755859377
+                    ],
+                    "sha256": "b866fea9e57418bf18008ec60d43c8a70b3881669d1c8410b881a44af3e931a1",
+                    "maxChangeFromFirst": 0.24171185493469239
+                },
+                {
+                    "time": 0.296875,
+                    "min": [
+                        -0.31928956508636477,
+                        -0.0025295971427112819,
+                        -0.28681471943855288
+                    ],
+                    "max": [
+                        0.30621933937072756,
+                        1.7060763835906983,
+                        0.449834942817688
+                    ],
+                    "sha256": "6d4f9e48dc3a3fae38e549501ed857581dc00a7c53ff53922d46237e2b681cee",
+                    "maxChangeFromFirst": 0.3936614692211151
+                },
+                {
+                    "time": 0.3958333432674408,
+                    "min": [
+                        -0.3140702247619629,
+                        0.008931386284530163,
+                        -0.3370897173881531
+                    ],
+                    "max": [
+                        0.31139814853668215,
+                        1.7216522693634034,
+                        0.38076016306877139
+                    ],
+                    "sha256": "8521b23dba084c23f95462388b9819e5b240a1407c2ddbc66ef54a34ba66f9a5",
+                    "maxChangeFromFirst": 0.44624388217926028
+                },
+                {
+                    "time": 0.4947916865348816,
+                    "min": [
+                        -0.3080408573150635,
+                        -0.000637299322988838,
+                        -0.23477868735790254
+                    ],
+                    "max": [
+                        0.3174816370010376,
+                        1.7138776779174805,
+                        0.4241434335708618
+                    ],
+                    "sha256": "544daae857be57d9131870f6e1afc604b71bfae42c21a562ff9a3f772f1110fd",
+                    "maxChangeFromFirst": 0.3586067259311676
+                },
+                {
+                    "time": 0.59375,
+                    "min": [
+                        -0.3050776720046997,
+                        -0.0006087152869440615,
+                        -0.19746017456054688
+                    ],
+                    "max": [
+                        0.3204280138015747,
+                        1.6995009183883668,
+                        0.4632560610771179
+                    ],
+                    "sha256": "7fbfe517ca10c79090487df7dc58cf1f4d9d3e538aaa36aa19919d7b4cef5343",
+                    "maxChangeFromFirst": 0.24932704865932465
+                },
+                {
+                    "time": 0.6927083730697632,
+                    "min": [
+                        -0.307081937789917,
+                        -0.005522025749087334,
+                        -0.3183850944042206
+                    ],
+                    "max": [
+                        0.3184168338775635,
+                        1.7099205255508423,
+                        0.43818098306655886
+                    ],
+                    "sha256": "cac2702eb1c2c0c4c03e46451f112ffeea03e8f50297af8bf7c6dfe049e0208d",
+                    "maxChangeFromFirst": 0.18297456204891206
+                },
+                {
+                    "time": 0.7916666865348816,
+                    "min": [
+                        -0.3128018379211426,
+                        4.777382400789065e-8,
+                        -0.32308804988861086
+                    ],
+                    "max": [
+                        0.312801718711853,
+                        1.7230355739593506,
+                        0.3831378221511841
+                    ],
+                    "sha256": "4de0c5872dbcbdf338561bf5ec219c8fcc80598e706f7ea29d3741c3d422b986",
+                    "maxChangeFromFirst": 0.0
+                }
+            ]
+        },
+        {
+            "name": "turn",
+            "duration": 1.5416666269302369,
+            "curves": 520,
+            "frameCount": 37,
+            "legacy": false,
+            "finite": true,
+            "hasMotion": true,
+            "loopClosureMeters": 0.45092424750328066,
+            "samples": [
+                {
+                    "time": 0.0,
+                    "min": [
+                        -0.3132082223892212,
+                        -3.250789575304225e-7,
+                        -0.1531364470720291
+                    ],
+                    "max": [
+                        0.3132072687149048,
+                        1.7314047813415528,
+                        0.18813768029212953
+                    ],
+                    "sha256": "d8c7caf748695638387aecf1932d2191b8de3f7d972a376684082279c9a52af6",
+                    "maxChangeFromFirst": 0.0
+                },
+                {
+                    "time": 0.1927083283662796,
+                    "min": [
+                        -0.31684982776641848,
+                        -0.00000561895012651803,
+                        -0.15729080140590669
+                    ],
+                    "max": [
+                        0.30297791957855227,
+                        1.7286285161972047,
+                        0.21420735120773316
+                    ],
+                    "sha256": "14f0cf5e5716d7133cb934f7b7c319f42ff061f589b524872bdcd388a7a2256f",
+                    "maxChangeFromFirst": 0.0961085855960846
+                },
+                {
+                    "time": 0.3854166567325592,
+                    "min": [
+                        -0.30209529399871828,
+                        -7.374214305855276e-7,
+                        -0.20562565326690675
+                    ],
+                    "max": [
+                        0.2705361843109131,
+                        1.7236032485961915,
+                        0.29851800203323367
+                    ],
+                    "sha256": "5900a4f9b12856b377a1b8a33566b21feb2fe7415534f59809f2b1b338672b37",
+                    "maxChangeFromFirst": 0.19636887311935426
+                },
+                {
+                    "time": 0.578125,
+                    "min": [
+                        -0.2775949239730835,
+                        -0.0000026664126835385106,
+                        -0.23793959617614747
+                    ],
+                    "max": [
+                        0.2616647481918335,
+                        1.726581335067749,
+                        0.31417858600616457
+                    ],
+                    "sha256": "37c3e6f6a3dc6a787816530c220f971f1ea7ccd8e80c9e3fa10a8496b6ab730b",
+                    "maxChangeFromFirst": 0.24096721410751344
+                },
+                {
+                    "time": 0.7708333134651184,
+                    "min": [
+                        -0.2815943956375122,
+                        -0.000002096144498864305,
+                        -0.24346959590911866
+                    ],
+                    "max": [
+                        0.24854576587677003,
+                        1.7312954664230347,
+                        0.28674596548080447
+                    ],
+                    "sha256": "4fb4f50f0affea30f3fd7df453634e26e7eb91bf6633536c7a4f685e849b1f44",
+                    "maxChangeFromFirst": 0.2441948503255844
+                },
+                {
+                    "time": 0.9635416269302368,
+                    "min": [
+                        -0.310341477394104,
+                        -0.000003337556336191483,
+                        -0.26049309968948367
+                    ],
+                    "max": [
+                        0.24074643850326539,
+                        1.7277796268463135,
+                        0.274716854095459
+                    ],
+                    "sha256": "a82c713d3a70ecacd26ab3e6050727eb5667cdbdd357ada593b95fd51088be8c",
+                    "maxChangeFromFirst": 0.26866933703422549
+                },
+                {
+                    "time": 1.15625,
+                    "min": [
+                        -0.30822765827178957,
+                        -0.0000017932489981831168,
+                        -0.26763343811035159
+                    ],
+                    "max": [
+                        0.2147478461265564,
+                        1.7232025861740113,
+                        0.2967644929885864
+                    ],
+                    "sha256": "c95669ab9f7b4757801bbb4716955da293c7fc337c797dd3cacd9010967214ac",
+                    "maxChangeFromFirst": 0.3285427987575531
+                },
+                {
+                    "time": 1.3489582538604737,
+                    "min": [
+                        -0.23682159185409547,
+                        -0.000008487799277645536,
+                        -0.2977997064590454
+                    ],
+                    "max": [
+                        0.16376829147338868,
+                        1.727065920829773,
+                        0.3158862590789795
+                    ],
+                    "sha256": "319b17ed65461ccdb7eccb298c0146594fde8d45446f8f89df9f24a24c3cd677",
+                    "maxChangeFromFirst": 0.3922607898712158
+                },
+                {
+                    "time": 1.5416666269302369,
+                    "min": [
+                        -0.18813744187355042,
+                        -2.59921904444127e-7,
+                        -0.31320810317993166
+                    ],
+                    "max": [
+                        0.15313640236854554,
+                        1.7314046621322632,
+                        0.3132072687149048
+                    ],
+                    "sha256": "3006d9a14c26ce598cb2184240c4a30e983f5cf1955c421bae0547d6965063a0",
+                    "maxChangeFromFirst": 0.45092424750328066
+                }
+            ]
+        },
+        {
+            "name": "walk",
+            "duration": 1.0416666269302369,
+            "curves": 520,
+            "frameCount": 25,
+            "legacy": false,
+            "finite": true,
+            "hasMotion": true,
+            "loopClosureMeters": 0.0,
+            "samples": [
+                {
+                    "time": 0.0,
+                    "min": [
+                        -0.31320810317993166,
+                        -3.7008476283517668e-7,
+                        -0.23975907266139985
+                    ],
+                    "max": [
+                        0.31320714950561526,
+                        1.7314046621322632,
+                        0.31313782930374148
+                    ],
+                    "sha256": "468b1e4da1aa436299d18401b5b6d2896e8b5489ea7835cd6475424eada42eb6",
+                    "maxChangeFromFirst": 0.0
+                },
+                {
+                    "time": 0.1302083283662796,
+                    "min": [
+                        -0.3173321485519409,
+                        -0.00007094491593306884,
+                        -0.28317269682884219
+                    ],
+                    "max": [
+                        0.3090500831604004,
+                        1.7291942834854127,
+                        0.26428163051605227
+                    ],
+                    "sha256": "0016b216aa29cabdab7dc8feeafbfa64efa202532d47f1fa315e1e98e7100caa",
+                    "maxChangeFromFirst": 0.07505308836698532
+                },
+                {
+                    "time": 0.2604166567325592,
+                    "min": [
+                        -0.3208310604095459,
+                        -0.00006982563354540616,
+                        -0.20438769459724427
+                    ],
+                    "max": [
+                        0.3054875135421753,
+                        1.7238256931304932,
+                        0.2509436011314392
+                    ],
+                    "sha256": "531caec1e2c72ca4f82171204949ee7152127070d9a54382f25daf4eb6a4aad1",
+                    "maxChangeFromFirst": 0.13924334943294526
+                },
+                {
+                    "time": 0.390625,
+                    "min": [
+                        -0.31952154636383059,
+                        -0.00012659828644245863,
+                        -0.15747657418251038
+                    ],
+                    "max": [
+                        0.3068211078643799,
+                        1.7261873483657838,
+                        0.23031222820281983
+                    ],
+                    "sha256": "bef3b96b0a86fa1ce1b96cb69f316eecc1d0f20c2aedbd330f97ed9a8288f90d",
+                    "maxChangeFromFirst": 0.2167903482913971
+                },
+                {
+                    "time": 0.5208333134651184,
+                    "min": [
+                        -0.3142176866531372,
+                        -0.0002591348602436483,
+                        -0.22934316098690034
+                    ],
+                    "max": [
+                        0.3121781349182129,
+                        1.7311527729034424,
+                        0.30967003107070925
+                    ],
+                    "sha256": "1de6a0704f3693fa582d9738b7ba247776d74561d41c7f5bd898789b84be71d4",
+                    "maxChangeFromFirst": 0.27328890562057497
+                },
+                {
+                    "time": 0.6510416269302368,
+                    "min": [
+                        -0.3082261085510254,
+                        -0.00015310746675822884,
+                        -0.2805611491203308
+                    ],
+                    "max": [
+                        0.3181384801864624,
+                        1.7280172109603882,
+                        0.2527778744697571
+                    ],
+                    "sha256": "cd3bf01963456b068616ef888526e73e4757823d03c002323a1905f8d29788dd",
+                    "maxChangeFromFirst": 0.31692594289779665
+                },
+                {
+                    "time": 0.78125,
+                    "min": [
+                        -0.30535244941711428,
+                        -0.00007046834070933983,
+                        -0.1831313669681549
+                    ],
+                    "max": [
+                        0.32096242904663088,
+                        1.7232779264450074,
+                        0.2530133128166199
+                    ],
+                    "sha256": "c4e8089892d5e216e8c03ca3e5125c889908e9975fdd8615c6d1f9d6aa83c1ae",
+                    "maxChangeFromFirst": 0.2282201051712036
+                },
+                {
+                    "time": 0.9114583134651184,
+                    "min": [
+                        -0.30745601654052737,
+                        -0.000059877289459109306,
+                        -0.167911559343338
+                    ],
+                    "max": [
+                        0.31890225410461428,
+                        1.7269872426986695,
+                        0.24256610870361329
+                    ],
+                    "sha256": "5fae776aa760ed16df2a9d900be405f3d4e4e4c0167c3c124dce2f581ca874e9",
+                    "maxChangeFromFirst": 0.10384248197078705
+                },
+                {
+                    "time": 1.0416666269302369,
+                    "min": [
+                        -0.31320810317993166,
+                        -3.7008476283517668e-7,
+                        -0.23975907266139985
+                    ],
+                    "max": [
+                        0.31320714950561526,
+                        1.7314046621322632,
+                        0.31313782930374148
+                    ],
+                    "sha256": "468b1e4da1aa436299d18401b5b6d2896e8b5489ea7835cd6475424eada42eb6",
+                    "maxChangeFromFirst": 0.0
+                }
+            ]
+        }
+    ],
+    "errors": [
+        "Unsupported/error/non-URP material",
+        "Unsupported/error/non-URP material",
+        "Unsupported/error/non-URP material",
+        "Unsupported/error/non-URP material",
+        "Unsupported/error/non-URP material",
+        "Unsupported/error/non-URP material",
+        "Unsupported/error/non-URP material",
+        "Unsupported/error/non-URP material",
+        "Unsupported/error/non-URP material"
+    ],
+    "importerMessages": [],
+    "limitations": [
+        "Isolated art-only Unity URP proof, not life-sim-game or final game lighting.",
+        "Direct imported clip sampling and baked skin surfaces; no Humanoid Avatar, gameplay controller, transitions, physics or runtime performance certification.",
+        "Geometry samples and close-up renders do not prove absence of every self-intersection."
+    ]
+}

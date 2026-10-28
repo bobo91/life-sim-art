@@ -1,0 +1,71 @@
+{
+  "views": [
+    {
+      "name": "run_front",
+      "focus": [
+        0.0,
+        0.0,
+        0.8500000238418579
+      ],
+      "orthoScale": 2.05
+    },
+    {
+      "name": "run_shoulder_elbow",
+      "focus": [
+        0.22822578251361847,
+        0.15883365273475647,
+        1.0691921710968018
+      ],
+      "orthoScale": 0.48
+    },
+    {
+      "name": "run_hand",
+      "focus": [
+        0.2864581346511841,
+        -0.057286616414785385,
+        0.8749459981918335
+      ],
+      "orthoScale": 0.3
+    },
+    {
+      "name": "run_knee",
+      "focus": [
+        0.08164718002080917,
+        0.03906476870179176,
+        0.43557116389274597
+      ],
+      "orthoScale": 0.48
+    },
+    {
+      "name": "stress_elbow90",
+      "focus": [
+        0.4310147166252136,
+        0.07541076838970184,
+        1.308977723121643
+      ],
+      "orthoScale": 0.48
+    },
+    {
+      "name": "stress_wrist45_fingers60",
+      "focus": [
+        0.36398613452911377,
+        -0.18169450759887695,
+        1.2798315286636353
+      ],
+      "orthoScale": 0.28
+    },
+    {
+      "name": "stress_knee90",
+      "focus": [
+        0.07966024428606033,
+        0.04454965516924858,
+        0.4795094430446625
+      ],
+      "orthoScale": 0.58
+    }
+  ],
+  "engine": "Cycles CPU 12samples",
+  "source": "bind-005/character_b01.blend",
+  "stressPoseOnly": "Separate unsaved test pose, not shipped animation or edited mesh",
+  "faceAndSourceMeshesUnchanged": true
+}

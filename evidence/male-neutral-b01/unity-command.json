@@ -1,0 +1,53 @@
+{
+  "schema": "male-b01-unity-command-1",
+  "startedUtc": "2026-10-28T19:19:46.321386+00:00",
+  "command": [
+    "C:\\Program Files\\Unity\\Hub\\Editor\\6000.5.8f1\\Editor\\Unity.exe",
+    "-batchmode",
+    "-force-d3d11",
+    "-projectPath",
+    "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003",
+    "-logFile",
+    "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\unity-animation.log",
+    "-executeMethod",
+    "MaleNeutralB01AnimationCheck.Run",
+    "-b01Output",
+    "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence",
+    "-b01Expected",
+    "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\expected.json"
+  ],
+  "sourceGlbSha256": "9a5c1976e06c0d059825715bc0b3eb23c572855452b30bddec0ea586e6266931",
+  "checkerSha256": "8f7c15a4f3f2c0d128c2526401d1585b41da19248a22dd12fb30b4a4cf4a0e95",
+  "runnerSha256": "e9a6dc650464f45b832e19f70d4232d3fc674a4ece1815354402bfec4b2d4548",
+  "scope": "Isolated art-only A03 skin/clip proof; no game changes, avatar or controller",
+  "packagesManifest": {
+    "dependencies": {
+      "com.unity.burst": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.burst@2f3d916873ea",
+      "com.unity.cloud.gltfast": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.cloud.gltfast@11ddc2436f97",
+      "com.unity.collections": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.collections@ec2c217e4cb2",
+      "com.unity.ext.nunit": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.ext.nunit@44f7d31723bd",
+      "com.unity.mathematics": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.mathematics@981956d94fb6",
+      "com.unity.modules.imgui": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.modules.imgui",
+      "com.unity.modules.jsonserialize": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.modules.jsonserialize",
+      "com.unity.modules.physics": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.modules.physics",
+      "com.unity.modules.terrain": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.modules.terrain",
+      "com.unity.modules.unitywebrequest": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.modules.unitywebrequest",
+      "com.unity.nuget.mono-cecil": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff",
+      "com.unity.render-pipelines.core": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.render-pipelines.core@a4c9a9793789",
+      "com.unity.render-pipelines.universal-config": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.render-pipelines.universal-config@fdda01c80fe3",
+      "com.unity.render-pipelines.universal": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.render-pipelines.universal@73b4c4ff130e",
+      "com.unity.searcher": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.searcher@a463122f2c00",
+      "com.unity.shadergraph": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.shadergraph@8d7376ec43ee",
+      "com.unity.test-framework.performance": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.test-framework.performance@8b56083ec0f0",
+      "com.unity.test-framework": "file:C:/dir/life-sim-art/build/first-playable-props-unity/probe-002/Library/PackageCache/com.unity.test-framework@1405238725ab",
+      "com.unity.modules.animation": "file:C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.animation",
+      "com.unity.modules.imageconversion": "file:C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.imageconversion",
+      "com.unity.modules.unitywebrequesttexture": "file:C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequesttexture"
+    }
+  },
+  "exitCode": 0,
+  "elapsedSeconds": 49.015610199887305,
+  "sourceAndImportedGlbUnchanged": true,
+  "reportExists": true,
+  "reportSha256": "3c5750ce528643def0f9759b85eb2c8a93bc8221a722b35441ff6fb755a2baa4"
+}

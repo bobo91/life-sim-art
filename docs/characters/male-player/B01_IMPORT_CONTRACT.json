@@ -1,0 +1,91 @@
+{
+  "schema": "willow-creek-character-motion-review-1",
+  "assetId": "chr_player_male_poc_001",
+  "version": "male-neutral-b01-v0.1",
+  "status": "NO-GO for current playable integration; technical skin/export/playback proof GO; owner review required",
+  "visualBase": "Approved A03, no A04 or visual identity edits",
+  "triangles": 29367,
+  "meshes": 10,
+  "materials": 9,
+  "skeleton": {
+    "joints": 52,
+    "type": "Data-only Snow derivative, ordinary LBS at most4 normalized influences",
+    "nativeSnowRigIncluded": false,
+    "facialAnimation": false,
+    "fingers": 30,
+    "HumanoidAvatarTested": false
+  },
+  "axes": {
+    "blender": "Z-up,-Y front",
+    "gltf": "Y-up,+Z front",
+    "unity": "Y-up,+Z front,glTFast handedness conversion"
+  },
+  "units": "meters",
+  "bindDimensionsUnityXYZ": [
+    1.7383146286010742,
+    1.7494053840637207,
+    0.30627286434173584
+  ],
+  "pivot": "Inherited A03 feet-centered root; skin bind unchanged",
+  "clips": [
+    {
+      "name": "idle",
+      "seconds": 2,
+      "fps": 24,
+      "loopCandidate": true
+    },
+    {
+      "name": "walk",
+      "seconds": 1,
+      "fps": 24,
+      "loopCandidate": true
+    },
+    {
+      "name": "run",
+      "seconds": 0.75,
+      "fps": 24,
+      "loopCandidate": true
+    },
+    {
+      "name": "turn",
+      "seconds": 1.5,
+      "fps": 24,
+      "loopCandidate": false
+    }
+  ],
+  "rootMotion": "No gameplay root-motion delivery. Idle/walk/run in-place. Turn changes visual skeleton yaw90deg, not a tested gameplay heading/controller transform. Do not double-apply yaw. Tiny runtime proof has applyRootMotion=false.",
+  "estimatedStanceSpeedsMps": {
+    "walk": 0.5517241379,
+    "run": 1.5333333333
+  },
+  "openGameplayDecisions": [
+    "Actual walk/run speed/retiming",
+    "Generic own clips versus separately tested Humanoid avatar",
+    "Controller yaw/turn handling and root-motion policy",
+    "Transitions/stops/ground contact and collision",
+    "Game lighting/material review"
+  ],
+  "blockingArtIssues": [
+    "Elbowvolume loss/sharpcrease",
+    "Bentknee pinching/seamstretch and angularwriststress",
+    "Turn stancefoot sliding up to.207m/s"
+  ],
+  "verified": [
+    "Blender source reopen and independent animatedGLBroundtrip",
+    "Unity skin/material/clip import/render/reopen",
+    "Actual four-state PlayMode Animator advance",
+    "Repeated identicalGLB bytes"
+  ],
+  "notVerified": [
+    "Humanoid retargeting",
+    "Game integration",
+    "Shippingbuild/performance",
+    "Clothes/bodyvariants",
+    "Facialkeys/blinks"
+  ],
+  "license": "CC-BY-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "credit": "Snow Rig (CC) Blender Foundation | studio.blender.org",
+  "glbSha256": "9a5c1976e06c0d059825715bc0b3eb23c572855452b30bddec0ea586e6266931",
+  "nextGate": "Owner review; recommend bounded jointweight/contact correction, no extensive rig rebuild or merge"
+}

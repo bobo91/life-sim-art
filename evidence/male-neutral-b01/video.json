@@ -1,0 +1,97 @@
+{
+  "schema": "male-b01-motion-video-1",
+  "encoder": "Blender 4.5.14 LTS VSE FFmpeg H264/MPEG4",
+  "path": "a03-b01-unity-motion.mp4",
+  "bytes": 414385,
+  "sha256": "e3b12203288f252f2bd849f1cb14ebf20f1bb69fac9daf96999900e6e18eeb87",
+  "fps": 24,
+  "frames": 126,
+  "durationSeconds": 5.25,
+  "reopenedFrames": 126,
+  "width": 768,
+  "height": 848,
+  "segments": [
+    {
+      "clip": "idle",
+      "firstFrame": 1,
+      "lastFrame": 48,
+      "frames": 48,
+      "fps": 24
+    },
+    {
+      "clip": "walk",
+      "firstFrame": 49,
+      "lastFrame": 72,
+      "frames": 24,
+      "fps": 24
+    },
+    {
+      "clip": "run",
+      "firstFrame": 73,
+      "lastFrame": 90,
+      "frames": 18,
+      "fps": 24
+    },
+    {
+      "clip": "turn",
+      "firstFrame": 91,
+      "lastFrame": 126,
+      "frames": 36,
+      "fps": 24
+    }
+  ],
+  "processing": "All actual Unity PNG frames, sequential clips at original fps, labels/credit, vertical canvas extension only. No image retouch, camera interpolation or synthesized frames.",
+  "audio": "none",
+  "license": "CC-BY-4.0 attributed Snow derivative; original procedural clip motions by Willow Creek",
+  "decodedFrameChecks": [
+    {
+      "clip": "idle",
+      "sourceFrameIndex": 12,
+      "decodedFrameSha256": "00e0b1cd880956dbc9c44034af3b22591edeb2d293746e2e967141b2bb1d5b10",
+      "nativeImageRegionMeanAbsolute8bitChannelError": 0.8427417896412037,
+      "nativeSourceCrop": [
+        0,
+        0,
+        768,
+        768
+      ]
+    },
+    {
+      "clip": "walk",
+      "sourceFrameIndex": 6,
+      "decodedFrameSha256": "16830338b7634ddd0337c5080044cb7aa9bc7b6374e8cdf77a15d1d8487946f8",
+      "nativeImageRegionMeanAbsolute8bitChannelError": 0.8449927435980902,
+      "nativeSourceCrop": [
+        0,
+        0,
+        768,
+        768
+      ]
+    },
+    {
+      "clip": "run",
+      "sourceFrameIndex": 4,
+      "decodedFrameSha256": "2600fb6952be669cf7c4aa393672a775677f797682847583c5fe08f5d6cc8542",
+      "nativeImageRegionMeanAbsolute8bitChannelError": 0.9036927399811922,
+      "nativeSourceCrop": [
+        0,
+        0,
+        768,
+        768
+      ]
+    },
+    {
+      "clip": "turn",
+      "sourceFrameIndex": 18,
+      "decodedFrameSha256": "fe35f8008a1508b9899b8ef0837f22ca8f15d6dbabe7658226680a9f56d5c580",
+      "nativeImageRegionMeanAbsolute8bitChannelError": 0.8338470458984375,
+      "nativeSourceCrop": [
+        0,
+        0,
+        768,
+        768
+      ]
+    }
+  ],
+  "decodedFrameCheckPassed": true
+}

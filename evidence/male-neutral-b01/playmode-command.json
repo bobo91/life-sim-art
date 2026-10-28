@@ -1,0 +1,29 @@
+{
+  "schema": "male-b01-playmode-command-1",
+  "recordedUtc": "2026-10-28T19:23:32.764900+00:00",
+  "command": [
+    "C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Unity.exe",
+    "-batchmode",
+    "-force-d3d11",
+    "-projectPath",
+    "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003",
+    "-logFile",
+    "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\unity-playmode.log",
+    "-executeMethod",
+    "MaleNeutralB01AnimationCheck.RunPlayMode",
+    "-b01Output",
+    "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\playmode-evidence",
+    "-b01Expected",
+    "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\expected.json"
+  ],
+  "checkerSha256": "dd2dfe029beaa6595d35586dcbafa97b44b632ebacb21c100ceb96d2a33789b3",
+  "sourceAndImportedGlbUnchanged": true,
+  "sourceGlbSha256": "9a5c1976e06c0d059825715bc0b3eb23c572855452b30bddec0ea586e6266931",
+  "reportSha256": "a3f97aaf45708221c598298701a56feb92c5f6026adea7ed92c991e5f51b2025",
+  "actualPlayMode": true,
+  "status": "passed-actual-playmode-animator-advance",
+  "captureCheckerSourceSnapshot": "capture-checker-source.cs",
+  "captureCheckerSha256": "8f7c15a4f3f2c0d128c2526401d1585b41da19248a22dd12fb30b4a4cf4a0e95",
+  "captureRunMethodUnchangedWhenPlayModeMethodAdded": true,
+  "backgroundEditorIssue": "Unity Search indexing emitted ArgumentOutOfRangeException on startup; isolated probe returned no test errors. No second full capture run."
+}

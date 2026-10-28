@@ -1,0 +1,29 @@
+{
+  "schema": "male-b01-execution-1",
+  "final": "build/male-neutral-b01/bind-005",
+  "scope": "One bounded data-only adapter; no manual corrective edits or full rig rebuild",
+  "technicalCorrections": [
+    "bind001 stopped on unmapped stale DEF vertex groups that have no matching deform bone; ignore only actual non-bone memberships",
+    "bind002 ancestor head correspondence failed because the source presentation lid/corner assignments were omitted; restored exact A01 source recipe",
+    "bind003 exported source Bezier versus sampled linear interpolation; run fractional poses differed by5.66mm; changed dense key interpolation to LINEAR inbind004",
+    "bind004 zero-time export default left1/24s leading offset; export_anim_slide_to_zero enabled in finalbind005",
+    "Unity001 initial shader checks ran before active renderpipeline; early captures cached old skin matrices. Final003 validates afterrender and forces skin matrixrefresh",
+    "Unity002 was deliberately stopped before import following export timing correction; no success claim"
+  ],
+  "finalChecks": [
+    "Actual source reopen+independent animatedGLB roundtrip,5posesperclip max4.414e-6m",
+    "Fresh repeat build identicalGLBbytes/skin+pose report",
+    "FinalUnity003 skin/material/clip/render/reopen PASS",
+    "SeparateactualUnityPlayModeAnimator smoke PASS",
+    "126actualUnityframes+video decoded verification",
+    "One bounded elbow/wrist/finger/knee stress render set",
+    "24fps sole-contact diagnostic on allsource keyframes"
+  ],
+  "unresolved": [
+    "Pronounced elbowvolume loss/crease, bentknee pinching and seamstretch, angularwrist/fingers",
+    "Turn stancefoot slides up to0.207m/s; no groundedpivotlocking",
+    "Walk/run speeds not matched to gameplay controller; Generic Humanoid retargeting/transitions untested",
+    "Facialanimation, clothingvariation and populationperformance notproven"
+  ],
+  "externalEditorWarning": "Unity Search startup indexing ArgumentOutOfRangeException duringPlayMode; probe errors empty. Retainwarning, do notclaim entireEditorlog errorfree."
+}

@@ -1,0 +1,42 @@
+{
+    "schema": "male-b01-actual-playmode-1",
+    "status": "passed-actual-playmode-animator-advance",
+    "actualPlayMode": true,
+    "gameIntegrationTested": false,
+    "humanoidTested": false,
+    "clips": [
+        {
+            "name": "idle",
+            "firstNormalizedTime": 0.04501662403345108,
+            "lastNormalizedTime": 0.6200308799743652,
+            "maxVertexMotionMeters": 0.00918502639979124,
+            "animatorInitialized": true,
+            "finite": true
+        },
+        {
+            "name": "run",
+            "firstNormalizedTime": 0.19932016730308534,
+            "lastNormalizedTime": 0.666001558303833,
+            "maxVertexMotionMeters": 0.42783722281455996,
+            "animatorInitialized": true,
+            "finite": true
+        },
+        {
+            "name": "turn",
+            "firstNormalizedTime": 0.09971146285533905,
+            "lastNormalizedTime": 0.6497423648834229,
+            "maxVertexMotionMeters": 0.26370933651924136,
+            "animatorInitialized": true,
+            "finite": true
+        },
+        {
+            "name": "walk",
+            "firstNormalizedTime": 0.1495055854320526,
+            "lastNormalizedTime": 0.6495145559310913,
+            "maxVertexMotionMeters": 0.2261914312839508,
+            "animatorInitialized": true,
+            "finite": true
+        }
+    ],
+    "errors": []
+}

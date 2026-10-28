@@ -1,0 +1,1138 @@
+{
+  "schema": "male-b01-foot-contact-diagnostic-1",
+  "method": "Sole bottom vertices by bind side, 24fps everykey. Contact candidate when min sole z<3mm. Inplace stance speed is expected; forward speed is recipe estimate, not gameplay integration proof. Turn uses no root translation and shows actual sliding.",
+  "clips": {
+    "idle": {
+      "sampledFrames": 49,
+      "lowSoleVertices": {
+        "L": 188,
+        "R": 188
+      },
+      "groundMinimumMeters": -5.299064014252508e-07,
+      "stanceSpeedMaxMps": 3.2540963432285126e-07,
+      "suggestedInPlaceRootSpeedMps": 0,
+      "maxResidualAtSuggestedSpeedMps": 3.254096343228513e-07,
+      "stanceSamples": [
+        {
+          "side": "L",
+          "time": 0.041666666666666664,
+          "planarFootSpeedMps": 1.882209750885929e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.8822097508859286e-07
+        },
+        {
+          "side": "R",
+          "time": 0.041666666666666664,
+          "planarFootSpeedMps": 2.38659700338017e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.38659700338017e-07
+        },
+        {
+          "side": "L",
+          "time": 0.08333333333333333,
+          "planarFootSpeedMps": 1.6212552915765802e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.6212552915765802e-07
+        },
+        {
+          "side": "R",
+          "time": 0.08333333333333333,
+          "planarFootSpeedMps": 1.8400024910399067e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.8400024910399067e-07
+        },
+        {
+          "side": "L",
+          "time": 0.125,
+          "planarFootSpeedMps": 2.774570846587934e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.7745708465879344e-07
+        },
+        {
+          "side": "R",
+          "time": 0.125,
+          "planarFootSpeedMps": 5.96907229384015e-08,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 5.96907229384015e-08
+        },
+        {
+          "side": "L",
+          "time": 0.16666666666666666,
+          "planarFootSpeedMps": 2.2971727755309755e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.2971727755309755e-07
+        },
+        {
+          "side": "R",
+          "time": 0.16666666666666666,
+          "planarFootSpeedMps": 1.3012200889027756e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.301220088902776e-07
+        },
+        {
+          "side": "L",
+          "time": 0.20833333333333334,
+          "planarFootSpeedMps": 2.817263228051723e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.817263228051723e-07
+        },
+        {
+          "side": "R",
+          "time": 0.20833333333333334,
+          "planarFootSpeedMps": 2.2748285616325925e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.2748285616325925e-07
+        },
+        {
+          "side": "L",
+          "time": 0.25,
+          "planarFootSpeedMps": 2.752377015244587e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.752377015244587e-07
+        },
+        {
+          "side": "R",
+          "time": 0.25,
+          "planarFootSpeedMps": 1.4383486384015895e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.4383486384015898e-07
+        },
+        {
+          "side": "L",
+          "time": 0.2916666666666667,
+          "planarFootSpeedMps": 1.6410386983043242e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.6410386983043242e-07
+        },
+        {
+          "side": "R",
+          "time": 0.2916666666666667,
+          "planarFootSpeedMps": 1.9754765382285384e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.975476538228538e-07
+        },
+        {
+          "side": "L",
+          "time": 0.3333333333333333,
+          "planarFootSpeedMps": 1.7287397329073265e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.7287397329073265e-07
+        },
+        {
+          "side": "R",
+          "time": 0.3333333333333333,
+          "planarFootSpeedMps": 2.940605317102657e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.9406053171026566e-07
+        },
+        {
+          "side": "L",
+          "time": 0.375,
+          "planarFootSpeedMps": 2.848391816746943e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.848391816746943e-07
+        },
+        {
+          "side": "R",
+          "time": 0.375,
+          "planarFootSpeedMps": 7.641290964450068e-08,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 7.641290964450067e-08
+        },
+        {
+          "side": "L",
+          "time": 0.4166666666666667,
+          "planarFootSpeedMps": 1.954452441025583e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.954452441025583e-07
+        },
+        {
+          "side": "R",
+          "time": 0.4166666666666667,
+          "planarFootSpeedMps": 1.9334851053542934e-08,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.9334851053542934e-08
+        },
+        {
+          "side": "L",
+          "time": 0.4583333333333333,
+          "planarFootSpeedMps": 2.9042346224106324e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.9042346224106324e-07
+        },
+        {
+          "side": "R",
+          "time": 0.4583333333333333,
+          "planarFootSpeedMps": 3.6410749415516364e-09,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 3.6410749415516364e-09
+        },
+        {
+          "side": "L",
+          "time": 0.5,
+          "planarFootSpeedMps": 2.160530844490507e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.1605308444905067e-07
+        },
+        {
+          "side": "R",
+          "time": 0.5,
+          "planarFootSpeedMps": 2.940006172259252e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.940006172259252e-07
+        },
+        {
+          "side": "L",
+          "time": 0.5416666666666666,
+          "planarFootSpeedMps": 2.160530844490507e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.1605308444905067e-07
+        },
+        {
+          "side": "R",
+          "time": 0.5416666666666666,
+          "planarFootSpeedMps": 2.940006172259252e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.940006172259252e-07
+        },
+        {
+          "side": "L",
+          "time": 0.5833333333333334,
+          "planarFootSpeedMps": 2.9042346224106324e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.9042346224106324e-07
+        },
+        {
+          "side": "R",
+          "time": 0.5833333333333334,
+          "planarFootSpeedMps": 3.6410749415516364e-09,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 3.6410749415516364e-09
+        },
+        {
+          "side": "L",
+          "time": 0.625,
+          "planarFootSpeedMps": 1.954452441025583e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.954452441025583e-07
+        },
+        {
+          "side": "R",
+          "time": 0.625,
+          "planarFootSpeedMps": 1.9334851053542934e-08,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.9334851053542934e-08
+        },
+        {
+          "side": "L",
+          "time": 0.6666666666666666,
+          "planarFootSpeedMps": 2.848391816746943e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.848391816746943e-07
+        },
+        {
+          "side": "R",
+          "time": 0.6666666666666666,
+          "planarFootSpeedMps": 7.641290964450068e-08,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 7.641290964450067e-08
+        },
+        {
+          "side": "L",
+          "time": 0.7083333333333334,
+          "planarFootSpeedMps": 1.7287397329073265e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.7287397329073265e-07
+        },
+        {
+          "side": "R",
+          "time": 0.7083333333333334,
+          "planarFootSpeedMps": 2.940605317102657e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.9406053171026566e-07
+        },
+        {
+          "side": "L",
+          "time": 0.75,
+          "planarFootSpeedMps": 1.6410386983043242e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.6410386983043242e-07
+        },
+        {
+          "side": "R",
+          "time": 0.75,
+          "planarFootSpeedMps": 1.9754765382285384e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.975476538228538e-07
+        },
+        {
+          "side": "L",
+          "time": 0.7916666666666666,
+          "planarFootSpeedMps": 2.752377015244587e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.752377015244587e-07
+        },
+        {
+          "side": "R",
+          "time": 0.7916666666666666,
+          "planarFootSpeedMps": 1.4383486384015895e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.4383486384015898e-07
+        },
+        {
+          "side": "L",
+          "time": 0.8333333333333334,
+          "planarFootSpeedMps": 2.817263228051723e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.817263228051723e-07
+        },
+        {
+          "side": "R",
+          "time": 0.8333333333333334,
+          "planarFootSpeedMps": 2.2748285616325925e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.2748285616325925e-07
+        },
+        {
+          "side": "L",
+          "time": 0.875,
+          "planarFootSpeedMps": 2.2971727755309755e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.2971727755309755e-07
+        },
+        {
+          "side": "R",
+          "time": 0.875,
+          "planarFootSpeedMps": 1.3012200889027756e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.301220088902776e-07
+        },
+        {
+          "side": "L",
+          "time": 0.9166666666666666,
+          "planarFootSpeedMps": 2.774570846587934e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.7745708465879344e-07
+        },
+        {
+          "side": "R",
+          "time": 0.9166666666666666,
+          "planarFootSpeedMps": 5.96907229384015e-08,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 5.96907229384015e-08
+        },
+        {
+          "side": "L",
+          "time": 0.9583333333333334,
+          "planarFootSpeedMps": 1.6212552915765802e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.6212552915765802e-07
+        },
+        {
+          "side": "R",
+          "time": 0.9583333333333334,
+          "planarFootSpeedMps": 1.8400024910399067e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.8400024910399067e-07
+        },
+        {
+          "side": "L",
+          "time": 1.0,
+          "planarFootSpeedMps": 1.882209750885929e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.8822097508859286e-07
+        },
+        {
+          "side": "R",
+          "time": 1.0,
+          "planarFootSpeedMps": 2.38659700338017e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.38659700338017e-07
+        },
+        {
+          "side": "L",
+          "time": 1.0416666666666667,
+          "planarFootSpeedMps": 2.0692071078513277e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.069207107851328e-07
+        },
+        {
+          "side": "R",
+          "time": 1.0416666666666667,
+          "planarFootSpeedMps": 1.2964784199685667e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.2964784199685667e-07
+        },
+        {
+          "side": "L",
+          "time": 1.0833333333333333,
+          "planarFootSpeedMps": 1.3771506455973656e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.3771506455973656e-07
+        },
+        {
+          "side": "R",
+          "time": 1.0833333333333333,
+          "planarFootSpeedMps": 2.1422392964213388e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.1422392964213388e-07
+        },
+        {
+          "side": "L",
+          "time": 1.125,
+          "planarFootSpeedMps": 2.312091845750557e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.312091845750557e-07
+        },
+        {
+          "side": "R",
+          "time": 1.125,
+          "planarFootSpeedMps": 1.2938916834060902e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.2938916834060904e-07
+        },
+        {
+          "side": "L",
+          "time": 1.1666666666666667,
+          "planarFootSpeedMps": 1.4668552186401893e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.4668552186401893e-07
+        },
+        {
+          "side": "R",
+          "time": 1.1666666666666667,
+          "planarFootSpeedMps": 3.1406272220254603e-08,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 3.140627222025461e-08
+        },
+        {
+          "side": "L",
+          "time": 1.2083333333333333,
+          "planarFootSpeedMps": 1.297469573973642e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.2974695739736423e-07
+        },
+        {
+          "side": "R",
+          "time": 1.2083333333333333,
+          "planarFootSpeedMps": 2.0321366327639953e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.0321366327639956e-07
+        },
+        {
+          "side": "L",
+          "time": 1.25,
+          "planarFootSpeedMps": 1.1636605668863515e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.1636605668863517e-07
+        },
+        {
+          "side": "R",
+          "time": 1.25,
+          "planarFootSpeedMps": 3.2540963432285126e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 3.254096343228513e-07
+        },
+        {
+          "side": "L",
+          "time": 1.2916666666666667,
+          "planarFootSpeedMps": 2.393224026916102e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.393224026916102e-07
+        },
+        {
+          "side": "R",
+          "time": 1.2916666666666667,
+          "planarFootSpeedMps": 2.6280813622738157e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.628081362273816e-07
+        },
+        {
+          "side": "L",
+          "time": 1.3333333333333333,
+          "planarFootSpeedMps": 6.803453637616298e-08,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 6.803453637616298e-08
+        },
+        {
+          "side": "R",
+          "time": 1.3333333333333333,
+          "planarFootSpeedMps": 8.302023389805236e-08,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 8.302023389805236e-08
+        },
+        {
+          "side": "L",
+          "time": 1.375,
+          "planarFootSpeedMps": 1.5083217747391008e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.5083217747391008e-07
+        },
+        {
+          "side": "R",
+          "time": 1.375,
+          "planarFootSpeedMps": 1.010584033123152e-09,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.010584033123152e-09
+        },
+        {
+          "side": "L",
+          "time": 1.4166666666666667,
+          "planarFootSpeedMps": 1.496124982557763e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.496124982557763e-07
+        },
+        {
+          "side": "R",
+          "time": 1.4166666666666667,
+          "planarFootSpeedMps": 1.8002641519588338e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.8002641519588338e-07
+        },
+        {
+          "side": "L",
+          "time": 1.4583333333333333,
+          "planarFootSpeedMps": 1.4959274033227198e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.4959274033227198e-07
+        },
+        {
+          "side": "R",
+          "time": 1.4583333333333333,
+          "planarFootSpeedMps": 8.376396318548218e-08,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 8.37639631854822e-08
+        },
+        {
+          "side": "L",
+          "time": 1.5,
+          "planarFootSpeedMps": 3.7302625814660436e-08,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 3.7302625814660436e-08
+        },
+        {
+          "side": "R",
+          "time": 1.5,
+          "planarFootSpeedMps": 1.1652332874701468e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.1652332874701466e-07
+        },
+        {
+          "side": "L",
+          "time": 1.5416666666666667,
+          "planarFootSpeedMps": 3.7302625814660436e-08,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 3.7302625814660436e-08
+        },
+        {
+          "side": "R",
+          "time": 1.5416666666666667,
+          "planarFootSpeedMps": 1.1652332874701468e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.1652332874701466e-07
+        },
+        {
+          "side": "L",
+          "time": 1.5833333333333333,
+          "planarFootSpeedMps": 1.4959274033227198e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.4959274033227198e-07
+        },
+        {
+          "side": "R",
+          "time": 1.5833333333333333,
+          "planarFootSpeedMps": 8.376396318548218e-08,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 8.37639631854822e-08
+        },
+        {
+          "side": "L",
+          "time": 1.625,
+          "planarFootSpeedMps": 1.496124982557763e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.496124982557763e-07
+        },
+        {
+          "side": "R",
+          "time": 1.625,
+          "planarFootSpeedMps": 1.8002641519588338e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.8002641519588338e-07
+        },
+        {
+          "side": "L",
+          "time": 1.6666666666666667,
+          "planarFootSpeedMps": 1.5083217747391008e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.5083217747391008e-07
+        },
+        {
+          "side": "R",
+          "time": 1.6666666666666667,
+          "planarFootSpeedMps": 1.010584033123152e-09,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.010584033123152e-09
+        },
+        {
+          "side": "L",
+          "time": 1.7083333333333333,
+          "planarFootSpeedMps": 6.803453637616298e-08,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 6.803453637616298e-08
+        },
+        {
+          "side": "R",
+          "time": 1.7083333333333333,
+          "planarFootSpeedMps": 8.302023389805236e-08,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 8.302023389805236e-08
+        },
+        {
+          "side": "L",
+          "time": 1.75,
+          "planarFootSpeedMps": 2.393224026916102e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.393224026916102e-07
+        },
+        {
+          "side": "R",
+          "time": 1.75,
+          "planarFootSpeedMps": 2.6280813622738157e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.628081362273816e-07
+        },
+        {
+          "side": "L",
+          "time": 1.7916666666666667,
+          "planarFootSpeedMps": 1.1636605668863515e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.1636605668863517e-07
+        },
+        {
+          "side": "R",
+          "time": 1.7916666666666667,
+          "planarFootSpeedMps": 3.2540963432285126e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 3.254096343228513e-07
+        },
+        {
+          "side": "L",
+          "time": 1.8333333333333333,
+          "planarFootSpeedMps": 1.297469573973642e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.2974695739736423e-07
+        },
+        {
+          "side": "R",
+          "time": 1.8333333333333333,
+          "planarFootSpeedMps": 2.0321366327639953e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.0321366327639956e-07
+        },
+        {
+          "side": "L",
+          "time": 1.875,
+          "planarFootSpeedMps": 1.4668552186401893e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.4668552186401893e-07
+        },
+        {
+          "side": "R",
+          "time": 1.875,
+          "planarFootSpeedMps": 3.1406272220254603e-08,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 3.140627222025461e-08
+        },
+        {
+          "side": "L",
+          "time": 1.9166666666666667,
+          "planarFootSpeedMps": 2.312091845750557e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.312091845750557e-07
+        },
+        {
+          "side": "R",
+          "time": 1.9166666666666667,
+          "planarFootSpeedMps": 1.2938916834060902e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.2938916834060904e-07
+        },
+        {
+          "side": "L",
+          "time": 1.9583333333333333,
+          "planarFootSpeedMps": 1.3771506455973656e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.3771506455973656e-07
+        },
+        {
+          "side": "R",
+          "time": 1.9583333333333333,
+          "planarFootSpeedMps": 2.1422392964213388e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.1422392964213388e-07
+        },
+        {
+          "side": "L",
+          "time": 2.0,
+          "planarFootSpeedMps": 2.0692071078513277e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.069207107851328e-07
+        },
+        {
+          "side": "R",
+          "time": 2.0,
+          "planarFootSpeedMps": 1.2964784199685667e-07,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.2964784199685667e-07
+        }
+      ]
+    },
+    "walk": {
+      "sampledFrames": 25,
+      "lowSoleVertices": {
+        "L": 188,
+        "R": 188
+      },
+      "groundMinimumMeters": -5.397490667746752e-07,
+      "stanceSpeedMaxMps": 0.5517245748259129,
+      "suggestedInPlaceRootSpeedMps": 0.5517241379310346,
+      "maxResidualAtSuggestedSpeedMps": 0.045331613333671424,
+      "stanceSamples": [
+        {
+          "side": "L",
+          "time": 0.041666666666666664,
+          "planarFootSpeedMps": 0.5517237211796151,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 4.890236630695032e-07
+        },
+        {
+          "side": "R",
+          "time": 0.041666666666666664,
+          "planarFootSpeedMps": 0.5517239037980564,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.6477739606215056e-07
+        },
+        {
+          "side": "L",
+          "time": 0.08333333333333333,
+          "planarFootSpeedMps": 0.5517243189697647,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.0254820509288846e-07
+        },
+        {
+          "side": "R",
+          "time": 0.08333333333333333,
+          "planarFootSpeedMps": 0.5063926596590926,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.045331478272078334
+        },
+        {
+          "side": "L",
+          "time": 0.125,
+          "planarFootSpeedMps": 0.5517241720189454,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 5.2695979555536896e-08
+        },
+        {
+          "side": "L",
+          "time": 0.16666666666666666,
+          "planarFootSpeedMps": 0.5517239294787968,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.763494785879912e-07
+        },
+        {
+          "side": "L",
+          "time": 0.20833333333333334,
+          "planarFootSpeedMps": 0.551724066442755,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 3.754350206326235e-07
+        },
+        {
+          "side": "L",
+          "time": 0.25,
+          "planarFootSpeedMps": 0.5517242257582433,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.1730106415268846e-07
+        },
+        {
+          "side": "L",
+          "time": 0.2916666666666667,
+          "planarFootSpeedMps": 0.5517243520812746,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.765657197584169e-07
+        },
+        {
+          "side": "L",
+          "time": 0.3333333333333333,
+          "planarFootSpeedMps": 0.5517241163179354,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 9.383231964596468e-08
+        },
+        {
+          "side": "L",
+          "time": 0.375,
+          "planarFootSpeedMps": 0.5517242198136388,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.4494915525086298e-07
+        },
+        {
+          "side": "L",
+          "time": 0.4166666666666667,
+          "planarFootSpeedMps": 0.551724297093612,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.3673674571294029e-07
+        },
+        {
+          "side": "L",
+          "time": 0.4583333333333333,
+          "planarFootSpeedMps": 0.5517237092903547,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 4.572073987206256e-07
+        },
+        {
+          "side": "L",
+          "time": 0.5,
+          "planarFootSpeedMps": 0.5517245605588418,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 4.78763077133934e-07
+        },
+        {
+          "side": "L",
+          "time": 0.5416666666666666,
+          "planarFootSpeedMps": 0.551723848156476,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.9649622364210174e-07
+        },
+        {
+          "side": "R",
+          "time": 0.5416666666666666,
+          "planarFootSpeedMps": 0.5517240293482523,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.1131068733384188e-07
+        },
+        {
+          "side": "L",
+          "time": 0.5833333333333334,
+          "planarFootSpeedMps": 0.5063925245975044,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.045331613333671424
+        },
+        {
+          "side": "R",
+          "time": 0.5833333333333334,
+          "planarFootSpeedMps": 0.5517244435688388,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 3.241428094171518e-07
+        },
+        {
+          "side": "R",
+          "time": 0.625,
+          "planarFootSpeedMps": 0.551723731642074,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 4.0630259859184556e-07
+        },
+        {
+          "side": "R",
+          "time": 0.6666666666666666,
+          "planarFootSpeedMps": 0.5517242129178839,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.2186672067018603e-07
+        },
+        {
+          "side": "R",
+          "time": 0.7083333333333334,
+          "planarFootSpeedMps": 0.5517241232731287,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 7.212711121507172e-08
+        },
+        {
+          "side": "R",
+          "time": 0.75,
+          "planarFootSpeedMps": 0.551724225996023,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 9.147127716008672e-08
+        },
+        {
+          "side": "R",
+          "time": 0.7916666666666666,
+          "planarFootSpeedMps": 0.5517243766027775,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.5079811560944946e-07
+        },
+        {
+          "side": "R",
+          "time": 0.8333333333333334,
+          "planarFootSpeedMps": 0.5517238548441931,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 3.396121692930965e-07
+        },
+        {
+          "side": "R",
+          "time": 0.875,
+          "planarFootSpeedMps": 0.5517242948346698,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.586976505819754e-07
+        },
+        {
+          "side": "R",
+          "time": 0.9166666666666666,
+          "planarFootSpeedMps": 0.5517239411302077,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.9859461676435284e-07
+        },
+        {
+          "side": "R",
+          "time": 0.9583333333333334,
+          "planarFootSpeedMps": 0.5517239546839245,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.8862106317861584e-07
+        },
+        {
+          "side": "R",
+          "time": 1.0,
+          "planarFootSpeedMps": 0.5517245748259129,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 4.934875035706716e-07
+        }
+      ]
+    },
+    "run": {
+      "sampledFrames": 19,
+      "lowSoleVertices": {
+        "L": 188,
+        "R": 188
+      },
+      "groundMinimumMeters": -5.637670028590946e-07,
+      "stanceSpeedMaxMps": 1.533334095110289,
+      "suggestedInPlaceRootSpeedMps": 1.5333333333333332,
+      "maxResidualAtSuggestedSpeedMps": 7.71670625501473e-07,
+      "stanceSamples": [
+        {
+          "side": "L",
+          "time": 0.041666666666666664,
+          "planarFootSpeedMps": 1.533333541548025,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 3.522725773069817e-07
+        },
+        {
+          "side": "L",
+          "time": 0.08333333333333333,
+          "planarFootSpeedMps": 1.5333330859529273,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.8628854140535403e-07
+        },
+        {
+          "side": "L",
+          "time": 0.125,
+          "planarFootSpeedMps": 1.5333333268286626,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 4.1569817876331264e-07
+        },
+        {
+          "side": "L",
+          "time": 0.16666666666666666,
+          "planarFootSpeedMps": 1.533333571746632,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 2.6064747216033257e-07
+        },
+        {
+          "side": "L",
+          "time": 0.20833333333333334,
+          "planarFootSpeedMps": 1.533333467834808,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.4258241500233275e-07
+        },
+        {
+          "side": "L",
+          "time": 0.25,
+          "planarFootSpeedMps": 1.5333333841346772,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.7653235464517176e-07
+        },
+        {
+          "side": "L",
+          "time": 0.2916666666666667,
+          "planarFootSpeedMps": 1.533334095110289,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 7.71670625501473e-07
+        },
+        {
+          "side": "R",
+          "time": 0.4166666666666667,
+          "planarFootSpeedMps": 1.5333330022528764,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 6.334221243035772e-07
+        },
+        {
+          "side": "R",
+          "time": 0.4583333333333333,
+          "planarFootSpeedMps": 1.5333332690469803,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.283113661348063e-07
+        },
+        {
+          "side": "R",
+          "time": 0.5,
+          "planarFootSpeedMps": 1.5333336782740803,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 3.522397611743665e-07
+        },
+        {
+          "side": "R",
+          "time": 0.5416666666666666,
+          "planarFootSpeedMps": 1.5333332917553952,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 5.5561979728157393e-08
+        },
+        {
+          "side": "R",
+          "time": 0.5833333333333334,
+          "planarFootSpeedMps": 1.5333336460542806,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 3.13773629244109e-07
+        },
+        {
+          "side": "R",
+          "time": 0.625,
+          "planarFootSpeedMps": 1.5333334697370835,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 1.364244744940532e-07
+        },
+        {
+          "side": "R",
+          "time": 0.6666666666666666,
+          "planarFootSpeedMps": 1.5333330003505206,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 3.9416066917687744e-07
+        }
+      ]
+    },
+    "turn": {
+      "sampledFrames": 37,
+      "lowSoleVertices": {
+        "L": 188,
+        "R": 188
+      },
+      "groundMinimumMeters": -5.295838150232157e-07,
+      "stanceSpeedMaxMps": 0.206781245301003,
+      "suggestedInPlaceRootSpeedMps": 0,
+      "maxResidualAtSuggestedSpeedMps": 0.206781245301003,
+      "stanceSamples": [
+        {
+          "side": "L",
+          "time": 0.041666666666666664,
+          "planarFootSpeedMps": 0.08743794960249215,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.08743794960249215
+        },
+        {
+          "side": "R",
+          "time": 0.041666666666666664,
+          "planarFootSpeedMps": 0.07362021292915427,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.07362021292915429
+        },
+        {
+          "side": "L",
+          "time": 0.08333333333333333,
+          "planarFootSpeedMps": 0.10125164275006157,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.10125164275006156
+        },
+        {
+          "side": "R",
+          "time": 0.08333333333333333,
+          "planarFootSpeedMps": 0.06053259871429699,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.06053259871429699
+        },
+        {
+          "side": "L",
+          "time": 0.125,
+          "planarFootSpeedMps": 0.11440295562162003,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.11440295562162002
+        },
+        {
+          "side": "R",
+          "time": 0.125,
+          "planarFootSpeedMps": 0.0387017508325566,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.0387017508325566
+        },
+        {
+          "side": "L",
+          "time": 0.16666666666666666,
+          "planarFootSpeedMps": 0.12666685841764985,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.12666685841764985
+        },
+        {
+          "side": "L",
+          "time": 0.20833333333333334,
+          "planarFootSpeedMps": 0.13795888770151882,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.13795888770151882
+        },
+        {
+          "side": "L",
+          "time": 0.25,
+          "planarFootSpeedMps": 0.14825992182511474,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.14825992182511474
+        },
+        {
+          "side": "L",
+          "time": 0.2916666666666667,
+          "planarFootSpeedMps": 0.15758498220977454,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.15758498220977454
+        },
+        {
+          "side": "L",
+          "time": 0.3333333333333333,
+          "planarFootSpeedMps": 0.16596766472395916,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.16596766472395916
+        },
+        {
+          "side": "L",
+          "time": 0.375,
+          "planarFootSpeedMps": 0.17344531672874383,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.17344531672874383
+        },
+        {
+          "side": "L",
+          "time": 0.4166666666666667,
+          "planarFootSpeedMps": 0.18006525155573866,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.18006525155573866
+        },
+        {
+          "side": "L",
+          "time": 0.4583333333333333,
+          "planarFootSpeedMps": 0.18586949312729528,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.18586949312729525
+        },
+        {
+          "side": "L",
+          "time": 0.5,
+          "planarFootSpeedMps": 0.19089806757534517,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.19089806757534517
+        },
+        {
+          "side": "L",
+          "time": 0.5416666666666666,
+          "planarFootSpeedMps": 0.19518878761253966,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.19518878761253966
+        },
+        {
+          "side": "L",
+          "time": 0.5833333333333334,
+          "planarFootSpeedMps": 0.19877321766821668,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.19877321766821665
+        },
+        {
+          "side": "L",
+          "time": 0.625,
+          "planarFootSpeedMps": 0.20167829455199024,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.2016782945519902
+        },
+        {
+          "side": "L",
+          "time": 0.6666666666666666,
+          "planarFootSpeedMps": 0.2039207932437251,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.20392079324372508
+        },
+        {
+          "side": "L",
+          "time": 0.7083333333333334,
+          "planarFootSpeedMps": 0.20551729376986833,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.20551729376986833
+        },
+        {
+          "side": "L",
+          "time": 0.75,
+          "planarFootSpeedMps": 0.20647069490067915,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.20647069490067915
+        },
+        {
+          "side": "L",
+          "time": 0.7916666666666666,
+          "planarFootSpeedMps": 0.206781245301003,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.206781245301003
+        },
+        {
+          "side": "R",
+          "time": 0.7916666666666666,
+          "planarFootSpeedMps": 0.0910413266338458,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.0910413266338458
+        },
+        {
+          "side": "L",
+          "time": 0.8333333333333334,
+          "planarFootSpeedMps": 0.2064395397294297,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.2064395397294297
+        },
+        {
+          "side": "R",
+          "time": 0.8333333333333334,
+          "planarFootSpeedMps": 0.08571407047987846,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.08571407047987846
+        },
+        {
+          "side": "L",
+          "time": 0.875,
+          "planarFootSpeedMps": 0.19555576249127002,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.19555576249127005
+        },
+        {
+          "side": "R",
+          "time": 0.875,
+          "planarFootSpeedMps": 0.07973037156283469,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.07973037156283468
+        },
+        {
+          "side": "R",
+          "time": 0.9166666666666666,
+          "planarFootSpeedMps": 0.07314521720533794,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.07314521720533794
+        },
+        {
+          "side": "R",
+          "time": 0.9583333333333334,
+          "planarFootSpeedMps": 0.06602097384031556,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.06602097384031556
+        },
+        {
+          "side": "R",
+          "time": 1.0,
+          "planarFootSpeedMps": 0.05841322468854738,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.05841322468854738
+        },
+        {
+          "side": "R",
+          "time": 1.0416666666666667,
+          "planarFootSpeedMps": 0.05039109631946248,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.050391096319462474
+        },
+        {
+          "side": "R",
+          "time": 1.0833333333333333,
+          "planarFootSpeedMps": 0.042041827176313704,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.042041827176313704
+        },
+        {
+          "side": "R",
+          "time": 1.125,
+          "planarFootSpeedMps": 0.03350717552855094,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.03350717552855094
+        },
+        {
+          "side": "R",
+          "time": 1.1666666666666667,
+          "planarFootSpeedMps": 0.025095311612476034,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.025095311612476037
+        },
+        {
+          "side": "R",
+          "time": 1.2083333333333333,
+          "planarFootSpeedMps": 0.017695420754352566,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.017695420754352566
+        },
+        {
+          "side": "R",
+          "time": 1.25,
+          "planarFootSpeedMps": 0.014057274469918314,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.014057274469918314
+        },
+        {
+          "side": "R",
+          "time": 1.2916666666666667,
+          "planarFootSpeedMps": 0.017584263274036113,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.017584263274036113
+        },
+        {
+          "side": "R",
+          "time": 1.3333333333333333,
+          "planarFootSpeedMps": 0.026001438264431208,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.02600143826443121
+        },
+        {
+          "side": "R",
+          "time": 1.375,
+          "planarFootSpeedMps": 0.03646921615734126,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.03646921615734125
+        },
+        {
+          "side": "R",
+          "time": 1.4166666666666667,
+          "planarFootSpeedMps": 0.048043295958414306,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.0480432959584143
+        },
+        {
+          "side": "R",
+          "time": 1.4583333333333333,
+          "planarFootSpeedMps": 0.060447019173829455,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.06044701917382945
+        },
+        {
+          "side": "R",
+          "time": 1.5,
+          "planarFootSpeedMps": 0.07361754319257947,
+          "residualIfRootTranslatedForwardAtSuggestedSpeedMps": 0.07361754319257947
+        }
+      ]
+    }
+  }
+}
