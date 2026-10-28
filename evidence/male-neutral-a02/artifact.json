@@ -8,7 +8,10 @@
   "releaseUrl": "https://github.com/bobo91/life-sim-art/releases/tag/male-neutral-a02-v0.2",
   "zipAndInternalHashesPassed": true,
   "internalFiles": 86,
-  "downloadVerified": false,
+  "downloadVerified": true,
   "modelSha256": "8af805722524a38435c9dce4154e1792842bba5696d4ea8ff52be072b4fcceae",
-  "reviewOnly": true
+  "reviewOnly": true,
+  "verifiedUtc": "2026-10-28T14:15:30.255948+00:00",
+  "downloadedInternalFilesVerified": 86,
+  "downloadedModelBytesIdenticalToValidatedSource": true
 }
