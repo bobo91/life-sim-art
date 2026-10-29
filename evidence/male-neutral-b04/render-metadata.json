@@ -1,0 +1,2001 @@
+{
+  "schema": "male-b04-mandatory-visual-gate-1",
+  "candidateCount": 1,
+  "sourceHashes": {
+    "B02": "8300f581fa4e5a7f012d70ae9aadd0d7ca9eb99214b5a8699a1f65f0a9c8e96c",
+    "B03": "d3cd674e377e7c205cf08cd432559e333ce6a3179ddaae60f3541556513ad23a",
+    "B04": "194eaa54d52c3b0cb8be764b5d192dacf57f52913c6e990a4f6694edc0b81253"
+  },
+  "poses": {
+    "B02": {
+      "idle": {
+        "elbowAngles": {
+          "L": {
+            "angleDegrees": 26.40025240691359,
+            "neutralAngleDegrees": 8.738894189873756,
+            "bendDegrees": 17.661358217039837
+          },
+          "R": {
+            "angleDegrees": 26.40026536792056,
+            "neutralAngleDegrees": 8.738894453285612,
+            "bendDegrees": 17.66137091463495
+          }
+        },
+        "B03Weights": null
+      },
+      "walk": {
+        "elbowAngles": {
+          "L": {
+            "angleDegrees": 26.33810798687178,
+            "neutralAngleDegrees": 8.738894189873756,
+            "bendDegrees": 17.599213796998026
+          },
+          "R": {
+            "angleDegrees": 26.456624708058854,
+            "neutralAngleDegrees": 8.738894453285612,
+            "bendDegrees": 17.717730254773244
+          }
+        },
+        "B03Weights": null
+      },
+      "run25": {
+        "elbowAngles": {
+          "L": {
+            "angleDegrees": 72.20725831503196,
+            "neutralAngleDegrees": 8.738894189873756,
+            "bendDegrees": 63.46836412515821
+          },
+          "R": {
+            "angleDegrees": 72.69296361745018,
+            "neutralAngleDegrees": 8.738894453285612,
+            "bendDegrees": 63.95406916416456
+          }
+        },
+        "B03Weights": null
+      },
+      "flex45": {
+        "elbowAngles": {
+          "L": {
+            "angleDegrees": 45.00001577144713,
+            "neutralAngleDegrees": 8.738894189873756,
+            "bendDegrees": 36.261121581573384
+          },
+          "R": {
+            "angleDegrees": 45.0000000750118,
+            "neutralAngleDegrees": 8.738894453285612,
+            "bendDegrees": 36.26110562172619
+          }
+        },
+        "B03Weights": null
+      },
+      "flex90": {
+        "elbowAngles": {
+          "L": {
+            "angleDegrees": 90.00001558136904,
+            "neutralAngleDegrees": 8.738894189873756,
+            "bendDegrees": 81.2611213914953
+          },
+          "R": {
+            "angleDegrees": 90.00002294516675,
+            "neutralAngleDegrees": 8.738894453285612,
+            "bendDegrees": 81.26112849188114
+          }
+        },
+        "B03Weights": null
+      },
+      "flex120": {
+        "elbowAngles": {
+          "L": {
+            "angleDegrees": 120.00000573027008,
+            "neutralAngleDegrees": 8.738894189873756,
+            "bendDegrees": 111.26111154039631
+          },
+          "R": {
+            "angleDegrees": 120.00001269285677,
+            "neutralAngleDegrees": 8.738894453285612,
+            "bendDegrees": 111.26111823957116
+          }
+        },
+        "B03Weights": null
+      }
+    },
+    "B03": {
+      "idle": {
+        "elbowAngles": {
+          "L": {
+            "angleDegrees": 26.40025240691359,
+            "neutralAngleDegrees": 8.738894189873756,
+            "bendDegrees": 17.661358217039837
+          },
+          "R": {
+            "angleDegrees": 26.40026536792056,
+            "neutralAngleDegrees": 8.738894453285612,
+            "bendDegrees": 17.66137091463495
+          }
+        },
+        "B03Weights": {
+          "L": {
+            "weight": 0.033636174956718216,
+            "angleDegrees": 26.40025240691359,
+            "neutralAngleDegrees": 8.738894189873756,
+            "bendDegrees": 17.661358217039837
+          },
+          "R": {
+            "weight": 0.03303475267219505,
+            "angleDegrees": 26.40026536792056,
+            "neutralAngleDegrees": 8.738894453285612,
+            "bendDegrees": 17.66137091463495
+          }
+        }
+      },
+      "walk": {
+        "elbowAngles": {
+          "L": {
+            "angleDegrees": 26.33810798687178,
+            "neutralAngleDegrees": 8.738894189873756,
+            "bendDegrees": 17.599213796998026
+          },
+          "R": {
+            "angleDegrees": 26.456624708058854,
+            "neutralAngleDegrees": 8.738894453285612,
+            "bendDegrees": 17.717730254773244
+          }
+        },
+        "B03Weights": {
+          "L": {
+            "weight": 0.03293036320060406,
+            "angleDegrees": 26.33810798687178,
+            "neutralAngleDegrees": 8.738894189873756,
+            "bendDegrees": 17.599213796998026
+          },
+          "R": {
+            "weight": 0.0336694754990705,
+            "angleDegrees": 26.456624708058854,
+            "neutralAngleDegrees": 8.738894453285612,
+            "bendDegrees": 17.717730254773244
+          }
+        }
+      },
+      "run25": {
+        "elbowAngles": {
+          "L": {
+            "angleDegrees": 72.20725831503196,
+            "neutralAngleDegrees": 8.738894189873756,
+            "bendDegrees": 63.46836412515821
+          },
+          "R": {
+            "angleDegrees": 72.69296361745018,
+            "neutralAngleDegrees": 8.738894453285612,
+            "bendDegrees": 63.95406916416456
+          }
+        },
+        "B03Weights": {
+          "L": {
+            "weight": 1.0,
+            "angleDegrees": 72.20725831503196,
+            "neutralAngleDegrees": 8.738894189873756,
+            "bendDegrees": 63.46836412515821
+          },
+          "R": {
+            "weight": 1.0,
+            "angleDegrees": 72.69296361745018,
+            "neutralAngleDegrees": 8.738894453285612,
+            "bendDegrees": 63.95406916416456
+          }
+        }
+      },
+      "flex45": {
+        "elbowAngles": {
+          "L": {
+            "angleDegrees": 45.00001577144713,
+            "neutralAngleDegrees": 8.738894189873756,
+            "bendDegrees": 36.261121581573384
+          },
+          "R": {
+            "angleDegrees": 45.0000000750118,
+            "neutralAngleDegrees": 8.738894453285612,
+            "bendDegrees": 36.26110562172619
+          }
+        },
+        "B03Weights": {
+          "L": {
+            "weight": 0.45711608211738,
+            "angleDegrees": 45.00001577144713,
+            "neutralAngleDegrees": 8.738894189873756,
+            "bendDegrees": 36.261121581573384
+          },
+          "R": {
+            "weight": 0.4505304296273146,
+            "angleDegrees": 45.0000000750118,
+            "neutralAngleDegrees": 8.738894453285612,
+            "bendDegrees": 36.26110562172619
+          }
+        }
+      },
+      "flex90": {
+        "elbowAngles": {
+          "L": {
+            "angleDegrees": 90.00001558136904,
+            "neutralAngleDegrees": 8.738894189873756,
+            "bendDegrees": 81.2611213914953
+          },
+          "R": {
+            "angleDegrees": 90.00002294516675,
+            "neutralAngleDegrees": 8.738894453285612,
+            "bendDegrees": 81.26112849188114
+          }
+        },
+        "B03Weights": {
+          "L": {
+            "weight": 1.0,
+            "angleDegrees": 90.00001558136904,
+            "neutralAngleDegrees": 8.738894189873756,
+            "bendDegrees": 81.2611213914953
+          },
+          "R": {
+            "weight": 1.0,
+            "angleDegrees": 90.00002294516675,
+            "neutralAngleDegrees": 8.738894453285612,
+            "bendDegrees": 81.26112849188114
+          }
+        }
+      },
+      "flex120": {
+        "elbowAngles": {
+          "L": {
+            "angleDegrees": 120.00000573027008,
+            "neutralAngleDegrees": 8.738894189873756,
+            "bendDegrees": 111.26111154039631
+          },
+          "R": {
+            "angleDegrees": 120.00001269285677,
+            "neutralAngleDegrees": 8.738894453285612,
+            "bendDegrees": 111.26111823957116
+          }
+        },
+        "B03Weights": {
+          "L": {
+            "weight": 1.0,
+            "angleDegrees": 120.00000573027008,
+            "neutralAngleDegrees": 8.738894189873756,
+            "bendDegrees": 111.26111154039631
+          },
+          "R": {
+            "weight": 1.0,
+            "angleDegrees": 120.00001269285677,
+            "neutralAngleDegrees": 8.738894453285612,
+            "bendDegrees": 111.26111823957116
+          }
+        }
+      }
+    },
+    "B04": {
+      "idle": {
+        "elbowAngles": {
+          "L": {
+            "angleDegrees": 26.40025240691359,
+            "neutralAngleDegrees": 8.738894189873756,
+            "bendDegrees": 17.661358217039837
+          },
+          "R": {
+            "angleDegrees": 26.40026536792056,
+            "neutralAngleDegrees": 8.738894453285612,
+            "bendDegrees": 17.66137091463495
+          }
+        },
+        "B03Weights": null
+      },
+      "walk": {
+        "elbowAngles": {
+          "L": {
+            "angleDegrees": 26.33810798687178,
+            "neutralAngleDegrees": 8.738894189873756,
+            "bendDegrees": 17.599213796998026
+          },
+          "R": {
+            "angleDegrees": 26.456624708058854,
+            "neutralAngleDegrees": 8.738894453285612,
+            "bendDegrees": 17.717730254773244
+          }
+        },
+        "B03Weights": null
+      },
+      "run25": {
+        "elbowAngles": {
+          "L": {
+            "angleDegrees": 72.20725831503196,
+            "neutralAngleDegrees": 8.738894189873756,
+            "bendDegrees": 63.46836412515821
+          },
+          "R": {
+            "angleDegrees": 72.69296361745018,
+            "neutralAngleDegrees": 8.738894453285612,
+            "bendDegrees": 63.95406916416456
+          }
+        },
+        "B03Weights": null
+      },
+      "flex45": {
+        "elbowAngles": {
+          "L": {
+            "angleDegrees": 45.00001577144713,
+            "neutralAngleDegrees": 8.738894189873756,
+            "bendDegrees": 36.261121581573384
+          },
+          "R": {
+            "angleDegrees": 45.0000000750118,
+            "neutralAngleDegrees": 8.738894453285612,
+            "bendDegrees": 36.26110562172619
+          }
+        },
+        "B03Weights": null
+      },
+      "flex90": {
+        "elbowAngles": {
+          "L": {
+            "angleDegrees": 90.00001558136904,
+            "neutralAngleDegrees": 8.738894189873756,
+            "bendDegrees": 81.2611213914953
+          },
+          "R": {
+            "angleDegrees": 90.00002294516675,
+            "neutralAngleDegrees": 8.738894453285612,
+            "bendDegrees": 81.26112849188114
+          }
+        },
+        "B03Weights": null
+      },
+      "flex120": {
+        "elbowAngles": {
+          "L": {
+            "angleDegrees": 120.00000573027008,
+            "neutralAngleDegrees": 8.738894189873756,
+            "bendDegrees": 111.26111154039631
+          },
+          "R": {
+            "angleDegrees": 120.00001269285677,
+            "neutralAngleDegrees": 8.738894453285612,
+            "bendDegrees": 111.26111823957116
+          }
+        },
+        "B03Weights": null
+      }
+    }
+  },
+  "views": [
+    {
+      "version": "B02",
+      "pose": "idle",
+      "side": "L",
+      "angle": "front",
+      "file": "B02/idle_L_front.png",
+      "focus": [
+        0.22552995383739471,
+        0.07908640056848526,
+        1.0614163875579834
+      ],
+      "camera": [
+        0.7755299806594849,
+        -0.920913577079773,
+        1.3114163875579834
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B02",
+      "pose": "idle",
+      "side": "L",
+      "angle": "outer",
+      "file": "B02/idle_L_outer.png",
+      "focus": [
+        0.22552995383739471,
+        0.07908640056848526,
+        1.0614163875579834
+      ],
+      "camera": [
+        1.2255299091339111,
+        0.2790864109992981,
+        1.2414164543151855
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B02",
+      "pose": "idle",
+      "side": "R",
+      "angle": "front",
+      "file": "B02/idle_R_front.png",
+      "focus": [
+        -0.22552910447120667,
+        0.07908637821674347,
+        1.061416506767273
+      ],
+      "camera": [
+        -0.775529146194458,
+        -0.9209136366844177,
+        1.311416506767273
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B02",
+      "pose": "idle",
+      "side": "R",
+      "angle": "outer",
+      "file": "B02/idle_R_outer.png",
+      "focus": [
+        -0.22552910447120667,
+        0.07908637821674347,
+        1.061416506767273
+      ],
+      "camera": [
+        -1.2255290746688843,
+        0.2790863811969757,
+        1.2414164543151855
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B02",
+      "pose": "walk",
+      "side": "L",
+      "angle": "front",
+      "file": "B02/walk_L_front.png",
+      "focus": [
+        0.22775927186012268,
+        0.12772035598754883,
+        1.0698373317718506
+      ],
+      "camera": [
+        0.777759313583374,
+        -0.8722796440124512,
+        1.3198373317718506
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B02",
+      "pose": "walk",
+      "side": "L",
+      "angle": "outer",
+      "file": "B02/walk_L_outer.png",
+      "focus": [
+        0.22775927186012268,
+        0.12772035598754883,
+        1.0698373317718506
+      ],
+      "camera": [
+        1.2277592420578003,
+        0.3277203440666199,
+        1.2498373985290527
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B02",
+      "pose": "walk",
+      "side": "R",
+      "angle": "front",
+      "file": "B02/walk_R_front.png",
+      "focus": [
+        -0.2232273370027542,
+        0.021807242184877396,
+        1.0529797077178955
+      ],
+      "camera": [
+        -0.773227334022522,
+        -0.9781927466392517,
+        1.3029797077178955
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B02",
+      "pose": "walk",
+      "side": "R",
+      "angle": "outer",
+      "file": "B02/walk_R_outer.png",
+      "focus": [
+        -0.2232273370027542,
+        0.021807242184877396,
+        1.0529797077178955
+      ],
+      "camera": [
+        -1.2232273817062378,
+        0.22180724143981934,
+        1.2329797744750977
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B02",
+      "pose": "run25",
+      "side": "L",
+      "angle": "front",
+      "file": "B02/run25_L_front.png",
+      "focus": [
+        0.22848156094551086,
+        0.1702246069908142,
+        1.0706596374511719
+      ],
+      "camera": [
+        0.7784816026687622,
+        -0.8297753930091858,
+        1.3206596374511719
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B02",
+      "pose": "run25",
+      "side": "L",
+      "angle": "outer",
+      "file": "B02/run25_L_outer.png",
+      "focus": [
+        0.22848156094551086,
+        0.1702246069908142,
+        1.0706596374511719
+      ],
+      "camera": [
+        1.2284815311431885,
+        0.37022459506988525,
+        1.250659704208374
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B02",
+      "pose": "run25",
+      "side": "R",
+      "angle": "front",
+      "file": "B02/run25_R_front.png",
+      "focus": [
+        -0.22410736978054047,
+        -0.0388273261487484,
+        1.0448737144470215
+      ],
+      "camera": [
+        -0.7741073966026306,
+        -1.0388273000717163,
+        1.2948737144470215
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B02",
+      "pose": "run25",
+      "side": "R",
+      "angle": "outer",
+      "file": "B02/run25_R_outer.png",
+      "focus": [
+        -0.22410736978054047,
+        -0.0388273261487484,
+        1.0448737144470215
+      ],
+      "camera": [
+        -1.2241073846817017,
+        0.16117267310619354,
+        1.2248737812042236
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B02",
+      "pose": "flex45",
+      "side": "L",
+      "angle": "front",
+      "file": "B02/flex45_L_front.png",
+      "focus": [
+        0.22848154604434967,
+        0.17022447288036346,
+        1.0706596374511719
+      ],
+      "camera": [
+        0.7784815430641174,
+        -0.8297755122184753,
+        1.3206596374511719
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B02",
+      "pose": "flex45",
+      "side": "L",
+      "angle": "outer",
+      "file": "B02/flex45_L_outer.png",
+      "focus": [
+        0.22848154604434967,
+        0.17022447288036346,
+        1.0706596374511719
+      ],
+      "camera": [
+        1.2284815311431885,
+        0.3702244758605957,
+        1.250659704208374
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B02",
+      "pose": "flex45",
+      "side": "R",
+      "angle": "front",
+      "file": "B02/flex45_R_front.png",
+      "focus": [
+        -0.22410736978054047,
+        -0.0388273261487484,
+        1.0448737144470215
+      ],
+      "camera": [
+        -0.7741073966026306,
+        -1.0388273000717163,
+        1.2948737144470215
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B02",
+      "pose": "flex45",
+      "side": "R",
+      "angle": "outer",
+      "file": "B02/flex45_R_outer.png",
+      "focus": [
+        -0.22410736978054047,
+        -0.0388273261487484,
+        1.0448737144470215
+      ],
+      "camera": [
+        -1.2241073846817017,
+        0.16117267310619354,
+        1.2248737812042236
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B02",
+      "pose": "flex90",
+      "side": "L",
+      "angle": "front",
+      "file": "B02/flex90_L_front.png",
+      "focus": [
+        0.22848153114318848,
+        0.17022453248500824,
+        1.0706597566604614
+      ],
+      "camera": [
+        0.7784815430641174,
+        -0.8297754526138306,
+        1.3206597566604614
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B02",
+      "pose": "flex90",
+      "side": "L",
+      "angle": "outer",
+      "file": "B02/flex90_L_outer.png",
+      "focus": [
+        0.22848153114318848,
+        0.17022453248500824,
+        1.0706597566604614
+      ],
+      "camera": [
+        1.2284815311431885,
+        0.3702245354652405,
+        1.250659704208374
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B02",
+      "pose": "flex90",
+      "side": "R",
+      "angle": "front",
+      "file": "B02/flex90_R_front.png",
+      "focus": [
+        -0.22410739958286285,
+        -0.03882746398448944,
+        1.044873595237732
+      ],
+      "camera": [
+        -0.7741073966026306,
+        -1.0388274192810059,
+        1.294873595237732
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B02",
+      "pose": "flex90",
+      "side": "R",
+      "angle": "outer",
+      "file": "B02/flex90_R_outer.png",
+      "focus": [
+        -0.22410739958286285,
+        -0.03882746398448944,
+        1.044873595237732
+      ],
+      "camera": [
+        -1.2241073846817017,
+        0.1611725389957428,
+        1.2248735427856445
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B02",
+      "pose": "flex120",
+      "side": "L",
+      "angle": "front",
+      "file": "B02/flex120_L_front.png",
+      "focus": [
+        0.22848153114318848,
+        0.17022453248500824,
+        1.0706597566604614
+      ],
+      "camera": [
+        0.7784815430641174,
+        -0.8297754526138306,
+        1.3206597566604614
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B02",
+      "pose": "flex120",
+      "side": "L",
+      "angle": "outer",
+      "file": "B02/flex120_L_outer.png",
+      "focus": [
+        0.22848153114318848,
+        0.17022453248500824,
+        1.0706597566604614
+      ],
+      "camera": [
+        1.2284815311431885,
+        0.3702245354652405,
+        1.250659704208374
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B02",
+      "pose": "flex120",
+      "side": "R",
+      "angle": "front",
+      "file": "B02/flex120_R_front.png",
+      "focus": [
+        -0.22410733997821808,
+        -0.038827408105134964,
+        1.044873595237732
+      ],
+      "camera": [
+        -0.7741073369979858,
+        -1.0388274192810059,
+        1.294873595237732
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B02",
+      "pose": "flex120",
+      "side": "R",
+      "angle": "outer",
+      "file": "B02/flex120_R_outer.png",
+      "focus": [
+        -0.22410733997821808,
+        -0.038827408105134964,
+        1.044873595237732
+      ],
+      "camera": [
+        -1.2241073846817017,
+        0.16117259860038757,
+        1.2248735427856445
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B02",
+      "pose": "run25",
+      "file": "B02/game16m.png",
+      "cameraType": "perspective",
+      "distanceMeters": 15.999999523162835,
+      "elevationDegrees": 50,
+      "azimuthDegrees": 35,
+      "verticalFovDegrees": 40,
+      "resolution": [
+        1280,
+        720
+      ],
+      "actualGameWorld": false
+    },
+    {
+      "version": "B03",
+      "pose": "idle",
+      "side": "L",
+      "angle": "front",
+      "file": "B03/idle_L_front.png",
+      "focus": [
+        0.22552995383739471,
+        0.07908640056848526,
+        1.0614163875579834
+      ],
+      "camera": [
+        0.7755299806594849,
+        -0.920913577079773,
+        1.3114163875579834
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B03",
+      "pose": "idle",
+      "side": "L",
+      "angle": "outer",
+      "file": "B03/idle_L_outer.png",
+      "focus": [
+        0.22552995383739471,
+        0.07908640056848526,
+        1.0614163875579834
+      ],
+      "camera": [
+        1.2255299091339111,
+        0.2790864109992981,
+        1.2414164543151855
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B03",
+      "pose": "idle",
+      "side": "R",
+      "angle": "front",
+      "file": "B03/idle_R_front.png",
+      "focus": [
+        -0.22552910447120667,
+        0.07908637821674347,
+        1.061416506767273
+      ],
+      "camera": [
+        -0.775529146194458,
+        -0.9209136366844177,
+        1.311416506767273
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B03",
+      "pose": "idle",
+      "side": "R",
+      "angle": "outer",
+      "file": "B03/idle_R_outer.png",
+      "focus": [
+        -0.22552910447120667,
+        0.07908637821674347,
+        1.061416506767273
+      ],
+      "camera": [
+        -1.2255290746688843,
+        0.2790863811969757,
+        1.2414164543151855
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B03",
+      "pose": "walk",
+      "side": "L",
+      "angle": "front",
+      "file": "B03/walk_L_front.png",
+      "focus": [
+        0.22775927186012268,
+        0.12772035598754883,
+        1.0698373317718506
+      ],
+      "camera": [
+        0.777759313583374,
+        -0.8722796440124512,
+        1.3198373317718506
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B03",
+      "pose": "walk",
+      "side": "L",
+      "angle": "outer",
+      "file": "B03/walk_L_outer.png",
+      "focus": [
+        0.22775927186012268,
+        0.12772035598754883,
+        1.0698373317718506
+      ],
+      "camera": [
+        1.2277592420578003,
+        0.3277203440666199,
+        1.2498373985290527
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B03",
+      "pose": "walk",
+      "side": "R",
+      "angle": "front",
+      "file": "B03/walk_R_front.png",
+      "focus": [
+        -0.2232273370027542,
+        0.021807242184877396,
+        1.0529797077178955
+      ],
+      "camera": [
+        -0.773227334022522,
+        -0.9781927466392517,
+        1.3029797077178955
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B03",
+      "pose": "walk",
+      "side": "R",
+      "angle": "outer",
+      "file": "B03/walk_R_outer.png",
+      "focus": [
+        -0.2232273370027542,
+        0.021807242184877396,
+        1.0529797077178955
+      ],
+      "camera": [
+        -1.2232273817062378,
+        0.22180724143981934,
+        1.2329797744750977
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B03",
+      "pose": "run25",
+      "side": "L",
+      "angle": "front",
+      "file": "B03/run25_L_front.png",
+      "focus": [
+        0.22848156094551086,
+        0.1702246069908142,
+        1.0706596374511719
+      ],
+      "camera": [
+        0.7784816026687622,
+        -0.8297753930091858,
+        1.3206596374511719
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B03",
+      "pose": "run25",
+      "side": "L",
+      "angle": "outer",
+      "file": "B03/run25_L_outer.png",
+      "focus": [
+        0.22848156094551086,
+        0.1702246069908142,
+        1.0706596374511719
+      ],
+      "camera": [
+        1.2284815311431885,
+        0.37022459506988525,
+        1.250659704208374
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B03",
+      "pose": "run25",
+      "side": "R",
+      "angle": "front",
+      "file": "B03/run25_R_front.png",
+      "focus": [
+        -0.22410736978054047,
+        -0.0388273261487484,
+        1.0448737144470215
+      ],
+      "camera": [
+        -0.7741073966026306,
+        -1.0388273000717163,
+        1.2948737144470215
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B03",
+      "pose": "run25",
+      "side": "R",
+      "angle": "outer",
+      "file": "B03/run25_R_outer.png",
+      "focus": [
+        -0.22410736978054047,
+        -0.0388273261487484,
+        1.0448737144470215
+      ],
+      "camera": [
+        -1.2241073846817017,
+        0.16117267310619354,
+        1.2248737812042236
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B03",
+      "pose": "flex45",
+      "side": "L",
+      "angle": "front",
+      "file": "B03/flex45_L_front.png",
+      "focus": [
+        0.22848154604434967,
+        0.17022447288036346,
+        1.0706596374511719
+      ],
+      "camera": [
+        0.7784815430641174,
+        -0.8297755122184753,
+        1.3206596374511719
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B03",
+      "pose": "flex45",
+      "side": "L",
+      "angle": "outer",
+      "file": "B03/flex45_L_outer.png",
+      "focus": [
+        0.22848154604434967,
+        0.17022447288036346,
+        1.0706596374511719
+      ],
+      "camera": [
+        1.2284815311431885,
+        0.3702244758605957,
+        1.250659704208374
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B03",
+      "pose": "flex45",
+      "side": "R",
+      "angle": "front",
+      "file": "B03/flex45_R_front.png",
+      "focus": [
+        -0.22410736978054047,
+        -0.0388273261487484,
+        1.0448737144470215
+      ],
+      "camera": [
+        -0.7741073966026306,
+        -1.0388273000717163,
+        1.2948737144470215
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B03",
+      "pose": "flex45",
+      "side": "R",
+      "angle": "outer",
+      "file": "B03/flex45_R_outer.png",
+      "focus": [
+        -0.22410736978054047,
+        -0.0388273261487484,
+        1.0448737144470215
+      ],
+      "camera": [
+        -1.2241073846817017,
+        0.16117267310619354,
+        1.2248737812042236
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B03",
+      "pose": "flex90",
+      "side": "L",
+      "angle": "front",
+      "file": "B03/flex90_L_front.png",
+      "focus": [
+        0.22848153114318848,
+        0.17022453248500824,
+        1.0706597566604614
+      ],
+      "camera": [
+        0.7784815430641174,
+        -0.8297754526138306,
+        1.3206597566604614
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B03",
+      "pose": "flex90",
+      "side": "L",
+      "angle": "outer",
+      "file": "B03/flex90_L_outer.png",
+      "focus": [
+        0.22848153114318848,
+        0.17022453248500824,
+        1.0706597566604614
+      ],
+      "camera": [
+        1.2284815311431885,
+        0.3702245354652405,
+        1.250659704208374
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B03",
+      "pose": "flex90",
+      "side": "R",
+      "angle": "front",
+      "file": "B03/flex90_R_front.png",
+      "focus": [
+        -0.22410739958286285,
+        -0.03882746398448944,
+        1.044873595237732
+      ],
+      "camera": [
+        -0.7741073966026306,
+        -1.0388274192810059,
+        1.294873595237732
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B03",
+      "pose": "flex90",
+      "side": "R",
+      "angle": "outer",
+      "file": "B03/flex90_R_outer.png",
+      "focus": [
+        -0.22410739958286285,
+        -0.03882746398448944,
+        1.044873595237732
+      ],
+      "camera": [
+        -1.2241073846817017,
+        0.1611725389957428,
+        1.2248735427856445
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B03",
+      "pose": "flex120",
+      "side": "L",
+      "angle": "front",
+      "file": "B03/flex120_L_front.png",
+      "focus": [
+        0.22848153114318848,
+        0.17022453248500824,
+        1.0706597566604614
+      ],
+      "camera": [
+        0.7784815430641174,
+        -0.8297754526138306,
+        1.3206597566604614
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B03",
+      "pose": "flex120",
+      "side": "L",
+      "angle": "outer",
+      "file": "B03/flex120_L_outer.png",
+      "focus": [
+        0.22848153114318848,
+        0.17022453248500824,
+        1.0706597566604614
+      ],
+      "camera": [
+        1.2284815311431885,
+        0.3702245354652405,
+        1.250659704208374
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B03",
+      "pose": "flex120",
+      "side": "R",
+      "angle": "front",
+      "file": "B03/flex120_R_front.png",
+      "focus": [
+        -0.22410733997821808,
+        -0.038827408105134964,
+        1.044873595237732
+      ],
+      "camera": [
+        -0.7741073369979858,
+        -1.0388274192810059,
+        1.294873595237732
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B03",
+      "pose": "flex120",
+      "side": "R",
+      "angle": "outer",
+      "file": "B03/flex120_R_outer.png",
+      "focus": [
+        -0.22410733997821808,
+        -0.038827408105134964,
+        1.044873595237732
+      ],
+      "camera": [
+        -1.2241073846817017,
+        0.16117259860038757,
+        1.2248735427856445
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B03",
+      "pose": "run25",
+      "file": "B03/game16m.png",
+      "cameraType": "perspective",
+      "distanceMeters": 15.999999523162835,
+      "elevationDegrees": 50,
+      "azimuthDegrees": 35,
+      "verticalFovDegrees": 40,
+      "resolution": [
+        1280,
+        720
+      ],
+      "actualGameWorld": false
+    },
+    {
+      "version": "B04",
+      "pose": "idle",
+      "side": "L",
+      "angle": "front",
+      "file": "B04/idle_L_front.png",
+      "focus": [
+        0.22552995383739471,
+        0.07908640056848526,
+        1.0614163875579834
+      ],
+      "camera": [
+        0.7755299806594849,
+        -0.920913577079773,
+        1.3114163875579834
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B04",
+      "pose": "idle",
+      "side": "L",
+      "angle": "outer",
+      "file": "B04/idle_L_outer.png",
+      "focus": [
+        0.22552995383739471,
+        0.07908640056848526,
+        1.0614163875579834
+      ],
+      "camera": [
+        1.2255299091339111,
+        0.2790864109992981,
+        1.2414164543151855
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B04",
+      "pose": "idle",
+      "side": "R",
+      "angle": "front",
+      "file": "B04/idle_R_front.png",
+      "focus": [
+        -0.22552910447120667,
+        0.07908637821674347,
+        1.061416506767273
+      ],
+      "camera": [
+        -0.775529146194458,
+        -0.9209136366844177,
+        1.311416506767273
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B04",
+      "pose": "idle",
+      "side": "R",
+      "angle": "outer",
+      "file": "B04/idle_R_outer.png",
+      "focus": [
+        -0.22552910447120667,
+        0.07908637821674347,
+        1.061416506767273
+      ],
+      "camera": [
+        -1.2255290746688843,
+        0.2790863811969757,
+        1.2414164543151855
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B04",
+      "pose": "walk",
+      "side": "L",
+      "angle": "front",
+      "file": "B04/walk_L_front.png",
+      "focus": [
+        0.22775927186012268,
+        0.12772035598754883,
+        1.0698373317718506
+      ],
+      "camera": [
+        0.777759313583374,
+        -0.8722796440124512,
+        1.3198373317718506
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B04",
+      "pose": "walk",
+      "side": "L",
+      "angle": "outer",
+      "file": "B04/walk_L_outer.png",
+      "focus": [
+        0.22775927186012268,
+        0.12772035598754883,
+        1.0698373317718506
+      ],
+      "camera": [
+        1.2277592420578003,
+        0.3277203440666199,
+        1.2498373985290527
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B04",
+      "pose": "walk",
+      "side": "R",
+      "angle": "front",
+      "file": "B04/walk_R_front.png",
+      "focus": [
+        -0.2232273370027542,
+        0.021807242184877396,
+        1.0529797077178955
+      ],
+      "camera": [
+        -0.773227334022522,
+        -0.9781927466392517,
+        1.3029797077178955
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B04",
+      "pose": "walk",
+      "side": "R",
+      "angle": "outer",
+      "file": "B04/walk_R_outer.png",
+      "focus": [
+        -0.2232273370027542,
+        0.021807242184877396,
+        1.0529797077178955
+      ],
+      "camera": [
+        -1.2232273817062378,
+        0.22180724143981934,
+        1.2329797744750977
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B04",
+      "pose": "run25",
+      "side": "L",
+      "angle": "front",
+      "file": "B04/run25_L_front.png",
+      "focus": [
+        0.22848156094551086,
+        0.1702246069908142,
+        1.0706596374511719
+      ],
+      "camera": [
+        0.7784816026687622,
+        -0.8297753930091858,
+        1.3206596374511719
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B04",
+      "pose": "run25",
+      "side": "L",
+      "angle": "outer",
+      "file": "B04/run25_L_outer.png",
+      "focus": [
+        0.22848156094551086,
+        0.1702246069908142,
+        1.0706596374511719
+      ],
+      "camera": [
+        1.2284815311431885,
+        0.37022459506988525,
+        1.250659704208374
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B04",
+      "pose": "run25",
+      "side": "R",
+      "angle": "front",
+      "file": "B04/run25_R_front.png",
+      "focus": [
+        -0.22410736978054047,
+        -0.0388273261487484,
+        1.0448737144470215
+      ],
+      "camera": [
+        -0.7741073966026306,
+        -1.0388273000717163,
+        1.2948737144470215
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B04",
+      "pose": "run25",
+      "side": "R",
+      "angle": "outer",
+      "file": "B04/run25_R_outer.png",
+      "focus": [
+        -0.22410736978054047,
+        -0.0388273261487484,
+        1.0448737144470215
+      ],
+      "camera": [
+        -1.2241073846817017,
+        0.16117267310619354,
+        1.2248737812042236
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B04",
+      "pose": "flex45",
+      "side": "L",
+      "angle": "front",
+      "file": "B04/flex45_L_front.png",
+      "focus": [
+        0.22848154604434967,
+        0.17022447288036346,
+        1.0706596374511719
+      ],
+      "camera": [
+        0.7784815430641174,
+        -0.8297755122184753,
+        1.3206596374511719
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B04",
+      "pose": "flex45",
+      "side": "L",
+      "angle": "outer",
+      "file": "B04/flex45_L_outer.png",
+      "focus": [
+        0.22848154604434967,
+        0.17022447288036346,
+        1.0706596374511719
+      ],
+      "camera": [
+        1.2284815311431885,
+        0.3702244758605957,
+        1.250659704208374
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B04",
+      "pose": "flex45",
+      "side": "R",
+      "angle": "front",
+      "file": "B04/flex45_R_front.png",
+      "focus": [
+        -0.22410736978054047,
+        -0.0388273261487484,
+        1.0448737144470215
+      ],
+      "camera": [
+        -0.7741073966026306,
+        -1.0388273000717163,
+        1.2948737144470215
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B04",
+      "pose": "flex45",
+      "side": "R",
+      "angle": "outer",
+      "file": "B04/flex45_R_outer.png",
+      "focus": [
+        -0.22410736978054047,
+        -0.0388273261487484,
+        1.0448737144470215
+      ],
+      "camera": [
+        -1.2241073846817017,
+        0.16117267310619354,
+        1.2248737812042236
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B04",
+      "pose": "flex90",
+      "side": "L",
+      "angle": "front",
+      "file": "B04/flex90_L_front.png",
+      "focus": [
+        0.22848153114318848,
+        0.17022453248500824,
+        1.0706597566604614
+      ],
+      "camera": [
+        0.7784815430641174,
+        -0.8297754526138306,
+        1.3206597566604614
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B04",
+      "pose": "flex90",
+      "side": "L",
+      "angle": "outer",
+      "file": "B04/flex90_L_outer.png",
+      "focus": [
+        0.22848153114318848,
+        0.17022453248500824,
+        1.0706597566604614
+      ],
+      "camera": [
+        1.2284815311431885,
+        0.3702245354652405,
+        1.250659704208374
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B04",
+      "pose": "flex90",
+      "side": "R",
+      "angle": "front",
+      "file": "B04/flex90_R_front.png",
+      "focus": [
+        -0.22410739958286285,
+        -0.03882746398448944,
+        1.044873595237732
+      ],
+      "camera": [
+        -0.7741073966026306,
+        -1.0388274192810059,
+        1.294873595237732
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B04",
+      "pose": "flex90",
+      "side": "R",
+      "angle": "outer",
+      "file": "B04/flex90_R_outer.png",
+      "focus": [
+        -0.22410739958286285,
+        -0.03882746398448944,
+        1.044873595237732
+      ],
+      "camera": [
+        -1.2241073846817017,
+        0.1611725389957428,
+        1.2248735427856445
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B04",
+      "pose": "flex120",
+      "side": "L",
+      "angle": "front",
+      "file": "B04/flex120_L_front.png",
+      "focus": [
+        0.22848153114318848,
+        0.17022453248500824,
+        1.0706597566604614
+      ],
+      "camera": [
+        0.7784815430641174,
+        -0.8297754526138306,
+        1.3206597566604614
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B04",
+      "pose": "flex120",
+      "side": "L",
+      "angle": "outer",
+      "file": "B04/flex120_L_outer.png",
+      "focus": [
+        0.22848153114318848,
+        0.17022453248500824,
+        1.0706597566604614
+      ],
+      "camera": [
+        1.2284815311431885,
+        0.3702245354652405,
+        1.250659704208374
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B04",
+      "pose": "flex120",
+      "side": "R",
+      "angle": "front",
+      "file": "B04/flex120_R_front.png",
+      "focus": [
+        -0.22410733997821808,
+        -0.038827408105134964,
+        1.044873595237732
+      ],
+      "camera": [
+        -0.7741073369979858,
+        -1.0388274192810059,
+        1.294873595237732
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B04",
+      "pose": "flex120",
+      "side": "R",
+      "angle": "outer",
+      "file": "B04/flex120_R_outer.png",
+      "focus": [
+        -0.22410733997821808,
+        -0.038827408105134964,
+        1.044873595237732
+      ],
+      "camera": [
+        -1.2241073846817017,
+        0.16117259860038757,
+        1.2248735427856445
+      ],
+      "orthoScale": 0.31,
+      "resolution": [
+        640,
+        640
+      ]
+    },
+    {
+      "version": "B04",
+      "pose": "run25",
+      "file": "B04/game16m.png",
+      "cameraType": "perspective",
+      "distanceMeters": 15.999999523162835,
+      "elevationDegrees": 50,
+      "azimuthDegrees": 35,
+      "verticalFovDegrees": 40,
+      "resolution": [
+        1280,
+        720
+      ],
+      "actualGameWorld": false
+    }
+  ],
+  "render": "ActualCPU Cycles12samples,sameA03stageworld/lights,commonB02derivedposes/cameratargets, noimage/pose retouch",
+  "idleNote": "Actualexistingidleframe13, notsilentlystraightened; measuredanglesincluded. Animationdataunchanged.",
+  "angleNote": "Physicaldirection45/90/120intheactualrunhingeplane, upperarmfixed; B03activationevaluatedfromitsoriginalrecipe",
+  "gameCamera": "50pitch/16m/40verticalFOV/azimuth35artproxy; notgameproject",
+  "exportOrUnityRun": false
+}

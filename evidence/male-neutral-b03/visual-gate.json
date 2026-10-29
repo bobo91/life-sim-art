@@ -1,0 +1,16 @@
+{
+  "schema": "male-b03-visual-gate-1",
+  "selectedEvidence": "shape-probe-002 (corrected diagnostic plane)",
+  "verdict": "NO-GO",
+  "run25": {
+    "L": "Smallupper-inner protrusion appears; originalnotch/outercorner not consistently resolved",
+    "R": "Some rounding, but residualfaceting/contourcorner remains"
+  },
+  "physical90": {
+    "L": "Innernotch and flat/chamferedoutline persist, not naturalroundelbow",
+    "R": "Some rounding but broadfacetedoutline remains"
+  },
+  "nearStraight10": "Both correctedimages decodedpixel-identical to B02; weightsreturn0",
+  "nextGate": "NoGLB/Unitytest; localtopologyproposal only, notperformed",
+  "scope": "One corrective candidate, no second recipe orparameter sweep"
+}

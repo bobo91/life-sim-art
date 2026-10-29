@@ -1,0 +1,26 @@
+{
+  "experiment": "MALE-NEUTRAL-A01",
+  "authorizationDate": "2026-10-28",
+  "ownerReply": "k\u00f6r p\u00e5",
+  "context": "Owner replied after concrete Snow v4 six-hour Phase A source/policy proposal and explicit statement that no import had yet occurred.",
+  "approvedSource": "Blender Studio Snow v4",
+  "sourceUrl": "https://studio.blender.org/characters/snow/v4/",
+  "phase": "A only",
+  "budgetExternalCurrency": "SEK",
+  "budgetExternal": 0,
+  "maxActiveHours": 6,
+  "conservativeMaxWallHours": 6,
+  "startedUtc": "2026-10-28T08:37:48.434682+00:00",
+  "formPassesMax": 1,
+  "targetedCorrectionsMax": 1,
+  "existingRig": "source inspection/static extraction only; no rig development or animations",
+  "unapproved": [
+    "purchases",
+    "vendor contact",
+    "other source meshes",
+    "paid generation/API",
+    "game repository changes",
+    "Phase B",
+    "automatic merge"
+  ]
+}

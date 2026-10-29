@@ -1,0 +1,16 @@
+{
+  "schema": "male-b02-authorization-1",
+  "date": "2026-10-29",
+  "scope": "Owner-authorized bounded B02 local joint weights/support joints and turn contact pass, same four clips, actual URP/PlayMode evidence",
+  "visualIdentity": "A03 unchanged, 29367 triangles starting point; noA04",
+  "historyPreserved": [
+    "A01",
+    "A02",
+    "A03",
+    "B01"
+  ],
+  "gameChanges": false,
+  "merge": false,
+  "phaseC": false,
+  "sourceB01BlendSha256": "a9fb4a469aeec6cf9b82cfb580bafe8d658055c29b8b297925983fda380e126e"
+}

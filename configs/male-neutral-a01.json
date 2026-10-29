@@ -1,0 +1,77 @@
+{
+  "schema": "male-neutral-a01-recipe-1",
+  "assetId": "chr_player_male_poc_001",
+  "sourceBlendSha256": "80fd0a81bca90f0efdcdcb98422df0e198ae57f4a1c239e13fb795922779b1fc",
+  "seed": 28102026,
+  "heightMeters": 1.75,
+  "phase": "A",
+  "formPass": 1,
+  "correctionPass": 1,
+  "pose": "source T-rest pose; no new rig or animation",
+  "existingArtistCorrectives": {
+    "Smile.L": 0.12,
+    "Smile.R": 0.12
+  },
+  "upperLidWorldOffsetZ": -0.006,
+  "browInnerRaiseMeters": 0.001,
+  "hair": {
+    "removeSourceComponents": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "frontCrownScaleZ": 0.88,
+    "sweepMetersX": 0.012,
+    "baseColorLinear": [
+      0.012,
+      0.005,
+      0.0025
+    ],
+    "roughness": 0.78,
+    "specularIorLevel": 0.12
+  },
+  "surfaceSubdivision": 0,
+  "materials": {
+    "shirtBaseColorLinear": [
+      0.045,
+      0.09,
+      0.06
+    ],
+    "shirtRoughness": 0.82,
+    "pantsTint": [
+      0.7,
+      0.82,
+      0.91
+    ],
+    "skinRoughness": 0.56,
+    "skinSubsurfaceWeight": 0.0,
+    "eyeRoughness": 0.22,
+    "shirtSpecularIorLevel": 0.18
+  },
+  "render": {
+    "engine": "CYCLES",
+    "device": "CPU",
+    "samples": 32,
+    "denoise": true,
+    "threads": 6,
+    "viewTransform": "AgX",
+    "exposure": 0,
+    "fullResolution": [
+      1100,
+      1100
+    ],
+    "faceResolution": [
+      1100,
+      1100
+    ],
+    "gameResolution": [
+      1280,
+      720
+    ],
+    "lightPowerMultiplier": 0.55
+  },
+  "mouthCornerWorldOffsetZ": 0.0025
+}

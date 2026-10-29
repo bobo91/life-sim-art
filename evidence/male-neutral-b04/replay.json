@@ -1,0 +1,29 @@
+{
+  "schema": "male-b04-memory-replay-1",
+  "status": "PASS",
+  "sameRecipeSameConfigInMemoryOnly": true,
+  "savedOrExported": false,
+  "sourceHashesBefore": {
+    "B02": "8300f581fa4e5a7f012d70ae9aadd0d7ca9eb99214b5a8699a1f65f0a9c8e96c",
+    "B04": "194eaa54d52c3b0cb8be764b5d192dacf57f52913c6e990a4f6694edc0b81253",
+    "A03high": "e5b4ef5ad0bdde5b2197a0741339841e7e8b1976121c6ac2e25271dded0cb898"
+  },
+  "sourceHashesAfter": {
+    "B02": "8300f581fa4e5a7f012d70ae9aadd0d7ca9eb99214b5a8699a1f65f0a9c8e96c",
+    "B04": "194eaa54d52c3b0cb8be764b5d192dacf57f52913c6e990a4f6694edc0b81253",
+    "A03high": "e5b4ef5ad0bdde5b2197a0741339841e7e8b1976121c6ac2e25271dded0cb898"
+  },
+  "sourceFilesUnchanged": true,
+  "rawMeshDataIncludingIndexOrderExactlyEqual": true,
+  "canonicalCoordinatesWeightsOrientedTrianglesUvMaterialsExactlyEqual": true,
+  "frozenRawSha256": "143ca95fa386533ad0385ab7636ff82f67939e226493864a598a1f088f7af8d8",
+  "replayRawSha256": "143ca95fa386533ad0385ab7636ff82f67939e226493864a598a1f088f7af8d8",
+  "frozenCanonicalSha256": "d26b1149fd3f903563c0a0cabab469296a4808fa9bb44bdcff8c827ae8500368",
+  "replayCanonicalSha256": "d26b1149fd3f903563c0a0cabab469296a4808fa9bb44bdcff8c827ae8500368",
+  "verticesAdded": 378,
+  "trianglesAdded": 756,
+  "uvInterpolationMaxError": 1.2013700229374393e-07,
+  "generatorSha256": "e8c99fda6acd3912b8371e0f090d2d7961dedd20842a9c13b08bb5aaf1ca3229",
+  "configSha256": "63a6b605d14e5abaa0d08e7909f0eedeff13cce76a5babe06586f872bccd157c",
+  "limits": "Reproduction of the one frozen rejected candidate, not a new candidate or correction. Local visual defects remain NO-GO. In-memory read-only replay permits derived-data changes only in disposable Blender memory."
+}

@@ -1,0 +1,6 @@
+{
+  "sameGlbBytes": true,
+  "sameSkinWeightPoseAndGeometryReport": true,
+  "glbSha256": "9a5c1976e06c0d059825715bc0b3eb23c572855452b30bddec0ea586e6266931",
+  "notClaimed": "Blend container bytes and a repeated full Unity image sweep were not compared."
+}

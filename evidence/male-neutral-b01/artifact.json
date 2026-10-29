@@ -1,0 +1,20 @@
+{
+  "schema": "male-b01-artifact-1",
+  "tag": "male-neutral-b01-v0.1",
+  "file": "male-neutral-b01-v0.1-review.zip",
+  "bytes": 99251607,
+  "sha256": "cbdf863964b10c7da0c980292713536b4800e32337add55b5515e8836bbb38d5",
+  "modelSha256": "9a5c1976e06c0d059825715bc0b3eb23c572855452b30bddec0ea586e6266931",
+  "downloadUrl": "https://github.com/bobo91/life-sim-art/releases/download/male-neutral-b01-v0.1/male-neutral-b01-v0.1-review.zip",
+  "releaseUrl": "https://github.com/bobo91/life-sim-art/releases/tag/male-neutral-b01-v0.1",
+  "internalFiles": 204,
+  "zipAndInternalHashesPassed": true,
+  "downloadVerified": true,
+  "reviewOnly": true,
+  "integrationGo": false,
+  "videoUrl": "https://github.com/bobo91/life-sim-art/releases/download/male-neutral-b01-v0.1/a03-b01-unity-motion.mp4",
+  "downloadVerifiedUtc": "2026-10-28T19:32:15.931209+00:00",
+  "downloadInternalFileChecks": 204,
+  "downloadedModelBlendAndVideoMatchFinal": true,
+  "videoDownloadVerified": true
+}

@@ -1,0 +1,75 @@
+{
+  "schema": "willow-creek-character-static-review-1",
+  "status": "Phase A review only; not a game-ready or Humanoid asset",
+  "assetId": "chr_player_male_poc_001",
+  "source": "Blender Studio Snow v4, CC-BY-4.0 attributed derivative",
+  "units": "meters",
+  "blenderDimensionsXYZ": [
+    1.7383147478103638,
+    0.30627286434173584,
+    1.75
+  ],
+  "unityDimensionsXYZ": [
+    1.7383146286010742,
+    1.750000238418579,
+    0.30627286434173584
+  ],
+  "heightMeters": 1.75,
+  "pivot": "Root identity at bottom center of asset bounds; Y=0 feet in Unity. T-pose width includes arms.",
+  "axes": {
+    "blender": "Z up, -Y front",
+    "glTF": "Y up, +Z front",
+    "unity": "Y up, +Z front; glTFast mirrors X for handedness"
+  },
+  "orientationValidation": "Derived from source front renders and glTF axis conversion; no asymmetric semantic-front landmark asserted in Unity checker (frontPoint empty).",
+  "files": [
+    "chr_player_male_poc_001.glb",
+    "character.blend",
+    "textures/",
+    "manifest.json"
+  ],
+  "glbSha256": "502dd8c2552ed480a72d4387a5e06e7c1cf2491bf39bbdbbe0a4ee3c0e4836bb",
+  "triangles": 42077,
+  "meshCount": 10,
+  "materials": {
+    "count": 9,
+    "textures": 13,
+    "maxTextureEdge": 2048,
+    "model": "glTF metallic/roughness, source normal maps strength 0.5; baked linear skin/pants tint multipliers",
+    "unityDifference": "glTFast 6.20 ignores optional KHR_materials_specular on hair/shirt; Blender AgX/area lights versus isolated Unity hard key/linear output cause visible gloss and tone differences."
+  },
+  "rig": null,
+  "animations": [],
+  "shapeKeysDelivered": false,
+  "pose": "Static source T-pose",
+  "unityTest": {
+    "editor": "6000.5.8f1",
+    "URP": "17.5.0",
+    "glTFast": "6.20.0",
+    "graphics": "Direct3D11",
+    "staticImportAndReopenPassed": true,
+    "imageRendered": true,
+    "gameIntegrationTested": false,
+    "HumanoidAvatarTested": false,
+    "requiredBuiltinTextureModules": [
+      "com.unity.modules.imageconversion",
+      "com.unity.modules.unitywebrequesttexture"
+    ],
+    "recommendation": "Import GLB through glTFast after URP/Linear setup; verify expected 10 meshes, 9 materials, 13 embedded images and no error diagnostics. Keep source vertex colors absent. Review lighting and material gloss before any shipping approval."
+  },
+  "collision": "None delivered. Probe box is an unapproved T-pose bounds envelope, not a character controller. Claude owns gameplay collision decisions.",
+  "budget": "42,077 triangles exceeds historical proposed 16k adult target; 9 materials/10 meshes and no LOD/culling/skinning measurements. Not certified for 20-50 NPC.",
+  "gameCameraProxy": {
+    "distanceMeters": 16,
+    "elevationDegrees": 50,
+    "verticalFovDegrees": 40,
+    "resolution": [
+      1280,
+      720
+    ],
+    "actualGameCameraVerified": false
+  },
+  "licenseCredit": "Snow Rig (CC) Blender Foundation | studio.blender.org",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "nextGate": "Owner visual approval; no Phase B or game integration authorized"
+}

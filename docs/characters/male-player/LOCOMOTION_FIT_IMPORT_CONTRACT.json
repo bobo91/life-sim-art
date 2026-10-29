@@ -1,0 +1,1750 @@
+{
+  "schema": "willow-creek-locomotion-fit-review-1",
+  "assetId": "chr_player_male_poc_001",
+  "version": "male-locomotion-fit-v0.1",
+  "status": "Technical GO for steady4m/s loop fit; NO-GO for unqualified gameplay integration or clean transition/pivot contact; owner visual approval required",
+  "integrationApproved": false,
+  "base": {
+    "release": "male-neutral-b02-v0.2",
+    "blendSha256": "8300f581fa4e5a7f012d70ae9aadd0d7ca9eb99214b5a8699a1f65f0a9c8e96c",
+    "historicalGlbSha256": "4faa2eec33d131b7fcdc4b41720e5abbd16e03eab594bf764f3d7ae041de3d33",
+    "usesB03OrB04Model": false
+  },
+  "release": {
+    "tag": "male-locomotion-fit-v0.1",
+    "glbSha256": "532ce438b24f69e14c099d956706d69e6e6b8531e0c162e92f72756bb60046b0",
+    "blendSha256": "1af66dd0d78bc047492615d578e3cd122fb08e6d107ea9d2f881aca4e80ae25e",
+    "artifactRecord": "evidence/male-locomotion-fit/artifact.json",
+    "archiveFingerprintPolicy": "Final archive and downloaded payload hashes are in artifact record; source contract does not embed self-referential ZIPhash"
+  },
+  "geometryRequired": {
+    "triangles": 29367,
+    "meshCount": 10,
+    "materialCount": 9,
+    "boneCount": 58,
+    "weightsMaximum": 4,
+    "neutralGeometryMaterialsAndWeightsUnchanged": true
+  },
+  "units": "meters",
+  "axes": {
+    "blender": "Z-up,-Y-front",
+    "gltfUnity": "Y-up,+Z-front after glTFast X mirror"
+  },
+  "baselineBoundsUnity": {
+    "min": [
+      -0.8691573739051819,
+      -4.958522481501859e-07,
+      -0.15313643217086792
+    ],
+    "max": [
+      0.8691573739051819,
+      1.7494049072265625,
+      0.15313643217086792
+    ],
+    "method": "Actual POSITION accessor extrema; all meshnode TRS identity; glTFast mirrors X",
+    "dimensions": [
+      1.7383147478103638,
+      1.7494054030788107,
+      0.30627286434173584
+    ]
+  },
+  "rootNodesRequired": [
+    {
+      "name": "CHR_PlayerMale_A01",
+      "children": [
+        "A03_B01_Rig",
+        "M01_body",
+        "M01_eyebrows",
+        "M01_eyes",
+        "M01_hair_base",
+        "M01_head",
+        "M01_pants",
+        "M01_shirt",
+        "M01_shoes_base",
+        "M01_shoes_bottom",
+        "M01_shoes_parts"
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "bonesRequired": [
+    {
+      "name": "Hips",
+      "parent": null,
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips"
+    },
+    {
+      "name": "Spine",
+      "parent": "Hips",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine"
+    },
+    {
+      "name": "Chest",
+      "parent": "Spine",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest"
+    },
+    {
+      "name": "UpperChest",
+      "parent": "Chest",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest"
+    },
+    {
+      "name": "Neck",
+      "parent": "UpperChest",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Neck"
+    },
+    {
+      "name": "Head",
+      "parent": "Neck",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Neck/Head"
+    },
+    {
+      "name": "Shoulder.L",
+      "parent": "UpperChest",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L"
+    },
+    {
+      "name": "UpperArm.L",
+      "parent": "Shoulder.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L"
+    },
+    {
+      "name": "LowerArm.L",
+      "parent": "UpperArm.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L"
+    },
+    {
+      "name": "Hand.L",
+      "parent": "LowerArm.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L"
+    },
+    {
+      "name": "Thumb1.L",
+      "parent": "Hand.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb1.L"
+    },
+    {
+      "name": "Thumb2.L",
+      "parent": "Thumb1.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb1.L/Thumb2.L"
+    },
+    {
+      "name": "Thumb3.L",
+      "parent": "Thumb2.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb1.L/Thumb2.L/Thumb3.L"
+    },
+    {
+      "name": "Index1.L",
+      "parent": "Hand.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Index1.L"
+    },
+    {
+      "name": "Index2.L",
+      "parent": "Index1.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Index1.L/Index2.L"
+    },
+    {
+      "name": "Index3.L",
+      "parent": "Index2.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Index1.L/Index2.L/Index3.L"
+    },
+    {
+      "name": "Middle1.L",
+      "parent": "Hand.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Middle1.L"
+    },
+    {
+      "name": "Middle2.L",
+      "parent": "Middle1.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Middle1.L/Middle2.L"
+    },
+    {
+      "name": "Middle3.L",
+      "parent": "Middle2.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Middle1.L/Middle2.L/Middle3.L"
+    },
+    {
+      "name": "Ring1.L",
+      "parent": "Hand.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Ring1.L"
+    },
+    {
+      "name": "Ring2.L",
+      "parent": "Ring1.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Ring1.L/Ring2.L"
+    },
+    {
+      "name": "Ring3.L",
+      "parent": "Ring2.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Ring1.L/Ring2.L/Ring3.L"
+    },
+    {
+      "name": "Pinky1.L",
+      "parent": "Hand.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Pinky1.L"
+    },
+    {
+      "name": "Pinky2.L",
+      "parent": "Pinky1.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Pinky1.L/Pinky2.L"
+    },
+    {
+      "name": "Pinky3.L",
+      "parent": "Pinky2.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Pinky1.L/Pinky2.L/Pinky3.L"
+    },
+    {
+      "name": "B02_Wrist.L",
+      "parent": "LowerArm.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/B02_Wrist.L"
+    },
+    {
+      "name": "B02_Elbow.L",
+      "parent": "UpperArm.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/B02_Elbow.L"
+    },
+    {
+      "name": "Shoulder.R",
+      "parent": "UpperChest",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R"
+    },
+    {
+      "name": "UpperArm.R",
+      "parent": "Shoulder.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R"
+    },
+    {
+      "name": "LowerArm.R",
+      "parent": "UpperArm.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R"
+    },
+    {
+      "name": "Hand.R",
+      "parent": "LowerArm.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R"
+    },
+    {
+      "name": "Thumb1.R",
+      "parent": "Hand.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb1.R"
+    },
+    {
+      "name": "Thumb2.R",
+      "parent": "Thumb1.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb1.R/Thumb2.R"
+    },
+    {
+      "name": "Thumb3.R",
+      "parent": "Thumb2.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb1.R/Thumb2.R/Thumb3.R"
+    },
+    {
+      "name": "Index1.R",
+      "parent": "Hand.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Index1.R"
+    },
+    {
+      "name": "Index2.R",
+      "parent": "Index1.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Index1.R/Index2.R"
+    },
+    {
+      "name": "Index3.R",
+      "parent": "Index2.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Index1.R/Index2.R/Index3.R"
+    },
+    {
+      "name": "Middle1.R",
+      "parent": "Hand.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Middle1.R"
+    },
+    {
+      "name": "Middle2.R",
+      "parent": "Middle1.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Middle1.R/Middle2.R"
+    },
+    {
+      "name": "Middle3.R",
+      "parent": "Middle2.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Middle1.R/Middle2.R/Middle3.R"
+    },
+    {
+      "name": "Ring1.R",
+      "parent": "Hand.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Ring1.R"
+    },
+    {
+      "name": "Ring2.R",
+      "parent": "Ring1.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Ring1.R/Ring2.R"
+    },
+    {
+      "name": "Ring3.R",
+      "parent": "Ring2.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Ring1.R/Ring2.R/Ring3.R"
+    },
+    {
+      "name": "Pinky1.R",
+      "parent": "Hand.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Pinky1.R"
+    },
+    {
+      "name": "Pinky2.R",
+      "parent": "Pinky1.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Pinky1.R/Pinky2.R"
+    },
+    {
+      "name": "Pinky3.R",
+      "parent": "Pinky2.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Pinky1.R/Pinky2.R/Pinky3.R"
+    },
+    {
+      "name": "B02_Wrist.R",
+      "parent": "LowerArm.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/B02_Wrist.R"
+    },
+    {
+      "name": "B02_Elbow.R",
+      "parent": "UpperArm.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/B02_Elbow.R"
+    },
+    {
+      "name": "UpperLeg.L",
+      "parent": "Hips",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/UpperLeg.L"
+    },
+    {
+      "name": "LowerLeg.L",
+      "parent": "UpperLeg.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/UpperLeg.L/LowerLeg.L"
+    },
+    {
+      "name": "Foot.L",
+      "parent": "LowerLeg.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/UpperLeg.L/LowerLeg.L/Foot.L"
+    },
+    {
+      "name": "Toes.L",
+      "parent": "Foot.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L"
+    },
+    {
+      "name": "B02_Knee.L",
+      "parent": "UpperLeg.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/UpperLeg.L/B02_Knee.L"
+    },
+    {
+      "name": "UpperLeg.R",
+      "parent": "Hips",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/UpperLeg.R"
+    },
+    {
+      "name": "LowerLeg.R",
+      "parent": "UpperLeg.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/UpperLeg.R/LowerLeg.R"
+    },
+    {
+      "name": "Foot.R",
+      "parent": "LowerLeg.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/UpperLeg.R/LowerLeg.R/Foot.R"
+    },
+    {
+      "name": "Toes.R",
+      "parent": "Foot.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R"
+    },
+    {
+      "name": "B02_Knee.R",
+      "parent": "UpperLeg.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/UpperLeg.R/B02_Knee.R"
+    }
+  ],
+  "supportBonesRequired": [
+    {
+      "name": "B02_Wrist.L",
+      "parent": "LowerArm.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/B02_Wrist.L",
+      "node": 18
+    },
+    {
+      "name": "B02_Elbow.L",
+      "parent": "UpperArm.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/B02_Elbow.L",
+      "node": 20
+    },
+    {
+      "name": "B02_Wrist.R",
+      "parent": "LowerArm.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/B02_Wrist.R",
+      "node": 39
+    },
+    {
+      "name": "B02_Elbow.R",
+      "parent": "UpperArm.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/B02_Elbow.R",
+      "node": 41
+    },
+    {
+      "name": "B02_Knee.L",
+      "parent": "UpperLeg.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/UpperLeg.L/B02_Knee.L",
+      "node": 50
+    },
+    {
+      "name": "B02_Knee.R",
+      "parent": "UpperLeg.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/UpperLeg.R/B02_Knee.R",
+      "node": 55
+    }
+  ],
+  "skin": "B02 ordinary LBS, Generic Animator, existing six baked half-angle supports; not Humanoid",
+  "rootMotion": false,
+  "controllerContract": {
+    "translationMetersPerSecond": 4.0,
+    "headingDegreesPerSecond": 720.0,
+    "gameControllerChanged": false,
+    "probeMayEaseControllerForPresentation": false,
+    "walkingIntent": "1.4m/s lower partial-stick speed at1x; fixed4m/s uses run",
+    "turnClipPolicy": "Omit old skeletal turn; heading owned by controller"
+  },
+  "clips": {
+    "expectedNames": [
+      "idle",
+      "walk",
+      "run"
+    ],
+    "deliberatelyRemoved": [
+      "turn"
+    ],
+    "idleB02ActionUnchanged": true,
+    "runDesignedMps": 4.0,
+    "playbackRateAt4Mps": 1.0,
+    "measured": {
+      "source": "validation-003 raw GLB +unity-002 imported clipreadback",
+      "rawGlb": {
+        "idle": {
+          "durationSeconds": 2.0,
+          "channels": 174,
+          "all58JointsHaveTRS": true,
+          "allSixSupportsHaveTRS": true,
+          "maxEndpointComponentError": 0.0,
+          "loopEndpointsMatchWithin1e_6": true,
+          "animatedNonJointNodes": []
+        },
+        "walk": {
+          "durationSeconds": 1.0,
+          "channels": 174,
+          "all58JointsHaveTRS": true,
+          "allSixSupportsHaveTRS": true,
+          "maxEndpointComponentError": 0.0,
+          "loopEndpointsMatchWithin1e_6": true,
+          "animatedNonJointNodes": []
+        },
+        "run": {
+          "durationSeconds": 0.625,
+          "channels": 174,
+          "all58JointsHaveTRS": true,
+          "allSixSupportsHaveTRS": true,
+          "maxEndpointComponentError": 0.0,
+          "loopEndpointsMatchWithin1e_6": true,
+          "animatedNonJointNodes": []
+        }
+      },
+      "unityImported": [
+        {
+          "name": "idle",
+          "seconds": 2.0,
+          "loop": true,
+          "curves": 580
+        },
+        {
+          "name": "run",
+          "seconds": 0.625,
+          "loop": true,
+          "curves": 580
+        },
+        {
+          "name": "walk",
+          "seconds": 1.0,
+          "loop": true,
+          "curves": 580
+        }
+      ],
+      "authoringRecipe": [
+        {
+          "name": "idle",
+          "durationSeconds": 2.0,
+          "fps": 24,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "durationSeconds": 1.0,
+          "fps": 96,
+          "loop": true,
+          "designSpeedMps": 1.4,
+          "playbackSpeed": 1.0,
+          "sameFootStrideMeters": 1.4,
+          "stepsPerMinute": 120.0,
+          "stanceFraction": 0.6,
+          "stanceExcursionMeters": 0.84,
+          "maxReachFraction": 0.9869535228337658
+        },
+        {
+          "name": "run",
+          "durationSeconds": 0.625,
+          "fps": 96,
+          "loop": true,
+          "designSpeedMps": 4.0,
+          "playbackSpeed": 1.0,
+          "sameFootStrideMeters": 2.5,
+          "stepsPerMinute": 192.0,
+          "stanceFraction": 0.3,
+          "stanceExcursionMeters": 0.75,
+          "maxReachFraction": 0.9949467633160612
+        }
+      ],
+      "zeroAnimatedNonJointNodes": true
+    },
+    "allSixSupportsBakedTRSInEveryClip": true,
+    "seamlessLoopEndpointsVerified": true,
+    "safePlaybackRange": {
+      "testedRunRateAt4Mps": 1.0,
+      "testedWalkRateAt1p4Mps": 1.0,
+      "broaderRangeCertified": false
+    },
+    "authoringIntent": {
+      "sceneFps": 24,
+      "newGaitKeyIntervalFrames": 0.25,
+      "newGaitSamplingHz": 96,
+      "idleActionRetained": true,
+      "walk": {
+        "designedMps": 1.4,
+        "cycleSeconds": 1.0,
+        "cadenceStepsPerMinute": 120,
+        "sameFootStrideMeters": 1.4,
+        "playbackRate": 1.0,
+        "purpose": "Lower partial-stick speed, not4m/s walking",
+        "stanceFraction": 0.6,
+        "stanceSeconds": 0.6,
+        "stanceExcursionMeters": 0.84
+      },
+      "run": {
+        "designedMps": 4.0,
+        "cycleSeconds": 0.625,
+        "cadenceStepsPerMinute": 192,
+        "sameFootStrideMeters": 2.5,
+        "stanceFraction": 0.3,
+        "stanceSeconds": 0.1875,
+        "stanceExcursionMeters": 0.75,
+        "playbackRate": 1.0
+      },
+      "status": "Recipe timing confirmed by final GLB and imported Unityclips; contact measured separately"
+    }
+  },
+  "baselineLocomotion": {
+    "walk": {
+      "cycleSeconds": 1.0,
+      "stanceFraction": 0.58,
+      "stanceExcursionMeters": 0.32,
+      "inferredDesignMps": 0.5517241379310346,
+      "measuredStanceMaxMps24fps": 0.5517247964410342,
+      "sameFootStrideMeters": 0.5517241379310346,
+      "cadenceStepsPerMinute": 120,
+      "requiredRateAt4Mps": 7.249999999999998
+    },
+    "run": {
+      "cycleSeconds": 0.75,
+      "stanceFraction": 0.4,
+      "stanceExcursionMeters": 0.46,
+      "inferredDesignMps": 1.5333333333333332,
+      "measuredStanceMaxMps24fps": 1.5333348236819586,
+      "sameFootStrideMeters": 1.15,
+      "cadenceStepsPerMinute": 160,
+      "requiredRateAt4Mps": 2.608695652173913
+    }
+  },
+  "materialBaselineRequired": {
+    "materials": [
+      {
+        "index": 0,
+        "name": "M01_skin",
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "baseColorFactorLinear": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.7200000286102295,
+        "baseColor": {
+          "textureIndex": 0,
+          "image": {
+            "image": 0,
+            "name": "skin_diffuse_atlas",
+            "mimeType": "image/png",
+            "width": 2048,
+            "height": 2048,
+            "mode": "RGB",
+            "encodedBytes": 1365452,
+            "sha256": "2039ddcb4b392ba7093b42d8438e237da753531c7428fe89109bc7a2003facf3"
+          },
+          "texCoord": 0,
+          "scale": 1,
+          "colorSpace": "sRGB RGB (alpha linear)",
+          "channels": "RGB base color / A alpha",
+          "sampler": {
+            "magFilter": 9729,
+            "minFilter": 9987
+          }
+        },
+        "metallicRoughness": null,
+        "normal": null,
+        "occlusion": null,
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "extensions": {},
+        "meshUsers": [
+          "GEO-snow-body.002",
+          "GEO-snow-head.001"
+        ]
+      },
+      {
+        "index": 1,
+        "name": "M01_hair",
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "baseColorFactorLinear": [
+          0.02199999988079071,
+          0.010999999940395355,
+          0.006000000052154064,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8600000143051147,
+        "baseColor": null,
+        "metallicRoughness": null,
+        "normal": null,
+        "occlusion": null,
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "extensions": {},
+        "meshUsers": [
+          "Mesh",
+          "GEO-snow-hair_base.001"
+        ]
+      },
+      {
+        "index": 2,
+        "name": "M01_eyes",
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "baseColorFactorLinear": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.30000001192092896,
+        "baseColor": {
+          "textureIndex": 2,
+          "image": {
+            "image": 2,
+            "name": "eyes_diffuse",
+            "mimeType": "image/png",
+            "width": 2048,
+            "height": 2048,
+            "mode": "RGB",
+            "encodedBytes": 1286452,
+            "sha256": "7ec88aa8ddb70b7cad01fe96d82179c1b440ddfa4fb91f413d0cae71f9cd746f"
+          },
+          "texCoord": 0,
+          "scale": 1,
+          "colorSpace": "sRGB RGB (alpha linear)",
+          "channels": "RGB base color / A alpha",
+          "sampler": {
+            "magFilter": 9729,
+            "minFilter": 9987
+          }
+        },
+        "metallicRoughness": null,
+        "normal": {
+          "textureIndex": 1,
+          "image": {
+            "image": 1,
+            "name": "eyes_normal",
+            "mimeType": "image/png",
+            "width": 2048,
+            "height": 2048,
+            "mode": "RGBA",
+            "encodedBytes": 322608,
+            "sha256": "f0908a7026ee93b73abbf1aed8d344f6c20cbd3b90e1bac421003dd3f51051ee"
+          },
+          "texCoord": 0,
+          "scale": 0.5,
+          "colorSpace": "Linear/data",
+          "channels": "RGB tangent-space normal",
+          "sampler": {
+            "magFilter": 9729,
+            "minFilter": 9987
+          }
+        },
+        "occlusion": null,
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "extensions": {},
+        "meshUsers": [
+          "GEO-snow-eyes.001"
+        ]
+      },
+      {
+        "index": 3,
+        "name": "M01_skin_darker",
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "baseColorFactorLinear": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.7200000286102295,
+        "baseColor": {
+          "textureIndex": 3,
+          "image": {
+            "image": 3,
+            "name": "skin_darker_diffuse_atlas",
+            "mimeType": "image/png",
+            "width": 2048,
+            "height": 2048,
+            "mode": "RGB",
+            "encodedBytes": 1296786,
+            "sha256": "a99b12e51e1d6c555ac8f3a63bf08dda3a42edcc46bcb26b92fa3a25e7db6c74"
+          },
+          "texCoord": 0,
+          "scale": 1,
+          "colorSpace": "sRGB RGB (alpha linear)",
+          "channels": "RGB base color / A alpha",
+          "sampler": {
+            "magFilter": 9729,
+            "minFilter": 9987
+          }
+        },
+        "metallicRoughness": null,
+        "normal": null,
+        "occlusion": null,
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "extensions": {},
+        "meshUsers": [
+          "GEO-snow-head.001"
+        ]
+      },
+      {
+        "index": 4,
+        "name": "M01_skin_upper_lip",
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "baseColorFactorLinear": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.6700000166893005,
+        "baseColor": {
+          "textureIndex": 4,
+          "image": {
+            "image": 4,
+            "name": "skin_upper_lip_diffuse_atlas",
+            "mimeType": "image/png",
+            "width": 2048,
+            "height": 2048,
+            "mode": "RGB",
+            "encodedBytes": 1331777,
+            "sha256": "c87fc712adb2166544746364620353033cfd36559a954435112441557118eb14"
+          },
+          "texCoord": 0,
+          "scale": 1,
+          "colorSpace": "sRGB RGB (alpha linear)",
+          "channels": "RGB base color / A alpha",
+          "sampler": {
+            "magFilter": 9729,
+            "minFilter": 9987
+          }
+        },
+        "metallicRoughness": null,
+        "normal": null,
+        "occlusion": null,
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "extensions": {},
+        "meshUsers": [
+          "GEO-snow-head.001"
+        ]
+      },
+      {
+        "index": 5,
+        "name": "M01_skin_lower_lip",
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "baseColorFactorLinear": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.6700000166893005,
+        "baseColor": {
+          "textureIndex": 5,
+          "image": {
+            "image": 5,
+            "name": "skin_lower_lip_diffuse_atlas",
+            "mimeType": "image/png",
+            "width": 2048,
+            "height": 2048,
+            "mode": "RGB",
+            "encodedBytes": 1350940,
+            "sha256": "8760c9bb405eca20e1a25cd5cc6e2fd01b74767d7f6d4109c84714977123172b"
+          },
+          "texCoord": 0,
+          "scale": 1,
+          "colorSpace": "sRGB RGB (alpha linear)",
+          "channels": "RGB base color / A alpha",
+          "sampler": {
+            "magFilter": 9729,
+            "minFilter": 9987
+          }
+        },
+        "metallicRoughness": null,
+        "normal": null,
+        "occlusion": null,
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "extensions": {},
+        "meshUsers": [
+          "GEO-snow-head.001"
+        ]
+      },
+      {
+        "index": 6,
+        "name": "M01_pants",
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "baseColorFactorLinear": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1,
+        "baseColor": {
+          "textureIndex": 7,
+          "image": {
+            "image": 7,
+            "name": "pants_tinted_diffuse",
+            "mimeType": "image/png",
+            "width": 2048,
+            "height": 2048,
+            "mode": "RGB",
+            "encodedBytes": 6237637,
+            "sha256": "b225a00982b9859abe724f695700f98ab8ccdabb2e8da8d6b380ba38c5fdcca1"
+          },
+          "texCoord": 0,
+          "scale": 1,
+          "colorSpace": "sRGB RGB (alpha linear)",
+          "channels": "RGB base color / A alpha",
+          "sampler": {
+            "magFilter": 9729,
+            "minFilter": 9987
+          }
+        },
+        "metallicRoughness": {
+          "textureIndex": 8,
+          "image": {
+            "image": 8,
+            "name": "pants_roughness",
+            "mimeType": "image/png",
+            "width": 2048,
+            "height": 2048,
+            "mode": "RGB",
+            "encodedBytes": 2542400,
+            "sha256": "3b852df2f62adfb27f731c86d06803c72b19061a647512974417f261268ffe4c"
+          },
+          "texCoord": 0,
+          "scale": 1,
+          "colorSpace": "Linear/data",
+          "channels": "G roughness, B metallic",
+          "sampler": {
+            "magFilter": 9729,
+            "minFilter": 9987
+          }
+        },
+        "normal": {
+          "textureIndex": 6,
+          "image": {
+            "image": 6,
+            "name": "pants_normal",
+            "mimeType": "image/png",
+            "width": 2048,
+            "height": 2048,
+            "mode": "RGB",
+            "encodedBytes": 4691039,
+            "sha256": "107de7037b35fc62d01bd606f0ae0a719c29ea22b8a5486960c3653044ec6dff"
+          },
+          "texCoord": 0,
+          "scale": 0.5,
+          "colorSpace": "Linear/data",
+          "channels": "RGB tangent-space normal",
+          "sampler": {
+            "magFilter": 9729,
+            "minFilter": 9987
+          }
+        },
+        "occlusion": null,
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "extensions": {},
+        "meshUsers": [
+          "GEO-snow-pants.002"
+        ]
+      },
+      {
+        "index": 7,
+        "name": "M01_shirt",
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "baseColorFactorLinear": [
+          0.04500000178813934,
+          0.09000000357627869,
+          0.05999999865889549,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8399999737739563,
+        "baseColor": null,
+        "metallicRoughness": null,
+        "normal": {
+          "textureIndex": 9,
+          "image": {
+            "image": 9,
+            "name": "shirt_normal",
+            "mimeType": "image/png",
+            "width": 2048,
+            "height": 2048,
+            "mode": "RGB",
+            "encodedBytes": 4157409,
+            "sha256": "7a90766714b9a431b17b2e5f90a2c1d267a73e0433f1080a31526a3ee88e95e6"
+          },
+          "texCoord": 0,
+          "scale": 0.5,
+          "colorSpace": "Linear/data",
+          "channels": "RGB tangent-space normal",
+          "sampler": {
+            "magFilter": 9729,
+            "minFilter": 9987
+          }
+        },
+        "occlusion": null,
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "extensions": {},
+        "meshUsers": [
+          "GEO-snow-shirt.002"
+        ]
+      },
+      {
+        "index": 8,
+        "name": "M01_canvas_shoes",
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "baseColorFactorLinear": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1,
+        "baseColor": {
+          "textureIndex": 11,
+          "image": {
+            "image": 11,
+            "name": "shoes_diffuse",
+            "mimeType": "image/png",
+            "width": 2048,
+            "height": 2048,
+            "mode": "RGB",
+            "encodedBytes": 2910242,
+            "sha256": "6e4940a480c245c0d68947686b2242f1b48bb7624cc6131fa71e8f6281892b27"
+          },
+          "texCoord": 0,
+          "scale": 1,
+          "colorSpace": "sRGB RGB (alpha linear)",
+          "channels": "RGB base color / A alpha",
+          "sampler": {
+            "magFilter": 9729,
+            "minFilter": 9987
+          }
+        },
+        "metallicRoughness": {
+          "textureIndex": 12,
+          "image": {
+            "image": 12,
+            "name": "shoes_roughness",
+            "mimeType": "image/png",
+            "width": 2048,
+            "height": 2048,
+            "mode": "RGB",
+            "encodedBytes": 1889025,
+            "sha256": "833e3701fe30e06bc67fee6cb7531c2e8e23778550e233fa5bf37b66eec93554"
+          },
+          "texCoord": 0,
+          "scale": 1,
+          "colorSpace": "Linear/data",
+          "channels": "G roughness, B metallic",
+          "sampler": {
+            "magFilter": 9729,
+            "minFilter": 9987
+          }
+        },
+        "normal": {
+          "textureIndex": 10,
+          "image": {
+            "image": 10,
+            "name": "shoes_normal",
+            "mimeType": "image/png",
+            "width": 2048,
+            "height": 2048,
+            "mode": "RGB",
+            "encodedBytes": 5677803,
+            "sha256": "2ae017a1b444857625c0dcf28a887adb058536995f752a030800973c86fc7e99"
+          },
+          "texCoord": 0,
+          "scale": 0.5,
+          "colorSpace": "Linear/data",
+          "channels": "RGB tangent-space normal",
+          "sampler": {
+            "magFilter": 9729,
+            "minFilter": 9987
+          }
+        },
+        "occlusion": null,
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "extensions": {},
+        "meshUsers": [
+          "GEO-snow-shoes_base.003",
+          "GEO-snow-shoes_bottom.003",
+          "GEO-snow-shoes_parts.003"
+        ]
+      }
+    ],
+    "textures": [
+      {
+        "image": 0,
+        "name": "skin_diffuse_atlas",
+        "mimeType": "image/png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGB",
+        "encodedBytes": 1365452,
+        "sha256": "2039ddcb4b392ba7093b42d8438e237da753531c7428fe89109bc7a2003facf3"
+      },
+      {
+        "image": 1,
+        "name": "eyes_normal",
+        "mimeType": "image/png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "encodedBytes": 322608,
+        "sha256": "f0908a7026ee93b73abbf1aed8d344f6c20cbd3b90e1bac421003dd3f51051ee"
+      },
+      {
+        "image": 2,
+        "name": "eyes_diffuse",
+        "mimeType": "image/png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGB",
+        "encodedBytes": 1286452,
+        "sha256": "7ec88aa8ddb70b7cad01fe96d82179c1b440ddfa4fb91f413d0cae71f9cd746f"
+      },
+      {
+        "image": 3,
+        "name": "skin_darker_diffuse_atlas",
+        "mimeType": "image/png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGB",
+        "encodedBytes": 1296786,
+        "sha256": "a99b12e51e1d6c555ac8f3a63bf08dda3a42edcc46bcb26b92fa3a25e7db6c74"
+      },
+      {
+        "image": 4,
+        "name": "skin_upper_lip_diffuse_atlas",
+        "mimeType": "image/png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGB",
+        "encodedBytes": 1331777,
+        "sha256": "c87fc712adb2166544746364620353033cfd36559a954435112441557118eb14"
+      },
+      {
+        "image": 5,
+        "name": "skin_lower_lip_diffuse_atlas",
+        "mimeType": "image/png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGB",
+        "encodedBytes": 1350940,
+        "sha256": "8760c9bb405eca20e1a25cd5cc6e2fd01b74767d7f6d4109c84714977123172b"
+      },
+      {
+        "image": 6,
+        "name": "pants_normal",
+        "mimeType": "image/png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGB",
+        "encodedBytes": 4691039,
+        "sha256": "107de7037b35fc62d01bd606f0ae0a719c29ea22b8a5486960c3653044ec6dff"
+      },
+      {
+        "image": 7,
+        "name": "pants_tinted_diffuse",
+        "mimeType": "image/png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGB",
+        "encodedBytes": 6237637,
+        "sha256": "b225a00982b9859abe724f695700f98ab8ccdabb2e8da8d6b380ba38c5fdcca1"
+      },
+      {
+        "image": 8,
+        "name": "pants_roughness",
+        "mimeType": "image/png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGB",
+        "encodedBytes": 2542400,
+        "sha256": "3b852df2f62adfb27f731c86d06803c72b19061a647512974417f261268ffe4c"
+      },
+      {
+        "image": 9,
+        "name": "shirt_normal",
+        "mimeType": "image/png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGB",
+        "encodedBytes": 4157409,
+        "sha256": "7a90766714b9a431b17b2e5f90a2c1d267a73e0433f1080a31526a3ee88e95e6"
+      },
+      {
+        "image": 10,
+        "name": "shoes_normal",
+        "mimeType": "image/png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGB",
+        "encodedBytes": 5677803,
+        "sha256": "2ae017a1b444857625c0dcf28a887adb058536995f752a030800973c86fc7e99"
+      },
+      {
+        "image": 11,
+        "name": "shoes_diffuse",
+        "mimeType": "image/png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGB",
+        "encodedBytes": 2910242,
+        "sha256": "6e4940a480c245c0d68947686b2242f1b48bb7624cc6131fa71e8f6281892b27"
+      },
+      {
+        "image": 12,
+        "name": "shoes_roughness",
+        "mimeType": "image/png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGB",
+        "encodedBytes": 1889025,
+        "sha256": "833e3701fe30e06bc67fee6cb7531c2e8e23778550e233fa5bf37b66eec93554"
+      }
+    ],
+    "extensionsUsed": [],
+    "extensionsRequired": []
+  },
+  "import": {
+    "unityVersion": "6000.5.8f1",
+    "urpVersion": "17.5.0",
+    "gltfFastVersion": "6.20.0",
+    "nodeNameMethod": 1,
+    "animationMethod": 2,
+    "generateMipMaps": 1,
+    "texturesReadable": 0,
+    "generateSecondaryUVSet": 0,
+    "colorSpace": "Linear",
+    "skinQuality": "FourBones",
+    "applyRootMotion": false,
+    "loopPolicy": "All three delivered clips intended loops; verify actual imported flags",
+    "proposedGuidOnly": "21a7210ba3d850b09caae51343d7c144",
+    "gameGuidAdoptedOrCollisionChecked": false,
+    "actualProbe": {
+      "directory": "build/male-locomotion-fit/unity-002",
+      "status": "passed-art-skin-animation-import-reopen",
+      "unityVersion": "6000.5.8f1",
+      "urpVersion": "17.5.0",
+      "gltfastVersion": "6.20.0",
+      "graphicsDevice": "Direct3D11",
+      "triangles": 29367,
+      "materialCount": 9,
+      "skinnedMeshes": 10,
+      "savedReopenedPoseMatches": true,
+      "urpRendered": true,
+      "shaderErrors": false,
+      "probeMetaGuid": "4d70365c4e63d4540bc5ad014ef91400",
+      "gameGuid": null
+    }
+  },
+  "contactMeasurements": {
+    "initialTrajectoryReport": "build/male-locomotion-fit/unity-002/motion-evidence/motion-report.json",
+    "fps": 24,
+    "method": "Same bind solevertices at orbelow3mm floor in both adjacent samples; maximum planar WORLDvelocity. No-contact frames excluded from means. Means are means of per-frame maxima, not all contact vertices.",
+    "steadyState": {
+      "run4": {
+        "startTime": 1.3,
+        "endTimeExclusive": 3.0,
+        "frames": 40,
+        "contactBearingFrames": 20,
+        "minimumSoleHeightMeters": 0.000999845564365387,
+        "maximumStableContactVertexSpeedMps": 0.013607025146484375,
+        "meanOfPerFrameMaximumContactSpeedMps": 0.0052981867804192005
+      },
+      "restart4": {
+        "startTime": 4.0,
+        "endTimeExclusive": 5.0,
+        "frames": 24,
+        "contactBearingFrames": 11,
+        "minimumSoleHeightMeters": 0.000999845564365387,
+        "maximumStableContactVertexSpeedMps": 0.0135955810546875,
+        "meanOfPerFrameMaximumContactSpeedMps": 0.00515400362201035
+      },
+      "walk1p4": {
+        "startTime": 8.1,
+        "endTimeExclusive": 9.0,
+        "frames": 21,
+        "contactBearingFrames": 21,
+        "minimumSoleHeightMeters": 0.0009997785091400146,
+        "maximumStableContactVertexSpeedMps": 0.008056640625,
+        "meanOfPerFrameMaximumContactSpeedMps": 0.002855645558503013
+      }
+    },
+    "initialScenarios": {
+      "idle": {
+        "frames": 24,
+        "contactBearingFrames": 23,
+        "minimumSoleHeightMeters": -5.359802344173659e-07,
+        "maximumStableContactVertexSpeedMps": 4.015358172182459e-06,
+        "meanOfPerFrameMaximumContactSpeedMps": 2.649901261975174e-06,
+        "maximumMeasuredRootMps": 0.0,
+        "maximumYawDegreesPerSecond": 0.0
+      },
+      "straight4": {
+        "frames": 48,
+        "contactBearingFrames": 24,
+        "minimumSoleHeightMeters": -0.01651858538389206,
+        "maximumStableContactVertexSpeedMps": 6.8036627769470215,
+        "meanOfPerFrameMaximumContactSpeedMps": 0.4969309282314498,
+        "maximumMeasuredRootMps": 4.000001907348633,
+        "maximumYawDegreesPerSecond": 0.0
+      },
+      "stop1": {
+        "frames": 17,
+        "contactBearingFrames": 17,
+        "minimumSoleHeightMeters": -0.02954009175300598,
+        "maximumStableContactVertexSpeedMps": 3.010711908340454,
+        "meanOfPerFrameMaximumContactSpeedMps": 0.478846448879267,
+        "maximumMeasuredRootMps": 0.0,
+        "maximumYawDegreesPerSecond": 0.0
+      },
+      "restart4": {
+        "frames": 31,
+        "contactBearingFrames": 15,
+        "minimumSoleHeightMeters": -0.0166068896651268,
+        "maximumStableContactVertexSpeedMps": 6.806957244873047,
+        "meanOfPerFrameMaximumContactSpeedMps": 0.7918067938182503,
+        "maximumMeasuredRootMps": 4.000007629394531,
+        "maximumYawDegreesPerSecond": 0.0
+      },
+      "right90_720": {
+        "frames": 15,
+        "contactBearingFrames": 7,
+        "minimumSoleHeightMeters": 0.0009998530149459839,
+        "maximumStableContactVertexSpeedMps": 5.928896427154541,
+        "meanOfPerFrameMaximumContactSpeedMps": 1.9437605613987086,
+        "maximumMeasuredRootMps": 4.000001907348633,
+        "maximumYawDegreesPerSecond": 720.0
+      },
+      "reverse180_720": {
+        "frames": 14,
+        "contactBearingFrames": 7,
+        "minimumSoleHeightMeters": 0.0009998306632041931,
+        "maximumStableContactVertexSpeedMps": 8.227755546569824,
+        "meanOfPerFrameMaximumContactSpeedMps": 3.1430451134916177,
+        "maximumMeasuredRootMps": 4.000001907348633,
+        "maximumYawDegreesPerSecond": 720.0
+      },
+      "forward90_720": {
+        "frames": 19,
+        "contactBearingFrames": 10,
+        "minimumSoleHeightMeters": 0.0009996790904551744,
+        "maximumStableContactVertexSpeedMps": 4.573675632476807,
+        "meanOfPerFrameMaximumContactSpeedMps": 0.8547698271457194,
+        "maximumMeasuredRootMps": 4.000007629394531,
+        "maximumYawDegreesPerSecond": 720.0
+      },
+      "stop2": {
+        "frames": 20,
+        "contactBearingFrames": 20,
+        "minimumSoleHeightMeters": -0.03803985193371773,
+        "maximumStableContactVertexSpeedMps": 3.0338287353515625,
+        "meanOfPerFrameMaximumContactSpeedMps": 0.42063080221414567,
+        "maximumMeasuredRootMps": 0.0,
+        "maximumYawDegreesPerSecond": 0.0
+      },
+      "walk1p4": {
+        "frames": 28,
+        "contactBearingFrames": 28,
+        "minimumSoleHeightMeters": -0.030621401965618134,
+        "maximumStableContactVertexSpeedMps": 4.1025238037109375,
+        "meanOfPerFrameMaximumContactSpeedMps": 0.37116468712702044,
+        "maximumMeasuredRootMps": 1.3999786376953125,
+        "maximumYawDegreesPerSecond": 0.0
+      },
+      "walkStop": {
+        "frames": 24,
+        "contactBearingFrames": 24,
+        "minimumSoleHeightMeters": -0.017831221222877502,
+        "maximumStableContactVertexSpeedMps": 4.159881591796875,
+        "meanOfPerFrameMaximumContactSpeedMps": 0.467837393283844,
+        "maximumMeasuredRootMps": 0.0,
+        "maximumYawDegreesPerSecond": 0.0
+      }
+    },
+    "initialFadeSeconds": {
+      "start": 0.11999999731779099,
+      "stop": 0.1599999964237213
+    },
+    "continuousContactOrTerrainCertified": false,
+    "denseSavedSkin192Hz": {
+      "schema": "a03-locomotion-fit-dense-contact-1",
+      "samples": {
+        "idle": {
+          "seconds": 2.0,
+          "speedMps": 0,
+          "fps": 192,
+          "frames": 385,
+          "soleVerticesPerSide": {
+            "L": 188,
+            "R": 188
+          },
+          "minSoleMeters": -7.057967650325736e-07,
+          "stableContactVertexSamples": 79104,
+          "stableContactMaxWorldSpeedMps": 2.574920654296875e-05,
+          "stableContactP95WorldSpeedMps": 1.5772159388923606e-05,
+          "stableContactRmsWorldSpeedMps": 8.004853551469408e-06,
+          "soleCentreMaxWorldSpeedMpsWhenNearGround": 2.2077632680373588e-05,
+          "sameFootStrideMeters": 0.0,
+          "stepsPerMinute": 0
+        },
+        "walk": {
+          "seconds": 1.0,
+          "speedMps": 1.4,
+          "fps": 192,
+          "frames": 193,
+          "soleVerticesPerSide": {
+            "L": 188,
+            "R": 188
+          },
+          "minSoleMeters": 0.000792182981967926,
+          "stableContactVertexSamples": 11732,
+          "stableContactMaxWorldSpeedMps": 0.7045425415561877,
+          "stableContactP95WorldSpeedMps": 0.0046593547428412,
+          "stableContactRmsWorldSpeedMps": 0.027979175090510188,
+          "soleCentreMaxWorldSpeedMpsWhenNearGround": 0.7007592497270742,
+          "sameFootStrideMeters": 1.4,
+          "stepsPerMinute": 120.0
+        },
+        "run": {
+          "seconds": 0.625,
+          "speedMps": 4.0,
+          "fps": 192,
+          "frames": 121,
+          "soleVerticesPerSide": {
+            "L": 188,
+            "R": 188
+          },
+          "minSoleMeters": -5.025416612625122e-05,
+          "stableContactVertexSamples": 3540,
+          "stableContactMaxWorldSpeedMps": 0.4185228767320961,
+          "stableContactP95WorldSpeedMps": 0.025678592935100903,
+          "stableContactRmsWorldSpeedMps": 0.04384938832096502,
+          "soleCentreMaxWorldSpeedMpsWhenNearGround": 1.1073840587614874,
+          "sameFootStrideMeters": 2.5,
+          "stepsPerMinute": 192.0
+        }
+      },
+      "method": "Actual saved Blender skin,192Hz. Translate world root along Blender-Y at declaredspeed. Stable contact uses SAME sole vertex <=3mmfloor inbothadjacentsamples; planarvelocity afterroottranslation. Foot-centre metric separatelyreported because heel/toe roll movescentres naturally. Maxima include boundaries/roll; notterrainphysics orcontinuousproof."
+    },
+    "denseSavedSkinReport": "build/male-locomotion-fit/contact-001.json",
+    "finalTrajectoryReport": "build/male-locomotion-fit/unity-002/motion-correction-001/motion-report.json",
+    "finalScenarios": {
+      "idle": {
+        "frames": 24,
+        "contactBearingFrames": 23,
+        "minimumSoleHeightMeters": -5.359802344173659e-07,
+        "maximumStableContactVertexSpeedMps": 4.015358172182459e-06,
+        "meanOfPerFrameMaximumContactSpeedMps": 2.649901261975174e-06,
+        "maximumMeasuredRootMps": 0.0,
+        "maximumYawDegreesPerSecond": 0.0,
+        "sampledFramesBelowMinus1mm": 0,
+        "sampledFramesBelowMinus10mm": 0
+      },
+      "straight4": {
+        "frames": 48,
+        "contactBearingFrames": 24,
+        "minimumSoleHeightMeters": -0.017864979803562164,
+        "maximumStableContactVertexSpeedMps": 8.196471214294434,
+        "meanOfPerFrameMaximumContactSpeedMps": 0.4973345220425169,
+        "maximumMeasuredRootMps": 4.000001907348633,
+        "maximumYawDegreesPerSecond": 0.0,
+        "sampledFramesBelowMinus1mm": 1,
+        "sampledFramesBelowMinus10mm": 1
+      },
+      "stop1": {
+        "frames": 17,
+        "contactBearingFrames": 17,
+        "minimumSoleHeightMeters": -0.009040730074048042,
+        "maximumStableContactVertexSpeedMps": 2.1347696781158447,
+        "meanOfPerFrameMaximumContactSpeedMps": 0.2394030766452702,
+        "maximumMeasuredRootMps": 0.0,
+        "maximumYawDegreesPerSecond": 0.0,
+        "sampledFramesBelowMinus1mm": 1,
+        "sampledFramesBelowMinus10mm": 0
+      },
+      "restart4": {
+        "frames": 31,
+        "contactBearingFrames": 15,
+        "minimumSoleHeightMeters": -0.017951611429452896,
+        "maximumStableContactVertexSpeedMps": 8.20089340209961,
+        "meanOfPerFrameMaximumContactSpeedMps": 0.7924507154615034,
+        "maximumMeasuredRootMps": 4.000007629394531,
+        "maximumYawDegreesPerSecond": 0.0,
+        "sampledFramesBelowMinus1mm": 1,
+        "sampledFramesBelowMinus10mm": 1
+      },
+      "right90_720": {
+        "frames": 15,
+        "contactBearingFrames": 7,
+        "minimumSoleHeightMeters": 0.0009998530149459839,
+        "maximumStableContactVertexSpeedMps": 5.928896427154541,
+        "meanOfPerFrameMaximumContactSpeedMps": 1.9437605613987086,
+        "maximumMeasuredRootMps": 4.000001907348633,
+        "maximumYawDegreesPerSecond": 720.0,
+        "sampledFramesBelowMinus1mm": 0,
+        "sampledFramesBelowMinus10mm": 0
+      },
+      "reverse180_720": {
+        "frames": 14,
+        "contactBearingFrames": 7,
+        "minimumSoleHeightMeters": 0.0009998306632041931,
+        "maximumStableContactVertexSpeedMps": 8.227755546569824,
+        "meanOfPerFrameMaximumContactSpeedMps": 3.1430451134916177,
+        "maximumMeasuredRootMps": 4.000001907348633,
+        "maximumYawDegreesPerSecond": 720.0,
+        "sampledFramesBelowMinus1mm": 0,
+        "sampledFramesBelowMinus10mm": 0
+      },
+      "forward90_720": {
+        "frames": 19,
+        "contactBearingFrames": 10,
+        "minimumSoleHeightMeters": 0.0009996790904551744,
+        "maximumStableContactVertexSpeedMps": 4.573675632476807,
+        "meanOfPerFrameMaximumContactSpeedMps": 0.8547698271457194,
+        "maximumMeasuredRootMps": 4.000007629394531,
+        "maximumYawDegreesPerSecond": 720.0,
+        "sampledFramesBelowMinus1mm": 0,
+        "sampledFramesBelowMinus10mm": 0
+      },
+      "stop2": {
+        "frames": 20,
+        "contactBearingFrames": 20,
+        "minimumSoleHeightMeters": -0.02947073057293892,
+        "maximumStableContactVertexSpeedMps": 4.16876220703125,
+        "meanOfPerFrameMaximumContactSpeedMps": 0.21525876671075822,
+        "maximumMeasuredRootMps": 0.0,
+        "maximumYawDegreesPerSecond": 0.0,
+        "sampledFramesBelowMinus1mm": 1,
+        "sampledFramesBelowMinus10mm": 1
+      },
+      "walk1p4": {
+        "frames": 28,
+        "contactBearingFrames": 28,
+        "minimumSoleHeightMeters": -0.02508355677127838,
+        "maximumStableContactVertexSpeedMps": 5.4557647705078125,
+        "meanOfPerFrameMaximumContactSpeedMps": 0.34899418603111243,
+        "maximumMeasuredRootMps": 1.3999786376953125,
+        "maximumYawDegreesPerSecond": 0.0,
+        "sampledFramesBelowMinus1mm": 1,
+        "sampledFramesBelowMinus10mm": 1
+      },
+      "walkStop": {
+        "frames": 24,
+        "contactBearingFrames": 24,
+        "minimumSoleHeightMeters": -0.03520162031054497,
+        "maximumStableContactVertexSpeedMps": 6.070451259613037,
+        "meanOfPerFrameMaximumContactSpeedMps": 0.3548879474401474,
+        "maximumMeasuredRootMps": 0.0,
+        "maximumYawDegreesPerSecond": 0.0,
+        "sampledFramesBelowMinus1mm": 1,
+        "sampledFramesBelowMinus10mm": 1
+      }
+    },
+    "oneFadeOnlyComparison": {
+      "idle": {
+        "initialMinimumSoleMeters": -5.359802344173659e-07,
+        "finalMinimumSoleMeters": -5.359802344173659e-07,
+        "initialSamplesBelowMinus1mm": 0,
+        "finalSamplesBelowMinus1mm": 0,
+        "initialSamplesBelowMinus10mm": 0,
+        "finalSamplesBelowMinus10mm": 0
+      },
+      "straight4": {
+        "initialMinimumSoleMeters": -0.01651858538389206,
+        "finalMinimumSoleMeters": -0.017864979803562164,
+        "initialSamplesBelowMinus1mm": 2,
+        "finalSamplesBelowMinus1mm": 1,
+        "initialSamplesBelowMinus10mm": 1,
+        "finalSamplesBelowMinus10mm": 1
+      },
+      "stop1": {
+        "initialMinimumSoleMeters": -0.02954009175300598,
+        "finalMinimumSoleMeters": -0.009040730074048042,
+        "initialSamplesBelowMinus1mm": 3,
+        "finalSamplesBelowMinus1mm": 1,
+        "initialSamplesBelowMinus10mm": 2,
+        "finalSamplesBelowMinus10mm": 0
+      },
+      "restart4": {
+        "initialMinimumSoleMeters": -0.0166068896651268,
+        "finalMinimumSoleMeters": -0.017951611429452896,
+        "initialSamplesBelowMinus1mm": 2,
+        "finalSamplesBelowMinus1mm": 1,
+        "initialSamplesBelowMinus10mm": 1,
+        "finalSamplesBelowMinus10mm": 1
+      },
+      "right90_720": {
+        "initialMinimumSoleMeters": 0.0009998530149459839,
+        "finalMinimumSoleMeters": 0.0009998530149459839,
+        "initialSamplesBelowMinus1mm": 0,
+        "finalSamplesBelowMinus1mm": 0,
+        "initialSamplesBelowMinus10mm": 0,
+        "finalSamplesBelowMinus10mm": 0
+      },
+      "reverse180_720": {
+        "initialMinimumSoleMeters": 0.0009998306632041931,
+        "finalMinimumSoleMeters": 0.0009998306632041931,
+        "initialSamplesBelowMinus1mm": 0,
+        "finalSamplesBelowMinus1mm": 0,
+        "initialSamplesBelowMinus10mm": 0,
+        "finalSamplesBelowMinus10mm": 0
+      },
+      "forward90_720": {
+        "initialMinimumSoleMeters": 0.0009996790904551744,
+        "finalMinimumSoleMeters": 0.0009996790904551744,
+        "initialSamplesBelowMinus1mm": 0,
+        "finalSamplesBelowMinus1mm": 0,
+        "initialSamplesBelowMinus10mm": 0,
+        "finalSamplesBelowMinus10mm": 0
+      },
+      "stop2": {
+        "initialMinimumSoleMeters": -0.03803985193371773,
+        "finalMinimumSoleMeters": -0.02947073057293892,
+        "initialSamplesBelowMinus1mm": 3,
+        "finalSamplesBelowMinus1mm": 1,
+        "initialSamplesBelowMinus10mm": 3,
+        "finalSamplesBelowMinus10mm": 1
+      },
+      "walk1p4": {
+        "initialMinimumSoleMeters": -0.030621401965618134,
+        "finalMinimumSoleMeters": -0.02508355677127838,
+        "initialSamplesBelowMinus1mm": 2,
+        "finalSamplesBelowMinus1mm": 1,
+        "initialSamplesBelowMinus10mm": 2,
+        "finalSamplesBelowMinus10mm": 1
+      },
+      "walkStop": {
+        "initialMinimumSoleMeters": -0.017831221222877502,
+        "finalMinimumSoleMeters": -0.03520162031054497,
+        "initialSamplesBelowMinus1mm": 3,
+        "finalSamplesBelowMinus1mm": 1,
+        "initialSamplesBelowMinus10mm": 2,
+        "finalSamplesBelowMinus10mm": 1
+      }
+    },
+    "comparisonConclusion": "Shorter fade reduces below-floor sample counts but some depth/slip peaks worsen; no universal improvement or continuous-duration claim",
+    "transitionSettingComparisonCompleted": true
+  },
+  "transitions": {
+    "initialActualPlayMode": true,
+    "initialFrames": 240,
+    "runMps": 4.0,
+    "yawDegreesPerSecond": 720.0,
+    "startFadeSeconds": 0.07999999821186066,
+    "stopFadeSeconds": 0.07999999821186066,
+    "rootSpeedEased": false,
+    "actualGameControllerUsed": false,
+    "osInputUsed": false,
+    "cleanRunToIdleCertified": false,
+    "rootYCompensationUsed": false,
+    "turnFootLockingSupplied": false,
+    "finalActualPlayMode": true,
+    "finalFrames": 240,
+    "destinationNormalizedTime": 0,
+    "selectedDemonstration": "Final.08/.08 phase0; measured tradeoff, not universal safe policy",
+    "moreTuningAuthorized": false,
+    "oneShorterFadeComparisonCompleted": true
+  },
+  "license": {
+    "spdx": "CC-BY-4.0",
+    "sourceUrl": "https://studio.blender.org/characters/snow/v4/",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "credit": "Snow Rig (CC) Blender Foundation | studio.blender.org",
+    "newMotion": "Original repository-authored motion fit; no external animation or service",
+    "sourceCloudRigUiIncludedOrExecuted": false
+  },
+  "compatibility": {
+    "dropInForB02Motion": false,
+    "breakingMotionChanges": [
+      "Clip turn removed",
+      "Walk/run duration, pose, designed-speed and contact semantics change"
+    ],
+    "rigMeshMaterialNamePathsMustRemainStable": true
+  },
+  "acceptedLimitation": "Owner accepts B02 elbow defect at normal distant game camera only, not close-ups",
+  "unverified": [
+    "Owner visual approval for normal-camera FirstPlayable tradeoff",
+    "Clean start/stop and footlocked rapid turns (measured defects remain)",
+    "Broader playback-rate or arbitrary partial-stick blend ranges",
+    "Actual game integration, controller, terrain and OS-input testing",
+    "Humanoid retargeting/new support-driven clips",
+    "Facial animation and wardrobe",
+    "Target-hardware performance"
+  ],
+  "gameChanges": false,
+  "phaseC": false,
+  "merge": false,
+  "automaticIntegration": false,
+  "contactMetricCaution": "With heel/toe roll, sole-centre motion is not identical to sliding at the actual planted contact patch; report method and distinguish both.",
+  "candidate": {
+    "directory": "build/male-locomotion-fit/delivery-001",
+    "blend": "character_locomotion_fit.blend",
+    "glb": "chr_player_male_poc_001.glb",
+    "sourceType": "Preserved B02; geometry/appearance/weights/restbones unchanged"
+  },
+  "preservation": {
+    "report": "build/male-locomotion-fit/validation-003/report.json",
+    "status": "PASS",
+    "savedBlend": {
+      "allTenMeshesGeometryUvWeightsNormalsMaterialsModifiers": true,
+      "appearance": true,
+      "rest58Bones": true,
+      "objectDataNamesHierarchyTransforms": true,
+      "idleAction": true,
+      "idleSeconds": true,
+      "embeddedTextsAbsent": true,
+      "sameBoneCount58": true,
+      "sameTriangles29367": true
+    },
+    "rawGlb": {
+      "geometrySkinUvsNormalsIndices": true,
+      "jointOrderNames": true,
+      "inverseBindMatrices": true,
+      "materialJson": true,
+      "embeddedImageBytes": true,
+      "idle96HzSamplesWithin1e_6TRSComponents": true,
+      "idleDurationSeconds": true,
+      "onlyIdleWalkRunNoTurn": true
+    },
+    "idleGlb96HzMaxTrsComponentError": 9.5367431640625e-07,
+    "maxSampledRoundtripSkinErrorMeters": 7.973639185365755e-06,
+    "samplingPhasesPerClip": 9
+  },
+  "recommendation": {
+    "steady4MpsFit": "GO technical/art-review candidate atplayback1",
+    "unqualifiedIntegration": "NO-GO",
+    "cleanStartStopOrPlantedRapidTurns": "NO-GO",
+    "normalCameraFirstPlayableTradeoff": "Owner decision after actual footage review",
+    "closeups": "Not approved; B02 elbow limits and transient foot/contact defects remain",
+    "noFurtherTuning": true
+  }
+}

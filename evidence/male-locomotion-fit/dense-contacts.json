@@ -1,0 +1,60 @@
+{
+  "schema": "a03-locomotion-fit-dense-contact-1",
+  "samples": {
+    "idle": {
+      "seconds": 2.0,
+      "speedMps": 0,
+      "fps": 192,
+      "frames": 385,
+      "soleVerticesPerSide": {
+        "L": 188,
+        "R": 188
+      },
+      "minSoleMeters": -7.057967650325736e-07,
+      "stableContactVertexSamples": 79104,
+      "stableContactMaxWorldSpeedMps": 2.574920654296875e-05,
+      "stableContactP95WorldSpeedMps": 1.5772159388923606e-05,
+      "stableContactRmsWorldSpeedMps": 8.004853551469408e-06,
+      "soleCentreMaxWorldSpeedMpsWhenNearGround": 2.2077632680373588e-05,
+      "sameFootStrideMeters": 0.0,
+      "stepsPerMinute": 0
+    },
+    "walk": {
+      "seconds": 1.0,
+      "speedMps": 1.4,
+      "fps": 192,
+      "frames": 193,
+      "soleVerticesPerSide": {
+        "L": 188,
+        "R": 188
+      },
+      "minSoleMeters": 0.000792182981967926,
+      "stableContactVertexSamples": 11732,
+      "stableContactMaxWorldSpeedMps": 0.7045425415561877,
+      "stableContactP95WorldSpeedMps": 0.0046593547428412,
+      "stableContactRmsWorldSpeedMps": 0.027979175090510188,
+      "soleCentreMaxWorldSpeedMpsWhenNearGround": 0.7007592497270742,
+      "sameFootStrideMeters": 1.4,
+      "stepsPerMinute": 120.0
+    },
+    "run": {
+      "seconds": 0.625,
+      "speedMps": 4.0,
+      "fps": 192,
+      "frames": 121,
+      "soleVerticesPerSide": {
+        "L": 188,
+        "R": 188
+      },
+      "minSoleMeters": -5.025416612625122e-05,
+      "stableContactVertexSamples": 3540,
+      "stableContactMaxWorldSpeedMps": 0.4185228767320961,
+      "stableContactP95WorldSpeedMps": 0.025678592935100903,
+      "stableContactRmsWorldSpeedMps": 0.04384938832096502,
+      "soleCentreMaxWorldSpeedMpsWhenNearGround": 1.1073840587614874,
+      "sameFootStrideMeters": 2.5,
+      "stepsPerMinute": 192.0
+    }
+  },
+  "method": "Actual saved Blender skin,192Hz. Translate world root along Blender-Y at declaredspeed. Stable contact uses SAME sole vertex <=3mmfloor inbothadjacentsamples; planarvelocity afterroottranslation. Foot-centre metric separatelyreported because heel/toe roll movescentres naturally. Maxima include boundaries/roll; notterrainphysics orcontinuousproof."
+}

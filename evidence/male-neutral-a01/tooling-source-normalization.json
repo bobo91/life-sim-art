@@ -1,0 +1,72 @@
+{
+  "schema": "male-neutral-a01-source-match-1",
+  "note": "Final tested scripts and published scripts are identical after repository-required CRLF-to-LF normalization. No semantic changes. Execution command snapshots retain raw hashes actually copied into Unity projects.",
+  "scripts": [
+    {
+      "file": "scripts/MaleNeutralA01ImportCheck.cs",
+      "executedWorkingCopySha256": "0648fb6a5a76603dca11149db1cbba7d56644fa8ba626d2c91e3aab93a179764",
+      "publishedLfSha256": "35c0c03fdf8ceaf687db676e3f48daa3b8de6f9622eb6e08e3c750f6b13becb1",
+      "onlyCrLfNormalization": true
+    },
+    {
+      "file": "scripts/build_male_neutral_a01.py",
+      "executedWorkingCopySha256": "1d20919bcf577226222f200b58c7eb1c65db6533c0b7b1989bc60da09c153b8d",
+      "publishedLfSha256": "615696bb08f4f1f380efab9cd471d00c325bbc35d8360ba31907de83f028689c",
+      "onlyCrLfNormalization": true
+    },
+    {
+      "file": "scripts/compose_male_neutral_review.py",
+      "executedWorkingCopySha256": "ec54d3eabc4a785a3066b38b98fbac57adb38455b90e5a9610e26d0545aad590",
+      "publishedLfSha256": "aeb90124fa8a7a6a34b98cb6bec0be2930966d2991c33a9a4c4781837be9c6e0",
+      "onlyCrLfNormalization": true
+    },
+    {
+      "file": "scripts/inspect_male_neutral_contacts.py",
+      "executedWorkingCopySha256": "a701e3750c822ad412c9e27c50910ccea91ff2eea8cd1e3a8a16e7e6742d1b5f",
+      "publishedLfSha256": "c5da5e0490ca4c59de98265958daf11b69ce6d885f87afdffbce9033e8b1d638",
+      "onlyCrLfNormalization": true
+    },
+    {
+      "file": "scripts/inspect_male_neutral_source.py",
+      "executedWorkingCopySha256": "1458463bd43ee6038b4d57ebbb1150857241ae3e56824b175799d283b0b5f2ce",
+      "publishedLfSha256": "1116d4bea6d401647930882f2d017d319008cac4f67fa95249cfb41a3fc675ff",
+      "onlyCrLfNormalization": true
+    },
+    {
+      "file": "scripts/inspect_male_source_controls.py",
+      "executedWorkingCopySha256": "b22476584ad55fbeb56b3c1b4f918f4fbd197776f22212bae244adcd1d10010c",
+      "publishedLfSha256": "d0263f0585486e75c8b8d03ff1aa20ca73de1e08e86fd71e12c0bbf137b90fb7",
+      "onlyCrLfNormalization": true
+    },
+    {
+      "file": "scripts/prepare_male_textures.py",
+      "executedWorkingCopySha256": "0004ae6817e8d8afce025decd538d12d33276a716ef8633c9174febc6c25b3cc",
+      "publishedLfSha256": "351d1ebb9abbf1d20281607a62ed2ea60ce339e7a21a59b3106c45fd1d05a5be",
+      "onlyCrLfNormalization": true
+    },
+    {
+      "file": "scripts/probe_ava_neutral_feasibility.py",
+      "executedWorkingCopySha256": "cbca96bbefd0d4c123ed02ab36bfa9b09cf05ab8a155dd53113c9306997f03bd",
+      "publishedLfSha256": "cbca96bbefd0d4c123ed02ab36bfa9b09cf05ab8a155dd53113c9306997f03bd",
+      "onlyCrLfNormalization": true
+    },
+    {
+      "file": "scripts/render_male_source_gate.py",
+      "executedWorkingCopySha256": "2f15e9071c6669009bd453902c66640c6bcb5e113b604b05211180ba3c5e0071",
+      "publishedLfSha256": "fff487c139b1fcd5b445f05952b8706ee475367ca5bf6fd81aae7a648421c363",
+      "onlyCrLfNormalization": true
+    },
+    {
+      "file": "scripts/run_male_neutral_unity_check.py",
+      "executedWorkingCopySha256": "793be903b802491d1f5e7aa2b838fc6fa671a2f5de0d9e57841f0c95cc9f7715",
+      "publishedLfSha256": "74305f9634e5fe3a715aa4d672eb743e3da9d7b2187886e3316c98976fd97afb",
+      "onlyCrLfNormalization": true
+    },
+    {
+      "file": "scripts/verify_male_neutral_a01.py",
+      "executedWorkingCopySha256": "87048339ae1ffb28fba770ac759b6876746d201298b6f0452a9d4d3dcd53d6ed",
+      "publishedLfSha256": "87048339ae1ffb28fba770ac759b6876746d201298b6f0452a9d4d3dcd53d6ed",
+      "onlyCrLfNormalization": true
+    }
+  ]
+}

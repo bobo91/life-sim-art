@@ -1,0 +1,14 @@
+{
+  "schema": "male-neutral-b01-authorization-1",
+  "date": "2026-10-28",
+  "ownerDecision": "A03 visual identity GO; 29367 budget accepted; A01/A02 preserved; no A04 or merge",
+  "authorized": "Bounded Phase B: actual Snow skeleton/skinning audit, basic idle/walk/run/turn, Blender and art-only Unity URP animation proof; report integration GO/NO-GO",
+  "prohibited": [
+    "Approved face/style changes",
+    "Game repository changes",
+    "Large generic system",
+    "Automatic merge",
+    "Unapproved purchases or services"
+  ],
+  "originalAndA03Preserved": true
+}

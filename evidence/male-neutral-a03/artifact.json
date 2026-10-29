@@ -1,0 +1,18 @@
+{
+  "schema": "male-a03-artifact-1",
+  "tag": "male-neutral-a03-v0.3",
+  "file": "male-neutral-a03-v0.3-review.zip",
+  "bytes": 181080999,
+  "sha256": "3ae53894ae1aef5c909a82d1c3d60b3f153005ca8dee0b11cfb646b2b09da6fc",
+  "modelSha256": "bed475ead3c8ab6ad21463085ed52ffa09467ccd64654f7850999655105c55a1",
+  "downloadUrl": "https://github.com/bobo91/life-sim-art/releases/download/male-neutral-a03-v0.3/male-neutral-a03-v0.3-review.zip",
+  "releaseUrl": "https://github.com/bobo91/life-sim-art/releases/tag/male-neutral-a03-v0.3",
+  "internalFiles": 97,
+  "zipAndInternalHashesPassed": true,
+  "downloadVerified": true,
+  "reviewOnly": true,
+  "triangleTargetMet": false,
+  "downloadVerifiedUtc": "2026-10-28T18:50:21.031104+00:00",
+  "downloadInternalFileChecks": 97,
+  "downloadedModelAndBlendBytesMatchFinal": true
+}

@@ -1,0 +1,971 @@
+{
+  "schema": "male-b01-motion-layout-1",
+  "source": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence",
+  "fps": 24,
+  "sourceStatus": "passed-art-skin-animation-import-reopen",
+  "sequences": [
+    {
+      "clip": "idle",
+      "fps": 24,
+      "frames": [
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0000.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0001.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0002.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0003.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0004.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0005.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0006.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0007.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0008.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0009.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0010.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0011.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0012.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0013.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0014.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0015.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0016.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0017.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0018.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0019.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0020.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0021.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0022.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0023.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0024.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0025.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0026.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0027.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0028.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0029.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0030.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0031.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0032.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0033.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0034.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0035.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0036.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0037.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0038.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0039.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0040.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0041.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0042.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0043.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0044.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0045.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0046.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\idle\\frame_0047.png"
+      ],
+      "frameCount": 48,
+      "encodedDurationSeconds": 2.0,
+      "importedClipDurationSeconds": 2.0
+    },
+    {
+      "clip": "walk",
+      "fps": 24,
+      "frames": [
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\walk\\frame_0000.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\walk\\frame_0001.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\walk\\frame_0002.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\walk\\frame_0003.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\walk\\frame_0004.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\walk\\frame_0005.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\walk\\frame_0006.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\walk\\frame_0007.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\walk\\frame_0008.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\walk\\frame_0009.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\walk\\frame_0010.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\walk\\frame_0011.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\walk\\frame_0012.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\walk\\frame_0013.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\walk\\frame_0014.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\walk\\frame_0015.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\walk\\frame_0016.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\walk\\frame_0017.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\walk\\frame_0018.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\walk\\frame_0019.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\walk\\frame_0020.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\walk\\frame_0021.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\walk\\frame_0022.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\walk\\frame_0023.png"
+      ],
+      "frameCount": 24,
+      "encodedDurationSeconds": 1.0,
+      "importedClipDurationSeconds": 1.0
+    },
+    {
+      "clip": "run",
+      "fps": 24,
+      "frames": [
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\run\\frame_0000.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\run\\frame_0001.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\run\\frame_0002.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\run\\frame_0003.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\run\\frame_0004.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\run\\frame_0005.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\run\\frame_0006.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\run\\frame_0007.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\run\\frame_0008.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\run\\frame_0009.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\run\\frame_0010.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\run\\frame_0011.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\run\\frame_0012.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\run\\frame_0013.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\run\\frame_0014.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\run\\frame_0015.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\run\\frame_0016.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\run\\frame_0017.png"
+      ],
+      "frameCount": 18,
+      "encodedDurationSeconds": 0.75,
+      "importedClipDurationSeconds": 0.75
+    },
+    {
+      "clip": "turn",
+      "fps": 24,
+      "frames": [
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0000.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0001.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0002.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0003.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0004.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0005.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0006.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0007.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0008.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0009.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0010.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0011.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0012.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0013.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0014.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0015.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0016.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0017.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0018.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0019.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0020.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0021.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0022.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0023.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0024.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0025.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0026.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0027.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0028.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0029.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0030.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0031.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0032.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0033.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0034.png",
+        "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b01\\unity-003\\evidence\\frames\\turn\\frame_0035.png"
+      ],
+      "frameCount": 36,
+      "encodedDurationSeconds": 1.5,
+      "importedClipDurationSeconds": 1.5
+    }
+  ],
+  "sourceFrames": [
+    {
+      "file": "frames/idle/frame_0000.png",
+      "bytes": 117025,
+      "sha256": "67c8ff8dcfafa74d069ea2854f3c030ee70654b43b111a7d49e5c86f3521851e"
+    },
+    {
+      "file": "frames/idle/frame_0012.png",
+      "bytes": 117271,
+      "sha256": "c6bf8021bd60dea49a8bf09527f4513d4d4b03173bc6afd7b043468a73c3ceff"
+    },
+    {
+      "file": "frames/idle/frame_0024.png",
+      "bytes": 117025,
+      "sha256": "67c8ff8dcfafa74d069ea2854f3c030ee70654b43b111a7d49e5c86f3521851e"
+    },
+    {
+      "file": "frames/idle/frame_0036.png",
+      "bytes": 116803,
+      "sha256": "f029bbefeb0f7931c7f15585741ab3951867416ced4e391db741e7ea69bcd84e"
+    },
+    {
+      "file": "frames/walk/frame_0000.png",
+      "bytes": 108116,
+      "sha256": "eab9b058b7109cb59540faf9c33e847327df561dbd8f6290dee7aaf2226755df"
+    },
+    {
+      "file": "frames/walk/frame_0006.png",
+      "bytes": 119358,
+      "sha256": "b0cdc983d2b163ce231191dd601ebd0f4ce13a144e9120c5b19085b3213bbf0c"
+    },
+    {
+      "file": "frames/walk/frame_0012.png",
+      "bytes": 119053,
+      "sha256": "1dec8d3c514106f4aa0f7cfacde97eac024f75bbed56612830b07d3365e0657f"
+    },
+    {
+      "file": "frames/walk/frame_0018.png",
+      "bytes": 111142,
+      "sha256": "378ba43429e84e1037791756309d037f1a1e7fcb2709ef4731cfd64f54a4c2c8"
+    },
+    {
+      "file": "frames/run/frame_0000.png",
+      "bytes": 107682,
+      "sha256": "66c5a5dc9cc9824795028c61df02f12dfed4c91eb28daff4bbe2bbe3686343b9"
+    },
+    {
+      "file": "frames/run/frame_0004.png",
+      "bytes": 117654,
+      "sha256": "c575ac3a1ace9e30a25b86ce6986d89c72b828eed0a05cda9b1f28d044fbac53"
+    },
+    {
+      "file": "frames/run/frame_0009.png",
+      "bytes": 114518,
+      "sha256": "97777322edb24e0d7b340cfee07cdfa2a87ed30437bc8dcddd7e6f38851daa6d"
+    },
+    {
+      "file": "frames/run/frame_0013.png",
+      "bytes": 104025,
+      "sha256": "28ae60bb30af3bf33e25c0b71213fb03e7ba5986ebb3b58f38fc057f31eac625"
+    },
+    {
+      "file": "frames/turn/frame_0000.png",
+      "bytes": 115264,
+      "sha256": "5ec1c8335758df4905ebeb0449d8e57bafe338b87e1a793ed2ae34080fbe73c1"
+    },
+    {
+      "file": "frames/turn/frame_0009.png",
+      "bytes": 116442,
+      "sha256": "752e89bd3aa148918088765e14fc179ba49fa86e987ef6a0d34ef772c2ea6e2f"
+    },
+    {
+      "file": "frames/turn/frame_0018.png",
+      "bytes": 114169,
+      "sha256": "69f6de6f430f28665d476482d35a28c43eba0ff12ad14f20f07ae0783b568914"
+    },
+    {
+      "file": "frames/turn/frame_0027.png",
+      "bytes": 120317,
+      "sha256": "6e72f672528bf4c226a87ef4b553ef9db947d5d7700f969bf5cc99b0ec8dc4c8"
+    },
+    {
+      "file": "idle_hand.png",
+      "bytes": 377594,
+      "sha256": "69137e19fb5452f9d676cd2c54ddf3626c36d9564096c37b08b4b094adc3ee4f"
+    },
+    {
+      "file": "walk_hand.png",
+      "bytes": 242997,
+      "sha256": "3b820da0fa28a1658a868d1c07d0e50f815ec47733487a31c144a337dbd17062"
+    },
+    {
+      "file": "run_hand.png",
+      "bytes": 348012,
+      "sha256": "631f6b1c5ec7538e05e4303d060634dac9c7ece2232373be1954196eb259847d"
+    },
+    {
+      "file": "turn_hand.png",
+      "bytes": 192669,
+      "sha256": "c2e6c022d34027d4de0a0b031c2a5fa4966b23e5d90816d992e596db866a6b82"
+    },
+    {
+      "file": "idle_elbow.png",
+      "bytes": 320436,
+      "sha256": "216604caa227c9632a433f771254b29efc9c362f6476f71bf1a26b43e7e664d8"
+    },
+    {
+      "file": "walk_elbow.png",
+      "bytes": 291023,
+      "sha256": "1ad6107ef347fe0a3d0449a2181a3f86d1f9350ba7ef2bf8892af13b54a059e8"
+    },
+    {
+      "file": "run_elbow.png",
+      "bytes": 278319,
+      "sha256": "79620315266bca370081e1e79742a107e67c45d36f613910a290d4fde6304977"
+    },
+    {
+      "file": "turn_elbow.png",
+      "bytes": 293417,
+      "sha256": "ae2a368528916d588b59de936a8bbb09a74d27fb0b063c6bf78aa6127d7f303c"
+    },
+    {
+      "file": "idle_knee.png",
+      "bytes": 488122,
+      "sha256": "317201b66b6dde30a50eecf3ba8501fa22a4145d1e0594a369366ee3a6f4fe30"
+    },
+    {
+      "file": "walk_knee.png",
+      "bytes": 483249,
+      "sha256": "0e2d0824979b18825ff28c1871f2458c5cc925d6195e5998eef807fe571c6cd5"
+    },
+    {
+      "file": "run_knee.png",
+      "bytes": 456264,
+      "sha256": "a8c8c948e26cb93c2d2ebef874708c34ffd20d6849bbe0d0844947776bc84c72"
+    },
+    {
+      "file": "turn_knee.png",
+      "bytes": 455764,
+      "sha256": "8b7dffd274815e6fb5a4d32e8e30d82cb2c9de4f0950772972a996526b99cb5e"
+    },
+    {
+      "file": "idle_game16m.png",
+      "bytes": 19719,
+      "sha256": "c25fe8b5b5f12afc2486c92f5c78085c07895df7523143977b213705f935f942"
+    },
+    {
+      "file": "walk_game16m.png",
+      "bytes": 19684,
+      "sha256": "d75d62b71f94d2bdff191a4b3054ff70c2a141818113fc6ecf84d92dde405727"
+    },
+    {
+      "file": "run_game16m.png",
+      "bytes": 19605,
+      "sha256": "2192f22d09a63a16b9e3a42ebae65c91ce5b7f5e3eb9f9703ee414b24b65ae84"
+    },
+    {
+      "file": "turn_game16m.png",
+      "bytes": 18952,
+      "sha256": "3729e61311da61f288ff2e1d4c542a3a23597bc17b3307074d4d5cf39edaa7de"
+    },
+    {
+      "file": "idle_full.png",
+      "bytes": 156341,
+      "sha256": "176ef82f927899f537ab1c873f712322a1a0537ef4cd09f3a34a6b8613ce8b82"
+    },
+    {
+      "file": "walk_full.png",
+      "bytes": 159349,
+      "sha256": "f6e852b9d88ef7ccb7ea2b5f3d3086a86e53ee97de2c22c2db9433f474ff4d28"
+    },
+    {
+      "file": "run_full.png",
+      "bytes": 156665,
+      "sha256": "fbb7c9635c5818815def9f4e03cf9a0c82df29d92c7b6b815a68e597a4a44f1c"
+    },
+    {
+      "file": "turn_full.png",
+      "bytes": 155675,
+      "sha256": "f2135ab97947f96dab254d4d871e9689e79ec9c395d8efe60a08d154aafb54bf"
+    },
+    {
+      "file": "frames/idle/frame_0002.png",
+      "bytes": 117193,
+      "sha256": "4d0ac6e01309a3330d9304d33d94fec2d8d70091417376bab160f506bd08b4e4"
+    },
+    {
+      "file": "frames/idle/frame_0004.png",
+      "bytes": 117073,
+      "sha256": "ed083cb177a1f0ea928b0ee6498f90c84b213572226de62db580b8cdfca9886a"
+    },
+    {
+      "file": "frames/idle/frame_0006.png",
+      "bytes": 117229,
+      "sha256": "2ab2f5b80665d0f9fecddbf1df349a6ef0f48762e2a445f3fe2b34c277aae5fd"
+    },
+    {
+      "file": "frames/idle/frame_0008.png",
+      "bytes": 117180,
+      "sha256": "8082e504089e6758346536d45adf51e37dd014f4a11b836e5fe6730c9970166c"
+    },
+    {
+      "file": "frames/idle/frame_0010.png",
+      "bytes": 117302,
+      "sha256": "bf0fec356eecffa861beef00f294e54f9ff0f9f8d6a671f7e38601351f3a9b35"
+    },
+    {
+      "file": "frames/idle/frame_0014.png",
+      "bytes": 117302,
+      "sha256": "bf0fec356eecffa861beef00f294e54f9ff0f9f8d6a671f7e38601351f3a9b35"
+    },
+    {
+      "file": "frames/idle/frame_0016.png",
+      "bytes": 117180,
+      "sha256": "8082e504089e6758346536d45adf51e37dd014f4a11b836e5fe6730c9970166c"
+    },
+    {
+      "file": "frames/idle/frame_0018.png",
+      "bytes": 117229,
+      "sha256": "2ab2f5b80665d0f9fecddbf1df349a6ef0f48762e2a445f3fe2b34c277aae5fd"
+    },
+    {
+      "file": "frames/idle/frame_0020.png",
+      "bytes": 117073,
+      "sha256": "ed083cb177a1f0ea928b0ee6498f90c84b213572226de62db580b8cdfca9886a"
+    },
+    {
+      "file": "frames/idle/frame_0022.png",
+      "bytes": 117193,
+      "sha256": "4d0ac6e01309a3330d9304d33d94fec2d8d70091417376bab160f506bd08b4e4"
+    },
+    {
+      "file": "frames/idle/frame_0026.png",
+      "bytes": 116961,
+      "sha256": "1b777e8ad8b2502ca1dc1dc1e9d3d2f3d3e2a8b41799d3770280b5dd1803de84"
+    },
+    {
+      "file": "frames/idle/frame_0028.png",
+      "bytes": 117159,
+      "sha256": "5cfcf9a05722942ef54a05672132e95b6fc1d799ff63c60086507be1aad8a52d"
+    },
+    {
+      "file": "frames/idle/frame_0030.png",
+      "bytes": 116961,
+      "sha256": "4f39c22a3b0997cbc1f1797f019c8283eca036b3606b91a4ceca4d10ec44fdc8"
+    },
+    {
+      "file": "frames/idle/frame_0032.png",
+      "bytes": 116814,
+      "sha256": "cbf2dcdff35cb2abdf8f6a123064f77f209bff3166ac5a169c41379d9d3136cc"
+    },
+    {
+      "file": "frames/idle/frame_0034.png",
+      "bytes": 117028,
+      "sha256": "8eb235da3383d0ecfe7ca2100b56a5900d862c43bf907c1404e4e17865618c0e"
+    },
+    {
+      "file": "frames/idle/frame_0038.png",
+      "bytes": 117028,
+      "sha256": "8eb235da3383d0ecfe7ca2100b56a5900d862c43bf907c1404e4e17865618c0e"
+    },
+    {
+      "file": "frames/idle/frame_0040.png",
+      "bytes": 116814,
+      "sha256": "cbf2dcdff35cb2abdf8f6a123064f77f209bff3166ac5a169c41379d9d3136cc"
+    },
+    {
+      "file": "frames/idle/frame_0042.png",
+      "bytes": 116961,
+      "sha256": "4f39c22a3b0997cbc1f1797f019c8283eca036b3606b91a4ceca4d10ec44fdc8"
+    },
+    {
+      "file": "frames/idle/frame_0044.png",
+      "bytes": 117159,
+      "sha256": "5cfcf9a05722942ef54a05672132e95b6fc1d799ff63c60086507be1aad8a52d"
+    },
+    {
+      "file": "frames/idle/frame_0046.png",
+      "bytes": 116961,
+      "sha256": "1b777e8ad8b2502ca1dc1dc1e9d3d2f3d3e2a8b41799d3770280b5dd1803de84"
+    },
+    {
+      "file": "frames/walk/frame_0002.png",
+      "bytes": 107451,
+      "sha256": "15dc490ae1b4ebceac79bb8bc378b6baac64637940ff2427b01f0685aac3b003"
+    },
+    {
+      "file": "frames/walk/frame_0004.png",
+      "bytes": 113114,
+      "sha256": "a942e1e63747c3a7a978cd2dcc4afc069cfd4a9127d098825360db4f80ae086a"
+    },
+    {
+      "file": "frames/walk/frame_0008.png",
+      "bytes": 120186,
+      "sha256": "b4623b8f78bd47383cfc03125837d9ebd8e4834dd5c88a1f6a1f63b5bb7eb056"
+    },
+    {
+      "file": "frames/walk/frame_0010.png",
+      "bytes": 120737,
+      "sha256": "898ec4370870816b6e95a6b0bf746bbd0665bc0dd8bfb399ce08f9d11cd7c5e2"
+    },
+    {
+      "file": "frames/walk/frame_0014.png",
+      "bytes": 116926,
+      "sha256": "2bfeaa890a8d14e556187edd2c304832af5a43ddf7183eb4e3a2ac345348cd9b"
+    },
+    {
+      "file": "frames/walk/frame_0016.png",
+      "bytes": 113702,
+      "sha256": "f97618bf3588414e96cdc4d3abc5b2218917802b82e3bbcb7560d25ee6f43252"
+    },
+    {
+      "file": "frames/walk/frame_0020.png",
+      "bytes": 107892,
+      "sha256": "e00c89fc3c5a6ca149354bb68bde8aa2756371ce363b1d57fdb65ef7e0b4b326"
+    },
+    {
+      "file": "frames/walk/frame_0022.png",
+      "bytes": 105640,
+      "sha256": "92f4901c78b416fb3514968d7f0281914a95f46130b67db613e3dc98311a747e"
+    },
+    {
+      "file": "frames/run/frame_0002.png",
+      "bytes": 110577,
+      "sha256": "c7440529f23d6860566565b575f261310b9c2a5ff872f16b55c033078953edb6"
+    },
+    {
+      "file": "frames/run/frame_0006.png",
+      "bytes": 117784,
+      "sha256": "51d20a42ec23a8be5b8900c2d9040b076acaa3743f9417748afeef4a53afa817"
+    },
+    {
+      "file": "frames/run/frame_0008.png",
+      "bytes": 115789,
+      "sha256": "86514d28c4ee7fdbabb993ea62dbaa509a868ad6e21500034c43e821221aa2cb"
+    },
+    {
+      "file": "frames/run/frame_0010.png",
+      "bytes": 112898,
+      "sha256": "8070b12a6fe1af82e0eeed19cb992fede8a35bd42c076524da3e04cd8d26bde1"
+    },
+    {
+      "file": "frames/run/frame_0012.png",
+      "bytes": 107301,
+      "sha256": "7bc604b2a951c2e5b54d6b8143295c2260977c12069323141e610a9c8deacaa6"
+    },
+    {
+      "file": "frames/run/frame_0014.png",
+      "bytes": 100106,
+      "sha256": "fe0df4d157d27db828e85e1db72eba8c5936a1941fb26e9cb9dfe88a03a2f076"
+    },
+    {
+      "file": "frames/run/frame_0016.png",
+      "bytes": 103695,
+      "sha256": "662a742038c65038ce8cb62f2a80d945dbf248fb2ba092a06475f740771e1897"
+    },
+    {
+      "file": "frames/turn/frame_0002.png",
+      "bytes": 116980,
+      "sha256": "9fc3637a937385dbd795d7537572cde4cbea09917531debcb7010f5841efbe1e"
+    },
+    {
+      "file": "frames/turn/frame_0004.png",
+      "bytes": 118196,
+      "sha256": "ded967a4f60a4906961e17b2eae35e22501ea611ea1f86fdaf083fd4967f881f"
+    },
+    {
+      "file": "frames/turn/frame_0006.png",
+      "bytes": 118723,
+      "sha256": "f4026d39fd59c4b3b77e5df14294370f2f686a79c27537e6699a3418e8609746"
+    },
+    {
+      "file": "frames/turn/frame_0008.png",
+      "bytes": 117474,
+      "sha256": "78ae256985bfdf258a07dbf1c577a93489b2cce4f73b2c3dc97fa4d9ecbe5e2e"
+    },
+    {
+      "file": "frames/turn/frame_0010.png",
+      "bytes": 115564,
+      "sha256": "d786b6616cd7980232fcefe987574b5e8cec9662282900e3d9c50ea52ee0023f"
+    },
+    {
+      "file": "frames/turn/frame_0012.png",
+      "bytes": 113695,
+      "sha256": "c0de300994a0b2470981bc18985f01bc47720ee50ddbfc417576b4475cafafd1"
+    },
+    {
+      "file": "frames/turn/frame_0014.png",
+      "bytes": 112754,
+      "sha256": "75e623f28adb4ac0689adb14c5e4ad839b8acb1400bb0350f0baaf845886d154"
+    },
+    {
+      "file": "frames/turn/frame_0016.png",
+      "bytes": 112792,
+      "sha256": "e44f1df9cf5f66c7840f18e506ce7098d68d7eb0508c002de289de677d6c3375"
+    },
+    {
+      "file": "frames/turn/frame_0020.png",
+      "bytes": 115766,
+      "sha256": "8b8ae509da269ba25fa2bfd782a83b3be201455abaa685d2863a4075bc657720"
+    },
+    {
+      "file": "frames/turn/frame_0022.png",
+      "bytes": 117511,
+      "sha256": "efe6b82461f2c1aa6bceb96f8921c8f9cbd660931413bf38fd82555fe44bd8aa"
+    },
+    {
+      "file": "frames/turn/frame_0024.png",
+      "bytes": 119049,
+      "sha256": "709a4fd9e8c2d405024ce1ff42d73840b2e602d03cc2f0aaa928abdc9ee08e89"
+    },
+    {
+      "file": "frames/turn/frame_0026.png",
+      "bytes": 119820,
+      "sha256": "d1b3ecefe862266a19af02c35ff26167b775a1e7c8dba37b8b5eabed76b76c1d"
+    },
+    {
+      "file": "frames/turn/frame_0028.png",
+      "bytes": 120421,
+      "sha256": "ea897000ecfd7495d245afeed3bb9c25a40cd503a7b71d61fd44cf546700e372"
+    },
+    {
+      "file": "frames/turn/frame_0030.png",
+      "bytes": 120010,
+      "sha256": "155b88f3d805fe32f76529dc3022549cd24317156e522e31593f867e48102bea"
+    },
+    {
+      "file": "frames/turn/frame_0032.png",
+      "bytes": 117872,
+      "sha256": "08890482bdded3233fcce2aee80b10b87d0fb675366c068c8b72508c75ee5326"
+    },
+    {
+      "file": "frames/turn/frame_0034.png",
+      "bytes": 114245,
+      "sha256": "03f626086dbb45ca13980f85ef62ab1b61a48264383c69998e7752f2072870fa"
+    },
+    {
+      "file": "frames/idle/frame_0001.png",
+      "bytes": 117148,
+      "sha256": "6e9acb5f70d56b054a7f616180f226533316f2ef3ce87c0884f0687af4bd6f94"
+    },
+    {
+      "file": "frames/idle/frame_0003.png",
+      "bytes": 117086,
+      "sha256": "134b3fb777086d5c422a73e0fbc67db5435cf168a287e10badeb329764b921b2"
+    },
+    {
+      "file": "frames/idle/frame_0005.png",
+      "bytes": 117166,
+      "sha256": "8bab733dbbbed9e6aa7a3d446fa39eeb33f3c06b46169620f0dd0ed78374c931"
+    },
+    {
+      "file": "frames/idle/frame_0007.png",
+      "bytes": 117261,
+      "sha256": "8a2e23939f17b89b5bed7efa4e79919922eda160406c38bf675f426e29d7279c"
+    },
+    {
+      "file": "frames/idle/frame_0009.png",
+      "bytes": 117270,
+      "sha256": "a50b341e6be284c9a84ba0944611c11861d06cb3f46dd2110a353ced69fab821"
+    },
+    {
+      "file": "frames/idle/frame_0011.png",
+      "bytes": 117343,
+      "sha256": "9ac89b4474425b8a3fc870effb2fc0cdb926d6d7e6d0cd6c49c034a00a99a1dd"
+    },
+    {
+      "file": "frames/idle/frame_0013.png",
+      "bytes": 117343,
+      "sha256": "9ac89b4474425b8a3fc870effb2fc0cdb926d6d7e6d0cd6c49c034a00a99a1dd"
+    },
+    {
+      "file": "frames/idle/frame_0015.png",
+      "bytes": 117270,
+      "sha256": "a50b341e6be284c9a84ba0944611c11861d06cb3f46dd2110a353ced69fab821"
+    },
+    {
+      "file": "frames/idle/frame_0017.png",
+      "bytes": 117261,
+      "sha256": "8a2e23939f17b89b5bed7efa4e79919922eda160406c38bf675f426e29d7279c"
+    },
+    {
+      "file": "frames/idle/frame_0019.png",
+      "bytes": 117166,
+      "sha256": "8bab733dbbbed9e6aa7a3d446fa39eeb33f3c06b46169620f0dd0ed78374c931"
+    },
+    {
+      "file": "frames/idle/frame_0021.png",
+      "bytes": 117086,
+      "sha256": "134b3fb777086d5c422a73e0fbc67db5435cf168a287e10badeb329764b921b2"
+    },
+    {
+      "file": "frames/idle/frame_0023.png",
+      "bytes": 117148,
+      "sha256": "6e9acb5f70d56b054a7f616180f226533316f2ef3ce87c0884f0687af4bd6f94"
+    },
+    {
+      "file": "frames/idle/frame_0025.png",
+      "bytes": 117203,
+      "sha256": "37a364fa56404b2429f28319a6bedef2dee849e438e6ca351bc316c5e3348cf5"
+    },
+    {
+      "file": "frames/idle/frame_0027.png",
+      "bytes": 116959,
+      "sha256": "4dcdaab1fc2d64f8464b4be1135d53a8ec3ec2f44da67bae8658f551b9700c28"
+    },
+    {
+      "file": "frames/idle/frame_0029.png",
+      "bytes": 117125,
+      "sha256": "da559d6cf8ea016cb14404d8dc66fdd2f35dc3112c3f9a8916e7b254df1d4fb8"
+    },
+    {
+      "file": "frames/idle/frame_0031.png",
+      "bytes": 116956,
+      "sha256": "42d604146ed1658b997bf7eb5d3e40d217f962ed11e2cf944f0073eefb08a877"
+    },
+    {
+      "file": "frames/idle/frame_0033.png",
+      "bytes": 116882,
+      "sha256": "3daef5299c123558a836ec1176507a46ed24fabdaef27d16a8b59d85eeb21091"
+    },
+    {
+      "file": "frames/idle/frame_0035.png",
+      "bytes": 116943,
+      "sha256": "a3f995d03ac6c3373f69ed36af37b5ed2101da6951a8e5f05d9d951cf07ead05"
+    },
+    {
+      "file": "frames/idle/frame_0037.png",
+      "bytes": 116943,
+      "sha256": "a3f995d03ac6c3373f69ed36af37b5ed2101da6951a8e5f05d9d951cf07ead05"
+    },
+    {
+      "file": "frames/idle/frame_0039.png",
+      "bytes": 116882,
+      "sha256": "3daef5299c123558a836ec1176507a46ed24fabdaef27d16a8b59d85eeb21091"
+    },
+    {
+      "file": "frames/idle/frame_0041.png",
+      "bytes": 116956,
+      "sha256": "42d604146ed1658b997bf7eb5d3e40d217f962ed11e2cf944f0073eefb08a877"
+    },
+    {
+      "file": "frames/idle/frame_0043.png",
+      "bytes": 117125,
+      "sha256": "da559d6cf8ea016cb14404d8dc66fdd2f35dc3112c3f9a8916e7b254df1d4fb8"
+    },
+    {
+      "file": "frames/idle/frame_0045.png",
+      "bytes": 116959,
+      "sha256": "4dcdaab1fc2d64f8464b4be1135d53a8ec3ec2f44da67bae8658f551b9700c28"
+    },
+    {
+      "file": "frames/idle/frame_0047.png",
+      "bytes": 117203,
+      "sha256": "37a364fa56404b2429f28319a6bedef2dee849e438e6ca351bc316c5e3348cf5"
+    },
+    {
+      "file": "frames/walk/frame_0001.png",
+      "bytes": 107909,
+      "sha256": "b717cf30ad133834e7674ac8bb475fcc6a8269b6c2f08c17b6e54b3270f6c921"
+    },
+    {
+      "file": "frames/walk/frame_0003.png",
+      "bytes": 110285,
+      "sha256": "c42081347e6d1f2a2b2813bfd52124ef217eb0d707cb19149e7589a9b49b0afc"
+    },
+    {
+      "file": "frames/walk/frame_0005.png",
+      "bytes": 116349,
+      "sha256": "7633f7166d60c77dd340488de2a15b8f8cce88264cfc193ad741a28a46fe17ff"
+    },
+    {
+      "file": "frames/walk/frame_0007.png",
+      "bytes": 120275,
+      "sha256": "95f9afeb0550b0f91bc3120131b93e429bc36fb4fe59abefb0425daa53a1d92d"
+    },
+    {
+      "file": "frames/walk/frame_0009.png",
+      "bytes": 120445,
+      "sha256": "85e88864589d3dcc1e93d5335c468d219b46763a7c13010045ea752e3c528bd0"
+    },
+    {
+      "file": "frames/walk/frame_0011.png",
+      "bytes": 119825,
+      "sha256": "5641773fb09b9e4153245b68898127fa35c8d55e6c8eac16d89ea3295c9ecb0c"
+    },
+    {
+      "file": "frames/walk/frame_0013.png",
+      "bytes": 117985,
+      "sha256": "2417b66802e2b16688e9b0bf8affc33f827125270ab5d87611ad6ef5412e1262"
+    },
+    {
+      "file": "frames/walk/frame_0015.png",
+      "bytes": 115554,
+      "sha256": "6d6ad0ef04a538ceb2b159173ddfbff3ce5e78139c67e935aeffb0a61d16e137"
+    },
+    {
+      "file": "frames/walk/frame_0017.png",
+      "bytes": 112590,
+      "sha256": "aac26d93078e418f89d0ea24721f86a850168d4a580377d845b18de65a2dfa66"
+    },
+    {
+      "file": "frames/walk/frame_0019.png",
+      "bytes": 109501,
+      "sha256": "427685171f40633b5d880ba27e7dfcf5e7934db2ebf36edead8fa356a5ecc5bd"
+    },
+    {
+      "file": "frames/walk/frame_0021.png",
+      "bytes": 106369,
+      "sha256": "ad60a39eda305753f5a836a482819ead1789034ea4ede994f958be6fdf7ec20a"
+    },
+    {
+      "file": "frames/walk/frame_0023.png",
+      "bytes": 105739,
+      "sha256": "408e7c078cc189ad9ff6fbc77f873f5cb0b554f0388821f8b6af500e5cd48c41"
+    },
+    {
+      "file": "frames/run/frame_0001.png",
+      "bytes": 107862,
+      "sha256": "3b1a8ba3539e90b4108046e54bb5411511e9c37dc4e2be20541fb97a861ec375"
+    },
+    {
+      "file": "frames/run/frame_0003.png",
+      "bytes": 115727,
+      "sha256": "3afa050b3681f72b678921d699a8b38c87e313fd150ed28458d1c144a162fff6"
+    },
+    {
+      "file": "frames/run/frame_0005.png",
+      "bytes": 118149,
+      "sha256": "d9d5791e7ab89002136535b5850156362e170584a4f44f18c4e3bf3c2e7a3260"
+    },
+    {
+      "file": "frames/run/frame_0007.png",
+      "bytes": 117177,
+      "sha256": "c654569b1b71df55ac8c1f48103c1398e8792d77249e38a06926f46235488030"
+    },
+    {
+      "file": "frames/run/frame_0011.png",
+      "bytes": 110001,
+      "sha256": "33d6d9f5a12298d6d151f4360b5983a55017db78068a6bb42021e9af2f7e9047"
+    },
+    {
+      "file": "frames/run/frame_0015.png",
+      "bytes": 97804,
+      "sha256": "8d147a04f7c21dfd09b2400dc2b73ffa7b2b930ef3cde5300b7cbc35ae28cbc7"
+    },
+    {
+      "file": "frames/run/frame_0017.png",
+      "bytes": 104304,
+      "sha256": "fd50aa81b3dc8c18cf6f910f4ea2f3feb986262e8789705f5ec141c6467612fd"
+    },
+    {
+      "file": "frames/turn/frame_0001.png",
+      "bytes": 116318,
+      "sha256": "209d784c683b379f56fa3c0eb8eb02c494a61c3aadc482328e32e635a41a8d36"
+    },
+    {
+      "file": "frames/turn/frame_0003.png",
+      "bytes": 117605,
+      "sha256": "e5a4ecfaaafc49a54c281cb04676ee7a8585529d24a10de194506e5f5aef0a5e"
+    },
+    {
+      "file": "frames/turn/frame_0005.png",
+      "bytes": 118908,
+      "sha256": "9b0fdd93801fd46fea616246b6aeddf3a9093d71f307661c7331ccc9424e99bd"
+    },
+    {
+      "file": "frames/turn/frame_0007.png",
+      "bytes": 118403,
+      "sha256": "1e09bb6528f2814c839db9be5fd6473274ca2d8e7bb32b609493190824181c25"
+    },
+    {
+      "file": "frames/turn/frame_0011.png",
+      "bytes": 114420,
+      "sha256": "930862786590524c5ab127e8c8e9819294eedfdcf01bc1d28b3f6daf54d73927"
+    },
+    {
+      "file": "frames/turn/frame_0013.png",
+      "bytes": 112925,
+      "sha256": "0cd5ad1f41abc9bbc4822712a794c63f6edcb92bcba29af8c64926c9529166a2"
+    },
+    {
+      "file": "frames/turn/frame_0015.png",
+      "bytes": 112803,
+      "sha256": "d155d96539f4c0ae31b2e1601a19ee6af925ac1525494ac0349288fe6d5ca7b5"
+    },
+    {
+      "file": "frames/turn/frame_0017.png",
+      "bytes": 113369,
+      "sha256": "c57a7102cba13ccdc67534eafb859b3c0e4f683069deb78c892d806f63f69940"
+    },
+    {
+      "file": "frames/turn/frame_0019.png",
+      "bytes": 115062,
+      "sha256": "449b4bc83b75497be8817bea099b451dd5b5dc22798c071ddbd317c662ff9df1"
+    },
+    {
+      "file": "frames/turn/frame_0021.png",
+      "bytes": 116517,
+      "sha256": "51ed5b3ba216036508e280db9d2c09511945690c6ac175a8bd8fcc6dbba52641"
+    },
+    {
+      "file": "frames/turn/frame_0023.png",
+      "bytes": 118197,
+      "sha256": "dc23231611ac6cb63f24df8a4ba6067d57f1cc0172c8cb088323867f04cbda93"
+    },
+    {
+      "file": "frames/turn/frame_0025.png",
+      "bytes": 119614,
+      "sha256": "e717a0e6d6796342768ec638f620fee1d3fb313f085d3b2f896c847eacab7f6e"
+    },
+    {
+      "file": "frames/turn/frame_0029.png",
+      "bytes": 120386,
+      "sha256": "8a3de398d143a251de935666cc6e2d0469fc50c6f887ec8013b7b3330f052759"
+    },
+    {
+      "file": "frames/turn/frame_0031.png",
+      "bytes": 119237,
+      "sha256": "4aa9a43ca722cf50837f5423ad4747ebd3cb4a39ab0c0f32aa838cf13c12fa1c"
+    },
+    {
+      "file": "frames/turn/frame_0033.png",
+      "bytes": 116293,
+      "sha256": "f804ca6710cb0d9b8dbafa25fe146a260ec64180e3afbfec98e2b4deae8440ea"
+    },
+    {
+      "file": "frames/turn/frame_0035.png",
+      "bytes": 111721,
+      "sha256": "ead4013208de8a32515f8f82338d4aced33b15cf98cf83cb6539cbfbdafd124a"
+    }
+  ],
+  "gifFrameDurationsMs": [
+    80,
+    90,
+    80,
+    80,
+    90,
+    80,
+    80,
+    90,
+    80,
+    80,
+    90,
+    80,
+    80,
+    90,
+    80,
+    80,
+    90,
+    80,
+    80,
+    90,
+    80,
+    80,
+    90,
+    80,
+    80,
+    90,
+    80,
+    80,
+    90,
+    80,
+    80,
+    90,
+    80,
+    80,
+    90,
+    80,
+    80,
+    90,
+    80,
+    80,
+    90,
+    80,
+    80,
+    90,
+    80,
+    80,
+    90,
+    80,
+    80,
+    90,
+    80,
+    80,
+    90,
+    80,
+    80,
+    90,
+    80,
+    80,
+    90,
+    80,
+    80,
+    90,
+    80
+  ],
+  "gifTotalDurationMs": 5250,
+  "processing": "PNG: layout, proportional downscale and labels only. GIF: every second native frame, proportional downscale, original sampling speed rounded to GIF10ms timing, palette quantization. No geometry/pose/recolor/retouch.",
+  "gameCamera": "16m art proxy, not game-world view",
+  "credit": "Snow Rig (CC) Blender Foundation | studio.blender.org | CC BY4.0 | modified"
+}

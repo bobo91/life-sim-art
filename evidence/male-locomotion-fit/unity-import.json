@@ -1,0 +1,664 @@
+{
+    "schema": "male-fit-unity-motion-1",
+    "status": "passed-art-skin-animation-import-reopen",
+    "unityVersion": "6000.5.8f1",
+    "graphicsDevice": "Direct3D11",
+    "gltfastVersion": "6.20.0",
+    "urpVersion": "17.5.0",
+    "importer": "GLTFast.Editor.GltfImporter",
+    "savedReopenedPoseMatches": true,
+    "urpRendered": true,
+    "matchedBaselineComparisonsRendered": false,
+    "humanoidTested": false,
+    "gameIntegrationTested": false,
+    "triangles": 29367,
+    "materialCount": 9,
+    "skinnedMeshes": 10,
+    "staticMeshes": 0,
+    "meshes": [
+        {
+            "name": "M01_body",
+            "vertices": 3244,
+            "triangles": 5460,
+            "bones": 58,
+            "bindposes": 58,
+            "maxInfluences": 4,
+            "maxWeightSumError": 1.1920928955078126e-7,
+            "finite": true,
+            "indicesValid": true,
+            "bonesAssigned": true
+        },
+        {
+            "name": "M01_eyebrows",
+            "vertices": 1014,
+            "triangles": 1504,
+            "bones": 58,
+            "bindposes": 58,
+            "maxInfluences": 1,
+            "maxWeightSumError": 0.0,
+            "finite": true,
+            "indicesValid": true,
+            "bonesAssigned": true
+        },
+        {
+            "name": "M01_eyes",
+            "vertices": 1482,
+            "triangles": 2756,
+            "bones": 58,
+            "bindposes": 58,
+            "maxInfluences": 1,
+            "maxWeightSumError": 0.0,
+            "finite": true,
+            "indicesValid": true,
+            "bonesAssigned": true
+        },
+        {
+            "name": "M01_hair_base",
+            "vertices": 1309,
+            "triangles": 2528,
+            "bones": 58,
+            "bindposes": 58,
+            "maxInfluences": 1,
+            "maxWeightSumError": 0.0,
+            "finite": true,
+            "indicesValid": true,
+            "bonesAssigned": true
+        },
+        {
+            "name": "M01_head",
+            "vertices": 4118,
+            "triangles": 7264,
+            "bones": 58,
+            "bindposes": 58,
+            "maxInfluences": 4,
+            "maxWeightSumError": 1.1920928955078126e-7,
+            "finite": true,
+            "indicesValid": true,
+            "bonesAssigned": true
+        },
+        {
+            "name": "M01_pants",
+            "vertices": 2070,
+            "triangles": 3365,
+            "bones": 58,
+            "bindposes": 58,
+            "maxInfluences": 4,
+            "maxWeightSumError": 1.1920928955078126e-7,
+            "finite": true,
+            "indicesValid": true,
+            "bonesAssigned": true
+        },
+        {
+            "name": "M01_shirt",
+            "vertices": 1384,
+            "triangles": 2368,
+            "bones": 58,
+            "bindposes": 58,
+            "maxInfluences": 3,
+            "maxWeightSumError": 1.1920928955078126e-7,
+            "finite": true,
+            "indicesValid": true,
+            "bonesAssigned": true
+        },
+        {
+            "name": "M01_shoes_base",
+            "vertices": 984,
+            "triangles": 1130,
+            "bones": 58,
+            "bindposes": 58,
+            "maxInfluences": 2,
+            "maxWeightSumError": 0.0,
+            "finite": true,
+            "indicesValid": true,
+            "bonesAssigned": true
+        },
+        {
+            "name": "M01_shoes_bottom",
+            "vertices": 376,
+            "triangles": 576,
+            "bones": 58,
+            "bindposes": 58,
+            "maxInfluences": 2,
+            "maxWeightSumError": 0.0,
+            "finite": true,
+            "indicesValid": true,
+            "bonesAssigned": true
+        },
+        {
+            "name": "M01_shoes_parts",
+            "vertices": 1813,
+            "triangles": 2416,
+            "bones": 58,
+            "bindposes": 58,
+            "maxInfluences": 1,
+            "maxWeightSumError": 0.0,
+            "finite": true,
+            "indicesValid": true,
+            "bonesAssigned": true
+        }
+    ],
+    "materials": [
+        {
+            "name": "M01_skin",
+            "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+            "pipelineTag": "UniversalPipeline",
+            "supported": true,
+            "shaderHasError": false,
+            "baseTexturePresent": true
+        },
+        {
+            "name": "M01_hair",
+            "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+            "pipelineTag": "UniversalPipeline",
+            "supported": true,
+            "shaderHasError": false,
+            "baseTexturePresent": false
+        },
+        {
+            "name": "M01_eyes",
+            "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+            "pipelineTag": "UniversalPipeline",
+            "supported": true,
+            "shaderHasError": false,
+            "baseTexturePresent": true
+        },
+        {
+            "name": "M01_skin_darker",
+            "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+            "pipelineTag": "UniversalPipeline",
+            "supported": true,
+            "shaderHasError": false,
+            "baseTexturePresent": true
+        },
+        {
+            "name": "M01_skin_upper_lip",
+            "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+            "pipelineTag": "UniversalPipeline",
+            "supported": true,
+            "shaderHasError": false,
+            "baseTexturePresent": true
+        },
+        {
+            "name": "M01_skin_lower_lip",
+            "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+            "pipelineTag": "UniversalPipeline",
+            "supported": true,
+            "shaderHasError": false,
+            "baseTexturePresent": true
+        },
+        {
+            "name": "M01_pants",
+            "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+            "pipelineTag": "UniversalPipeline",
+            "supported": true,
+            "shaderHasError": false,
+            "baseTexturePresent": true
+        },
+        {
+            "name": "M01_shirt",
+            "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+            "pipelineTag": "UniversalPipeline",
+            "supported": true,
+            "shaderHasError": false,
+            "baseTexturePresent": false
+        },
+        {
+            "name": "M01_canvas_shoes",
+            "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+            "pipelineTag": "UniversalPipeline",
+            "supported": true,
+            "shaderHasError": false,
+            "baseTexturePresent": true
+        }
+    ],
+    "clips": [
+        {
+            "name": "idle",
+            "duration": 2.0,
+            "curves": 580,
+            "frameCount": 48,
+            "legacy": false,
+            "finite": true,
+            "hasMotion": true,
+            "loopClosureMeters": 0.0,
+            "samples": [
+                {
+                    "time": 0.0,
+                    "min": [
+                        -0.31320810317993166,
+                        -5.334393904377066e-7,
+                        -0.15313637256622315
+                    ],
+                    "max": [
+                        0.31320714950561526,
+                        1.7274045944213868,
+                        0.15313759446144105
+                    ],
+                    "sha256": "11844c0181ff790028410a75fb5ae15dba3d8d61dad4213bda2fa224a8ee7f02",
+                    "maxChangeFromFirst": 0.0
+                },
+                {
+                    "time": 0.25,
+                    "min": [
+                        -0.31320810317993166,
+                        -3.5152211808053837e-7,
+                        -0.15313637256622315
+                    ],
+                    "max": [
+                        0.31320714950561526,
+                        1.7284653186798096,
+                        0.15313756465911866
+                    ],
+                    "sha256": "5fcb5bce2a92d419756d39601afb9759ea4096e5b7fbb3ea954216b6da268cd9",
+                    "maxChangeFromFirst": 0.006757543887943029
+                },
+                {
+                    "time": 0.5,
+                    "min": [
+                        -0.31320786476135256,
+                        -4.753343887387018e-7,
+                        -0.15313637256622315
+                    ],
+                    "max": [
+                        0.3132070302963257,
+                        1.7289046049118043,
+                        0.15313759446144105
+                    ],
+                    "sha256": "94622148cd89c2648ac54401dcf03246e2446a481a573f55d38675dbdb88e0ea",
+                    "maxChangeFromFirst": 0.00955995637923479
+                },
+                {
+                    "time": 0.75,
+                    "min": [
+                        -0.31320810317993166,
+                        -3.5152211808053837e-7,
+                        -0.15313637256622315
+                    ],
+                    "max": [
+                        0.31320714950561526,
+                        1.7284653186798096,
+                        0.15313756465911866
+                    ],
+                    "sha256": "5fcb5bce2a92d419756d39601afb9759ea4096e5b7fbb3ea954216b6da268cd9",
+                    "maxChangeFromFirst": 0.006757543887943029
+                },
+                {
+                    "time": 1.0,
+                    "min": [
+                        -0.31320810317993166,
+                        -5.334393904377066e-7,
+                        -0.15313637256622315
+                    ],
+                    "max": [
+                        0.31320714950561526,
+                        1.7274045944213868,
+                        0.15313759446144105
+                    ],
+                    "sha256": "11844c0181ff790028410a75fb5ae15dba3d8d61dad4213bda2fa224a8ee7f02",
+                    "maxChangeFromFirst": 0.0
+                },
+                {
+                    "time": 1.25,
+                    "min": [
+                        -0.3132079839706421,
+                        -4.160875164416211e-7,
+                        -0.15313638746738435
+                    ],
+                    "max": [
+                        0.31320714950561526,
+                        1.7263438701629639,
+                        0.1531376838684082
+                    ],
+                    "sha256": "7418c3fa17031215e03fb3682c5d263e1f357b8cfa1958b24ed860c2ec88d79f",
+                    "maxChangeFromFirst": 0.006746381986886263
+                },
+                {
+                    "time": 1.5,
+                    "min": [
+                        -0.3132079839706421,
+                        -4.908971504846704e-7,
+                        -0.15313637256622315
+                    ],
+                    "max": [
+                        0.3132070302963257,
+                        1.7259045839309693,
+                        0.15313765406608582
+                    ],
+                    "sha256": "d859ba88d6cd5049e2cc674ad4d128271c9fc00155867a768d5dead79c83cad5",
+                    "maxChangeFromFirst": 0.00953751802444458
+                },
+                {
+                    "time": 1.75,
+                    "min": [
+                        -0.3132079839706421,
+                        -4.160875164416211e-7,
+                        -0.15313638746738435
+                    ],
+                    "max": [
+                        0.31320714950561526,
+                        1.7263438701629639,
+                        0.1531376838684082
+                    ],
+                    "sha256": "7418c3fa17031215e03fb3682c5d263e1f357b8cfa1958b24ed860c2ec88d79f",
+                    "maxChangeFromFirst": 0.006746381986886263
+                },
+                {
+                    "time": 2.0,
+                    "min": [
+                        -0.31320810317993166,
+                        -5.334393904377066e-7,
+                        -0.15313637256622315
+                    ],
+                    "max": [
+                        0.31320714950561526,
+                        1.7274045944213868,
+                        0.15313759446144105
+                    ],
+                    "sha256": "11844c0181ff790028410a75fb5ae15dba3d8d61dad4213bda2fa224a8ee7f02",
+                    "maxChangeFromFirst": 0.0
+                }
+            ]
+        },
+        {
+            "name": "run",
+            "duration": 0.625,
+            "curves": 580,
+            "frameCount": 15,
+            "legacy": false,
+            "finite": true,
+            "hasMotion": true,
+            "loopClosureMeters": 0.0,
+            "samples": [
+                {
+                    "time": 0.0,
+                    "min": [
+                        -0.31356632709503176,
+                        0.0010005366057157517,
+                        -0.497965008020401
+                    ],
+                    "max": [
+                        0.313565731048584,
+                        1.6523407697677613,
+                        0.5025778412818909
+                    ],
+                    "sha256": "ebfea6b644d679987e1512be23ac27be531a6f369e900c074afab8873f0f653c",
+                    "maxChangeFromFirst": 0.0
+                },
+                {
+                    "time": 0.078125,
+                    "min": [
+                        -0.318967342376709,
+                        0.0006584596703760326,
+                        -0.2070397436618805
+                    ],
+                    "max": [
+                        0.30812132358551028,
+                        1.6374539136886597,
+                        0.4732128381729126
+                    ],
+                    "sha256": "14fd95df6c82e94e8d15ecd3570d90d2160c0664bd06ad7309eb4f58b8b7b781",
+                    "maxChangeFromFirst": 0.34275054931640627
+                },
+                {
+                    "time": 0.15625,
+                    "min": [
+                        -0.32118093967437746,
+                        -0.00013937056064605713,
+                        -0.3897402882575989
+                    ],
+                    "max": [
+                        0.30585312843322756,
+                        1.645131230354309,
+                        0.392283171415329
+                    ],
+                    "sha256": "9e81f464f3abb2044c6e9e5d897a9ae9ff78b473224665903124ecd1b1a74fff",
+                    "maxChangeFromFirst": 0.6732475757598877
+                },
+                {
+                    "time": 0.234375,
+                    "min": [
+                        -0.3189612627029419,
+                        0.030351251363754274,
+                        -0.5837557911872864
+                    ],
+                    "max": [
+                        0.3081151247024536,
+                        1.6601543426513672,
+                        0.5818488001823425
+                    ],
+                    "sha256": "b22f6bd04b2d19d7945719853839bc4acb6ed5ccd707d6b7c35effef484fb219",
+                    "maxChangeFromFirst": 0.8595240712165833
+                },
+                {
+                    "time": 0.3125,
+                    "min": [
+                        -0.31356632709503176,
+                        0.0010006483644247056,
+                        -0.4979651868343353
+                    ],
+                    "max": [
+                        0.3135654926300049,
+                        1.6523407697677613,
+                        0.502577006816864
+                    ],
+                    "sha256": "175efd2301e3c5eeabbb87758f2bca2fb91cd270930e249761dabd09e3c9ee69",
+                    "maxChangeFromFirst": 0.776782214641571
+                },
+                {
+                    "time": 0.390625,
+                    "min": [
+                        -0.308121919631958,
+                        0.00065855763386935,
+                        -0.2070397138595581
+                    ],
+                    "max": [
+                        0.3189666271209717,
+                        1.6369916200637818,
+                        0.47321200370788576
+                    ],
+                    "sha256": "7871f385fb4e7e9c6aae005d80b90a88f0819ee3a1c2a4bb72021015c7f098d9",
+                    "maxChangeFromFirst": 0.5563026070594788
+                },
+                {
+                    "time": 0.46875,
+                    "min": [
+                        -0.3058539628982544,
+                        -0.00013952702283859253,
+                        -0.3897402584552765
+                    ],
+                    "max": [
+                        0.32117974758148196,
+                        1.6444793939590455,
+                        0.39228299260139468
+                    ],
+                    "sha256": "1bf1eb4913fb5c93891ffd0ca459c0d02d376e61c517ae750d591690d1e6b97d",
+                    "maxChangeFromFirst": 0.28476187586784365
+                },
+                {
+                    "time": 0.546875,
+                    "min": [
+                        -0.30811572074890139,
+                        0.030351407825946809,
+                        -0.5837559700012207
+                    ],
+                    "max": [
+                        0.3189607858657837,
+                        1.6596919298171998,
+                        0.5818488001823425
+                    ],
+                    "sha256": "b4ccb641d3725bc4b598f3fdfaf0ed6196f8f0eabcbc0268437003d146a3651d",
+                    "maxChangeFromFirst": 0.17648831009864808
+                },
+                {
+                    "time": 0.625,
+                    "min": [
+                        -0.31356632709503176,
+                        0.0010005366057157517,
+                        -0.497965008020401
+                    ],
+                    "max": [
+                        0.313565731048584,
+                        1.6523407697677613,
+                        0.5025778412818909
+                    ],
+                    "sha256": "ebfea6b644d679987e1512be23ac27be531a6f369e900c074afab8873f0f653c",
+                    "maxChangeFromFirst": 0.0
+                }
+            ]
+        },
+        {
+            "name": "walk",
+            "duration": 1.0,
+            "curves": 580,
+            "frameCount": 24,
+            "legacy": false,
+            "finite": true,
+            "hasMotion": true,
+            "loopClosureMeters": 0.0,
+            "samples": [
+                {
+                    "time": 0.0,
+                    "min": [
+                        -0.31295526027679446,
+                        -0.00022887438535690308,
+                        -0.4561101794242859
+                    ],
+                    "max": [
+                        0.312954306602478,
+                        1.6885932683944703,
+                        0.46501022577285769
+                    ],
+                    "sha256": "6d9fecca3f9a0a8158010a14bb2702d893004f9d56500582d4ba4b8e33e94d7e",
+                    "maxChangeFromFirst": 0.0
+                },
+                {
+                    "time": 0.125,
+                    "min": [
+                        -0.3184865713119507,
+                        0.001000658725388348,
+                        -0.5555514097213745
+                    ],
+                    "max": [
+                        0.3073720932006836,
+                        1.6873034238815308,
+                        0.2981337606906891
+                    ],
+                    "sha256": "fee331269d59de63ab2e5b7136290cea6e1ed61cafa916872084e95ff1b053e8",
+                    "maxChangeFromFirst": 0.17849290370941163
+                },
+                {
+                    "time": 0.25,
+                    "min": [
+                        -0.3207629919052124,
+                        0.00100046768784523,
+                        -0.345459520816803
+                    ],
+                    "max": [
+                        0.30504488945007326,
+                        1.6789019107818604,
+                        0.155310720205307
+                    ],
+                    "sha256": "c69cdd1a91838b5d95e574a31eeb50eb3c7c6e117609236d5a88705c3041c5d2",
+                    "maxChangeFromFirst": 0.35061022639274599
+                },
+                {
+                    "time": 0.375,
+                    "min": [
+                        -0.3184865713119507,
+                        0.001000100513920188,
+                        -0.32996824383735659
+                    ],
+                    "max": [
+                        0.30737221240997317,
+                        1.6802499294281006,
+                        0.3442866802215576
+                    ],
+                    "sha256": "c5b3f4468b402b8abc5168ee24bc756644e3782c3bfa279d6ef653df8a82d7fc",
+                    "maxChangeFromFirst": 0.5825303792953491
+                },
+                {
+                    "time": 0.5,
+                    "min": [
+                        -0.312955379486084,
+                        -0.00022887438535690308,
+                        -0.45611023902893069
+                    ],
+                    "max": [
+                        0.312954306602478,
+                        1.6885932683944703,
+                        0.46501028537750246
+                    ],
+                    "sha256": "14b668cc6c7b942db9397894da6a28104b8610048f7334c2e17379b389cd9294",
+                    "maxChangeFromFirst": 0.697102427482605
+                },
+                {
+                    "time": 0.625,
+                    "min": [
+                        -0.307373046875,
+                        0.0010005932999774814,
+                        -0.5555514097213745
+                    ],
+                    "max": [
+                        0.31848597526550295,
+                        1.6871052980422974,
+                        0.298133909702301
+                    ],
+                    "sha256": "4769872a5789b0cfc3ca4aa9deb13c0df9925e7c5129f3e8c6318e55837b4f2b",
+                    "maxChangeFromFirst": 0.8575024008750916
+                },
+                {
+                    "time": 0.75,
+                    "min": [
+                        -0.30504584312438967,
+                        0.0010005312506109477,
+                        -0.34545964002609255
+                    ],
+                    "max": [
+                        0.3207617998123169,
+                        1.6786218881607056,
+                        0.1562492549419403
+                    ],
+                    "sha256": "592fabbc4045f5cbc31582ee9a735ad121935ab044befeda92663b59b38adbbc",
+                    "maxChangeFromFirst": 0.5967516899108887
+                },
+                {
+                    "time": 0.875,
+                    "min": [
+                        -0.30737292766571047,
+                        0.0010001090122386814,
+                        -0.3289034366607666
+                    ],
+                    "max": [
+                        0.31848597526550295,
+                        1.6800518035888672,
+                        0.34428665041923525
+                    ],
+                    "sha256": "76f75ce9812cf2243e72eff6322fe4a5c1fc96a75082c9bf839ed4ada85ce203",
+                    "maxChangeFromFirst": 0.1935255229473114
+                },
+                {
+                    "time": 1.0,
+                    "min": [
+                        -0.31295526027679446,
+                        -0.00022887438535690308,
+                        -0.4561101794242859
+                    ],
+                    "max": [
+                        0.312954306602478,
+                        1.6885932683944703,
+                        0.46501022577285769
+                    ],
+                    "sha256": "6d9fecca3f9a0a8158010a14bb2702d893004f9d56500582d4ba4b8e33e94d7e",
+                    "maxChangeFromFirst": 0.0
+                }
+            ]
+        }
+    ],
+    "errors": [],
+    "importerMessages": [],
+    "limitations": [
+        "Isolated art-only Unity URP proof, not life-sim-game or final game lighting.",
+        "Direct imported clip sampling and baked skin surfaces; actual PlayMode and limited crossfade proof are recorded separately. No Humanoid Avatar, gameplay controller, physics or runtime performance certification.",
+        "Geometry samples and close-up renders do not prove absence of every self-intersection."
+    ]
+}

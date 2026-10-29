@@ -1,0 +1,474 @@
+{
+  "assetId": "chr_player_male_poc_001",
+  "phase": "B01",
+  "triangles": 29367,
+  "materialCount": 9,
+  "meshCount": 10,
+  "bones": 52,
+  "sourceOriginalSha256": "80fd0a81bca90f0efdcdcb98422df0e198ae57f4a1c239e13fb795922779b1fc",
+  "approvedA03BlendSha256": "dcd7681255f49fa704844492b0ffc6964e434ccb4ae59aaba7788b0af56ffd90",
+  "approvedA03GeometryHashesUnchanged": {
+    "M01_body": "5abbb8b126c30c4fbb804864b5efa23eb8b699460f035c5d45a5ad3a71f4dff1",
+    "M01_head": "461370a918be1486ed2d16b5212dbbf964ef808dd466a4a39b3444c74e2da234",
+    "M01_eyes": "8a0872e241e2a8ef21b19b5648b819c909cec73790c26992b91af309da37b01a",
+    "M01_eyebrows": "24b8fe665cd9d72279fa26e04be19d2ba212618b9e6bb6e2be267776ef21a13c",
+    "M01_hair_base": "d7c77d8f16fad82e32b25ae4e6f481782359bfebc1139e8be38570c873db1aac",
+    "M01_shirt": "ba02b0f701c7dd3c204707d937f9a44387a1d3c078d468624f173d022291a3ba",
+    "M01_pants": "f595a6f151cbd250f565e697777e35a6999c3071b914219ed8a93f106635c017",
+    "M01_shoes_base": "28e0f653cbf26fed03d24884e96a72fac85b5fdd5178a7efa6a536561f54a08f",
+    "M01_shoes_bottom": "723d2a3ced53ff7e84c4ebe3ce8f5ddb7a15e06721d910c95ad5755dfb23abde",
+    "M01_shoes_parts": "7db8672d9c4e756865a9ddfe837752b6d0a956bb90f8e13be2709236bfd0dff4"
+  },
+  "restSkinningMaxErrorMeters": {
+    "M01_body": 2.461018802046304e-07,
+    "M01_head": 1.2310379476739693e-07,
+    "M01_eyes": 1.1920928955078125e-07,
+    "M01_eyebrows": 1.1920928955078125e-07,
+    "M01_hair_base": 1.1920928955078464e-07,
+    "M01_shirt": 1.301187962038292e-07,
+    "M01_pants": 1.301187962038292e-07,
+    "M01_shoes_base": 2.1093993732530856e-08,
+    "M01_shoes_bottom": 2.1119677406639917e-08,
+    "M01_shoes_parts": 1.8995327925655188e-08
+  },
+  "ancestorMapping": {
+    "body": {
+      "ancestorMatchMaxMeters": 1.3348812899494078e-07,
+      "ancestorVertices": 3268
+    },
+    "head": {
+      "ancestorMatchMaxMeters": 1.2377833513710357e-07,
+      "ancestorVertices": 3719
+    },
+    "shirt": {
+      "ancestorMatchMaxMeters": 2.403028815933794e-07,
+      "ancestorVertices": 1679
+    },
+    "pants": {
+      "ancestorMatchMaxMeters": 1.8143349223009864e-07,
+      "ancestorVertices": 2631
+    },
+    "shoes_base": {
+      "ancestorMatchMaxMeters": 1.3033192658440385e-07,
+      "ancestorVertices": 2286
+    },
+    "shoes_bottom": {
+      "ancestorMatchMaxMeters": 1.2108984037695336e-07,
+      "ancestorVertices": 1048
+    },
+    "shoes_parts": {
+      "ancestorMatchMaxMeters": 1.3017211131227668e-07,
+      "ancestorVertices": 2956
+    }
+  },
+  "ignoredStaleNonBoneGroups": [
+    "DEF-Knee2.L",
+    "DEF-Knee2.R",
+    "DEF-Nose_Bridge1",
+    "DEF-Thigh1.L",
+    "DEF-Thigh1.R"
+  ],
+  "weights": {
+    "M01_body": {
+      "vertices": 2748,
+      "maxSurfaceTransferDistanceMeters": 0.003189129289239645,
+      "maxDiscardedWeightFraction": 0.0,
+      "meanDiscardedWeightFraction": 0.0,
+      "maxInfluences": 4,
+      "normalized": true
+    },
+    "M01_head": {
+      "vertices": 3719,
+      "maxSurfaceTransferDistanceMeters": 0,
+      "maxDiscardedWeightFraction": 0.0,
+      "meanDiscardedWeightFraction": 0.0,
+      "maxInfluences": 4,
+      "normalized": true
+    },
+    "M01_eyes": {
+      "vertices": 1418,
+      "maxSurfaceTransferDistanceMeters": 0,
+      "maxDiscardedWeightFraction": 0.0,
+      "meanDiscardedWeightFraction": 0.0,
+      "maxInfluences": 4,
+      "normalized": true
+    },
+    "M01_eyebrows": {
+      "vertices": 806,
+      "maxSurfaceTransferDistanceMeters": 0,
+      "maxDiscardedWeightFraction": 0.0,
+      "meanDiscardedWeightFraction": 0.0,
+      "maxInfluences": 4,
+      "normalized": true
+    },
+    "M01_hair_base": {
+      "vertices": 1309,
+      "maxSurfaceTransferDistanceMeters": 0,
+      "maxDiscardedWeightFraction": 0.0,
+      "meanDiscardedWeightFraction": 0.0,
+      "maxInfluences": 4,
+      "normalized": true
+    },
+    "M01_shirt": {
+      "vertices": 1240,
+      "maxSurfaceTransferDistanceMeters": 0.0009651508880779147,
+      "maxDiscardedWeightFraction": 0.0,
+      "meanDiscardedWeightFraction": 0.0,
+      "maxInfluences": 4,
+      "normalized": true
+    },
+    "M01_pants": {
+      "vertices": 1724,
+      "maxSurfaceTransferDistanceMeters": 0.0021049706265330315,
+      "maxDiscardedWeightFraction": 0.0,
+      "meanDiscardedWeightFraction": 0.0,
+      "maxInfluences": 4,
+      "normalized": true
+    },
+    "M01_shoes_base": {
+      "vertices": 591,
+      "maxSurfaceTransferDistanceMeters": 0.0023263925686478615,
+      "maxDiscardedWeightFraction": 0.0,
+      "meanDiscardedWeightFraction": 0.0,
+      "maxInfluences": 4,
+      "normalized": true
+    },
+    "M01_shoes_bottom": {
+      "vertices": 376,
+      "maxSurfaceTransferDistanceMeters": 0.00024129918892867863,
+      "maxDiscardedWeightFraction": 0.0,
+      "meanDiscardedWeightFraction": 0.0,
+      "maxInfluences": 4,
+      "normalized": true
+    },
+    "M01_shoes_parts": {
+      "vertices": 1478,
+      "maxSurfaceTransferDistanceMeters": 0.0009108865633606911,
+      "maxDiscardedWeightFraction": 0.0,
+      "meanDiscardedWeightFraction": 0.0,
+      "maxInfluences": 4,
+      "normalized": true
+    }
+  },
+  "clips": [
+    {
+      "name": "idle",
+      "frames": 48,
+      "fps": 24,
+      "durationSeconds": 2.0,
+      "loop": true,
+      "motion": "in-place except turn yaw90deg"
+    },
+    {
+      "name": "walk",
+      "frames": 24,
+      "fps": 24,
+      "durationSeconds": 1.0,
+      "loop": true,
+      "motion": "in-place except turn yaw90deg"
+    },
+    {
+      "name": "run",
+      "frames": 18,
+      "fps": 24,
+      "durationSeconds": 0.75,
+      "loop": true,
+      "motion": "in-place except turn yaw90deg"
+    },
+    {
+      "name": "turn",
+      "frames": 36,
+      "fps": 24,
+      "durationSeconds": 1.5,
+      "loop": false,
+      "motion": "in-place except turn yaw90deg"
+    }
+  ],
+  "poseSamples": {
+    "idle": [
+      {
+        "frame": 1,
+        "min": [
+          -0.31320711970329285,
+          -0.15313643217086792,
+          -5.248726893114508e-07
+        ],
+        "max": [
+          0.3132082521915436,
+          0.15313640236854553,
+          1.7274047136306763
+        ]
+      },
+      {
+        "frame": 13,
+        "min": [
+          -0.3132070302963257,
+          -0.15313641726970673,
+          -5.093609729556192e-07
+        ],
+        "max": [
+          0.31320828199386597,
+          0.15313640236854553,
+          1.7289047241210938
+        ]
+      },
+      {
+        "frame": 25,
+        "min": [
+          -0.31320711970329285,
+          -0.15313643217086792,
+          -5.248726893114508e-07
+        ],
+        "max": [
+          0.3132082521915436,
+          0.15313640236854553,
+          1.7274047136306763
+        ]
+      },
+      {
+        "frame": 37,
+        "min": [
+          -0.3132071793079376,
+          -0.15313643217086792,
+          -5.181594815439894e-07
+        ],
+        "max": [
+          0.31320810317993164,
+          0.15313640236854553,
+          1.7259047031402588
+        ]
+      },
+      {
+        "frame": 49,
+        "min": [
+          -0.31320711970329285,
+          -0.15313643217086792,
+          -5.248726893114508e-07
+        ],
+        "max": [
+          0.3132082521915436,
+          0.15313640236854553,
+          1.7274047136306763
+        ]
+      }
+    ],
+    "walk": [
+      {
+        "frame": 1,
+        "min": [
+          -0.31320711970329285,
+          -0.31313639879226685,
+          -4.93989603000955e-07
+        ],
+        "max": [
+          0.3132082521915436,
+          0.23975923657417297,
+          1.7314046621322632
+        ]
+      },
+      {
+        "frame": 7,
+        "min": [
+          -0.3052838444709778,
+          -0.25404757261276245,
+          1.3711229485124932e-07
+        ],
+        "max": [
+          0.3210296630859375,
+          0.1710660457611084,
+          1.723421573638916
+        ]
+      },
+      {
+        "frame": 13,
+        "min": [
+          -0.31320711970329285,
+          -0.3131364583969116,
+          -5.041556505602784e-07
+        ],
+        "max": [
+          0.3132082521915436,
+          0.24083156883716583,
+          1.7314046621322632
+        ]
+      },
+      {
+        "frame": 19,
+        "min": [
+          -0.3210286498069763,
+          -0.2540469169616699,
+          -5.197746304475004e-07
+        ],
+        "max": [
+          0.30528485774993896,
+          0.17213031649589539,
+          1.7231409549713135
+        ]
+      },
+      {
+        "frame": 25,
+        "min": [
+          -0.31320711970329285,
+          -0.31313639879226685,
+          -4.93989603000955e-07
+        ],
+        "max": [
+          0.3132082521915436,
+          0.23975923657417297,
+          1.7314046621322632
+        ]
+      }
+    ],
+    "run": [
+      {
+        "frame": 1,
+        "min": [
+          -0.3128015995025635,
+          -0.3831363916397095,
+          1.2248520420143905e-07
+        ],
+        "max": [
+          0.3128020763397217,
+          0.3230885863304138,
+          1.7230355739593506
+        ]
+      },
+      {
+        "frame": 5,
+        "min": [
+          -0.30507731437683105,
+          -0.46325671672821045,
+          1.0315312692910084e-07
+        ],
+        "max": [
+          0.32042837142944336,
+          0.19761835038661957,
+          1.6997774839401245
+        ]
+      },
+      {
+        "frame": 10,
+        "min": [
+          -0.3128015995025635,
+          -0.3831363916397095,
+          -5.30491945482936e-07
+        ],
+        "max": [
+          0.3128020763397217,
+          0.32415539026260376,
+          1.7230355739593506
+        ]
+      },
+      {
+        "frame": 14,
+        "min": [
+          -0.32042789459228516,
+          -0.46325600147247314,
+          -5.411728238868818e-07
+        ],
+        "max": [
+          0.30507826805114746,
+          0.19746017456054688,
+          1.6995012760162354
+        ]
+      },
+      {
+        "frame": 19,
+        "min": [
+          -0.3128015995025635,
+          -0.3831363916397095,
+          1.2248520420143905e-07
+        ],
+        "max": [
+          0.3128020763397217,
+          0.3230885863304138,
+          1.7230355739593506
+        ]
+      }
+    ],
+    "turn": [
+      {
+        "frame": 1,
+        "min": [
+          -0.31320711970329285,
+          -0.18813639879226685,
+          -5.027881115893251e-07
+        ],
+        "max": [
+          0.3132082521915436,
+          0.15313640236854553,
+          1.7314046621322632
+        ]
+      },
+      {
+        "frame": 10,
+        "min": [
+          -0.2682628333568573,
+          -0.3063879609107971,
+          1.2211081923396705e-07
+        ],
+        "max": [
+          0.2981260418891907,
+          0.21272669732570648,
+          1.723421573638916
+        ]
+      },
+      {
+        "frame": 19,
+        "min": [
+          -0.24595876038074493,
+          -0.28405484557151794,
+          -5.20177877660899e-07
+        ],
+        "max": [
+          0.2840554714202881,
+          0.2459591180086136,
+          1.7314049005508423
+        ]
+      },
+      {
+        "frame": 28,
+        "min": [
+          -0.21268799901008606,
+          -0.2981244921684265,
+          -5.146628154761856e-07
+        ],
+        "max": [
+          0.3063873052597046,
+          0.26840633153915405,
+          1.723141074180603
+        ]
+      },
+      {
+        "frame": 37,
+        "min": [
+          -0.15313641726970673,
+          -0.3132070004940033,
+          -4.993871129954641e-07
+        ],
+        "max": [
+          0.18813639879226685,
+          0.3132082223892212,
+          1.7314047813415527
+        ]
+      }
+    ]
+  },
+  "sourceEmbeddedScriptsExecutedOrIncluded": false,
+  "nativeRigPreserved": false,
+  "nativeFeaturesLost": [
+    "B-Bone segments",
+    "dual-quaternion skinning",
+    "pose-space correctives",
+    "facial rig/keys"
+  ],
+  "license": "CC-BY-4.0",
+  "credit": "Snow Rig (CC) Blender Foundation | studio.blender.org",
+  "animationProvenance": "Original deterministic B01 clips authored in this repository; derivative skin/skeleton credit retained. No downloaded animation or paid service.",
+  "limitations": [
+    "Locomotion only, fixed approved facial expression",
+    "No Humanoid mapping/controller/transitions/game integration",
+    "No clothing variation certification",
+    "Bounded skin transfer; no extensive manual repair"
+  ]
+}

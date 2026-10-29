@@ -1,0 +1,1311 @@
+{
+  "schema": "male-b04-integration-readonly-audit-1",
+  "basis": "B02 historical baseline; B04 failed Blender visual gate; no B04 GLB exists",
+  "sourceGlb": "build/male-neutral-b02/delivery-001/chr_player_male_poc_001.glb",
+  "glbSha256": "4faa2eec33d131b7fcdc4b41720e5abbd16e03eab594bf764f3d7ae041de3d33",
+  "assetId": "chr_player_male_poc_001",
+  "units": "meters",
+  "rootNodes": [
+    {
+      "node": 69,
+      "name": "CHR_PlayerMale_A01",
+      "children": [
+        "A03_B01_Rig",
+        "M01_body",
+        "M01_eyebrows",
+        "M01_eyes",
+        "M01_hair_base",
+        "M01_head",
+        "M01_pants",
+        "M01_shirt",
+        "M01_shoes_base",
+        "M01_shoes_bottom",
+        "M01_shoes_parts"
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "skins": 1,
+  "bones": [
+    {
+      "name": "Hips",
+      "parent": null,
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips",
+      "node": 57
+    },
+    {
+      "name": "Spine",
+      "parent": "Hips",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine",
+      "node": 46
+    },
+    {
+      "name": "Chest",
+      "parent": "Spine",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest",
+      "node": 45
+    },
+    {
+      "name": "UpperChest",
+      "parent": "Chest",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest",
+      "node": 44
+    },
+    {
+      "name": "Neck",
+      "parent": "UpperChest",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Neck",
+      "node": 1
+    },
+    {
+      "name": "Head",
+      "parent": "Neck",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Neck/Head",
+      "node": 0
+    },
+    {
+      "name": "Shoulder.L",
+      "parent": "UpperChest",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L",
+      "node": 22
+    },
+    {
+      "name": "UpperArm.L",
+      "parent": "Shoulder.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L",
+      "node": 21
+    },
+    {
+      "name": "LowerArm.L",
+      "parent": "UpperArm.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L",
+      "node": 19
+    },
+    {
+      "name": "Hand.L",
+      "parent": "LowerArm.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L",
+      "node": 17
+    },
+    {
+      "name": "Thumb1.L",
+      "parent": "Hand.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb1.L",
+      "node": 4
+    },
+    {
+      "name": "Thumb2.L",
+      "parent": "Thumb1.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb1.L/Thumb2.L",
+      "node": 3
+    },
+    {
+      "name": "Thumb3.L",
+      "parent": "Thumb2.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb1.L/Thumb2.L/Thumb3.L",
+      "node": 2
+    },
+    {
+      "name": "Index1.L",
+      "parent": "Hand.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Index1.L",
+      "node": 7
+    },
+    {
+      "name": "Index2.L",
+      "parent": "Index1.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Index1.L/Index2.L",
+      "node": 6
+    },
+    {
+      "name": "Index3.L",
+      "parent": "Index2.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Index1.L/Index2.L/Index3.L",
+      "node": 5
+    },
+    {
+      "name": "Middle1.L",
+      "parent": "Hand.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Middle1.L",
+      "node": 10
+    },
+    {
+      "name": "Middle2.L",
+      "parent": "Middle1.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Middle1.L/Middle2.L",
+      "node": 9
+    },
+    {
+      "name": "Middle3.L",
+      "parent": "Middle2.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Middle1.L/Middle2.L/Middle3.L",
+      "node": 8
+    },
+    {
+      "name": "Ring1.L",
+      "parent": "Hand.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Ring1.L",
+      "node": 13
+    },
+    {
+      "name": "Ring2.L",
+      "parent": "Ring1.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Ring1.L/Ring2.L",
+      "node": 12
+    },
+    {
+      "name": "Ring3.L",
+      "parent": "Ring2.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Ring1.L/Ring2.L/Ring3.L",
+      "node": 11
+    },
+    {
+      "name": "Pinky1.L",
+      "parent": "Hand.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Pinky1.L",
+      "node": 16
+    },
+    {
+      "name": "Pinky2.L",
+      "parent": "Pinky1.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Pinky1.L/Pinky2.L",
+      "node": 15
+    },
+    {
+      "name": "Pinky3.L",
+      "parent": "Pinky2.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Pinky1.L/Pinky2.L/Pinky3.L",
+      "node": 14
+    },
+    {
+      "name": "B02_Wrist.L",
+      "parent": "LowerArm.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/B02_Wrist.L",
+      "node": 18
+    },
+    {
+      "name": "B02_Elbow.L",
+      "parent": "UpperArm.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/B02_Elbow.L",
+      "node": 20
+    },
+    {
+      "name": "Shoulder.R",
+      "parent": "UpperChest",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R",
+      "node": 43
+    },
+    {
+      "name": "UpperArm.R",
+      "parent": "Shoulder.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R",
+      "node": 42
+    },
+    {
+      "name": "LowerArm.R",
+      "parent": "UpperArm.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R",
+      "node": 40
+    },
+    {
+      "name": "Hand.R",
+      "parent": "LowerArm.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R",
+      "node": 38
+    },
+    {
+      "name": "Thumb1.R",
+      "parent": "Hand.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb1.R",
+      "node": 25
+    },
+    {
+      "name": "Thumb2.R",
+      "parent": "Thumb1.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb1.R/Thumb2.R",
+      "node": 24
+    },
+    {
+      "name": "Thumb3.R",
+      "parent": "Thumb2.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb1.R/Thumb2.R/Thumb3.R",
+      "node": 23
+    },
+    {
+      "name": "Index1.R",
+      "parent": "Hand.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Index1.R",
+      "node": 28
+    },
+    {
+      "name": "Index2.R",
+      "parent": "Index1.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Index1.R/Index2.R",
+      "node": 27
+    },
+    {
+      "name": "Index3.R",
+      "parent": "Index2.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Index1.R/Index2.R/Index3.R",
+      "node": 26
+    },
+    {
+      "name": "Middle1.R",
+      "parent": "Hand.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Middle1.R",
+      "node": 31
+    },
+    {
+      "name": "Middle2.R",
+      "parent": "Middle1.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Middle1.R/Middle2.R",
+      "node": 30
+    },
+    {
+      "name": "Middle3.R",
+      "parent": "Middle2.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Middle1.R/Middle2.R/Middle3.R",
+      "node": 29
+    },
+    {
+      "name": "Ring1.R",
+      "parent": "Hand.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Ring1.R",
+      "node": 34
+    },
+    {
+      "name": "Ring2.R",
+      "parent": "Ring1.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Ring1.R/Ring2.R",
+      "node": 33
+    },
+    {
+      "name": "Ring3.R",
+      "parent": "Ring2.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Ring1.R/Ring2.R/Ring3.R",
+      "node": 32
+    },
+    {
+      "name": "Pinky1.R",
+      "parent": "Hand.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Pinky1.R",
+      "node": 37
+    },
+    {
+      "name": "Pinky2.R",
+      "parent": "Pinky1.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Pinky1.R/Pinky2.R",
+      "node": 36
+    },
+    {
+      "name": "Pinky3.R",
+      "parent": "Pinky2.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Pinky1.R/Pinky2.R/Pinky3.R",
+      "node": 35
+    },
+    {
+      "name": "B02_Wrist.R",
+      "parent": "LowerArm.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/B02_Wrist.R",
+      "node": 39
+    },
+    {
+      "name": "B02_Elbow.R",
+      "parent": "UpperArm.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/B02_Elbow.R",
+      "node": 41
+    },
+    {
+      "name": "UpperLeg.L",
+      "parent": "Hips",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/UpperLeg.L",
+      "node": 51
+    },
+    {
+      "name": "LowerLeg.L",
+      "parent": "UpperLeg.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/UpperLeg.L/LowerLeg.L",
+      "node": 49
+    },
+    {
+      "name": "Foot.L",
+      "parent": "LowerLeg.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/UpperLeg.L/LowerLeg.L/Foot.L",
+      "node": 48
+    },
+    {
+      "name": "Toes.L",
+      "parent": "Foot.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L",
+      "node": 47
+    },
+    {
+      "name": "B02_Knee.L",
+      "parent": "UpperLeg.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/UpperLeg.L/B02_Knee.L",
+      "node": 50
+    },
+    {
+      "name": "UpperLeg.R",
+      "parent": "Hips",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/UpperLeg.R",
+      "node": 56
+    },
+    {
+      "name": "LowerLeg.R",
+      "parent": "UpperLeg.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/UpperLeg.R/LowerLeg.R",
+      "node": 54
+    },
+    {
+      "name": "Foot.R",
+      "parent": "LowerLeg.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/UpperLeg.R/LowerLeg.R/Foot.R",
+      "node": 53
+    },
+    {
+      "name": "Toes.R",
+      "parent": "Foot.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R",
+      "node": 52
+    },
+    {
+      "name": "B02_Knee.R",
+      "parent": "UpperLeg.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/UpperLeg.R/B02_Knee.R",
+      "node": 55
+    }
+  ],
+  "boneCount": 58,
+  "supportBones": [
+    {
+      "name": "B02_Wrist.L",
+      "parent": "LowerArm.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/B02_Wrist.L",
+      "node": 18
+    },
+    {
+      "name": "B02_Elbow.L",
+      "parent": "UpperArm.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/B02_Elbow.L",
+      "node": 20
+    },
+    {
+      "name": "B02_Wrist.R",
+      "parent": "LowerArm.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/B02_Wrist.R",
+      "node": 39
+    },
+    {
+      "name": "B02_Elbow.R",
+      "parent": "UpperArm.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/B02_Elbow.R",
+      "node": 41
+    },
+    {
+      "name": "B02_Knee.L",
+      "parent": "UpperLeg.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/UpperLeg.L/B02_Knee.L",
+      "node": 50
+    },
+    {
+      "name": "B02_Knee.R",
+      "parent": "UpperLeg.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/UpperLeg.R/B02_Knee.R",
+      "node": 55
+    }
+  ],
+  "clips": [
+    {
+      "name": "idle",
+      "durationSeconds": 2.0,
+      "channels": 174,
+      "maxEndpointTRSComponentError": 0.0,
+      "endpointsMatchWithin1e_6": true,
+      "allSixSupportsHaveTRS": true,
+      "supportChannels": {
+        "B02_Wrist.L": [
+          "translation",
+          "rotation",
+          "scale"
+        ],
+        "B02_Elbow.L": [
+          "translation",
+          "rotation",
+          "scale"
+        ],
+        "B02_Wrist.R": [
+          "translation",
+          "rotation",
+          "scale"
+        ],
+        "B02_Elbow.R": [
+          "translation",
+          "rotation",
+          "scale"
+        ],
+        "B02_Knee.L": [
+          "translation",
+          "rotation",
+          "scale"
+        ],
+        "B02_Knee.R": [
+          "translation",
+          "rotation",
+          "scale"
+        ]
+      },
+      "animatedNonJointNodes": []
+    },
+    {
+      "name": "run",
+      "durationSeconds": 0.75,
+      "channels": 174,
+      "maxEndpointTRSComponentError": 0.0,
+      "endpointsMatchWithin1e_6": true,
+      "allSixSupportsHaveTRS": true,
+      "supportChannels": {
+        "B02_Wrist.L": [
+          "translation",
+          "rotation",
+          "scale"
+        ],
+        "B02_Elbow.L": [
+          "translation",
+          "rotation",
+          "scale"
+        ],
+        "B02_Wrist.R": [
+          "translation",
+          "rotation",
+          "scale"
+        ],
+        "B02_Elbow.R": [
+          "translation",
+          "rotation",
+          "scale"
+        ],
+        "B02_Knee.L": [
+          "translation",
+          "rotation",
+          "scale"
+        ],
+        "B02_Knee.R": [
+          "translation",
+          "rotation",
+          "scale"
+        ]
+      },
+      "animatedNonJointNodes": []
+    },
+    {
+      "name": "turn",
+      "durationSeconds": 1.5,
+      "channels": 174,
+      "maxEndpointTRSComponentError": 0.7034259353281982,
+      "endpointsMatchWithin1e_6": false,
+      "allSixSupportsHaveTRS": true,
+      "supportChannels": {
+        "B02_Wrist.L": [
+          "translation",
+          "rotation",
+          "scale"
+        ],
+        "B02_Elbow.L": [
+          "translation",
+          "rotation",
+          "scale"
+        ],
+        "B02_Wrist.R": [
+          "translation",
+          "rotation",
+          "scale"
+        ],
+        "B02_Elbow.R": [
+          "translation",
+          "rotation",
+          "scale"
+        ],
+        "B02_Knee.L": [
+          "translation",
+          "rotation",
+          "scale"
+        ],
+        "B02_Knee.R": [
+          "translation",
+          "rotation",
+          "scale"
+        ]
+      },
+      "animatedNonJointNodes": []
+    },
+    {
+      "name": "walk",
+      "durationSeconds": 1.0,
+      "channels": 174,
+      "maxEndpointTRSComponentError": 0.0,
+      "endpointsMatchWithin1e_6": true,
+      "allSixSupportsHaveTRS": true,
+      "supportChannels": {
+        "B02_Wrist.L": [
+          "translation",
+          "rotation",
+          "scale"
+        ],
+        "B02_Elbow.L": [
+          "translation",
+          "rotation",
+          "scale"
+        ],
+        "B02_Wrist.R": [
+          "translation",
+          "rotation",
+          "scale"
+        ],
+        "B02_Elbow.R": [
+          "translation",
+          "rotation",
+          "scale"
+        ],
+        "B02_Knee.L": [
+          "translation",
+          "rotation",
+          "scale"
+        ],
+        "B02_Knee.R": [
+          "translation",
+          "rotation",
+          "scale"
+        ]
+      },
+      "animatedNonJointNodes": []
+    }
+  ],
+  "materials": [
+    {
+      "index": 0,
+      "name": "M01_skin",
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": true,
+      "baseColorFactorLinear": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallicFactor": 0,
+      "roughnessFactor": 0.7200000286102295,
+      "baseColor": {
+        "textureIndex": 0,
+        "image": {
+          "image": 0,
+          "name": "skin_diffuse_atlas",
+          "mimeType": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "mode": "RGB",
+          "encodedBytes": 1365452,
+          "sha256": "2039ddcb4b392ba7093b42d8438e237da753531c7428fe89109bc7a2003facf3"
+        },
+        "texCoord": 0,
+        "scale": 1,
+        "colorSpace": "sRGB RGB (alpha linear)",
+        "channels": "RGB base color / A alpha",
+        "sampler": {
+          "magFilter": 9729,
+          "minFilter": 9987
+        }
+      },
+      "metallicRoughness": null,
+      "normal": null,
+      "occlusion": null,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {},
+      "meshUsers": [
+        "GEO-snow-body.002",
+        "GEO-snow-head.001"
+      ]
+    },
+    {
+      "index": 1,
+      "name": "M01_hair",
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": true,
+      "baseColorFactorLinear": [
+        0.02199999988079071,
+        0.010999999940395355,
+        0.006000000052154064,
+        1
+      ],
+      "metallicFactor": 0,
+      "roughnessFactor": 0.8600000143051147,
+      "baseColor": null,
+      "metallicRoughness": null,
+      "normal": null,
+      "occlusion": null,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {},
+      "meshUsers": [
+        "Mesh",
+        "GEO-snow-hair_base.001"
+      ]
+    },
+    {
+      "index": 2,
+      "name": "M01_eyes",
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": true,
+      "baseColorFactorLinear": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallicFactor": 0,
+      "roughnessFactor": 0.30000001192092896,
+      "baseColor": {
+        "textureIndex": 2,
+        "image": {
+          "image": 2,
+          "name": "eyes_diffuse",
+          "mimeType": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "mode": "RGB",
+          "encodedBytes": 1286452,
+          "sha256": "7ec88aa8ddb70b7cad01fe96d82179c1b440ddfa4fb91f413d0cae71f9cd746f"
+        },
+        "texCoord": 0,
+        "scale": 1,
+        "colorSpace": "sRGB RGB (alpha linear)",
+        "channels": "RGB base color / A alpha",
+        "sampler": {
+          "magFilter": 9729,
+          "minFilter": 9987
+        }
+      },
+      "metallicRoughness": null,
+      "normal": {
+        "textureIndex": 1,
+        "image": {
+          "image": 1,
+          "name": "eyes_normal",
+          "mimeType": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "mode": "RGBA",
+          "encodedBytes": 322608,
+          "sha256": "f0908a7026ee93b73abbf1aed8d344f6c20cbd3b90e1bac421003dd3f51051ee"
+        },
+        "texCoord": 0,
+        "scale": 0.5,
+        "colorSpace": "Linear/data",
+        "channels": "RGB tangent-space normal",
+        "sampler": {
+          "magFilter": 9729,
+          "minFilter": 9987
+        }
+      },
+      "occlusion": null,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {},
+      "meshUsers": [
+        "GEO-snow-eyes.001"
+      ]
+    },
+    {
+      "index": 3,
+      "name": "M01_skin_darker",
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": true,
+      "baseColorFactorLinear": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallicFactor": 0,
+      "roughnessFactor": 0.7200000286102295,
+      "baseColor": {
+        "textureIndex": 3,
+        "image": {
+          "image": 3,
+          "name": "skin_darker_diffuse_atlas",
+          "mimeType": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "mode": "RGB",
+          "encodedBytes": 1296786,
+          "sha256": "a99b12e51e1d6c555ac8f3a63bf08dda3a42edcc46bcb26b92fa3a25e7db6c74"
+        },
+        "texCoord": 0,
+        "scale": 1,
+        "colorSpace": "sRGB RGB (alpha linear)",
+        "channels": "RGB base color / A alpha",
+        "sampler": {
+          "magFilter": 9729,
+          "minFilter": 9987
+        }
+      },
+      "metallicRoughness": null,
+      "normal": null,
+      "occlusion": null,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {},
+      "meshUsers": [
+        "GEO-snow-head.001"
+      ]
+    },
+    {
+      "index": 4,
+      "name": "M01_skin_upper_lip",
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": true,
+      "baseColorFactorLinear": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallicFactor": 0,
+      "roughnessFactor": 0.6700000166893005,
+      "baseColor": {
+        "textureIndex": 4,
+        "image": {
+          "image": 4,
+          "name": "skin_upper_lip_diffuse_atlas",
+          "mimeType": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "mode": "RGB",
+          "encodedBytes": 1331777,
+          "sha256": "c87fc712adb2166544746364620353033cfd36559a954435112441557118eb14"
+        },
+        "texCoord": 0,
+        "scale": 1,
+        "colorSpace": "sRGB RGB (alpha linear)",
+        "channels": "RGB base color / A alpha",
+        "sampler": {
+          "magFilter": 9729,
+          "minFilter": 9987
+        }
+      },
+      "metallicRoughness": null,
+      "normal": null,
+      "occlusion": null,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {},
+      "meshUsers": [
+        "GEO-snow-head.001"
+      ]
+    },
+    {
+      "index": 5,
+      "name": "M01_skin_lower_lip",
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": true,
+      "baseColorFactorLinear": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallicFactor": 0,
+      "roughnessFactor": 0.6700000166893005,
+      "baseColor": {
+        "textureIndex": 5,
+        "image": {
+          "image": 5,
+          "name": "skin_lower_lip_diffuse_atlas",
+          "mimeType": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "mode": "RGB",
+          "encodedBytes": 1350940,
+          "sha256": "8760c9bb405eca20e1a25cd5cc6e2fd01b74767d7f6d4109c84714977123172b"
+        },
+        "texCoord": 0,
+        "scale": 1,
+        "colorSpace": "sRGB RGB (alpha linear)",
+        "channels": "RGB base color / A alpha",
+        "sampler": {
+          "magFilter": 9729,
+          "minFilter": 9987
+        }
+      },
+      "metallicRoughness": null,
+      "normal": null,
+      "occlusion": null,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {},
+      "meshUsers": [
+        "GEO-snow-head.001"
+      ]
+    },
+    {
+      "index": 6,
+      "name": "M01_pants",
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": true,
+      "baseColorFactorLinear": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallicFactor": 0,
+      "roughnessFactor": 1,
+      "baseColor": {
+        "textureIndex": 7,
+        "image": {
+          "image": 7,
+          "name": "pants_tinted_diffuse",
+          "mimeType": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "mode": "RGB",
+          "encodedBytes": 6237637,
+          "sha256": "b225a00982b9859abe724f695700f98ab8ccdabb2e8da8d6b380ba38c5fdcca1"
+        },
+        "texCoord": 0,
+        "scale": 1,
+        "colorSpace": "sRGB RGB (alpha linear)",
+        "channels": "RGB base color / A alpha",
+        "sampler": {
+          "magFilter": 9729,
+          "minFilter": 9987
+        }
+      },
+      "metallicRoughness": {
+        "textureIndex": 8,
+        "image": {
+          "image": 8,
+          "name": "pants_roughness",
+          "mimeType": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "mode": "RGB",
+          "encodedBytes": 2542400,
+          "sha256": "3b852df2f62adfb27f731c86d06803c72b19061a647512974417f261268ffe4c"
+        },
+        "texCoord": 0,
+        "scale": 1,
+        "colorSpace": "Linear/data",
+        "channels": "G roughness, B metallic",
+        "sampler": {
+          "magFilter": 9729,
+          "minFilter": 9987
+        }
+      },
+      "normal": {
+        "textureIndex": 6,
+        "image": {
+          "image": 6,
+          "name": "pants_normal",
+          "mimeType": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "mode": "RGB",
+          "encodedBytes": 4691039,
+          "sha256": "107de7037b35fc62d01bd606f0ae0a719c29ea22b8a5486960c3653044ec6dff"
+        },
+        "texCoord": 0,
+        "scale": 0.5,
+        "colorSpace": "Linear/data",
+        "channels": "RGB tangent-space normal",
+        "sampler": {
+          "magFilter": 9729,
+          "minFilter": 9987
+        }
+      },
+      "occlusion": null,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {},
+      "meshUsers": [
+        "GEO-snow-pants.002"
+      ]
+    },
+    {
+      "index": 7,
+      "name": "M01_shirt",
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": true,
+      "baseColorFactorLinear": [
+        0.04500000178813934,
+        0.09000000357627869,
+        0.05999999865889549,
+        1
+      ],
+      "metallicFactor": 0,
+      "roughnessFactor": 0.8399999737739563,
+      "baseColor": null,
+      "metallicRoughness": null,
+      "normal": {
+        "textureIndex": 9,
+        "image": {
+          "image": 9,
+          "name": "shirt_normal",
+          "mimeType": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "mode": "RGB",
+          "encodedBytes": 4157409,
+          "sha256": "7a90766714b9a431b17b2e5f90a2c1d267a73e0433f1080a31526a3ee88e95e6"
+        },
+        "texCoord": 0,
+        "scale": 0.5,
+        "colorSpace": "Linear/data",
+        "channels": "RGB tangent-space normal",
+        "sampler": {
+          "magFilter": 9729,
+          "minFilter": 9987
+        }
+      },
+      "occlusion": null,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {},
+      "meshUsers": [
+        "GEO-snow-shirt.002"
+      ]
+    },
+    {
+      "index": 8,
+      "name": "M01_canvas_shoes",
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": true,
+      "baseColorFactorLinear": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallicFactor": 0,
+      "roughnessFactor": 1,
+      "baseColor": {
+        "textureIndex": 11,
+        "image": {
+          "image": 11,
+          "name": "shoes_diffuse",
+          "mimeType": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "mode": "RGB",
+          "encodedBytes": 2910242,
+          "sha256": "6e4940a480c245c0d68947686b2242f1b48bb7624cc6131fa71e8f6281892b27"
+        },
+        "texCoord": 0,
+        "scale": 1,
+        "colorSpace": "sRGB RGB (alpha linear)",
+        "channels": "RGB base color / A alpha",
+        "sampler": {
+          "magFilter": 9729,
+          "minFilter": 9987
+        }
+      },
+      "metallicRoughness": {
+        "textureIndex": 12,
+        "image": {
+          "image": 12,
+          "name": "shoes_roughness",
+          "mimeType": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "mode": "RGB",
+          "encodedBytes": 1889025,
+          "sha256": "833e3701fe30e06bc67fee6cb7531c2e8e23778550e233fa5bf37b66eec93554"
+        },
+        "texCoord": 0,
+        "scale": 1,
+        "colorSpace": "Linear/data",
+        "channels": "G roughness, B metallic",
+        "sampler": {
+          "magFilter": 9729,
+          "minFilter": 9987
+        }
+      },
+      "normal": {
+        "textureIndex": 10,
+        "image": {
+          "image": 10,
+          "name": "shoes_normal",
+          "mimeType": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "mode": "RGB",
+          "encodedBytes": 5677803,
+          "sha256": "2ae017a1b444857625c0dcf28a887adb058536995f752a030800973c86fc7e99"
+        },
+        "texCoord": 0,
+        "scale": 0.5,
+        "colorSpace": "Linear/data",
+        "channels": "RGB tangent-space normal",
+        "sampler": {
+          "magFilter": 9729,
+          "minFilter": 9987
+        }
+      },
+      "occlusion": null,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {},
+      "meshUsers": [
+        "GEO-snow-shoes_base.003",
+        "GEO-snow-shoes_bottom.003",
+        "GEO-snow-shoes_parts.003"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "image": 0,
+      "name": "skin_diffuse_atlas",
+      "mimeType": "image/png",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGB",
+      "encodedBytes": 1365452,
+      "sha256": "2039ddcb4b392ba7093b42d8438e237da753531c7428fe89109bc7a2003facf3"
+    },
+    {
+      "image": 1,
+      "name": "eyes_normal",
+      "mimeType": "image/png",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGBA",
+      "encodedBytes": 322608,
+      "sha256": "f0908a7026ee93b73abbf1aed8d344f6c20cbd3b90e1bac421003dd3f51051ee"
+    },
+    {
+      "image": 2,
+      "name": "eyes_diffuse",
+      "mimeType": "image/png",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGB",
+      "encodedBytes": 1286452,
+      "sha256": "7ec88aa8ddb70b7cad01fe96d82179c1b440ddfa4fb91f413d0cae71f9cd746f"
+    },
+    {
+      "image": 3,
+      "name": "skin_darker_diffuse_atlas",
+      "mimeType": "image/png",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGB",
+      "encodedBytes": 1296786,
+      "sha256": "a99b12e51e1d6c555ac8f3a63bf08dda3a42edcc46bcb26b92fa3a25e7db6c74"
+    },
+    {
+      "image": 4,
+      "name": "skin_upper_lip_diffuse_atlas",
+      "mimeType": "image/png",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGB",
+      "encodedBytes": 1331777,
+      "sha256": "c87fc712adb2166544746364620353033cfd36559a954435112441557118eb14"
+    },
+    {
+      "image": 5,
+      "name": "skin_lower_lip_diffuse_atlas",
+      "mimeType": "image/png",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGB",
+      "encodedBytes": 1350940,
+      "sha256": "8760c9bb405eca20e1a25cd5cc6e2fd01b74767d7f6d4109c84714977123172b"
+    },
+    {
+      "image": 6,
+      "name": "pants_normal",
+      "mimeType": "image/png",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGB",
+      "encodedBytes": 4691039,
+      "sha256": "107de7037b35fc62d01bd606f0ae0a719c29ea22b8a5486960c3653044ec6dff"
+    },
+    {
+      "image": 7,
+      "name": "pants_tinted_diffuse",
+      "mimeType": "image/png",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGB",
+      "encodedBytes": 6237637,
+      "sha256": "b225a00982b9859abe724f695700f98ab8ccdabb2e8da8d6b380ba38c5fdcca1"
+    },
+    {
+      "image": 8,
+      "name": "pants_roughness",
+      "mimeType": "image/png",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGB",
+      "encodedBytes": 2542400,
+      "sha256": "3b852df2f62adfb27f731c86d06803c72b19061a647512974417f261268ffe4c"
+    },
+    {
+      "image": 9,
+      "name": "shirt_normal",
+      "mimeType": "image/png",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGB",
+      "encodedBytes": 4157409,
+      "sha256": "7a90766714b9a431b17b2e5f90a2c1d267a73e0433f1080a31526a3ee88e95e6"
+    },
+    {
+      "image": 10,
+      "name": "shoes_normal",
+      "mimeType": "image/png",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGB",
+      "encodedBytes": 5677803,
+      "sha256": "2ae017a1b444857625c0dcf28a887adb058536995f752a030800973c86fc7e99"
+    },
+    {
+      "image": 11,
+      "name": "shoes_diffuse",
+      "mimeType": "image/png",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGB",
+      "encodedBytes": 2910242,
+      "sha256": "6e4940a480c245c0d68947686b2242f1b48bb7624cc6131fa71e8f6281892b27"
+    },
+    {
+      "image": 12,
+      "name": "shoes_roughness",
+      "mimeType": "image/png",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGB",
+      "encodedBytes": 1889025,
+      "sha256": "833e3701fe30e06bc67fee6cb7531c2e8e23778550e233fa5bf37b66eec93554"
+    }
+  ],
+  "extensionsUsed": [],
+  "extensionsRequired": [],
+  "sourceJsonAsset": {
+    "generator": "Khronos glTF Blender I/O v4.5.51",
+    "version": "2.0"
+  },
+  "gait": {
+    "actualRootTranslationMps": 0,
+    "walk": {
+      "stanceTravelMeters": 0.32,
+      "stanceSeconds": 0.58,
+      "cycleSeconds": 1,
+      "inferredDesignMps": 0.5517241379310346,
+      "effectiveSameFootStrideMeters": 0.5517241379310346,
+      "effectiveStepMeters": 0.2758620689655173,
+      "stepsPerMinute": 120,
+      "requiredPlaybackRateAt4Mps": 7.249999999999998
+    },
+    "run": {
+      "stanceTravelMeters": 0.46,
+      "stanceSeconds": 0.30000000000000004,
+      "cycleSeconds": 0.75,
+      "inferredDesignMps": 1.5333333333333332,
+      "effectiveSameFootStrideMeters": 1.15,
+      "effectiveStepMeters": 0.575,
+      "stepsPerMinute": 160,
+      "requiredPlaybackRateAt4Mps": 2.608695652173913
+    },
+    "phase": "Left lands at normalized0, right at.5 by recipe, different duty factors (.58 walk/.40 run); no pop-free blend guarantee",
+    "safePlaybackRange": "Unknown; no fixed4m/s controller test or certified range"
+  },
+  "proposedStableGuid": "21a7210ba3d850b09caae51343d7c144",
+  "neutralBoundsGlTF": {
+    "min": [
+      -0.8691573739051819,
+      -4.958522481501859e-07,
+      -0.15313643217086792
+    ],
+    "max": [
+      0.8691573739051819,
+      1.7494049072265625,
+      0.15313643217086792
+    ]
+  },
+  "neutralBoundsUnity": {
+    "min": [
+      -0.8691573739051819,
+      -4.958522481501859e-07,
+      -0.15313643217086792
+    ],
+    "max": [
+      0.8691573739051819,
+      1.7494049072265625,
+      0.15313643217086792
+    ],
+    "method": "Actual POSITION accessor extrema; all meshnode TRS identity; glTFast mirrors X",
+    "dimensions": [
+      1.7383147478103638,
+      1.7494054030788107,
+      0.30627286434173584
+    ]
+  }
+}

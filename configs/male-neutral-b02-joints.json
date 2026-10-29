@@ -1,0 +1,46 @@
+{
+  "schema": "male-b02-local-joints-1",
+  "source": "Preserved B01 bind-005 on approved A03",
+  "enableSupportJoints": true,
+  "joints": [
+    {
+      "label": "elbow",
+      "proximal": "UpperArm",
+      "distal": "LowerArm",
+      "parts": [
+        "M01_body"
+      ],
+      "halfWidthMeters": 0.055,
+      "radiusMeters": 0.07
+    },
+    {
+      "label": "knee",
+      "proximal": "UpperLeg",
+      "distal": "LowerLeg",
+      "parts": [
+        "M01_pants"
+      ],
+      "halfWidthMeters": 0.09,
+      "radiusMeters": 0.105,
+      "supportStrength": 0.5
+    },
+    {
+      "label": "wrist",
+      "proximal": "LowerArm",
+      "distal": "Hand",
+      "parts": [
+        "M01_body"
+      ],
+      "halfWidthMeters": 0.037,
+      "radiusMeters": 0.055
+    }
+  ],
+  "fingerWeightPass": {
+    "enabled": true,
+    "halfWidthMeters": 0.01,
+    "radiusMeters": 0.013
+  },
+  "maxInfluences": 4,
+  "scope": "Local weights plus six half-angle support joints only. No mesh coordinates/topology/material/face edits. No DQ modifier or unsupported runtime corrective.",
+  "selectionNote": "Weights-only pass gave negligible volume benefit. Six supports selected: full elbow/wrist support, half-strength knee support after full knee support produced boxy folding. Natural knee+90flexion is inspected separately from preserved B01-90hyperextension diagnostic."
+}

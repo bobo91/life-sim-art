@@ -1,0 +1,194 @@
+{
+  "schema": "male-neutral-a03-focused-refinement-1",
+  "assetId": "chr_player_male_poc_001",
+  "sourceBlendSha256": "80fd0a81bca90f0efdcdcb98422df0e198ae57f4a1c239e13fb795922779b1fc",
+  "seed": 28102026,
+  "heightMeters": 1.75,
+  "phase": "A",
+  "formPass": 1,
+  "correctionPass": 1,
+  "pose": "source T-rest pose; no new rig or animation",
+  "existingArtistCorrectives": {
+    "Smile.L": 0.12,
+    "Smile.R": 0.12
+  },
+  "upperLidWorldOffsetZ": -0.006,
+  "browInnerRaiseMeters": 0.001,
+  "hair": {
+    "removeSourceComponents": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "frontCrownScaleZ": 0.88,
+    "sweepMetersX": 0.012,
+    "baseColorLinear": [
+      0.022,
+      0.011,
+      0.006
+    ],
+    "roughness": 0.86,
+    "specularIorLevel": 0.5,
+    "style": "new broad side-swept quiff, source scalp cap only"
+  },
+  "surfaceSubdivision": 0,
+  "materials": {
+    "shirtBaseColorLinear": [
+      0.045,
+      0.09,
+      0.06
+    ],
+    "shirtRoughness": 0.84,
+    "pantsTint": [
+      0.7,
+      0.82,
+      0.91
+    ],
+    "skinRoughness": 0.72,
+    "skinSubsurfaceWeight": 0.0,
+    "eyeRoughness": 0.3,
+    "shirtSpecularIorLevel": 0.5,
+    "lipRoughness": 0.67,
+    "skinRemap": {
+      "sourceMedianSrgb8": [
+        111,
+        81,
+        59
+      ],
+      "targetMedianSrgb8": [
+        169,
+        130,
+        110
+      ],
+      "exponent": 0.55,
+      "darkerTintLinear": [
+        0.82,
+        0.78,
+        0.76
+      ],
+      "upperLipTintLinear": [
+        0.96,
+        0.88,
+        0.86
+      ],
+      "lowerLipTintLinear": [
+        0.99,
+        0.92,
+        0.91
+      ]
+    }
+  },
+  "render": {
+    "engine": "CYCLES",
+    "device": "CPU",
+    "samples": 32,
+    "denoise": true,
+    "threads": 6,
+    "viewTransform": "AgX",
+    "exposure": 0,
+    "fullResolution": [
+      1100,
+      1100
+    ],
+    "faceResolution": [
+      1100,
+      1100
+    ],
+    "gameResolution": [
+      1280,
+      720
+    ],
+    "lightPowerMultiplier": 0.55
+  },
+  "mouthCornerWorldOffsetZ": 0.0025,
+  "iteration": "A03",
+  "sourceA01BlendSha256": "8124cc0ef646300ffbc756793582c3a1e4749051cd36d9dd4738ec08a5ee87db",
+  "identityEdit": {
+    "cranialWidthScale": 0.9,
+    "chinWidthScale": 0.95,
+    "chinProjectionBackMeters": 0.004,
+    "chinDropMeters": 0.004,
+    "earTuckMeters": 0.015,
+    "earHeightScale": 0.72,
+    "noseWidthScale": 0.78,
+    "noseProjectionBackMeters": 0.007,
+    "lipWidthScale": 0.91,
+    "lipFullnessScale": 0.64,
+    "lipProjectionBackMeters": 0.003,
+    "mouthCornerLiftMeters": 0.0038,
+    "eyeUniformScale": 0.91,
+    "eyeCenterWidthScale": 0.94,
+    "upperLidRaiseMeters": 0.0031,
+    "browThicknessScale": 0.68
+  },
+  "visualPass": 1,
+  "targetedCorrection": 1,
+  "localGeometryQcRepair": "Lift/round central columella only by smooth field with peak3.2mm; no new identity pass",
+  "sourceA02BlendSha256": "a1bc76a1a35791c307b1ea8b9194b7f603e3b1d438a8e15864810db4eb9ad8f4",
+  "refinement": {
+    "eyeScaleRelativeA02": 0.95,
+    "lowerLidRaiseMeters": 0.0006,
+    "chinProjectionBackMeters": 0.001,
+    "jawSmoothFactor": 0.18,
+    "jawSmoothIterations": 2,
+    "jawMaximumShiftMeters": 0.0015,
+    "browSmoothFactor": 0.15,
+    "browMaximumShiftMeters": 0.0006,
+    "hairWidthVariation": 0.06,
+    "hairCrestVariationMeters": 0.0016,
+    "hairDepthScale": 0.9,
+    "hairFrontRoundMeters": 0.0035
+  },
+  "optimization": {
+    "targetMinTriangles": 25000,
+    "targetMaxTriangles": 28000,
+    "preserveObjects": [
+      "M01_head",
+      "M01_eyes",
+      "M01_eyebrows",
+      "M01_hair_base"
+    ],
+    "targetTriangles": {
+      "M01_body": 4400,
+      "M01_shirt": 2450,
+      "M01_pants": 3500,
+      "M01_shoes_base": 1450,
+      "M01_shoes_bottom": 500,
+      "M01_shoes_parts": 850
+    },
+    "meshes": {
+      "M01_body": {
+        "ratio": 0.84,
+        "protectHandsBeyondX": 0.68,
+        "protectUvSeams": true
+      },
+      "M01_shirt": {
+        "ratio": 0.73,
+        "protectUvSeams": true
+      },
+      "M01_pants": {
+        "ratio": 0.65,
+        "protectUvSeams": true
+      },
+      "M01_shoes_base": {
+        "ratio": 0.25,
+        "protectUvSeams": true,
+        "preserveReferenceNormals": true
+      },
+      "M01_shoes_bottom": {
+        "ratio": 0.3,
+        "protectUvSeams": true,
+        "preserveReferenceNormals": true
+      },
+      "M01_shoes_parts": {
+        "ratio": 0.45,
+        "protectUvSeams": true,
+        "preserveReferenceNormals": true
+      }
+    },
+    "qualityPriority": "Selected gentler shoe decoration and sole reduction after visible flattening in28263-triangle variant; final expected29367 exceeds28k by1367. Preserve appearance rather than claim target met."
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "schema": "male-a02-evidence-manifest-1",
+  "scope": "A02 only. A01 snapshot remains at commit8f5cc5a and v0.1 release; AGENTS is extended by explicit A02 owner authorization.",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 5147,
+      "sha256": "bba2a308d61b86a44d1f74e60949655b75b1aa5489ed1ce8a04d007740e1fab8"
+    },
+    {
+      "path": "configs/male-neutral-a02.json",
+      "bytes": 2847,
+      "sha256": "c5afa0cc91e3eef768168dc21b616b7e412eece58ca31a1d0cd39520b9778f19"
+    },
+    {
+      "path": "docs/characters/male-player/A02_IMPORT_CONTRACT.json",
+      "bytes": 3083,
+      "sha256": "0623086445376449b305fc005d2fe625465b308166295cd62fcd95a812db9d5c"
+    },
+    {
+      "path": "docs/characters/male-player/A02_REPRODUCE.md",
+      "bytes": 3271,
+      "sha256": "0815384310674df882088a7b1befbeca7abef5c227bf7ff7bb85c71ab4ffd72f"
+    },
+    {
+      "path": "docs/characters/male-player/A02_VISUAL_REPORT.md",
+      "bytes": 8361,
+      "sha256": "d79d37e32ed37a84012d4499b5a5ec379c792936a19a3c9f29043127ea3219f0"
+    },
+    {
+      "path": "evidence/male-neutral-a02/artifact.json",
+      "bytes": 793,
+      "sha256": "834622e45ce7b649a5f0c99169f1eb6b11fc82ca1a2b973d09489a65abbeb7a1"
+    },
+    {
+      "path": "evidence/male-neutral-a02/asset-report.json",
+      "bytes": 6731,
+      "sha256": "639e041052c7f51e318b8cf8f2db8562877f55be29f8f63c32b7c65cd854103a"
+    },
+    {
+      "path": "evidence/male-neutral-a02/authorization.json",
+      "bytes": 736,
+      "sha256": "c794c708f60cb69afbbd0c28889426b7c1cdf568f66a1fbb930c6274cfdeb8e3"
+    },
+    {
+      "path": "evidence/male-neutral-a02/comparison-integrity.json",
+      "bytes": 727,
+      "sha256": "037bccb75bd11f4f6bdf9c278a0de62b5231f755634c53b4745553130249dc0a"
+    },
+    {
+      "path": "evidence/male-neutral-a02/contact-diagnostics.json",
+      "bytes": 3209,
+      "sha256": "8d17b404945de62be0f99371e133ee8c29a18f553e46bdff265cee8448e09df0"
+    },
+    {
+      "path": "evidence/male-neutral-a02/execution.json",
+      "bytes": 1825,
+      "sha256": "cd220e8589c459ebcd65814d13708c704904986310cb5c3cf8f3b426ca1a1e80"
+    },
+    {
+      "path": "evidence/male-neutral-a02/previews/a01-a02-clay-comparison.png",
+      "bytes": 498846,
+      "sha256": "a5930ccc46a3f7be8800be94a3920c02be5f6587f5762603b8750ec37df613a7"
+    },
+    {
+      "path": "evidence/male-neutral-a02/previews/a01-a02-face-comparison.png",
+      "bytes": 685269,
+      "sha256": "da3445b42b93052df4b69783ba7a5c96f4a7e8680e7f75c1895013b38f03a9e7"
+    },
+    {
+      "path": "evidence/male-neutral-a02/previews/a01-a02-full-front.png",
+      "bytes": 289415,
+      "sha256": "56cbfafd267643441fe9fed315f25a54edef0b953345f5ddb6ba351bb5f18a71"
+    },
+    {
+      "path": "evidence/male-neutral-a02/previews/a01-a02-game16m.png",
+      "bytes": 722325,
+      "sha256": "861fea4ce97ec81d991f12051961be667d36399875fc08e9745453b3efa339ed"
+    },
+    {
+      "path": "evidence/male-neutral-a02/previews/a01-a02-urp.png",
+      "bytes": 444530,
+      "sha256": "e4dd2accb863d349b93ac3ebb5aa6cbe3d3c3bc7d91af401f59575e1fe87ac9c"
+    },
+    {
+      "path": "evidence/male-neutral-a02/previews/A01_clay_face_front.png",
+      "bytes": 1203924,
+      "sha256": "b381ead5b9baea5eeea5d5a6e070465d619a598a43d3fa7430c592a29faef5d2"
+    },
+    {
+      "path": "evidence/male-neutral-a02/previews/A01_clay_face_three_quarter.png",
+      "bytes": 1214391,
+      "sha256": "9e454e7d076c5c9cf23c3dd334f9b5acf9d654fe49f3ebbfd43b448e1bb4d151"
+    },
+    {
+      "path": "evidence/male-neutral-a02/previews/A01_unity_face.png",
+      "bytes": 460019,
+      "sha256": "32381fde218a1b03b21fba9f45281bdbfc3d88b6d5265588de06e02ab916b79a"
+    },
+    {
+      "path": "evidence/male-neutral-a02/previews/A01_unity_full.png",
+      "bytes": 164313,
+      "sha256": "0ad652a2ab56d2b8da2c2b405b4a74bcf0c712e8ae2f19ae9afe17cc89b7a373"
+    },
+    {
+      "path": "evidence/male-neutral-a02/previews/a02-body-views.png",
+      "bytes": 327216,
+      "sha256": "c0a8492758a748fab7709f9f93bd2c38ff751944abb426caf80e8b2dc54b6cb2"
+    },
+    {
+      "path": "evidence/male-neutral-a02/previews/A02_clay_face_front.png",
+      "bytes": 1199344,
+      "sha256": "cc31171716aac54bbe2040974abf185400ec708525ed036f5cec5972c9a9f5af"
+    },
+    {
+      "path": "evidence/male-neutral-a02/previews/A02_clay_face_three_quarter.png",
+      "bytes": 1210321,
+      "sha256": "0f26deed60363c91563d951b77843dbba7c4fecf20379467386b431d6ae62ccb"
+    },
+    {
+      "path": "evidence/male-neutral-a02/previews/A02_unity_face.png",
+      "bytes": 433211,
+      "sha256": "d5ff76c5ca0efefdac902949e52fce88704ab509bfb462e5e75a1e0d6abedb38"
+    },
+    {
+      "path": "evidence/male-neutral-a02/previews/A02_unity_full.png",
+      "bytes": 161477,
+      "sha256": "8fc020e6f11643fa2707929bd17fae900fa1fb16cfc0851be9f084aba9438998"
+    },
+    {
+      "path": "evidence/male-neutral-a02/previews/back.png",
+      "bytes": 1252928,
+      "sha256": "cb96789acde73b979e386cddd101b78e02cc524a4d37143902b97327a4a7c203"
+    },
+    {
+      "path": "evidence/male-neutral-a02/previews/face_front.png",
+      "bytes": 1326844,
+      "sha256": "b80c4d2ff154487ed8cd30e081f64f4bf987572548c629deece021878abaf224"
+    },
+    {
+      "path": "evidence/male-neutral-a02/previews/face_three_quarter.png",
+      "bytes": 1338016,
+      "sha256": "5d3f0c0e1a104b0a0f561f1e0c88be61ead0e1298fe383112a942609b842877b"
+    },
+    {
+      "path": "evidence/male-neutral-a02/previews/front.png",
+      "bytes": 1250484,
+      "sha256": "f4e88c4eab0c283a0b25e21e50a907bd296851d7b1a81c2bbea17755cfa1189a"
+    },
+    {
+      "path": "evidence/male-neutral-a02/previews/game_16m_back.png",
+      "bytes": 883926,
+      "sha256": "7966e97f68969c6dafde23b531ffb72c104e82795c29f6b12f56b427c094b436"
+    },
+    {
+      "path": "evidence/male-neutral-a02/previews/game_16m_front.png",
+      "bytes": 878078,
+      "sha256": "b6d9231a3706194d6c0d719ea22cbfff0f07a1ce671e20a311b5f5f484502cf4"
+    },
+    {
+      "path": "evidence/male-neutral-a02/previews/layout.json",
+      "bytes": 2498,
+      "sha256": "a3666ae1a21559c469e9d9b210b6fc9c275a458af965ab7a9d9d045fce84c53c"
+    },
+    {
+      "path": "evidence/male-neutral-a02/previews/near_third_person.png",
+      "bytes": 1215415,
+      "sha256": "5a96c9c2aba27ccd75734d3923282ffe74af2dd08848392dc7c2033b4f8487b8"
+    },
+    {
+      "path": "evidence/male-neutral-a02/previews/side.png",
+      "bytes": 1232863,
+      "sha256": "a947bc80aec141d5b4fcb2fed8705f0bc7f627fc0c1460b4b9515c536d7ac56b"
+    },
+    {
+      "path": "evidence/male-neutral-a02/previews/three_quarter.png",
+      "bytes": 1256843,
+      "sha256": "ae31afe92d4da690349d44f1b7e34966edf2bd31bea8b8ba0abc966120a20e01"
+    },
+    {
+      "path": "evidence/male-neutral-a02/provenance.json",
+      "bytes": 1575,
+      "sha256": "623d4aa3d02e11cb8b5c609af193334ceced0c91940cd43a99a9874437c1c68a"
+    },
+    {
+      "path": "evidence/male-neutral-a02/README.md",
+      "bytes": 1543,
+      "sha256": "2ea2726c2f61b2f81f8fd4e59c8b7aa572d3522f9bbe71c446a8de4d3c3e4f9e"
+    },
+    {
+      "path": "evidence/male-neutral-a02/render-metadata.json",
+      "bytes": 6247,
+      "sha256": "1d8b9a9460f3e75053d21f0d9d40e09c278f815633e78dc3c5ea2184f685e0b3"
+    },
+    {
+      "path": "evidence/male-neutral-a02/reproduction.json",
+      "bytes": 173,
+      "sha256": "f37bff9a2fa33cc733cbc34187a3a158b63b383828e2033805f4fd2b49d4eab8"
+    },
+    {
+      "path": "evidence/male-neutral-a02/texture-processing.json",
+      "bytes": 12977,
+      "sha256": "4f589ee469db895f852f195489b21575021fc4dc35483b6fa920ac9d13eee660"
+    },
+    {
+      "path": "evidence/male-neutral-a02/unity-command.json",
+      "bytes": 4847,
+      "sha256": "f88d7178ac789c8c7b98b2dd09a98d4f51782e7492971fd56d27f6873301fb7a"
+    },
+    {
+      "path": "evidence/male-neutral-a02/unity-import-report.json",
+      "bytes": 6340,
+      "sha256": "4a59ee38498f507f69696b33d0624dc66e54ebd3ee7716a8a4c1daee03ed3585"
+    },
+    {
+      "path": "evidence/male-neutral-a02/urp-review-command.json",
+      "bytes": 1192,
+      "sha256": "b9cab8aad72850c96554fa217b7856da7805539ba04b05a74d8ac9663ba6480a"
+    },
+    {
+      "path": "evidence/male-neutral-a02/urp-review-settings.json",
+      "bytes": 198,
+      "sha256": "714f82e4bfbc729c5a7ef7f37749ec96f9c07014bb8d9eecb3a06c47643b3072"
+    },
+    {
+      "path": "evidence/male-neutral-a02/verification.json",
+      "bytes": 100003,
+      "sha256": "c0f43b47b49063863aa7e60eed617ab7891dc311e39d1cf10b9c8b61d5467ab8"
+    },
+    {
+      "path": "scripts/build_male_neutral_a02.py",
+      "bytes": 13415,
+      "sha256": "4a10f2818d788a1e6facc15455cafa2f4b14a6eacab00302f4ee9063812395dc"
+    },
+    {
+      "path": "scripts/compose_male_a02_review.py",
+      "bytes": 3057,
+      "sha256": "16d2fc61ea5c2a2a863136a745633c2d637497f6b4187ce5455a3f0ee286b95a"
+    },
+    {
+      "path": "scripts/male_a02_form.py",
+      "bytes": 2517,
+      "sha256": "05a69a52f7e24efb085f0c38f9317bf225f6e5a6fcf00aaf61c0579082af06dd"
+    },
+    {
+      "path": "scripts/prepare_male_a02_textures.py",
+      "bytes": 11341,
+      "sha256": "74dfebe308951b7e504321a5f406a99f32286bf533e07234e992ec3c5ec7d79a"
+    },
+    {
+      "path": "scripts/RenderMaleA02UrpReview.cs",
+      "bytes": 4308,
+      "sha256": "1c5e4d01b59c49fd382f02e9ae00b4ba7dccbe8e42a7b978a56d1ecbd0dd588b"
+    }
+  ]
+}

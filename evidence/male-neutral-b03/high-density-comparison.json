@@ -1,0 +1,21 @@
+{
+  "source": "Preserved A03 high static body, read-only; no topology applied",
+  "vertices": 3268,
+  "triangles": 6500,
+  "elbows": {
+    "L": {
+      "within90mm": 165,
+      "within55mm": 126,
+      "within20mm": 54,
+      "optimizedWithin55mm": 29,
+      "optimizedWithin20mm": 11
+    },
+    "R": {
+      "within90mm": 165,
+      "within55mm": 126,
+      "within20mm": 54,
+      "optimizedWithin55mm": 29,
+      "optimizedWithin20mm": 11
+    }
+  }
+}

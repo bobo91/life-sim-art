@@ -1,0 +1,85 @@
+{
+  "scale": 0.9725384948534507,
+  "sourceOffsetBeforeScale": [
+    -4.172325134277344e-07,
+    -0.0525042898952961,
+    -0.003440380096435547
+  ],
+  "affine": "p_A01=(p_source_world-offset)*scale",
+  "sourcePath": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\source-audit\\original\\Snow\\snow_v4.2.blend",
+  "sourceSha256": "80fd0a81bca90f0efdcdcb98422df0e198ae57f4a1c239e13fb795922779b1fc",
+  "parts": {
+    "body": {
+      "sourceUsedVertices": 3268,
+      "a01Vertices": 3268,
+      "evaluatedSourceVerticesWithWeights": 3268,
+      "vertexGroupCount": 138,
+      "forwardNearestMaxMeters": 1.3348812899494078e-07,
+      "forwardNearestMeanMeters": 1.2347409957529572e-07
+    },
+    "shirt": {
+      "sourceUsedVertices": 1679,
+      "a01Vertices": 1679,
+      "evaluatedSourceVerticesWithWeights": 1679,
+      "vertexGroupCount": 23,
+      "forwardNearestMaxMeters": 2.403028815933794e-07,
+      "forwardNearestMeanMeters": 1.201296107602678e-07
+    },
+    "pants": {
+      "sourceUsedVertices": 2631,
+      "a01Vertices": 2631,
+      "evaluatedSourceVerticesWithWeights": 2631,
+      "vertexGroupCount": 26,
+      "forwardNearestMaxMeters": 1.8143349223009864e-07,
+      "forwardNearestMeanMeters": 1.197133150091713e-07
+    },
+    "shoes_base": {
+      "sourceUsedVertices": 2286,
+      "a01Vertices": 2286,
+      "evaluatedSourceVerticesWithWeights": 2286,
+      "vertexGroupCount": 13,
+      "forwardNearestMaxMeters": 1.3033192658440385e-07,
+      "forwardNearestMeanMeters": 1.2004836915972498e-07
+    },
+    "shoes_bottom": {
+      "sourceUsedVertices": 1048,
+      "a01Vertices": 1048,
+      "evaluatedSourceVerticesWithWeights": 1048,
+      "vertexGroupCount": 7,
+      "forwardNearestMaxMeters": 1.2108984037695336e-07,
+      "forwardNearestMeanMeters": 1.201254611168743e-07
+    },
+    "shoes_parts": {
+      "sourceUsedVertices": 2956,
+      "a01Vertices": 2956,
+      "evaluatedSourceVerticesWithWeights": 2956,
+      "vertexGroupCount": 7,
+      "forwardNearestMaxMeters": 1.3017211131227668e-07,
+      "forwardNearestMeanMeters": 1.1991219031528768e-07
+    },
+    "head": {
+      "sourceUsedVertices": 3719,
+      "a01Vertices": 3719,
+      "evaluatedSourceVerticesWithWeights": 3719,
+      "vertexGroupCount": 272,
+      "forwardNearestMaxMeters": 1.2377833513710357e-07,
+      "forwardNearestMeanMeters": 1.2007681529787651e-07
+    },
+    "eyes": {
+      "sourceUsedVertices": 1418,
+      "a01Vertices": 1418,
+      "evaluatedSourceVerticesWithWeights": 1418,
+      "vertexGroupCount": 2,
+      "forwardNearestMaxMeters": 1.2310378849633707e-07,
+      "forwardNearestMeanMeters": 1.2229610355969595e-07
+    },
+    "eyebrows": {
+      "sourceUsedVertices": 806,
+      "a01Vertices": 806,
+      "evaluatedSourceVerticesWithWeights": 806,
+      "vertexGroupCount": 17,
+      "forwardNearestMaxMeters": 0.000748753547668457,
+      "forwardNearestMeanMeters": 0.0002407028192000465
+    }
+  }
+}

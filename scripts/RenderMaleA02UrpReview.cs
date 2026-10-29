@@ -1,0 +1,21 @@
+// Art-only render calibration; uses the existing imported static probe. No game code.
+using System;using System.IO;using System.Linq;using UnityEditor;using UnityEditor.SceneManagement;using UnityEngine;using UnityEngine.Rendering;using UnityEngine.Rendering.Universal;
+public static class RenderMaleA02UrpReview {
+ static string Arg(string n){var a=Environment.GetCommandLineArgs();for(int i=0;i+1<a.Length;i++)if(a[i]==n)return a[i+1];return null;}
+ static void Capture(Camera camera,string file){var rt=new RenderTexture(900,900,24,RenderTextureFormat.ARGB32,RenderTextureReadWrite.sRGB);rt.Create();var r=new UniversalRenderPipeline.SingleCameraRequest{destination=rt};for(int i=0;i<4;i++)RenderPipeline.SubmitRenderRequest(camera,r);if(!(RenderPipelineManager.currentPipeline is UniversalRenderPipeline))throw new Exception("URP not active");var old=RenderTexture.active;RenderTexture.active=rt;var image=new Texture2D(900,900,TextureFormat.RGB24,false);image.ReadPixels(new Rect(0,0,900,900),0,0);image.Apply();File.WriteAllBytes(file,image.EncodeToPNG());RenderTexture.active=old;UnityEngine.Object.DestroyImmediate(image);rt.Release();UnityEngine.Object.DestroyImmediate(rt);}
+ public static void Run(){try{
+  string output=Arg("-reviewOutput");Directory.CreateDirectory(output);EditorSceneManager.OpenScene("Assets/StaticMaleProbe.unity",OpenSceneMode.Single);GraphicsSettings.defaultRenderPipeline=AssetDatabase.LoadAssetAtPath<UniversalRenderPipelineAsset>("Assets/ProbeURP.asset");QualitySettings.renderPipeline=null;
+  foreach(var g in UnityEngine.Object.FindObjectsByType<Light>(FindObjectsSortMode.None))UnityEngine.Object.DestroyImmediate(g.gameObject);
+  foreach(var c in UnityEngine.Object.FindObjectsByType<Camera>(FindObjectsSortMode.None))UnityEngine.Object.DestroyImmediate(c.gameObject);
+  var key=new GameObject("NeutralReviewKey").AddComponent<Light>();key.type=LightType.Directional;key.intensity=1.5f;key.transform.rotation=Quaternion.Euler(40,155,0);
+  var fill=new GameObject("NeutralReviewFill").AddComponent<Light>();fill.type=LightType.Directional;fill.intensity=.5f;fill.transform.rotation=Quaternion.Euler(20,225,0);RenderSettings.ambientMode=AmbientMode.Flat;RenderSettings.ambientLight=new Color(.4f,.4f,.4f);
+  var camera=new GameObject("NeutralReviewCamera").AddComponent<Camera>();camera.orthographic=true;camera.clearFlags=CameraClearFlags.SolidColor;camera.backgroundColor=new Color(.30f,.32f,.34f);camera.nearClipPlane=.05f;camera.farClipPlane=50;var cd=camera.GetUniversalAdditionalCameraData();cd.renderPostProcessing=false;cd.volumeLayerMask=1;
+  var current=GameObject.Find("chr_player_male_poc_001");if(current!=null)UnityEngine.Object.DestroyImmediate(current);
+  string baseline="Assets/Props/A01_baseline.glb";if(!File.Exists(baseline))File.Copy(Arg("-a01Glb"),baseline,false);else if(!File.ReadAllBytes(baseline).SequenceEqual(File.ReadAllBytes(Arg("-a01Glb"))))throw new Exception("Baseline hash mismatch");AssetDatabase.ImportAsset(baseline,ImportAssetOptions.ForceSynchronousImport|ImportAssetOptions.ForceUpdate);
+  foreach(string label in new[]{"A01","A02"}){string path=label=="A01"?baseline:"Assets/Props/chr_player_male_poc_001.glb";var prefab=AssetDatabase.LoadAssetAtPath<GameObject>(path);if(prefab==null)throw new Exception("Missing prefab "+label);var instance=(GameObject)PrefabUtility.InstantiatePrefab(prefab);
+   camera.transform.position=new Vector3(-2.8f,1.5f,4);camera.transform.LookAt(new Vector3(0,.875f,0));camera.orthographicSize=1.08f;Capture(camera,Path.Combine(output,label+"_unity_full.png"));
+   camera.transform.position=new Vector3(-.9f,1.54f,1.285f);camera.transform.LookAt(new Vector3(0,1.54f,.03f));camera.orthographicSize=.27125f;Capture(camera,Path.Combine(output,label+"_unity_face.png"));UnityEngine.Object.DestroyImmediate(instance);
+  }
+  File.WriteAllText(Path.Combine(output,"render-settings.json"), @"{""unity"":""6000.5.8f1"",""pipeline"":""URP"",""toneMapping"":""None"",""postProcessing"":false,""keyIntensity"":1.5,""fillIntensity"":0.5,""ambient"":0.4,""sameLightingCameraForA01A02"":true,""actualGameLighting"":false}");EditorApplication.Exit(0);
+ }catch(Exception e){File.WriteAllText(Path.Combine(Arg("-reviewOutput"),"render-error.txt"),e.ToString());Debug.LogException(e);EditorApplication.Exit(1);}}
+}

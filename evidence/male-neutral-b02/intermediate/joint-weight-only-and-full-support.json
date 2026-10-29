@@ -1,0 +1,257 @@
+{
+  "before": {
+    "metadata": {
+      "supports": []
+    },
+    "metrics": {
+      "run_elbow": {
+        "vertices": 9,
+        "projectedCovarianceAreaRatioToBind": 0.8403982712886952,
+        "metric": "Fixed bind-ring vertices within15mm of hinge, projected onto posed bisector plane. Covariance-area proxy, not enclosed mesh volume."
+      },
+      "run_knee": {
+        "vertices": 46,
+        "projectedCovarianceAreaRatioToBind": 1.6964448416939644,
+        "metric": "Fixed bind-ring vertices within15mm of hinge, projected onto posed bisector plane. Covariance-area proxy, not enclosed mesh volume."
+      },
+      "stress_elbow90": {
+        "vertices": 9,
+        "projectedCovarianceAreaRatioToBind": 0.7191762122436444,
+        "metric": "Fixed bind-ring vertices within15mm of hinge, projected onto posed bisector plane. Covariance-area proxy, not enclosed mesh volume."
+      },
+      "stress_wrist": {
+        "vertices": 32,
+        "projectedCovarianceAreaRatioToBind": 0.9205432774437022,
+        "metric": "Fixed bind-ring vertices within15mm of hinge, projected onto posed bisector plane. Covariance-area proxy, not enclosed mesh volume."
+      },
+      "stress_knee90": {
+        "vertices": 46,
+        "projectedCovarianceAreaRatioToBind": 0.7162394669754796,
+        "metric": "Fixed bind-ring vertices within15mm of hinge, projected onto posed bisector plane. Covariance-area proxy, not enclosed mesh volume."
+      }
+    }
+  },
+  "weights": {
+    "metadata": {
+      "supports": [],
+      "weights": {
+        "M01_body": {
+          "verticesChanged": 794,
+          "zoneAssignments": {
+            "elbow:L": 29,
+            "elbow:R": 29,
+            "wrist:L": 47,
+            "wrist:R": 47,
+            "Thumb1.L": 0,
+            "Thumb2.L": 0,
+            "Thumb3.L": 22,
+            "Index1.L": 0,
+            "Index2.L": 28,
+            "Index3.L": 33,
+            "Middle1.L": 0,
+            "Middle2.L": 30,
+            "Middle3.L": 34,
+            "Ring1.L": 5,
+            "Ring2.L": 34,
+            "Ring3.L": 36,
+            "Pinky1.L": 14,
+            "Pinky2.L": 42,
+            "Pinky3.L": 43,
+            "Thumb1.R": 0,
+            "Thumb2.R": 0,
+            "Thumb3.R": 22,
+            "Index1.R": 0,
+            "Index2.R": 28,
+            "Index3.R": 33,
+            "Middle1.R": 0,
+            "Middle2.R": 30,
+            "Middle3.R": 34,
+            "Ring1.R": 5,
+            "Ring2.R": 34,
+            "Ring3.R": 36,
+            "Pinky1.R": 14,
+            "Pinky2.R": 42,
+            "Pinky3.R": 43
+          },
+          "maxDiscardedMassFraction": 0.0,
+          "meanDiscardedMassFraction": 0.0,
+          "maxInfluences": 4
+        },
+        "M01_pants": {
+          "verticesChanged": 326,
+          "zoneAssignments": {
+            "knee:L": 169,
+            "knee:R": 157
+          },
+          "maxDiscardedMassFraction": 0.0,
+          "meanDiscardedMassFraction": 0.0,
+          "maxInfluences": 4
+        }
+      },
+      "approvedRawGeometryUnchanged": true,
+      "bonesBefore": 52,
+      "bonesAfter": 52,
+      "mode": "local weights only"
+    },
+    "metrics": {
+      "run_elbow": {
+        "vertices": 9,
+        "projectedCovarianceAreaRatioToBind": 0.8327686024633948,
+        "metric": "Fixed bind-ring vertices within15mm of hinge, projected onto posed bisector plane. Covariance-area proxy, not enclosed mesh volume."
+      },
+      "run_knee": {
+        "vertices": 46,
+        "projectedCovarianceAreaRatioToBind": 1.6993644721116745,
+        "metric": "Fixed bind-ring vertices within15mm of hinge, projected onto posed bisector plane. Covariance-area proxy, not enclosed mesh volume."
+      },
+      "stress_elbow90": {
+        "vertices": 9,
+        "projectedCovarianceAreaRatioToBind": 0.7098826073116448,
+        "metric": "Fixed bind-ring vertices within15mm of hinge, projected onto posed bisector plane. Covariance-area proxy, not enclosed mesh volume."
+      },
+      "stress_wrist": {
+        "vertices": 32,
+        "projectedCovarianceAreaRatioToBind": 0.9176800667531401,
+        "metric": "Fixed bind-ring vertices within15mm of hinge, projected onto posed bisector plane. Covariance-area proxy, not enclosed mesh volume."
+      },
+      "stress_knee90": {
+        "vertices": 46,
+        "projectedCovarianceAreaRatioToBind": 0.7192056064166772,
+        "metric": "Fixed bind-ring vertices within15mm of hinge, projected onto posed bisector plane. Covariance-area proxy, not enclosed mesh volume."
+      }
+    }
+  },
+  "supports": {
+    "metadata": {
+      "supports": [
+        {
+          "bone": "B02_Elbow.L",
+          "parent": "UpperArm.L",
+          "proximal": "UpperArm.L",
+          "distal": "LowerArm.L",
+          "label": "elbow"
+        },
+        {
+          "bone": "B02_Elbow.R",
+          "parent": "UpperArm.R",
+          "proximal": "UpperArm.R",
+          "distal": "LowerArm.R",
+          "label": "elbow"
+        },
+        {
+          "bone": "B02_Knee.L",
+          "parent": "UpperLeg.L",
+          "proximal": "UpperLeg.L",
+          "distal": "LowerLeg.L",
+          "label": "knee"
+        },
+        {
+          "bone": "B02_Knee.R",
+          "parent": "UpperLeg.R",
+          "proximal": "UpperLeg.R",
+          "distal": "LowerLeg.R",
+          "label": "knee"
+        },
+        {
+          "bone": "B02_Wrist.L",
+          "parent": "LowerArm.L",
+          "proximal": "LowerArm.L",
+          "distal": "Hand.L",
+          "label": "wrist"
+        },
+        {
+          "bone": "B02_Wrist.R",
+          "parent": "LowerArm.R",
+          "proximal": "LowerArm.R",
+          "distal": "Hand.R",
+          "label": "wrist"
+        }
+      ],
+      "weights": {
+        "M01_body": {
+          "verticesChanged": 794,
+          "zoneAssignments": {
+            "elbow:L": 29,
+            "elbow:R": 29,
+            "wrist:L": 47,
+            "wrist:R": 47,
+            "Thumb1.L": 0,
+            "Thumb2.L": 0,
+            "Thumb3.L": 22,
+            "Index1.L": 0,
+            "Index2.L": 28,
+            "Index3.L": 33,
+            "Middle1.L": 0,
+            "Middle2.L": 30,
+            "Middle3.L": 34,
+            "Ring1.L": 5,
+            "Ring2.L": 34,
+            "Ring3.L": 36,
+            "Pinky1.L": 14,
+            "Pinky2.L": 42,
+            "Pinky3.L": 43,
+            "Thumb1.R": 0,
+            "Thumb2.R": 0,
+            "Thumb3.R": 22,
+            "Index1.R": 0,
+            "Index2.R": 28,
+            "Index3.R": 33,
+            "Middle1.R": 0,
+            "Middle2.R": 30,
+            "Middle3.R": 34,
+            "Ring1.R": 5,
+            "Ring2.R": 34,
+            "Ring3.R": 36,
+            "Pinky1.R": 14,
+            "Pinky2.R": 42,
+            "Pinky3.R": 43
+          },
+          "maxDiscardedMassFraction": 0.0,
+          "meanDiscardedMassFraction": 0.0,
+          "maxInfluences": 4
+        },
+        "M01_pants": {
+          "verticesChanged": 326,
+          "zoneAssignments": {
+            "knee:L": 169,
+            "knee:R": 157
+          },
+          "maxDiscardedMassFraction": 0.0,
+          "meanDiscardedMassFraction": 0.0,
+          "maxInfluences": 4
+        }
+      },
+      "approvedRawGeometryUnchanged": true,
+      "bonesBefore": 52,
+      "bonesAfter": 58,
+      "mode": "local weights plus baked half-angle supports"
+    },
+    "metrics": {
+      "run_elbow": {
+        "vertices": 9,
+        "projectedCovarianceAreaRatioToBind": 0.9857000810243358,
+        "metric": "Fixed bind-ring vertices within15mm of hinge, projected onto posed bisector plane. Covariance-area proxy, not enclosed mesh volume."
+      },
+      "run_knee": {
+        "vertices": 46,
+        "projectedCovarianceAreaRatioToBind": 1.711025053563889,
+        "metric": "Fixed bind-ring vertices within15mm of hinge, projected onto posed bisector plane. Covariance-area proxy, not enclosed mesh volume."
+      },
+      "stress_elbow90": {
+        "vertices": 9,
+        "projectedCovarianceAreaRatioToBind": 0.981926098797684,
+        "metric": "Fixed bind-ring vertices within15mm of hinge, projected onto posed bisector plane. Covariance-area proxy, not enclosed mesh volume."
+      },
+      "stress_wrist": {
+        "vertices": 32,
+        "projectedCovarianceAreaRatioToBind": 0.9655110485750907,
+        "metric": "Fixed bind-ring vertices within15mm of hinge, projected onto posed bisector plane. Covariance-area proxy, not enclosed mesh volume."
+      },
+      "stress_knee90": {
+        "vertices": 46,
+        "projectedCovarianceAreaRatioToBind": 0.9863027585187097,
+        "metric": "Fixed bind-ring vertices within15mm of hinge, projected onto posed bisector plane. Covariance-area proxy, not enclosed mesh volume."
+      }
+    }
+  }
+}

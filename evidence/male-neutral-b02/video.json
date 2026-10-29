@@ -1,0 +1,246 @@
+{
+  "schema": "male-b02-review-video-evidence-1",
+  "videos": [
+    {
+      "schema": "male-b02-motion-video-1",
+      "encoder": "Blender 4.5.14 LTS VSE FFmpeg H264/MPEG4",
+      "camera": "full",
+      "path": "a03-b02-unity-motion.mp4",
+      "bytes": 411427,
+      "sha256": "fbf9ad4ae8f91133aa3587707d1797140c798f753d8b3b97e4e2df55442b8c28",
+      "fps": 24,
+      "frames": 126,
+      "durationSeconds": 5.25,
+      "containerTiming": {
+        "timescale": 12288,
+        "durationTicks": 64512,
+        "durationSeconds": 5.25,
+        "frames": 126,
+        "frameDeltaRuns": [
+          {
+            "frames": 126,
+            "deltaTicks": 512,
+            "fps": 24.0
+          }
+        ]
+      },
+      "reopenedFrames": 126,
+      "width": 768,
+      "height": 848,
+      "segments": [
+        {
+          "clip": "idle",
+          "firstFrame": 1,
+          "lastFrame": 48,
+          "frames": 48,
+          "fps": 24
+        },
+        {
+          "clip": "walk",
+          "firstFrame": 49,
+          "lastFrame": 72,
+          "frames": 24,
+          "fps": 24
+        },
+        {
+          "clip": "run",
+          "firstFrame": 73,
+          "lastFrame": 90,
+          "frames": 18,
+          "fps": 24
+        },
+        {
+          "clip": "turn",
+          "firstFrame": 91,
+          "lastFrame": 126,
+          "frames": 36,
+          "fps": 24
+        }
+      ],
+      "decodedChecks": [
+        {
+          "clip": "idle",
+          "encodedFrame": 13,
+          "sourceFrame": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b02\\unity-001\\evidence\\frames\\idle\\frame_0012.png",
+          "decodedPath": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b02\\review-001\\reencode-check\\a03-b02-unity-motion-decoded\\idle.png"
+        },
+        {
+          "clip": "walk",
+          "encodedFrame": 55,
+          "sourceFrame": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b02\\unity-001\\evidence\\frames\\walk\\frame_0006.png",
+          "decodedPath": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b02\\review-001\\reencode-check\\a03-b02-unity-motion-decoded\\walk.png"
+        },
+        {
+          "clip": "run",
+          "encodedFrame": 77,
+          "sourceFrame": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b02\\unity-001\\evidence\\frames\\run\\frame_0004.png",
+          "decodedPath": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b02\\review-001\\reencode-check\\a03-b02-unity-motion-decoded\\run.png"
+        },
+        {
+          "clip": "turn",
+          "encodedFrame": 100,
+          "sourceFrame": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b02\\unity-001\\evidence\\frames\\turn\\frame_0009.png",
+          "decodedPath": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b02\\review-001\\reencode-check\\a03-b02-unity-motion-decoded\\turn.png"
+        }
+      ],
+      "nativeImageRegion": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 768
+      },
+      "processing": "All126actualUnityPNGframes sequentially at native24fps;80pxfooter with labels/credit only. No model rerender, pose retouch, synthesis, transition interpolation or camera generation.",
+      "audio": "none",
+      "license": "CC-BY-4.0 attributed Snow derivative; original repository-authored motion.",
+      "decodedNativePixelChecks": [
+        {
+          "clip": "idle",
+          "meanAbsoluteChannelError8bit": 0.8430899160879629
+        },
+        {
+          "clip": "walk",
+          "meanAbsoluteChannelError8bit": 0.8443236174406828
+        },
+        {
+          "clip": "run",
+          "meanAbsoluteChannelError8bit": 0.9006098994502315
+        },
+        {
+          "clip": "turn",
+          "meanAbsoluteChannelError8bit": 0.8944639983000577
+        }
+      ],
+      "allDecodedNativeRegionsMeanErrorBelow1_1": true,
+      "priorEncodingSha256": "01d9cb44c2af59e269d39ba700bbaaecc6e08745c430906bc5a1f0435a2dacc0",
+      "repeatContainerBytesIdentical": false,
+      "verificationCorrection": "Initial secondary-scene decoding retained stale VSE context. Fresh-process check proved originalvideo correct; final encoder resets context before decoding. This final encoding is independentlydecoded/checked. MP4containerbyteidentity is not claimed; actual inputPNGframes unchanged."
+    },
+    {
+      "schema": "male-b02-motion-video-1",
+      "encoder": "Blender 4.5.14 LTS VSE FFmpeg H264/MPEG4",
+      "camera": "game16m",
+      "path": "a03-b02-unity-16m.mp4",
+      "bytes": 100144,
+      "sha256": "1c1861762e8fb948f4e9810b9965a6f8bd0365157c12bec3fa4eb81cffe8c97c",
+      "fps": 24,
+      "frames": 126,
+      "durationSeconds": 5.25,
+      "containerTiming": {
+        "timescale": 12288,
+        "durationTicks": 64512,
+        "durationSeconds": 5.25,
+        "frames": 126,
+        "frameDeltaRuns": [
+          {
+            "frames": 126,
+            "deltaTicks": 512,
+            "fps": 24.0
+          }
+        ]
+      },
+      "reopenedFrames": 126,
+      "width": 1280,
+      "height": 800,
+      "segments": [
+        {
+          "clip": "idle",
+          "firstFrame": 1,
+          "lastFrame": 48,
+          "frames": 48,
+          "fps": 24
+        },
+        {
+          "clip": "walk",
+          "firstFrame": 49,
+          "lastFrame": 72,
+          "frames": 24,
+          "fps": 24
+        },
+        {
+          "clip": "run",
+          "firstFrame": 73,
+          "lastFrame": 90,
+          "frames": 18,
+          "fps": 24
+        },
+        {
+          "clip": "turn",
+          "firstFrame": 91,
+          "lastFrame": 126,
+          "frames": 36,
+          "fps": 24
+        }
+      ],
+      "decodedChecks": [
+        {
+          "clip": "idle",
+          "encodedFrame": 13,
+          "sourceFrame": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b02\\unity-001\\evidence\\frames16m\\idle\\frame_0012.png",
+          "decodedPath": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b02\\review-001\\reencode-check\\a03-b02-unity-16m-decoded\\idle.png"
+        },
+        {
+          "clip": "walk",
+          "encodedFrame": 55,
+          "sourceFrame": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b02\\unity-001\\evidence\\frames16m\\walk\\frame_0006.png",
+          "decodedPath": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b02\\review-001\\reencode-check\\a03-b02-unity-16m-decoded\\walk.png"
+        },
+        {
+          "clip": "run",
+          "encodedFrame": 77,
+          "sourceFrame": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b02\\unity-001\\evidence\\frames16m\\run\\frame_0004.png",
+          "decodedPath": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b02\\review-001\\reencode-check\\a03-b02-unity-16m-decoded\\run.png"
+        },
+        {
+          "clip": "turn",
+          "encodedFrame": 100,
+          "sourceFrame": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b02\\unity-001\\evidence\\frames16m\\turn\\frame_0009.png",
+          "decodedPath": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b02\\review-001\\reencode-check\\a03-b02-unity-16m-decoded\\turn.png"
+        }
+      ],
+      "nativeImageRegion": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720
+      },
+      "processing": "All126actualUnityPNGframes sequentially at native24fps;80pxfooter with labels/credit only. No model rerender, pose retouch, synthesis, transition interpolation or camera generation.",
+      "audio": "none",
+      "license": "CC-BY-4.0 attributed Snow derivative; original repository-authored motion.",
+      "decodedNativePixelChecks": [
+        {
+          "clip": "idle",
+          "meanAbsoluteChannelError8bit": 0.675775462962963
+        },
+        {
+          "clip": "walk",
+          "meanAbsoluteChannelError8bit": 0.6758311631944444
+        },
+        {
+          "clip": "run",
+          "meanAbsoluteChannelError8bit": 0.6773245804398148
+        },
+        {
+          "clip": "turn",
+          "meanAbsoluteChannelError8bit": 0.6782620804398148
+        }
+      ],
+      "allDecodedNativeRegionsMeanErrorBelow1_1": true,
+      "priorEncodingSha256": "9292c5e281279f43afc165fb95f878ad1ef1a20b6f56f5b95e322ef8c28f1d17",
+      "repeatContainerBytesIdentical": false,
+      "verificationCorrection": "Initial secondary-scene decoding retained stale VSE context. Fresh-process check proved originalvideo correct; final encoder resets context before decoding. This final encoding is independentlydecoded/checked. MP4containerbyteidentity is not claimed; actual inputPNGframes unchanged."
+    }
+  ],
+  "sourceFrameRecords": 300,
+  "actualFullCameraFrames": 126,
+  "actual16mCameraFrames": 126,
+  "nativeFrameRate": 24,
+  "sourceClips": [
+    "idle",
+    "walk",
+    "run",
+    "turn"
+  ],
+  "imageProcessing": "Only proportional resize/layout/labels. MP4 preserves native frame image dimensions plus80pxfooter; H264lossy compression decoded andchecked. No synthesized movement or model modification.",
+  "identity": "Both actual matched B01/B02 bind-face views have decodedRGB8pixelidentity as recorded by Unitychecker.",
+  "qualityGate": "Integration remainsNO-GO; actual elbowoutlinekink/sharpcrease and kneepinch are retained in comparison frames."
+}

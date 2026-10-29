@@ -1,0 +1,61 @@
+{
+  "schema": "male-phase-a-study-manifest-1",
+  "assetDelivery": false,
+  "newModel": false,
+  "newRenders": false,
+  "policyApprovedAtStudyTime": false,
+  "files": [
+    {
+      "path": "docs/characters/male-player/IMPORT_CONTRACT_PROPOSAL.json",
+      "bytes": 2786,
+      "sha256": "b6fd80c4b8ea1174b16b504e22e496d3e53938a1c44615d8cd1af74a6b317c88"
+    },
+    {
+      "path": "docs/characters/male-player/PHASE_A_REVIEW.md",
+      "bytes": 12158,
+      "sha256": "c455c5194cb27b1636ad004dc05f36b40616c534dfe25f7b86d09fa11ba55b28"
+    },
+    {
+      "path": "docs/characters/male-player/POLICY_EXCEPTION_PROPOSAL.md",
+      "bytes": 3301,
+      "sha256": "07ada6497e21e871e9b3fe88ee332520b78def862ee481edd974ba3389298efc"
+    },
+    {
+      "path": "evidence/male-player-phase-a/blender-environment.json",
+      "bytes": 1708,
+      "sha256": "de67d199c65b020221549bbd028d6e9e239f355bfcd42204fa486ba9c87f9905"
+    },
+    {
+      "path": "evidence/male-player-phase-a/environment-probe-source.py",
+      "bytes": 5500,
+      "sha256": "cbca96bbefd0d4c123ed02ab36bfa9b09cf05ab8a155dd53113c9306997f03bd"
+    },
+    {
+      "path": "evidence/male-player-phase-a/execution.json",
+      "bytes": 1502,
+      "sha256": "e22af664618bb251a1398229fc4c0523f98218d358cbd3881109aa39a55b63fe"
+    },
+    {
+      "path": "evidence/male-player-phase-a/history-record.json",
+      "bytes": 1542,
+      "sha256": "6d489bd767b79463a78446e599f9b96257164d488afa1bf5b5891c991768b0fb"
+    },
+    {
+      "path": "evidence/male-player-phase-a/README.md",
+      "bytes": 1288,
+      "sha256": "b3cbb84b1fa7f8f82af66f8ba0f73512b32f1aac5de9122ce5b1ce140e6d0c69"
+    },
+    {
+      "path": "evidence/male-player-phase-a/sources.json",
+      "bytes": 5538,
+      "sha256": "ad7149d41bca312cdbae85a8e58c7b63894048ac01e5fae4dfea89f8f2a6fd37"
+    },
+    {
+      "path": "evidence/male-player-phase-a/system-environment.json",
+      "bytes": 1197,
+      "sha256": "252f715b8d9d5448729733e72165a32d2d8a65c9e7d338c3e53e788fa9f07576"
+    }
+  ],
+  "previousHistoricalManifestSha256": "d009b63b28c3d815a59fd2d9c5ddf7b94912c75583a710166fbd56a5d039de23",
+  "statusNote": "Historical study with current status/link headers and canonical LF publication bytes; final model evidence is a separate sibling folder."
+}

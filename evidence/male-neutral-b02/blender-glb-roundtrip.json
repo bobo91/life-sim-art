@@ -1,0 +1,130 @@
+{
+  "schema": "male-b02-blender-motion-roundtrip-1",
+  "sourceSavedReopened": true,
+  "importedBones": 58,
+  "clips": {
+    "idle": {
+      "importedAction": "idle",
+      "sourceFrameRange": [
+        1.0,
+        49.0
+      ],
+      "importedFrameRange": [
+        0.0,
+        48.0
+      ],
+      "bidirectionalNearestSurfaceVertexMaxErrorsMeters": [
+        1.5855563333389e-06,
+        1.45249180150131e-06,
+        1.5855563333389e-06,
+        1.5146866871873499e-06,
+        1.5855563333389e-06
+      ],
+      "passed": true
+    },
+    "walk": {
+      "importedAction": "walk",
+      "sourceFrameRange": [
+        1.0,
+        25.0
+      ],
+      "importedFrameRange": [
+        0.0,
+        24.0
+      ],
+      "bidirectionalNearestSurfaceVertexMaxErrorsMeters": [
+        1.2157013316027587e-06,
+        2.5576716780051356e-06,
+        1.9634505861176876e-06,
+        4.145684215473011e-06,
+        1.2157013316027587e-06
+      ],
+      "passed": true
+    },
+    "run": {
+      "importedAction": "run",
+      "sourceFrameRange": [
+        1.0,
+        19.0
+      ],
+      "importedFrameRange": [
+        0.0,
+        18.0
+      ],
+      "bidirectionalNearestSurfaceVertexMaxErrorsMeters": [
+        1.8785069642035523e-06,
+        4.185079887975007e-06,
+        4.083706699020695e-06,
+        4.757491751661291e-06,
+        1.8785069642035523e-06
+      ],
+      "passed": true
+    },
+    "turn": {
+      "importedAction": "turn",
+      "sourceFrameRange": [
+        1.0,
+        37.0
+      ],
+      "importedFrameRange": [
+        0.0,
+        36.0
+      ],
+      "bidirectionalNearestSurfaceVertexMaxErrorsMeters": [
+        1.4533419516737922e-06,
+        2.300939740962349e-06,
+        2.4664009288244415e-06,
+        2.5577312499081017e-06,
+        1.713844085315941e-06
+      ],
+      "passed": true
+    }
+  },
+  "allMotionPosePointcloudsMatchWithin0_1mm": true,
+  "weights": {
+    "M01_body": {
+      "maxInfluences": 4,
+      "maxWeightError": 3.725290298461914e-08
+    },
+    "M01_head": {
+      "maxInfluences": 4,
+      "maxWeightError": 4.470348358154297e-08
+    },
+    "M01_eyes": {
+      "maxInfluences": 1,
+      "maxWeightError": 0.0
+    },
+    "M01_eyebrows": {
+      "maxInfluences": 1,
+      "maxWeightError": 0.0
+    },
+    "M01_hair_base": {
+      "maxInfluences": 1,
+      "maxWeightError": 0.0
+    },
+    "M01_shirt": {
+      "maxInfluences": 3,
+      "maxWeightError": 3.5390257835388184e-08
+    },
+    "M01_pants": {
+      "maxInfluences": 4,
+      "maxWeightError": 4.470348358154297e-08
+    },
+    "M01_shoes_base": {
+      "maxInfluences": 2,
+      "maxWeightError": 2.9802322387695312e-08
+    },
+    "M01_shoes_bottom": {
+      "maxInfluences": 2,
+      "maxWeightError": 2.9802322387695312e-08
+    },
+    "M01_shoes_parts": {
+      "maxInfluences": 1,
+      "maxWeightError": 0.0
+    }
+  },
+  "limitations": [
+    "Pointcloud comparison samples five poses per clip, not all animation times or full self intersection.",
+    "No Humanoid controller or facial keys tested."
+  ]
+}

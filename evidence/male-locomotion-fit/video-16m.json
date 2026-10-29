@@ -1,0 +1,170 @@
+{
+  "schema": "a03-locomotion-fit-motion-video-1",
+  "encoder": "Blender 4.5.14 LTS VSE FFmpeg H264/MPEG4",
+  "camera": "game16m",
+  "path": "a03-locomotion-fit-unity-16m.mp4",
+  "bytes": 1792801,
+  "sha256": "9f1e8ab13e555167fd1c01962a8eb29315bf49f98a6396702ae83ad594ed93b0",
+  "fps": 24,
+  "frames": 240,
+  "durationSeconds": 10.0,
+  "containerTiming": {
+    "timescale": 12288,
+    "durationTicks": 122880,
+    "durationSeconds": 10.0,
+    "frames": 240,
+    "frameDeltaRuns": [
+      {
+        "frames": 240,
+        "deltaTicks": 512,
+        "fps": 24.0
+      }
+    ]
+  },
+  "reopenedFrames": 240,
+  "width": 1280,
+  "height": 800,
+  "segments": [
+    {
+      "clip": "idle",
+      "firstFrame": 1,
+      "lastFrame": 24,
+      "frames": 24,
+      "fps": 24
+    },
+    {
+      "clip": "straight4",
+      "firstFrame": 25,
+      "lastFrame": 72,
+      "frames": 48,
+      "fps": 24
+    },
+    {
+      "clip": "stop1",
+      "firstFrame": 73,
+      "lastFrame": 89,
+      "frames": 17,
+      "fps": 24
+    },
+    {
+      "clip": "restart4",
+      "firstFrame": 90,
+      "lastFrame": 120,
+      "frames": 31,
+      "fps": 24
+    },
+    {
+      "clip": "right90_720",
+      "firstFrame": 121,
+      "lastFrame": 135,
+      "frames": 15,
+      "fps": 24
+    },
+    {
+      "clip": "reverse180_720",
+      "firstFrame": 136,
+      "lastFrame": 149,
+      "frames": 14,
+      "fps": 24
+    },
+    {
+      "clip": "forward90_720",
+      "firstFrame": 150,
+      "lastFrame": 168,
+      "frames": 19,
+      "fps": 24
+    },
+    {
+      "clip": "stop2",
+      "firstFrame": 169,
+      "lastFrame": 188,
+      "frames": 20,
+      "fps": 24
+    },
+    {
+      "clip": "walk1p4",
+      "firstFrame": 189,
+      "lastFrame": 216,
+      "frames": 28,
+      "fps": 24
+    },
+    {
+      "clip": "walkStop",
+      "firstFrame": 217,
+      "lastFrame": 240,
+      "frames": 24,
+      "fps": 24
+    }
+  ],
+  "decodedChecks": [
+    {
+      "clip": "idle",
+      "encodedFrame": 7,
+      "sourceFrame": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-locomotion-fit\\unity-002\\motion-correction-001\\frames\\game16m\\frame_0006.png",
+      "decodedPath": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-locomotion-fit\\review-001\\a03-locomotion-fit-unity-16m-decoded\\idle.png"
+    },
+    {
+      "clip": "straight4",
+      "encodedFrame": 37,
+      "sourceFrame": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-locomotion-fit\\unity-002\\motion-correction-001\\frames\\game16m\\frame_0036.png",
+      "decodedPath": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-locomotion-fit\\review-001\\a03-locomotion-fit-unity-16m-decoded\\straight4.png"
+    },
+    {
+      "clip": "stop1",
+      "encodedFrame": 77,
+      "sourceFrame": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-locomotion-fit\\unity-002\\motion-correction-001\\frames\\game16m\\frame_0076.png",
+      "decodedPath": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-locomotion-fit\\review-001\\a03-locomotion-fit-unity-16m-decoded\\stop1.png"
+    },
+    {
+      "clip": "restart4",
+      "encodedFrame": 97,
+      "sourceFrame": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-locomotion-fit\\unity-002\\motion-correction-001\\frames\\game16m\\frame_0096.png",
+      "decodedPath": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-locomotion-fit\\review-001\\a03-locomotion-fit-unity-16m-decoded\\restart4.png"
+    },
+    {
+      "clip": "right90_720",
+      "encodedFrame": 124,
+      "sourceFrame": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-locomotion-fit\\unity-002\\motion-correction-001\\frames\\game16m\\frame_0123.png",
+      "decodedPath": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-locomotion-fit\\review-001\\a03-locomotion-fit-unity-16m-decoded\\right90_720.png"
+    },
+    {
+      "clip": "reverse180_720",
+      "encodedFrame": 139,
+      "sourceFrame": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-locomotion-fit\\unity-002\\motion-correction-001\\frames\\game16m\\frame_0138.png",
+      "decodedPath": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-locomotion-fit\\review-001\\a03-locomotion-fit-unity-16m-decoded\\reverse180_720.png"
+    },
+    {
+      "clip": "forward90_720",
+      "encodedFrame": 154,
+      "sourceFrame": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-locomotion-fit\\unity-002\\motion-correction-001\\frames\\game16m\\frame_0153.png",
+      "decodedPath": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-locomotion-fit\\review-001\\a03-locomotion-fit-unity-16m-decoded\\forward90_720.png"
+    },
+    {
+      "clip": "stop2",
+      "encodedFrame": 174,
+      "sourceFrame": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-locomotion-fit\\unity-002\\motion-correction-001\\frames\\game16m\\frame_0173.png",
+      "decodedPath": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-locomotion-fit\\review-001\\a03-locomotion-fit-unity-16m-decoded\\stop2.png"
+    },
+    {
+      "clip": "walk1p4",
+      "encodedFrame": 196,
+      "sourceFrame": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-locomotion-fit\\unity-002\\motion-correction-001\\frames\\game16m\\frame_0195.png",
+      "decodedPath": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-locomotion-fit\\review-001\\a03-locomotion-fit-unity-16m-decoded\\walk1p4.png"
+    },
+    {
+      "clip": "walkStop",
+      "encodedFrame": 223,
+      "sourceFrame": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-locomotion-fit\\unity-002\\motion-correction-001\\frames\\game16m\\frame_0222.png",
+      "decodedPath": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-locomotion-fit\\review-001\\a03-locomotion-fit-unity-16m-decoded\\walkStop.png"
+    }
+  ],
+  "nativeImageRegion": {
+    "x": 0,
+    "y": 0,
+    "width": 1280,
+    "height": 720
+  },
+  "processing": "All240actualUnityPNGframes sequentially at native24fps;80pxfooter with labels/credit only. No model rerender, pose retouch, synthesis, transition interpolation or camera generation.",
+  "audio": "none",
+  "license": "CC-BY-4.0 attributed Snow derivative; original repository-authored motion."
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "a03-locomotion-fit-verified-review-artifact-1",
+  "tag": "male-locomotion-fit-v0.1",
+  "sourceCommit": "876dfe521dab48198d13af411596b1e56475e8f0",
+  "file": "male-locomotion-fit-v0.1-review.zip",
+  "bytes": 173132831,
+  "sha256": "9c7c1f556f17b3bb84ea708ffccaac9b479191ab468b98199f787498f6174885",
+  "glbSha256": "532ce438b24f69e14c099d956706d69e6e6b8531e0c162e92f72756bb60046b0",
+  "blendSha256": "1af66dd0d78bc047492615d578e3cd122fb08e6d107ea9d2f881aca4e80ae25e",
+  "internalFiles": 608,
+  "internalPayloadHashesChecked": 607,
+  "nativeUnityImagesVerified": 534,
+  "modelAndEditableSourceMatchActual": true,
+  "downloadVerified": true,
+  "downloadVerifiedUtc": "2026-10-29T16:16:33.421897+00:00",
+  "standaloneVideos": [
+    {
+      "file": "a03-locomotion-fit-unity-16m.mp4",
+      "bytes": 1792801,
+      "sha256": "9f1e8ab13e555167fd1c01962a8eb29315bf49f98a6396702ae83ad594ed93b0",
+      "standaloneDownloadMatchesArchive": true
+    },
+    {
+      "file": "a03-locomotion-fit-unity.mp4",
+      "bytes": 2387860,
+      "sha256": "b78b69600259d89d7549bd1b8c2853e69e36943909afc4574ea09e2bdb04ec07",
+      "standaloneDownloadMatchesArchive": true
+    }
+  ],
+  "releaseUrl": "https://github.com/bobo91/life-sim-art/releases/tag/male-locomotion-fit-v0.1",
+  "downloadUrl": "https://github.com/bobo91/life-sim-art/releases/download/male-locomotion-fit-v0.1/male-locomotion-fit-v0.1-review.zip",
+  "integrationApproved": false,
+  "status": "Steady4m/sfitGO; transitions/pivots requireowneracceptance; no unqualifiedintegration approval"
+}

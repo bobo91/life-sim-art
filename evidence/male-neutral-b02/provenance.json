@@ -1,0 +1,28 @@
+{
+  "schema": "male-b02-provenance-1",
+  "source": "Approved A03 via preserved B01 bind-005, no new mesh/animation source",
+  "sourceB01Tag": "male-neutral-b01-v0.1",
+  "sourceB01Commit": "8cddea8abbaf7ab334dd40bd6b32baff6fec628c",
+  "sourceB01BlendSha256": "a9fb4a469aeec6cf9b82cfb580bafe8d658055c29b8b297925983fda380e126e",
+  "sourceB01GlbSha256": "9a5c1976e06c0d059825715bc0b3eb23c572855452b30bddec0ea586e6266931",
+  "officialSource": "https://studio.blender.org/characters/snow/v4/",
+  "license": "CC-BY-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "credit": "Snow Rig (CC) Blender Foundation | studio.blender.org",
+  "modifications": [
+    "Local weights on794body+326pants vertices",
+    "Six baked half-angle support joints, original52rest bones retained",
+    "Turn changed to three grounded placements, samefour motion clips",
+    "No raw geometry/UV/material/face edits"
+  ],
+  "sourceCloudRigUiCodeExecutedOrIncluded": false,
+  "externalAnimationAssets": false,
+  "paidToolsOrServices": false,
+  "spendSEK": 0,
+  "gameRepositoryChanges": false,
+  "automaticMerge": false,
+  "phaseC": false,
+  "identityProof": "Unchanged raw mesh/appearance hashes, plus actual matched Unity bindfacefront/threequarter pixel equality",
+  "deliveryGo": false,
+  "scope": "BoundedB02 completed; elbowcrease remains; stopforreview"
+}

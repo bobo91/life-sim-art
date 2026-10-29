@@ -1,0 +1,654 @@
+{
+  "materials": [
+    {
+      "index": 0,
+      "name": "M01_skin",
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": true,
+      "baseColorFactorLinear": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallicFactor": 0,
+      "roughnessFactor": 0.7200000286102295,
+      "baseColor": {
+        "textureIndex": 0,
+        "image": {
+          "image": 0,
+          "name": "skin_diffuse_atlas",
+          "mimeType": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "mode": "RGB",
+          "encodedBytes": 1365452,
+          "sha256": "2039ddcb4b392ba7093b42d8438e237da753531c7428fe89109bc7a2003facf3"
+        },
+        "texCoord": 0,
+        "scale": 1,
+        "colorSpace": "sRGB RGB (alpha linear)",
+        "channels": "RGB base color / A alpha",
+        "sampler": {
+          "magFilter": 9729,
+          "minFilter": 9987
+        }
+      },
+      "metallicRoughness": null,
+      "normal": null,
+      "occlusion": null,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {},
+      "meshUsers": [
+        "GEO-snow-body.002",
+        "GEO-snow-head.001"
+      ]
+    },
+    {
+      "index": 1,
+      "name": "M01_hair",
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": true,
+      "baseColorFactorLinear": [
+        0.02199999988079071,
+        0.010999999940395355,
+        0.006000000052154064,
+        1
+      ],
+      "metallicFactor": 0,
+      "roughnessFactor": 0.8600000143051147,
+      "baseColor": null,
+      "metallicRoughness": null,
+      "normal": null,
+      "occlusion": null,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {},
+      "meshUsers": [
+        "Mesh",
+        "GEO-snow-hair_base.001"
+      ]
+    },
+    {
+      "index": 2,
+      "name": "M01_eyes",
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": true,
+      "baseColorFactorLinear": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallicFactor": 0,
+      "roughnessFactor": 0.30000001192092896,
+      "baseColor": {
+        "textureIndex": 2,
+        "image": {
+          "image": 2,
+          "name": "eyes_diffuse",
+          "mimeType": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "mode": "RGB",
+          "encodedBytes": 1286452,
+          "sha256": "7ec88aa8ddb70b7cad01fe96d82179c1b440ddfa4fb91f413d0cae71f9cd746f"
+        },
+        "texCoord": 0,
+        "scale": 1,
+        "colorSpace": "sRGB RGB (alpha linear)",
+        "channels": "RGB base color / A alpha",
+        "sampler": {
+          "magFilter": 9729,
+          "minFilter": 9987
+        }
+      },
+      "metallicRoughness": null,
+      "normal": {
+        "textureIndex": 1,
+        "image": {
+          "image": 1,
+          "name": "eyes_normal",
+          "mimeType": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "mode": "RGBA",
+          "encodedBytes": 322608,
+          "sha256": "f0908a7026ee93b73abbf1aed8d344f6c20cbd3b90e1bac421003dd3f51051ee"
+        },
+        "texCoord": 0,
+        "scale": 0.5,
+        "colorSpace": "Linear/data",
+        "channels": "RGB tangent-space normal",
+        "sampler": {
+          "magFilter": 9729,
+          "minFilter": 9987
+        }
+      },
+      "occlusion": null,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {},
+      "meshUsers": [
+        "GEO-snow-eyes.001"
+      ]
+    },
+    {
+      "index": 3,
+      "name": "M01_skin_darker",
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": true,
+      "baseColorFactorLinear": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallicFactor": 0,
+      "roughnessFactor": 0.7200000286102295,
+      "baseColor": {
+        "textureIndex": 3,
+        "image": {
+          "image": 3,
+          "name": "skin_darker_diffuse_atlas",
+          "mimeType": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "mode": "RGB",
+          "encodedBytes": 1296786,
+          "sha256": "a99b12e51e1d6c555ac8f3a63bf08dda3a42edcc46bcb26b92fa3a25e7db6c74"
+        },
+        "texCoord": 0,
+        "scale": 1,
+        "colorSpace": "sRGB RGB (alpha linear)",
+        "channels": "RGB base color / A alpha",
+        "sampler": {
+          "magFilter": 9729,
+          "minFilter": 9987
+        }
+      },
+      "metallicRoughness": null,
+      "normal": null,
+      "occlusion": null,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {},
+      "meshUsers": [
+        "GEO-snow-head.001"
+      ]
+    },
+    {
+      "index": 4,
+      "name": "M01_skin_upper_lip",
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": true,
+      "baseColorFactorLinear": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallicFactor": 0,
+      "roughnessFactor": 0.6700000166893005,
+      "baseColor": {
+        "textureIndex": 4,
+        "image": {
+          "image": 4,
+          "name": "skin_upper_lip_diffuse_atlas",
+          "mimeType": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "mode": "RGB",
+          "encodedBytes": 1331777,
+          "sha256": "c87fc712adb2166544746364620353033cfd36559a954435112441557118eb14"
+        },
+        "texCoord": 0,
+        "scale": 1,
+        "colorSpace": "sRGB RGB (alpha linear)",
+        "channels": "RGB base color / A alpha",
+        "sampler": {
+          "magFilter": 9729,
+          "minFilter": 9987
+        }
+      },
+      "metallicRoughness": null,
+      "normal": null,
+      "occlusion": null,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {},
+      "meshUsers": [
+        "GEO-snow-head.001"
+      ]
+    },
+    {
+      "index": 5,
+      "name": "M01_skin_lower_lip",
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": true,
+      "baseColorFactorLinear": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallicFactor": 0,
+      "roughnessFactor": 0.6700000166893005,
+      "baseColor": {
+        "textureIndex": 5,
+        "image": {
+          "image": 5,
+          "name": "skin_lower_lip_diffuse_atlas",
+          "mimeType": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "mode": "RGB",
+          "encodedBytes": 1350940,
+          "sha256": "8760c9bb405eca20e1a25cd5cc6e2fd01b74767d7f6d4109c84714977123172b"
+        },
+        "texCoord": 0,
+        "scale": 1,
+        "colorSpace": "sRGB RGB (alpha linear)",
+        "channels": "RGB base color / A alpha",
+        "sampler": {
+          "magFilter": 9729,
+          "minFilter": 9987
+        }
+      },
+      "metallicRoughness": null,
+      "normal": null,
+      "occlusion": null,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {},
+      "meshUsers": [
+        "GEO-snow-head.001"
+      ]
+    },
+    {
+      "index": 6,
+      "name": "M01_pants",
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": true,
+      "baseColorFactorLinear": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallicFactor": 0,
+      "roughnessFactor": 1,
+      "baseColor": {
+        "textureIndex": 7,
+        "image": {
+          "image": 7,
+          "name": "pants_tinted_diffuse",
+          "mimeType": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "mode": "RGB",
+          "encodedBytes": 6237637,
+          "sha256": "b225a00982b9859abe724f695700f98ab8ccdabb2e8da8d6b380ba38c5fdcca1"
+        },
+        "texCoord": 0,
+        "scale": 1,
+        "colorSpace": "sRGB RGB (alpha linear)",
+        "channels": "RGB base color / A alpha",
+        "sampler": {
+          "magFilter": 9729,
+          "minFilter": 9987
+        }
+      },
+      "metallicRoughness": {
+        "textureIndex": 8,
+        "image": {
+          "image": 8,
+          "name": "pants_roughness",
+          "mimeType": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "mode": "RGB",
+          "encodedBytes": 2542400,
+          "sha256": "3b852df2f62adfb27f731c86d06803c72b19061a647512974417f261268ffe4c"
+        },
+        "texCoord": 0,
+        "scale": 1,
+        "colorSpace": "Linear/data",
+        "channels": "G roughness, B metallic",
+        "sampler": {
+          "magFilter": 9729,
+          "minFilter": 9987
+        }
+      },
+      "normal": {
+        "textureIndex": 6,
+        "image": {
+          "image": 6,
+          "name": "pants_normal",
+          "mimeType": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "mode": "RGB",
+          "encodedBytes": 4691039,
+          "sha256": "107de7037b35fc62d01bd606f0ae0a719c29ea22b8a5486960c3653044ec6dff"
+        },
+        "texCoord": 0,
+        "scale": 0.5,
+        "colorSpace": "Linear/data",
+        "channels": "RGB tangent-space normal",
+        "sampler": {
+          "magFilter": 9729,
+          "minFilter": 9987
+        }
+      },
+      "occlusion": null,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {},
+      "meshUsers": [
+        "GEO-snow-pants.002"
+      ]
+    },
+    {
+      "index": 7,
+      "name": "M01_shirt",
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": true,
+      "baseColorFactorLinear": [
+        0.04500000178813934,
+        0.09000000357627869,
+        0.05999999865889549,
+        1
+      ],
+      "metallicFactor": 0,
+      "roughnessFactor": 0.8399999737739563,
+      "baseColor": null,
+      "metallicRoughness": null,
+      "normal": {
+        "textureIndex": 9,
+        "image": {
+          "image": 9,
+          "name": "shirt_normal",
+          "mimeType": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "mode": "RGB",
+          "encodedBytes": 4157409,
+          "sha256": "7a90766714b9a431b17b2e5f90a2c1d267a73e0433f1080a31526a3ee88e95e6"
+        },
+        "texCoord": 0,
+        "scale": 0.5,
+        "colorSpace": "Linear/data",
+        "channels": "RGB tangent-space normal",
+        "sampler": {
+          "magFilter": 9729,
+          "minFilter": 9987
+        }
+      },
+      "occlusion": null,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {},
+      "meshUsers": [
+        "GEO-snow-shirt.002"
+      ]
+    },
+    {
+      "index": 8,
+      "name": "M01_canvas_shoes",
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": true,
+      "baseColorFactorLinear": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallicFactor": 0,
+      "roughnessFactor": 1,
+      "baseColor": {
+        "textureIndex": 11,
+        "image": {
+          "image": 11,
+          "name": "shoes_diffuse",
+          "mimeType": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "mode": "RGB",
+          "encodedBytes": 2910242,
+          "sha256": "6e4940a480c245c0d68947686b2242f1b48bb7624cc6131fa71e8f6281892b27"
+        },
+        "texCoord": 0,
+        "scale": 1,
+        "colorSpace": "sRGB RGB (alpha linear)",
+        "channels": "RGB base color / A alpha",
+        "sampler": {
+          "magFilter": 9729,
+          "minFilter": 9987
+        }
+      },
+      "metallicRoughness": {
+        "textureIndex": 12,
+        "image": {
+          "image": 12,
+          "name": "shoes_roughness",
+          "mimeType": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "mode": "RGB",
+          "encodedBytes": 1889025,
+          "sha256": "833e3701fe30e06bc67fee6cb7531c2e8e23778550e233fa5bf37b66eec93554"
+        },
+        "texCoord": 0,
+        "scale": 1,
+        "colorSpace": "Linear/data",
+        "channels": "G roughness, B metallic",
+        "sampler": {
+          "magFilter": 9729,
+          "minFilter": 9987
+        }
+      },
+      "normal": {
+        "textureIndex": 10,
+        "image": {
+          "image": 10,
+          "name": "shoes_normal",
+          "mimeType": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "mode": "RGB",
+          "encodedBytes": 5677803,
+          "sha256": "2ae017a1b444857625c0dcf28a887adb058536995f752a030800973c86fc7e99"
+        },
+        "texCoord": 0,
+        "scale": 0.5,
+        "colorSpace": "Linear/data",
+        "channels": "RGB tangent-space normal",
+        "sampler": {
+          "magFilter": 9729,
+          "minFilter": 9987
+        }
+      },
+      "occlusion": null,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {},
+      "meshUsers": [
+        "GEO-snow-shoes_base.003",
+        "GEO-snow-shoes_bottom.003",
+        "GEO-snow-shoes_parts.003"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "image": 0,
+      "name": "skin_diffuse_atlas",
+      "mimeType": "image/png",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGB",
+      "encodedBytes": 1365452,
+      "sha256": "2039ddcb4b392ba7093b42d8438e237da753531c7428fe89109bc7a2003facf3"
+    },
+    {
+      "image": 1,
+      "name": "eyes_normal",
+      "mimeType": "image/png",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGBA",
+      "encodedBytes": 322608,
+      "sha256": "f0908a7026ee93b73abbf1aed8d344f6c20cbd3b90e1bac421003dd3f51051ee"
+    },
+    {
+      "image": 2,
+      "name": "eyes_diffuse",
+      "mimeType": "image/png",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGB",
+      "encodedBytes": 1286452,
+      "sha256": "7ec88aa8ddb70b7cad01fe96d82179c1b440ddfa4fb91f413d0cae71f9cd746f"
+    },
+    {
+      "image": 3,
+      "name": "skin_darker_diffuse_atlas",
+      "mimeType": "image/png",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGB",
+      "encodedBytes": 1296786,
+      "sha256": "a99b12e51e1d6c555ac8f3a63bf08dda3a42edcc46bcb26b92fa3a25e7db6c74"
+    },
+    {
+      "image": 4,
+      "name": "skin_upper_lip_diffuse_atlas",
+      "mimeType": "image/png",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGB",
+      "encodedBytes": 1331777,
+      "sha256": "c87fc712adb2166544746364620353033cfd36559a954435112441557118eb14"
+    },
+    {
+      "image": 5,
+      "name": "skin_lower_lip_diffuse_atlas",
+      "mimeType": "image/png",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGB",
+      "encodedBytes": 1350940,
+      "sha256": "8760c9bb405eca20e1a25cd5cc6e2fd01b74767d7f6d4109c84714977123172b"
+    },
+    {
+      "image": 6,
+      "name": "pants_normal",
+      "mimeType": "image/png",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGB",
+      "encodedBytes": 4691039,
+      "sha256": "107de7037b35fc62d01bd606f0ae0a719c29ea22b8a5486960c3653044ec6dff"
+    },
+    {
+      "image": 7,
+      "name": "pants_tinted_diffuse",
+      "mimeType": "image/png",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGB",
+      "encodedBytes": 6237637,
+      "sha256": "b225a00982b9859abe724f695700f98ab8ccdabb2e8da8d6b380ba38c5fdcca1"
+    },
+    {
+      "image": 8,
+      "name": "pants_roughness",
+      "mimeType": "image/png",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGB",
+      "encodedBytes": 2542400,
+      "sha256": "3b852df2f62adfb27f731c86d06803c72b19061a647512974417f261268ffe4c"
+    },
+    {
+      "image": 9,
+      "name": "shirt_normal",
+      "mimeType": "image/png",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGB",
+      "encodedBytes": 4157409,
+      "sha256": "7a90766714b9a431b17b2e5f90a2c1d267a73e0433f1080a31526a3ee88e95e6"
+    },
+    {
+      "image": 10,
+      "name": "shoes_normal",
+      "mimeType": "image/png",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGB",
+      "encodedBytes": 5677803,
+      "sha256": "2ae017a1b444857625c0dcf28a887adb058536995f752a030800973c86fc7e99"
+    },
+    {
+      "image": 11,
+      "name": "shoes_diffuse",
+      "mimeType": "image/png",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGB",
+      "encodedBytes": 2910242,
+      "sha256": "6e4940a480c245c0d68947686b2242f1b48bb7624cc6131fa71e8f6281892b27"
+    },
+    {
+      "image": 12,
+      "name": "shoes_roughness",
+      "mimeType": "image/png",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGB",
+      "encodedBytes": 1889025,
+      "sha256": "833e3701fe30e06bc67fee6cb7531c2e8e23778550e233fa5bf37b66eec93554"
+    }
+  ],
+  "extensionsUsed": [],
+  "extensionsRequired": []
+}

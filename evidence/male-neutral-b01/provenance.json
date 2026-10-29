@@ -1,0 +1,27 @@
+{
+  "schema": "male-b01-provenance-1",
+  "base": "Owner-approved MALE-NEUTRAL-A03, 29367 triangles",
+  "sourceUrl": "https://studio.blender.org/characters/snow/v4/",
+  "sourceLicense": "CC-BY-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "credit": "Snow Rig (CC) Blender Foundation | studio.blender.org",
+  "originalSnowBlendSha256": "80fd0a81bca90f0efdcdcb98422df0e198ae57f4a1c239e13fb795922779b1fc",
+  "approvedA03BlendSha256": "dcd7681255f49fa704844492b0ffc6964e434ccb4ae59aaba7788b0af56ffd90",
+  "approvedA03SourceTag": "male-neutral-a03-v0.3",
+  "approvedA03HistoryCommit": "b8eaf201d34e411291f3b232d695e0326005c658",
+  "modifications": [
+    "Reuse source rest landmarks in 52-joint data-only hierarchy",
+    "Map original evaluated skin weights through exact A01 coordinate correspondence to A03 high/final",
+    "Collapse facial groups to Head while retaining neck/chest blend",
+    "Add four original deterministic locomotion proof clips; no downloaded source animation reused"
+  ],
+  "approvedMeshTopologyPositionsUvsAndMaterialPaletteChanged": false,
+  "sourceCloudRigUiCodeExecutedOrDelivered": false,
+  "sourceActionsReused": false,
+  "animationAuthorship": "Original repository-authored B01 motion recipe; asset/rig derivative and review media delivered under CC BY 4.0 attribution. Not motion capture or purchased clips.",
+  "sourceLicenseVerification": "Official Snow v4 page lists CC-BY and required credit; preserved source ReadMe links CC BY4.0. CC BY4.0 deed permits commercial sharing/adaptation with attribution/link/change notice.",
+  "spendSEK": 0,
+  "gameRepositoryTouched": false,
+  "merge": false,
+  "reviewGate": "Current playable integration NO-GO; technical skin/export/playback proof GO. Owner review required before corrective follow-up."
+}

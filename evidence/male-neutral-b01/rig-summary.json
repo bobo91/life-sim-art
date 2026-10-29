@@ -1,0 +1,1663 @@
+{
+  "sourceUnchanged": true,
+  "rigs": [
+    {
+      "name": "META-Snow",
+      "bones": 396,
+      "deformBones": 368,
+      "deformBboneSegments": {},
+      "nonRestDeformBoneCount": 0
+    },
+    {
+      "name": "RIG-Snow",
+      "bones": 1494,
+      "deformBones": 290,
+      "deformBboneSegments": {
+        "DEF-Neck": 10,
+        "DEF-Head": 10,
+        "DEF-Tongue1": 12,
+        "DEF-Tongue2": 10,
+        "DEF-Tongue3": 12,
+        "DEF-Tongue4": 8,
+        "DEF-Tongue5": 9,
+        "DEF-Shoulder.L": 10,
+        "DEF-Finger_Thumb1.L": 13,
+        "DEF-Finger_Thumb2.L": 8,
+        "DEF-Finger_Thumb3.L": 10,
+        "DEF-Finger_Index_Carpal.L": 10,
+        "DEF-Finger_Index1.L": 13,
+        "DEF-Finger_Index2.L": 9,
+        "DEF-Finger_Index3.L": 9,
+        "DEF-Finger_Middle_Carpal.L": 10,
+        "DEF-Finger_Middle1.L": 13,
+        "DEF-Finger_Middle2.L": 9,
+        "DEF-Finger_Middle3.L": 8,
+        "DEF-Finger_Ring_Carpal.L": 10,
+        "DEF-Finger_Ring1.L": 13,
+        "DEF-Finger_Ring2.L": 9,
+        "DEF-Finger_Ring3.L": 8,
+        "DEF-Finger_Pinky_Carpal.L": 10,
+        "DEF-Finger_Pinky1.L": 14,
+        "DEF-Finger_Pinky2.L": 7,
+        "DEF-Finger_Pinky3.L": 9,
+        "DEF-UpperArm_1.L": 14,
+        "DEF-UpperArm_2.L": 14,
+        "DEF-Forearm_1.L": 12,
+        "DEF-Forearm_2.L": 12,
+        "DEF-Wrist.L": 7,
+        "DEF-Shoulder.R": 10,
+        "DEF-Finger_Thumb1.R": 13,
+        "DEF-Finger_Thumb2.R": 8,
+        "DEF-Finger_Thumb3.R": 10,
+        "DEF-Finger_Index_Carpal.R": 10,
+        "DEF-Finger_Index1.R": 13,
+        "DEF-Finger_Index2.R": 9,
+        "DEF-Finger_Index3.R": 9,
+        "DEF-Finger_Middle_Carpal.R": 10,
+        "DEF-Finger_Middle1.R": 13,
+        "DEF-Finger_Middle2.R": 9,
+        "DEF-Finger_Middle3.R": 8,
+        "DEF-Finger_Ring_Carpal.R": 10,
+        "DEF-Finger_Ring1.R": 13,
+        "DEF-Finger_Ring2.R": 9,
+        "DEF-Finger_Ring3.R": 8,
+        "DEF-Finger_Pinky_Carpal.R": 10,
+        "DEF-Finger_Pinky1.R": 14,
+        "DEF-Finger_Pinky2.R": 7,
+        "DEF-Finger_Pinky3.R": 9,
+        "DEF-UpperArm_1.R": 14,
+        "DEF-UpperArm_2.R": 14,
+        "DEF-Forearm_1.R": 12,
+        "DEF-Forearm_2.R": 12,
+        "DEF-Wrist.R": 7,
+        "DEF-Spine": 7,
+        "DEF-RibCage": 9,
+        "DEF-Chest": 15,
+        "DEF-Thigh_1.L": 14,
+        "DEF-Thigh_2.L": 14,
+        "DEF-Knee_1.L": 16,
+        "DEF-Knee_2.L": 16,
+        "DEF-Foot.L": 12,
+        "DEF-Toes.L": 7,
+        "DEF-Thigh_1.R": 14,
+        "DEF-Thigh_2.R": 14,
+        "DEF-Knee_1.R": 16,
+        "DEF-Knee_2.R": 16,
+        "DEF-Foot.R": 12,
+        "DEF-Toes.R": 7,
+        "DEF-Hips.R": 10,
+        "DEF-Hips.L": 10,
+        "DEF-Ponytail1": 10,
+        "DEF-Lip_Bot1.R": 11,
+        "DEF-Lip_Bot2.R": 9,
+        "DEF-Lip_Bot1.L": 11,
+        "DEF-Lip_Bot2.L": 9,
+        "DEF-Ear1.R": 10,
+        "DEF-Ear2.R": 7,
+        "DEF-Ear3.R": 9,
+        "DEF-Ear4.R": 15,
+        "DEF-Ear5.R": 9,
+        "DEF-Ear1.L": 10,
+        "DEF-Ear2.L": 7,
+        "DEF-Ear3.L": 9,
+        "DEF-Ear4.L": 15,
+        "DEF-Ear5.L": 9,
+        "DEF-Nose": 10,
+        "DEF-Nose_Tip": 10,
+        "DEF-Nostril.L": 10,
+        "DEF-Nostril.R": 10,
+        "DEF-Eyelid_Top1.R": 11,
+        "DEF-Eyelid_Top2.R": 10,
+        "DEF-Eyelid_Top3.R": 9,
+        "DEF-Eyelid_Top4.R": 10,
+        "DEF-Eyelid_Bot1.R": 11,
+        "DEF-Eyelid_Bot2.R": 12,
+        "DEF-Eyelid_Bot3.R": 10,
+        "DEF-Eyelid_Bot4.R": 7,
+        "DEF-Eyelid_Top1.L": 11,
+        "DEF-Eyelid_Top2.L": 10,
+        "DEF-Eyelid_Top3.L": 9,
+        "DEF-Eyelid_Top4.L": 10,
+        "DEF-Eyelid_Bot1.L": 11,
+        "DEF-Eyelid_Bot2.L": 12,
+        "DEF-Eyelid_Bot3.L": 10,
+        "DEF-Eyelid_Bot4.L": 7,
+        "DEF-Lip_Top1.R": 11,
+        "DEF-Lip_Top2.R": 9,
+        "DEF-Lip_Top1.L": 11,
+        "DEF-Lip_Top2.L": 9
+      },
+      "nonRestDeformBoneCount": 18
+    }
+  ],
+  "driverCount": 1291,
+  "invalidDrivers": 0,
+  "unresolvableTargets": 0,
+  "sourceActions": [
+    {
+      "name": "Bodyposes",
+      "frameRange": [
+        0.0,
+        280.0
+      ]
+    },
+    {
+      "name": "Eyemask Angry",
+      "frameRange": [
+        10.0,
+        10.0
+      ]
+    },
+    {
+      "name": "Eyemask Closed",
+      "frameRange": [
+        40.0,
+        40.0
+      ]
+    },
+    {
+      "name": "Eyemask Cocky",
+      "frameRange": [
+        60.0,
+        60.0
+      ]
+    },
+    {
+      "name": "Eyemask Compressed",
+      "frameRange": [
+        15.0,
+        15.0
+      ]
+    },
+    {
+      "name": "Eyemask Default",
+      "frameRange": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Eyemask Relaxed",
+      "frameRange": [
+        20.0,
+        20.0
+      ]
+    },
+    {
+      "name": "Eyemask Sad",
+      "frameRange": [
+        50.0,
+        50.0
+      ]
+    },
+    {
+      "name": "Eyemask Scared",
+      "frameRange": [
+        30.0,
+        30.0
+      ]
+    },
+    {
+      "name": "Faceposes",
+      "frameRange": [
+        0.0,
+        530.0
+      ]
+    },
+    {
+      "name": "Hand Crawl",
+      "frameRange": [
+        50.0,
+        50.0
+      ]
+    },
+    {
+      "name": "Hand Fist",
+      "frameRange": [
+        40.0,
+        40.0
+      ]
+    },
+    {
+      "name": "Hand Flat",
+      "frameRange": [
+        20.0,
+        20.0
+      ]
+    },
+    {
+      "name": "Hand Folded",
+      "frameRange": [
+        70.0,
+        70.0
+      ]
+    },
+    {
+      "name": "Hand Point",
+      "frameRange": [
+        60.0,
+        60.0
+      ]
+    },
+    {
+      "name": "Hand Relaxed",
+      "frameRange": [
+        10.0,
+        10.0
+      ]
+    },
+    {
+      "name": "Hand Spread",
+      "frameRange": [
+        30.0,
+        30.0
+      ]
+    },
+    {
+      "name": "Hand Spread2",
+      "frameRange": [
+        79.0,
+        79.0
+      ]
+    },
+    {
+      "name": "Mouth Compressed",
+      "frameRange": [
+        90.0,
+        90.0
+      ]
+    },
+    {
+      "name": "Mouth Default",
+      "frameRange": [
+        70.0,
+        70.0
+      ]
+    },
+    {
+      "name": "Mouth Ff",
+      "frameRange": [
+        190.0,
+        190.0
+      ]
+    },
+    {
+      "name": "Mouth Narrow",
+      "frameRange": [
+        80.0,
+        80.0
+      ]
+    },
+    {
+      "name": "Mouth Oo",
+      "frameRange": [
+        140.0,
+        140.0
+      ]
+    },
+    {
+      "name": "Mouth Openfrown",
+      "frameRange": [
+        120.0,
+        120.0
+      ]
+    },
+    {
+      "name": "Mouth Opensmile",
+      "frameRange": [
+        100.0,
+        100.0
+      ]
+    },
+    {
+      "name": "Mouth Teethfrown",
+      "frameRange": [
+        73.0,
+        73.0
+      ]
+    },
+    {
+      "name": "Mouth Teethsmile",
+      "frameRange": [
+        75.0,
+        75.0
+      ]
+    },
+    {
+      "name": "Mouth Uu",
+      "frameRange": [
+        180.0,
+        180.0
+      ]
+    },
+    {
+      "name": "RIG-snow-CenterCheekRaise",
+      "frameRange": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "name": "RIG-snow-CheekPuff",
+      "frameRange": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "name": "RIG-snow-CheekRaise",
+      "frameRange": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "name": "RIG-snow-EyebrowsDown",
+      "frameRange": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "name": "RIG-snow-EyebrowsIn",
+      "frameRange": [
+        0.0,
+        30.0
+      ]
+    },
+    {
+      "name": "RIG-snow-EyebrowsUp",
+      "frameRange": [
+        0.0,
+        50.0
+      ]
+    },
+    {
+      "name": "RIG-snow-Eyelid_Lower_CloseOpen",
+      "frameRange": [
+        0.0,
+        15.0
+      ]
+    },
+    {
+      "name": "RIG-snow-Eyelid_Lower_Twist",
+      "frameRange": [
+        0.0,
+        20.0
+      ]
+    },
+    {
+      "name": "RIG-snow-Eyelid_Upper_CloseOpen",
+      "frameRange": [
+        7.0,
+        20.0
+      ]
+    },
+    {
+      "name": "RIG-snow-Eyelid_Upper_Twist",
+      "frameRange": [
+        0.0,
+        20.0
+      ]
+    },
+    {
+      "name": "RIG-snow-EyeRing_Lower_Up",
+      "frameRange": [
+        0.0,
+        20.0
+      ]
+    },
+    {
+      "name": "RIG-snow-EyeRing_Upper_Down",
+      "frameRange": [
+        0.0,
+        20.0
+      ]
+    },
+    {
+      "name": "RIG-snow-FingerMovements",
+      "frameRange": [
+        1.0,
+        118.0
+      ]
+    },
+    {
+      "name": "RIG-snow-JawOpen",
+      "frameRange": [
+        0.0,
+        30.0
+      ]
+    },
+    {
+      "name": "RIG-snow-Lip_Lower_RollIn",
+      "frameRange": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "name": "RIG-snow-Lip_Lower_RollOut",
+      "frameRange": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "name": "RIG-snow-Lip_Upper_RollIn",
+      "frameRange": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "name": "RIG-snow-Lip_Upper_RollOut",
+      "frameRange": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "name": "RIG-snow-Lips_Up+Wide",
+      "frameRange": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "name": "RIG-snow-LipsDown",
+      "frameRange": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "name": "RIG-snow-LipsDown+Narrow",
+      "frameRange": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "name": "RIG-snow-LipsDown+Wide",
+      "frameRange": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "name": "RIG-snow-LipsInOut",
+      "frameRange": [
+        0.0,
+        20.0
+      ]
+    },
+    {
+      "name": "RIG-snow-LipsNarrow",
+      "frameRange": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "name": "RIG-snow-LipsTwist",
+      "frameRange": [
+        0.0,
+        20.0
+      ]
+    },
+    {
+      "name": "RIG-snow-LipsUp",
+      "frameRange": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "name": "RIG-snow-LipsUp+Narrow",
+      "frameRange": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "name": "RIG-snow-LipsWide",
+      "frameRange": [
+        0.0,
+        10.0
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "name": "GEO-snow-body",
+      "vertices": 5828,
+      "maxInfluences": 6,
+      "unweightedVertices": 792,
+      "nonNormalizedVertices": 282,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "viewport": true,
+          "render": true,
+          "object": "RIG-Snow",
+          "preserveVolume": true,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "CorrectiveSmooth",
+          "type": "CORRECTIVE_SMOOTH",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": "no_smooth",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Mask Body",
+          "type": "MASK",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": "mask",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Mask Left Arm",
+          "type": "MASK",
+          "viewport": false,
+          "render": false,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": "Mask_Arm.L",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Mask Right Arm",
+          "type": "MASK",
+          "viewport": false,
+          "render": false,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": "Mask_Arm.R",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": null,
+          "levels": 0,
+          "renderLevels": 2
+        }
+      ]
+    },
+    {
+      "name": "GEO-snow-eye_anim",
+      "vertices": 1156,
+      "maxInfluences": 1,
+      "unweightedVertices": 0,
+      "nonNormalizedVertices": 0,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "viewport": true,
+          "render": true,
+          "object": "RIG-Snow",
+          "preserveVolume": false,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Lattice Face Mask",
+          "type": "LATTICE",
+          "viewport": true,
+          "render": true,
+          "object": "LTC-snow_face_mask",
+          "preserveVolume": null,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": null,
+          "levels": 0,
+          "renderLevels": 2
+        },
+        {
+          "name": "Auto Smooth",
+          "type": "NODES",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": null,
+          "levels": null,
+          "renderLevels": null
+        }
+      ]
+    },
+    {
+      "name": "GEO-snow-eye_dots",
+      "vertices": 32,
+      "maxInfluences": 1,
+      "unweightedVertices": 0,
+      "nonNormalizedVertices": 0,
+      "modifiers": [
+        {
+          "name": "Mirror",
+          "type": "MIRROR",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": null,
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "viewport": true,
+          "render": true,
+          "object": "RIG-Snow",
+          "preserveVolume": false,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Lattice Face Mask",
+          "type": "LATTICE",
+          "viewport": true,
+          "render": true,
+          "object": "LTC-snow_face_mask",
+          "preserveVolume": null,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        }
+      ]
+    },
+    {
+      "name": "GEO-snow-eyebrows",
+      "vertices": 216,
+      "maxInfluences": 3,
+      "unweightedVertices": 0,
+      "nonNormalizedVertices": 49,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "viewport": true,
+          "render": true,
+          "object": "RIG-Snow",
+          "preserveVolume": true,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "CorrectiveSmooth",
+          "type": "CORRECTIVE_SMOOTH",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": "corrsmooth",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Lattice Face Mask",
+          "type": "LATTICE",
+          "viewport": true,
+          "render": true,
+          "object": "LTC-snow_face_mask",
+          "preserveVolume": null,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": null,
+          "levels": 1,
+          "renderLevels": 2
+        }
+      ]
+    },
+    {
+      "name": "GEO-snow-eyes",
+      "vertices": 1418,
+      "maxInfluences": 1,
+      "unweightedVertices": 0,
+      "nonNormalizedVertices": 0,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "viewport": true,
+          "render": true,
+          "object": "RIG-Snow",
+          "preserveVolume": false,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": null,
+          "levels": 0,
+          "renderLevels": 2
+        },
+        {
+          "name": "Lattice Face Mask",
+          "type": "LATTICE",
+          "viewport": true,
+          "render": true,
+          "object": "LTC-snow_face_mask",
+          "preserveVolume": null,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        }
+      ]
+    },
+    {
+      "name": "GEO-snow-gums_lower",
+      "vertices": 927,
+      "maxInfluences": 0,
+      "unweightedVertices": 927,
+      "nonNormalizedVertices": 0,
+      "modifiers": [
+        {
+          "name": "SurfaceDeform",
+          "type": "SURFACE_DEFORM",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": null,
+          "levels": 0,
+          "renderLevels": 2
+        }
+      ]
+    },
+    {
+      "name": "GEO-snow-gums_upper",
+      "vertices": 927,
+      "maxInfluences": 0,
+      "unweightedVertices": 927,
+      "nonNormalizedVertices": 0,
+      "modifiers": [
+        {
+          "name": "SurfaceDeform",
+          "type": "SURFACE_DEFORM",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": null,
+          "levels": 0,
+          "renderLevels": 2
+        }
+      ]
+    },
+    {
+      "name": "GEO-snow-hair_base",
+      "vertices": 3418,
+      "maxInfluences": 2,
+      "unweightedVertices": 0,
+      "nonNormalizedVertices": 17,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "viewport": true,
+          "render": true,
+          "object": "RIG-Snow",
+          "preserveVolume": true,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": null,
+          "levels": 0,
+          "renderLevels": 2
+        }
+      ]
+    },
+    {
+      "name": "GEO-snow-head",
+      "vertices": 3719,
+      "maxInfluences": 14,
+      "unweightedVertices": 0,
+      "nonNormalizedVertices": 41,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "viewport": true,
+          "render": true,
+          "object": "RIG-Snow",
+          "preserveVolume": false,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "CorrectiveSmooth",
+          "type": "CORRECTIVE_SMOOTH",
+          "viewport": false,
+          "render": false,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": "corrsmooth",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Lattice Cheek L",
+          "type": "LATTICE",
+          "viewport": false,
+          "render": true,
+          "object": "LTC-snow_cheek.L",
+          "preserveVolume": null,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Lattice Cheek R",
+          "type": "LATTICE",
+          "viewport": false,
+          "render": true,
+          "object": "LTC-snow_cheek.R",
+          "preserveVolume": null,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Lattice Face Mask",
+          "type": "LATTICE",
+          "viewport": false,
+          "render": true,
+          "object": "LTC-snow_face_mask",
+          "preserveVolume": null,
+          "vertexGroup": "Mask_FaceLattice",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": null,
+          "levels": 0,
+          "renderLevels": 2
+        }
+      ]
+    },
+    {
+      "name": "GEO-snow-pants",
+      "vertices": 2631,
+      "maxInfluences": 5,
+      "unweightedVertices": 0,
+      "nonNormalizedVertices": 32,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "viewport": true,
+          "render": true,
+          "object": "RIG-Snow",
+          "preserveVolume": true,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "CorrectiveSmooth",
+          "type": "CORRECTIVE_SMOOTH",
+          "viewport": false,
+          "render": false,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Mask Left Leg",
+          "type": "MASK",
+          "viewport": false,
+          "render": false,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": "Mask_Leg.L",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Mask Right Leg",
+          "type": "MASK",
+          "viewport": false,
+          "render": false,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": "Mask_Leg.R",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": null,
+          "levels": 0,
+          "renderLevels": 2
+        }
+      ]
+    },
+    {
+      "name": "GEO-snow-shirt",
+      "vertices": 1839,
+      "maxInfluences": 3,
+      "unweightedVertices": 0,
+      "nonNormalizedVertices": 420,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "viewport": true,
+          "render": true,
+          "object": "RIG-Snow",
+          "preserveVolume": true,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "CorrectiveSmooth",
+          "type": "CORRECTIVE_SMOOTH",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": "corrsmooth",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Mask",
+          "type": "MASK",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": "mask",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Mask Left Arm",
+          "type": "MASK",
+          "viewport": false,
+          "render": false,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": "Mask_Arm.L",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Mask Right Arm",
+          "type": "MASK",
+          "viewport": false,
+          "render": false,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": "Mask_Arm.R",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": null,
+          "levels": 0,
+          "renderLevels": 2
+        }
+      ]
+    },
+    {
+      "name": "GEO-snow-shoes_base",
+      "vertices": 1143,
+      "maxInfluences": 2,
+      "unweightedVertices": 0,
+      "nonNormalizedVertices": 117,
+      "modifiers": [
+        {
+          "name": "Mirror",
+          "type": "MIRROR",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": null,
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "viewport": true,
+          "render": true,
+          "object": "RIG-Snow",
+          "preserveVolume": true,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "CorrectiveSmooth",
+          "type": "CORRECTIVE_SMOOTH",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Mask Left Leg",
+          "type": "MASK",
+          "viewport": false,
+          "render": false,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": "Side.L",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Mask Right Leg",
+          "type": "MASK",
+          "viewport": false,
+          "render": false,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": "Side.R",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": null,
+          "levels": 0,
+          "renderLevels": 2
+        }
+      ]
+    },
+    {
+      "name": "GEO-snow-shoes_bottom",
+      "vertices": 524,
+      "maxInfluences": 2,
+      "unweightedVertices": 0,
+      "nonNormalizedVertices": 0,
+      "modifiers": [
+        {
+          "name": "Mirror",
+          "type": "MIRROR",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": null,
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "viewport": true,
+          "render": true,
+          "object": "RIG-Snow",
+          "preserveVolume": false,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "SurfaceDeform",
+          "type": "SURFACE_DEFORM",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Mask Left Leg",
+          "type": "MASK",
+          "viewport": false,
+          "render": false,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": "Side.L",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Mask Right Leg",
+          "type": "MASK",
+          "viewport": false,
+          "render": false,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": "Side.R",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": null,
+          "levels": 0,
+          "renderLevels": 2
+        }
+      ]
+    },
+    {
+      "name": "GEO-snow-shoes_parts",
+      "vertices": 1478,
+      "maxInfluences": 1,
+      "unweightedVertices": 0,
+      "nonNormalizedVertices": 125,
+      "modifiers": [
+        {
+          "name": "Mirror",
+          "type": "MIRROR",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": null,
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Mask Left Leg",
+          "type": "MASK",
+          "viewport": false,
+          "render": false,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": "Side.L",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Mask Right Leg",
+          "type": "MASK",
+          "viewport": false,
+          "render": false,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": "Side.R",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "viewport": true,
+          "render": true,
+          "object": "RIG-Snow",
+          "preserveVolume": true,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": null,
+          "levels": 0,
+          "renderLevels": 2
+        }
+      ]
+    },
+    {
+      "name": "GEO-snow-teeth_lower",
+      "vertices": 2141,
+      "maxInfluences": 0,
+      "unweightedVertices": 2141,
+      "nonNormalizedVertices": 0,
+      "modifiers": [
+        {
+          "name": "SurfaceDeform",
+          "type": "SURFACE_DEFORM",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": null,
+          "levels": 0,
+          "renderLevels": 2
+        }
+      ]
+    },
+    {
+      "name": "GEO-snow-teeth_upper",
+      "vertices": 2142,
+      "maxInfluences": 0,
+      "unweightedVertices": 2142,
+      "nonNormalizedVertices": 0,
+      "modifiers": [
+        {
+          "name": "SurfaceDeform",
+          "type": "SURFACE_DEFORM",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": null,
+          "levels": 0,
+          "renderLevels": 2
+        }
+      ]
+    },
+    {
+      "name": "GEO-snow-tongue",
+      "vertices": 275,
+      "maxInfluences": 2,
+      "unweightedVertices": 0,
+      "nonNormalizedVertices": 0,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "viewport": true,
+          "render": true,
+          "object": "RIG-Snow",
+          "preserveVolume": false,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "CorrectiveSmooth",
+          "type": "CORRECTIVE_SMOOTH",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": null,
+          "levels": 0,
+          "renderLevels": 2
+        }
+      ]
+    },
+    {
+      "name": "GEO-snow_eye_corneas",
+      "vertices": 642,
+      "maxInfluences": 1,
+      "unweightedVertices": 0,
+      "nonNormalizedVertices": 0,
+      "modifiers": [
+        {
+          "name": "Mirror",
+          "type": "MIRROR",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": null,
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "viewport": true,
+          "render": true,
+          "object": "RIG-Snow",
+          "preserveVolume": false,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Lattice Face Mask",
+          "type": "LATTICE",
+          "viewport": true,
+          "render": true,
+          "object": "LTC-snow_face_mask",
+          "preserveVolume": null,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": null,
+          "levels": 0,
+          "renderLevels": 2
+        }
+      ]
+    },
+    {
+      "name": "GEO-snow_head_helper",
+      "vertices": 2137,
+      "maxInfluences": 0,
+      "unweightedVertices": 2137,
+      "nonNormalizedVertices": 0,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "viewport": true,
+          "render": true,
+          "object": "RIG-Snow",
+          "preserveVolume": false,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Lattice Cheek L",
+          "type": "LATTICE",
+          "viewport": false,
+          "render": true,
+          "object": "LTC-snow_cheek.L",
+          "preserveVolume": null,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Lattice Cheek R",
+          "type": "LATTICE",
+          "viewport": false,
+          "render": true,
+          "object": "LTC-snow_cheek.R",
+          "preserveVolume": null,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "CorrectiveSmooth",
+          "type": "CORRECTIVE_SMOOTH",
+          "viewport": false,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Displace",
+          "type": "DISPLACE",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        }
+      ]
+    },
+    {
+      "name": "GEO-snow_pants_deformer",
+      "vertices": 690,
+      "maxInfluences": 2,
+      "unweightedVertices": 488,
+      "nonNormalizedVertices": 141,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "viewport": true,
+          "render": true,
+          "object": "RIG-Snow",
+          "preserveVolume": true,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "CorrectiveSmooth",
+          "type": "CORRECTIVE_SMOOTH",
+          "viewport": false,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Triangulate",
+          "type": "TRIANGULATE",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": null,
+          "levels": null,
+          "renderLevels": null
+        }
+      ]
+    },
+    {
+      "name": "GEO-snow_shoes_base_deformer",
+      "vertices": 1143,
+      "maxInfluences": 2,
+      "unweightedVertices": 0,
+      "nonNormalizedVertices": 117,
+      "modifiers": [
+        {
+          "name": "Mirror",
+          "type": "MIRROR",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": null,
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "viewport": true,
+          "render": true,
+          "object": "RIG-Snow",
+          "preserveVolume": true,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "CorrectiveSmooth",
+          "type": "CORRECTIVE_SMOOTH",
+          "viewport": true,
+          "render": true,
+          "object": null,
+          "preserveVolume": null,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        }
+      ]
+    },
+    {
+      "name": "GEO-snow_teeth_lower_helper",
+      "vertices": 155,
+      "maxInfluences": 3,
+      "unweightedVertices": 0,
+      "nonNormalizedVertices": 0,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "viewport": true,
+          "render": true,
+          "object": "RIG-Snow",
+          "preserveVolume": false,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        }
+      ]
+    },
+    {
+      "name": "GEO-snow_teeth_upper_helper",
+      "vertices": 341,
+      "maxInfluences": 3,
+      "unweightedVertices": 0,
+      "nonNormalizedVertices": 0,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "viewport": true,
+          "render": true,
+          "object": "RIG-Snow",
+          "preserveVolume": false,
+          "vertexGroup": "",
+          "levels": null,
+          "renderLevels": null
+        }
+      ]
+    }
+  ]
+}

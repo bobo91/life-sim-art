@@ -1,0 +1,310 @@
+{
+  "geometryModified": false,
+  "sourceScriptsExecuted": false,
+  "objects": [
+    {
+      "name": "GEO-snow_pants_deformer",
+      "hideRender": true,
+      "visibleCamera": true,
+      "visibleGet": false,
+      "collections": [
+        "snow.rig.helpers"
+      ],
+      "objectMaterials": []
+    },
+    {
+      "name": "GEO-snow_teeth_upper_helper",
+      "hideRender": true,
+      "visibleCamera": true,
+      "visibleGet": false,
+      "collections": [
+        "snow.rig.helpers"
+      ],
+      "objectMaterials": []
+    },
+    {
+      "name": "GEO-snow_teeth_lower_helper",
+      "hideRender": true,
+      "visibleCamera": true,
+      "visibleGet": false,
+      "collections": [
+        "snow.rig.helpers"
+      ],
+      "objectMaterials": []
+    },
+    {
+      "name": "GEO-snow_head_helper",
+      "hideRender": false,
+      "visibleCamera": true,
+      "visibleGet": false,
+      "collections": [
+        "snow.rig.helpers"
+      ],
+      "objectMaterials": []
+    },
+    {
+      "name": "GEO-snow_shoes_base_deformer",
+      "hideRender": false,
+      "visibleCamera": true,
+      "visibleGet": false,
+      "collections": [
+        "snow.rig.helpers"
+      ],
+      "objectMaterials": []
+    },
+    {
+      "name": "GEO-snow-body",
+      "hideRender": false,
+      "visibleCamera": true,
+      "visibleGet": true,
+      "collections": [
+        "snow-geometry"
+      ],
+      "objectMaterials": [
+        "snow.skin"
+      ]
+    },
+    {
+      "name": "GEO-snow-eye_dots",
+      "hideRender": false,
+      "visibleCamera": true,
+      "visibleGet": true,
+      "collections": [
+        "snow-eyes",
+        "snow-geometry"
+      ],
+      "objectMaterials": [
+        "snow.eye_dot"
+      ]
+    },
+    {
+      "name": "GEO-snow-head",
+      "hideRender": false,
+      "visibleCamera": true,
+      "visibleGet": true,
+      "collections": [
+        "snow-geometry"
+      ],
+      "objectMaterials": [
+        "snow.skin",
+        "snow.skin_darker",
+        "snow.skin_upper_lip",
+        "snow.skin_lower_lip"
+      ]
+    },
+    {
+      "name": "GEO-snow-pants",
+      "hideRender": false,
+      "visibleCamera": true,
+      "visibleGet": true,
+      "collections": [
+        "snow-geometry"
+      ],
+      "objectMaterials": [
+        "snow.pants"
+      ]
+    },
+    {
+      "name": "GEO-snow-shirt",
+      "hideRender": false,
+      "visibleCamera": true,
+      "visibleGet": true,
+      "collections": [
+        "snow-geometry"
+      ],
+      "objectMaterials": [
+        "snow.shirt"
+      ]
+    },
+    {
+      "name": "GEO-snow-shoes_base",
+      "hideRender": false,
+      "visibleCamera": true,
+      "visibleGet": true,
+      "collections": [
+        "snow-geometry"
+      ],
+      "objectMaterials": [
+        "snow.shoe"
+      ]
+    },
+    {
+      "name": "GEO-snow-shoes_bottom",
+      "hideRender": false,
+      "visibleCamera": true,
+      "visibleGet": true,
+      "collections": [
+        "snow-geometry"
+      ],
+      "objectMaterials": [
+        "snow.shoe"
+      ]
+    },
+    {
+      "name": "GEO-snow-shoes_parts",
+      "hideRender": false,
+      "visibleCamera": true,
+      "visibleGet": true,
+      "collections": [
+        "snow-geometry"
+      ],
+      "objectMaterials": [
+        "snow.shoe"
+      ]
+    },
+    {
+      "name": "GEO-snow-eyebrows",
+      "hideRender": false,
+      "visibleCamera": true,
+      "visibleGet": true,
+      "collections": [
+        "snow-head"
+      ],
+      "objectMaterials": [
+        "snow.hair"
+      ]
+    },
+    {
+      "name": "GEO-snow-gums_lower",
+      "hideRender": false,
+      "visibleCamera": true,
+      "visibleGet": true,
+      "collections": [
+        "snow-head"
+      ],
+      "objectMaterials": [
+        "snow.gums"
+      ]
+    },
+    {
+      "name": "GEO-snow-gums_upper",
+      "hideRender": false,
+      "visibleCamera": true,
+      "visibleGet": true,
+      "collections": [
+        "snow-head"
+      ],
+      "objectMaterials": [
+        "snow.gums"
+      ]
+    },
+    {
+      "name": "GEO-snow-hair_base",
+      "hideRender": false,
+      "visibleCamera": true,
+      "visibleGet": true,
+      "collections": [
+        "snow-head"
+      ],
+      "objectMaterials": [
+        "snow.hair"
+      ]
+    },
+    {
+      "name": "GEO-snow-teeth_lower",
+      "hideRender": false,
+      "visibleCamera": true,
+      "visibleGet": true,
+      "collections": [
+        "snow-head"
+      ],
+      "objectMaterials": [
+        "snow.teeth"
+      ]
+    },
+    {
+      "name": "GEO-snow-teeth_upper",
+      "hideRender": false,
+      "visibleCamera": true,
+      "visibleGet": true,
+      "collections": [
+        "snow-head"
+      ],
+      "objectMaterials": [
+        "snow.teeth"
+      ]
+    },
+    {
+      "name": "GEO-snow-tongue",
+      "hideRender": false,
+      "visibleCamera": true,
+      "visibleGet": true,
+      "collections": [
+        "snow-head"
+      ],
+      "objectMaterials": [
+        "snow.tongue"
+      ]
+    },
+    {
+      "name": "GEO-snow-eyes",
+      "hideRender": false,
+      "visibleCamera": true,
+      "visibleGet": false,
+      "collections": [
+        "snow-eyes-render"
+      ],
+      "objectMaterials": [
+        "snow.eyes"
+      ]
+    },
+    {
+      "name": "GEO-snow_eye_corneas",
+      "hideRender": false,
+      "visibleCamera": true,
+      "visibleGet": true,
+      "collections": [
+        "snow-eyes-render"
+      ],
+      "objectMaterials": [
+        "snow.eyes_cornea"
+      ]
+    },
+    {
+      "name": "GEO-snow-eye_anim",
+      "hideRender": true,
+      "visibleCamera": true,
+      "visibleGet": true,
+      "collections": [
+        "snow-eyes-viewport"
+      ],
+      "objectMaterials": [
+        "snow.eyes_white",
+        "snow.eyes_iris",
+        "snow.eyes_pupil"
+      ]
+    }
+  ],
+  "sourceBounds": {
+    "min": [
+      -0.8937001824378967,
+      -0.2099648267030716,
+      -0.003440260421484709
+    ],
+    "max": [
+      0.8936994075775146,
+      0.15426327288150787,
+      1.857810139656067
+    ],
+    "height": 1.8612504000775516
+  },
+  "subjects": [
+    "GEO-snow-body",
+    "GEO-snow-eye_dots",
+    "GEO-snow-head",
+    "GEO-snow-pants",
+    "GEO-snow-shirt",
+    "GEO-snow-shoes_base",
+    "GEO-snow-shoes_bottom",
+    "GEO-snow-shoes_parts",
+    "GEO-snow-eyebrows",
+    "GEO-snow-gums_lower",
+    "GEO-snow-gums_upper",
+    "GEO-snow-hair_base",
+    "GEO-snow-teeth_lower",
+    "GEO-snow-teeth_upper",
+    "GEO-snow-tongue",
+    "GEO-snow-eyes",
+    "GEO-snow_eye_corneas"
+  ]
+}

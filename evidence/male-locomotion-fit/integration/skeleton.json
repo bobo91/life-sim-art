@@ -1,0 +1,387 @@
+{
+  "bones": [
+    {
+      "name": "Hips",
+      "parent": null,
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips",
+      "node": 57
+    },
+    {
+      "name": "Spine",
+      "parent": "Hips",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine",
+      "node": 46
+    },
+    {
+      "name": "Chest",
+      "parent": "Spine",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest",
+      "node": 45
+    },
+    {
+      "name": "UpperChest",
+      "parent": "Chest",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest",
+      "node": 44
+    },
+    {
+      "name": "Neck",
+      "parent": "UpperChest",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Neck",
+      "node": 1
+    },
+    {
+      "name": "Head",
+      "parent": "Neck",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Neck/Head",
+      "node": 0
+    },
+    {
+      "name": "Shoulder.L",
+      "parent": "UpperChest",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L",
+      "node": 22
+    },
+    {
+      "name": "UpperArm.L",
+      "parent": "Shoulder.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L",
+      "node": 21
+    },
+    {
+      "name": "LowerArm.L",
+      "parent": "UpperArm.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L",
+      "node": 19
+    },
+    {
+      "name": "Hand.L",
+      "parent": "LowerArm.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L",
+      "node": 17
+    },
+    {
+      "name": "Thumb1.L",
+      "parent": "Hand.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb1.L",
+      "node": 4
+    },
+    {
+      "name": "Thumb2.L",
+      "parent": "Thumb1.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb1.L/Thumb2.L",
+      "node": 3
+    },
+    {
+      "name": "Thumb3.L",
+      "parent": "Thumb2.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb1.L/Thumb2.L/Thumb3.L",
+      "node": 2
+    },
+    {
+      "name": "Index1.L",
+      "parent": "Hand.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Index1.L",
+      "node": 7
+    },
+    {
+      "name": "Index2.L",
+      "parent": "Index1.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Index1.L/Index2.L",
+      "node": 6
+    },
+    {
+      "name": "Index3.L",
+      "parent": "Index2.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Index1.L/Index2.L/Index3.L",
+      "node": 5
+    },
+    {
+      "name": "Middle1.L",
+      "parent": "Hand.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Middle1.L",
+      "node": 10
+    },
+    {
+      "name": "Middle2.L",
+      "parent": "Middle1.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Middle1.L/Middle2.L",
+      "node": 9
+    },
+    {
+      "name": "Middle3.L",
+      "parent": "Middle2.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Middle1.L/Middle2.L/Middle3.L",
+      "node": 8
+    },
+    {
+      "name": "Ring1.L",
+      "parent": "Hand.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Ring1.L",
+      "node": 13
+    },
+    {
+      "name": "Ring2.L",
+      "parent": "Ring1.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Ring1.L/Ring2.L",
+      "node": 12
+    },
+    {
+      "name": "Ring3.L",
+      "parent": "Ring2.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Ring1.L/Ring2.L/Ring3.L",
+      "node": 11
+    },
+    {
+      "name": "Pinky1.L",
+      "parent": "Hand.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Pinky1.L",
+      "node": 16
+    },
+    {
+      "name": "Pinky2.L",
+      "parent": "Pinky1.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Pinky1.L/Pinky2.L",
+      "node": 15
+    },
+    {
+      "name": "Pinky3.L",
+      "parent": "Pinky2.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Pinky1.L/Pinky2.L/Pinky3.L",
+      "node": 14
+    },
+    {
+      "name": "B02_Wrist.L",
+      "parent": "LowerArm.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/LowerArm.L/B02_Wrist.L",
+      "node": 18
+    },
+    {
+      "name": "B02_Elbow.L",
+      "parent": "UpperArm.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.L/UpperArm.L/B02_Elbow.L",
+      "node": 20
+    },
+    {
+      "name": "Shoulder.R",
+      "parent": "UpperChest",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R",
+      "node": 43
+    },
+    {
+      "name": "UpperArm.R",
+      "parent": "Shoulder.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R",
+      "node": 42
+    },
+    {
+      "name": "LowerArm.R",
+      "parent": "UpperArm.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R",
+      "node": 40
+    },
+    {
+      "name": "Hand.R",
+      "parent": "LowerArm.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R",
+      "node": 38
+    },
+    {
+      "name": "Thumb1.R",
+      "parent": "Hand.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb1.R",
+      "node": 25
+    },
+    {
+      "name": "Thumb2.R",
+      "parent": "Thumb1.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb1.R/Thumb2.R",
+      "node": 24
+    },
+    {
+      "name": "Thumb3.R",
+      "parent": "Thumb2.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb1.R/Thumb2.R/Thumb3.R",
+      "node": 23
+    },
+    {
+      "name": "Index1.R",
+      "parent": "Hand.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Index1.R",
+      "node": 28
+    },
+    {
+      "name": "Index2.R",
+      "parent": "Index1.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Index1.R/Index2.R",
+      "node": 27
+    },
+    {
+      "name": "Index3.R",
+      "parent": "Index2.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Index1.R/Index2.R/Index3.R",
+      "node": 26
+    },
+    {
+      "name": "Middle1.R",
+      "parent": "Hand.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Middle1.R",
+      "node": 31
+    },
+    {
+      "name": "Middle2.R",
+      "parent": "Middle1.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Middle1.R/Middle2.R",
+      "node": 30
+    },
+    {
+      "name": "Middle3.R",
+      "parent": "Middle2.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Middle1.R/Middle2.R/Middle3.R",
+      "node": 29
+    },
+    {
+      "name": "Ring1.R",
+      "parent": "Hand.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Ring1.R",
+      "node": 34
+    },
+    {
+      "name": "Ring2.R",
+      "parent": "Ring1.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Ring1.R/Ring2.R",
+      "node": 33
+    },
+    {
+      "name": "Ring3.R",
+      "parent": "Ring2.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Ring1.R/Ring2.R/Ring3.R",
+      "node": 32
+    },
+    {
+      "name": "Pinky1.R",
+      "parent": "Hand.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Pinky1.R",
+      "node": 37
+    },
+    {
+      "name": "Pinky2.R",
+      "parent": "Pinky1.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Pinky1.R/Pinky2.R",
+      "node": 36
+    },
+    {
+      "name": "Pinky3.R",
+      "parent": "Pinky2.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Pinky1.R/Pinky2.R/Pinky3.R",
+      "node": 35
+    },
+    {
+      "name": "B02_Wrist.R",
+      "parent": "LowerArm.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/LowerArm.R/B02_Wrist.R",
+      "node": 39
+    },
+    {
+      "name": "B02_Elbow.R",
+      "parent": "UpperArm.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/Spine/Chest/UpperChest/Shoulder.R/UpperArm.R/B02_Elbow.R",
+      "node": 41
+    },
+    {
+      "name": "UpperLeg.L",
+      "parent": "Hips",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/UpperLeg.L",
+      "node": 51
+    },
+    {
+      "name": "LowerLeg.L",
+      "parent": "UpperLeg.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/UpperLeg.L/LowerLeg.L",
+      "node": 49
+    },
+    {
+      "name": "Foot.L",
+      "parent": "LowerLeg.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/UpperLeg.L/LowerLeg.L/Foot.L",
+      "node": 48
+    },
+    {
+      "name": "Toes.L",
+      "parent": "Foot.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L",
+      "node": 47
+    },
+    {
+      "name": "B02_Knee.L",
+      "parent": "UpperLeg.L",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/UpperLeg.L/B02_Knee.L",
+      "node": 50
+    },
+    {
+      "name": "UpperLeg.R",
+      "parent": "Hips",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/UpperLeg.R",
+      "node": 56
+    },
+    {
+      "name": "LowerLeg.R",
+      "parent": "UpperLeg.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/UpperLeg.R/LowerLeg.R",
+      "node": 54
+    },
+    {
+      "name": "Foot.R",
+      "parent": "LowerLeg.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/UpperLeg.R/LowerLeg.R/Foot.R",
+      "node": 53
+    },
+    {
+      "name": "Toes.R",
+      "parent": "Foot.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R",
+      "node": 52
+    },
+    {
+      "name": "B02_Knee.R",
+      "parent": "UpperLeg.R",
+      "path": "CHR_PlayerMale_A01/A03_B01_Rig/Hips/UpperLeg.R/B02_Knee.R",
+      "node": 55
+    }
+  ],
+  "rootNodes": [
+    {
+      "node": 69,
+      "name": "CHR_PlayerMale_A01",
+      "children": [
+        "A03_B01_Rig",
+        "M01_body",
+        "M01_eyebrows",
+        "M01_eyes",
+        "M01_hair_base",
+        "M01_head",
+        "M01_pants",
+        "M01_shirt",
+        "M01_shoes_base",
+        "M01_shoes_bottom",
+        "M01_shoes_parts"
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ]
+}

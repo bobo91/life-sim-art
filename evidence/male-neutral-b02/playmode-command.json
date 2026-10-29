@@ -1,0 +1,32 @@
+{
+  "schema": "male-b02-playmode-command-1",
+  "startedUtc": "2026-10-29T05:55:57.872253+00:00",
+  "command": [
+    "C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Unity.exe",
+    "-batchmode",
+    "-force-d3d11",
+    "-projectPath",
+    "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b02\\unity-001",
+    "-logFile",
+    "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b02\\unity-001\\unity-playmode.log",
+    "-executeMethod",
+    "MaleNeutralB02AnimationCheck.RunPlayMode",
+    "-b02Output",
+    "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b02\\unity-001\\playmode-evidence",
+    "-b02Expected",
+    "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b02\\unity-001\\expected.json"
+  ],
+  "checkerSha256": "653fdd2f4f8e3a6ddabdfb50708cee0561f48485a2df15b8c94e16e72f8110c6",
+  "sourceGlbSha256": "4faa2eec33d131b7fcdc4b41720e5abbd16e03eab594bf764f3d7ae041de3d33",
+  "scope": "Separate actual art-onlyPlayMode Animator advance plus five0.2s crossfades; not Humanoid/game integration.",
+  "exitCode": 0,
+  "elapsedSeconds": 21.474587599979714,
+  "sourceAndImportedGlbUnchanged": true,
+  "reportExists": true,
+  "reportSha256": "890a471744a963db196881e16f98d3ed6f3fad63d4c74dd5a41dc980f12bf043",
+  "backgroundEditorWarnings": [
+    "Licensing access-token update unavailable; existing licence still allowed editor and allprobe assertions passed.",
+    "Unity Search startup indexing ArgumentOutOfRangeException (see preservedlog); isolated probe errors empty.",
+    "Mono abort_threads messages during editor shutdown; process exit0."
+  ]
+}

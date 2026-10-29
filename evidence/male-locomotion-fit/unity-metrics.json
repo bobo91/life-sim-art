@@ -1,0 +1,159 @@
+{
+  "schema": "a03-locomotion-fit-unity-metrics-1",
+  "actualPlayMode": true,
+  "scenarios": [
+    {
+      "scenario": "idle",
+      "frames": 24,
+      "durationSeconds": 1.0,
+      "commandedSpeeds": [
+        0.0
+      ],
+      "rootSpeedMaxErrorMps": 0.0,
+      "maxYawRateDegps": 0.0,
+      "minimumSoleMeters": -5.359802344173659e-07,
+      "stableContactVertexMaxWorldSpeedMps": 4.015358172182459e-06,
+      "contactVertexPairs": 4738,
+      "normalizedTimeFirst": 0.02083333395421505,
+      "normalizedTimeLast": 0.5000000596046448
+    },
+    {
+      "scenario": "straight4",
+      "frames": 48,
+      "durationSeconds": 2.0,
+      "commandedSpeeds": [
+        4.0
+      ],
+      "rootSpeedMaxErrorMps": 3.814697265625e-06,
+      "maxYawRateDegps": 0.0,
+      "minimumSoleMeters": -0.017864979803562164,
+      "stableContactVertexMaxWorldSpeedMps": 8.196471214294434,
+      "contactVertexPairs": 1037,
+      "normalizedTimeFirst": 0.5208333730697632,
+      "normalizedTimeLast": 3.1333329677581787
+    },
+    {
+      "scenario": "stop1",
+      "frames": 17,
+      "durationSeconds": 0.7083333333333334,
+      "commandedSpeeds": [
+        0.0
+      ],
+      "rootSpeedMaxErrorMps": 0.0,
+      "maxYawRateDegps": 0.0,
+      "minimumSoleMeters": -0.009040730074048042,
+      "stableContactVertexMaxWorldSpeedMps": 2.1347696781158447,
+      "contactVertexPairs": 3292,
+      "normalizedTimeFirst": 3.1999995708465576,
+      "normalizedTimeLast": 0.3333333432674408
+    },
+    {
+      "scenario": "restart4",
+      "frames": 31,
+      "durationSeconds": 1.2916666666666667,
+      "commandedSpeeds": [
+        4.0
+      ],
+      "rootSpeedMaxErrorMps": 7.62939453125e-06,
+      "maxYawRateDegps": 0.0,
+      "minimumSoleMeters": -0.017951611429452896,
+      "stableContactVertexMaxWorldSpeedMps": 8.20089340209961,
+      "contactVertexPairs": 665,
+      "normalizedTimeFirst": 0.3541666865348816,
+      "normalizedTimeLast": 2.0000007152557373
+    },
+    {
+      "scenario": "right90_720",
+      "frames": 15,
+      "durationSeconds": 0.625,
+      "commandedSpeeds": [
+        4.0
+      ],
+      "rootSpeedMaxErrorMps": 1.9073486328125e-06,
+      "maxYawRateDegps": 720.0,
+      "minimumSoleMeters": 0.0009998530149459839,
+      "stableContactVertexMaxWorldSpeedMps": 5.928896427154541,
+      "contactVertexPairs": 266,
+      "normalizedTimeFirst": 2.066667318344116,
+      "normalizedTimeLast": 2.999999761581421
+    },
+    {
+      "scenario": "reverse180_720",
+      "frames": 14,
+      "durationSeconds": 0.5833333333333334,
+      "commandedSpeeds": [
+        4.0
+      ],
+      "rootSpeedMaxErrorMps": 1.9073486328125e-06,
+      "maxYawRateDegps": 720.0,
+      "minimumSoleMeters": 0.0009998306632041931,
+      "stableContactVertexMaxWorldSpeedMps": 8.227755546569824,
+      "contactVertexPairs": 266,
+      "normalizedTimeFirst": 3.0666663646698,
+      "normalizedTimeLast": 3.9333322048187256
+    },
+    {
+      "scenario": "forward90_720",
+      "frames": 19,
+      "durationSeconds": 0.7916666666666666,
+      "commandedSpeeds": [
+        4.0
+      ],
+      "rootSpeedMaxErrorMps": 1.52587890625e-05,
+      "maxYawRateDegps": 720.0,
+      "minimumSoleMeters": 0.0009996790904551744,
+      "stableContactVertexMaxWorldSpeedMps": 4.573675632476807,
+      "contactVertexPairs": 412,
+      "normalizedTimeFirst": 3.9999988079071045,
+      "normalizedTimeLast": 5.199997901916504
+    },
+    {
+      "scenario": "stop2",
+      "frames": 20,
+      "durationSeconds": 0.8333333333333334,
+      "commandedSpeeds": [
+        0.0
+      ],
+      "rootSpeedMaxErrorMps": 0.0,
+      "maxYawRateDegps": 0.0,
+      "minimumSoleMeters": -0.02947073057293892,
+      "stableContactVertexMaxWorldSpeedMps": 4.16876220703125,
+      "contactVertexPairs": 3783,
+      "normalizedTimeFirst": 5.266664505004883,
+      "normalizedTimeLast": 0.3958333730697632
+    },
+    {
+      "scenario": "walk1p4",
+      "frames": 28,
+      "durationSeconds": 1.1666666666666667,
+      "commandedSpeeds": [
+        1.399999976158142
+      ],
+      "rootSpeedMaxErrorMps": 2.1338462829589844e-05,
+      "maxYawRateDegps": 0.0,
+      "minimumSoleMeters": -0.02508355677127838,
+      "stableContactVertexMaxWorldSpeedMps": 5.4557647705078125,
+      "contactVertexPairs": 1449,
+      "normalizedTimeFirst": 0.416666716337204,
+      "normalizedTimeLast": 1.125
+    },
+    {
+      "scenario": "walkStop",
+      "frames": 24,
+      "durationSeconds": 1.0,
+      "commandedSpeeds": [
+        0.0
+      ],
+      "rootSpeedMaxErrorMps": 0.0,
+      "maxYawRateDegps": 0.0,
+      "minimumSoleMeters": -0.03520162031054497,
+      "stableContactVertexMaxWorldSpeedMps": 6.070451259613037,
+      "contactVertexPairs": 4773,
+      "normalizedTimeFirst": 1.1666666269302368,
+      "normalizedTimeLast": 0.47916674613952637
+    }
+  ],
+  "metricDefinition": "Same sole vertex lies within3mmground atboth adjacent24Hzsamples; planarworldvelocity. Includes footroll/transition/yaw, not a terrain/physics tolerance. Zero pairs meansno measurement. groundedCentreMaxMps legacycolumn isunused/ignored.",
+  "rootMotion": false,
+  "controller": "Art-side immediate speed command; desired direction translates instantly, visualheading RotateTowards720deg/s. Actualgamecontroller not run."
+}

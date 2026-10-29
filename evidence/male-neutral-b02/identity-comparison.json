@@ -1,0 +1,17 @@
+{
+  "schema": "male-b02-matched-identity-render-1",
+  "method": "Actual B01/B02 bind-face PNGs captured in the same UnityURP pass/camera/lighting; decodedRGB8 comparison, no retouch.",
+  "views": {
+    "front": {
+      "meanAbsoluteChannelError8bit": 0.0,
+      "maximumChannelError8bit": 0,
+      "decodedPixelsIdentical": true
+    },
+    "three_quarter": {
+      "meanAbsoluteChannelError8bit": 0.0,
+      "maximumChannelError8bit": 0,
+      "decodedPixelsIdentical": true
+    }
+  },
+  "actualRunFramesDiffer": true
+}

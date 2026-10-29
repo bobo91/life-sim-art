@@ -1,0 +1,14 @@
+{
+  "schema": "male-neutral-a01-reproduction-1",
+  "geometryHashesEqual": true,
+  "triangleCountEqual": true,
+  "glbBytesIdentical": true,
+  "frontPngBytesIdentical": false,
+  "frontPixelsIdentical": true,
+  "testedViews": [
+    "front"
+  ],
+  "remainingViewsNotReRenderedForReproduction": 8,
+  "sourceZipUnchanged": true,
+  "sourceBlendUnchanged": true
+}

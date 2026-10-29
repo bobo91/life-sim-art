@@ -1,0 +1,512 @@
+{
+  "schema": "male-b02-evidence-manifest-1",
+  "scope": "B02 only. A01/A02/A03/B01 remain historical snapshots. B02source/images pinned by male-neutral-b02-v0.2; this metadata follows actual download verification.",
+  "sourceCommit": "794507391cf87af50a900c869d487950de71eff0",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 7564,
+      "sha256": "87215a73c07e82eb952b1d1ca934e3eeb28a4aeb9e505fa272636152160dba9c"
+    },
+    {
+      "path": "configs/male-neutral-b02-joints.json",
+      "bytes": 1355,
+      "sha256": "a9e6203d21e30c69ced43f2dcd20f7b045049aee0503d2aeb8051b082d74b94e"
+    },
+    {
+      "path": "configs/male-neutral-b02-turn.json",
+      "bytes": 1303,
+      "sha256": "d5b5b5ca5e990c56612b68bf23349c2e68cbaf681d3368c2cd07e6abfe945965"
+    },
+    {
+      "path": "docs/characters/male-player/B02_IMPORT_CONTRACT.json",
+      "bytes": 2849,
+      "sha256": "7dc8d69905a36130843293770349926a03352f65e7e1c924b87f91c4b3634571"
+    },
+    {
+      "path": "docs/characters/male-player/B02_QUALITY_REPORT.md",
+      "bytes": 10057,
+      "sha256": "06530963914bf77883c44658cb42baa9827fa0529972de09444333b025f6652a"
+    },
+    {
+      "path": "docs/characters/male-player/B02_REPRODUCE.md",
+      "bytes": 4436,
+      "sha256": "f56e354d81a4c347fa058d17f2ab04df493235ab21ccfbfc968123dee99893db"
+    },
+    {
+      "path": "evidence/male-neutral-b02/README.md",
+      "bytes": 1063,
+      "sha256": "b9c50a766cad739d0dd9f86db809d3ad01ae275fb1442775c5b50a5a80e660b9"
+    },
+    {
+      "path": "evidence/male-neutral-b02/artifact.json",
+      "bytes": 1069,
+      "sha256": "04e29f37aec5addcdb0f426a86f5054f64ae09201bb5febe636dcfefc5a7882a"
+    },
+    {
+      "path": "evidence/male-neutral-b02/asset-report.json",
+      "bytes": 10021,
+      "sha256": "0f531abf7bf0209e2208d8fc7fadfec85a9230f47ab2c0128fd8d9de998658a9"
+    },
+    {
+      "path": "evidence/male-neutral-b02/authorization.json",
+      "bytes": 517,
+      "sha256": "c3db77fd67983ee2e03879a8df29094d045c03a2a74272460a41c324ae447af1"
+    },
+    {
+      "path": "evidence/male-neutral-b02/blender-glb-roundtrip.json",
+      "bytes": 3015,
+      "sha256": "bffe656688f995692ecce07ef44109854e692d3ea14ba9f93f76d6c49b319097"
+    },
+    {
+      "path": "evidence/male-neutral-b02/capture-checker-source.cs",
+      "bytes": 27604,
+      "sha256": "653fdd2f4f8e3a6ddabdfb50708cee0561f48485a2df15b8c94e16e72f8110c6"
+    },
+    {
+      "path": "evidence/male-neutral-b02/comparison-camera.json",
+      "bytes": 222,
+      "sha256": "868a9ef20265a7781ab9f766071218d555eb6361a0aeb757d527863184d3ad44"
+    },
+    {
+      "path": "evidence/male-neutral-b02/daily-poses.json",
+      "bytes": 1596,
+      "sha256": "14124890767bfa6b70f5f23403b2656acc6d6527d482953bffcb51311aaf9892"
+    },
+    {
+      "path": "evidence/male-neutral-b02/execution.json",
+      "bytes": 2344,
+      "sha256": "437b29193631218ed5a43688889946374897c83ef680656396d29a925bbe3bea"
+    },
+    {
+      "path": "evidence/male-neutral-b02/identity-comparison.json",
+      "bytes": 520,
+      "sha256": "1dd5f207c4c558a88105c7124c7b4acfa055b0ad267d73e2b1debc3f79aa8273"
+    },
+    {
+      "path": "evidence/male-neutral-b02/intermediate/joint-weight-only-and-full-support.json",
+      "bytes": 8704,
+      "sha256": "7a8388ac9b7088991e888780c84f7d4d81c1c2beed0526ae91c730f9da91e6cb"
+    },
+    {
+      "path": "evidence/male-neutral-b02/intermediate/two-step-contact-with-crossing-feet.json",
+      "bytes": 176389,
+      "sha256": "53c340e875a99ead03119abfda9fbad25c56d34c48e51274d3abd5a7c6754469"
+    },
+    {
+      "path": "evidence/male-neutral-b02/joint-selection.json",
+      "bytes": 4370,
+      "sha256": "eb52fe7ebec145951f40bd50f9c23cdfc49267c5197726c2f64a8f0ca5758341"
+    },
+    {
+      "path": "evidence/male-neutral-b02/paired-contact.json",
+      "bytes": 245483,
+      "sha256": "0539f6573400498543301276fe2daa1b968973d695c63a92c359558ef4114a82"
+    },
+    {
+      "path": "evidence/male-neutral-b02/playmode-command.json",
+      "bytes": 1667,
+      "sha256": "934be67dc2dd00ece50c9bc6fdc77108608481804fe3db9ee5147a6ca0e56e5f"
+    },
+    {
+      "path": "evidence/male-neutral-b02/playmode-report.json",
+      "bytes": 2898,
+      "sha256": "890a471744a963db196881e16f98d3ed6f3fad63d4c74dd5a41dc980f12bf043"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/additional-layout.json",
+      "bytes": 5085,
+      "sha256": "cc87b9bc56f9ff8fa73c3fafbfbf67df7406e602f111e7a22c5c880bd538f868"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/b01-b02-face-identity.png",
+      "bytes": 217078,
+      "sha256": "dd5272a48e461990017f3be22b0963292b978de71b4c1b8db39847c76b80bf4c"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/b01-b02-idle-joints.png",
+      "bytes": 700537,
+      "sha256": "d40dfda3952df3446ff44e5fe72550ad855392f34576a90f0f5647fb8b7062b7"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/b01-b02-run-joints.png",
+      "bytes": 641234,
+      "sha256": "ceb55503a8cc3522b5343a2272a3d77b048c1c0be14960679aec99ded92f8e43"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/b01-b02-walk-joints.png",
+      "bytes": 593376,
+      "sha256": "0a08a265e21bb48a4ce182994db02c01946178fe9682431b3754198ff9c33a64"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/comparison/B01_face_front.png",
+      "bytes": 422413,
+      "sha256": "e40dfa7f4effb94ee5f1434341113d4ea1240094db5ff1efad65105d7c517d1f"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/comparison/B01_face_three_quarter.png",
+      "bytes": 430815,
+      "sha256": "aca6e8c09277c039451346995105c5db393b85a14dc364f7e75a7088e3b3983a"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/comparison/B01_idle_elbow.png",
+      "bytes": 320436,
+      "sha256": "216604caa227c9632a433f771254b29efc9c362f6476f71bf1a26b43e7e664d8"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/comparison/B01_idle_hand.png",
+      "bytes": 377594,
+      "sha256": "69137e19fb5452f9d676cd2c54ddf3626c36d9564096c37b08b4b094adc3ee4f"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/comparison/B01_idle_knee.png",
+      "bytes": 488122,
+      "sha256": "317201b66b6dde30a50eecf3ba8501fa22a4145d1e0594a369366ee3a6f4fe30"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/comparison/B01_idle_wrist.png",
+      "bytes": 285709,
+      "sha256": "f8a2398110643be5dec104771a0f37f29aa5ca0c427f6bbf04d2a4774b55b7c1"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/comparison/B01_run_elbow.png",
+      "bytes": 278319,
+      "sha256": "79620315266bca370081e1e79742a107e67c45d36f613910a290d4fde6304977"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/comparison/B01_run_hand.png",
+      "bytes": 348012,
+      "sha256": "631f6b1c5ec7538e05e4303d060634dac9c7ece2232373be1954196eb259847d"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/comparison/B01_run_knee.png",
+      "bytes": 456264,
+      "sha256": "a8c8c948e26cb93c2d2ebef874708c34ffd20d6849bbe0d0844947776bc84c72"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/comparison/B01_run_wrist.png",
+      "bytes": 219786,
+      "sha256": "9ca2a39a80a8c35ba7e51bc2cdf6b97673d999c2cce14589b1cf50aa3d1a1bb8"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/comparison/B01_walk_elbow.png",
+      "bytes": 291023,
+      "sha256": "1ad6107ef347fe0a3d0449a2181a3f86d1f9350ba7ef2bf8892af13b54a059e8"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/comparison/B01_walk_hand.png",
+      "bytes": 242997,
+      "sha256": "3b820da0fa28a1658a868d1c07d0e50f815ec47733487a31c144a337dbd17062"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/comparison/B01_walk_knee.png",
+      "bytes": 483249,
+      "sha256": "0e2d0824979b18825ff28c1871f2458c5cc925d6195e5998eef807fe571c6cd5"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/comparison/B01_walk_wrist.png",
+      "bytes": 162528,
+      "sha256": "625b495f1b8b3f29cf48656c0166fa02e0286b56803fd215057b26a7eca5c52d"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/comparison/B02_face_front.png",
+      "bytes": 422413,
+      "sha256": "e40dfa7f4effb94ee5f1434341113d4ea1240094db5ff1efad65105d7c517d1f"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/comparison/B02_face_three_quarter.png",
+      "bytes": 430815,
+      "sha256": "aca6e8c09277c039451346995105c5db393b85a14dc364f7e75a7088e3b3983a"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/comparison/B02_idle_elbow.png",
+      "bytes": 320435,
+      "sha256": "f3df7f0a78895137809bb90e3387e542120fde0cf8a3162450ecc0e6abb8a4eb"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/comparison/B02_idle_hand.png",
+      "bytes": 377727,
+      "sha256": "827f7d1db880dbb57037a6af20cac09c92d5fc122b548de3f801552221c5ed5e"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/comparison/B02_idle_knee.png",
+      "bytes": 489665,
+      "sha256": "84672f9c13b375e8b9dfeccf9d892aeaffc3ec7ce1735ef3b80273fe42fd2113"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/comparison/B02_idle_wrist.png",
+      "bytes": 285674,
+      "sha256": "df356a4096d16d9a0f43787f440eefc6877a4ef200c11c70eef1313d5036845f"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/comparison/B02_run_elbow.png",
+      "bytes": 278344,
+      "sha256": "53778edce1fe3ef60319fd246199742391816a28133355647c70c58d9b93c71b"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/comparison/B02_run_hand.png",
+      "bytes": 347972,
+      "sha256": "101a3cb455b24151c7e79ec7e665ab5f0dfaaf745a1a5d79578890a699377319"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/comparison/B02_run_knee.png",
+      "bytes": 455830,
+      "sha256": "cb87b06fd8e73aae0750f66b0f4a35b9709f91a6ad2b1c64b92b4c7212959005"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/comparison/B02_run_wrist.png",
+      "bytes": 219674,
+      "sha256": "a4b2cea07eb4f0a4447bcde28ea53aed1c35da2d8a87bf62a900198b87212654"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/comparison/B02_walk_elbow.png",
+      "bytes": 291018,
+      "sha256": "fe6e78cb4555ff49620e5d34aac420a5a9c8bb871679dc39c36f9d752ad045ab"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/comparison/B02_walk_hand.png",
+      "bytes": 242713,
+      "sha256": "cd2ace76480dca27f888ad78f366b85ef483a24acba5a1541b3ddd5d76d33aec"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/comparison/B02_walk_knee.png",
+      "bytes": 484913,
+      "sha256": "8f1e5418a6fa28d6aa883219d234c82aa9607b10e3458b7328ce918bd09aa407"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/comparison/B02_walk_wrist.png",
+      "bytes": 162233,
+      "sha256": "47caad89b64492983410cd66dfd923ba0f8522aa7382f8276ff0f5e4d39ce2b7"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/everyday-comparison.png",
+      "bytes": 804789,
+      "sha256": "2869d792a80b66deaab74f861928e43f45b540a50f7c525883af41bfcebdbe6f"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/game16m-four-clips.png",
+      "bytes": 45638,
+      "sha256": "22befd51eb974cae9d5dd9898f95f3a581c0d16f3f2e3e4af1b0d58d2a54a03b"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/idle_elbow.png",
+      "bytes": 320345,
+      "sha256": "7e44fb1af2bd8ab00e2ae713317a71d6c4aacae17c2d702f5d59bb6cdd233d8a"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/idle_full.png",
+      "bytes": 156558,
+      "sha256": "eb6c6bbc46e079c6d3acfc46e6116296ca07b45d098d1d9d9becb2b9d80db97b"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/idle_game16m.png",
+      "bytes": 19710,
+      "sha256": "b14169b71a4d5a6eb7b53d47aa9883e877e359be28893e90db109286dcc10b54"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/idle_hand.png",
+      "bytes": 377788,
+      "sha256": "7fa1ad04a8f611c48a9d4012c644b6a25566786bb9a4f4dda9725d7b6e0661d9"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/idle_knee.png",
+      "bytes": 489657,
+      "sha256": "7ba4b05b02229839bfcd141a41160cfeef2b0fd98c95acf7a0421186269a5181"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/joint-closeups.png",
+      "bytes": 1416744,
+      "sha256": "0fa8e22eba751321c07d1bea9989c304216d66c65362f7ac638e45e51d991f64"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/layout.json",
+      "bytes": 88579,
+      "sha256": "c68b5a0d90ada8f049d2db7e06304f9c1289be826368b8323e31553ea31f3e80"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/motion-four-clips.png",
+      "bytes": 471025,
+      "sha256": "b6e53294cc4348b67308900096ee1a4f690442781924fae554da05c5a904eefc"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/motion-preview.gif",
+      "bytes": 1222315,
+      "sha256": "af71007d7c3822f011ce0d122450d6c40a074d7da58461c809b2a36eeade4d1e"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/natural-knee-comparison.png",
+      "bytes": 648329,
+      "sha256": "975d34d6d7e24decf6c8d65ce6e7a48327fbbf226350bf7c005f3310766cde0c"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/playmode-crossfades.png",
+      "bytes": 463143,
+      "sha256": "562e80b4959d912845c3551f98d3cdba0711b3e6461056b8223904db7dd9f8ea"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/run_elbow.png",
+      "bytes": 278487,
+      "sha256": "a0fe9f75317f1df84bfff0b2d8b9ad9b46f95b88e2c0b8b171723b6c11c6d031"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/run_full.png",
+      "bytes": 156882,
+      "sha256": "8af6a6008ed76832ba4e7667c51e1be6bff84ecbddb849156ff31d61d5e1fd64"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/run_game16m.png",
+      "bytes": 19633,
+      "sha256": "758231fe0d7de2a98641f282011d50140e7dd59757dd1e8b71e3d5274b70608c"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/run_hand.png",
+      "bytes": 348011,
+      "sha256": "f06d029ce8f83219302c3848adfe190f93a28ac148f953b230fee31637aabefa"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/run_knee.png",
+      "bytes": 455774,
+      "sha256": "0be69e1a9bce398b753619b22d8cbcd48b70e71fc2742ff3d3369af370a97510"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/turn_elbow.png",
+      "bytes": 293774,
+      "sha256": "02ff582413c20fc9f28d946b0464ee10aaa67f9b4678a4ee60ddfd322e2b505e"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/turn_full.png",
+      "bytes": 157553,
+      "sha256": "4e9533d949722a23cf4cc92b72b0625c90a50c1edce29720647f0f3f6895658d"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/turn_game16m.png",
+      "bytes": 19772,
+      "sha256": "0d7a153f65db0bcfe2cfccdd8ffa8ca6f1f53f298513fbd21a34ec3e42356350"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/turn_hand.png",
+      "bytes": 194536,
+      "sha256": "677cf96a3e9ff70cbe828fdb39abc3bd7cd1d751a1115bf26e4d2ced5311cee5"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/turn_knee.png",
+      "bytes": 403163,
+      "sha256": "5f1e161d52917ec8778b1aaa2c7864a26fd338424aa13fb1a016e6e43ea64644"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/walk_elbow.png",
+      "bytes": 291122,
+      "sha256": "7fab4ad70bd726ca38437a343e1eae2aaad068329cdf711cc3a79d303d9c3576"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/walk_full.png",
+      "bytes": 159091,
+      "sha256": "967664487bc2c77c39b1b96881147ebf29546ab0e467b6c94a01509613c42836"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/walk_game16m.png",
+      "bytes": 19682,
+      "sha256": "360fe0a60bbf00a411a3a0fa289985af303baccceebb151beb19ade2a5e89b88"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/walk_hand.png",
+      "bytes": 242779,
+      "sha256": "879df253cd7417a4167eb69942454f8b8e1d1d6fe57b472448f00c62eee3bfb9"
+    },
+    {
+      "path": "evidence/male-neutral-b02/previews/walk_knee.png",
+      "bytes": 484964,
+      "sha256": "62072bd7fe410b39b683a28e545904e8af51b4fdee1a8325ad4246cd2edb7250"
+    },
+    {
+      "path": "evidence/male-neutral-b02/provenance.json",
+      "bytes": 1352,
+      "sha256": "c831f86669387febb0957a46d1d87507be7f9a6e66e7fdd83efd188b0377d60f"
+    },
+    {
+      "path": "evidence/male-neutral-b02/reproduction.json",
+      "bytes": 311,
+      "sha256": "ce18340c62fc383302ca3e51543429ef4d835efb76c99ec1bfd96d9c95928349"
+    },
+    {
+      "path": "evidence/male-neutral-b02/turn-path-clearance.json",
+      "bytes": 13581,
+      "sha256": "66a1881afbfeec2f96f47d2ba3b7f0b99d92ada25bcb1cd7e516f006517d7134"
+    },
+    {
+      "path": "evidence/male-neutral-b02/turn-probe-contact.json",
+      "bytes": 176421,
+      "sha256": "f3543a75e82ff4fd305c4583251df4330287e86fb35dbe372e4271b9100fb199"
+    },
+    {
+      "path": "evidence/male-neutral-b02/unity-animation-report.json",
+      "bytes": 29895,
+      "sha256": "25d08a18368e39dbeecc385140cfa723104ac8e5724039832fac944d0c7e5a7d"
+    },
+    {
+      "path": "evidence/male-neutral-b02/unity-command.json",
+      "bytes": 5200,
+      "sha256": "e4f02341813f9c5c51dab2232b6a0866be034b19bf929b2942e1bdda3adcb7c6"
+    },
+    {
+      "path": "evidence/male-neutral-b02/video.json",
+      "bytes": 9619,
+      "sha256": "aa90aa36369e3d9c4fff27753ea5b09109dd9d825db11256a77b01bb412a6114"
+    },
+    {
+      "path": "scripts/MaleNeutralB02AnimationCheck.cs",
+      "bytes": 27604,
+      "sha256": "653fdd2f4f8e3a6ddabdfb50708cee0561f48485a2df15b8c94e16e72f8110c6"
+    },
+    {
+      "path": "scripts/build_male_neutral_b02.py",
+      "bytes": 7564,
+      "sha256": "41b770fb955a0bcf479295e8e7ed109a5e1be380b034b6777cbc9d1e0b27955e"
+    },
+    {
+      "path": "scripts/check_male_b02_contacts.py",
+      "bytes": 3321,
+      "sha256": "fbd950e3c9bb2c1e6c45db9d42576de4528412d1d51c7b2e00d9ce5eef1d59cb"
+    },
+    {
+      "path": "scripts/compose_male_b02_checks.py",
+      "bytes": 3198,
+      "sha256": "736e84cdfbc23f811ffe0f319440be555a44dae7771b1c9dd14eba226b5d0baf"
+    },
+    {
+      "path": "scripts/compose_male_b02_review.py",
+      "bytes": 6221,
+      "sha256": "b2338070252c8bc5d93340f8b3bfc0a9ef4b94499c96a5df8dcd9b77f6bc96c2"
+    },
+    {
+      "path": "scripts/encode_male_b02_motion.py",
+      "bytes": 6407,
+      "sha256": "f0b8686942bfd474bf7c4f7e3a77fe008a102eb61b5ecc1b51868479d4a59bb6"
+    },
+    {
+      "path": "scripts/male_b02_joint_weights.py",
+      "bytes": 5999,
+      "sha256": "bfce6e0fc5182d7338d36461881a1ce1f31f27a167dfe2800d60b390e7e717b4"
+    },
+    {
+      "path": "scripts/male_b02_turn.py",
+      "bytes": 3930,
+      "sha256": "87ee607f7568bc6b0f9e1832dcaed92e6e8940b411a62acfd8f84ee726ff7315"
+    },
+    {
+      "path": "scripts/render_male_b02_daily.py",
+      "bytes": 4252,
+      "sha256": "65a024a7bb63c5a91e6ddf8e7f30294a98ac023bd4a6a1d99089a8dcebf00cd3"
+    },
+    {
+      "path": "scripts/run_male_b02_unity_check.py",
+      "bytes": 4220,
+      "sha256": "06ca00cd4fee170b718b13a29282af66693dc7432b4cd88e33dc46b96b080baa"
+    },
+    {
+      "path": "scripts/verify_male_neutral_b02.py",
+      "bytes": 3799,
+      "sha256": "b107f805a1a3c1ed6c31e69dae48e1c512afe5a5a398a11dae19f1a5fd5dbc91"
+    }
+  ]
+}

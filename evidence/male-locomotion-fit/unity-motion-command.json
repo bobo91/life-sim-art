@@ -1,0 +1,21 @@
+{
+  "command": [
+    "C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Unity.exe",
+    "-batchmode",
+    "-force-d3d11",
+    "-projectPath",
+    "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-locomotion-fit\\unity-002",
+    "-logFile",
+    "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-locomotion-fit\\unity-002\\unity-motion-correction.log",
+    "-executeMethod",
+    "MaleLocomotionFitMotionCheck.Run",
+    "-fitOutput",
+    "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-locomotion-fit\\unity-002\\motion-correction-001"
+  ],
+  "checkerSha256": "64a03f12049c3c9ce107aaefe4c0eb7781c645bdc9c1e1aef32551d703124544",
+  "startedUtc": "2026-10-29T16:01:42.651677+00:00",
+  "change": "Only .08/.08 fade durations; same GLB/controller speed/heading/cliptime0, no rootY correction",
+  "sourceGlbSha256": "532ce438b24f69e14c099d956706d69e6e6b8531e0c162e92f72756bb60046b0",
+  "exitCode": 0,
+  "elapsedSeconds": 17.99824930005707
+}

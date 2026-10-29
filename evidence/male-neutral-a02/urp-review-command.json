@@ -1,0 +1,22 @@
+{
+  "command": [
+    "C:\\Program Files\\Unity\\Hub\\Editor\\6000.5.8f1\\Editor\\Unity.exe",
+    "-batchmode",
+    "-force-d3d11",
+    "-projectPath",
+    "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-a02\\unity-static-001",
+    "-logFile",
+    "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-a02\\urp-review-final\\render.log",
+    "-executeMethod",
+    "RenderMaleA02UrpReview.Run",
+    "-reviewOutput",
+    "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-a02\\urp-review-final",
+    "-a01Glb",
+    "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-a01\\delivery-002\\chr_player_male_poc_001.glb"
+  ],
+  "startedUtc": "2026-10-28T13:56:11.107859+00:00",
+  "scope": "Same A01/A02 art-only URP linear/sRGB review, no postFX; key1.5 fill0.5 ambient0.4; no material/mesh/game changes",
+  "checkerSha256": "1c5e4d01b59c49fd382f02e9ae00b4ba7dccbe8e42a7b978a56d1ecbd0dd588b",
+  "calibrationFinding": "Earlier requested ACES/+1EV produced identical pixels; postFX not verified. Final explicitly disables it rather than claiming an unverified tone transform.",
+  "exitCode": 0
+}

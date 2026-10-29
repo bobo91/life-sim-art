@@ -1,0 +1,46 @@
+{
+  "schema": "male-phase-a-execution-1",
+  "scope": "Read-only capability audit using the existing Ava-neutral probe; no character generation/import/render/export.",
+  "commands": [
+    {
+      "argv": [
+        "python",
+        "scripts/probe_ava_neutral_feasibility.py",
+        "--output",
+        "build/male-character-phase-a/system-environment.json"
+      ],
+      "exitCode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\rcalm\\tools\\blender\\blender-4.5.14-windows-x64\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--offline-mode",
+        "--disable-autoexec",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "scripts/probe_ava_neutral_feasibility.py",
+        "--",
+        "--output",
+        "build/male-character-phase-a/blender-environment.json"
+      ],
+      "exitCode": 0
+    }
+  ],
+  "scriptSha256": "cbca96bbefd0d4c123ed02ab36bfa9b09cf05ab8a155dd53113c9306997f03bd",
+  "preservedScript": "environment-probe-source.py",
+  "liveBlenderConnector": "get_addon_status returned could not connect; no live scene modified",
+  "windowsCim": "GPU CIM query access denied; successful probe uses Windows registry driver metadata instead",
+  "gpuRenderOrInferenceTested": false,
+  "gameRepositoryAccessed": false,
+  "AGENTSChangedByThisTask": false,
+  "assetDownloadedOrImported": false,
+  "newCharacterCreated": false,
+  "newRenders": 0,
+  "newExports": 0,
+  "vendorContact": false,
+  "purchases": false,
+  "phaseBStarted": false
+}

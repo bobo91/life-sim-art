@@ -1,0 +1,48 @@
+{
+  "schema": "male-a02-execution-1",
+  "iterations": [
+    {
+      "folder": "build\\male-neutral-a02\\proposal-001",
+      "scope": "Initial A02 form/look",
+      "triangles": 40645,
+      "headDisplacementMeters": {
+        "max": 0.02598180483464974,
+        "mean": 0.0067114954049715915
+      },
+      "renderCount": 13,
+      "buildSeconds": 91.01906299591064,
+      "finalDelivery": false
+    },
+    {
+      "folder": "build\\male-neutral-a02\\delivery-001",
+      "scope": "Focused correction: measured shared lip seam, nose/ear proportions, scalp gap, lids/brows",
+      "triangles": 40645,
+      "headDisplacementMeters": {
+        "max": 0.029071296904017652,
+        "mean": 0.0074473362532550425
+      },
+      "renderCount": 13,
+      "buildSeconds": 89.60339093208313,
+      "finalDelivery": false
+    },
+    {
+      "folder": "build\\male-neutral-a02\\delivery-002",
+      "scope": "Local QC repair only: central nose underside rounded",
+      "triangles": 40645,
+      "headDisplacementMeters": {
+        "max": 0.029071296904017652,
+        "mean": 0.007441552719859458
+      },
+      "renderCount": 13,
+      "buildSeconds": 91.1901285648346,
+      "finalDelivery": true
+    }
+  ],
+  "finalValidation": "One existing static Blender/GLB check and one existing isolated Unity import/reopen check on delivery-002",
+  "extraReproduction": "One face_front render plus identical geometry/GLB, not a repeat of all views",
+  "unityRenderCalibration": "Initial hard key clipped fair skin. ACES/exposure request showed no pixel effect in minimal probe; final explicitly uses no post-processing and key1.5/fill0.5/ambient0.4 on both A01/A02. No ACES verification or actual game lighting claim.",
+  "broadSuitesRepeated": false,
+  "gameRepositoryChanged": false,
+  "phaseBStarted": false,
+  "mergePerformed": false
+}

@@ -1,0 +1,54 @@
+{
+  "schema": "male-neutral-a01-license-evidence-1",
+  "checkedUtc": "2026-10-28T12:30:51.470737+00:00",
+  "sourcePage": "https://studio.blender.org/characters/snow/v4/",
+  "downloadUrl": "https://studio.blender.org/download-source/files/ba/0f/ba0fe6d810333b1d73c1c359e4dc03cb-6.zip",
+  "assetVersion": "Snow v4; contained file Snow/snow_v4.2.blend",
+  "license": "CC-BY-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "termsUrl": "https://studio.blender.org/terms-and-conditions/",
+  "requiredCredit": "Snow Rig (CC) Blender Foundation | studio.blender.org",
+  "sourceZipSha256": "98d58ef3a07083ede14140bc462cccb55d317062846aa0eb652d2e4a7ac422a6",
+  "sourceBlendSha256": "80fd0a81bca90f0efdcdcb98422df0e198ae57f4a1c239e13fb795922779b1fc",
+  "sourceScriptsExecuted": false,
+  "rightsConclusion": "Commercial use, adaptation and redistribution of the CC BY mesh/material/textures are allowed with credit, license link and modification notice. No endorsement, trademark or whole-game ownership claim. No NoAI clause found in the reviewed public/embedded content.",
+  "componentAudit": {
+    "embeddedReadMe": "CC-BY with explicit 4.0 URL; minimum Blender 4.1",
+    "meshMaterialsTextures": "Covered by asset CC BY statement; no conflicting component notice found in supplied archive",
+    "cloudrig.py": "GPL-3.0-or-later code, not included in derivative",
+    "snow_post_generation.py": "No independent header found; not included or executed",
+    "sourceRigAndUi": "Not included in static derivative; all armatures, actions, texts and helpers removed"
+  },
+  "httpEvidence": [
+    {
+      "name": "snow-page",
+      "url": "https://studio.blender.org/characters/snow/v4/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 58596,
+      "sha256": "67263700bc141470c5b2bd83c3954e88debdc103f8a02245de0fa0f043a3c490",
+      "file": "build\\source-audit\\snow-page.html"
+    },
+    {
+      "name": "snow-preview",
+      "url": "https://studio.blender.org/files/public/thumbnail/ba/0f/ba0fe6d810333b1d73c1c359e4dc03cb-6.png",
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 1488875,
+      "sha256": "49e0e660bf2270ed149517ae9032ec339caea9e2e2d66e3226652e8461107830",
+      "file": "build\\source-audit\\snow-preview.png"
+    },
+    {
+      "name": "studio-terms",
+      "url": "https://studio.blender.org/terms-and-conditions/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 53129,
+      "sha256": "114a6ab20cdfb47a06212fea69d7445ecaab9cbb0c77e978763c8829f11673db",
+      "file": "build\\source-audit\\studio-terms.html"
+    }
+  ],
+  "transientSignedUrlsPublished": false,
+  "costPaid": 0,
+  "vendorContact": false
+}

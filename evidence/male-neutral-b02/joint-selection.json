@@ -1,0 +1,122 @@
+{
+  "schema": "male-b02-local-joint-selection-1",
+  "selectedConfig": "configs/male-neutral-b02-joints.json",
+  "bonesBefore": 52,
+  "bonesAfter": 58,
+  "selected": "Six half-angle supports: elbow/wrist strength1, knee strength0.5; localized smooth skin weights including finger hinges.",
+  "reason": "Weights-only barely changes volume. Full knee support made a boxy fold; one targeted reduction to half support chosen after actual matched renders.",
+  "geometryIdentity": "All raw positions/topology hashes verified unchanged by apply; head/eyes/brows/hair not processed at all.",
+  "source": "Preserved B01 bind-005",
+  "comparisonModes": [
+    "B01 before",
+    "weights only rejected as insufficient",
+    "full support with knee strength1 rejected",
+    "selected support with knee strength0.5"
+  ],
+  "measurements": {
+    "run_elbow": {
+      "before": 0.8403982712886952,
+      "weightOnly": 0.8327686024633948,
+      "selected": 0.9857000810243358,
+      "ringVertices": 9,
+      "unit": "covariance-area ratio to bind, not enclosed volume"
+    },
+    "run_knee": {
+      "before": 1.6964448416939644,
+      "weightOnly": 1.6993644721116745,
+      "selected": 1.7051597467829585,
+      "ringVertices": 46,
+      "unit": "covariance-area ratio to bind, not enclosed volume"
+    },
+    "stress_elbow90": {
+      "before": 0.7191762122436444,
+      "weightOnly": 0.7098826073116448,
+      "selected": 0.981926098797684,
+      "ringVertices": 9,
+      "unit": "covariance-area ratio to bind, not enclosed volume"
+    },
+    "stress_wrist": {
+      "before": 0.9205432774437022,
+      "weightOnly": 0.9176800667531401,
+      "selected": 0.9655110485750907,
+      "ringVertices": 32,
+      "unit": "covariance-area ratio to bind, not enclosed volume"
+    },
+    "stress_knee90": {
+      "before": 0.7162394669754796,
+      "weightOnly": 0.7192056064166772,
+      "selected": 0.8525880773152602,
+      "ringVertices": 46,
+      "unit": "covariance-area ratio to bind, not enclosed volume"
+    }
+  },
+  "weights": {
+    "M01_body": {
+      "verticesChanged": 794,
+      "zoneAssignments": {
+        "elbow:L": 29,
+        "elbow:R": 29,
+        "wrist:L": 47,
+        "wrist:R": 47,
+        "Thumb1.L": 0,
+        "Thumb2.L": 0,
+        "Thumb3.L": 22,
+        "Index1.L": 0,
+        "Index2.L": 28,
+        "Index3.L": 33,
+        "Middle1.L": 0,
+        "Middle2.L": 30,
+        "Middle3.L": 34,
+        "Ring1.L": 5,
+        "Ring2.L": 34,
+        "Ring3.L": 36,
+        "Pinky1.L": 14,
+        "Pinky2.L": 42,
+        "Pinky3.L": 43,
+        "Thumb1.R": 0,
+        "Thumb2.R": 0,
+        "Thumb3.R": 22,
+        "Index1.R": 0,
+        "Index2.R": 28,
+        "Index3.R": 33,
+        "Middle1.R": 0,
+        "Middle2.R": 30,
+        "Middle3.R": 34,
+        "Ring1.R": 5,
+        "Ring2.R": 34,
+        "Ring3.R": 36,
+        "Pinky1.R": 14,
+        "Pinky2.R": 42,
+        "Pinky3.R": 43
+      },
+      "maxDiscardedMassFraction": 0.0,
+      "meanDiscardedMassFraction": 0.0,
+      "maxInfluences": 4
+    },
+    "M01_pants": {
+      "verticesChanged": 326,
+      "zoneAssignments": {
+        "knee:L": 169,
+        "knee:R": 157
+      },
+      "maxDiscardedMassFraction": 0.0,
+      "meanDiscardedMassFraction": 0.0,
+      "maxInfluences": 4
+    }
+  },
+  "images": {
+    "baseline": "joint-probe-001/before/",
+    "selected": "joint-probe-003/supports/",
+    "naturalKneeFlexionBaseline": "joint-probe-002/before/natural_knee_flex90.png",
+    "naturalKneeFlexionSelected": "joint-probe-002/half_knee_support/natural_knee_flex90.png"
+  },
+  "limitations": [
+    "Fixed-ring projected covariance area is a diagnostic proxy, not enclosed mesh volume or visual approval.",
+    "Elbow inner crease and angular low-density outline remain despite volume improvement.",
+    "Knee seam/cloth outline remains angular; support changes normal run modestly and extreme flexion more.",
+    "B01 historical knee90 used rotationX(-90) on downward shin, anatomically hyperextension with Blender-Y forward. Preserve same benchmark but label correctly; +90 flexion separately inspected.",
+    "Finger weights are smoothed without adding finger support joints; extreme finger curl still stylized/angular."
+  ],
+  "moduleSha256": "bfce6e0fc5182d7338d36461881a1ce1f31f27a167dfe2800d60b390e7e717b4",
+  "configSha256": "a9e6203d21e30c69ced43f2dcd20f7b045049aee0503d2aeb8051b082d74b94e"
+}

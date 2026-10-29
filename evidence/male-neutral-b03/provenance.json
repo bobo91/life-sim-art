@@ -1,0 +1,29 @@
+{
+  "schema": "male-b03-provenance-1",
+  "date": "2026-10-29",
+  "source": "Approved A03 via preserved B02 delivery-001",
+  "sourceB02Tag": "male-neutral-b02-v0.2",
+  "sourceB02BlendSha256": "8300f581fa4e5a7f012d70ae9aadd0d7ca9eb99214b5a8699a1f65f0a9c8e96c",
+  "sourceB02GlbSha256": "4faa2eec33d131b7fcdc4b41720e5abbd16e03eab594bf764f3d7ae041de3d33",
+  "sourceUrl": "https://studio.blender.org/characters/snow/v4/",
+  "license": "CC-BY-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "credit": "Snow Rig (CC) Blender Foundation | studio.blender.org",
+  "modification": "One bounded posed-space local relaxation inverted through existing skin into two elbow-only relative keys; neutral Basis/58bones/weights/materials/fourbaseactions preserved",
+  "modelCandidateCount": 1,
+  "diagnosticRenderPasses": 2,
+  "secondPassReason": "Correct only 90/10 test pose plane to physical angles with actual run upperarm/hinge; same corrective recipe and key shapes",
+  "actualSavedMorphVertices": {
+    "L": 34,
+    "R": 31
+  },
+  "basisTopologyTriangles": 29367,
+  "exportOrUnityPerformed": false,
+  "visualGate": "NO-GO: partial/uneven contour smoothing and new smallLupper-inner bump; stop before export",
+  "topologyChangePerformed": false,
+  "spendSEK": 0,
+  "gameChanges": false,
+  "merge": false,
+  "phaseC": false,
+  "candidateSha256": "d3cd674e377e7c205cf08cd432559e333ce6a3179ddaae60f3541556513ad23a"
+}

@@ -1,0 +1,325 @@
+{
+  "assetId": "chr_player_male_poc_001",
+  "phase": "B02",
+  "sourceB01BlendSha256": "a9fb4a469aeec6cf9b82cfb580bafe8d658055c29b8b297925983fda380e126e",
+  "sourceB01GlbSha256": "9a5c1976e06c0d059825715bc0b3eb23c572855452b30bddec0ea586e6266931",
+  "triangles": 29367,
+  "meshCount": 10,
+  "materialCount": 9,
+  "bones": 58,
+  "baseBones": 52,
+  "supportJoints": [
+    {
+      "bone": "B02_Elbow.L",
+      "parent": "UpperArm.L",
+      "proximal": "UpperArm.L",
+      "distal": "LowerArm.L",
+      "label": "elbow"
+    },
+    {
+      "bone": "B02_Elbow.R",
+      "parent": "UpperArm.R",
+      "proximal": "UpperArm.R",
+      "distal": "LowerArm.R",
+      "label": "elbow"
+    },
+    {
+      "bone": "B02_Knee.L",
+      "parent": "UpperLeg.L",
+      "proximal": "UpperLeg.L",
+      "distal": "LowerLeg.L",
+      "label": "knee"
+    },
+    {
+      "bone": "B02_Knee.R",
+      "parent": "UpperLeg.R",
+      "proximal": "UpperLeg.R",
+      "distal": "LowerLeg.R",
+      "label": "knee"
+    },
+    {
+      "bone": "B02_Wrist.L",
+      "parent": "LowerArm.L",
+      "proximal": "LowerArm.L",
+      "distal": "Hand.L",
+      "label": "wrist"
+    },
+    {
+      "bone": "B02_Wrist.R",
+      "parent": "LowerArm.R",
+      "proximal": "LowerArm.R",
+      "distal": "Hand.R",
+      "label": "wrist"
+    }
+  ],
+  "correction": {
+    "supports": [
+      {
+        "bone": "B02_Elbow.L",
+        "parent": "UpperArm.L",
+        "proximal": "UpperArm.L",
+        "distal": "LowerArm.L",
+        "label": "elbow"
+      },
+      {
+        "bone": "B02_Elbow.R",
+        "parent": "UpperArm.R",
+        "proximal": "UpperArm.R",
+        "distal": "LowerArm.R",
+        "label": "elbow"
+      },
+      {
+        "bone": "B02_Knee.L",
+        "parent": "UpperLeg.L",
+        "proximal": "UpperLeg.L",
+        "distal": "LowerLeg.L",
+        "label": "knee"
+      },
+      {
+        "bone": "B02_Knee.R",
+        "parent": "UpperLeg.R",
+        "proximal": "UpperLeg.R",
+        "distal": "LowerLeg.R",
+        "label": "knee"
+      },
+      {
+        "bone": "B02_Wrist.L",
+        "parent": "LowerArm.L",
+        "proximal": "LowerArm.L",
+        "distal": "Hand.L",
+        "label": "wrist"
+      },
+      {
+        "bone": "B02_Wrist.R",
+        "parent": "LowerArm.R",
+        "proximal": "LowerArm.R",
+        "distal": "Hand.R",
+        "label": "wrist"
+      }
+    ],
+    "weights": {
+      "M01_body": {
+        "verticesChanged": 794,
+        "zoneAssignments": {
+          "elbow:L": 29,
+          "elbow:R": 29,
+          "wrist:L": 47,
+          "wrist:R": 47,
+          "Thumb1.L": 0,
+          "Thumb2.L": 0,
+          "Thumb3.L": 22,
+          "Index1.L": 0,
+          "Index2.L": 28,
+          "Index3.L": 33,
+          "Middle1.L": 0,
+          "Middle2.L": 30,
+          "Middle3.L": 34,
+          "Ring1.L": 5,
+          "Ring2.L": 34,
+          "Ring3.L": 36,
+          "Pinky1.L": 14,
+          "Pinky2.L": 42,
+          "Pinky3.L": 43,
+          "Thumb1.R": 0,
+          "Thumb2.R": 0,
+          "Thumb3.R": 22,
+          "Index1.R": 0,
+          "Index2.R": 28,
+          "Index3.R": 33,
+          "Middle1.R": 0,
+          "Middle2.R": 30,
+          "Middle3.R": 34,
+          "Ring1.R": 5,
+          "Ring2.R": 34,
+          "Ring3.R": 36,
+          "Pinky1.R": 14,
+          "Pinky2.R": 42,
+          "Pinky3.R": 43
+        },
+        "maxDiscardedMassFraction": 0.0,
+        "meanDiscardedMassFraction": 0.0,
+        "maxInfluences": 4
+      },
+      "M01_pants": {
+        "verticesChanged": 326,
+        "zoneAssignments": {
+          "knee:L": 169,
+          "knee:R": 157
+        },
+        "maxDiscardedMassFraction": 0.0,
+        "meanDiscardedMassFraction": 0.0,
+        "maxInfluences": 4
+      }
+    },
+    "approvedRawGeometryUnchanged": true,
+    "bonesBefore": 52,
+    "bonesAfter": 58,
+    "mode": "local weights plus baked half-angle supports"
+  },
+  "jointConfig": {
+    "schema": "male-b02-local-joints-1",
+    "source": "Preserved B01 bind-005 on approved A03",
+    "enableSupportJoints": true,
+    "joints": [
+      {
+        "label": "elbow",
+        "proximal": "UpperArm",
+        "distal": "LowerArm",
+        "parts": [
+          "M01_body"
+        ],
+        "halfWidthMeters": 0.055,
+        "radiusMeters": 0.07
+      },
+      {
+        "label": "knee",
+        "proximal": "UpperLeg",
+        "distal": "LowerLeg",
+        "parts": [
+          "M01_pants"
+        ],
+        "halfWidthMeters": 0.09,
+        "radiusMeters": 0.105,
+        "supportStrength": 0.5
+      },
+      {
+        "label": "wrist",
+        "proximal": "LowerArm",
+        "distal": "Hand",
+        "parts": [
+          "M01_body"
+        ],
+        "halfWidthMeters": 0.037,
+        "radiusMeters": 0.055
+      }
+    ],
+    "fingerWeightPass": {
+      "enabled": true,
+      "halfWidthMeters": 0.01,
+      "radiusMeters": 0.013
+    },
+    "maxInfluences": 4,
+    "scope": "Local weights plus six half-angle support joints only. No mesh coordinates/topology/material/face edits. No DQ modifier or unsupported runtime corrective.",
+    "selectionNote": "Weights-only pass gave negligible volume benefit. Six supports selected: full elbow/wrist support, half-strength knee support after full knee support produced boxy folding. Natural knee+90flexion is inspected separately from preserved B01-90hyperextension diagnostic."
+  },
+  "turnConfig": {
+    "schema": "male-b02-turn-footlock-1",
+    "turnDegrees": 90.0,
+    "steps": [
+      {
+        "side": "R",
+        "start": 0.05,
+        "end": 0.3,
+        "yawDegrees": 45.0,
+        "offsetXYMeters": [
+          -0.035,
+          -0.1
+        ]
+      },
+      {
+        "side": "L",
+        "start": 0.35,
+        "end": 0.63,
+        "yawDegrees": 90.0,
+        "offsetXYMeters": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "side": "R",
+        "start": 0.68,
+        "end": 0.94,
+        "yawDegrees": 90.0,
+        "offsetXYMeters": [
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "liftMeters": 0.032,
+    "liftPhase": 0.25,
+    "settlePhase": 0.75,
+    "source": "Preserved B01 52-joint adapter and turn upper-body pose",
+    "method": "Three small placements R45-outward, L90, R90. World-space stance ankle position/yaw locked. C2 quintic lift, raised planar/yaw transfer, C2 lowering. Existing analytic two-link legs, no stretch. The intermediate outward R anchor prevents crossing shoe footprints during a90degree two-foot rotation.",
+    "scope": "Turn only; existing idle/walk/run unchanged. No model/weight/bone changes or generic controller.",
+    "stanceClearanceMeters": 5e-05,
+    "clearanceNote": "Explicit0.05mm pose clearance prevents the measured0.0257mm subframe interpolation penetration. It is not a mesh modification."
+  },
+  "geometryHashes": {
+    "M01_body": "5abbb8b126c30c4fbb804864b5efa23eb8b699460f035c5d45a5ad3a71f4dff1",
+    "M01_head": "461370a918be1486ed2d16b5212dbbf964ef808dd466a4a39b3444c74e2da234",
+    "M01_eyes": "8a0872e241e2a8ef21b19b5648b819c909cec73790c26992b91af309da37b01a",
+    "M01_eyebrows": "24b8fe665cd9d72279fa26e04be19d2ba212618b9e6bb6e2be267776ef21a13c",
+    "M01_hair_base": "d7c77d8f16fad82e32b25ae4e6f481782359bfebc1139e8be38570c873db1aac",
+    "M01_shirt": "ba02b0f701c7dd3c204707d937f9a44387a1d3c078d468624f173d022291a3ba",
+    "M01_pants": "f595a6f151cbd250f565e697777e35a6999c3071b914219ed8a93f106635c017",
+    "M01_shoes_base": "28e0f653cbf26fed03d24884e96a72fac85b5fdd5178a7efa6a536561f54a08f",
+    "M01_shoes_bottom": "723d2a3ced53ff7e84c4ebe3ce8f5ddb7a15e06721d910c95ad5755dfb23abde",
+    "M01_shoes_parts": "7db8672d9c4e756865a9ddfe837752b6d0a956bb90f8e13be2709236bfd0dff4"
+  },
+  "appearanceHashes": {
+    "M01_body": "2cdf0be63019661293a6f37eb742c1f4af39f43cf6179fba87cb04026089c883",
+    "M01_head": "00c5575140386a02ffefb24ace9358ae220f88e2ac22655948bc120c14ea8958",
+    "M01_eyes": "6dd01b2e80405e5c383b9c96637ff4bbab2c5e5a2770629c825f722c517f1b88",
+    "M01_eyebrows": "aa04100efabf4816878782b47d8e3e24d9354dd4e813cdaaf4e62ac7e5b3b357",
+    "M01_hair_base": "c45105351e7bef153ee34d5762cf6ac159a3b47d344268116507eaf2c42057d8",
+    "M01_shirt": "7e63e36ee4e46eec2cff7d776c4077dcd236aa80cabdc3f1bcc740a89bd418cb",
+    "M01_pants": "893fd151387c50c93a2d95e1f658bda9bcc82e09f69dad54552320fec7e30820",
+    "M01_shoes_base": "a4c9d114d1f3523d1d91df65789750352b8cbfbba307aeee42996bc5ffbe7262",
+    "M01_shoes_bottom": "ac53483437d83d558faaa345554a1c0bf309ed0401159f463ed16033fd74ab57",
+    "M01_shoes_parts": "8bf95bdd76579e939d4eb2bfeb019ba2dfb04d1db03eeee145fe6b3eaa8623c9"
+  },
+  "approvedA03RawGeometryAndAppearanceUnchanged": true,
+  "baseRestBonesUnchanged": true,
+  "restSkinningMaxErrorMeters": {
+    "M01_body": 3.579381748874281e-07,
+    "M01_head": 1.2310379476739693e-07,
+    "M01_eyes": 1.1920928955078125e-07,
+    "M01_eyebrows": 1.1920928955078125e-07,
+    "M01_hair_base": 1.1920928955078464e-07,
+    "M01_shirt": 1.301187962038292e-07,
+    "M01_pants": 1.301187962038292e-07,
+    "M01_shoes_base": 2.1093993732530856e-08,
+    "M01_shoes_bottom": 2.1119677406639917e-08,
+    "M01_shoes_parts": 1.8995327925655188e-08
+  },
+  "clips": [
+    {
+      "name": "idle",
+      "fps": 24,
+      "durationSeconds": 2.0,
+      "frames": 48,
+      "loop": true
+    },
+    {
+      "name": "walk",
+      "fps": 24,
+      "durationSeconds": 1.0,
+      "frames": 24,
+      "loop": true
+    },
+    {
+      "name": "run",
+      "fps": 24,
+      "durationSeconds": 0.75,
+      "frames": 18,
+      "loop": true
+    },
+    {
+      "name": "turn",
+      "fps": 24,
+      "durationSeconds": 1.5,
+      "frames": 36,
+      "loop": false
+    }
+  ],
+  "sourceEmbeddedCodeExecutedOrDelivered": false,
+  "license": "CC-BY-4.0",
+  "credit": "Snow Rig (CC) Blender Foundation | studio.blender.org",
+  "limitations": [
+    "No Humanoid/facial/wardrobe/game integration certification",
+    "Support poses are baked for supplied clips only; new clips/retargeting need correct support baking",
+    "Motion/visual approval depends on actual matched comparison and contact tests"
+  ]
+}
