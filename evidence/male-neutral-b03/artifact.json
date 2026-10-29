@@ -7,10 +7,13 @@
   "candidateSha256": "d3cd674e377e7c205cf08cd432559e333ce6a3179ddaae60f3541556513ad23a",
   "internalFiles": 37,
   "localZipAndInternalHashesPassed": true,
-  "downloadVerified": false,
+  "downloadVerified": true,
   "visualGo": false,
   "integrationGo": false,
   "glbOrUnityRun": false,
   "downloadUrl": "https://github.com/bobo91/life-sim-art/releases/download/male-neutral-b03-v0.3/male-neutral-b03-v0.3-rejected-proof.zip",
-  "releaseUrl": "https://github.com/bobo91/life-sim-art/releases/tag/male-neutral-b03-v0.3"
+  "releaseUrl": "https://github.com/bobo91/life-sim-art/releases/tag/male-neutral-b03-v0.3",
+  "downloadVerifiedUtc": "2026-10-29T11:05:45.290362+00:00",
+  "downloadInternalFileChecks": 37,
+  "downloadedRejectedCandidateMatchesActual": true
 }
