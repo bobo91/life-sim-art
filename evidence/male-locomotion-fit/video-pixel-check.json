@@ -1,0 +1,108 @@
+{
+  "schema": "a03-locomotion-video-decoded-pixel-check-1",
+  "decodedFrames": 20,
+  "checks": [
+    {
+      "video": "a03-locomotion-fit-unity-16m",
+      "scenario": "idle",
+      "meanAbsoluteRgbError255": 0.4025560619212963
+    },
+    {
+      "video": "a03-locomotion-fit-unity-16m",
+      "scenario": "straight4",
+      "meanAbsoluteRgbError255": 0.4546686921296296
+    },
+    {
+      "video": "a03-locomotion-fit-unity-16m",
+      "scenario": "stop1",
+      "meanAbsoluteRgbError255": 0.3562680844907407
+    },
+    {
+      "video": "a03-locomotion-fit-unity-16m",
+      "scenario": "restart4",
+      "meanAbsoluteRgbError255": 0.4837123842592592
+    },
+    {
+      "video": "a03-locomotion-fit-unity-16m",
+      "scenario": "right90_720",
+      "meanAbsoluteRgbError255": 0.45607277199074076
+    },
+    {
+      "video": "a03-locomotion-fit-unity-16m",
+      "scenario": "reverse180_720",
+      "meanAbsoluteRgbError255": 0.4571354166666666
+    },
+    {
+      "video": "a03-locomotion-fit-unity-16m",
+      "scenario": "forward90_720",
+      "meanAbsoluteRgbError255": 0.5020634403935186
+    },
+    {
+      "video": "a03-locomotion-fit-unity-16m",
+      "scenario": "stop2",
+      "meanAbsoluteRgbError255": 0.40363317418981487
+    },
+    {
+      "video": "a03-locomotion-fit-unity-16m",
+      "scenario": "walk1p4",
+      "meanAbsoluteRgbError255": 0.45283130787037035
+    },
+    {
+      "video": "a03-locomotion-fit-unity-16m",
+      "scenario": "walkStop",
+      "meanAbsoluteRgbError255": 0.3628931568287037
+    },
+    {
+      "video": "a03-locomotion-fit-unity",
+      "scenario": "idle",
+      "meanAbsoluteRgbError255": 0.6099146412037036
+    },
+    {
+      "video": "a03-locomotion-fit-unity",
+      "scenario": "straight4",
+      "meanAbsoluteRgbError255": 0.6700096450617283
+    },
+    {
+      "video": "a03-locomotion-fit-unity",
+      "scenario": "stop1",
+      "meanAbsoluteRgbError255": 0.4951326195987655
+    },
+    {
+      "video": "a03-locomotion-fit-unity",
+      "scenario": "restart4",
+      "meanAbsoluteRgbError255": 0.7432581018518518
+    },
+    {
+      "video": "a03-locomotion-fit-unity",
+      "scenario": "right90_720",
+      "meanAbsoluteRgbError255": 0.7104610339506173
+    },
+    {
+      "video": "a03-locomotion-fit-unity",
+      "scenario": "reverse180_720",
+      "meanAbsoluteRgbError255": 0.6971141975308642
+    },
+    {
+      "video": "a03-locomotion-fit-unity",
+      "scenario": "forward90_720",
+      "meanAbsoluteRgbError255": 0.7142235725308641
+    },
+    {
+      "video": "a03-locomotion-fit-unity",
+      "scenario": "stop2",
+      "meanAbsoluteRgbError255": 0.5759784915123457
+    },
+    {
+      "video": "a03-locomotion-fit-unity",
+      "scenario": "walk1p4",
+      "meanAbsoluteRgbError255": 0.6163387345679012
+    },
+    {
+      "video": "a03-locomotion-fit-unity",
+      "scenario": "walkStop",
+      "meanAbsoluteRgbError255": 0.49043885030864204
+    }
+  ],
+  "maxMeanAbsoluteRgbError255": 0.7432581018518518,
+  "meaning": "DecodedactualMP4 topnativeimagearea comparedagainstrecordedUnityPNG foroneframeperscenario. LossyH264differencesexpected; footerexcluded."
+}
