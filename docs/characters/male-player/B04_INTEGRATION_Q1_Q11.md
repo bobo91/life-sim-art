@@ -17,7 +17,9 @@ There is **no integration-approved release**. The existing review baseline is re
 | Neutral bounds, min / max | `(-0.8691574, -0.000000496, -0.1531364)` / `(0.8691574, 1.7494049, 0.1531364)` m |
 | Licence | Modified Snow v4, CC BY 4.0; notice in Q8 |
 
-The committed audit output `evidence/male-neutral-b04/integration-baseline/contract-manifest-baseline.json` includes the full measured bounds, 58 names/parents/paths, clips, materials and licence with `integrationApproved:false`. It is a baseline information manifest, not a shipping artefact. The rejected local B04 trial changes the body from 2,748 to 3,126 vertices (**+378**) and 5,460 to 6,216 triangles (**+756**); total character triangles rise from 29,367 to **30,123**. There is no B04 GLB hash or replacement integration manifest. A review-only rejected `.blend` artefact is planned under `male-neutral-b04-v0.4`; its publication and archive hash are documented separately, not asserted here. B04 stops at this failed gate.
+The committed audit output `evidence/male-neutral-b04/integration-baseline/contract-manifest-baseline.json` includes the full measured bounds, 58 names/parents/paths, clips, materials and licence with `integrationApproved:false`. It is a baseline information manifest, not a shipping artefact. The rejected local B04 trial changes the body from 2,748 to 3,126 vertices (**+378**) and 5,460 to 6,216 triangles (**+756**); total character triangles rise from 29,367 to **30,123**. There is no B04 GLB hash or replacement integration manifest.
+
+The review-only rejected [B04 proof](https://github.com/bobo91/life-sim-art/releases/tag/male-neutral-b04-v0.4) is published as `male-neutral-b04-v0.4-rejected-proof.zip`, SHA256 `774a74d5ab6fae87d452208028b381b78b71d56c9fc4ed62d9a2833c03b9118b`. Download verification passed for all118 archive entries (117 payload hashes plus the manifest), all75 native image fingerprints and exact frozen candidate bytes. This is not a playable asset or a replacement for the B02 GLB. B04 stops at this failed gate.
 
 ## Q2 — Locomotion speed, cadence, phase and loops
 
