@@ -7,11 +7,14 @@
   "glbSha256": "4faa2eec33d131b7fcdc4b41720e5abbd16e03eab594bf764f3d7ae041de3d33",
   "internalFiles": 496,
   "localZipAndInternalHashesPassed": true,
-  "downloadVerified": false,
+  "downloadVerified": true,
   "reviewOnly": true,
   "integrationGo": false,
   "downloadUrl": "https://github.com/bobo91/life-sim-art/releases/download/male-neutral-b02-v0.2/male-neutral-b02-v0.2-review.zip",
   "releaseUrl": "https://github.com/bobo91/life-sim-art/releases/tag/male-neutral-b02-v0.2",
   "fullVideoUrl": "https://github.com/bobo91/life-sim-art/releases/download/male-neutral-b02-v0.2/a03-b02-unity-motion.mp4",
-  "gameVideoUrl": "https://github.com/bobo91/life-sim-art/releases/download/male-neutral-b02-v0.2/a03-b02-unity-16m.mp4"
+  "gameVideoUrl": "https://github.com/bobo91/life-sim-art/releases/download/male-neutral-b02-v0.2/a03-b02-unity-16m.mp4",
+  "downloadVerifiedUtc": "2026-10-29T06:16:59.534923+00:00",
+  "downloadInternalFileChecks": 496,
+  "downloadedGlbBlendAndBothVideosMatchFinal": true
 }
