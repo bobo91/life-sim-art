@@ -1,0 +1,12 @@
+{
+  "schema": "male-b04-topology-technical-validation-1",
+  "newLoopUvMaxErrorAcrossValidSourceCharts": 1.2013700229374393e-07,
+  "newLoopsChecked": 2170,
+  "uvWrongLoops": 0,
+  "worstExamples": [],
+  "boundaryEdgesBefore": 32,
+  "boundaryEdgesAfter": 32,
+  "nonManifoldEdgesBefore": 0,
+  "nonManifoldEdgesAfter": 0,
+  "explanation": "InitialmoduleUVdiagnostic assumedtrianglelooporder andonearbitrarynearestchart. Thischeckusesactualsource.loop_triangles.loops andall sourcecharts within1micron, so UVseam ambiguity cannotfalsefail."
+}

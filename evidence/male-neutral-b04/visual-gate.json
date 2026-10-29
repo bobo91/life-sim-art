@@ -1,0 +1,26 @@
+{
+  "schema": "male-b04-visual-gate-1",
+  "candidateCount": 1,
+  "visualGo": false,
+  "integrationGo": false,
+  "decision": "NO-GO; stop before export and Unity",
+  "bothSidesClearlyBetterWithoutNewDefects": false,
+  "positive": "Rounder outer run/90/120 silhouettes on both sides",
+  "failures": [
+    "New ridges/facets in idle, walk and45deg",
+    "Abrupt inner bend shelves at run/90deg",
+    "Left120deg pinches; right120deg dark slit/fold"
+  ],
+  "reviewCoverage": "All72 matched elbow renders plus3 native16m art-camera views",
+  "gameCamera": {
+    "pitchDegrees": 50,
+    "distanceMeters": 16,
+    "verticalFovDegrees": 40,
+    "azimuthDegrees": 35,
+    "actualGameWorld": false
+  },
+  "candidateSha256": "194eaa54d52c3b0cb8be764b5d192dacf57f52913c6e990a4f6694edc0b81253",
+  "glbExported": false,
+  "unityRun": false,
+  "nextIterationAuthorized": false
+}

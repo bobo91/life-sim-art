@@ -123,3 +123,18 @@ otherwise stop and propose minimal local topology work without implementing it.
 No generic corrective/rig architecture, game changes, merge or Phase C. Named
 source licence/credit requirements persist. This extends only the B02 stop gate
 for the stated final isolated proof; it is not open-ended experimentation.
+
+## Owner-authorized B04 local elbow topology recovery (2026-10-29)
+
+The owner explicitly approves ONE local topology recovery around both existing
+A03/B02 elbows, guided by preserved A03high. Preserve neutral appearance/face/
+hair/clothes/materials/proportions,58bones and original idle/walk/run/turn data.
+Record exact added vertices/triangles and locality/tolerances. Compare B02/B03/B04
+under identical poses/lights/two views per elbow, including idle/walk/run25percent
+and physical45/90/120, plus50degree/16m camera. Only export/test isolatedUnity if
+both elbows are clearly better. Otherwise stop, reportNO-GO and propose atmost
+two alternatives without another iteration. Answer Q1-Q11 in artissue40 using
+measured facts/explicit unknowns. No general pipeline, game edit, newasset/NPC,
+purchase, merge, PhaseC or automatic continuation after B04. Existing namedsource
+licence/credit requirements persist. This overrides only the B03 no-topology stop
+for this single approved local candidate.

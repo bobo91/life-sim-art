@@ -1,0 +1,26 @@
+{
+  "schema": "male-b04-provenance-1",
+  "upstream": "Blender Studio Snow v4",
+  "sourceUrl": "https://studio.blender.org/characters/snow/v4/",
+  "licence": "CC BY4.0",
+  "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "credit": "Snow Rig (CC) Blender Foundation | studio.blender.org",
+  "modifications": "Inherited approved A03 identity and B02 rig/motion; one local elbow sampling/weight trial, visually rejected. No CloudRig/UI code shipped or executed.",
+  "originalSnowBlendSha256": "80fd0a81bca90f0efdcdcb98422df0e198ae57f4a1c239e13fb795922779b1fc",
+  "inputs": {
+    "B02": "8300f581fa4e5a7f012d70ae9aadd0d7ca9eb99214b5a8699a1f65f0a9c8e96c",
+    "B03": "d3cd674e377e7c205cf08cd432559e333ce6a3179ddaae60f3541556513ad23a",
+    "B04": "194eaa54d52c3b0cb8be764b5d192dacf57f52913c6e990a4f6694edc0b81253"
+  },
+  "highReferenceSha256": "e5b4ef5ad0bdde5b2197a0741339841e7e8b1976121c6ac2e25271dded0cb898",
+  "noPurchaseOrExternalModelOrMotion": true,
+  "geometry": {
+    "bodyVertices": 3126,
+    "bodyTriangles": 6216,
+    "totalTriangles": 30123,
+    "addedVertices": 378,
+    "addedTriangles": 756,
+    "bones": 58
+  },
+  "shippingApproved": false
+}

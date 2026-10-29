@@ -1,0 +1,321 @@
+{
+  "schema": "male-b04-layout-1",
+  "sourceImages": [
+    {
+      "path": "native/B02/flex120_L_front.png",
+      "sha256": "8a6f065dec029dfca3f015c55b63a9b0d901e639106740e30b7c61c33aed2349"
+    },
+    {
+      "path": "native/B02/flex120_L_outer.png",
+      "sha256": "c6f439d2af83519e381be1f6c427a6b86bdff6cb3c9af184950b407bed59d98b"
+    },
+    {
+      "path": "native/B02/flex120_R_front.png",
+      "sha256": "b037f1826e45e67000b7f1a33155400cd533807ac56e19b2c7f4256a539085ff"
+    },
+    {
+      "path": "native/B02/flex120_R_outer.png",
+      "sha256": "4b3b4bc95c32e129e60505057c83a09b71c78379534abaa74127b1355fdf27d1"
+    },
+    {
+      "path": "native/B02/flex45_L_front.png",
+      "sha256": "b602b96682bc3fa027a33249a08dc138be03675597281533d2bd295fb99fc419"
+    },
+    {
+      "path": "native/B02/flex45_L_outer.png",
+      "sha256": "14a3b65cb43aa34f4e91c1797ebcb7f4434d87f6e81163d4e94b2e385bcc5714"
+    },
+    {
+      "path": "native/B02/flex45_R_front.png",
+      "sha256": "381a119214bfa4e4e0372471cb1075f96b01c093337cdc65c130ab189a7644ba"
+    },
+    {
+      "path": "native/B02/flex45_R_outer.png",
+      "sha256": "f33ed8eef2f733ef75bd4c027f945f7f7a53fca55c4ff0b1d2587fd68ba2406b"
+    },
+    {
+      "path": "native/B02/flex90_L_front.png",
+      "sha256": "5950287760f26eeff8ab975c6e2c645ca1e5f0e18db767e3028f652ab93650c4"
+    },
+    {
+      "path": "native/B02/flex90_L_outer.png",
+      "sha256": "ae949a03825edf58797732e6f2aa66a826dc3ea86e135765d56e618988264b93"
+    },
+    {
+      "path": "native/B02/flex90_R_front.png",
+      "sha256": "88b7e5c206ae6cc1a026df8162dc4d806a0a8f1c391a9f183d6abc4297fb9fe2"
+    },
+    {
+      "path": "native/B02/flex90_R_outer.png",
+      "sha256": "f93314c672bf5f5dfa2d769b46f9cc09d8974079fa8177d6896aa9dc1c8fe918"
+    },
+    {
+      "path": "native/B02/game16m.png",
+      "sha256": "f3ce28159dda56f8d8bf406ef09582bf1993244ec905eac983c14ec88567695b"
+    },
+    {
+      "path": "native/B02/idle_L_front.png",
+      "sha256": "b9d52fce0b7520c370f68ab2f1150109ac4af97e03b43147f12aa025f62dec7a"
+    },
+    {
+      "path": "native/B02/idle_L_outer.png",
+      "sha256": "b731f44986b08143cab20dc72f3ac4e6d24ab43d69aa04e2db3eab43dc9fa37a"
+    },
+    {
+      "path": "native/B02/idle_R_front.png",
+      "sha256": "c308054a456a9112aff8f91c12dc744785b8a554267d76a12ea0102568cb5b2c"
+    },
+    {
+      "path": "native/B02/idle_R_outer.png",
+      "sha256": "b31424977ce954ac89e13ef5ac8f7b8c985daef0cb95fac1ae17672204285ce1"
+    },
+    {
+      "path": "native/B02/run25_L_front.png",
+      "sha256": "ed055a5edaece77115d357dce173b15f5b07e76328cac4982544ca371d3d5b6a"
+    },
+    {
+      "path": "native/B02/run25_L_outer.png",
+      "sha256": "aeb12a36a7ef9019be1597296f02ffa2e015b25cd5b8aeafd1ed0ab6198bd207"
+    },
+    {
+      "path": "native/B02/run25_R_front.png",
+      "sha256": "47e9c5c94cf34a1ae9c8bf12adf062bf053102f059f4db879009d84440acbde7"
+    },
+    {
+      "path": "native/B02/run25_R_outer.png",
+      "sha256": "d3116deb147ed7a91ae294b91bbcbeff3308f00dbd943b5fc3bfe846f9450b09"
+    },
+    {
+      "path": "native/B02/walk_L_front.png",
+      "sha256": "5739a071039e2fd83fa70d9b2e5f3b095cac86079e0a269ca6101cdd15687ff6"
+    },
+    {
+      "path": "native/B02/walk_L_outer.png",
+      "sha256": "1b9b95b8ef8faa83ff1e6d3f7b821d3c307a341e14283fe9a1ffb2335073a1e0"
+    },
+    {
+      "path": "native/B02/walk_R_front.png",
+      "sha256": "482781a4e5dea0711210e4f5d644baf08faf2c853185ba3cb20d77120b14c6ac"
+    },
+    {
+      "path": "native/B02/walk_R_outer.png",
+      "sha256": "fe6c8e1f8606778920d5443e6cd8234187b3cd9f31fb2ed6b3c3fdead15d8ca4"
+    },
+    {
+      "path": "native/B03/flex120_L_front.png",
+      "sha256": "049a4f4e9beadbe478fcf5654856c714492c9cc937fb2edbf129d4d404c3b2ee"
+    },
+    {
+      "path": "native/B03/flex120_L_outer.png",
+      "sha256": "bc85a1aefcb2b0855b6412424057538fac6fdbb30d8a1a6c3154fec64018caa3"
+    },
+    {
+      "path": "native/B03/flex120_R_front.png",
+      "sha256": "4479745ee8573009bd549f80e3e5105ef155c3c8af3e394acac77cda00710c63"
+    },
+    {
+      "path": "native/B03/flex120_R_outer.png",
+      "sha256": "7e72ea77ca654340c95e03a292bf211034f20784078d554e2bc43e8b69a415d8"
+    },
+    {
+      "path": "native/B03/flex45_L_front.png",
+      "sha256": "7947e162380b10d9c2b30bb2c63205905885d6e870ff3e721e418e7bc5fd1803"
+    },
+    {
+      "path": "native/B03/flex45_L_outer.png",
+      "sha256": "f7bd3769d774653fefa35d3faf65f9659b87e86daef9acfbe39d7beaf499b7ad"
+    },
+    {
+      "path": "native/B03/flex45_R_front.png",
+      "sha256": "2e1e25735e5f240efe4985a9c84f64ccb6052d29a11f383f05ecc4ee17037a91"
+    },
+    {
+      "path": "native/B03/flex45_R_outer.png",
+      "sha256": "7bbbd90f66765d10071c513082bf50c4296a353d6a8410d57b1d31bd163604fb"
+    },
+    {
+      "path": "native/B03/flex90_L_front.png",
+      "sha256": "d493e94b15fecde5496b039eac65302171197afd68eee10c41a5e0728acfd3b8"
+    },
+    {
+      "path": "native/B03/flex90_L_outer.png",
+      "sha256": "b9dfb2c1aef7c540f31ad3d40de24bbce364053394ba01898836f8a12c96bd51"
+    },
+    {
+      "path": "native/B03/flex90_R_front.png",
+      "sha256": "7c2141047dbe19b7bedc78a9619a8ccfc3418bdb85e52290ecc75a144a28da85"
+    },
+    {
+      "path": "native/B03/flex90_R_outer.png",
+      "sha256": "ebd5f2ad34beb95e3a96e82413f61223cf2f476529754a05429ff61251dfb49f"
+    },
+    {
+      "path": "native/B03/game16m.png",
+      "sha256": "e1714d744e6c575e31bab9a9823f7376b6f3b92b717f94472cff87dfb2d142e0"
+    },
+    {
+      "path": "native/B03/idle_L_front.png",
+      "sha256": "b48434517df4faeb7b2e2a4ca1239b7f89f1eb4c18a967123decc91e05172035"
+    },
+    {
+      "path": "native/B03/idle_L_outer.png",
+      "sha256": "57f09cbe69bdedbb8c4ae86839eb8ba9a741605c56eb74d51b96fcd73fe793fb"
+    },
+    {
+      "path": "native/B03/idle_R_front.png",
+      "sha256": "22ce184b5710d192f90dd34065e8c6c89717cc3dfcc5e263e6c8bffa3731f69a"
+    },
+    {
+      "path": "native/B03/idle_R_outer.png",
+      "sha256": "7db876967bc3d2ba8bf42690f74e0a145a0abdf05bb52f7b5468fee86e4c8c57"
+    },
+    {
+      "path": "native/B03/run25_L_front.png",
+      "sha256": "f41c1bb9c8a4ad61e00a386bea809c74b822395f66ee95b8469fba21a1300520"
+    },
+    {
+      "path": "native/B03/run25_L_outer.png",
+      "sha256": "08b3b6580568630453e6b6faa76d323e6b3c30074dc1e3d1144bba91d8455498"
+    },
+    {
+      "path": "native/B03/run25_R_front.png",
+      "sha256": "6405f5b4773552af884db82f0d39782ea89a3090fcad118d52a280674a2f8cc5"
+    },
+    {
+      "path": "native/B03/run25_R_outer.png",
+      "sha256": "a8a88b052fad19db626a2d3b5ec4c37bc048366f6512753bddd6d97fae9a1c60"
+    },
+    {
+      "path": "native/B03/walk_L_front.png",
+      "sha256": "4a32bb8f30670f38f0f358bc63fa6b893f411c5cb45fc9f85140f16e1810b91c"
+    },
+    {
+      "path": "native/B03/walk_L_outer.png",
+      "sha256": "dece2010d8905ff2082d401f3f0cbf6a6130322ee7de08ee7c6d1b1167fc6038"
+    },
+    {
+      "path": "native/B03/walk_R_front.png",
+      "sha256": "8faf6ea853505a72bb923d74bee95fd9e04143fe667fc551c74eb8551ba557fb"
+    },
+    {
+      "path": "native/B03/walk_R_outer.png",
+      "sha256": "2e35aa0cbe2c668dfb4f3cd5c829b6414da898b8e1274bcfd0e072fd8a7d3681"
+    },
+    {
+      "path": "native/B04/flex120_L_front.png",
+      "sha256": "76fe0163d4b395abc4b2df83cfc7b7e3fee069e37750ac0c47a6079ca83d4e59"
+    },
+    {
+      "path": "native/B04/flex120_L_outer.png",
+      "sha256": "f3fb48fb107c1caefef4eb55614837f7229a5e4aa51ce8912892c57d3848f83c"
+    },
+    {
+      "path": "native/B04/flex120_R_front.png",
+      "sha256": "b48290aa3a9268a74a2d4c097aa4a5aadd7e9b0ab019480f00c05933c5822cbc"
+    },
+    {
+      "path": "native/B04/flex120_R_outer.png",
+      "sha256": "b1f0762543e988b830b8c790de5ccba24a6f1eaf19737fdbcd162f25903e6b7f"
+    },
+    {
+      "path": "native/B04/flex45_L_front.png",
+      "sha256": "a4c9e0e62171d1f8d3212daddc3f53d5881f0aef88f770a501e31f77c65d3aa0"
+    },
+    {
+      "path": "native/B04/flex45_L_outer.png",
+      "sha256": "7925c2491aa4d5dbc79c21d8ba6226edfd56d10edfd2e7c26aef708862d05be5"
+    },
+    {
+      "path": "native/B04/flex45_R_front.png",
+      "sha256": "94b5fdf9fa61fb12623c7b57a94cd42319f6d2e26f7354abf101978799af1812"
+    },
+    {
+      "path": "native/B04/flex45_R_outer.png",
+      "sha256": "f7820bd5047804bcdd894cd22b3809e05cdad421819591dc808cee7a5a2fc5d3"
+    },
+    {
+      "path": "native/B04/flex90_L_front.png",
+      "sha256": "8c457049ee5407fb8f3c79e45b812bf5eb5409061cf3be8ad4f525a0a83c1db5"
+    },
+    {
+      "path": "native/B04/flex90_L_outer.png",
+      "sha256": "a67391f66d943971a16f255b0db1e348d0ed4566cb64e1cd9ffee33c35d504be"
+    },
+    {
+      "path": "native/B04/flex90_R_front.png",
+      "sha256": "a810815ef00b393214e1f01b7926a3f6eaaca3f49cfb1afe577c6adc3e961c49"
+    },
+    {
+      "path": "native/B04/flex90_R_outer.png",
+      "sha256": "b88203a1ede69ee1a7c3f146add290e59805b310f801cc6d84691a491231795f"
+    },
+    {
+      "path": "native/B04/game16m.png",
+      "sha256": "2df99a80eb9ddc0e09dadae6a7dba0cad767e1f57780eccd4eaa081c224be5c1"
+    },
+    {
+      "path": "native/B04/idle_L_front.png",
+      "sha256": "89b7efd5b9796e95621ff85adbe8d141ec858ab030881fe99ec88443aeeec965"
+    },
+    {
+      "path": "native/B04/idle_L_outer.png",
+      "sha256": "a3a44319bdb57cab3df1d29e94dc5e14522dee3f36b4900d0a9304e333ebf33f"
+    },
+    {
+      "path": "native/B04/idle_R_front.png",
+      "sha256": "8fc7698e89f88848e7ae5df82d11ade9d06dee5fdcc73cc757f7d38581d0dd84"
+    },
+    {
+      "path": "native/B04/idle_R_outer.png",
+      "sha256": "46c2755b04d51e638aeba869aef72f0706f16358388743d244e651b4b549955b"
+    },
+    {
+      "path": "native/B04/run25_L_front.png",
+      "sha256": "2f5868f3fa34090e6125c3f03d0597ef30f6c3fc87e91d69034b1268be707ab3"
+    },
+    {
+      "path": "native/B04/run25_L_outer.png",
+      "sha256": "a6e2215969eb667ec36ba4a70800b6e7d48f3538cd9c8f90ea1154c10d8276c2"
+    },
+    {
+      "path": "native/B04/run25_R_front.png",
+      "sha256": "d3ee4c4171f37f84601275616ad4f2ac8b91b69ae961c1ee24d5721e7c692f8a"
+    },
+    {
+      "path": "native/B04/run25_R_outer.png",
+      "sha256": "8bc11827901cce353d71780efa477c72dc988ef788ed149b09981297bfcaa7de"
+    },
+    {
+      "path": "native/B04/walk_L_front.png",
+      "sha256": "98cfd79b6a5316f022ef3e6a7ef280970aafe9e99a1c817a7713caaa7e6f6cc7"
+    },
+    {
+      "path": "native/B04/walk_L_outer.png",
+      "sha256": "31c0a03ec516bd332eae39671637b9126a066c2e79a9d1087265f17cbee78787"
+    },
+    {
+      "path": "native/B04/walk_R_front.png",
+      "sha256": "6ccff9141a002703cff10f34a06b0b701f1218e05e5c1b0410bb1b58229aad6f"
+    },
+    {
+      "path": "native/B04/walk_R_outer.png",
+      "sha256": "1d87d11673b3b55b19ed757b1a37f0d195f41ea232a4b2b112143a91c2707ac4"
+    }
+  ],
+  "processing": "Equal proportional resizing, labels and layout only; native images copied byte-for-byte.",
+  "versions": [
+    "B02",
+    "B03",
+    "B04"
+  ],
+  "poseRows": [
+    "idle",
+    "walk",
+    "run25",
+    "flex45",
+    "flex90",
+    "flex120"
+  ],
+  "visualGo": false,
+  "gameCamera": "50deg pitch, 16m distance, 40deg vertical FOV; art proxy, not game project"
+}

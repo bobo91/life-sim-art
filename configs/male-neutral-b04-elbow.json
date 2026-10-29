@@ -1,0 +1,15 @@
+{
+  "schema":"male-b04-local-elbow-recovery-1",
+  "source":"build/male-neutral-b02/delivery-001/character_b02.blend",
+  "sourceSha256":"8300f581fa4e5a7f012d70ae9aadd0d7ca9eb99214b5a8699a1f65f0a9c8e96c",
+  "highReference":"build/male-neutral-a03/delivery-003/character_high.blend",
+  "guideHalfWidthMeters":0.055,
+  "radialLimitMeters":0.075,
+  "guideQuantiles":[0.12,0.28,0.42,0.58,0.72,0.88],
+  "guideSnapMeters":0.001,
+  "localFaceHalfWidthMeters":0.095,
+  "weightHalfWidthMeters":0.055,
+  "weightBoundaryFadeMeters":0.005,
+  "maxNeutralSurfaceErrorMeters":0.000002,
+  "scope":"One local elbow recipe only: preserve neutral surface and all outside data; no new bones/morphs/material/animation edits. Existing half-angle support trio gets local piecewise weighting to use recovered loops."
+}

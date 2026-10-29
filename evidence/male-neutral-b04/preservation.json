@@ -1,0 +1,1369 @@
+{
+  "schema": "male-b04-readonly-preservation-1",
+  "status": "PASS",
+  "visualDecision": "NO-GO; separate mandatory visual gate failed; no export authorized",
+  "blenderVersion": "4.5.14 LTS",
+  "sourceHashesBefore": {
+    "B02": "8300f581fa4e5a7f012d70ae9aadd0d7ca9eb99214b5a8699a1f65f0a9c8e96c",
+    "B04": "194eaa54d52c3b0cb8be764b5d192dacf57f52913c6e990a4f6694edc0b81253"
+  },
+  "sourceHashesAfter": {
+    "B02": "8300f581fa4e5a7f012d70ae9aadd0d7ca9eb99214b5a8699a1f65f0a9c8e96c",
+    "B04": "194eaa54d52c3b0cb8be764b5d192dacf57f52913c6e990a4f6694edc0b81253"
+  },
+  "sourceFilesUnchanged": true,
+  "candidateReopened": true,
+  "noBlendSaveGLBExportOrUnityRun": true,
+  "equalities": {
+    "objects": true,
+    "appearance": true,
+    "bones": true,
+    "actions": true,
+    "actionNames": true,
+    "rigDataName": true,
+    "animation": true,
+    "embeddedTexts": true
+  },
+  "otherNineMeshes": {
+    "M01_eyebrows": {
+      "vertices": 806,
+      "triangles": 1504,
+      "sourceSha256": "6a7e1b9fe16239e49d4bc16e0df0b1e5e58fcf4fae5ef558ceb72aa055d6d359",
+      "candidateSha256": "6a7e1b9fe16239e49d4bc16e0df0b1e5e58fcf4fae5ef558ceb72aa055d6d359",
+      "exact": true
+    },
+    "M01_eyes": {
+      "vertices": 1418,
+      "triangles": 2756,
+      "sourceSha256": "981c9112503dada2519a05655146cb203645ed7e1d0bdfdb7f91c665de4ac049",
+      "candidateSha256": "981c9112503dada2519a05655146cb203645ed7e1d0bdfdb7f91c665de4ac049",
+      "exact": true
+    },
+    "M01_hair_base": {
+      "vertices": 1309,
+      "triangles": 2528,
+      "sourceSha256": "497b6975e99498528808faf5a978d478aca1d0b425c3d29440d9725963ef0657",
+      "candidateSha256": "497b6975e99498528808faf5a978d478aca1d0b425c3d29440d9725963ef0657",
+      "exact": true
+    },
+    "M01_head": {
+      "vertices": 3719,
+      "triangles": 7264,
+      "sourceSha256": "9b74d4b9252de24aec6da4466b0bdfbdf3ce0835e894399f579700b10d1ed778",
+      "candidateSha256": "9b74d4b9252de24aec6da4466b0bdfbdf3ce0835e894399f579700b10d1ed778",
+      "exact": true
+    },
+    "M01_pants": {
+      "vertices": 1724,
+      "triangles": 3365,
+      "sourceSha256": "58c4e25334658486078ba4c55bf4b952eb5829ac8e535365669884c19744f758",
+      "candidateSha256": "58c4e25334658486078ba4c55bf4b952eb5829ac8e535365669884c19744f758",
+      "exact": true
+    },
+    "M01_shirt": {
+      "vertices": 1240,
+      "triangles": 2368,
+      "sourceSha256": "e1ef15de691b362ebd7f911f9cc8726cb788da2cf9d0d1244e77d67b4f1d458f",
+      "candidateSha256": "e1ef15de691b362ebd7f911f9cc8726cb788da2cf9d0d1244e77d67b4f1d458f",
+      "exact": true
+    },
+    "M01_shoes_base": {
+      "vertices": 591,
+      "triangles": 1130,
+      "sourceSha256": "ac4f54e099e7a27c522e1a7ace40ffcb412b9b8cd538e4863fa68f04b4c58d1c",
+      "candidateSha256": "ac4f54e099e7a27c522e1a7ace40ffcb412b9b8cd538e4863fa68f04b4c58d1c",
+      "exact": true
+    },
+    "M01_shoes_bottom": {
+      "vertices": 376,
+      "triangles": 576,
+      "sourceSha256": "63bef0f00cc0d1d7abfd4c3a575071f98724d1bdd217269a0096c98bc1151b38",
+      "candidateSha256": "63bef0f00cc0d1d7abfd4c3a575071f98724d1bdd217269a0096c98bc1151b38",
+      "exact": true
+    },
+    "M01_shoes_parts": {
+      "vertices": 1478,
+      "triangles": 2416,
+      "sourceSha256": "1929878c46d872afd210065db839df236932afae01b1ff05e3c13c484bb948ba",
+      "candidateSha256": "1929878c46d872afd210065db839df236932afae01b1ff05e3c13c484bb948ba",
+      "exact": true
+    }
+  },
+  "appearance": {
+    "sourceSha256": "84ab6b7a9a44d4171739fa22c6e574d3e086af661105a58d01a9bda6e0a83e5c",
+    "candidateSha256": "84ab6b7a9a44d4171739fa22c6e574d3e086af661105a58d01a9bda6e0a83e5c",
+    "materialNames": [
+      "M01_canvas_shoes",
+      "M01_eyes",
+      "M01_hair",
+      "M01_pants",
+      "M01_shirt",
+      "M01_skin",
+      "M01_skin_darker",
+      "M01_skin_lower_lip",
+      "M01_skin_upper_lip"
+    ],
+    "images": {
+      "eyes_diffuse.png.001": {
+        "source": "FILE",
+        "size": [
+          2048,
+          2048
+        ],
+        "channels": 4,
+        "depth": 96,
+        "alphaMode": "STRAIGHT",
+        "colorSpace": "sRGB",
+        "packedBytesSha256": [
+          "7ec88aa8ddb70b7cad01fe96d82179c1b440ddfa4fb91f413d0cae71f9cd746f"
+        ],
+        "filepath": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-a03\\delivery-003\\textures\\eyes_diffuse.png"
+      },
+      "eyes_normal.png.001": {
+        "source": "FILE",
+        "size": [
+          2048,
+          2048
+        ],
+        "channels": 4,
+        "depth": 32,
+        "alphaMode": "STRAIGHT",
+        "colorSpace": "Non-Color",
+        "packedBytesSha256": [
+          "f0908a7026ee93b73abbf1aed8d344f6c20cbd3b90e1bac421003dd3f51051ee"
+        ],
+        "filepath": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-a03\\delivery-003\\textures\\eyes_normal.png"
+      },
+      "pants_normal.png.001": {
+        "source": "FILE",
+        "size": [
+          2048,
+          2048
+        ],
+        "channels": 4,
+        "depth": 24,
+        "alphaMode": "STRAIGHT",
+        "colorSpace": "Non-Color",
+        "packedBytesSha256": [
+          "107de7037b35fc62d01bd606f0ae0a719c29ea22b8a5486960c3653044ec6dff"
+        ],
+        "filepath": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-a03\\delivery-003\\textures\\pants_normal.png"
+      },
+      "pants_roughness.png.001": {
+        "source": "FILE",
+        "size": [
+          2048,
+          2048
+        ],
+        "channels": 4,
+        "depth": 8,
+        "alphaMode": "STRAIGHT",
+        "colorSpace": "Non-Color",
+        "packedBytesSha256": [
+          "dd81fe669bbc00b4802cbb2f16ba67f0ee12a46768f8d96f0347acf4fbd79474"
+        ],
+        "filepath": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-a03\\delivery-003\\textures\\pants_roughness.png"
+      },
+      "pants_tinted_diffuse.png": {
+        "source": "FILE",
+        "size": [
+          2048,
+          2048
+        ],
+        "channels": 4,
+        "depth": 24,
+        "alphaMode": "STRAIGHT",
+        "colorSpace": "sRGB",
+        "packedBytesSha256": [
+          "b225a00982b9859abe724f695700f98ab8ccdabb2e8da8d6b380ba38c5fdcca1"
+        ],
+        "filepath": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-a03\\delivery-003\\textures\\pants_tinted_diffuse.png"
+      },
+      "shirt_normal.png.001": {
+        "source": "FILE",
+        "size": [
+          2048,
+          2048
+        ],
+        "channels": 4,
+        "depth": 24,
+        "alphaMode": "STRAIGHT",
+        "colorSpace": "Non-Color",
+        "packedBytesSha256": [
+          "7a90766714b9a431b17b2e5f90a2c1d267a73e0433f1080a31526a3ee88e95e6"
+        ],
+        "filepath": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-a03\\delivery-003\\textures\\shirt_normal.png"
+      },
+      "shoes_diffuse.png.001": {
+        "source": "FILE",
+        "size": [
+          2048,
+          2048
+        ],
+        "channels": 4,
+        "depth": 24,
+        "alphaMode": "STRAIGHT",
+        "colorSpace": "sRGB",
+        "packedBytesSha256": [
+          "6e4940a480c245c0d68947686b2242f1b48bb7624cc6131fa71e8f6281892b27"
+        ],
+        "filepath": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-a03\\delivery-003\\textures\\shoes_diffuse.png"
+      },
+      "shoes_normal.png.001": {
+        "source": "FILE",
+        "size": [
+          2048,
+          2048
+        ],
+        "channels": 4,
+        "depth": 24,
+        "alphaMode": "STRAIGHT",
+        "colorSpace": "Non-Color",
+        "packedBytesSha256": [
+          "2ae017a1b444857625c0dcf28a887adb058536995f752a030800973c86fc7e99"
+        ],
+        "filepath": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-a03\\delivery-003\\textures\\shoes_normal.png"
+      },
+      "shoes_roughness.png.001": {
+        "source": "FILE",
+        "size": [
+          2048,
+          2048
+        ],
+        "channels": 4,
+        "depth": 8,
+        "alphaMode": "STRAIGHT",
+        "colorSpace": "Non-Color",
+        "packedBytesSha256": [
+          "6ea8699896b76bcb97f9051f945993ad1a91084d0507cd8e22bba5ebe740e018"
+        ],
+        "filepath": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-a03\\delivery-003\\textures\\shoes_roughness.png"
+      },
+      "skin_darker_diffuse_atlas.png": {
+        "source": "FILE",
+        "size": [
+          2048,
+          2048
+        ],
+        "channels": 4,
+        "depth": 24,
+        "alphaMode": "STRAIGHT",
+        "colorSpace": "sRGB",
+        "packedBytesSha256": [
+          "a99b12e51e1d6c555ac8f3a63bf08dda3a42edcc46bcb26b92fa3a25e7db6c74"
+        ],
+        "filepath": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-a03\\delivery-003\\textures\\skin_darker_diffuse_atlas.png"
+      },
+      "skin_diffuse_atlas.png": {
+        "source": "FILE",
+        "size": [
+          2048,
+          2048
+        ],
+        "channels": 4,
+        "depth": 24,
+        "alphaMode": "STRAIGHT",
+        "colorSpace": "sRGB",
+        "packedBytesSha256": [
+          "2039ddcb4b392ba7093b42d8438e237da753531c7428fe89109bc7a2003facf3"
+        ],
+        "filepath": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-a03\\delivery-003\\textures\\skin_diffuse_atlas.png"
+      },
+      "skin_lower_lip_diffuse_atlas.png": {
+        "source": "FILE",
+        "size": [
+          2048,
+          2048
+        ],
+        "channels": 4,
+        "depth": 24,
+        "alphaMode": "STRAIGHT",
+        "colorSpace": "sRGB",
+        "packedBytesSha256": [
+          "8760c9bb405eca20e1a25cd5cc6e2fd01b74767d7f6d4109c84714977123172b"
+        ],
+        "filepath": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-a03\\delivery-003\\textures\\skin_lower_lip_diffuse_atlas.png"
+      },
+      "skin_upper_lip_diffuse_atlas.png": {
+        "source": "FILE",
+        "size": [
+          2048,
+          2048
+        ],
+        "channels": 4,
+        "depth": 24,
+        "alphaMode": "STRAIGHT",
+        "colorSpace": "sRGB",
+        "packedBytesSha256": [
+          "c87fc712adb2166544746364620353033cfd36559a954435112441557118eb14"
+        ],
+        "filepath": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-a03\\delivery-003\\textures\\skin_upper_lip_diffuse_atlas.png"
+      }
+    }
+  },
+  "skeleton": {
+    "bones": 58,
+    "names": [
+      "Hips",
+      "Spine",
+      "Chest",
+      "UpperChest",
+      "Neck",
+      "Head",
+      "Shoulder.L",
+      "UpperArm.L",
+      "LowerArm.L",
+      "Hand.L",
+      "Thumb1.L",
+      "Thumb2.L",
+      "Thumb3.L",
+      "Index1.L",
+      "Index2.L",
+      "Index3.L",
+      "Middle1.L",
+      "Middle2.L",
+      "Middle3.L",
+      "Ring1.L",
+      "Ring2.L",
+      "Ring3.L",
+      "Pinky1.L",
+      "Pinky2.L",
+      "Pinky3.L",
+      "B02_Wrist.L",
+      "B02_Elbow.L",
+      "Shoulder.R",
+      "UpperArm.R",
+      "LowerArm.R",
+      "Hand.R",
+      "Thumb1.R",
+      "Thumb2.R",
+      "Thumb3.R",
+      "Index1.R",
+      "Index2.R",
+      "Index3.R",
+      "Middle1.R",
+      "Middle2.R",
+      "Middle3.R",
+      "Ring1.R",
+      "Ring2.R",
+      "Ring3.R",
+      "Pinky1.R",
+      "Pinky2.R",
+      "Pinky3.R",
+      "B02_Wrist.R",
+      "B02_Elbow.R",
+      "UpperLeg.L",
+      "LowerLeg.L",
+      "Foot.L",
+      "Toes.L",
+      "B02_Knee.L",
+      "UpperLeg.R",
+      "LowerLeg.R",
+      "Foot.R",
+      "Toes.R",
+      "B02_Knee.R"
+    ],
+    "sourceSha256": "aa5e4958a75e1f26dc6150353fa15425db8765a60e1528140d8e1e5b879ab9c4",
+    "candidateSha256": "aa5e4958a75e1f26dc6150353fa15425db8765a60e1528140d8e1e5b879ab9c4"
+  },
+  "objectPaths": {
+    "CHR_PlayerMale_A01": {
+      "type": "EMPTY",
+      "data": null,
+      "parent": null,
+      "parentType": "OBJECT",
+      "parentBone": "",
+      "matrixBasis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrixParentInverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "A03_B01_Rig": {
+      "type": "ARMATURE",
+      "data": "A03_B01_Skeleton52",
+      "parent": "CHR_PlayerMale_A01",
+      "parentType": "OBJECT",
+      "parentBone": "",
+      "matrixBasis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrixParentInverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "M01_body": {
+      "type": "MESH",
+      "data": "GEO-snow-body.002",
+      "parent": "CHR_PlayerMale_A01",
+      "parentType": "OBJECT",
+      "parentBone": "",
+      "matrixBasis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrixParentInverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "M01_eyebrows": {
+      "type": "MESH",
+      "data": "Mesh",
+      "parent": "CHR_PlayerMale_A01",
+      "parentType": "OBJECT",
+      "parentBone": "",
+      "matrixBasis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrixParentInverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "M01_eyes": {
+      "type": "MESH",
+      "data": "GEO-snow-eyes.001",
+      "parent": "CHR_PlayerMale_A01",
+      "parentType": "OBJECT",
+      "parentBone": "",
+      "matrixBasis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrixParentInverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "M01_hair_base": {
+      "type": "MESH",
+      "data": "GEO-snow-hair_base.001",
+      "parent": "CHR_PlayerMale_A01",
+      "parentType": "OBJECT",
+      "parentBone": "",
+      "matrixBasis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrixParentInverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "M01_head": {
+      "type": "MESH",
+      "data": "GEO-snow-head.001",
+      "parent": "CHR_PlayerMale_A01",
+      "parentType": "OBJECT",
+      "parentBone": "",
+      "matrixBasis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrixParentInverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "M01_pants": {
+      "type": "MESH",
+      "data": "GEO-snow-pants.002",
+      "parent": "CHR_PlayerMale_A01",
+      "parentType": "OBJECT",
+      "parentBone": "",
+      "matrixBasis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrixParentInverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "M01_shirt": {
+      "type": "MESH",
+      "data": "GEO-snow-shirt.002",
+      "parent": "CHR_PlayerMale_A01",
+      "parentType": "OBJECT",
+      "parentBone": "",
+      "matrixBasis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrixParentInverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "M01_shoes_base": {
+      "type": "MESH",
+      "data": "GEO-snow-shoes_base.003",
+      "parent": "CHR_PlayerMale_A01",
+      "parentType": "OBJECT",
+      "parentBone": "",
+      "matrixBasis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrixParentInverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "M01_shoes_bottom": {
+      "type": "MESH",
+      "data": "GEO-snow-shoes_bottom.003",
+      "parent": "CHR_PlayerMale_A01",
+      "parentType": "OBJECT",
+      "parentBone": "",
+      "matrixBasis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrixParentInverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "M01_shoes_parts": {
+      "type": "MESH",
+      "data": "GEO-snow-shoes_parts.003",
+      "parent": "CHR_PlayerMale_A01",
+      "parentType": "OBJECT",
+      "parentBone": "",
+      "matrixBasis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrixParentInverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  },
+  "actions": {
+    "idle": {
+      "fcurves": 580,
+      "keyframes": 28420,
+      "frameRange": [
+        1.0,
+        49.0
+      ],
+      "sourceSha256": "3a607dc949165a9a186d522a7a0145c57a9686cc2beef1823ce30fd376030940",
+      "candidateSha256": "3a607dc949165a9a186d522a7a0145c57a9686cc2beef1823ce30fd376030940"
+    },
+    "walk": {
+      "fcurves": 580,
+      "keyframes": 14500,
+      "frameRange": [
+        1.0,
+        25.0
+      ],
+      "sourceSha256": "b4f9c3ecb005ba8003d8c2caa4a27a624774a220e56e74473806d3eef9d4b7cd",
+      "candidateSha256": "b4f9c3ecb005ba8003d8c2caa4a27a624774a220e56e74473806d3eef9d4b7cd"
+    },
+    "run": {
+      "fcurves": 580,
+      "keyframes": 11020,
+      "frameRange": [
+        1.0,
+        19.0
+      ],
+      "sourceSha256": "2692fb16e9e3d22c9e63d1fd1c27643b2dc1fd58999e1185d270a31c80ca3f60",
+      "candidateSha256": "2692fb16e9e3d22c9e63d1fd1c27643b2dc1fd58999e1185d270a31c80ca3f60"
+    },
+    "turn": {
+      "fcurves": 580,
+      "keyframes": 21460,
+      "frameRange": [
+        1.0,
+        37.0
+      ],
+      "sourceSha256": "bb2aa4cef48066c7d560c146925af8830ed0406393ca7b8f7bb2b7ac4ea3b087",
+      "candidateSha256": "bb2aa4cef48066c7d560c146925af8830ed0406393ca7b8f7bb2b7ac4ea3b087"
+    }
+  },
+  "body": {
+    "objectName": "M01_body",
+    "dataName": "GEO-snow-body.002",
+    "verticesBefore": 2748,
+    "verticesAfter": 3126,
+    "verticesAdded": 378,
+    "trianglesBefore": 5460,
+    "trianglesAfter": 6216,
+    "trianglesAdded": 756,
+    "originalNeutralVerticesExact": true,
+    "maxOriginalNeutralPositionErrorMeters": 0.0,
+    "maxNewVertexSourceSurfaceErrorMeters": 1.2489448408814496e-07,
+    "oldVerticesWithChangedWeights": 58,
+    "changedOldWeightsOnlyWithinHalfWidthMeters": 0.055,
+    "newVerticesOnlyWithinHalfWidthMeters": 0.095,
+    "radialLimitMeters": 0.075,
+    "outsideLocalFacesPreserved": 5242,
+    "boundaryEdgesBefore": 32,
+    "boundaryEdgesAfter": 32,
+    "nonManifoldEdgesBefore": 0,
+    "nonManifoldEdgesAfter": 0,
+    "uvCornersChecked": 18648,
+    "maxUvInterpolationError": 1.2759098028542504e-07,
+    "bodyNeutralNormalsNotRequiredIdentical": "Retriangulation changes local interpolation; visual gate found visible ridges."
+  },
+  "feet": {
+    "24": {
+      "idle": {
+        "source": {
+          "sampledFrames": 49,
+          "fps": 24,
+          "groundMinimumMeters": -5.378914806897228e-07,
+          "stanceSpeedMaxMps": 6.601133947946564e-07,
+          "lowSoleVertices": {
+            "L": 188,
+            "R": 188
+          }
+        },
+        "candidate": {
+          "sampledFrames": 49,
+          "fps": 24,
+          "groundMinimumMeters": -5.378914806897228e-07,
+          "stanceSpeedMaxMps": 6.601133947946564e-07,
+          "lowSoleVertices": {
+            "L": 188,
+            "R": 188
+          }
+        },
+        "allEvaluatedWorldVerticesExactlyEqual": true,
+        "maxPositionErrorMeters": 0.0,
+        "sourceSampleSha256": "606002fd05b29aea801736fedcb4014f526565d92fc60cdc4a1c19bb2d6411e3",
+        "candidateSampleSha256": "606002fd05b29aea801736fedcb4014f526565d92fc60cdc4a1c19bb2d6411e3"
+      },
+      "walk": {
+        "source": {
+          "sampledFrames": 25,
+          "fps": 24,
+          "groundMinimumMeters": -5.528831934498157e-07,
+          "stanceSpeedMaxMps": 0.5517247964410342,
+          "lowSoleVertices": {
+            "L": 188,
+            "R": 188
+          }
+        },
+        "candidate": {
+          "sampledFrames": 25,
+          "fps": 24,
+          "groundMinimumMeters": -5.528831934498157e-07,
+          "stanceSpeedMaxMps": 0.5517247964410342,
+          "lowSoleVertices": {
+            "L": 188,
+            "R": 188
+          }
+        },
+        "allEvaluatedWorldVerticesExactlyEqual": true,
+        "maxPositionErrorMeters": 0.0,
+        "sourceSampleSha256": "dc6418033e9fea9de3b6b0db729716286c7dfd9a701b625a27e50f416b25336c",
+        "candidateSampleSha256": "dc6418033e9fea9de3b6b0db729716286c7dfd9a701b625a27e50f416b25336c"
+      },
+      "run": {
+        "source": {
+          "sampledFrames": 19,
+          "fps": 24,
+          "groundMinimumMeters": -5.673405212291982e-07,
+          "stanceSpeedMaxMps": 1.5333348236819586,
+          "lowSoleVertices": {
+            "L": 188,
+            "R": 188
+          }
+        },
+        "candidate": {
+          "sampledFrames": 19,
+          "fps": 24,
+          "groundMinimumMeters": -5.673405212291982e-07,
+          "stanceSpeedMaxMps": 1.5333348236819586,
+          "lowSoleVertices": {
+            "L": 188,
+            "R": 188
+          }
+        },
+        "allEvaluatedWorldVerticesExactlyEqual": true,
+        "maxPositionErrorMeters": 0.0,
+        "sourceSampleSha256": "d177d39b6d02c7227011181b9acd486675868c973f41ee279ecef01969bbc284",
+        "candidateSampleSha256": "d177d39b6d02c7227011181b9acd486675868c973f41ee279ecef01969bbc284"
+      },
+      "turn": {
+        "source": {
+          "sampledFrames": 37,
+          "fps": 24,
+          "groundMinimumMeters": 4.947481647832319e-05,
+          "stanceSpeedMaxMps": 6.819110210197518e-07,
+          "lowSoleVertices": {
+            "L": 188,
+            "R": 188
+          }
+        },
+        "candidate": {
+          "sampledFrames": 37,
+          "fps": 24,
+          "groundMinimumMeters": 4.947481647832319e-05,
+          "stanceSpeedMaxMps": 6.819110210197518e-07,
+          "lowSoleVertices": {
+            "L": 188,
+            "R": 188
+          }
+        },
+        "allEvaluatedWorldVerticesExactlyEqual": true,
+        "maxPositionErrorMeters": 0.0,
+        "sourceSampleSha256": "8112b67bf3a746169cf61c403798d29fe99f02e47e2c7d5a242ecee96347d188",
+        "candidateSampleSha256": "8112b67bf3a746169cf61c403798d29fe99f02e47e2c7d5a242ecee96347d188"
+      }
+    },
+    "96": {
+      "idle": {
+        "source": {
+          "sampledFrames": 193,
+          "fps": 96,
+          "groundMinimumMeters": -7.057967650325736e-07,
+          "stanceSpeedMaxMps": 1.1519564384871307e-05,
+          "lowSoleVertices": {
+            "L": 188,
+            "R": 188
+          }
+        },
+        "candidate": {
+          "sampledFrames": 193,
+          "fps": 96,
+          "groundMinimumMeters": -7.057967650325736e-07,
+          "stanceSpeedMaxMps": 1.1519564384871307e-05,
+          "lowSoleVertices": {
+            "L": 188,
+            "R": 188
+          }
+        },
+        "allEvaluatedWorldVerticesExactlyEqual": true,
+        "maxPositionErrorMeters": 0.0,
+        "sourceSampleSha256": "206ba7dfcaede9b234854d86d95fd03b24f63582dd821591e02b304ba4d2517e",
+        "candidateSampleSha256": "206ba7dfcaede9b234854d86d95fd03b24f63582dd821591e02b304ba4d2517e"
+      },
+      "walk": {
+        "source": {
+          "sampledFrames": 97,
+          "fps": 96,
+          "groundMinimumMeters": -0.0004492701846174896,
+          "stanceSpeedMaxMps": 0.5555724429504609,
+          "lowSoleVertices": {
+            "L": 188,
+            "R": 188
+          }
+        },
+        "candidate": {
+          "sampledFrames": 97,
+          "fps": 96,
+          "groundMinimumMeters": -0.0004492701846174896,
+          "stanceSpeedMaxMps": 0.5555724429504609,
+          "lowSoleVertices": {
+            "L": 188,
+            "R": 188
+          }
+        },
+        "allEvaluatedWorldVerticesExactlyEqual": true,
+        "maxPositionErrorMeters": 0.0,
+        "sourceSampleSha256": "acdb45f5bb73dbc5c6a782d39d29d24a811f70013a10c6008812142f7c22b485",
+        "candidateSampleSha256": "acdb45f5bb73dbc5c6a782d39d29d24a811f70013a10c6008812142f7c22b485"
+      },
+      "run": {
+        "source": {
+          "sampledFrames": 73,
+          "fps": 96,
+          "groundMinimumMeters": -0.005870419554412365,
+          "stanceSpeedMaxMps": 1.6233690910981424,
+          "lowSoleVertices": {
+            "L": 188,
+            "R": 188
+          }
+        },
+        "candidate": {
+          "sampledFrames": 73,
+          "fps": 96,
+          "groundMinimumMeters": -0.005870419554412365,
+          "stanceSpeedMaxMps": 1.6233690910981424,
+          "lowSoleVertices": {
+            "L": 188,
+            "R": 188
+          }
+        },
+        "allEvaluatedWorldVerticesExactlyEqual": true,
+        "maxPositionErrorMeters": 0.0,
+        "sourceSampleSha256": "ef25bcf54cca0804bd45e2b830aa9dbb36bf773df89ebff3a0b8073b01e8204a",
+        "candidateSampleSha256": "ef25bcf54cca0804bd45e2b830aa9dbb36bf773df89ebff3a0b8073b01e8204a"
+      },
+      "turn": {
+        "source": {
+          "sampledFrames": 145,
+          "fps": 96,
+          "groundMinimumMeters": 2.4388693418586627e-05,
+          "stanceSpeedMaxMps": 0.008511359290037743,
+          "lowSoleVertices": {
+            "L": 188,
+            "R": 188
+          }
+        },
+        "candidate": {
+          "sampledFrames": 145,
+          "fps": 96,
+          "groundMinimumMeters": 2.4388693418586627e-05,
+          "stanceSpeedMaxMps": 0.008511359290037743,
+          "lowSoleVertices": {
+            "L": 188,
+            "R": 188
+          }
+        },
+        "allEvaluatedWorldVerticesExactlyEqual": true,
+        "maxPositionErrorMeters": 0.0,
+        "sourceSampleSha256": "f8b5db8a567bc18b8837f4538bc92e85ed1ac2522549ef56a35f9ae2606ac0d5",
+        "candidateSampleSha256": "f8b5db8a567bc18b8837f4538bc92e85ed1ac2522549ef56a35f9ae2606ac0d5"
+      }
+    }
+  },
+  "evaluatedFootVertexSamplesPerSource": 1559910,
+  "method": "Saved B02 and frozen B04 independently reopened with embedded scripts disabled; canonical raw data equality; all source body vertices mapped; new corners barycentrically checked against all valid source UV charts within1micron; full shoe mesh world positions sampled on B02contact24/96fps grids.",
+  "limitations": [
+    "Technical preservation only; does not overturn visual NO-GO.",
+    "Foot equality retains B02 behavior and its known contact limits; not new Unity or game-world verification.",
+    "New vertex neutral surface tolerance2microns; unchanged original neutral coordinates required exactly.",
+    "Visual deformation quality, transitions and integration are not certified by raw data equality."
+  ],
+  "failures": []
+}
