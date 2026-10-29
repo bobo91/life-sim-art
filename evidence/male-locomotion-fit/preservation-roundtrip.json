@@ -1,0 +1,252 @@
+{
+  "schema": "a03-locomotion-fit-preservation-roundtrip-1",
+  "status": "PASS",
+  "blenderVersion": "4.5.14 LTS",
+  "sourceHashesBefore": {
+    "source": "8300f581fa4e5a7f012d70ae9aadd0d7ca9eb99214b5a8699a1f65f0a9c8e96c",
+    "candidate": "1af66dd0d78bc047492615d578e3cd122fb08e6d107ea9d2f881aca4e80ae25e",
+    "baselineGlb": "4faa2eec33d131b7fcdc4b41720e5abbd16e03eab594bf764f3d7ae041de3d33",
+    "candidateGlb": "532ce438b24f69e14c099d956706d69e6e6b8531e0c162e92f72756bb60046b0"
+  },
+  "sourceHashesAfter": {
+    "source": "8300f581fa4e5a7f012d70ae9aadd0d7ca9eb99214b5a8699a1f65f0a9c8e96c",
+    "candidate": "1af66dd0d78bc047492615d578e3cd122fb08e6d107ea9d2f881aca4e80ae25e",
+    "baselineGlb": "4faa2eec33d131b7fcdc4b41720e5abbd16e03eab594bf764f3d7ae041de3d33",
+    "candidateGlb": "532ce438b24f69e14c099d956706d69e6e6b8531e0c162e92f72756bb60046b0"
+  },
+  "filesUnchanged": true,
+  "savedBlendPreservation": {
+    "allTenMeshesGeometryUvWeightsNormalsMaterialsModifiers": true,
+    "appearance": true,
+    "rest58Bones": true,
+    "objectDataNamesHierarchyTransforms": true,
+    "idleAction": true,
+    "idleSeconds": true,
+    "embeddedTextsAbsent": true,
+    "sameBoneCount58": true,
+    "sameTriangles29367": true
+  },
+  "meshes": {
+    "M01_body": {
+      "vertices": 2748,
+      "triangles": 5460,
+      "sourceSha256": "3050b400851ca9484dd69f84572108d926fc8e5c5f3f5d15d811f47ee2d02d4a",
+      "candidateSha256": "3050b400851ca9484dd69f84572108d926fc8e5c5f3f5d15d811f47ee2d02d4a",
+      "exact": true
+    },
+    "M01_eyebrows": {
+      "vertices": 806,
+      "triangles": 1504,
+      "sourceSha256": "6a7e1b9fe16239e49d4bc16e0df0b1e5e58fcf4fae5ef558ceb72aa055d6d359",
+      "candidateSha256": "6a7e1b9fe16239e49d4bc16e0df0b1e5e58fcf4fae5ef558ceb72aa055d6d359",
+      "exact": true
+    },
+    "M01_eyes": {
+      "vertices": 1418,
+      "triangles": 2756,
+      "sourceSha256": "981c9112503dada2519a05655146cb203645ed7e1d0bdfdb7f91c665de4ac049",
+      "candidateSha256": "981c9112503dada2519a05655146cb203645ed7e1d0bdfdb7f91c665de4ac049",
+      "exact": true
+    },
+    "M01_hair_base": {
+      "vertices": 1309,
+      "triangles": 2528,
+      "sourceSha256": "497b6975e99498528808faf5a978d478aca1d0b425c3d29440d9725963ef0657",
+      "candidateSha256": "497b6975e99498528808faf5a978d478aca1d0b425c3d29440d9725963ef0657",
+      "exact": true
+    },
+    "M01_head": {
+      "vertices": 3719,
+      "triangles": 7264,
+      "sourceSha256": "9b74d4b9252de24aec6da4466b0bdfbdf3ce0835e894399f579700b10d1ed778",
+      "candidateSha256": "9b74d4b9252de24aec6da4466b0bdfbdf3ce0835e894399f579700b10d1ed778",
+      "exact": true
+    },
+    "M01_pants": {
+      "vertices": 1724,
+      "triangles": 3365,
+      "sourceSha256": "58c4e25334658486078ba4c55bf4b952eb5829ac8e535365669884c19744f758",
+      "candidateSha256": "58c4e25334658486078ba4c55bf4b952eb5829ac8e535365669884c19744f758",
+      "exact": true
+    },
+    "M01_shirt": {
+      "vertices": 1240,
+      "triangles": 2368,
+      "sourceSha256": "e1ef15de691b362ebd7f911f9cc8726cb788da2cf9d0d1244e77d67b4f1d458f",
+      "candidateSha256": "e1ef15de691b362ebd7f911f9cc8726cb788da2cf9d0d1244e77d67b4f1d458f",
+      "exact": true
+    },
+    "M01_shoes_base": {
+      "vertices": 591,
+      "triangles": 1130,
+      "sourceSha256": "ac4f54e099e7a27c522e1a7ace40ffcb412b9b8cd538e4863fa68f04b4c58d1c",
+      "candidateSha256": "ac4f54e099e7a27c522e1a7ace40ffcb412b9b8cd538e4863fa68f04b4c58d1c",
+      "exact": true
+    },
+    "M01_shoes_bottom": {
+      "vertices": 376,
+      "triangles": 576,
+      "sourceSha256": "63bef0f00cc0d1d7abfd4c3a575071f98724d1bdd217269a0096c98bc1151b38",
+      "candidateSha256": "63bef0f00cc0d1d7abfd4c3a575071f98724d1bdd217269a0096c98bc1151b38",
+      "exact": true
+    },
+    "M01_shoes_parts": {
+      "vertices": 1478,
+      "triangles": 2416,
+      "sourceSha256": "1929878c46d872afd210065db839df236932afae01b1ff05e3c13c484bb948ba",
+      "candidateSha256": "1929878c46d872afd210065db839df236932afae01b1ff05e3c13c484bb948ba",
+      "exact": true
+    }
+  },
+  "glbBaselinePreservation": {
+    "geometrySkinUvsNormalsIndices": true,
+    "jointOrderNames": true,
+    "inverseBindMatrices": true,
+    "materialJson": true,
+    "embeddedImageBytes": true,
+    "idle96HzSamplesWithin1e_6TRSComponents": true,
+    "idleDurationSeconds": true,
+    "onlyIdleWalkRunNoTurn": true
+  },
+  "idleGlb96HzMaxTrsComponentError": 9.5367431640625e-07,
+  "clips": {
+    "idle": {
+      "durationSeconds": 2.0,
+      "channels": 174,
+      "all58JointsHaveTRS": true,
+      "allSixSupportsHaveTRS": true,
+      "maxEndpointComponentError": 0.0,
+      "loopEndpointsMatchWithin1e_6": true,
+      "animatedNonJointNodes": []
+    },
+    "walk": {
+      "durationSeconds": 1.0,
+      "channels": 174,
+      "all58JointsHaveTRS": true,
+      "allSixSupportsHaveTRS": true,
+      "maxEndpointComponentError": 0.0,
+      "loopEndpointsMatchWithin1e_6": true,
+      "animatedNonJointNodes": []
+    },
+    "run": {
+      "durationSeconds": 0.625,
+      "channels": 174,
+      "all58JointsHaveTRS": true,
+      "allSixSupportsHaveTRS": true,
+      "maxEndpointComponentError": 0.0,
+      "loopEndpointsMatchWithin1e_6": true,
+      "animatedNonJointNodes": []
+    }
+  },
+  "freshImportedBones": 58,
+  "roundtrip": {
+    "idle": {
+      "phases": [
+        0.0,
+        0.125,
+        0.25,
+        0.375,
+        0.5,
+        0.625,
+        0.75,
+        0.875,
+        1.0
+      ],
+      "maxPointcloudErrorMeters": 1.5603631027261144e-06,
+      "pointcloudErrorsMeters": [
+        1.4525109008900472e-06,
+        1.4373454177984968e-06,
+        1.4709567039972171e-06,
+        1.4373454177984968e-06,
+        1.4525109008900472e-06,
+        1.5603631027261144e-06,
+        1.5595268223478342e-06,
+        1.5603631027261144e-06,
+        1.4525109008900472e-06
+      ],
+      "sourceFrames": [
+        1.0,
+        49.0
+      ],
+      "importedFrames": [
+        0.0,
+        48.0
+      ],
+      "passes1mmSampledSkinTolerance": true
+    },
+    "walk": {
+      "phases": [
+        0.0,
+        0.125,
+        0.25,
+        0.375,
+        0.5,
+        0.625,
+        0.75,
+        0.875,
+        1.0
+      ],
+      "maxPointcloudErrorMeters": 5.107900051370962e-06,
+      "pointcloudErrorsMeters": [
+        2.2280723896983545e-06,
+        2.345986558793811e-06,
+        3.2795949209685205e-06,
+        2.949009058283991e-06,
+        2.91302467303467e-06,
+        2.278575493619428e-06,
+        5.107900051370962e-06,
+        4.291948243917432e-06,
+        2.2280723896983545e-06
+      ],
+      "sourceFrames": [
+        1.0,
+        25.0
+      ],
+      "importedFrames": [
+        0.0,
+        24.0
+      ],
+      "passes1mmSampledSkinTolerance": true
+    },
+    "run": {
+      "phases": [
+        0.0,
+        0.125,
+        0.25,
+        0.375,
+        0.5,
+        0.625,
+        0.75,
+        0.875,
+        1.0
+      ],
+      "maxPointcloudErrorMeters": 7.973639185365755e-06,
+      "pointcloudErrorsMeters": [
+        3.094012299698079e-06,
+        5.08611265104264e-06,
+        4.365836957731517e-06,
+        3.069783815590199e-06,
+        5.551897629629821e-06,
+        7.973639185365755e-06,
+        6.4256018958985806e-06,
+        3.6651158552558627e-06,
+        3.094012299698079e-06
+      ],
+      "sourceFrames": [
+        1.0,
+        16.0
+      ],
+      "importedFrames": [
+        0.0,
+        15.0
+      ],
+      "passes1mmSampledSkinTolerance": true
+    }
+  },
+  "method": "Canonical saved B02/candidate data equality; raw GLB accessor/skin/material/image checks; fresh Blender glTF import, bidirectional evaluated vertex-cloud comparison at9phases per clip.",
+  "limitations": [
+    "Technical data/skin checks only; does not certify gait quality or foot sliding, transitions or Unity behaviour.",
+    "1mm maximum sampled imported skin tolerance; not continuous-time or exhaustive self-intersection proof.",
+    "No authored mesh, weight, rig or animation modification and no model save/export by verifier."
+  ]
+}

@@ -138,3 +138,19 @@ measured facts/explicit unknowns. No general pipeline, game edit, newasset/NPC,
 purchase, merge, PhaseC or automatic continuation after B04. Existing namedsource
 licence/credit requirements persist. This overrides only the B03 no-topology stop
 for this single approved local candidate.
+
+## Owner-authorized A03 locomotion fit (2026-10-29)
+
+The owner rejects B04 as a base and explicitly returns to preserved B02 with
+approved A03 identity, 29,367 triangles and 58 bones. Its elbow limitations are
+temporarily accepted at the normal distant game camera, not for close-ups.
+Permit a bounded animation-only locomotion fit for the current authoritative
+4.0 m/s controller and 720 degrees/s visual rotation. New/reworked walk/run and
+limited idle/start/stop transition checks are allowed; preserve working idle,
+mesh/weights/materials/rest skeleton. Do not use the old demonstration turn if
+it does not fit. No further elbow work, redesign, generic animation system,
+new character, controller/game-repository edit, Phase C, merge or automatic
+integration. Use the existing isolated art Unity probe and deliver actual URP
+motion/video, contact/cadence/stride measurements and a separately versioned
+candidate/import contract. Stop after delivery for owner approval. Prior named
+source credit/licence and original-file preservation requirements remain.

@@ -1,0 +1,12 @@
+A03 / Willow Creek male character (modified Snow v4 derivative)
+Snow Rig (CC) Blender Foundation | studio.blender.org
+Source: https://studio.blender.org/characters/snow/v4/
+Licence: Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+
+Modified for Willow Creek: approved A03 identity/material/hair edits, static
+mesh simplification, B02-derived 58-joint skeleton and local skin weights,
+original repository-authored idle and newly authored locomotion-fit walk/run
+clips. B03/B04 geometry and the old demonstration turn are not included.
+No endorsement by Blender Foundation is implied. Source CloudRig/UI code is
+not included or executed. Preserve this notice with the asset and game.

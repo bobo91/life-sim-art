@@ -1,0 +1,14 @@
+{
+  "schema": "a03-locomotion-fit-reproducibility-1",
+  "sameRecipe": true,
+  "sameConfig": true,
+  "glbByteIdentical": true,
+  "glbSha256": "532ce438b24f69e14c099d956706d69e6e6b8531e0c162e92f72756bb60046b0",
+  "bytes": 36798412,
+  "runs": [
+    "delivery-001",
+    "repeat-001"
+  ],
+  "blendByteIdentityClaimed": false,
+  "scope": "Same frozen recipe repeated; no artistic/parameter iteration. Blend containers differ; source data preservation checked separately."
+}
