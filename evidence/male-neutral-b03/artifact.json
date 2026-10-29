@@ -1,0 +1,16 @@
+{
+  "schema": "male-b03-rejected-artifact-1",
+  "tag": "male-neutral-b03-v0.3",
+  "file": "male-neutral-b03-v0.3-rejected-proof.zip",
+  "bytes": 44208524,
+  "sha256": "ecff67c4bb352ad769835dc888237a570feb2ed0323312934b888db5d224ff65",
+  "candidateSha256": "d3cd674e377e7c205cf08cd432559e333ce6a3179ddaae60f3541556513ad23a",
+  "internalFiles": 37,
+  "localZipAndInternalHashesPassed": true,
+  "downloadVerified": false,
+  "visualGo": false,
+  "integrationGo": false,
+  "glbOrUnityRun": false,
+  "downloadUrl": "https://github.com/bobo91/life-sim-art/releases/download/male-neutral-b03-v0.3/male-neutral-b03-v0.3-rejected-proof.zip",
+  "releaseUrl": "https://github.com/bobo91/life-sim-art/releases/tag/male-neutral-b03-v0.3"
+}

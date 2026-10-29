@@ -1,0 +1,439 @@
+{
+  "schema": "male-b03-isolated-shape-proof-1",
+  "sourceSha256": "8300f581fa4e5a7f012d70ae9aadd0d7ca9eb99214b5a8699a1f65f0a9c8e96c",
+  "config": {
+    "schema": "male-b03-local-elbow-shape-1",
+    "sourceBlendSha256": "8300f581fa4e5a7f012d70ae9aadd0d7ca9eb99214b5a8699a1f65f0a9c8e96c",
+    "body": "M01_body",
+    "rig": "A03_B01_Rig",
+    "sourceRunFrame": 5.5,
+    "halfWidthMeters": 0.065,
+    "fullStrengthHalfWidthMeters": 0.014,
+    "radiusMeters": 0.075,
+    "taubinCycles": 6,
+    "lambda": 0.45,
+    "mu": -0.47,
+    "maximumPosedDeltaMeters": 0.007,
+    "activationStartDegrees": 12,
+    "scope": "Two local elbow morphs only. Basis, bones, topology, weights, materials and face unchanged. One bounded smoothing pass, no parameter sweep.",
+    "activationFullAtActualRunReferenceBend": true,
+    "angleMethod": "acos(upperDirection dot lowerDirection) minus neutral rest-angle, clamped atzero; no twist angle or clip-name activation"
+  },
+  "corrective": {
+    "method": "One tightly masked posed-space Taubin relaxation, inverse existing blendedLBS into two local relative keys",
+    "basisHash": "5abbb8b126c30c4fbb804864b5efa23eb8b699460f035c5d45a5ad3a71f4dff1",
+    "sourceRunFrame": 5.5,
+    "maxForwardSkinPredictionErrorMeters": 4.430433734452279e-07,
+    "sides": {
+      "L": {
+        "key": "B03_ElbowCorrective.L",
+        "referenceBend": {
+          "angleDegrees": 72.20724083010812,
+          "neutralAngleDegrees": 8.738894189873756,
+          "bendDegrees": 63.468346640234365
+        },
+        "verticesChanged": 34,
+        "vertexIds": [
+          1294,
+          1295,
+          1299,
+          1300,
+          1309,
+          1310,
+          1311,
+          1314,
+          1315,
+          1316,
+          1317,
+          1318,
+          1320,
+          1321,
+          1327,
+          1329,
+          1330,
+          1331,
+          1332,
+          1333,
+          1334,
+          1338,
+          1339,
+          1341,
+          1342,
+          1350,
+          1351,
+          1352,
+          1359,
+          1365,
+          1367,
+          1371,
+          1373,
+          1374
+        ],
+        "maxPosedCorrectionMeters": 0.007000000405308246,
+        "maxRestKeyDeltaMeters": 0.0075594422059758306,
+        "longitudinalMaskHalfWidthMeters": 0.065,
+        "radialMaskMeters": 0.075
+      },
+      "R": {
+        "key": "B03_ElbowCorrective.R",
+        "referenceBend": {
+          "angleDegrees": 72.69295735761601,
+          "neutralAngleDegrees": 8.738894453285612,
+          "bendDegrees": 63.95406290433039
+        },
+        "verticesChanged": 31,
+        "vertexIds": [
+          2667,
+          2668,
+          2671,
+          2672,
+          2681,
+          2682,
+          2686,
+          2687,
+          2688,
+          2689,
+          2690,
+          2691,
+          2692,
+          2693,
+          2699,
+          2703,
+          2704,
+          2705,
+          2706,
+          2707,
+          2712,
+          2713,
+          2714,
+          2715,
+          2717,
+          2718,
+          2722,
+          2726,
+          2739,
+          2741,
+          2746
+        ],
+        "maxPosedCorrectionMeters": 0.007000000405308246,
+        "maxRestKeyDeltaMeters": 0.007551203836355072,
+        "longitudinalMaskHalfWidthMeters": 0.065,
+        "radialMaskMeters": 0.075
+      }
+    },
+    "topologyUnchanged": true,
+    "neutralBasisExact": true,
+    "rigWeightsMaterialsUnchanged": true
+  },
+  "poses": {
+    "run25": {
+      "bend": {
+        "L": {
+          "angleDegrees": 72.20724083010812,
+          "neutralAngleDegrees": 8.738894189873756,
+          "bendDegrees": 63.468346640234365
+        },
+        "R": {
+          "angleDegrees": 72.69295735761601,
+          "neutralAngleDegrees": 8.738894453285612,
+          "bendDegrees": 63.95406290433039
+        }
+      },
+      "B02": {
+        "weights": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      "B03": {
+        "weights": {
+          "L": {
+            "weight": 1.0,
+            "angleDegrees": 72.20724083010812,
+            "neutralAngleDegrees": 8.738894189873756,
+            "bendDegrees": 63.468346640234365
+          },
+          "R": {
+            "weight": 1.0,
+            "angleDegrees": 72.69295735761601,
+            "neutralAngleDegrees": 8.738894453285612,
+            "bendDegrees": 63.95406290433039
+          }
+        }
+      }
+    },
+    "elbow90": {
+      "bend": {
+        "L": {
+          "angleDegrees": 90.00001558136904,
+          "neutralAngleDegrees": 8.738894189873756,
+          "bendDegrees": 81.2611213914953
+        },
+        "R": {
+          "angleDegrees": 90.00002294516675,
+          "neutralAngleDegrees": 8.738894453285612,
+          "bendDegrees": 81.26112849188114
+        }
+      },
+      "B02": {
+        "weights": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      "B03": {
+        "weights": {
+          "L": {
+            "weight": 1.0,
+            "angleDegrees": 90.00001558136904,
+            "neutralAngleDegrees": 8.738894189873756,
+            "bendDegrees": 81.2611213914953
+          },
+          "R": {
+            "weight": 1.0,
+            "angleDegrees": 90.00002294516675,
+            "neutralAngleDegrees": 8.738894453285612,
+            "bendDegrees": 81.26112849188114
+          }
+        }
+      }
+    },
+    "near_straight10": {
+      "bend": {
+        "L": {
+          "angleDegrees": 10.000023664190099,
+          "neutralAngleDegrees": 8.738894189873756,
+          "bendDegrees": 1.2611294743163435
+        },
+        "R": {
+          "angleDegrees": 10.00000584122766,
+          "neutralAngleDegrees": 8.738894453285612,
+          "bendDegrees": 1.2611113879420475
+        }
+      },
+      "B02": {
+        "weights": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      "B03": {
+        "weights": {
+          "L": {
+            "weight": 0.0,
+            "angleDegrees": 10.000023664190099,
+            "neutralAngleDegrees": 8.738894189873756,
+            "bendDegrees": 1.2611294743163435
+          },
+          "R": {
+            "weight": 0.0,
+            "angleDegrees": 10.00000584122766,
+            "neutralAngleDegrees": 8.738894453285612,
+            "bendDegrees": 1.2611113879420475
+          }
+        }
+      }
+    }
+  },
+  "views": [
+    {
+      "label": "B02",
+      "pose": "run25",
+      "side": "L",
+      "focus": [
+        0.22848156094551086,
+        0.1702246069908142,
+        1.0706596374511719
+      ],
+      "camera": [
+        0.7784816026687622,
+        -0.8297753930091858,
+        1.3206596374511719
+      ],
+      "orthoScale": 0.31
+    },
+    {
+      "label": "B02",
+      "pose": "run25",
+      "side": "R",
+      "focus": [
+        -0.22410733997821808,
+        -0.038827333599328995,
+        1.0448737144470215
+      ],
+      "camera": [
+        -0.7741073369979858,
+        -1.0388273000717163,
+        1.2948737144470215
+      ],
+      "orthoScale": 0.31
+    },
+    {
+      "label": "B03",
+      "pose": "run25",
+      "side": "L",
+      "focus": [
+        0.22848156094551086,
+        0.1702246069908142,
+        1.0706596374511719
+      ],
+      "camera": [
+        0.7784816026687622,
+        -0.8297753930091858,
+        1.3206596374511719
+      ],
+      "orthoScale": 0.31
+    },
+    {
+      "label": "B03",
+      "pose": "run25",
+      "side": "R",
+      "focus": [
+        -0.22410733997821808,
+        -0.038827333599328995,
+        1.0448737144470215
+      ],
+      "camera": [
+        -0.7741073369979858,
+        -1.0388273000717163,
+        1.2948737144470215
+      ],
+      "orthoScale": 0.31
+    },
+    {
+      "label": "B02",
+      "pose": "elbow90",
+      "side": "L",
+      "focus": [
+        0.22848153114318848,
+        0.17022453248500824,
+        1.0706597566604614
+      ],
+      "camera": [
+        0.7784815430641174,
+        -0.8297754526138306,
+        1.3206597566604614
+      ],
+      "orthoScale": 0.31
+    },
+    {
+      "label": "B02",
+      "pose": "elbow90",
+      "side": "R",
+      "focus": [
+        -0.22410739958286285,
+        -0.03882746398448944,
+        1.044873595237732
+      ],
+      "camera": [
+        -0.7741073966026306,
+        -1.0388274192810059,
+        1.294873595237732
+      ],
+      "orthoScale": 0.31
+    },
+    {
+      "label": "B03",
+      "pose": "elbow90",
+      "side": "L",
+      "focus": [
+        0.22848153114318848,
+        0.17022453248500824,
+        1.0706597566604614
+      ],
+      "camera": [
+        0.7784815430641174,
+        -0.8297754526138306,
+        1.3206597566604614
+      ],
+      "orthoScale": 0.31
+    },
+    {
+      "label": "B03",
+      "pose": "elbow90",
+      "side": "R",
+      "focus": [
+        -0.22410739958286285,
+        -0.03882746398448944,
+        1.044873595237732
+      ],
+      "camera": [
+        -0.7741073966026306,
+        -1.0388274192810059,
+        1.294873595237732
+      ],
+      "orthoScale": 0.31
+    },
+    {
+      "label": "B02",
+      "pose": "near_straight10",
+      "side": "L",
+      "focus": [
+        0.22848159074783325,
+        0.1702246516942978,
+        1.0706595182418823
+      ],
+      "camera": [
+        0.7784816026687622,
+        -0.829775333404541,
+        1.3206595182418823
+      ],
+      "orthoScale": 0.31
+    },
+    {
+      "label": "B02",
+      "pose": "near_straight10",
+      "side": "R",
+      "focus": [
+        -0.22410733997821808,
+        -0.03882719203829765,
+        1.044873595237732
+      ],
+      "camera": [
+        -0.7741073369979858,
+        -1.0388271808624268,
+        1.294873595237732
+      ],
+      "orthoScale": 0.31
+    },
+    {
+      "label": "B03",
+      "pose": "near_straight10",
+      "side": "L",
+      "focus": [
+        0.22848159074783325,
+        0.1702246516942978,
+        1.0706595182418823
+      ],
+      "camera": [
+        0.7784816026687622,
+        -0.829775333404541,
+        1.3206595182418823
+      ],
+      "orthoScale": 0.31
+    },
+    {
+      "label": "B03",
+      "pose": "near_straight10",
+      "side": "R",
+      "focus": [
+        -0.22410733997821808,
+        -0.03882719203829765,
+        1.044873595237732
+      ],
+      "camera": [
+        -0.7741073369979858,
+        -1.0388271808624268,
+        1.294873595237732
+      ],
+      "orthoScale": 0.31
+    }
+  ],
+  "sourceAndAllRawMeshesUnchanged": true,
+  "boneCount": 58,
+  "topologyChanged": false,
+  "unityOrExportRun": false,
+  "diagnosticPosePlane": "Physical90/10degree direction angles, actual run upperarm and run hinge-plane held fixed; not the historical Tpose/worldZ diagnostic.",
+  "render": "Actual CPU Cycles12samples on same scene/cameras/lights, no image retouch",
+  "gate": "Visual judgement required; technical preservation alone is not a GO"
+}

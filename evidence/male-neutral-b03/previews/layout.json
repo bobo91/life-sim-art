@@ -1,0 +1,61 @@
+{
+  "schema": "male-b03-comparison-layout-1",
+  "input": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b03\\shape-probe-002",
+  "sourceImages": [
+    {
+      "path": "build/male-neutral-b03/shape-probe-002/B02/run25_L.png",
+      "sha256": "b60ec6b6ee98ee9d11ee3d8afb5ea5963f5e17e611cd3e6003038a60ce5b1a7f"
+    },
+    {
+      "path": "build/male-neutral-b03/shape-probe-002/B03/run25_L.png",
+      "sha256": "3d34b7f574f58b530ad63cc756ca57d27a39d0fc36142f395db1370c23a38023"
+    },
+    {
+      "path": "build/male-neutral-b03/shape-probe-002/B02/run25_R.png",
+      "sha256": "2537ddfc1d6abf2252790db8a296fe34df2ece2846f3bb75add84c3c151bdd27"
+    },
+    {
+      "path": "build/male-neutral-b03/shape-probe-002/B03/run25_R.png",
+      "sha256": "d2c39382a45844f3db81b9acc6a1ca6b94ddd0b2228dda8c72d1ea328322338d"
+    },
+    {
+      "path": "build/male-neutral-b03/shape-probe-002/B02/elbow90_L.png",
+      "sha256": "13258a977273fd5be95adcc6a82ac46028289f8d6b58f48e5737a9906bf23140"
+    },
+    {
+      "path": "build/male-neutral-b03/shape-probe-002/B03/elbow90_L.png",
+      "sha256": "cf6fd60044f4d8b54d86e4e5a10f6b27285baf7800d4dbdbedc754bb26f0026c"
+    },
+    {
+      "path": "build/male-neutral-b03/shape-probe-002/B02/elbow90_R.png",
+      "sha256": "95376da0805db02f6af78ae06a37fff02092439497e507b2b3f6f9d4b49e99ed"
+    },
+    {
+      "path": "build/male-neutral-b03/shape-probe-002/B03/elbow90_R.png",
+      "sha256": "5f1455c3ec1f7f49361a38b64863dd10d0bf6b1095c4db7aa79699605b0543b7"
+    },
+    {
+      "path": "build/male-neutral-b03/shape-probe-002/B02/near_straight10_L.png",
+      "sha256": "14d57f3ece831a4b571dbdddf2c9bb32d7ea9a932b9d00ffa4d6494fbe02840f"
+    },
+    {
+      "path": "build/male-neutral-b03/shape-probe-002/B03/near_straight10_L.png",
+      "sha256": "30a531709fc20937eaaaad3f3682570f049d56a447c17f3d09dcf5fe8ebb704d"
+    },
+    {
+      "path": "build/male-neutral-b03/shape-probe-002/B02/near_straight10_R.png",
+      "sha256": "bd4c12dcbf34fed298c9825ccdabf3fbbf1dac9686b6e395ac5a15932dabf80e"
+    },
+    {
+      "path": "build/male-neutral-b03/shape-probe-002/B03/near_straight10_R.png",
+      "sha256": "895355332b743d7756ac53448a44a6c1a240445b4e28f7d3427ae3a5a0c8b5a5"
+    }
+  ],
+  "nearStraightDecodedPixelsIdentical": {
+    "L": true,
+    "R": true
+  },
+  "processing": "Only equal proportionalresize,layout,labels; no recolor/retouch/crop/posechanges.",
+  "selectedPoseRun": "Exactrun25% sourceframe5.5",
+  "correctedDiagnosticPlane": "Physical90/10degrees with actualrunupperarm andhingeplane, sourceprototype002"
+}

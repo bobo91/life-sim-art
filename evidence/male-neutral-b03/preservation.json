@@ -1,0 +1,30 @@
+{
+  "schema": "male-b03-focused-preservation-1",
+  "sourceSha256": "8300f581fa4e5a7f012d70ae9aadd0d7ca9eb99214b5a8699a1f65f0a9c8e96c",
+  "candidateReopened": true,
+  "oneCandidateShapeIdenticalAcrossDiagnosticPasses": true,
+  "morphCoordinatesSha256": "da3577c51951d46631fc3cff5b01ab9cd8f060e179f23494fc962dfd5415eabf",
+  "allTenRawMeshesUvMaterialsWeightsBonesAndFourActionsIdenticalToB02": true,
+  "assetTriangles": 29367,
+  "bones": 58,
+  "shapeKeys": [
+    "Basis",
+    "B03_ElbowCorrective.L",
+    "B03_ElbowCorrective.R"
+  ],
+  "neutralBasisExactlyPreserved": true,
+  "evaluatedNeutralMaxFloatErrorMeters": 3.579381748874281e-07,
+  "localMorphs": {
+    "L": {
+      "verticesChanged": 34,
+      "maxRestDeltaMeters": 0.007559425903626845
+    },
+    "R": {
+      "verticesChanged": 31,
+      "maxRestDeltaMeters": 0.007551188479771553
+    }
+  },
+  "sourceUnchanged": true,
+  "noGLBOrUnityRun": true,
+  "limits": "Preservation and zero-state checks only; visible gate failed, no morph export/runtime/footcontact rerun claimed."
+}

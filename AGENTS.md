@@ -110,3 +110,16 @@ changes, automatic merge or Phase C. If local corrections do not suffice, stop
 and propose the smallest further action. Source credit/licence and all unrelated
 repository rules remain. This named owner instruction overrides only the prior
 B01 review stop for the specified corrective work.
+
+## Owner-authorized B03 isolated elbow corrective proof (2026-10-29)
+
+The owner approves one final bounded local elbow corrective-shape proof on the
+existing approved A03/B02 source in draft PR39. Preserve neutral A03,58bones,
+materials/face, existing four motions and history. Begin with exactly the same
+run25percent pose; compare identical cameras/lights at run,90degree flex and
+near-straight arms, both sides. No new triangles or broader arm/body editing.
+Only proceed to GLB/isolated Unity if the Blender visual improvement is clear;
+otherwise stop and propose minimal local topology work without implementing it.
+No generic corrective/rig architecture, game changes, merge or Phase C. Named
+source licence/credit requirements persist. This extends only the B02 stop gate
+for the stated final isolated proof; it is not open-ended experimentation.
