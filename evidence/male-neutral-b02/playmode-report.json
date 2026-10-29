@@ -1,0 +1,94 @@
+{
+    "schema": "male-b02-actual-playmode-1",
+    "status": "passed-actual-playmode-animator-and-crossfades",
+    "actualPlayMode": true,
+    "gameIntegrationTested": false,
+    "humanoidTested": false,
+    "clips": [
+        {
+            "name": "idle",
+            "firstNormalizedTime": 0.04239165037870407,
+            "lastNormalizedTime": 0.6173868775367737,
+            "maxVertexMotionMeters": 0.008916841819882393,
+            "animatorInitialized": true,
+            "finite": true
+        },
+        {
+            "name": "run",
+            "firstNormalizedTime": 0.19941744208335877,
+            "lastNormalizedTime": 0.666317343711853,
+            "maxVertexMotionMeters": 0.42814406752586367,
+            "animatorInitialized": true,
+            "finite": true
+        },
+        {
+            "name": "turn",
+            "firstNormalizedTime": 0.09997155517339707,
+            "lastNormalizedTime": 0.6499685049057007,
+            "maxVertexMotionMeters": 0.26375776529312136,
+            "animatorInitialized": true,
+            "finite": true
+        },
+        {
+            "name": "walk",
+            "firstNormalizedTime": 0.14990602433681489,
+            "lastNormalizedTime": 0.6495976448059082,
+            "maxVertexMotionMeters": 0.22645218670368195,
+            "animatorInitialized": true,
+            "finite": true
+        }
+    ],
+    "transitions": [
+        {
+            "from": "idle",
+            "to": "walk",
+            "fadeSeconds": 0.20000000298023225,
+            "maxFrameStepMeters": 0.05622335523366928,
+            "samples": 30,
+            "captureCount": 5,
+            "finite": true,
+            "reachedTarget": true
+        },
+        {
+            "from": "walk",
+            "to": "run",
+            "fadeSeconds": 0.20000000298023225,
+            "maxFrameStepMeters": 0.17155225574970246,
+            "samples": 30,
+            "captureCount": 5,
+            "finite": true,
+            "reachedTarget": true
+        },
+        {
+            "from": "run",
+            "to": "walk",
+            "fadeSeconds": 0.20000000298023225,
+            "maxFrameStepMeters": 0.14785261452198029,
+            "samples": 30,
+            "captureCount": 5,
+            "finite": true,
+            "reachedTarget": true
+        },
+        {
+            "from": "walk",
+            "to": "idle",
+            "fadeSeconds": 0.20000000298023225,
+            "maxFrameStepMeters": 0.04613616690039635,
+            "samples": 30,
+            "captureCount": 5,
+            "finite": true,
+            "reachedTarget": true
+        },
+        {
+            "from": "idle",
+            "to": "turn",
+            "fadeSeconds": 0.20000000298023225,
+            "maxFrameStepMeters": 0.055353742092847827,
+            "samples": 30,
+            "captureCount": 5,
+            "finite": true,
+            "reachedTarget": true
+        }
+    ],
+    "errors": []
+}

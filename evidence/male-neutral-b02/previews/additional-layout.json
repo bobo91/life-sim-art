@@ -1,0 +1,107 @@
+{
+  "schema": "male-b02-extra-check-layout-1",
+  "sourceFiles": {
+    "build/male-neutral-b02/daily-001/B01/reach_full.png": {
+      "bytes": 672112,
+      "sha256": "590839836cde7223a90e31296ac5c59ed5c868f7dd904ef67ea6a450bcb1c39b"
+    },
+    "build/male-neutral-b02/daily-001/B02/reach_full.png": {
+      "bytes": 672102,
+      "sha256": "6a715c98c9c6fa5feabef1410923bf38ce188f474052a6729752d31ab2f08f3b"
+    },
+    "build/male-neutral-b02/daily-001/B01/gesture_full.png": {
+      "bytes": 672970,
+      "sha256": "c41b4b64c0994241354c04fd697b202ac97b68f14ee87df73da125a817b8e2b9"
+    },
+    "build/male-neutral-b02/daily-001/B02/gesture_full.png": {
+      "bytes": 673092,
+      "sha256": "8b6a03c0f362b542cb62564609e1219a41d1f878b4b3e483e3a8c2243a89e639"
+    },
+    "build/male-neutral-b02/daily-001/B01/reach_hand.png": {
+      "bytes": 746196,
+      "sha256": "5461011e3febd99a8367721d9434be042f1dc22817b421bd647762e31bc2dd27"
+    },
+    "build/male-neutral-b02/daily-001/B02/reach_hand.png": {
+      "bytes": 745865,
+      "sha256": "b473f6df1bf95ff031ec19c984167aa30379cc16534cee5bbaed308c9a7912ff"
+    },
+    "build/male-neutral-b02/daily-001/B01/gesture_hand.png": {
+      "bytes": 632294,
+      "sha256": "33cb744646154921932c2491eb61ec876898b42136ae3f3522745b60fa4d01a1"
+    },
+    "build/male-neutral-b02/daily-001/B02/gesture_hand.png": {
+      "bytes": 632443,
+      "sha256": "c0c41101813609f240ee5d0962bd69f42384232f6840d26f5a5b5cf8f2fdd60c"
+    },
+    "build/male-neutral-b02/daily-001/B01/knee_flex90.png": {
+      "bytes": 925684,
+      "sha256": "23d74a51bd57d0f34ed8156b7db4b48af5f414fc5603ba863d7727d148073897"
+    },
+    "build/male-neutral-b02/daily-001/B02/knee_flex90.png": {
+      "bytes": 928803,
+      "sha256": "0926344d6c40eb3a2a9b9f36ed9b15e1663850c054e098bfd4ddeaa65c8d855c"
+    },
+    "build/male-neutral-b02/unity-001/playmode-evidence/transitions/idle_to_walk_00.png": {
+      "bytes": 115768,
+      "sha256": "065bd93a06dbf0c0fb319ae60efe7d9f89e4051ca9337212135aae8d0d92234d"
+    },
+    "build/male-neutral-b02/unity-001/playmode-evidence/transitions/idle_to_walk_02.png": {
+      "bytes": 114715,
+      "sha256": "a6b186207d8b5c4a402b1ec605948422168ac94e93dcca96635b1147d843b1bf"
+    },
+    "build/male-neutral-b02/unity-001/playmode-evidence/transitions/idle_to_walk_04.png": {
+      "bytes": 119895,
+      "sha256": "77dbdccc9e1c671c0fcb86a45d556501613ff3863b3e54fa237e269c5212b5d2"
+    },
+    "build/male-neutral-b02/unity-001/playmode-evidence/transitions/walk_to_run_00.png": {
+      "bytes": 113794,
+      "sha256": "b875a5901f32e727384092587a27ee3b547f1ef6073f28dcc777d13ed0dd0ed7"
+    },
+    "build/male-neutral-b02/unity-001/playmode-evidence/transitions/walk_to_run_02.png": {
+      "bytes": 117492,
+      "sha256": "2cd0fef556536e33c969248feb44a67951f2a0177e6976ee8c6d80cc49de2429"
+    },
+    "build/male-neutral-b02/unity-001/playmode-evidence/transitions/walk_to_run_04.png": {
+      "bytes": 110353,
+      "sha256": "6fc04c8b47261b835f1c2dd968ebc3119222b26ff1e37f80a00d1bd70827f47a"
+    },
+    "build/male-neutral-b02/unity-001/playmode-evidence/transitions/run_to_walk_00.png": {
+      "bytes": 104291,
+      "sha256": "11774be13bddc3a7c91c45edcb90e216385b16a004952fc97329717940e1f5b8"
+    },
+    "build/male-neutral-b02/unity-001/playmode-evidence/transitions/run_to_walk_02.png": {
+      "bytes": 114452,
+      "sha256": "c8a4fd119cfbf61ba37977e164c2698f6675e09e8ebd8531a47bca9ea179d0f8"
+    },
+    "build/male-neutral-b02/unity-001/playmode-evidence/transitions/run_to_walk_04.png": {
+      "bytes": 120008,
+      "sha256": "75c60cf80b484c7fea00e1e866f76b492671a25041a2952a1287f100b83de7d8"
+    },
+    "build/male-neutral-b02/unity-001/playmode-evidence/transitions/walk_to_idle_00.png": {
+      "bytes": 114295,
+      "sha256": "aee899a0c704df4c142efff1e6e62961a7fc26352396115b53b60a4b8fca6094"
+    },
+    "build/male-neutral-b02/unity-001/playmode-evidence/transitions/walk_to_idle_02.png": {
+      "bytes": 116133,
+      "sha256": "e067180456ca2927cccf6344a64bc8cfe4c44b0c503319c252aac63583a064d1"
+    },
+    "build/male-neutral-b02/unity-001/playmode-evidence/transitions/walk_to_idle_04.png": {
+      "bytes": 117289,
+      "sha256": "2f275a48638d13accd0eb6501aed1f72ce9f49e3105db55f1439e6a2ae9e6dad"
+    },
+    "build/male-neutral-b02/unity-001/playmode-evidence/transitions/idle_to_turn_00.png": {
+      "bytes": 117361,
+      "sha256": "0199d5bed463f30ee7251c5dc32d2281b8b3702230e83e5536f6162fc07f3375"
+    },
+    "build/male-neutral-b02/unity-001/playmode-evidence/transitions/idle_to_turn_02.png": {
+      "bytes": 119217,
+      "sha256": "4bc12b476a4ff1099707de2313f4e8c747337be39d84bce9c46ca488c562392d"
+    },
+    "build/male-neutral-b02/unity-001/playmode-evidence/transitions/idle_to_turn_04.png": {
+      "bytes": 116617,
+      "sha256": "b3671d9c1684359ad86988d0d8303e3318111942a523965d1f0183127a2a85d1"
+    }
+  },
+  "processing": "Only proportional resize/layout/labels; no pose/recolor/retouch.",
+  "out": "C:\\dir\\life-sim-art\\build\\male-neutral-a01-worktree\\build\\male-neutral-b02\\check-sheets-001"
+}

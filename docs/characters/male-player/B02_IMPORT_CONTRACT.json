@@ -1,0 +1,85 @@
+{
+  "schema": "willow-creek-b02-character-motion-review-1",
+  "assetId": "chr_player_male_poc_001",
+  "version": "male-neutral-b02-v0.2",
+  "status": "NO-GO playable integration; bounded B02 stopped with remaining elbow crease",
+  "triangles": 29367,
+  "meshCount": 10,
+  "materialCount": 9,
+  "bones": 58,
+  "baseBones": 52,
+  "supportJoints": 6,
+  "skin": "OrdinaryLBS, atmost4 normalized weights, bakedhalfangle elbow/knee/wrist supports",
+  "visualIdentity": "A03 rawgeometry/appearanceunchanged; matchedUnitybindfacefront/3q pixelsidentical",
+  "units": "meters",
+  "axes": {
+    "blender": "Z-up,-Yfront",
+    "gltfUnity": "Y-up,+Zfront;glTFastmirrorX conversion"
+  },
+  "pivot": "InheritedA03 feet-centeredneutralbind",
+  "clips": [
+    {
+      "name": "idle",
+      "seconds": 2,
+      "fps": 24,
+      "loopCandidate": true
+    },
+    {
+      "name": "walk",
+      "seconds": 1,
+      "fps": 24,
+      "loopCandidate": true
+    },
+    {
+      "name": "run",
+      "seconds": 0.75,
+      "fps": 24,
+      "loopCandidate": true
+    },
+    {
+      "name": "turn",
+      "seconds": 1.5,
+      "fps": 24,
+      "loopCandidate": false
+    }
+  ],
+  "rootMotion": "Inplaceidle/walk/run. Turn rotatesvisualskeleton90deg; gameplayyaw/rootmotionnotcertified. TinyGenericruntimeprobe hasapplyRootMotionfalse.",
+  "futureAnimationRequirement": "Bakecorrectsupportchannels fornewsources/retargetedclips; Humanoid doesnotautomaticallydrivehalfangle supports.",
+  "turnContact": {
+    "method": "B01same188+188solevertices,<3mmcontact,24fps",
+    "beforeMaxMps": 0.206781245301003,
+    "afterMaxMps": 6.819110210197518e-07,
+    "afterDense96fpsMaxMps": 0.008511359290037743,
+    "afterDenseMinimumHeightMeters": 2.4388693418586627e-05
+  },
+  "verified": [
+    "AnimatedGLBroundtrip",
+    "UnityURPskin/material/clip/reopen",
+    "ActualfourclipPlayMode",
+    "Fivebasic.2secondcrossfadesfinite/reachedtargets",
+    "Unchangedapprovedidentity",
+    "RepeatidenticalGLBbytes"
+  ],
+  "blockers": [
+    "Triangularinnerelbowcreaseandangularoutlineinactualrun",
+    "Kneeseam/fingerangularity remains",
+    "Transitionjerk/grounding/cadenceandgameplaycontroller speed/yaw notcertified"
+  ],
+  "notVerified": [
+    "Humanoid",
+    "Gameintegration",
+    "Newclipretargeting",
+    "Facialkeys",
+    "Wardrobe/bodyvariants",
+    "Shippingbuild/performance/collision/terrain"
+  ],
+  "nextProposal": "One localbendcorrectiveshape trial for elbow, exactsame runpose first; notperformed, noPhaseC",
+  "license": "CC-BY-4.0",
+  "credit": "Snow Rig (CC) Blender Foundation | studio.blender.org",
+  "sourceUrl": "https://studio.blender.org/characters/snow/v4/",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "glbSha256": "4faa2eec33d131b7fcdc4b41720e5abbd16e03eab594bf764f3d7ae041de3d33",
+  "gameChanges": false,
+  "merge": false,
+  "phaseC": false
+}

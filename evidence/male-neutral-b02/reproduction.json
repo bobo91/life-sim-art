@@ -1,0 +1,7 @@
+{
+  "schema": "male-b02-reproduction-1",
+  "sameGlbBytes": true,
+  "sameGeometryAppearanceWeightsSupportAndMotionReport": true,
+  "glbSha256": "4faa2eec33d131b7fcdc4b41720e5abbd16e03eab594bf764f3d7ae041de3d33",
+  "notClaimed": "Blend container bytes and a repeated full Unity/render sweep were not compared."
+}

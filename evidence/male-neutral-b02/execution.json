@@ -1,0 +1,38 @@
+{
+  "schema": "male-b02-execution-1",
+  "date": "2026-10-29",
+  "selected": "build/male-neutral-b02/delivery-001",
+  "jointChoice": "Localweight-only insufficient. Six supports selected; kneestrength reduced to.5 after full strength createdboxyfold. Not a fullrig rebuild.",
+  "turnChoice": "Two-step candidate passedslidemetricbut crossed projectedshoefootprints andwasrejected. Threeplacementsavoid crossing;32mmlift/longer liftsettle phases reduce peak kneespeed518to280deg/s;50micron poseclearance prevents numericalsubframepenetration.",
+  "b01DiagnosticCorrection": "B01 standalone knee-90 testwas hyperextension, not physiologicalflexion. Historicalbenchmarkkept,but newpaired+90flexionand ordinaryrun arejudgedseparately.",
+  "finalChecks": [
+    "Rawgeometry/UV/material/facepreserved,original52rest bonesunchanged",
+    "Blender savedsource and actualanimatedGLBreimport,5posesperclip",
+    "Source pairedsole188+188vertexmethod24fpsandadditional96fps",
+    "One identicalGLBrebuild and samecorrectionreport",
+    "Matched B01/B02 everydayreachgestureandnormalkneeflexionrenders",
+    "ActualUnityURP skin/material/clip/render/reopen;126near+126gameframes",
+    "ActualPlayModefourclips+five.2secondcrossfades"
+  ],
+  "remainingVisualProblem": "ActualUnityrunelbow stillhas triangular innercrease/outlinecorner despite area/volumebetter; nearviewNO-GO. Knee/wristimprovementsarepartial; no production-quality claim.",
+  "transitionLimit": "Finite/reachedtargets only; maxmonitoredvertexstepswithoutcadencenormalizedjerk/contactassertion do notprove smoothgroundedtransitions.",
+  "unperformed": [
+    "No localmeshretopology or newcorrectiveshape trial",
+    "No Humanoid/facial/wardrobe/controller/gameintegration",
+    "No PhaseC,purchase,merge,fullrigrebuild"
+  ],
+  "environment": {
+    "Blender": "4.5.14 LTS/Python3.11.15",
+    "systemPython": "3.14.6",
+    "unity": "6000.5.8f1",
+    "URP": "17.5.0",
+    "gltfast": "6.20.0",
+    "graphics": "D3D11",
+    "GPUInventory": [
+      "AMD Radeon RX9070XT",
+      "integrated AMD Radeon"
+    ],
+    "blenderStressRender": "CPU Cycles12samples; no BlenderGPU/Linuxexecutionclaim"
+  },
+  "editorWarnings": "Separate UnitySearch indexing exception,licensing tokenupdate warning andMonoshutdown messages retained in local logs; finalprobe errors empty. No rawlicensetokens published."
+}

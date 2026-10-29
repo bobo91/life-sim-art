@@ -1,0 +1,44 @@
+{
+  "schema": "male-b02-turn-footlock-1",
+  "turnDegrees": 90.0,
+  "steps": [
+    {
+      "side": "R",
+      "start": 0.05,
+      "end": 0.3,
+      "yawDegrees": 45.0,
+      "offsetXYMeters": [
+        -0.035,
+        -0.1
+      ]
+    },
+    {
+      "side": "L",
+      "start": 0.35,
+      "end": 0.63,
+      "yawDegrees": 90.0,
+      "offsetXYMeters": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "side": "R",
+      "start": 0.68,
+      "end": 0.94,
+      "yawDegrees": 90.0,
+      "offsetXYMeters": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "liftMeters": 0.032,
+  "liftPhase": 0.25,
+  "settlePhase": 0.75,
+  "source": "Preserved B01 52-joint adapter and turn upper-body pose",
+  "method": "Three small placements R45-outward, L90, R90. World-space stance ankle position/yaw locked. C2 quintic lift, raised planar/yaw transfer, C2 lowering. Existing analytic two-link legs, no stretch. The intermediate outward R anchor prevents crossing shoe footprints during a90degree two-foot rotation.",
+  "scope": "Turn only; existing idle/walk/run unchanged. No model/weight/bone changes or generic controller.",
+  "stanceClearanceMeters": 5e-05,
+  "clearanceNote": "Explicit0.05mm pose clearance prevents the measured0.0257mm subframe interpolation penetration. It is not a mesh modification."
+}

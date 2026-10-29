@@ -97,3 +97,16 @@ generic animation/clothing/character system, purchases, paid services or merge.
 If the source rig proves unsuitable, document it and propose a limited alternative
 before extensive rebuilding. Existing source licences/credit and script-isolation
 requirements remain. Stop at a documented playable-character GO/NO-GO review gate.
+
+## Owner-authorized B02 corrective pass (2026-10-29)
+
+The owner explicitly approves a bounded corrective pass on the existing approved
+A03/B01 derivative in draft PR39: local elbow/knee/wrist/hand weights first, a few
+support joints only with demonstrated improvement, turn foot locking, the same
+four clips and isolated Unity URP/PlayMode/transition evidence. Preserve accepted
+A03 face/hair/style and the 29,367-triangle starting mesh; retain A01/A02/A03/B01
+as history. No full Snow rebuild, generic system, new source or purchase, game
+changes, automatic merge or Phase C. If local corrections do not suffice, stop
+and propose the smallest further action. Source credit/licence and all unrelated
+repository rules remain. This named owner instruction overrides only the prior
+B01 review stop for the specified corrective work.
