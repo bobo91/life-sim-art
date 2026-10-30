@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "1.0",
+  "requestId": "WALTER-PORCH-001",
+  "assetId": "prop_old_watering_can_001",
+  "version": "0.1.0",
+  "seed": 6209,
+  "blenderVersion": "4.5.14",
+  "dimensionsMeters": [
+    0.5106,
+    0.384,
+    0.172
+  ],
+  "maxTriangles": 4000,
+  "preview": {
+    "resolution": 640,
+    "samples": 32
+  },
+  "palette": {
+    "metal": {
+      "color": "#74897C",
+      "roughness": 0.78,
+      "metallic": 0.3
+    },
+    "rim": {
+      "color": "#9AA18A",
+      "roughness": 0.83,
+      "metallic": 0.22
+    },
+    "handle": {
+      "color": "#566A61",
+      "roughness": 0.77,
+      "metallic": 0.35
+    },
+    "inside": {
+      "color": "#3C4F48",
+      "roughness": 0.92,
+      "metallic": 0.1
+    }
+  },
+  "collisionProposal": "Body-only optional small box; no pickup/liquid/pouring.",
+  "authoringNotes": {
+    "style": "Original warm aged timber, muted sage/terracotta; broad wear only. No external assets.",
+    "scope": "Static prop; meters, bottom-centre root, source+Zup/-Yfront, GLB+Yup/+Zfront. No game integration."
+  }
+}

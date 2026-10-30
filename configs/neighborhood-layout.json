@@ -1,0 +1,6928 @@
+{
+  "schema": "willow-neighborhood-layout-1",
+  "version": "0.1.0",
+  "seed": 8801,
+  "worldBoundsSourceXY": [
+    -18,
+    -18,
+    18,
+    18
+  ],
+  "coordinateSystem": {
+    "units": "meters",
+    "sourceUp": "+Z",
+    "sourceFront": "-Y",
+    "glTFUp": "+Y",
+    "glTFFront": "+Z",
+    "conversionSourceToGlTF": "(x,y,z)->(x,z,-y)",
+    "unityImporterHandedness": "Open game-owned decision; source/glTF coordinates explicit, no guessed Unity yaw"
+  },
+  "instances": [
+    {
+      "instanceId": "road_000",
+      "assetId": "env_road_600_001",
+      "positionSourceXYZ": [
+        -15,
+        0,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "road",
+      "static": true,
+      "positionGlTFXYZ": [
+        -15,
+        0,
+        0
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "road_001",
+      "assetId": "env_road_600_001",
+      "positionSourceXYZ": [
+        -9,
+        0,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "road",
+      "static": true,
+      "positionGlTFXYZ": [
+        -9,
+        0,
+        0
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "road_002",
+      "assetId": "env_road_600_001",
+      "positionSourceXYZ": [
+        -3,
+        0,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "road",
+      "static": true,
+      "positionGlTFXYZ": [
+        -3,
+        0,
+        0
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "road_003",
+      "assetId": "env_road_600_001",
+      "positionSourceXYZ": [
+        3,
+        0,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "road",
+      "static": true,
+      "positionGlTFXYZ": [
+        3,
+        0,
+        0
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "road_004",
+      "assetId": "env_road_600_001",
+      "positionSourceXYZ": [
+        9,
+        0,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "road",
+      "static": true,
+      "positionGlTFXYZ": [
+        9,
+        0,
+        0
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "road_005",
+      "assetId": "env_road_600_001",
+      "positionSourceXYZ": [
+        15,
+        0,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "road",
+      "static": true,
+      "positionGlTFXYZ": [
+        15,
+        0,
+        0
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_006",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        -17,
+        -4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        -17,
+        0,
+        4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_007",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        -17,
+        4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        -17,
+        0,
+        -4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "curb_008",
+      "assetId": "env_curb_200_001",
+      "positionSourceXYZ": [
+        -17,
+        -3.075,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "curb",
+      "static": true,
+      "positionGlTFXYZ": [
+        -17,
+        0,
+        3.075
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "curb_009",
+      "assetId": "env_curb_200_001",
+      "positionSourceXYZ": [
+        -17,
+        3.075,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "curb",
+      "static": true,
+      "positionGlTFXYZ": [
+        -17,
+        0,
+        -3.075
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_010",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        -15,
+        -4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        -15,
+        0,
+        4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_011",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        -15,
+        4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        -15,
+        0,
+        -4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "curb_012",
+      "assetId": "env_curb_200_001",
+      "positionSourceXYZ": [
+        -15,
+        -3.075,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "curb",
+      "static": true,
+      "positionGlTFXYZ": [
+        -15,
+        0,
+        3.075
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "curb_013",
+      "assetId": "env_curb_200_001",
+      "positionSourceXYZ": [
+        -15,
+        3.075,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "curb",
+      "static": true,
+      "positionGlTFXYZ": [
+        -15,
+        0,
+        -3.075
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_014",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        -13,
+        -4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        -13,
+        0,
+        4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_015",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        -13,
+        4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        -13,
+        0,
+        -4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "curb_016",
+      "assetId": "env_curb_200_001",
+      "positionSourceXYZ": [
+        -13,
+        -3.075,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "curb",
+      "static": true,
+      "positionGlTFXYZ": [
+        -13,
+        0,
+        3.075
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "curb_017",
+      "assetId": "env_curb_200_001",
+      "positionSourceXYZ": [
+        -13,
+        3.075,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "curb",
+      "static": true,
+      "positionGlTFXYZ": [
+        -13,
+        0,
+        -3.075
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_018",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        -11,
+        -4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        -11,
+        0,
+        4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_019",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        -11,
+        4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        -11,
+        0,
+        -4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "curb_020",
+      "assetId": "env_curb_200_001",
+      "positionSourceXYZ": [
+        -11,
+        -3.075,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "curb",
+      "static": true,
+      "positionGlTFXYZ": [
+        -11,
+        0,
+        3.075
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "curb_021",
+      "assetId": "env_curb_200_001",
+      "positionSourceXYZ": [
+        -11,
+        3.075,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "curb",
+      "static": true,
+      "positionGlTFXYZ": [
+        -11,
+        0,
+        -3.075
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_022",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        -9,
+        -4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        -9,
+        0,
+        4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_023",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        -9,
+        4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        -9,
+        0,
+        -4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_024",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        -5,
+        -4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        -5,
+        0,
+        4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_025",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        -5,
+        4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        -5,
+        0,
+        -4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "curb_026",
+      "assetId": "env_curb_200_001",
+      "positionSourceXYZ": [
+        -5,
+        -3.075,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "curb",
+      "static": true,
+      "positionGlTFXYZ": [
+        -5,
+        0,
+        3.075
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "curb_027",
+      "assetId": "env_curb_200_001",
+      "positionSourceXYZ": [
+        -5,
+        3.075,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "curb",
+      "static": true,
+      "positionGlTFXYZ": [
+        -5,
+        0,
+        -3.075
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_028",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        -3,
+        -4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        -3,
+        0,
+        4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_029",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        -3,
+        4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        -3,
+        0,
+        -4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "curb_030",
+      "assetId": "env_curb_200_001",
+      "positionSourceXYZ": [
+        -3,
+        -3.075,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "curb",
+      "static": true,
+      "positionGlTFXYZ": [
+        -3,
+        0,
+        3.075
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "curb_031",
+      "assetId": "env_curb_200_001",
+      "positionSourceXYZ": [
+        -3,
+        3.075,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "curb",
+      "static": true,
+      "positionGlTFXYZ": [
+        -3,
+        0,
+        -3.075
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_032",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        -1,
+        -4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        -1,
+        0,
+        4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_033",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        -1,
+        4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        -1,
+        0,
+        -4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "curb_034",
+      "assetId": "env_curb_200_001",
+      "positionSourceXYZ": [
+        -1,
+        -3.075,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "curb",
+      "static": true,
+      "positionGlTFXYZ": [
+        -1,
+        0,
+        3.075
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "curb_035",
+      "assetId": "env_curb_200_001",
+      "positionSourceXYZ": [
+        -1,
+        3.075,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "curb",
+      "static": true,
+      "positionGlTFXYZ": [
+        -1,
+        0,
+        -3.075
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_036",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        1,
+        -4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        1,
+        0,
+        4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_037",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        1,
+        4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        1,
+        0,
+        -4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "curb_038",
+      "assetId": "env_curb_200_001",
+      "positionSourceXYZ": [
+        1,
+        -3.075,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "curb",
+      "static": true,
+      "positionGlTFXYZ": [
+        1,
+        0,
+        3.075
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "curb_039",
+      "assetId": "env_curb_200_001",
+      "positionSourceXYZ": [
+        1,
+        3.075,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "curb",
+      "static": true,
+      "positionGlTFXYZ": [
+        1,
+        0,
+        -3.075
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_040",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        3,
+        -4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        3,
+        0,
+        4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_041",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        3,
+        4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        3,
+        0,
+        -4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "curb_042",
+      "assetId": "env_curb_200_001",
+      "positionSourceXYZ": [
+        3,
+        -3.075,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "curb",
+      "static": true,
+      "positionGlTFXYZ": [
+        3,
+        0,
+        3.075
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "curb_043",
+      "assetId": "env_curb_200_001",
+      "positionSourceXYZ": [
+        3,
+        3.075,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "curb",
+      "static": true,
+      "positionGlTFXYZ": [
+        3,
+        0,
+        -3.075
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_044",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        5,
+        -4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        5,
+        0,
+        4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_045",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        5,
+        4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        5,
+        0,
+        -4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "curb_046",
+      "assetId": "env_curb_200_001",
+      "positionSourceXYZ": [
+        5,
+        -3.075,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "curb",
+      "static": true,
+      "positionGlTFXYZ": [
+        5,
+        0,
+        3.075
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "curb_047",
+      "assetId": "env_curb_200_001",
+      "positionSourceXYZ": [
+        5,
+        3.075,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "curb",
+      "static": true,
+      "positionGlTFXYZ": [
+        5,
+        0,
+        -3.075
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_048",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        7,
+        -4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        7,
+        0,
+        4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_049",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        7,
+        4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        7,
+        0,
+        -4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "curb_050",
+      "assetId": "env_curb_200_001",
+      "positionSourceXYZ": [
+        7,
+        -3.075,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "curb",
+      "static": true,
+      "positionGlTFXYZ": [
+        7,
+        0,
+        3.075
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "curb_051",
+      "assetId": "env_curb_200_001",
+      "positionSourceXYZ": [
+        7,
+        3.075,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "curb",
+      "static": true,
+      "positionGlTFXYZ": [
+        7,
+        0,
+        -3.075
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_052",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        9,
+        -4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        9,
+        0,
+        4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_053",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        9,
+        4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        9,
+        0,
+        -4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "curb_054",
+      "assetId": "env_curb_200_001",
+      "positionSourceXYZ": [
+        9,
+        -3.075,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "curb",
+      "static": true,
+      "positionGlTFXYZ": [
+        9,
+        0,
+        3.075
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "curb_055",
+      "assetId": "env_curb_200_001",
+      "positionSourceXYZ": [
+        9,
+        3.075,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "curb",
+      "static": true,
+      "positionGlTFXYZ": [
+        9,
+        0,
+        -3.075
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_056",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        11,
+        -4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        11,
+        0,
+        4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_057",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        11,
+        4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        11,
+        0,
+        -4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "curb_058",
+      "assetId": "env_curb_200_001",
+      "positionSourceXYZ": [
+        11,
+        -3.075,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "curb",
+      "static": true,
+      "positionGlTFXYZ": [
+        11,
+        0,
+        3.075
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "curb_059",
+      "assetId": "env_curb_200_001",
+      "positionSourceXYZ": [
+        11,
+        3.075,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "curb",
+      "static": true,
+      "positionGlTFXYZ": [
+        11,
+        0,
+        -3.075
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_060",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        13,
+        -4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        13,
+        0,
+        4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_061",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        13,
+        4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        13,
+        0,
+        -4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "curb_062",
+      "assetId": "env_curb_200_001",
+      "positionSourceXYZ": [
+        13,
+        -3.075,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "curb",
+      "static": true,
+      "positionGlTFXYZ": [
+        13,
+        0,
+        3.075
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "curb_063",
+      "assetId": "env_curb_200_001",
+      "positionSourceXYZ": [
+        13,
+        3.075,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "curb",
+      "static": true,
+      "positionGlTFXYZ": [
+        13,
+        0,
+        -3.075
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_064",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        15,
+        -4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        15,
+        0,
+        4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_065",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        15,
+        4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        15,
+        0,
+        -4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "curb_066",
+      "assetId": "env_curb_200_001",
+      "positionSourceXYZ": [
+        15,
+        -3.075,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "curb",
+      "static": true,
+      "positionGlTFXYZ": [
+        15,
+        0,
+        3.075
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "curb_067",
+      "assetId": "env_curb_200_001",
+      "positionSourceXYZ": [
+        15,
+        3.075,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "curb",
+      "static": true,
+      "positionGlTFXYZ": [
+        15,
+        0,
+        -3.075
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_068",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        17,
+        -4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        17,
+        0,
+        4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_069",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        17,
+        4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        17,
+        0,
+        -4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "curb_070",
+      "assetId": "env_curb_200_001",
+      "positionSourceXYZ": [
+        17,
+        -3.075,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "curb",
+      "static": true,
+      "positionGlTFXYZ": [
+        17,
+        0,
+        3.075
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "curb_071",
+      "assetId": "env_curb_200_001",
+      "positionSourceXYZ": [
+        17,
+        3.075,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "curb",
+      "static": true,
+      "positionGlTFXYZ": [
+        17,
+        0,
+        -3.075
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "road_markings_072",
+      "assetId": "env_crosswalk_001",
+      "positionSourceXYZ": [
+        -7,
+        0,
+        0.022
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "road.markings",
+      "static": true,
+      "positionGlTFXYZ": [
+        -7,
+        0.022,
+        0
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "building_walter_073",
+      "assetId": "walter-house",
+      "positionSourceXYZ": [
+        -11,
+        8,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "building.walter",
+      "static": true,
+      "futureInteraction": "door; separate leaf; no behavior",
+      "entranceId": "entry_walter",
+      "interactiveChildren": [
+        "component=door_leaf"
+      ],
+      "positionGlTFXYZ": [
+        -11,
+        0,
+        -8
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "building_neighbor_074",
+      "assetId": "alternate-house",
+      "positionSourceXYZ": [
+        2,
+        8,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "building.neighbor",
+      "static": true,
+      "futureInteraction": "door; separate leaf; no behavior",
+      "interactiveChildren": [
+        "component=door_leaf"
+      ],
+      "positionGlTFXYZ": [
+        2,
+        0,
+        -8
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "building_cafe_075",
+      "assetId": "cafe-building",
+      "positionSourceXYZ": [
+        10,
+        -8,
+        0
+      ],
+      "rotationZDegrees": 180,
+      "uniformScale": 1,
+      "group": "building.cafe",
+      "static": true,
+      "futureInteraction": "door; separate leaf; no behavior",
+      "entranceId": "entry_cafe",
+      "interactiveChildren": [
+        "component=door_leaf"
+      ],
+      "positionGlTFXYZ": [
+        10,
+        0,
+        8
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        1.0,
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "instanceId": "cafe_terrace_076",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        6,
+        -6,
+        -0.01
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "cafe.terrace",
+      "static": true,
+      "positionGlTFXYZ": [
+        6,
+        -0.01,
+        6
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "cafe_terrace_077",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        6,
+        -8,
+        -0.01
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "cafe.terrace",
+      "static": true,
+      "positionGlTFXYZ": [
+        6,
+        -0.01,
+        8
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "cafe_terrace_078",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        8,
+        -6,
+        -0.01
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "cafe.terrace",
+      "static": true,
+      "positionGlTFXYZ": [
+        8,
+        -0.01,
+        6
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "cafe_terrace_079",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        8,
+        -8,
+        -0.01
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "cafe.terrace",
+      "static": true,
+      "positionGlTFXYZ": [
+        8,
+        -0.01,
+        8
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "cafe_terrace_080",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        10,
+        -6,
+        -0.01
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "cafe.terrace",
+      "static": true,
+      "positionGlTFXYZ": [
+        10,
+        -0.01,
+        6
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "cafe_terrace_081",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        10,
+        -8,
+        -0.01
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "cafe.terrace",
+      "static": true,
+      "positionGlTFXYZ": [
+        10,
+        -0.01,
+        8
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "cafe_terrace_082",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        12,
+        -6,
+        -0.01
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "cafe.terrace",
+      "static": true,
+      "positionGlTFXYZ": [
+        12,
+        -0.01,
+        6
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "cafe_terrace_083",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        12,
+        -8,
+        -0.01
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "cafe.terrace",
+      "static": true,
+      "positionGlTFXYZ": [
+        12,
+        -0.01,
+        8
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "cafe_terrace_084",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        14,
+        -6,
+        -0.01
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "cafe.terrace",
+      "static": true,
+      "positionGlTFXYZ": [
+        14,
+        -0.01,
+        6
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "cafe_terrace_085",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        14,
+        -8,
+        -0.01
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "cafe.terrace",
+      "static": true,
+      "positionGlTFXYZ": [
+        14,
+        -0.01,
+        8
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_086",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        -11,
+        6,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        -11,
+        0,
+        -6
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_087",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        2,
+        6,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        2,
+        0,
+        -6
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walkway_088",
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        -1,
+        6,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway",
+      "static": true,
+      "positionGlTFXYZ": [
+        -1,
+        0,
+        -6
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "cafe_edge_089",
+      "assetId": "env_sidewalk_corner_001",
+      "positionSourceXYZ": [
+        4,
+        -8,
+        -0.01
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "cafe.edge",
+      "static": true,
+      "positionGlTFXYZ": [
+        4,
+        -0.01,
+        8
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "cafe_edge_090",
+      "assetId": "env_sidewalk_corner_001",
+      "positionSourceXYZ": [
+        16,
+        -8,
+        -0.01
+      ],
+      "rotationZDegrees": 90,
+      "uniformScale": 1,
+      "group": "cafe.edge",
+      "static": true,
+      "positionGlTFXYZ": [
+        16,
+        -0.01,
+        8
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.707106781187,
+        -0.0,
+        0.707106781187
+      ]
+    },
+    {
+      "instanceId": "walter_props_091",
+      "assetId": "prop_porch_rocking_chair_001",
+      "positionSourceXYZ": [
+        -13.25,
+        7.3,
+        0.6
+      ],
+      "rotationZDegrees": -8,
+      "uniformScale": 1,
+      "group": "walter.props",
+      "static": true,
+      "rotationXDegrees": 0,
+      "futureInteraction": null,
+      "positionGlTFXYZ": [
+        -13.25,
+        0.6,
+        -7.3
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        -0.069756473744,
+        0.0,
+        0.99756405026
+      ]
+    },
+    {
+      "instanceId": "walter_props_092",
+      "assetId": "prop_porch_bench_001",
+      "positionSourceXYZ": [
+        -12.2,
+        7.54,
+        0.6
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walter.props",
+      "static": true,
+      "rotationXDegrees": 0,
+      "futureInteraction": null,
+      "positionGlTFXYZ": [
+        -12.2,
+        0.6,
+        -7.54
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walter_props_093",
+      "assetId": "prop_flower_pot_001",
+      "positionSourceXYZ": [
+        -13.63,
+        6.43,
+        0.6
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walter.props",
+      "static": true,
+      "rotationXDegrees": 0,
+      "futureInteraction": null,
+      "positionGlTFXYZ": [
+        -13.63,
+        0.6,
+        -6.43
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walter_props_094",
+      "assetId": "prop_old_watering_can_001",
+      "positionSourceXYZ": [
+        -12.97,
+        6.55,
+        0.6
+      ],
+      "rotationZDegrees": -20,
+      "uniformScale": 1,
+      "group": "walter.props",
+      "static": true,
+      "rotationXDegrees": 0,
+      "futureInteraction": null,
+      "positionGlTFXYZ": [
+        -12.97,
+        0.6,
+        -6.55
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        -0.173648177667,
+        0.0,
+        0.984807753012
+      ]
+    },
+    {
+      "instanceId": "walter_props_095",
+      "assetId": "prop_wooden_crate_001",
+      "positionSourceXYZ": [
+        -10.2,
+        7.48,
+        0.92
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walter.props",
+      "static": true,
+      "rotationXDegrees": 180,
+      "futureInteraction": null,
+      "positionGlTFXYZ": [
+        -10.2,
+        0.92,
+        -7.48
+      ],
+      "rotationGlTFXYZW": [
+        1.0,
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "instanceId": "walter_props_096",
+      "assetId": "prop_flower_pot_002",
+      "positionSourceXYZ": [
+        -10.2,
+        7.48,
+        0.9205
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walter.props",
+      "static": true,
+      "rotationXDegrees": 0,
+      "futureInteraction": null,
+      "positionGlTFXYZ": [
+        -10.2,
+        0.9205,
+        -7.48
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walter_props_097",
+      "assetId": "prop_welcome_mat_001",
+      "positionSourceXYZ": [
+        -11,
+        7.57,
+        0.6005
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walter.props",
+      "static": true,
+      "rotationXDegrees": 0,
+      "futureInteraction": null,
+      "positionGlTFXYZ": [
+        -11,
+        0.6005,
+        -7.57
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walter_props_098",
+      "assetId": "prop_porch_lantern_001",
+      "positionSourceXYZ": [
+        -10.22,
+        7.752,
+        2.3
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walter.props",
+      "static": true,
+      "rotationXDegrees": 0,
+      "futureInteraction": null,
+      "attachment": {
+        "parentInstanceId": "building_walter_073",
+        "hideWithGroup": "wall.south",
+        "preserveWorldTransform": true
+      },
+      "positionGlTFXYZ": [
+        -10.22,
+        2.3,
+        -7.752
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walter_props_099",
+      "assetId": "prop_mailbox_001",
+      "positionSourceXYZ": [
+        -14.5,
+        4.65,
+        0.12
+      ],
+      "rotationZDegrees": -6,
+      "uniformScale": 1,
+      "group": "walter.props",
+      "static": false,
+      "rotationXDegrees": 0,
+      "futureInteraction": "mail prompt required",
+      "positionGlTFXYZ": [
+        -14.5,
+        0.12,
+        -4.65
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        -0.052335956243,
+        0.0,
+        0.998629534755
+      ]
+    },
+    {
+      "instanceId": "walter_fence_100",
+      "assetId": "prop_wooden_fence_001",
+      "positionSourceXYZ": [
+        -16.55,
+        5.5,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walter.fence",
+      "static": true,
+      "positionGlTFXYZ": [
+        -16.55,
+        0,
+        -5.5
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walter_fence_101",
+      "assetId": "prop_wooden_fence_001",
+      "positionSourceXYZ": [
+        -4.75,
+        5.5,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walter.fence",
+      "static": true,
+      "positionGlTFXYZ": [
+        -4.75,
+        0,
+        -5.5
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walter_fence_102",
+      "assetId": "prop_fence_post_001",
+      "positionSourceXYZ": [
+        -17.3,
+        5.5,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walter.fence",
+      "static": true,
+      "positionGlTFXYZ": [
+        -17.3,
+        0,
+        -5.5
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walter_fence_103",
+      "assetId": "prop_fence_post_001",
+      "positionSourceXYZ": [
+        -15.8,
+        5.5,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walter.fence",
+      "static": true,
+      "positionGlTFXYZ": [
+        -15.8,
+        0,
+        -5.5
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walter_fence_104",
+      "assetId": "prop_fence_post_001",
+      "positionSourceXYZ": [
+        -5.5,
+        5.5,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walter.fence",
+      "static": true,
+      "positionGlTFXYZ": [
+        -5.5,
+        0,
+        -5.5
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "walter_fence_105",
+      "assetId": "prop_fence_post_001",
+      "positionSourceXYZ": [
+        -4,
+        5.5,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walter.fence",
+      "static": true,
+      "positionGlTFXYZ": [
+        -4,
+        0,
+        -5.5
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "street_furniture_106",
+      "assetId": "prop_porch_bench_001",
+      "positionSourceXYZ": [
+        -1,
+        6,
+        0.12
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "street.furniture",
+      "static": true,
+      "positionGlTFXYZ": [
+        -1,
+        0.12,
+        -6
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "cafe_seating_107",
+      "assetId": "prop_cafe_table_001",
+      "positionSourceXYZ": [
+        6.6,
+        -6.9,
+        0.11
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "cafe.seating",
+      "static": true,
+      "positionGlTFXYZ": [
+        6.6,
+        0.11,
+        6.9
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "cafe_seating_108",
+      "assetId": "prop_cafe_chair_001",
+      "positionSourceXYZ": [
+        5.96,
+        -6.9,
+        0.11
+      ],
+      "rotationZDegrees": 90,
+      "uniformScale": 1,
+      "group": "cafe.seating",
+      "static": true,
+      "positionGlTFXYZ": [
+        5.96,
+        0.11,
+        6.9
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.707106781187,
+        -0.0,
+        0.707106781187
+      ]
+    },
+    {
+      "instanceId": "cafe_seating_109",
+      "assetId": "prop_cafe_chair_001",
+      "positionSourceXYZ": [
+        7.239999999999999,
+        -6.9,
+        0.11
+      ],
+      "rotationZDegrees": -90,
+      "uniformScale": 1,
+      "group": "cafe.seating",
+      "static": true,
+      "positionGlTFXYZ": [
+        7.239999999999999,
+        0.11,
+        6.9
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        -0.707106781187,
+        0.0,
+        0.707106781187
+      ]
+    },
+    {
+      "instanceId": "cafe_seating_110",
+      "assetId": "prop_cafe_tablecloth_001",
+      "positionSourceXYZ": [
+        6.6,
+        -6.9,
+        0.6809999999999999
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "cafe.seating",
+      "static": true,
+      "positionGlTFXYZ": [
+        6.6,
+        0.6809999999999999,
+        6.9
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "cafe_seating_111",
+      "assetId": "prop_cafe_cup_001",
+      "positionSourceXYZ": [
+        6.39,
+        -6.98,
+        0.8535
+      ],
+      "rotationZDegrees": 90,
+      "uniformScale": 1,
+      "group": "cafe.seating",
+      "static": true,
+      "positionGlTFXYZ": [
+        6.39,
+        0.8535,
+        6.98
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.707106781187,
+        -0.0,
+        0.707106781187
+      ]
+    },
+    {
+      "instanceId": "cafe_seating_112",
+      "assetId": "prop_cafe_cup_001",
+      "positionSourceXYZ": [
+        6.81,
+        -6.82,
+        0.8535
+      ],
+      "rotationZDegrees": -90,
+      "uniformScale": 1,
+      "group": "cafe.seating",
+      "static": true,
+      "positionGlTFXYZ": [
+        6.81,
+        0.8535,
+        6.82
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        -0.707106781187,
+        0.0,
+        0.707106781187
+      ]
+    },
+    {
+      "instanceId": "cafe_seating_113",
+      "assetId": "prop_cafe_parasol_001",
+      "positionSourceXYZ": [
+        5.6499999999999995,
+        -6.300000000000001,
+        0.11
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "cafe.seating",
+      "static": true,
+      "positionGlTFXYZ": [
+        5.6499999999999995,
+        0.11,
+        6.300000000000001
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "cafe_seating_114",
+      "assetId": "prop_cafe_table_001",
+      "positionSourceXYZ": [
+        14,
+        -5.5,
+        0.11
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "cafe.seating",
+      "static": true,
+      "positionGlTFXYZ": [
+        14,
+        0.11,
+        5.5
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "cafe_seating_115",
+      "assetId": "prop_cafe_chair_001",
+      "positionSourceXYZ": [
+        13.36,
+        -5.5,
+        0.11
+      ],
+      "rotationZDegrees": 90,
+      "uniformScale": 1,
+      "group": "cafe.seating",
+      "static": true,
+      "positionGlTFXYZ": [
+        13.36,
+        0.11,
+        5.5
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.707106781187,
+        -0.0,
+        0.707106781187
+      ]
+    },
+    {
+      "instanceId": "cafe_seating_116",
+      "assetId": "prop_cafe_chair_001",
+      "positionSourceXYZ": [
+        14.64,
+        -5.5,
+        0.11
+      ],
+      "rotationZDegrees": -90,
+      "uniformScale": 1,
+      "group": "cafe.seating",
+      "static": true,
+      "positionGlTFXYZ": [
+        14.64,
+        0.11,
+        5.5
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        -0.707106781187,
+        0.0,
+        0.707106781187
+      ]
+    },
+    {
+      "instanceId": "cafe_seating_117",
+      "assetId": "prop_cafe_table_001",
+      "positionSourceXYZ": [
+        13.4,
+        -6.9,
+        0.11
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "cafe.seating",
+      "static": true,
+      "positionGlTFXYZ": [
+        13.4,
+        0.11,
+        6.9
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "cafe_seating_118",
+      "assetId": "prop_cafe_chair_001",
+      "positionSourceXYZ": [
+        12.76,
+        -6.9,
+        0.11
+      ],
+      "rotationZDegrees": 90,
+      "uniformScale": 1,
+      "group": "cafe.seating",
+      "static": true,
+      "positionGlTFXYZ": [
+        12.76,
+        0.11,
+        6.9
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.707106781187,
+        -0.0,
+        0.707106781187
+      ]
+    },
+    {
+      "instanceId": "cafe_seating_119",
+      "assetId": "prop_cafe_chair_001",
+      "positionSourceXYZ": [
+        14.040000000000001,
+        -6.9,
+        0.11
+      ],
+      "rotationZDegrees": -90,
+      "uniformScale": 1,
+      "group": "cafe.seating",
+      "static": true,
+      "positionGlTFXYZ": [
+        14.040000000000001,
+        0.11,
+        6.9
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        -0.707106781187,
+        0.0,
+        0.707106781187
+      ]
+    },
+    {
+      "instanceId": "cafe_seating_120",
+      "assetId": "prop_cafe_tablecloth_001",
+      "positionSourceXYZ": [
+        13.4,
+        -6.9,
+        0.6809999999999999
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "cafe.seating",
+      "static": true,
+      "positionGlTFXYZ": [
+        13.4,
+        0.6809999999999999,
+        6.9
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "cafe_seating_121",
+      "assetId": "prop_cafe_cup_001",
+      "positionSourceXYZ": [
+        13.19,
+        -6.98,
+        0.8535
+      ],
+      "rotationZDegrees": 90,
+      "uniformScale": 1,
+      "group": "cafe.seating",
+      "static": true,
+      "positionGlTFXYZ": [
+        13.19,
+        0.8535,
+        6.98
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.707106781187,
+        -0.0,
+        0.707106781187
+      ]
+    },
+    {
+      "instanceId": "cafe_seating_122",
+      "assetId": "prop_cafe_cup_001",
+      "positionSourceXYZ": [
+        13.610000000000001,
+        -6.82,
+        0.8535
+      ],
+      "rotationZDegrees": -90,
+      "uniformScale": 1,
+      "group": "cafe.seating",
+      "static": true,
+      "positionGlTFXYZ": [
+        13.610000000000001,
+        0.8535,
+        6.82
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        -0.707106781187,
+        0.0,
+        0.707106781187
+      ]
+    },
+    {
+      "instanceId": "cafe_seating_123",
+      "assetId": "prop_cafe_parasol_001",
+      "positionSourceXYZ": [
+        12.450000000000001,
+        -6.300000000000001,
+        0.11
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "cafe.seating",
+      "static": true,
+      "positionGlTFXYZ": [
+        12.450000000000001,
+        0.11,
+        6.300000000000001
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "cafe_interior_124",
+      "assetId": "prop_cafe_counter_001",
+      "positionSourceXYZ": [
+        12,
+        -11,
+        0.12
+      ],
+      "rotationZDegrees": -90,
+      "uniformScale": 1,
+      "group": "cafe.interior",
+      "static": true,
+      "positionGlTFXYZ": [
+        12,
+        0.12,
+        11
+      ],
+      "rotationGlTFXYZW": [
+        0,
+        -0.707106781187,
+        0,
+        0.707106781187
+      ],
+      "placementNote": "Service face points into the cafe room (-X source/world), rear shelf toward east wall."
+    },
+    {
+      "instanceId": "cafe_interior_125",
+      "assetId": "prop_tin_001",
+      "positionSourceXYZ": [
+        11.9,
+        -10.5,
+        1.1405
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "cafe.interior",
+      "static": false,
+      "futureInteraction": "quest tin placeholder",
+      "positionGlTFXYZ": [
+        11.9,
+        1.1405,
+        10.5
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "street_lighting_126",
+      "assetId": "prop_streetlamp_pipeline_001",
+      "positionSourceXYZ": [
+        -16.5,
+        3.9,
+        0.12
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "street.lighting",
+      "static": true,
+      "positionGlTFXYZ": [
+        -16.5,
+        0.12,
+        -3.9
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "street_lighting_127",
+      "assetId": "prop_streetlamp_pipeline_001",
+      "positionSourceXYZ": [
+        -2,
+        3.9,
+        0.12
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "street.lighting",
+      "static": true,
+      "positionGlTFXYZ": [
+        -2,
+        0.12,
+        -3.9
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "street_lighting_128",
+      "assetId": "prop_streetlamp_pipeline_001",
+      "positionSourceXYZ": [
+        17,
+        -3.9,
+        0.12
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "street.lighting",
+      "static": true,
+      "positionGlTFXYZ": [
+        17,
+        0.12,
+        3.9
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "street_sign_129",
+      "assetId": "prop_street_name_001",
+      "positionSourceXYZ": [
+        -5.15,
+        -4.35,
+        0.12
+      ],
+      "rotationZDegrees": 180,
+      "uniformScale": 1,
+      "group": "street.sign",
+      "static": true,
+      "positionGlTFXYZ": [
+        -5.15,
+        0.12,
+        4.35
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        1.0,
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "instanceId": "vegetation_trees_130",
+      "assetId": "env_deciduous_tree_001",
+      "positionSourceXYZ": [
+        -16.7,
+        15,
+        0
+      ],
+      "rotationZDegrees": 17,
+      "uniformScale": 1.08,
+      "group": "vegetation.trees",
+      "static": true,
+      "positionGlTFXYZ": [
+        -16.7,
+        0,
+        -15
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.14780941113,
+        -0.0,
+        0.989015863362
+      ]
+    },
+    {
+      "instanceId": "vegetation_trees_131",
+      "assetId": "env_deciduous_tree_001",
+      "positionSourceXYZ": [
+        -7,
+        17,
+        0
+      ],
+      "rotationZDegrees": -23,
+      "uniformScale": 0.93,
+      "group": "vegetation.trees",
+      "static": true,
+      "positionGlTFXYZ": [
+        -7,
+        0,
+        -17
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        -0.199367934417,
+        0.0,
+        0.979924704621
+      ]
+    },
+    {
+      "instanceId": "vegetation_trees_132",
+      "assetId": "env_deciduous_tree_001",
+      "positionSourceXYZ": [
+        9,
+        17,
+        0
+      ],
+      "rotationZDegrees": 43,
+      "uniformScale": 1.02,
+      "group": "vegetation.trees",
+      "static": true,
+      "positionGlTFXYZ": [
+        9,
+        0,
+        -17
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.366501226724,
+        -0.0,
+        0.930417567982
+      ]
+    },
+    {
+      "instanceId": "vegetation_trees_133",
+      "assetId": "env_deciduous_tree_001",
+      "positionSourceXYZ": [
+        16.5,
+        -14,
+        0
+      ],
+      "rotationZDegrees": 11,
+      "uniformScale": 1.05,
+      "group": "vegetation.trees",
+      "static": true,
+      "positionGlTFXYZ": [
+        16.5,
+        0,
+        14
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.09584575252,
+        -0.0,
+        0.995396198367
+      ]
+    },
+    {
+      "instanceId": "vegetation_trees_134",
+      "assetId": "env_small_tree_001",
+      "positionSourceXYZ": [
+        -16.7,
+        7,
+        0
+      ],
+      "rotationZDegrees": 25,
+      "uniformScale": 0.95,
+      "group": "vegetation.trees",
+      "static": true,
+      "positionGlTFXYZ": [
+        -16.7,
+        0,
+        -7
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.216439613938,
+        -0.0,
+        0.97629600712
+      ]
+    },
+    {
+      "instanceId": "vegetation_trees_135",
+      "assetId": "env_small_tree_001",
+      "positionSourceXYZ": [
+        -3,
+        12,
+        0
+      ],
+      "rotationZDegrees": -35,
+      "uniformScale": 1.07,
+      "group": "vegetation.trees",
+      "static": true,
+      "positionGlTFXYZ": [
+        -3,
+        0,
+        -12
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        -0.300705799504,
+        0.0,
+        0.953716950748
+      ]
+    },
+    {
+      "instanceId": "vegetation_trees_136",
+      "assetId": "env_small_tree_001",
+      "positionSourceXYZ": [
+        4,
+        -15,
+        0
+      ],
+      "rotationZDegrees": 8,
+      "uniformScale": 1.05,
+      "group": "vegetation.trees",
+      "static": true,
+      "positionGlTFXYZ": [
+        4,
+        0,
+        15
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.069756473744,
+        -0.0,
+        0.99756405026
+      ]
+    },
+    {
+      "instanceId": "vegetation_trees_137",
+      "assetId": "env_small_tree_001",
+      "positionSourceXYZ": [
+        -16,
+        -9,
+        0
+      ],
+      "rotationZDegrees": -13,
+      "uniformScale": 1.12,
+      "group": "vegetation.trees",
+      "static": true,
+      "positionGlTFXYZ": [
+        -16,
+        0,
+        9
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        -0.113203213768,
+        0.0,
+        0.993571855677
+      ]
+    },
+    {
+      "instanceId": "vegetation_trees_138",
+      "assetId": "env_small_tree_001",
+      "positionSourceXYZ": [
+        16,
+        8,
+        0
+      ],
+      "rotationZDegrees": 51,
+      "uniformScale": 0.9,
+      "group": "vegetation.trees",
+      "static": true,
+      "positionGlTFXYZ": [
+        16,
+        0,
+        -8
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.430511096808,
+        -0.0,
+        0.90258528435
+      ]
+    },
+    {
+      "instanceId": "vegetation_beds_139",
+      "assetId": "env_shrub_002",
+      "positionSourceXYZ": [
+        -16.7,
+        9,
+        0.045
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 0.85,
+      "group": "vegetation.beds",
+      "static": true,
+      "positionGlTFXYZ": [
+        -16.7,
+        0.045,
+        -9
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "instanceId": "vegetation_beds_140",
+      "assetId": "env_shrub_001",
+      "positionSourceXYZ": [
+        -16.7,
+        11.1,
+        0.045
+      ],
+      "rotationZDegrees": 31,
+      "uniformScale": 0.9299999999999999,
+      "group": "vegetation.beds",
+      "static": true,
+      "positionGlTFXYZ": [
+        -16.7,
+        0.045,
+        -11.1
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.267238376078,
+        -0.0,
+        0.963630453209
+      ]
+    },
+    {
+      "instanceId": "vegetation_beds_141",
+      "assetId": "env_shrub_001",
+      "positionSourceXYZ": [
+        -6,
+        7,
+        0.045
+      ],
+      "rotationZDegrees": 62,
+      "uniformScale": 1.01,
+      "group": "vegetation.beds",
+      "static": true,
+      "positionGlTFXYZ": [
+        -6,
+        0.045,
+        -7
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.51503807491,
+        -0.0,
+        0.857167300702
+      ]
+    },
+    {
+      "instanceId": "vegetation_beds_142",
+      "assetId": "env_shrub_002",
+      "positionSourceXYZ": [
+        -5.2,
+        8.8,
+        0.045
+      ],
+      "rotationZDegrees": 93,
+      "uniformScale": 1.0899999999999999,
+      "group": "vegetation.beds",
+      "static": true,
+      "positionGlTFXYZ": [
+        -5.2,
+        0.045,
+        -8.8
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.725374371012,
+        -0.0,
+        0.688354575694
+      ]
+    },
+    {
+      "instanceId": "vegetation_beds_143",
+      "assetId": "env_shrub_001",
+      "positionSourceXYZ": [
+        -4,
+        16,
+        0.045
+      ],
+      "rotationZDegrees": 124,
+      "uniformScale": 0.85,
+      "group": "vegetation.beds",
+      "static": true,
+      "positionGlTFXYZ": [
+        -4,
+        0.045,
+        -16
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.882947592859,
+        -0.0,
+        0.469471562786
+      ]
+    },
+    {
+      "instanceId": "vegetation_beds_144",
+      "assetId": "env_shrub_001",
+      "positionSourceXYZ": [
+        6.3,
+        6.5,
+        0.045
+      ],
+      "rotationZDegrees": 155,
+      "uniformScale": 0.9299999999999999,
+      "group": "vegetation.beds",
+      "static": true,
+      "positionGlTFXYZ": [
+        6.3,
+        0.045,
+        -6.5
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.97629600712,
+        -0.0,
+        0.216439613938
+      ]
+    },
+    {
+      "instanceId": "vegetation_beds_145",
+      "assetId": "env_shrub_002",
+      "positionSourceXYZ": [
+        7.6,
+        7.1,
+        0.045
+      ],
+      "rotationZDegrees": 186,
+      "uniformScale": 1.01,
+      "group": "vegetation.beds",
+      "static": true,
+      "positionGlTFXYZ": [
+        7.6,
+        0.045,
+        -7.1
+      ],
+      "rotationGlTFXYZW": [
+        -0.0,
+        0.998629534755,
+        -0.0,
+        -0.052335956243
+      ]
+    },
+    {
+      "instanceId": "vegetation_beds_146",
+      "assetId": "env_shrub_001",
+      "positionSourceXYZ": [
+        8.9,
+        7.4,
+        0.045
+      ],
+      "rotationZDegrees": 217,
+      "uniformScale": 1.0899999999999999,
+      "group": "vegetation.beds",
+      "static": true,
+      "positionGlTFXYZ": [
+        8.9,
+        0.045,
+        -7.4
+      ],
+      "rotationGlTFXYZW": [
+        -0.0,
+        0.948323655206,
+        -0.0,
+        -0.317304656405
+      ]
+    },
+    {
+      "instanceId": "vegetation_beds_147",
+      "assetId": "env_shrub_001",
+      "positionSourceXYZ": [
+        11.6,
+        16.2,
+        0.045
+      ],
+      "rotationZDegrees": 248,
+      "uniformScale": 0.85,
+      "group": "vegetation.beds",
+      "static": true,
+      "positionGlTFXYZ": [
+        11.6,
+        0.045,
+        -16.2
+      ],
+      "rotationGlTFXYZW": [
+        -0.0,
+        0.829037572555,
+        -0.0,
+        -0.559192903471
+      ]
+    },
+    {
+      "instanceId": "vegetation_beds_148",
+      "assetId": "env_shrub_002",
+      "positionSourceXYZ": [
+        -3.2,
+        6.3,
+        0.045
+      ],
+      "rotationZDegrees": 279,
+      "uniformScale": 0.9299999999999999,
+      "group": "vegetation.beds",
+      "static": true,
+      "positionGlTFXYZ": [
+        -3.2,
+        0.045,
+        -6.3
+      ],
+      "rotationGlTFXYZW": [
+        -0.0,
+        0.64944804833,
+        -0.0,
+        -0.7604059656
+      ]
+    },
+    {
+      "instanceId": "vegetation_beds_149",
+      "assetId": "env_shrub_001",
+      "positionSourceXYZ": [
+        0.2,
+        6.5,
+        0.045
+      ],
+      "rotationZDegrees": 310,
+      "uniformScale": 1.01,
+      "group": "vegetation.beds",
+      "static": true,
+      "positionGlTFXYZ": [
+        0.2,
+        0.045,
+        -6.5
+      ],
+      "rotationGlTFXYZW": [
+        -0.0,
+        0.422618261741,
+        -0.0,
+        -0.906307787037
+      ]
+    },
+    {
+      "instanceId": "vegetation_beds_150",
+      "assetId": "env_shrub_001",
+      "positionSourceXYZ": [
+        16.5,
+        -10,
+        0.045
+      ],
+      "rotationZDegrees": 341,
+      "uniformScale": 1.0899999999999999,
+      "group": "vegetation.beds",
+      "static": true,
+      "positionGlTFXYZ": [
+        16.5,
+        0.045,
+        10
+      ],
+      "rotationGlTFXYZW": [
+        -0.0,
+        0.165047605861,
+        -0.0,
+        -0.986285601537
+      ]
+    },
+    {
+      "instanceId": "vegetation_beds_151",
+      "assetId": "env_shrub_002",
+      "positionSourceXYZ": [
+        16.5,
+        -11.9,
+        0.045
+      ],
+      "rotationZDegrees": 12,
+      "uniformScale": 0.85,
+      "group": "vegetation.beds",
+      "static": true,
+      "positionGlTFXYZ": [
+        16.5,
+        0.045,
+        11.9
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.104528463268,
+        -0.0,
+        0.994521895368
+      ]
+    },
+    {
+      "instanceId": "vegetation_beds_152",
+      "assetId": "env_shrub_001",
+      "positionSourceXYZ": [
+        4,
+        -9.5,
+        0.045
+      ],
+      "rotationZDegrees": 43,
+      "uniformScale": 0.9299999999999999,
+      "group": "vegetation.beds",
+      "static": true,
+      "positionGlTFXYZ": [
+        4,
+        0.045,
+        9.5
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.366501226724,
+        -0.0,
+        0.930417567982
+      ]
+    },
+    {
+      "instanceId": "vegetation_beds_153",
+      "assetId": "env_shrub_001",
+      "positionSourceXYZ": [
+        3,
+        -11.4,
+        0.045
+      ],
+      "rotationZDegrees": 74,
+      "uniformScale": 1.01,
+      "group": "vegetation.beds",
+      "static": true,
+      "positionGlTFXYZ": [
+        3,
+        0.045,
+        11.4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.601815023152,
+        -0.0,
+        0.798635510047
+      ]
+    },
+    {
+      "instanceId": "vegetation_beds_154",
+      "assetId": "env_shrub_002",
+      "positionSourceXYZ": [
+        -13,
+        -7,
+        0.045
+      ],
+      "rotationZDegrees": 105,
+      "uniformScale": 1.0899999999999999,
+      "group": "vegetation.beds",
+      "static": true,
+      "positionGlTFXYZ": [
+        -13,
+        0.045,
+        7
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.793353340291,
+        -0.0,
+        0.608761429009
+      ]
+    },
+    {
+      "instanceId": "vegetation_beds_155",
+      "assetId": "env_shrub_001",
+      "positionSourceXYZ": [
+        -11.4,
+        -7.5,
+        0.045
+      ],
+      "rotationZDegrees": 136,
+      "uniformScale": 0.85,
+      "group": "vegetation.beds",
+      "static": true,
+      "positionGlTFXYZ": [
+        -11.4,
+        0.045,
+        7.5
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.927183854567,
+        -0.0,
+        0.374606593416
+      ]
+    },
+    {
+      "instanceId": "vegetation_beds_156",
+      "assetId": "env_shrub_001",
+      "positionSourceXYZ": [
+        -16.7,
+        -12,
+        0.045
+      ],
+      "rotationZDegrees": 167,
+      "uniformScale": 0.9299999999999999,
+      "group": "vegetation.beds",
+      "static": true,
+      "positionGlTFXYZ": [
+        -16.7,
+        0.045,
+        12
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.993571855677,
+        -0.0,
+        0.113203213768
+      ]
+    },
+    {
+      "instanceId": "vegetation_beds_157",
+      "assetId": "env_shrub_002",
+      "positionSourceXYZ": [
+        -16.7,
+        -9.5,
+        0.045
+      ],
+      "rotationZDegrees": 198,
+      "uniformScale": 1.01,
+      "group": "vegetation.beds",
+      "static": true,
+      "positionGlTFXYZ": [
+        -16.7,
+        0.045,
+        9.5
+      ],
+      "rotationGlTFXYZW": [
+        -0.0,
+        0.987688340595,
+        -0.0,
+        -0.15643446504
+      ]
+    },
+    {
+      "instanceId": "neighbor_props_158",
+      "assetId": "prop_flower_pot_002",
+      "positionSourceXYZ": [
+        1.2,
+        6.65,
+        0.6
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "neighbor.props",
+      "static": true,
+      "positionGlTFXYZ": [
+        1.2,
+        0.6,
+        -6.65
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_curb_ramp_001",
+      "positionSourceXYZ": [
+        -7,
+        4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walkway.ramp",
+      "static": true,
+      "instanceId": "walkway_ramp_159",
+      "positionGlTFXYZ": [
+        -7,
+        0,
+        -4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_curb_ramp_001",
+      "positionSourceXYZ": [
+        -7,
+        -4,
+        0
+      ],
+      "rotationZDegrees": 180,
+      "uniformScale": 1,
+      "group": "walkway.ramp",
+      "static": true,
+      "instanceId": "walkway_ramp_160",
+      "positionGlTFXYZ": [
+        -7,
+        0,
+        4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        1.0,
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        -13,
+        -6,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "green.pocket",
+      "static": true,
+      "instanceId": "green_pocket_161",
+      "positionGlTFXYZ": [
+        -13,
+        0,
+        6
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_sidewalk_200_001",
+      "positionSourceXYZ": [
+        -13,
+        -8,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "green.pocket",
+      "static": true,
+      "instanceId": "green_pocket_162",
+      "positionGlTFXYZ": [
+        -13,
+        0,
+        8
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "prop_porch_bench_001",
+      "positionSourceXYZ": [
+        -13,
+        -8,
+        0.12
+      ],
+      "rotationZDegrees": 180,
+      "uniformScale": 1,
+      "group": "green.pocket",
+      "static": true,
+      "instanceId": "green_pocket_163",
+      "positionGlTFXYZ": [
+        -13,
+        0.12,
+        8
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        1.0,
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "assetId": "prop_flower_pot_001",
+      "positionSourceXYZ": [
+        -14,
+        -8,
+        0.12
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "green.pocket",
+      "static": true,
+      "instanceId": "green_pocket_164",
+      "positionGlTFXYZ": [
+        -14,
+        0.12,
+        8
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_deciduous_tree_001",
+      "positionSourceXYZ": [
+        -10,
+        -16,
+        0
+      ],
+      "rotationZDegrees": 33,
+      "uniformScale": 1,
+      "group": "green.pocket",
+      "static": true,
+      "instanceId": "green_pocket_165",
+      "positionGlTFXYZ": [
+        -10,
+        0,
+        16
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.284015344704,
+        -0.0,
+        0.958819734868
+      ]
+    },
+    {
+      "assetId": "env_deciduous_tree_001",
+      "positionSourceXYZ": [
+        -16.7,
+        -16,
+        0
+      ],
+      "rotationZDegrees": -13,
+      "uniformScale": 0.92,
+      "group": "green.pocket",
+      "static": true,
+      "instanceId": "green_pocket_166",
+      "positionGlTFXYZ": [
+        -16.7,
+        0,
+        16
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        -0.113203213768,
+        0.0,
+        0.993571855677
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -16,
+        -16,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_167",
+      "positionGlTFXYZ": [
+        -16,
+        0,
+        16
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -16,
+        -12,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_168",
+      "positionGlTFXYZ": [
+        -16,
+        0,
+        12
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -16,
+        -8,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_169",
+      "positionGlTFXYZ": [
+        -16,
+        0,
+        8
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -16,
+        -4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_170",
+      "positionGlTFXYZ": [
+        -16,
+        0,
+        4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -16,
+        0,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_171",
+      "positionGlTFXYZ": [
+        -16,
+        0,
+        0
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -16,
+        4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_172",
+      "positionGlTFXYZ": [
+        -16,
+        0,
+        -4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -16,
+        8,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_173",
+      "positionGlTFXYZ": [
+        -16,
+        0,
+        -8
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -16,
+        12,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_174",
+      "positionGlTFXYZ": [
+        -16,
+        0,
+        -12
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -16,
+        16,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_175",
+      "positionGlTFXYZ": [
+        -16,
+        0,
+        -16
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -12,
+        -16,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_176",
+      "positionGlTFXYZ": [
+        -12,
+        0,
+        16
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -12,
+        -12,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_177",
+      "positionGlTFXYZ": [
+        -12,
+        0,
+        12
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -12,
+        -8,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_178",
+      "positionGlTFXYZ": [
+        -12,
+        0,
+        8
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -12,
+        -4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_179",
+      "positionGlTFXYZ": [
+        -12,
+        0,
+        4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -12,
+        0,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_180",
+      "positionGlTFXYZ": [
+        -12,
+        0,
+        0
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -12,
+        4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_181",
+      "positionGlTFXYZ": [
+        -12,
+        0,
+        -4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -12,
+        8,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_182",
+      "positionGlTFXYZ": [
+        -12,
+        0,
+        -8
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -12,
+        12,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_183",
+      "positionGlTFXYZ": [
+        -12,
+        0,
+        -12
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -12,
+        16,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_184",
+      "positionGlTFXYZ": [
+        -12,
+        0,
+        -16
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -8,
+        -16,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_185",
+      "positionGlTFXYZ": [
+        -8,
+        0,
+        16
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -8,
+        -12,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_186",
+      "positionGlTFXYZ": [
+        -8,
+        0,
+        12
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -8,
+        -8,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_187",
+      "positionGlTFXYZ": [
+        -8,
+        0,
+        8
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -8,
+        -4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_188",
+      "positionGlTFXYZ": [
+        -8,
+        0,
+        4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -8,
+        0,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_189",
+      "positionGlTFXYZ": [
+        -8,
+        0,
+        0
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -8,
+        4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_190",
+      "positionGlTFXYZ": [
+        -8,
+        0,
+        -4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -8,
+        8,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_191",
+      "positionGlTFXYZ": [
+        -8,
+        0,
+        -8
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -8,
+        12,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_192",
+      "positionGlTFXYZ": [
+        -8,
+        0,
+        -12
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -8,
+        16,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_193",
+      "positionGlTFXYZ": [
+        -8,
+        0,
+        -16
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -4,
+        -16,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_194",
+      "positionGlTFXYZ": [
+        -4,
+        0,
+        16
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -4,
+        -12,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_195",
+      "positionGlTFXYZ": [
+        -4,
+        0,
+        12
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -4,
+        -8,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_196",
+      "positionGlTFXYZ": [
+        -4,
+        0,
+        8
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -4,
+        -4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_197",
+      "positionGlTFXYZ": [
+        -4,
+        0,
+        4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -4,
+        0,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_198",
+      "positionGlTFXYZ": [
+        -4,
+        0,
+        0
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -4,
+        4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_199",
+      "positionGlTFXYZ": [
+        -4,
+        0,
+        -4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -4,
+        8,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_200",
+      "positionGlTFXYZ": [
+        -4,
+        0,
+        -8
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -4,
+        12,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_201",
+      "positionGlTFXYZ": [
+        -4,
+        0,
+        -12
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        -4,
+        16,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_202",
+      "positionGlTFXYZ": [
+        -4,
+        0,
+        -16
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        0,
+        -16,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_203",
+      "positionGlTFXYZ": [
+        0,
+        0,
+        16
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        0,
+        -12,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_204",
+      "positionGlTFXYZ": [
+        0,
+        0,
+        12
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        0,
+        -8,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_205",
+      "positionGlTFXYZ": [
+        0,
+        0,
+        8
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        0,
+        -4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_206",
+      "positionGlTFXYZ": [
+        0,
+        0,
+        4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        0,
+        0,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_207",
+      "positionGlTFXYZ": [
+        0,
+        0,
+        0
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        0,
+        4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_208",
+      "positionGlTFXYZ": [
+        0,
+        0,
+        -4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        0,
+        8,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_209",
+      "positionGlTFXYZ": [
+        0,
+        0,
+        -8
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        0,
+        12,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_210",
+      "positionGlTFXYZ": [
+        0,
+        0,
+        -12
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        0,
+        16,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_211",
+      "positionGlTFXYZ": [
+        0,
+        0,
+        -16
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        4,
+        -16,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_212",
+      "positionGlTFXYZ": [
+        4,
+        0,
+        16
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        4,
+        -12,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_213",
+      "positionGlTFXYZ": [
+        4,
+        0,
+        12
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        4,
+        -8,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_214",
+      "positionGlTFXYZ": [
+        4,
+        0,
+        8
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        4,
+        -4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_215",
+      "positionGlTFXYZ": [
+        4,
+        0,
+        4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        4,
+        0,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_216",
+      "positionGlTFXYZ": [
+        4,
+        0,
+        0
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        4,
+        4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_217",
+      "positionGlTFXYZ": [
+        4,
+        0,
+        -4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        4,
+        8,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_218",
+      "positionGlTFXYZ": [
+        4,
+        0,
+        -8
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        4,
+        12,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_219",
+      "positionGlTFXYZ": [
+        4,
+        0,
+        -12
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        4,
+        16,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_220",
+      "positionGlTFXYZ": [
+        4,
+        0,
+        -16
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        8,
+        -16,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_221",
+      "positionGlTFXYZ": [
+        8,
+        0,
+        16
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        8,
+        -12,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_222",
+      "positionGlTFXYZ": [
+        8,
+        0,
+        12
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        8,
+        -8,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_223",
+      "positionGlTFXYZ": [
+        8,
+        0,
+        8
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        8,
+        -4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_224",
+      "positionGlTFXYZ": [
+        8,
+        0,
+        4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        8,
+        0,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_225",
+      "positionGlTFXYZ": [
+        8,
+        0,
+        0
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        8,
+        4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_226",
+      "positionGlTFXYZ": [
+        8,
+        0,
+        -4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        8,
+        8,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_227",
+      "positionGlTFXYZ": [
+        8,
+        0,
+        -8
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        8,
+        12,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_228",
+      "positionGlTFXYZ": [
+        8,
+        0,
+        -12
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        8,
+        16,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_229",
+      "positionGlTFXYZ": [
+        8,
+        0,
+        -16
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        12,
+        -16,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_230",
+      "positionGlTFXYZ": [
+        12,
+        0,
+        16
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        12,
+        -12,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_231",
+      "positionGlTFXYZ": [
+        12,
+        0,
+        12
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        12,
+        -8,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_232",
+      "positionGlTFXYZ": [
+        12,
+        0,
+        8
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        12,
+        -4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_233",
+      "positionGlTFXYZ": [
+        12,
+        0,
+        4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        12,
+        0,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_234",
+      "positionGlTFXYZ": [
+        12,
+        0,
+        0
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        12,
+        4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_235",
+      "positionGlTFXYZ": [
+        12,
+        0,
+        -4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        12,
+        8,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_236",
+      "positionGlTFXYZ": [
+        12,
+        0,
+        -8
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        12,
+        12,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_237",
+      "positionGlTFXYZ": [
+        12,
+        0,
+        -12
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        12,
+        16,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_238",
+      "positionGlTFXYZ": [
+        12,
+        0,
+        -16
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        16,
+        -16,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_239",
+      "positionGlTFXYZ": [
+        16,
+        0,
+        16
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        16,
+        -12,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_240",
+      "positionGlTFXYZ": [
+        16,
+        0,
+        12
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        16,
+        -8,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_241",
+      "positionGlTFXYZ": [
+        16,
+        0,
+        8
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        16,
+        -4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_242",
+      "positionGlTFXYZ": [
+        16,
+        0,
+        4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        16,
+        0,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_243",
+      "positionGlTFXYZ": [
+        16,
+        0,
+        0
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        16,
+        4,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_244",
+      "positionGlTFXYZ": [
+        16,
+        0,
+        -4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        16,
+        8,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_245",
+      "positionGlTFXYZ": [
+        16,
+        0,
+        -8
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        16,
+        12,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_246",
+      "positionGlTFXYZ": [
+        16,
+        0,
+        -12
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_ground_400_001",
+      "positionSourceXYZ": [
+        16,
+        16,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "ground",
+      "static": true,
+      "instanceId": "ground_247",
+      "positionGlTFXYZ": [
+        16,
+        0,
+        -16
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_soil_bed_001",
+      "positionSourceXYZ": [
+        -16.7,
+        9.9,
+        0.001
+      ],
+      "rotationZDegrees": 85,
+      "uniformScale": 1.25,
+      "group": "vegetation.soil",
+      "static": true,
+      "instanceId": "vegetation_soil_248",
+      "positionGlTFXYZ": [
+        -16.7,
+        0.001,
+        -9.9
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.675590207616,
+        -0.0,
+        0.73727733681
+      ]
+    },
+    {
+      "assetId": "env_soil_bed_001",
+      "positionSourceXYZ": [
+        -5.6,
+        7.8,
+        0.001
+      ],
+      "rotationZDegrees": 67,
+      "uniformScale": 0.95,
+      "group": "vegetation.soil",
+      "static": true,
+      "instanceId": "vegetation_soil_249",
+      "positionGlTFXYZ": [
+        -5.6,
+        0.001,
+        -7.8
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.551936985312,
+        -0.0,
+        0.833885822067
+      ]
+    },
+    {
+      "assetId": "env_soil_bed_001",
+      "positionSourceXYZ": [
+        7.6,
+        7,
+        0.001
+      ],
+      "rotationZDegrees": 15,
+      "uniformScale": 1.18,
+      "group": "vegetation.soil",
+      "static": true,
+      "instanceId": "vegetation_soil_250",
+      "positionGlTFXYZ": [
+        7.6,
+        0.001,
+        -7
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.13052619222,
+        -0.0,
+        0.991444861374
+      ]
+    },
+    {
+      "assetId": "env_soil_bed_001",
+      "positionSourceXYZ": [
+        -1.5,
+        6.3,
+        0.001
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1.15,
+      "group": "vegetation.soil",
+      "static": true,
+      "instanceId": "vegetation_soil_251",
+      "positionGlTFXYZ": [
+        -1.5,
+        0.001,
+        -6.3
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "env_soil_bed_001",
+      "positionSourceXYZ": [
+        16.7,
+        -11.0,
+        0.001
+      ],
+      "rotationZDegrees": 93,
+      "uniformScale": 1.1,
+      "group": "vegetation.soil",
+      "static": true,
+      "instanceId": "vegetation_soil_252",
+      "positionGlTFXYZ": [
+        16.7,
+        0.001,
+        11.0
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.725374371012,
+        -0.0,
+        0.688354575694
+      ]
+    },
+    {
+      "assetId": "env_soil_bed_001",
+      "positionSourceXYZ": [
+        3.3,
+        -10.6,
+        0.001
+      ],
+      "rotationZDegrees": 55,
+      "uniformScale": 1.0,
+      "group": "vegetation.soil",
+      "static": true,
+      "instanceId": "vegetation_soil_253",
+      "positionGlTFXYZ": [
+        3.3,
+        0.001,
+        10.6
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.461748613235,
+        -0.0,
+        0.887010833178
+      ]
+    },
+    {
+      "assetId": "env_soil_bed_001",
+      "positionSourceXYZ": [
+        -12.2,
+        -7.4,
+        0.001
+      ],
+      "rotationZDegrees": -10,
+      "uniformScale": 1.0,
+      "group": "vegetation.soil",
+      "static": true,
+      "instanceId": "vegetation_soil_254",
+      "positionGlTFXYZ": [
+        -12.2,
+        0.001,
+        7.4
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        -0.087155742748,
+        0.0,
+        0.996194698092
+      ]
+    },
+    {
+      "assetId": "env_soil_bed_001",
+      "positionSourceXYZ": [
+        -17.5,
+        -10.5,
+        0.001
+      ],
+      "rotationZDegrees": 38,
+      "uniformScale": 1.0,
+      "group": "vegetation.soil",
+      "static": true,
+      "instanceId": "vegetation_soil_255",
+      "positionGlTFXYZ": [
+        -17.5,
+        0.001,
+        10.5
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.325568154457,
+        -0.0,
+        0.945518575599
+      ]
+    },
+    {
+      "assetId": "prop_wooden_fence_001",
+      "positionSourceXYZ": [
+        -15,
+        17,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walter.fence",
+      "static": true,
+      "instanceId": "walter_fence_256",
+      "positionGlTFXYZ": [
+        -15,
+        0,
+        -17
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "prop_wooden_fence_001",
+      "positionSourceXYZ": [
+        -13.5,
+        17,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walter.fence",
+      "static": true,
+      "instanceId": "walter_fence_257",
+      "positionGlTFXYZ": [
+        -13.5,
+        0,
+        -17
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "prop_wooden_fence_001",
+      "positionSourceXYZ": [
+        -12,
+        17,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walter.fence",
+      "static": true,
+      "instanceId": "walter_fence_258",
+      "positionGlTFXYZ": [
+        -12,
+        0,
+        -17
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "prop_wooden_fence_001",
+      "positionSourceXYZ": [
+        -10.5,
+        17,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walter.fence",
+      "static": true,
+      "instanceId": "walter_fence_259",
+      "positionGlTFXYZ": [
+        -10.5,
+        0,
+        -17
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "prop_wooden_fence_001",
+      "positionSourceXYZ": [
+        -9,
+        17,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walter.fence",
+      "static": true,
+      "instanceId": "walter_fence_260",
+      "positionGlTFXYZ": [
+        -9,
+        0,
+        -17
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "prop_wooden_fence_001",
+      "positionSourceXYZ": [
+        -7.5,
+        17,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walter.fence",
+      "static": true,
+      "instanceId": "walter_fence_261",
+      "positionGlTFXYZ": [
+        -7.5,
+        0,
+        -17
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "prop_fence_post_001",
+      "positionSourceXYZ": [
+        -15.75,
+        17,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walter.fence",
+      "static": true,
+      "instanceId": "walter_fence_262",
+      "positionGlTFXYZ": [
+        -15.75,
+        0,
+        -17
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "prop_fence_post_001",
+      "positionSourceXYZ": [
+        -14.25,
+        17,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walter.fence",
+      "static": true,
+      "instanceId": "walter_fence_263",
+      "positionGlTFXYZ": [
+        -14.25,
+        0,
+        -17
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "prop_fence_post_001",
+      "positionSourceXYZ": [
+        -12.75,
+        17,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walter.fence",
+      "static": true,
+      "instanceId": "walter_fence_264",
+      "positionGlTFXYZ": [
+        -12.75,
+        0,
+        -17
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "prop_fence_post_001",
+      "positionSourceXYZ": [
+        -11.25,
+        17,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walter.fence",
+      "static": true,
+      "instanceId": "walter_fence_265",
+      "positionGlTFXYZ": [
+        -11.25,
+        0,
+        -17
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "prop_fence_post_001",
+      "positionSourceXYZ": [
+        -9.75,
+        17,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walter.fence",
+      "static": true,
+      "instanceId": "walter_fence_266",
+      "positionGlTFXYZ": [
+        -9.75,
+        0,
+        -17
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "prop_fence_post_001",
+      "positionSourceXYZ": [
+        -8.25,
+        17,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walter.fence",
+      "static": true,
+      "instanceId": "walter_fence_267",
+      "positionGlTFXYZ": [
+        -8.25,
+        0,
+        -17
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "assetId": "prop_fence_post_001",
+      "positionSourceXYZ": [
+        -6.75,
+        17,
+        0
+      ],
+      "rotationZDegrees": 0,
+      "uniformScale": 1,
+      "group": "walter.fence",
+      "static": true,
+      "instanceId": "walter_fence_268",
+      "positionGlTFXYZ": [
+        -6.75,
+        0,
+        -17
+      ],
+      "rotationGlTFXYZW": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    }
+  ],
+  "entrances": {
+    "entry_walter": {
+      "positionSourceXYZ": [
+        -11,
+        7.5,
+        0.6
+      ],
+      "building": "walter-house"
+    },
+    "entry_cafe": {
+      "positionSourceXYZ": [
+        10,
+        -7.5,
+        0.12
+      ],
+      "building": "cafe-building"
+    }
+  },
+  "routes": [
+    {
+      "routeId": "walter-to-cafe",
+      "pointsSourceXYZ": [
+        [
+          -11,
+          7.5,
+          0.6
+        ],
+        [
+          -11,
+          5.1,
+          0.12
+        ],
+        [
+          -11,
+          4,
+          0.12
+        ],
+        [
+          -7,
+          4,
+          0.12
+        ],
+        [
+          -7,
+          3,
+          0.028
+        ],
+        [
+          -7,
+          0,
+          0.028
+        ],
+        [
+          -7,
+          -3,
+          0.028
+        ],
+        [
+          -7,
+          -4,
+          0.12
+        ],
+        [
+          10,
+          -4,
+          0.12
+        ],
+        [
+          10,
+          -7.5,
+          0.12
+        ]
+      ],
+      "widthMeters": 1.0,
+      "kind": "proposed NPC/player route; not navigation code"
+    }
+  ],
+  "walkableSurfaces": [
+    {
+      "id": "north-sidewalk",
+      "boundsSourceXY": [
+        -18,
+        3,
+        18,
+        5
+      ],
+      "height": 0.12
+    },
+    {
+      "id": "south-sidewalk",
+      "boundsSourceXY": [
+        -18,
+        -5,
+        18,
+        -3
+      ],
+      "height": 0.12
+    },
+    {
+      "id": "crosswalk",
+      "boundsSourceXY": [
+        -8.4,
+        -3,
+        -5.6,
+        3
+      ],
+      "height": 0.028
+    },
+    {
+      "id": "walter-path",
+      "boundsSourceXY": [
+        -12,
+        5,
+        -10,
+        8
+      ],
+      "heightRange": [
+        0.12,
+        0.6
+      ]
+    },
+    {
+      "id": "cafe-forecourt",
+      "boundsSourceXY": [
+        5,
+        -9,
+        15,
+        -5
+      ],
+      "height": 0.11
+    },
+    {
+      "id": "north-curb-ramp",
+      "boundsSourceXY": [
+        -8,
+        3,
+        -6,
+        5
+      ],
+      "heightRange": [
+        0.02,
+        0.12
+      ]
+    },
+    {
+      "id": "south-curb-ramp",
+      "boundsSourceXY": [
+        -8,
+        -5,
+        -6,
+        -3
+      ],
+      "heightRange": [
+        0.02,
+        0.12
+      ]
+    }
+  ],
+  "buildingFootprints": [
+    {
+      "id": "walter",
+      "boundsSourceXY": [
+        -14,
+        8,
+        -8,
+        16
+      ]
+    },
+    {
+      "id": "neighbor",
+      "boundsSourceXY": [
+        -1,
+        8,
+        5,
+        12
+      ]
+    },
+    {
+      "id": "cafe",
+      "boundsSourceXY": [
+        7,
+        -16,
+        13,
+        -8
+      ]
+    }
+  ],
+  "cafeName": "Juniper Cafe",
+  "streetName": "Willow St",
+  "cameras": {
+    "game16m": {
+      "distanceMeters": 16,
+      "verticalFovDegrees": 40,
+      "pitchDegrees": 50,
+      "yawDegrees": 180,
+      "focusSourceXYZ": [
+        -10,
+        5.8,
+        1.4
+      ]
+    },
+    "scope": "Blender proxy, not Unity runtime screenshot"
+  },
+  "openDecisions": [
+    "Unity importer, handedness/prefab conversion and URP light match",
+    "Navigation bake, stair/ramp handling and final collision layers",
+    "Door and mailbox prompts; roofs/walls hiding policy",
+    "Temporary cafe and street names"
+  ],
+  "gameRepositoryChanged": false,
+  "mergeAuthorized": false,
+  "assemblyNotes": {
+    "cafe-building": "Separate reusable GLB assembled from locked original modules; body floor/wall/roof instances offset-.48m to floor.12; original porch removed; three new storefront/awning/sign modules form wraparound commercial facade. Exact assembled geometry is definitive, not a guessed runtime transformation."
+  },
+  "assetCatalog": {
+    "env_ground_400_001": {
+      "file": "assets/env_ground_400_001/env_ground_400_001.glb",
+      "kind": "new-original"
+    },
+    "env_road_600_001": {
+      "file": "assets/env_road_600_001/env_road_600_001.glb",
+      "kind": "new-original"
+    },
+    "env_sidewalk_200_001": {
+      "file": "assets/env_sidewalk_200_001/env_sidewalk_200_001.glb",
+      "kind": "new-original"
+    },
+    "env_curb_200_001": {
+      "file": "assets/env_curb_200_001/env_curb_200_001.glb",
+      "kind": "new-original"
+    },
+    "env_sidewalk_corner_001": {
+      "file": "assets/env_sidewalk_corner_001/env_sidewalk_corner_001.glb",
+      "kind": "new-original"
+    },
+    "env_crosswalk_001": {
+      "file": "assets/env_crosswalk_001/env_crosswalk_001.glb",
+      "kind": "new-original"
+    },
+    "prop_street_name_001": {
+      "file": "assets/prop_street_name_001/prop_street_name_001.glb",
+      "kind": "new-original"
+    },
+    "env_deciduous_tree_001": {
+      "file": "assets/env_deciduous_tree_001/env_deciduous_tree_001.glb",
+      "kind": "new-original"
+    },
+    "env_small_tree_001": {
+      "file": "assets/env_small_tree_001/env_small_tree_001.glb",
+      "kind": "new-original"
+    },
+    "env_shrub_001": {
+      "file": "assets/env_shrub_001/env_shrub_001.glb",
+      "kind": "new-original"
+    },
+    "env_shrub_002": {
+      "file": "assets/env_shrub_002/env_shrub_002.glb",
+      "kind": "new-original"
+    },
+    "bld_cafe_storefront_200_001": {
+      "file": "assets/bld_cafe_storefront_200_001/bld_cafe_storefront_200_001.glb",
+      "kind": "new-original"
+    },
+    "bld_cafe_fascia_200_001": {
+      "file": "assets/bld_cafe_fascia_200_001/bld_cafe_fascia_200_001.glb",
+      "kind": "new-original"
+    },
+    "prop_cafe_sign_001": {
+      "file": "assets/prop_cafe_sign_001/prop_cafe_sign_001.glb",
+      "kind": "new-original"
+    },
+    "env_curb_ramp_001": {
+      "file": "assets/env_curb_ramp_001/env_curb_ramp_001.glb",
+      "kind": "new-original"
+    },
+    "env_soil_bed_001": {
+      "file": "assets/env_soil_bed_001/env_soil_bed_001.glb",
+      "kind": "new-original"
+    },
+    "walter-house": {
+      "file": "reference/walter-house/walter-house.glb",
+      "kind": "pinned-project-reference",
+      "sourceCommit": "573c6756820e1c3baf759286aab7b89f2cf239cd",
+      "approvedGLBSHA256": "3d0d957af21db790496336917d3290d290756ca45bb0c3a5bf9f2e67538deb4f"
+    },
+    "alternate-house": {
+      "file": "reference/alternate-house/alternate-house.glb",
+      "kind": "pinned-project-reference",
+      "sourceCommit": "573c6756820e1c3baf759286aab7b89f2cf239cd",
+      "approvedGLBSHA256": "4c80f2918134b9a84c77956c6ab858d0b2f68aeb830ffc5e055b00eb5da32717"
+    },
+    "prop_fence_post_001": {
+      "file": "reference/prop_fence_post_001/prop_fence_post_001.glb",
+      "kind": "pinned-project-reference",
+      "sourceCommit": "b290bcf5702344d1a911cd31f793f77d8cafcbaf",
+      "approvedGLBSHA256": "c57540ce7af827c69062fdc09cd3f1054e21b2ae106229fc82c2bb78387287d0"
+    },
+    "prop_flower_pot_001": {
+      "file": "reference/prop_flower_pot_001/prop_flower_pot_001.glb",
+      "kind": "pinned-project-reference",
+      "sourceCommit": "b290bcf5702344d1a911cd31f793f77d8cafcbaf",
+      "approvedGLBSHA256": "0d234a932a58fbd37b7aba1dc0090a9296258884db072f3abc531383328ff929"
+    },
+    "prop_flower_pot_002": {
+      "file": "reference/prop_flower_pot_002/prop_flower_pot_002.glb",
+      "kind": "pinned-project-reference",
+      "sourceCommit": "b290bcf5702344d1a911cd31f793f77d8cafcbaf",
+      "approvedGLBSHA256": "e13cb5406359a9f3e28a0ef0126412beb95ee51906263969cc3a80cc87255d83"
+    },
+    "prop_mailbox_001": {
+      "file": "reference/prop_mailbox_001/prop_mailbox_001.glb",
+      "kind": "pinned-project-reference",
+      "sourceCommit": "96eb13ada9bab56a3c8cfa5de307a16753025f65",
+      "approvedGLBSHA256": "b243a55a5d92da3cd3a51c3957d0b1e1f1b9737ad8f6ed988121bae69e654698"
+    },
+    "prop_old_watering_can_001": {
+      "file": "reference/prop_old_watering_can_001/prop_old_watering_can_001.glb",
+      "kind": "pinned-project-reference",
+      "sourceCommit": "b290bcf5702344d1a911cd31f793f77d8cafcbaf",
+      "approvedGLBSHA256": "617dff2f0e10289f2a608e1a488955a8924cb39f89a5c0d4070189ecac6a9bc3"
+    },
+    "prop_porch_bench_001": {
+      "file": "reference/prop_porch_bench_001/prop_porch_bench_001.glb",
+      "kind": "pinned-project-reference",
+      "sourceCommit": "b290bcf5702344d1a911cd31f793f77d8cafcbaf",
+      "approvedGLBSHA256": "491ac2c369c1724c0b152a8d0b9f751e2b684421ee3851b3da0f44838e5b0d61"
+    },
+    "prop_porch_lantern_001": {
+      "file": "reference/prop_porch_lantern_001/prop_porch_lantern_001.glb",
+      "kind": "pinned-project-reference",
+      "sourceCommit": "b290bcf5702344d1a911cd31f793f77d8cafcbaf",
+      "approvedGLBSHA256": "2234d5936b2a2dd5f1f047250d2ad944003bf8d70aa669b3652765ae2532de46"
+    },
+    "prop_porch_rocking_chair_001": {
+      "file": "reference/prop_porch_rocking_chair_001/prop_porch_rocking_chair_001.glb",
+      "kind": "pinned-project-reference",
+      "sourceCommit": "b290bcf5702344d1a911cd31f793f77d8cafcbaf",
+      "approvedGLBSHA256": "e941a889b616ddd0b6336cc512cbac371f90c4e228fdf24bfda144162ea79207"
+    },
+    "prop_welcome_mat_001": {
+      "file": "reference/prop_welcome_mat_001/prop_welcome_mat_001.glb",
+      "kind": "pinned-project-reference",
+      "sourceCommit": "b290bcf5702344d1a911cd31f793f77d8cafcbaf",
+      "approvedGLBSHA256": "727ed0bb5326a3c715891e3ff509a28548b851fc739ccad294d2980f9372cee4"
+    },
+    "prop_wooden_crate_001": {
+      "file": "reference/prop_wooden_crate_001/prop_wooden_crate_001.glb",
+      "kind": "pinned-project-reference",
+      "sourceCommit": "b290bcf5702344d1a911cd31f793f77d8cafcbaf",
+      "approvedGLBSHA256": "b4baa1d795966f2a7331d0740bcc216f788d44b49d93bfe66ee1d63a6527630d"
+    },
+    "prop_wooden_fence_001": {
+      "file": "reference/prop_wooden_fence_001/prop_wooden_fence_001.glb",
+      "kind": "pinned-project-reference",
+      "sourceCommit": "b290bcf5702344d1a911cd31f793f77d8cafcbaf",
+      "approvedGLBSHA256": "95e4c3ea7fe2215fb9e5af25b5db3d94c5d971a484a027c5cbc90159d0b8c68a"
+    },
+    "prop_cafe_chair_001": {
+      "file": "reference/prop_cafe_chair_001/prop_cafe_chair_001.glb",
+      "kind": "pinned-project-reference",
+      "sourceCommit": "6f6306fe56598ab9e32a4946ed0d255174a73ad7",
+      "approvedGLBSHA256": "aa465489194e15243d80d8de92aefeca805a6a84afc7996cfd219ed36eb6753f"
+    },
+    "prop_cafe_counter_001": {
+      "file": "reference/prop_cafe_counter_001/prop_cafe_counter_001.glb",
+      "kind": "pinned-project-reference",
+      "sourceCommit": "6f6306fe56598ab9e32a4946ed0d255174a73ad7",
+      "approvedGLBSHA256": "5b55299d1d53167268ecccbfc64448b7a8446087815b981d974163b40b14d71e"
+    },
+    "prop_cafe_cup_001": {
+      "file": "reference/prop_cafe_cup_001/prop_cafe_cup_001.glb",
+      "kind": "pinned-project-reference",
+      "sourceCommit": "6f6306fe56598ab9e32a4946ed0d255174a73ad7",
+      "approvedGLBSHA256": "3a17473ac7a6044c417d7d28258c64ccb11a70f713c069cd63384640b1e5db8b"
+    },
+    "prop_cafe_parasol_001": {
+      "file": "reference/prop_cafe_parasol_001/prop_cafe_parasol_001.glb",
+      "kind": "pinned-project-reference",
+      "sourceCommit": "6f6306fe56598ab9e32a4946ed0d255174a73ad7",
+      "approvedGLBSHA256": "2edda1b0ba1b172b075babdb71ca7694433cbbd4187476408db5b5057ae15f46"
+    },
+    "prop_cafe_tablecloth_001": {
+      "file": "reference/prop_cafe_tablecloth_001/prop_cafe_tablecloth_001.glb",
+      "kind": "pinned-project-reference",
+      "sourceCommit": "6f6306fe56598ab9e32a4946ed0d255174a73ad7",
+      "approvedGLBSHA256": "cdde8aea68e203b70489062ee7d68832b93b839f55a42099941917f5300a1ddf"
+    },
+    "prop_tin_001": {
+      "file": "reference/prop_tin_001/prop_tin_001.glb",
+      "kind": "pinned-project-reference",
+      "sourceCommit": "6f6306fe56598ab9e32a4946ed0d255174a73ad7",
+      "approvedGLBSHA256": "a8e33cf47e79a33ab5995d720b8d1540dd3afff202318842c6dc24bb2c89a9a0"
+    },
+    "prop_cafe_table_001": {
+      "file": "reference/prop_cafe_table_001/prop_cafe_table_001.glb",
+      "kind": "pinned-project-reference",
+      "sourceCommit": "96eb13ada9bab56a3c8cfa5de307a16753025f65",
+      "approvedGLBSHA256": "6e122d9a172952fe237e9b24fe9c94b4eff70151e346f3ead95803a86a71ee54"
+    },
+    "prop_streetlamp_pipeline_001": {
+      "file": "reference/prop_streetlamp_pipeline_001/prop_streetlamp_pipeline_001.glb",
+      "kind": "pinned-project-reference",
+      "sourceCommit": "8fd7379a6ce1023cf8fd7a690bad0f5ac5bed33f",
+      "approvedGLBSHA256": null
+    },
+    "cafe-building": {
+      "file": "assemblies/cafe-building.glb",
+      "kind": "derived-modular-assembly"
+    }
+  },
+  "assetPathBase": "Parent of scene/layout.json inside generatedpack"
+}

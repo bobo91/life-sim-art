@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.0",
+  "requestId": "WALTER-PORCH-001",
+  "assetId": "prop_fence_post_001",
+  "version": "0.1.0",
+  "seed": 6208,
+  "blenderVersion": "4.5.14",
+  "dimensionsMeters": [
+    0.148,
+    1.025,
+    0.148
+  ],
+  "maxTriangles": 1200,
+  "preview": {
+    "resolution": 640,
+    "samples": 32
+  },
+  "palette": {
+    "timber": {
+      "color": "#9E7959",
+      "roughness": 0.78,
+      "metallic": 0
+    },
+    "faded": {
+      "color": "#AF9272",
+      "roughness": 0.85,
+      "metallic": 0
+    }
+  },
+  "collisionProposal": "Simple shaft box.12wide1.025high; cap overhang visual. Same end/corner post.",
+  "authoringNotes": {
+    "style": "Original warm aged timber, muted sage/terracotta; broad wear only. No external assets.",
+    "scope": "Static prop; meters, bottom-centre root, source+Zup/-Yfront, GLB+Yup/+Zfront. No game integration."
+  }
+}
