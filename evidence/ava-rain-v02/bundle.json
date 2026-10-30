@@ -6,5 +6,8 @@
   "glbSha256": "1ed51edf7fbb9118c953227a256ab5bf0706a05234676866c9f0af10c1f123ba",
   "triangles": 31290,
   "materialCount": 8,
-  "approval": "pending final owner visual GO/NO-GO"
+  "approval": "NO-GO: visually rejected by owner; model production paused",
+  "hardTriangleLimit": 30000,
+  "overBudgetTriangles": 1290,
+  "disposition": "Historical review artifact only; no rigging, animation or GAME-049 integration"
 }

@@ -37,3 +37,11 @@ matched-pose A03 comparison and game-camera/daylight/shade renders. Existing
 source rig may be inspected and used only to extract a static pose; no rigging
 or animation production, Unity integration, game-repository changes, A03 changes,
 paid services, purchases or merge. Stop for the owner's visual GO/NO-GO.
+
+## Current ART-041 owner instruction — production paused
+
+Rain Ava v0.2 is visually rejected (NO-GO). Keep Rain's approved base/anatomy,
+but do not change meshes or produce models, rigs, animations or integration.
+Only the character-design/method decision proposal and rejection status are in
+scope until a new explicit owner instruction. The hard triangle cap remains
+30,000; v0.2's 31,290 is over contract and not an approved budget exception.

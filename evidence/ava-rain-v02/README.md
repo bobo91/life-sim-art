@@ -1,5 +1,9 @@
 # Ava Rain v0.2 — sista visuella förbättringen
 
+**AKTUELL STATUS: VISUELLT NO-GO.** Ägaren underkänner fortsatt ungdomligt/docklikt ansikte, grafiska bryn, framträdande läppar, grova/plastiga hårslingor och otillräcklig egen identitet. Modellproduktionen är pausad. **31 290 > 30 000 trianglar: 1 290 över kontraktet (4,3 %).** Ingen budgethöjning är godkänd. [Kort design-/metodförslag](../../docs/characters/ava-morgan/RAIN_DESIGN_DECISION.md).
+
+Följande är historiska leveransnoter före ägarens avslag. Källor, bilder och ZIP behålls som underlag, inte som godkänd kandidat.
+
 **Stopp för slutligt visuellt GO/NO-GO i draft-PR #42.** Före är levererad Rain Ava v0.1; efter är samma Rain-baserade karaktär med riktade formändringar. Alla bilder är faktiska Blender-renderingar; bildarken ordnar och skalar enbart dessa bilder.
 
 - Ansikte: lugnare ögonöppning och bryn som samverkar, bredare avslappnat munparti, tydligare käkstöd, lugnare nedre kindplan och mer sammanhängande näsrygg. Rains ursprungliga ansiktsytor, lip-neutralform och ögonlocksurval används. Ögongloberna och hals-/axel-/bröstanatomin har inte skulpterats om.
