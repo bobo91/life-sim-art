@@ -23,7 +23,7 @@ def geometry(objects):
     return h.hexdigest()
 
 def main():
-    ap=argparse.ArgumentParser();ap.add_argument('--candidate',required=True);ap.add_argument('--a03',required=True);ap.add_argument('--samples',type=int,default=36);ap.add_argument('--export-only',action='store_true');a=ap.parse_args(sys.argv[sys.argv.index('--')+1:])
+    ap=argparse.ArgumentParser();ap.add_argument('--candidate',required=True);ap.add_argument('--a03',required=True);ap.add_argument('--samples',type=int,default=36);ap.add_argument('--export-only',action='store_true');ap.add_argument('--max-triangles',type=int,default=30000);a=ap.parse_args(sys.argv[sys.argv.index('--')+1:])
     out=Path(a.candidate).resolve();source=out/'character.blend';before=sha(source);ref=Path(a.a03).resolve();assert sha(ref)==A03_SHA
     bpy.ops.wm.open_mainfile(filepath=str(source),load_ui=False,use_scripts=False)
     s=bpy.context.scene;s.cycles.samples=a.samples;cam=s.camera
@@ -35,11 +35,16 @@ def main():
     bpy.context.view_layer.update();original=geometry(objects)
     # Consolidate only disposable export copies, by material, to eight draw meshes.
     eroot=bpy.data.objects.new('CHR_AvaMorgan_Rain_Export',None);s.collection.objects.link(eroot)
+    eroot.matrix_world=root.matrix_world.copy()
     for k in root.keys():eroot[k]=root[k]
     grouped={}
     for o in objects:
         key=o.data.materials[0].name;grouped.setdefault(key,[])
-        c=o.copy();c.data=o.data.copy();s.collection.objects.link(c);c.parent=eroot;grouped[key].append(c)
+        c=o.copy();c.data=o.data.copy();s.collection.objects.link(c);c.parent=eroot
+        # Join must keep each garment's active UVs, including newly mapped cuffs.
+        # Different layer names otherwise create empty UVs on part of a group.
+        if c.data.uv_layers.active:c.data.uv_layers.active.name='AvaExportUV'
+        grouped[key].append(c)
     exported=[]
     for mat,group in grouped.items():
         bpy.ops.object.select_all(action='DESELECT')
@@ -51,7 +56,7 @@ def main():
     bpy.ops.export_scene.gltf(filepath=str(path),export_format='GLB',use_selection=True,export_extras=True,export_animations=False,export_skins=False,export_morph=False,export_cameras=False,export_lights=False)
     for o in exported+[eroot]:bpy.data.objects.remove(o,do_unlink=True)
     points=[o.matrix_world@v.co for o in objects for v in o.data.vertices];lo=[min(p[k] for p in points) for k in range(3)];hi=[max(p[k] for p in points) for k in range(3)]
-    validation=validate_glb(path,[hi[0]-lo[0],hi[2]-lo[2],hi[1]-lo[1]],30000)
+    validation=validate_glb(path,[hi[0]-lo[0],hi[2]-lo[2],hi[1]-lo[1]],a.max_triangles)
     write(out/'glb-validation.json',validation)
     if a.export_only:
         assert sha(source)==before and sha(ref)==A03_SHA;return

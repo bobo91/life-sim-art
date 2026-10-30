@@ -1,5 +1,7 @@
 # ART-041 — Rain visual v0.1 evidence
 
+Historical before version. [Current final visual refinement v0.2](../ava-rain-v02/README.md).
+
 **Appearance approval pending.** The old procedural Ava remains NO-GO. The current prototype uses actual Rain meshes; none of the old Ava model is included.
 
 Actual Blender 4.5.14 LTS / Cycles CPU / AgX images:
