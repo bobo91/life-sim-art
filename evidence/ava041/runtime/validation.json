@@ -1,0 +1,1665 @@
+{
+  "schema": "ava-art041-static-validation-1",
+  "assetId": "chr_ava_morgan_041",
+  "blender": "4.5.14 LTS",
+  "background": true,
+  "onlineAccess": false,
+  "checks": [
+    {
+      "stage": "source",
+      "name": "named asset root and mesh selection",
+      "status": "pass",
+      "actual": {
+        "rootFound": true,
+        "selectedMeshes": 9
+      },
+      "expected": "CHR_AvaMorgan_041 with descendant or asset_id-tagged meshes"
+    },
+    {
+      "stage": "source",
+      "name": "identity asset root",
+      "status": "pass",
+      "actual": 0.0,
+      "expected": "world matrix identity within 1e-6"
+    },
+    {
+      "stage": "source",
+      "name": "AVA041_Apron: nonempty finite mesh",
+      "status": "pass",
+      "actual": {
+        "vertices": 1000,
+        "triangles": 1916,
+        "finiteVertices": true,
+        "finiteNormals": true
+      },
+      "expected": "nonempty; finite coordinates and normals"
+    },
+    {
+      "stage": "source",
+      "name": "AVA041_Apron: surface integrity",
+      "status": "pass",
+      "actual": {
+        "degenerateTriangles": 0,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "zeroLengthNormals": 0
+      },
+      "expected": "all zero"
+    },
+    {
+      "stage": "source",
+      "name": "AVA041_Apron: material assignments",
+      "status": "pass",
+      "actual": [
+        "AVA041_olive"
+      ],
+      "expected": "at least one material, no empty slots"
+    },
+    {
+      "stage": "source",
+      "name": "AVA041_ApronStraps: nonempty finite mesh",
+      "status": "pass",
+      "actual": {
+        "vertices": 88,
+        "triangles": 168,
+        "finiteVertices": true,
+        "finiteNormals": true
+      },
+      "expected": "nonempty; finite coordinates and normals"
+    },
+    {
+      "stage": "source",
+      "name": "AVA041_ApronStraps: surface integrity",
+      "status": "pass",
+      "actual": {
+        "degenerateTriangles": 0,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "zeroLengthNormals": 0
+      },
+      "expected": "all zero"
+    },
+    {
+      "stage": "source",
+      "name": "AVA041_ApronStraps: material assignments",
+      "status": "pass",
+      "actual": [
+        "AVA041_leather"
+      ],
+      "expected": "at least one material, no empty slots"
+    },
+    {
+      "stage": "source",
+      "name": "AVA041_BodySkin: nonempty finite mesh",
+      "status": "pass",
+      "actual": {
+        "vertices": 914,
+        "triangles": 1816,
+        "finiteVertices": true,
+        "finiteNormals": true
+      },
+      "expected": "nonempty; finite coordinates and normals"
+    },
+    {
+      "stage": "source",
+      "name": "AVA041_BodySkin: surface integrity",
+      "status": "pass",
+      "actual": {
+        "degenerateTriangles": 0,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "zeroLengthNormals": 0
+      },
+      "expected": "all zero"
+    },
+    {
+      "stage": "source",
+      "name": "AVA041_BodySkin: material assignments",
+      "status": "pass",
+      "actual": [
+        "AVA041_skin"
+      ],
+      "expected": "at least one material, no empty slots"
+    },
+    {
+      "stage": "source",
+      "name": "AVA041_Face: nonempty finite mesh",
+      "status": "pass",
+      "actual": {
+        "vertices": 6254,
+        "triangles": 10955,
+        "finiteVertices": true,
+        "finiteNormals": true
+      },
+      "expected": "nonempty; finite coordinates and normals"
+    },
+    {
+      "stage": "source",
+      "name": "AVA041_Face: surface integrity",
+      "status": "pass",
+      "actual": {
+        "degenerateTriangles": 0,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "zeroLengthNormals": 0
+      },
+      "expected": "all zero"
+    },
+    {
+      "stage": "source",
+      "name": "AVA041_Face: material assignments",
+      "status": "pass",
+      "actual": [
+        "AVA041_skin",
+        "AVA041_shoe",
+        "AVA041_hair",
+        "AVA041_lip"
+      ],
+      "expected": "at least one material, no empty slots"
+    },
+    {
+      "stage": "source",
+      "name": "AVA041_Hair: nonempty finite mesh",
+      "status": "pass",
+      "actual": {
+        "vertices": 3250,
+        "triangles": 6390,
+        "finiteVertices": true,
+        "finiteNormals": true
+      },
+      "expected": "nonempty; finite coordinates and normals"
+    },
+    {
+      "stage": "source",
+      "name": "AVA041_Hair: surface integrity",
+      "status": "pass",
+      "actual": {
+        "degenerateTriangles": 0,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "zeroLengthNormals": 0
+      },
+      "expected": "all zero"
+    },
+    {
+      "stage": "source",
+      "name": "AVA041_Hair: material assignments",
+      "status": "pass",
+      "actual": [
+        "AVA041_hair"
+      ],
+      "expected": "at least one material, no empty slots"
+    },
+    {
+      "stage": "source",
+      "name": "AVA041_Jeans: nonempty finite mesh",
+      "status": "pass",
+      "actual": {
+        "vertices": 1187,
+        "triangles": 2362,
+        "finiteVertices": true,
+        "finiteNormals": true
+      },
+      "expected": "nonempty; finite coordinates and normals"
+    },
+    {
+      "stage": "source",
+      "name": "AVA041_Jeans: surface integrity",
+      "status": "pass",
+      "actual": {
+        "degenerateTriangles": 0,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "zeroLengthNormals": 0
+      },
+      "expected": "all zero"
+    },
+    {
+      "stage": "source",
+      "name": "AVA041_Jeans: material assignments",
+      "status": "pass",
+      "actual": [
+        "AVA041_denim"
+      ],
+      "expected": "at least one material, no empty slots"
+    },
+    {
+      "stage": "source",
+      "name": "AVA041_Jewelry: nonempty finite mesh",
+      "status": "pass",
+      "actual": {
+        "vertices": 400,
+        "triangles": 752,
+        "finiteVertices": true,
+        "finiteNormals": true
+      },
+      "expected": "nonempty; finite coordinates and normals"
+    },
+    {
+      "stage": "source",
+      "name": "AVA041_Jewelry: surface integrity",
+      "status": "pass",
+      "actual": {
+        "degenerateTriangles": 0,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "zeroLengthNormals": 0
+      },
+      "expected": "all zero"
+    },
+    {
+      "stage": "source",
+      "name": "AVA041_Jewelry: material assignments",
+      "status": "pass",
+      "actual": [
+        "AVA041_detail"
+      ],
+      "expected": "at least one material, no empty slots"
+    },
+    {
+      "stage": "source",
+      "name": "AVA041_KnitAndSoles: nonempty finite mesh",
+      "status": "pass",
+      "actual": {
+        "vertices": 2022,
+        "triangles": 3848,
+        "finiteVertices": true,
+        "finiteNormals": true
+      },
+      "expected": "nonempty; finite coordinates and normals"
+    },
+    {
+      "stage": "source",
+      "name": "AVA041_KnitAndSoles: surface integrity",
+      "status": "pass",
+      "actual": {
+        "degenerateTriangles": 0,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "zeroLengthNormals": 0
+      },
+      "expected": "all zero"
+    },
+    {
+      "stage": "source",
+      "name": "AVA041_KnitAndSoles: material assignments",
+      "status": "pass",
+      "actual": [
+        "AVA041_cream"
+      ],
+      "expected": "at least one material, no empty slots"
+    },
+    {
+      "stage": "source",
+      "name": "AVA041_SneakerUppers: nonempty finite mesh",
+      "status": "pass",
+      "actual": {
+        "vertices": 448,
+        "triangles": 784,
+        "finiteVertices": true,
+        "finiteNormals": true
+      },
+      "expected": "nonempty; finite coordinates and normals"
+    },
+    {
+      "stage": "source",
+      "name": "AVA041_SneakerUppers: surface integrity",
+      "status": "pass",
+      "actual": {
+        "degenerateTriangles": 0,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "zeroLengthNormals": 0
+      },
+      "expected": "all zero"
+    },
+    {
+      "stage": "source",
+      "name": "AVA041_SneakerUppers: material assignments",
+      "status": "pass",
+      "actual": [
+        "AVA041_shoe"
+      ],
+      "expected": "at least one material, no empty slots"
+    },
+    {
+      "stage": "source",
+      "name": "static scene with no executable texts",
+      "status": "pass",
+      "actual": {
+        "armatures": 0,
+        "actions": 0,
+        "embeddedTexts": 0,
+        "animationOwners": []
+      },
+      "expected": "zero armatures/actions/texts/animation"
+    },
+    {
+      "stage": "source",
+      "name": "A03-relative triangle/material budget",
+      "status": "pass",
+      "actual": {
+        "triangles": 28991,
+        "materials": 9
+      },
+      "expected": {
+        "maxTriangles": 29367,
+        "maxMaterials": 9
+      }
+    },
+    {
+      "stage": "source",
+      "name": "texture size limit",
+      "status": "pass",
+      "actual": [],
+      "expected": "zero textures or at most two <=1024px images"
+    },
+    {
+      "stage": "glb",
+      "name": "static export only",
+      "status": "pass",
+      "actual": {
+        "bytes": 760316,
+        "jsonMeshes": 9,
+        "nodes": 10,
+        "skins": 0,
+        "animations": 0,
+        "images": 0,
+        "materials": 9,
+        "extensionsUsed": [],
+        "extensionsRequired": []
+      },
+      "expected": "no skins, animations or morph targets"
+    },
+    {
+      "stage": "glb",
+      "name": "independent binary geometry validation",
+      "status": "pass",
+      "actual": {
+        "triangles": 28991,
+        "pivotErrorMeters": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "expected": "finite dense accessors, valid indices, normals/winding, bounds and bottom-center pivot"
+    },
+    {
+      "stage": "reimport",
+      "name": "AVA041_Apron: nonempty finite mesh",
+      "status": "pass",
+      "actual": {
+        "vertices": 1320,
+        "triangles": 1916,
+        "finiteVertices": true,
+        "finiteNormals": true
+      },
+      "expected": "nonempty; finite coordinates and normals"
+    },
+    {
+      "stage": "reimport",
+      "name": "AVA041_Apron: surface integrity",
+      "status": "pass",
+      "actual": {
+        "degenerateTriangles": 0,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "zeroLengthNormals": 0
+      },
+      "expected": "all zero"
+    },
+    {
+      "stage": "reimport",
+      "name": "AVA041_Apron: material assignments",
+      "status": "pass",
+      "actual": [
+        "AVA041_olive"
+      ],
+      "expected": "at least one material, no empty slots"
+    },
+    {
+      "stage": "reimport",
+      "name": "AVA041_ApronStraps: nonempty finite mesh",
+      "status": "pass",
+      "actual": {
+        "vertices": 88,
+        "triangles": 168,
+        "finiteVertices": true,
+        "finiteNormals": true
+      },
+      "expected": "nonempty; finite coordinates and normals"
+    },
+    {
+      "stage": "reimport",
+      "name": "AVA041_ApronStraps: surface integrity",
+      "status": "pass",
+      "actual": {
+        "degenerateTriangles": 0,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "zeroLengthNormals": 0
+      },
+      "expected": "all zero"
+    },
+    {
+      "stage": "reimport",
+      "name": "AVA041_ApronStraps: material assignments",
+      "status": "pass",
+      "actual": [
+        "AVA041_leather"
+      ],
+      "expected": "at least one material, no empty slots"
+    },
+    {
+      "stage": "reimport",
+      "name": "AVA041_BodySkin: nonempty finite mesh",
+      "status": "pass",
+      "actual": {
+        "vertices": 914,
+        "triangles": 1816,
+        "finiteVertices": true,
+        "finiteNormals": true
+      },
+      "expected": "nonempty; finite coordinates and normals"
+    },
+    {
+      "stage": "reimport",
+      "name": "AVA041_BodySkin: surface integrity",
+      "status": "pass",
+      "actual": {
+        "degenerateTriangles": 0,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "zeroLengthNormals": 0
+      },
+      "expected": "all zero"
+    },
+    {
+      "stage": "reimport",
+      "name": "AVA041_BodySkin: material assignments",
+      "status": "pass",
+      "actual": [
+        "AVA041_skin"
+      ],
+      "expected": "at least one material, no empty slots"
+    },
+    {
+      "stage": "reimport",
+      "name": "AVA041_Face: nonempty finite mesh",
+      "status": "pass",
+      "actual": {
+        "vertices": 6318,
+        "triangles": 10955,
+        "finiteVertices": true,
+        "finiteNormals": true
+      },
+      "expected": "nonempty; finite coordinates and normals"
+    },
+    {
+      "stage": "reimport",
+      "name": "AVA041_Face: surface integrity",
+      "status": "pass",
+      "actual": {
+        "degenerateTriangles": 0,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "zeroLengthNormals": 0
+      },
+      "expected": "all zero"
+    },
+    {
+      "stage": "reimport",
+      "name": "AVA041_Face: material assignments",
+      "status": "pass",
+      "actual": [
+        "AVA041_skin",
+        "AVA041_shoe",
+        "AVA041_hair",
+        "AVA041_lip"
+      ],
+      "expected": "at least one material, no empty slots"
+    },
+    {
+      "stage": "reimport",
+      "name": "AVA041_Hair: nonempty finite mesh",
+      "status": "pass",
+      "actual": {
+        "vertices": 3250,
+        "triangles": 6390,
+        "finiteVertices": true,
+        "finiteNormals": true
+      },
+      "expected": "nonempty; finite coordinates and normals"
+    },
+    {
+      "stage": "reimport",
+      "name": "AVA041_Hair: surface integrity",
+      "status": "pass",
+      "actual": {
+        "degenerateTriangles": 0,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "zeroLengthNormals": 0
+      },
+      "expected": "all zero"
+    },
+    {
+      "stage": "reimport",
+      "name": "AVA041_Hair: material assignments",
+      "status": "pass",
+      "actual": [
+        "AVA041_hair"
+      ],
+      "expected": "at least one material, no empty slots"
+    },
+    {
+      "stage": "reimport",
+      "name": "AVA041_Jeans: nonempty finite mesh",
+      "status": "pass",
+      "actual": {
+        "vertices": 1187,
+        "triangles": 2362,
+        "finiteVertices": true,
+        "finiteNormals": true
+      },
+      "expected": "nonempty; finite coordinates and normals"
+    },
+    {
+      "stage": "reimport",
+      "name": "AVA041_Jeans: surface integrity",
+      "status": "pass",
+      "actual": {
+        "degenerateTriangles": 0,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "zeroLengthNormals": 0
+      },
+      "expected": "all zero"
+    },
+    {
+      "stage": "reimport",
+      "name": "AVA041_Jeans: material assignments",
+      "status": "pass",
+      "actual": [
+        "AVA041_denim"
+      ],
+      "expected": "at least one material, no empty slots"
+    },
+    {
+      "stage": "reimport",
+      "name": "AVA041_Jewelry: nonempty finite mesh",
+      "status": "pass",
+      "actual": {
+        "vertices": 400,
+        "triangles": 752,
+        "finiteVertices": true,
+        "finiteNormals": true
+      },
+      "expected": "nonempty; finite coordinates and normals"
+    },
+    {
+      "stage": "reimport",
+      "name": "AVA041_Jewelry: surface integrity",
+      "status": "pass",
+      "actual": {
+        "degenerateTriangles": 0,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "zeroLengthNormals": 0
+      },
+      "expected": "all zero"
+    },
+    {
+      "stage": "reimport",
+      "name": "AVA041_Jewelry: material assignments",
+      "status": "pass",
+      "actual": [
+        "AVA041_detail"
+      ],
+      "expected": "at least one material, no empty slots"
+    },
+    {
+      "stage": "reimport",
+      "name": "AVA041_KnitAndSoles: nonempty finite mesh",
+      "status": "pass",
+      "actual": {
+        "vertices": 2022,
+        "triangles": 3848,
+        "finiteVertices": true,
+        "finiteNormals": true
+      },
+      "expected": "nonempty; finite coordinates and normals"
+    },
+    {
+      "stage": "reimport",
+      "name": "AVA041_KnitAndSoles: surface integrity",
+      "status": "pass",
+      "actual": {
+        "degenerateTriangles": 0,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "zeroLengthNormals": 0
+      },
+      "expected": "all zero"
+    },
+    {
+      "stage": "reimport",
+      "name": "AVA041_KnitAndSoles: material assignments",
+      "status": "pass",
+      "actual": [
+        "AVA041_cream"
+      ],
+      "expected": "at least one material, no empty slots"
+    },
+    {
+      "stage": "reimport",
+      "name": "AVA041_SneakerUppers: nonempty finite mesh",
+      "status": "pass",
+      "actual": {
+        "vertices": 448,
+        "triangles": 784,
+        "finiteVertices": true,
+        "finiteNormals": true
+      },
+      "expected": "nonempty; finite coordinates and normals"
+    },
+    {
+      "stage": "reimport",
+      "name": "AVA041_SneakerUppers: surface integrity",
+      "status": "pass",
+      "actual": {
+        "degenerateTriangles": 0,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "zeroLengthNormals": 0
+      },
+      "expected": "all zero"
+    },
+    {
+      "stage": "reimport",
+      "name": "AVA041_SneakerUppers: material assignments",
+      "status": "pass",
+      "actual": [
+        "AVA041_shoe"
+      ],
+      "expected": "at least one material, no empty slots"
+    },
+    {
+      "stage": "reimport",
+      "name": "static scene with no executable texts",
+      "status": "pass",
+      "actual": {
+        "armatures": 0,
+        "actions": 0,
+        "embeddedTexts": 0,
+        "animationOwners": []
+      },
+      "expected": "zero armatures/actions/texts/animation"
+    },
+    {
+      "stage": "reimport",
+      "name": "A03-relative triangle/material budget",
+      "status": "pass",
+      "actual": {
+        "triangles": 28991,
+        "materials": 9
+      },
+      "expected": {
+        "maxTriangles": 29367,
+        "maxMaterials": 9
+      }
+    },
+    {
+      "stage": "reimport",
+      "name": "texture size limit",
+      "status": "pass",
+      "actual": [],
+      "expected": "zero textures or at most two <=1024px images"
+    },
+    {
+      "stage": "roundtrip",
+      "name": "source/export/reimport bounds",
+      "status": "pass",
+      "actual": 0.0,
+      "expected": {
+        "maxAbsoluteErrorMeters": 0.0001
+      }
+    },
+    {
+      "stage": "roundtrip",
+      "name": "triangle and material counts",
+      "status": "pass",
+      "actual": {
+        "source": {
+          "triangles": 28991,
+          "materialCount": 9
+        },
+        "reimport": {
+          "triangles": 28991,
+          "materialCount": 9
+        }
+      },
+      "expected": "same counts; mesh splitting at material boundaries allowed"
+    },
+    {
+      "stage": "preservation",
+      "name": "source files unchanged",
+      "status": "pass",
+      "actual": {
+        "blend": "1c2806a2f144de14f74ebd80e67183bda5deed78cb4288c5e92d8acecf4122dc",
+        "glb": "35dcb5549c577305b72553595cd361cf90ca5efdb741b815cbb0d5c02c153f45"
+      },
+      "expected": {
+        "blend": "1c2806a2f144de14f74ebd80e67183bda5deed78cb4288c5e92d8acecf4122dc",
+        "glb": "35dcb5549c577305b72553595cd361cf90ca5efdb741b815cbb0d5c02c153f45"
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "stage": "source",
+      "mesh": "AVA041_Apron",
+      "boundaryEdges": 64,
+      "classification": "review: open part/garment boundaries; inspect renders",
+      "note": "Counts alone do not establish a visible gap, internal hole, contact or clipping."
+    },
+    {
+      "stage": "source",
+      "mesh": "AVA041_Face",
+      "boundaryEdges": 1275,
+      "classification": "review: open part/garment boundaries; inspect renders",
+      "note": "Counts alone do not establish a visible gap, internal hole, contact or clipping."
+    },
+    {
+      "stage": "source",
+      "mesh": "AVA041_Hair",
+      "boundaryEdges": 48,
+      "classification": "review: open part/garment boundaries; inspect renders",
+      "note": "Counts alone do not establish a visible gap, internal hole, contact or clipping."
+    },
+    {
+      "stage": "source",
+      "mesh": "AVA041_KnitAndSoles",
+      "boundaryEdges": 144,
+      "classification": "review: open part/garment boundaries; inspect renders",
+      "note": "Counts alone do not establish a visible gap, internal hole, contact or clipping."
+    },
+    {
+      "stage": "source",
+      "mesh": "AVA041_SneakerUppers",
+      "boundaryEdges": 112,
+      "classification": "review: open part/garment boundaries; inspect renders",
+      "note": "Counts alone do not establish a visible gap, internal hole, contact or clipping."
+    },
+    {
+      "stage": "reimport",
+      "mesh": "AVA041_Apron",
+      "boundaryEdges": 544,
+      "classification": "review: open part/garment boundaries; inspect renders",
+      "note": "Counts alone do not establish a visible gap, internal hole, contact or clipping."
+    },
+    {
+      "stage": "reimport",
+      "mesh": "AVA041_Face",
+      "boundaryEdges": 1355,
+      "classification": "review: open part/garment boundaries; inspect renders",
+      "note": "Counts alone do not establish a visible gap, internal hole, contact or clipping."
+    },
+    {
+      "stage": "reimport",
+      "mesh": "AVA041_Hair",
+      "boundaryEdges": 48,
+      "classification": "review: open part/garment boundaries; inspect renders",
+      "note": "Counts alone do not establish a visible gap, internal hole, contact or clipping."
+    },
+    {
+      "stage": "reimport",
+      "mesh": "AVA041_KnitAndSoles",
+      "boundaryEdges": 144,
+      "classification": "review: open part/garment boundaries; inspect renders",
+      "note": "Counts alone do not establish a visible gap, internal hole, contact or clipping."
+    },
+    {
+      "stage": "reimport",
+      "mesh": "AVA041_SneakerUppers",
+      "boundaryEdges": 112,
+      "classification": "review: open part/garment boundaries; inspect renders",
+      "note": "Counts alone do not establish a visible gap, internal hole, contact or clipping."
+    }
+  ],
+  "scope": "Saved source reopen, independent GLB binary checks and fresh Blender reimport; no source repair/save/render.",
+  "limitations": [
+    "No exhaustive self-intersection, solid contact or visible-gap proof.",
+    "Boundary edges require visual/context review; closed components may intentionally overlap.",
+    "Axes are checked by source/export bounds and exporter convention; semantic front needs renders.",
+    "No Unity import, gameplay, rig, deformation or performance certification."
+  ],
+  "inputs": {
+    "blend": {
+      "name": "character.blend",
+      "sha256": "1c2806a2f144de14f74ebd80e67183bda5deed78cb4288c5e92d8acecf4122dc"
+    },
+    "glb": {
+      "name": "chr_ava_morgan_041.glb",
+      "sha256": "35dcb5549c577305b72553595cd361cf90ca5efdb741b815cbb0d5c02c153f45"
+    }
+  },
+  "source": {
+    "meshes": [
+      {
+        "name": "AVA041_Apron",
+        "meshDataName": "Ava_apron_shaped_front_mesh",
+        "vertices": 1000,
+        "triangles": 1916,
+        "boundsWorldBlenderXYZ": {
+          "min": [
+            -0.19451794028282166,
+            -0.11100345849990845,
+            0.6944329738616943
+          ],
+          "max": [
+            0.19478541612625122,
+            0.1440037190914154,
+            1.23246169090271
+          ]
+        },
+        "geometrySha256": "3b2613cd9dcd632292c56696c796331bfe0f42bdaf3502afe02835aba500bc1f",
+        "finiteVertices": true,
+        "finiteNormals": true,
+        "zeroLengthNormals": 0,
+        "degenerateTriangles": 0,
+        "minimumTriangleAreaM2": 2.0754217711840894e-06,
+        "degenerateAreaThresholdM2": 1e-14,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "boundaryEdges": 64,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "materials": [
+          "AVA041_olive"
+        ],
+        "modifiers": [],
+        "shapeKeys": 0
+      },
+      {
+        "name": "AVA041_ApronStraps",
+        "meshDataName": "Ava_leather_shoulder_strap_-1_mesh",
+        "vertices": 88,
+        "triangles": 168,
+        "boundsWorldBlenderXYZ": {
+          "min": [
+            -0.1189277321100235,
+            -0.08190526068210602,
+            1.0414701700210571
+          ],
+          "max": [
+            0.11907140910625458,
+            0.12933292984962463,
+            1.3304041624069214
+          ]
+        },
+        "geometrySha256": "52eefdc09573962db8205ab2d38e950fd333f90db00fa55eb1ad3a57cba1e4bf",
+        "finiteVertices": true,
+        "finiteNormals": true,
+        "zeroLengthNormals": 0,
+        "degenerateTriangles": 0,
+        "minimumTriangleAreaM2": 1.99999444921818e-05,
+        "degenerateAreaThresholdM2": 1e-14,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "boundaryEdges": 0,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "materials": [
+          "AVA041_leather"
+        ],
+        "modifiers": [],
+        "shapeKeys": 0
+      },
+      {
+        "name": "AVA041_BodySkin",
+        "meshDataName": "AVA_Neck_mesh",
+        "vertices": 914,
+        "triangles": 1816,
+        "boundsWorldBlenderXYZ": {
+          "min": [
+            -0.33596229553222656,
+            -0.019579648971557617,
+            0.7896008491516113
+          ],
+          "max": [
+            0.33596229553222656,
+            0.11099627614021301,
+            1.406999945640564
+          ]
+        },
+        "geometrySha256": "db62e317fc5aa028cfb5d5d64e13058c51503c22b7a32a19e277803cdadd95e3",
+        "finiteVertices": true,
+        "finiteNormals": true,
+        "zeroLengthNormals": 0,
+        "degenerateTriangles": 0,
+        "minimumTriangleAreaM2": 9.741773683875677e-07,
+        "degenerateAreaThresholdM2": 1e-14,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "boundaryEdges": 0,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "materials": [
+          "AVA041_skin"
+        ],
+        "modifiers": [],
+        "shapeKeys": 0
+      },
+      {
+        "name": "AVA041_Face",
+        "meshDataName": "AVA_Head_mesh",
+        "vertices": 6254,
+        "triangles": 10955,
+        "boundsWorldBlenderXYZ": {
+          "min": [
+            -0.10392816364765167,
+            -0.06540685892105103,
+            1.378999948501587
+          ],
+          "max": [
+            0.10407184064388275,
+            0.11902740597724915,
+            1.625
+          ]
+        },
+        "geometrySha256": "cc26a12bf8497a257d413f9d12ec319271facd32ac752a42a65b67ca622dddf1",
+        "finiteVertices": true,
+        "finiteNormals": true,
+        "zeroLengthNormals": 0,
+        "degenerateTriangles": 0,
+        "minimumTriangleAreaM2": 6.077885624615298e-09,
+        "degenerateAreaThresholdM2": 1e-14,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "boundaryEdges": 1275,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "materials": [
+          "AVA041_skin",
+          "AVA041_shoe",
+          "AVA041_hair",
+          "AVA041_lip"
+        ],
+        "modifiers": [],
+        "shapeKeys": 0
+      },
+      {
+        "name": "AVA041_Hair",
+        "meshDataName": "AVA_HairCap_mesh",
+        "vertices": 3250,
+        "triangles": 6390,
+        "boundsWorldBlenderXYZ": {
+          "min": [
+            -0.09510952234268188,
+            -0.03842800483107567,
+            1.4328136444091797
+          ],
+          "max": [
+            0.09493694454431534,
+            0.12562569975852966,
+            1.6920000314712524
+          ]
+        },
+        "geometrySha256": "6015cc14459b3b7c553cbd940d1a3f163ad068e7e92199187fa542d5b5d046a2",
+        "finiteVertices": true,
+        "finiteNormals": true,
+        "zeroLengthNormals": 0,
+        "degenerateTriangles": 0,
+        "minimumTriangleAreaM2": 8.51599682983156e-10,
+        "degenerateAreaThresholdM2": 1e-14,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "boundaryEdges": 48,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "materials": [
+          "AVA041_hair"
+        ],
+        "modifiers": [],
+        "shapeKeys": 0
+      },
+      {
+        "name": "AVA041_Jeans",
+        "meshDataName": "Ava_jeans_rolled_cuff_-1_mesh",
+        "vertices": 1187,
+        "triangles": 2362,
+        "boundsWorldBlenderXYZ": {
+          "min": [
+            -0.1699436753988266,
+            -0.06685523688793182,
+            0.13099999725818634
+          ],
+          "max": [
+            0.170083686709404,
+            0.12548141181468964,
+            0.9769910573959351
+          ]
+        },
+        "geometrySha256": "f177b63fa377ff215615d28553a98be3abc19a8cac387e3c431c27b771bfd802",
+        "finiteVertices": true,
+        "finiteNormals": true,
+        "zeroLengthNormals": 0,
+        "degenerateTriangles": 0,
+        "minimumTriangleAreaM2": 7.418135550185743e-06,
+        "degenerateAreaThresholdM2": 1e-14,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "boundaryEdges": 0,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "materials": [
+          "AVA041_denim"
+        ],
+        "modifiers": [],
+        "shapeKeys": 0
+      },
+      {
+        "name": "AVA041_Jewelry",
+        "meshDataName": "AVA_GoldHoop_-1_mesh",
+        "vertices": 400,
+        "triangles": 752,
+        "boundsWorldBlenderXYZ": {
+          "min": [
+            -0.11122816056013107,
+            -0.08250372111797333,
+            0.919700026512146
+          ],
+          "max": [
+            0.11137183755636215,
+            0.013948902487754822,
+            1.4910999536514282
+          ]
+        },
+        "geometrySha256": "c16699703fecc331c8667c760aa2f2d18d91faaa5c49c7bfde6e30be0e47f84e",
+        "finiteVertices": true,
+        "finiteNormals": true,
+        "zeroLengthNormals": 0,
+        "degenerateTriangles": 0,
+        "minimumTriangleAreaM2": 5.239386804108112e-07,
+        "degenerateAreaThresholdM2": 1e-14,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "boundaryEdges": 0,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "materials": [
+          "AVA041_detail"
+        ],
+        "modifiers": [],
+        "shapeKeys": 0
+      },
+      {
+        "name": "AVA041_KnitAndSoles",
+        "meshDataName": "Ava_sweater_ribbed_neckline_mesh",
+        "vertices": 2022,
+        "triangles": 3848,
+        "boundsWorldBlenderXYZ": {
+          "min": [
+            -0.31931912899017334,
+            -0.1440037190914154,
+            0.0
+          ],
+          "max": [
+            0.3194628357887268,
+            0.13651823997497559,
+            1.3459999561309814
+          ]
+        },
+        "geometrySha256": "5db232d0333d62478f7a1af7d9b0ced14d848ebb6a6dc673a1f12092748a3406",
+        "finiteVertices": true,
+        "finiteNormals": true,
+        "zeroLengthNormals": 0,
+        "degenerateTriangles": 0,
+        "minimumTriangleAreaM2": 1.2513983538542662e-06,
+        "degenerateAreaThresholdM2": 1e-14,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "boundaryEdges": 144,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "materials": [
+          "AVA041_cream"
+        ],
+        "modifiers": [],
+        "shapeKeys": 0
+      },
+      {
+        "name": "AVA041_SneakerUppers",
+        "meshDataName": "Ava_sneaker_upper_-1_mesh",
+        "vertices": 448,
+        "triangles": 784,
+        "boundsWorldBlenderXYZ": {
+          "min": [
+            -0.1529281586408615,
+            -0.13700371980667114,
+            0.027000000700354576
+          ],
+          "max": [
+            0.1530718356370926,
+            0.1019962728023529,
+            0.13600000739097595
+          ]
+        },
+        "geometrySha256": "ae7f70552c970c5707dfdfad56413696c6063407c265f564b310f95ce3697f56",
+        "finiteVertices": true,
+        "finiteNormals": true,
+        "zeroLengthNormals": 0,
+        "degenerateTriangles": 0,
+        "minimumTriangleAreaM2": 1.6170218660150278e-05,
+        "degenerateAreaThresholdM2": 1e-14,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "boundaryEdges": 112,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "materials": [
+          "AVA041_shoe"
+        ],
+        "modifiers": [],
+        "shapeKeys": 0
+      }
+    ],
+    "meshCount": 9,
+    "triangles": 28991,
+    "materialCount": 9,
+    "materialNames": [
+      "AVA041_cream",
+      "AVA041_denim",
+      "AVA041_detail",
+      "AVA041_hair",
+      "AVA041_leather",
+      "AVA041_lip",
+      "AVA041_olive",
+      "AVA041_shoe",
+      "AVA041_skin"
+    ],
+    "images": [],
+    "boundsWorldBlenderXYZ": {
+      "min": [
+        -0.33596229553222656,
+        -0.1440037190914154,
+        0.0
+      ],
+      "max": [
+        0.33596229553222656,
+        0.1440037190914154,
+        1.6920000314712524
+      ]
+    },
+    "dimensionsBlenderXYZ": [
+      0.6719245910644531,
+      0.2880074381828308,
+      1.6920000314712524
+    ],
+    "sceneCounts": {
+      "armatures": 0,
+      "actions": 0,
+      "embeddedTexts": 0,
+      "animationOwners": []
+    }
+  },
+  "glbStructure": {
+    "bytes": 760316,
+    "jsonMeshes": 9,
+    "nodes": 10,
+    "skins": 0,
+    "animations": 0,
+    "images": 0,
+    "materials": 9,
+    "extensionsUsed": [],
+    "extensionsRequired": []
+  },
+  "independentGlb": {
+    "sha256": "35dcb5549c577305b72553595cd361cf90ca5efdb741b815cbb0d5c02c153f45",
+    "bytes": 760316,
+    "triangles": 28991,
+    "vertices": 15947,
+    "meshInstances": 9,
+    "materials": [
+      "AVA041_olive",
+      "AVA041_leather",
+      "AVA041_skin",
+      "AVA041_shoe",
+      "AVA041_hair",
+      "AVA041_lip",
+      "AVA041_denim",
+      "AVA041_detail",
+      "AVA041_cream"
+    ],
+    "materialCount": 9,
+    "bounds": {
+      "min": [
+        -0.33596229553222656,
+        0.0,
+        -0.1440037190914154
+      ],
+      "max": [
+        0.33596229553222656,
+        1.6920000314712524,
+        0.1440037190914154
+      ]
+    },
+    "dimensionsMeters": [
+      0.6719245910644531,
+      1.6920000314712524,
+      0.2880074381828308
+    ],
+    "pivotErrorMeters": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "windingNormalsConsistent": true,
+    "coordinateSystem": {
+      "up": "+Y",
+      "forward": "+Z",
+      "units": "meters"
+    }
+  },
+  "reimport": {
+    "meshes": [
+      {
+        "name": "AVA041_Apron",
+        "meshDataName": "Ava_apron_shaped_front_mesh",
+        "vertices": 1320,
+        "triangles": 1916,
+        "boundsWorldBlenderXYZ": {
+          "min": [
+            -0.19451794028282166,
+            -0.11100345849990845,
+            0.6944329738616943
+          ],
+          "max": [
+            0.19478541612625122,
+            0.1440037190914154,
+            1.23246169090271
+          ]
+        },
+        "geometrySha256": "a79d146049b451f48f566e83eb9b58e19b46a23b336b98bd7a52ea3673d198c1",
+        "finiteVertices": true,
+        "finiteNormals": true,
+        "zeroLengthNormals": 0,
+        "degenerateTriangles": 0,
+        "minimumTriangleAreaM2": 2.0754217711840894e-06,
+        "degenerateAreaThresholdM2": 1e-14,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "boundaryEdges": 544,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "materials": [
+          "AVA041_olive"
+        ],
+        "modifiers": [],
+        "shapeKeys": 0
+      },
+      {
+        "name": "AVA041_ApronStraps",
+        "meshDataName": "Ava_leather_shoulder_strap_-1_mesh",
+        "vertices": 88,
+        "triangles": 168,
+        "boundsWorldBlenderXYZ": {
+          "min": [
+            -0.1189277321100235,
+            -0.08190526068210602,
+            1.0414701700210571
+          ],
+          "max": [
+            0.11907140910625458,
+            0.12933292984962463,
+            1.3304041624069214
+          ]
+        },
+        "geometrySha256": "52eefdc09573962db8205ab2d38e950fd333f90db00fa55eb1ad3a57cba1e4bf",
+        "finiteVertices": true,
+        "finiteNormals": true,
+        "zeroLengthNormals": 0,
+        "degenerateTriangles": 0,
+        "minimumTriangleAreaM2": 1.99999444921818e-05,
+        "degenerateAreaThresholdM2": 1e-14,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "boundaryEdges": 0,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "materials": [
+          "AVA041_leather"
+        ],
+        "modifiers": [],
+        "shapeKeys": 0
+      },
+      {
+        "name": "AVA041_BodySkin",
+        "meshDataName": "AVA_Neck_mesh",
+        "vertices": 914,
+        "triangles": 1816,
+        "boundsWorldBlenderXYZ": {
+          "min": [
+            -0.33596229553222656,
+            -0.019579648971557617,
+            0.7896008491516113
+          ],
+          "max": [
+            0.33596229553222656,
+            0.11099627614021301,
+            1.406999945640564
+          ]
+        },
+        "geometrySha256": "db62e317fc5aa028cfb5d5d64e13058c51503c22b7a32a19e277803cdadd95e3",
+        "finiteVertices": true,
+        "finiteNormals": true,
+        "zeroLengthNormals": 0,
+        "degenerateTriangles": 0,
+        "minimumTriangleAreaM2": 9.741773683875677e-07,
+        "degenerateAreaThresholdM2": 1e-14,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "boundaryEdges": 0,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "materials": [
+          "AVA041_skin"
+        ],
+        "modifiers": [],
+        "shapeKeys": 0
+      },
+      {
+        "name": "AVA041_Face",
+        "meshDataName": "AVA_Head_mesh",
+        "vertices": 6318,
+        "triangles": 10955,
+        "boundsWorldBlenderXYZ": {
+          "min": [
+            -0.10392816364765167,
+            -0.06540685892105103,
+            1.378999948501587
+          ],
+          "max": [
+            0.10407184064388275,
+            0.11902740597724915,
+            1.625
+          ]
+        },
+        "geometrySha256": "390d4e8e2a701cbbed6cbc253b0a49d78897da05ad59f09f968b82110b7242e1",
+        "finiteVertices": true,
+        "finiteNormals": true,
+        "zeroLengthNormals": 0,
+        "degenerateTriangles": 0,
+        "minimumTriangleAreaM2": 6.077885624615298e-09,
+        "degenerateAreaThresholdM2": 1e-14,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "boundaryEdges": 1355,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "materials": [
+          "AVA041_skin",
+          "AVA041_shoe",
+          "AVA041_hair",
+          "AVA041_lip"
+        ],
+        "modifiers": [],
+        "shapeKeys": 0
+      },
+      {
+        "name": "AVA041_Hair",
+        "meshDataName": "AVA_HairCap_mesh",
+        "vertices": 3250,
+        "triangles": 6390,
+        "boundsWorldBlenderXYZ": {
+          "min": [
+            -0.09510952234268188,
+            -0.03842800483107567,
+            1.4328136444091797
+          ],
+          "max": [
+            0.09493694454431534,
+            0.12562569975852966,
+            1.6920000314712524
+          ]
+        },
+        "geometrySha256": "6015cc14459b3b7c553cbd940d1a3f163ad068e7e92199187fa542d5b5d046a2",
+        "finiteVertices": true,
+        "finiteNormals": true,
+        "zeroLengthNormals": 0,
+        "degenerateTriangles": 0,
+        "minimumTriangleAreaM2": 8.51599682983156e-10,
+        "degenerateAreaThresholdM2": 1e-14,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "boundaryEdges": 48,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "materials": [
+          "AVA041_hair"
+        ],
+        "modifiers": [],
+        "shapeKeys": 0
+      },
+      {
+        "name": "AVA041_Jeans",
+        "meshDataName": "Ava_jeans_rolled_cuff_-1_mesh",
+        "vertices": 1187,
+        "triangles": 2362,
+        "boundsWorldBlenderXYZ": {
+          "min": [
+            -0.1699436753988266,
+            -0.06685523688793182,
+            0.13099999725818634
+          ],
+          "max": [
+            0.170083686709404,
+            0.12548141181468964,
+            0.9769910573959351
+          ]
+        },
+        "geometrySha256": "f177b63fa377ff215615d28553a98be3abc19a8cac387e3c431c27b771bfd802",
+        "finiteVertices": true,
+        "finiteNormals": true,
+        "zeroLengthNormals": 0,
+        "degenerateTriangles": 0,
+        "minimumTriangleAreaM2": 7.418135550185743e-06,
+        "degenerateAreaThresholdM2": 1e-14,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "boundaryEdges": 0,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "materials": [
+          "AVA041_denim"
+        ],
+        "modifiers": [],
+        "shapeKeys": 0
+      },
+      {
+        "name": "AVA041_Jewelry",
+        "meshDataName": "AVA_GoldHoop_-1_mesh",
+        "vertices": 400,
+        "triangles": 752,
+        "boundsWorldBlenderXYZ": {
+          "min": [
+            -0.11122816056013107,
+            -0.08250372111797333,
+            0.919700026512146
+          ],
+          "max": [
+            0.11137183755636215,
+            0.013948902487754822,
+            1.4910999536514282
+          ]
+        },
+        "geometrySha256": "c16699703fecc331c8667c760aa2f2d18d91faaa5c49c7bfde6e30be0e47f84e",
+        "finiteVertices": true,
+        "finiteNormals": true,
+        "zeroLengthNormals": 0,
+        "degenerateTriangles": 0,
+        "minimumTriangleAreaM2": 5.239386804108112e-07,
+        "degenerateAreaThresholdM2": 1e-14,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "boundaryEdges": 0,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "materials": [
+          "AVA041_detail"
+        ],
+        "modifiers": [],
+        "shapeKeys": 0
+      },
+      {
+        "name": "AVA041_KnitAndSoles",
+        "meshDataName": "Ava_sweater_ribbed_neckline_mesh",
+        "vertices": 2022,
+        "triangles": 3848,
+        "boundsWorldBlenderXYZ": {
+          "min": [
+            -0.31931912899017334,
+            -0.1440037190914154,
+            0.0
+          ],
+          "max": [
+            0.3194628357887268,
+            0.13651823997497559,
+            1.3459999561309814
+          ]
+        },
+        "geometrySha256": "5db232d0333d62478f7a1af7d9b0ced14d848ebb6a6dc673a1f12092748a3406",
+        "finiteVertices": true,
+        "finiteNormals": true,
+        "zeroLengthNormals": 0,
+        "degenerateTriangles": 0,
+        "minimumTriangleAreaM2": 1.2513983538542662e-06,
+        "degenerateAreaThresholdM2": 1e-14,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "boundaryEdges": 144,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "materials": [
+          "AVA041_cream"
+        ],
+        "modifiers": [],
+        "shapeKeys": 0
+      },
+      {
+        "name": "AVA041_SneakerUppers",
+        "meshDataName": "Ava_sneaker_upper_-1_mesh",
+        "vertices": 448,
+        "triangles": 784,
+        "boundsWorldBlenderXYZ": {
+          "min": [
+            -0.1529281586408615,
+            -0.13700371980667114,
+            0.027000000700354576
+          ],
+          "max": [
+            0.1530718356370926,
+            0.1019962728023529,
+            0.13600000739097595
+          ]
+        },
+        "geometrySha256": "ae7f70552c970c5707dfdfad56413696c6063407c265f564b310f95ce3697f56",
+        "finiteVertices": true,
+        "finiteNormals": true,
+        "zeroLengthNormals": 0,
+        "degenerateTriangles": 0,
+        "minimumTriangleAreaM2": 1.6170218660150278e-05,
+        "degenerateAreaThresholdM2": 1e-14,
+        "looseVertices": 0,
+        "wireEdges": 0,
+        "boundaryEdges": 112,
+        "nonManifoldJunctionEdges": 0,
+        "duplicateIndexedFaces": 0,
+        "materials": [
+          "AVA041_shoe"
+        ],
+        "modifiers": [],
+        "shapeKeys": 0
+      }
+    ],
+    "meshCount": 9,
+    "triangles": 28991,
+    "materialCount": 9,
+    "materialNames": [
+      "AVA041_cream",
+      "AVA041_denim",
+      "AVA041_detail",
+      "AVA041_hair",
+      "AVA041_leather",
+      "AVA041_lip",
+      "AVA041_olive",
+      "AVA041_shoe",
+      "AVA041_skin"
+    ],
+    "images": [],
+    "boundsWorldBlenderXYZ": {
+      "min": [
+        -0.33596229553222656,
+        -0.1440037190914154,
+        0.0
+      ],
+      "max": [
+        0.33596229553222656,
+        0.1440037190914154,
+        1.6920000314712524
+      ]
+    },
+    "dimensionsBlenderXYZ": [
+      0.6719245910644531,
+      0.2880074381828308,
+      1.6920000314712524
+    ],
+    "sceneCounts": {
+      "armatures": 0,
+      "actions": 0,
+      "embeddedTexts": 0,
+      "animationOwners": []
+    }
+  },
+  "passed": 67,
+  "failed": 0,
+  "status": "pass"
+}

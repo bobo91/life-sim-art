@@ -1,0 +1,120 @@
+{
+  "assetId": "chr_ava_morgan_041",
+  "version": "0.1.0-review.1",
+  "phase": "A static visual review only",
+  "approval": "pending owner",
+  "geometry": {
+    "triangles": 28991,
+    "meshCount": 9,
+    "materialCount": 9,
+    "textureImages": 0,
+    "boundsSource": {
+      "min": [
+        -0.33596229553222656,
+        -0.1440037190914154,
+        0.0
+      ],
+      "max": [
+        0.33596229553222656,
+        0.1440037190914154,
+        1.6920000314712524
+      ]
+    },
+    "dimensionsExportXYZ": [
+      0.6719245910644531,
+      1.6920000314712524,
+      0.2880074381828308
+    ]
+  },
+  "files": [
+    {
+      "path": "asset-report.json",
+      "bytes": 7250,
+      "sha256": "aa13bcc8aaf00bc546c9801cb22f4e771f6aa69c9554b0822557bb7e51aa529e"
+    },
+    {
+      "path": "character.blend",
+      "bytes": 2834854,
+      "sha256": "1c2806a2f144de14f74ebd80e67183bda5deed78cb4288c5e92d8acecf4122dc"
+    },
+    {
+      "path": "chr_ava_morgan_041.glb",
+      "bytes": 760316,
+      "sha256": "35dcb5549c577305b72553595cd361cf90ca5efdb741b815cbb0d5c02c153f45"
+    },
+    {
+      "path": "environment.json",
+      "bytes": 1257,
+      "sha256": "902e4fc3ee4725022e1571f61572afaa5a4287b50f26bd98585ac27131f9e6af"
+    },
+    {
+      "path": "render-metadata.json",
+      "bytes": 7412,
+      "sha256": "d43cac1b8dc68d86baff0c8151ea5393dc67486a9a1782abf55e9a74303b81d7"
+    },
+    {
+      "path": "renders/ava_a03_same_scale.png",
+      "bytes": 1672398,
+      "sha256": "68c087025da8752e61a875ad28b0a0a432dfad4ad7a16321b26141860693a59f"
+    },
+    {
+      "path": "renders/back.png",
+      "bytes": 1029374,
+      "sha256": "9266070173a8dac3502c4d44328764cdb6d43e4c50b1a6499b265dfee2bc17aa"
+    },
+    {
+      "path": "renders/cafe_daylight_face.png",
+      "bytes": 978927,
+      "sha256": "6b544d830a39d043f472ba7851dbbf59236b49ecbbe293fb7e0170648eb75153"
+    },
+    {
+      "path": "renders/cafe_daylight_full.png",
+      "bytes": 974469,
+      "sha256": "33ca6927cdbfe39779112963e425bc970fe8d44032315346e9528acfe6701306"
+    },
+    {
+      "path": "renders/face_front.png",
+      "bytes": 1097782,
+      "sha256": "e5d8d0ad0b3502242b374518b3656889da90f7b462ecfa58a0a421c64ec62df4"
+    },
+    {
+      "path": "renders/face_three_quarter.png",
+      "bytes": 1103998,
+      "sha256": "3c41e7822db8b3ef93525c4358620471c8c099e72b0938a5b94b2a59bb51bcb5"
+    },
+    {
+      "path": "renders/front.png",
+      "bytes": 1026760,
+      "sha256": "80b3ff860138fb1c2e217ebbd688717b672d424da91fc524cb0130358a534c0d"
+    },
+    {
+      "path": "renders/game_16m_back.png",
+      "bytes": 904392,
+      "sha256": "83999ebbe61de6f90964f649a034105a33a1e3fed7a08307550cbc366fb20b21"
+    },
+    {
+      "path": "renders/game_16m_front.png",
+      "bytes": 863685,
+      "sha256": "b3b1d2c52714e6a5b1b9465b9cc9f53fc7dba80d6430c5ca9140a23fc3eb2c22"
+    },
+    {
+      "path": "renders/isometric.png",
+      "bytes": 973714,
+      "sha256": "f111a71743754e5dce5fd04f7da97854aafea51e5a409a30dccb2de1c41bc456"
+    },
+    {
+      "path": "renders/side.png",
+      "bytes": 1008339,
+      "sha256": "3a35beb512bbb6b5c3a38d5ef5fdb140c74615572eba9276f15fce657154a514"
+    },
+    {
+      "path": "renders/three_quarter.png",
+      "bytes": 1012597,
+      "sha256": "1b06d85e92c6d74d7738f18d89f8502d38ba20dd5e958623ae2829b7a15c2a56"
+    }
+  ],
+  "sourceConfigSha256": "ab65929df274a8ba803d60bd4c3e5670c39ccd337e9591844dc8ae0acc1b07d4",
+  "seed": 41029,
+  "rigs": 0,
+  "animations": []
+}

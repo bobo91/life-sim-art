@@ -1,0 +1,19 @@
+{
+  "assetId": "chr_ava_morgan_041",
+  "version": "0.1.0-review.1",
+  "seed": 41029,
+  "phase": "A: static visual candidate, owner appearance approval pending",
+  "source": "original Blender Python parametric geometry; no imported Ava mesh",
+  "a03Comparison": {
+    "tag": "male-neutral-a03-v0.3",
+    "blendSha256": "dcd7681255f49fa704844492b0ffc6964e434ccb4ae59aaba7788b0af56ffd90",
+    "glbSha256": "bed475ead3c8ab6ad21463085ed52ffa09467ccd64654f7850999655105c55a1",
+    "triangles": 29367,
+    "materials": 9
+  },
+  "render": {"samples": 40, "threads": 6, "full": [900,1100], "face": [1000,1000], "game": [1280,720]},
+  "gameCamera": {"distance":16,"pitch":50,"yaw":180,"focusHeight":1,"verticalFov":40},
+  "daylight": {"sunColor":[1,0.94,0.82],"sunEnergyBlender":1.2,"ambientColor":[0.52,0.57,0.61],"ambientStrengthBlender":0.55,"unityEuler":[50,150,0]},
+  "limits": {"triangles":29367,"materials":9,"textureImages":0},
+  "identity": "adult woman, 29 art direction; brown eyes, warm freckled complexion, brunette loose high bun, ivory rolled-sleeve sweater, deep olive apron/brown straps, dark cuffed jeans, offwhite sneakers; no logo"
+}

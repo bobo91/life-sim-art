@@ -1,0 +1,23 @@
+{
+  "status": "pass",
+  "separateProcesses": true,
+  "byteIdenticalGlb": true,
+  "glbSha256": "35dcb5549c577305b72553595cd361cf90ca5efdb741b815cbb0d5c02c153f45",
+  "modelBytes": 760316,
+  "producerSourcesVerified": {
+    "ava041_geometry.py": "9bcc21845384eb490ba309e31b1924608aff2206140b6374ad4cc0f06632d60e",
+    "ava041_head.py": "a7b46ec359909fa92beb15c6a46f59c63fdf888c4b271f5b62d735271a410cd9",
+    "ava041_outfit.py": "0eb3668cb40892d9981dd7ba55d4288b04426fd4cf94e2badb9216d13852073b",
+    "build_ava041.py": "1d50a03191a781cfadce78edbd814ad85f45010e80ad171104801c6aaf01d7b3",
+    "compose_ava041.py": "4ea0cd38b64ff8f61f7378555a48dc24b31170e55307f835eb160816a14bde12",
+    "inspect_ava041_normals.py": "6f43f157678af83e77abb3e312a72ae0438e692a66c81c63852dcabffc1d1fed",
+    "package_ava041.py": "1fe2623e931eda9e7184b9aa5f4b9ce907bfb20b218fb581679c1b62833e6510",
+    "render_ava041_roundtrip.py": "a4d23c87002bb860b73d5d0aeb1b1ac953a8067b59cdcb9704a058149f977a96",
+    "validate_ava041.py": "d35d2e17038e2e19668a91372daa6c7348af8749bb4a55a7b7ffdeb383b348a8"
+  },
+  "configSha256Verified": "ab65929df274a8ba803d60bd4c3e5670c39ccd337e9591844dc8ae0acc1b07d4",
+  "a03InputUnchanged": "dcd7681255f49fa704844492b0ffc6964e434ccb4ae59aaba7788b0af56ffd90",
+  "sourceFileHashesPreservedDuringRoundtrip": true,
+  "noGameFilesWritten": true,
+  "platform": "Windows / Blender 4.5.14 LTS CPU"
+}

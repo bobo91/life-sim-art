@@ -1,0 +1,32 @@
+{
+  "schema": "ava041-static-glb-render-roundtrip-1",
+  "checks": [
+    {
+      "view": "front",
+      "sourceSha256": "80b3ff860138fb1c2e217ebbd688717b672d424da91fc524cb0130358a534c0d",
+      "reimportSha256": "e1f96b3d0071dac921dce9075c0f1c6b1c72d5bf1d24ca0252aadb6034ba6329",
+      "meanAbsoluteImageFloatDifference": 0.00011412428284529597,
+      "maxAbsoluteImageFloatDifference": 0.01568630337715149,
+      "pixelSpace": "Blender loaded PNG float RGB, display-encoded source images; no alignment or retouching",
+      "meanDifferenceLimit": 0.002,
+      "pass": true
+    },
+    {
+      "view": "face_three_quarter",
+      "sourceSha256": "3c41e7822db8b3ef93525c4358620471c8c099e72b0938a5b94b2a59bb51bcb5",
+      "reimportSha256": "4d5c31c1ae862bae17a7aa3d1f214306e3d2c5a5ecf6d4186be74e81dc52dbda",
+      "meanAbsoluteImageFloatDifference": 0.00019833989790640771,
+      "maxAbsoluteImageFloatDifference": 0.0313725471496582,
+      "pixelSpace": "Blender loaded PNG float RGB, display-encoded source images; no alignment or retouching",
+      "meanDifferenceLimit": 0.002,
+      "pass": true
+    }
+  ],
+  "inputHashes": {
+    "blend": "1c2806a2f144de14f74ebd80e67183bda5deed78cb4288c5e92d8acecf4122dc",
+    "glb": "35dcb5549c577305b72553595cd361cf90ca5efdb741b815cbb0d5c02c153f45"
+  },
+  "inputFilesPreserved": true,
+  "limitation": "Static Blender-to-Blender visual roundtrip; not Unity runtime, skinning or animation proof.",
+  "status": "pass"
+}
