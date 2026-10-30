@@ -2,7 +2,7 @@
   "schema": "willow-creek-static-character-visual-candidate-1",
   "assetId": "chr_ava_morgan_041",
   "version": "0.1.0-review.1",
-  "status": "Phase A owner appearance review; not integration approval",
+  "status": "NO-GO: owner rejected visual candidate on 2026-10-30; historical review asset only",
   "modelFile": "chr_ava_morgan_041.glb",
   "editableSource": "character.blend",
   "units": "metres",
@@ -24,5 +24,5 @@
   "lods": [],
   "glbSha256Windows": "35dcb5549c577305b72553595cd361cf90ca5efdb741b815cbb0d5c02c153f45",
   "compatibility": "glTF static export and fresh Blender roundtrip; Unity import/URP/rendering/runtime not tested by ART-041",
-  "handoff": "Review only. No replacement of the game placeholder or A03. Rigging/animation and game integration need later explicit owner approval."
+  "handoff": "Rejected: do not integrate or refine this candidate. A replacement base/method needs owner approval before any new model. No game/A03 changes, rigging, animation or merge."
 }

@@ -1,7 +1,11 @@
-# Ava Morgan — Phase A visual candidate
+# Ava Morgan — rejected Phase A visual candidate
 
-**Owner appearance review required. Further production is NO-GO until that
-review.** This is a static candidate, not an approved NPC or a rigging delivery.
+**NO-GO: owner rejected this candidate on 2026-10-30.** The rejection covers
+shoulder anatomy, torso proportions and foundational face shape, as well as
+hair/eyes. Passing geometry checks did not establish adequate visual quality.
+No further minor adjustments of this Python-generated model are authorized.
+PR #42 remains draft; preserve its source and images as rejected evidence.
+See the [new method decision report](ART041_METHOD_DECISION.md).
 
 Ava has a warm freckled face, brown eyes, a brunette high bun with framing
 strands, ivory rolled-sleeve sweater, olive apron/leather straps, dark cuffed
@@ -36,8 +40,8 @@ roles. Counts are asset measurements, not a runtime performance certificate.
 | Review area | Critical finding |
 |---|---|
 | Identity / adult form | Distinct female face, shorter stature, freckled skin, bun and cafe silhouette. Retains the established art wardrobe; no stale cafe branding or invented backstory. |
-| Same visual language | Soft shaded forms, restrained civic colours and adult proportions relate to A03. **Facial finish is below A03**, especially the flatter eye surfaces and more graphic lids/lips. Do not approve equivalence solely from the same-scale frame. |
-| Face | No obvious exploded or collapsed surface in the static front/profile/three-quarter evidence. Iris, eyelid and lip layers remain visibly constructed at close dialogue distance. Expression is a fixed relaxed neutral; no expression/deformation capability is claimed. |
+| Same visual language | **Rejected.** Soft shading and related colours did not compensate for inadequate shoulder anatomy, torso proportions and face structure. The candidate does not reach A03's form quality. |
+| Face | **Rejected foundational form**, beyond eye/lip surface detail: the uniform oval lower face lacks the integrated orbit, cheek, muzzle and jaw structure seen in A03. Static mesh integrity is not an artistic pass. |
 | Hair | Crown covers the scalp without the earlier skin peeks. Bun and loose framing strands read clearly. Swept clumps still have a sculpted ribbon quality and the back cap is simple; this is an owner-review weakness. |
 | Garment contacts | The reviewed final neutral pose removes the visible shoulder gaps, wrist seam, floating belt/strap ends and rear-pocket artifacts found in earlier probes. Garment/body overlaps are intentional. Static checks do not establish moving contact or complete self-intersection freedom. |
 | Clothing / surface detail | Apron, rolled sleeves and cuffed jeans carry the cafe role at distance. Knit/denim weave, seam detail and shoe construction are simplified; obscured laces make shoes read as slip-ons. No expensive texture detail is used. |
@@ -51,7 +55,7 @@ renders and validator diagnostics. The final source keeps the validator's
 original winding/normal thresholds. Probe files are retained locally, not
 presented as final evidence.
 
-**Decision requested in the draft PR:** accept this appearance direction or give
-specific visual revisions. The critical recommendation is to review face and
-hair closely before granting appearance approval. Stop here: no rigging,
-animation production, merge, game changes or A03 delivery changes.
+**Owner decision: rejected.** The next task is method/base research only.
+Do not patch this candidate or begin a replacement model before the owner
+approves a new base and method. No rigging, animation, merge, game changes or
+A03 delivery changes.

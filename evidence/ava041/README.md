@@ -1,6 +1,9 @@
-# Ava Morgan static visual candidate — ART-041
+# Rejected Ava Morgan static visual candidate — ART-041
 
-**Appearance approval pending. Stop before rigging/animation.**
+**NO-GO — rejected by owner on 2026-10-30.** Shoulders, torso proportions and
+foundational face shape do not reach A03 quality. Preserve these files as
+historical evidence; do not integrate or continue minor patching. PR #42 stays
+draft. [Replacement-method decision report](../../docs/characters/ava-morgan/ART041_METHOD_DECISION.md).
 
 [Turnaround](previews/turnaround.png) · [face](previews/face_three_quarter.png) ·
 [Ava/A03 at the same scale](previews/ava_a03_same_scale.png) ·
