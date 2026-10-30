@@ -1,0 +1,90 @@
+{
+  "schema": "ava041-published-artifact-verification-1",
+  "assetId": "chr_ava_morgan_041",
+  "version": "0.1.0-review.1",
+  "sourceHead": "111d612a142a08e65182740a0d423a3de3cebf17",
+  "workflowRun": 41021875020,
+  "workflowUrl": "https://github.com/bobo91/life-sim-art/actions/runs/41021875020",
+  "artifactId": 12962526358,
+  "artifactName": "ava-morgan-visual-v0.1.0-review.1-9b881d252a398b98f4169faabfd5548b65a79623",
+  "artifactUrl": "https://github.com/bobo91/life-sim-art/actions/runs/41021875020/artifacts/12962526358",
+  "expiresAt": "2026-11-29T07:51:56Z",
+  "outerBytes": 28776622,
+  "outerSha256": "a3a7135cf41e832a783cfdab4f8350b032cbdcc361d1cef241dc345988b61404",
+  "outerDigestMatchesGitHub": true,
+  "innerName": "ava-morgan-visual-v0.1.0-review.1.zip",
+  "innerBytes": 28840636,
+  "innerSha256": "68ab997c135f99bdf5bb479026aaa94c2b4195cfc3517992c94ea4f6ee9242cd",
+  "entries": 76,
+  "payloadHashesVerified": 75,
+  "downloadVerified": true,
+  "crcPassed": true,
+  "producerSourceConfigHashesVerified": true,
+  "glbSha256": "710035edd547f94b763cd0e3422bb6038aaa39e955b819635972a9793f2b0c56",
+  "glbBytes": 760316,
+  "blendSha256": "f07c5ff7bb941f33db8005cb1cc472d8739490ac2ed2df9c6b39067587bfd5d9",
+  "linuxAndWindowsGlbByteIdentical": false,
+  "linuxValidation": {
+    "passed": 67,
+    "failed": 0,
+    "status": "pass"
+  },
+  "linuxReproduction": {
+    "status": "pass",
+    "byteIdenticalGlb": true,
+    "glbSha256": "710035edd547f94b763cd0e3422bb6038aaa39e955b819635972a9793f2b0c56",
+    "producerSourcesVerified": true,
+    "configVerified": true
+  },
+  "linuxVisualRoundtrip": {
+    "schema": "ava041-static-glb-render-roundtrip-1",
+    "checks": [
+      {
+        "view": "front",
+        "sourceSha256": "96aa5afc8486b0dfc738ccf0ad0b5e3a70ec8a4da9008df2f3e63d98af64b375",
+        "reimportSha256": "6ca2de5519ec741e6e954d1d0260626ec863b8ea834cb36a013cfbe9bdfe9bff",
+        "meanAbsoluteImageFloatDifference": 0.00011412826279411092,
+        "maxAbsoluteImageFloatDifference": 0.01568630337715149,
+        "pixelSpace": "Blender loaded PNG float RGB, display-encoded source images; no alignment or retouching",
+        "meanDifferenceLimit": 0.002,
+        "pass": true
+      },
+      {
+        "view": "face_three_quarter",
+        "sourceSha256": "5d3d9e28a054b970f57b695bcb2548d20e08ea1942b249a83b3c1b80d5f5c2e6",
+        "reimportSha256": "e6c068020c488d8d3af0070ab1a068e87b5cb79b1af7bfbf9ef96af4ff2c417a",
+        "meanAbsoluteImageFloatDifference": 0.00019827189680654556,
+        "maxAbsoluteImageFloatDifference": 0.0313725471496582,
+        "pixelSpace": "Blender loaded PNG float RGB, display-encoded source images; no alignment or retouching",
+        "meanDifferenceLimit": 0.002,
+        "pass": true
+      }
+    ],
+    "inputHashes": {
+      "blend": "f07c5ff7bb941f33db8005cb1cc472d8739490ac2ed2df9c6b39067587bfd5d9",
+      "glb": "710035edd547f94b763cd0e3422bb6038aaa39e955b819635972a9793f2b0c56"
+    },
+    "inputFilesPreserved": true,
+    "limitation": "Static Blender-to-Blender visual roundtrip; not Unity runtime, skinning or animation proof.",
+    "status": "pass"
+  },
+  "metrics": {
+    "triangles": 28991,
+    "meshCount": 9,
+    "materialCount": 9,
+    "textureImages": 0,
+    "dimensionsExportXYZ": [
+      0.6719245910644531,
+      1.6920000314712524,
+      0.2880074381828308
+    ]
+  },
+  "artifactSource": {
+    "commit": "9b881d252a398b98f4169faabfd5548b65a79623",
+    "workingTreeDirty": true
+  },
+  "appearanceApproved": false,
+  "riggingAuthorized": false,
+  "mergeAuthorized": false,
+  "localDownloadFolder": "download-12962526358"
+}
