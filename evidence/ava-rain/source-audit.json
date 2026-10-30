@@ -1,0 +1,79 @@
+{
+  "sha256": "831ab6d837c679040285862b15dc9ee5180b018442a88aeaf92aaa7509b80258",
+  "blender": "4.5.14 LTS",
+  "buildHash": "62c1db4208e8",
+  "python": "3.11.15 (main, Aug 12 2026, 16:53:25) [MSC v.1929 64 bit (AMD64)]",
+  "autoexecEnabled": false,
+  "devicesEnumerated": [
+    {
+      "name": "AMD Radeon RX 9070 XT",
+      "type": "HIP",
+      "probe": "HIP"
+    },
+    {
+      "name": "AMD Radeon(TM) Graphics",
+      "type": "HIP",
+      "probe": "HIP"
+    },
+    {
+      "name": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "type": "CPU",
+      "probe": "HIP"
+    }
+  ],
+  "sourcePreserved": true,
+  "embeddedTextBlocks": [
+    {
+      "name": "cloudrig.py",
+      "bytes": 111932,
+      "sha256": "a9989191aedd4e25317af92d9824f1aec77459baed85153bc6bdc20e26202cfb",
+      "useModule": true
+    },
+    {
+      "name": "rain_shading.py",
+      "bytes": 388,
+      "sha256": "0ae7f6027f79c9db8b75e25ff1f03f38d9ba5fed704d8390fe6405467cc2d6ae",
+      "useModule": true
+    },
+    {
+      "name": "ReadMe.txt",
+      "bytes": 581,
+      "sha256": "2009ec5ebe690c97b3d7b6240f2682202714ada7f96385da5452137f4bb70d88",
+      "useModule": false
+    }
+  ],
+  "actualReadMeLicence": "CC BY 4.0; exact text preserved as Rain-ReadMe.txt; embedded software is separate and excluded",
+  "exportedImages": [
+    {
+      "name": "ava_eyes_brown",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "ava_denim_normal",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "ava_denim",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "ava_skin_freckles",
+      "size": [
+        2048,
+        2048
+      ]
+    }
+  ],
+  "deliveredRigs": 0,
+  "deliveredAnimations": 0,
+  "deliveredEmbeddedScripts": 0
+}

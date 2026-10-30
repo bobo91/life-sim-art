@@ -1,3 +1,5 @@
 * text=auto eol=lf
 *.png binary
 *.glb binary
+# Preserve the downloaded native Text's trailing spaces as licence evidence.
+evidence/ava-rain/Rain-ReadMe.txt text eol=lf whitespace=-blank-at-eol

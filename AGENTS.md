@@ -19,3 +19,21 @@ Generate all final 3D meshes and materials from scratch for a cohesive stylized 
 ART-001: headless Blender pipeline; ART-002: visual bible/palette; ART-003: house/tree/lamp; ART-004: original adult character and rig feasibility.
 ## Delivery
 Every PR states generated assets, preview locations, commands/tests actually run, quality limitations, Unity compatibility.
+
+## Owner-approved exception — ART-041 Rain v3 visual prototype (2026-10-30)
+
+The owner explicitly authorizes Blender Studio Rain v3 as Ava Morgan's base,
+free source acquisition, component licence verification, and controlled
+artist-directed editing of independent mesh copies. Preserve the downloaded
+original unchanged with hashes, attribution and modification records. Retain
+Rain's authored anatomy, especially neck/shoulders/chest/arm transitions; form
+Ava's identity and fitted cafe clothes on that base. Python may automate source
+preparation, rendering, export and provenance; it must not replace the character
+with new primitive/procedural body geometry. The rejected procedural Ava is not
+a source and remains NO-GO.
+
+Scope is one static visual prototype in draft PR #42 with real face/body,
+matched-pose A03 comparison and game-camera/daylight/shade renders. Existing
+source rig may be inspected and used only to extract a static pose; no rigging
+or animation production, Unity integration, game-repository changes, A03 changes,
+paid services, purchases or merge. Stop for the owner's visual GO/NO-GO.

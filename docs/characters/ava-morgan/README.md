@@ -1,5 +1,7 @@
 # Ava Morgan — 3D character reference package v0.1
 
+**Current ART-041 scope (owner instruction, 2026-10-30):** use actual Rain v3 meshes for one static visual prototype. The old procedural Ava is NO-GO. [Current Rain prototype review](RAIN_VISUAL_REVIEW.md) and [verified source licence](RAIN_SOURCE_LICENSE.md) supersede conflicting production steps below. No rigging/animation/Unity work before a new explicit approval. Juniper Cafe and first-meeting game canon supersede the provisional Daily Bean/childhood-friend text in these historical concept notes. The concept boards below are not 3D model evidence.
+
 **Project:** Willow Creek / life-sim-art  
 **Character:** Ava Morgan, 29, café barista, childhood friend  
 **Status:** Approved *creative direction* by owner in chat; NOT an approved exact technical orthographic model sheet or completed 3D asset.

@@ -1,0 +1,162 @@
+{
+  "geometry": {
+    "sha256": "6f2f2c6f98d2527fb95772fcf14f16a6210863fea0dbcd89b6e04a4515ce961c",
+    "bytes": 4974296,
+    "triangles": 29689,
+    "vertices": 18012,
+    "meshInstances": 8,
+    "materials": [
+      "Ava_BrownEyes",
+      "Ava_Brunette",
+      "Ava_CreamKnit",
+      "Ava_DarkDenim",
+      "Ava_Leather",
+      "Ava_OliveApron",
+      "Ava_Skin",
+      "Ava_Sneakers"
+    ],
+    "materialCount": 8,
+    "bounds": {
+      "min": [
+        -0.7922323346138,
+        -1.1489627468108665e-05,
+        -0.18409697711467743
+      ],
+      "max": [
+        0.7922323346138,
+        1.7000126838684082,
+        0.1836697906255722
+      ]
+    },
+    "dimensionsMeters": [
+      1.5844646692276,
+      1.7000241734958763,
+      0.36776676774024963
+    ],
+    "pivotErrorMeters": [
+      0.0,
+      1.1489627468108665e-05,
+      0.0002135932445526123
+    ],
+    "windingNormalsConsistent": true,
+    "coordinateSystem": {
+      "up": "+Y",
+      "forward": "+Z",
+      "units": "meters"
+    }
+  },
+  "review": {
+    "sourceSha256": "bdce7f6616f96bd6ee51a107c61d5b1dd462af8d3f2861ae23cf91a0aaad142e",
+    "a03Sha256": "dcd7681255f49fa704844492b0ffc6964e434ccb4ae59aaba7788b0af56ffd90",
+    "sourceAndA03Preserved": true,
+    "geometryPreservedDuringReview": true,
+    "exportSha256": "6f2f2c6f98d2527fb95772fcf14f16a6210863fea0dbcd89b6e04a4515ce961c",
+    "exportMeshes": 8,
+    "staticOnly": true,
+    "unityTested": false,
+    "gameCamera": {
+      "yawUnity": 180,
+      "pitchDegrees": 50,
+      "distanceMetres": 16,
+      "focusHeightMetres": 1,
+      "verticalFovDegrees": 40,
+      "nativeResolution": [
+        1280,
+        720
+      ]
+    },
+    "lighting": "Blender daylight/ambient-only shade proxy using Juniper sun direction/color/intensity; not photometrically equivalent to Unity",
+    "renders": [
+      {
+        "name": "game_camera_daylight",
+        "kind": "game",
+        "camera": [
+          0.0,
+          -10.284602165222168,
+          13.25671100616455
+        ],
+        "focus": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "orthoScale": null,
+        "verticalFov": 39.99999883637168,
+        "resolution": [
+          1280,
+          720
+        ],
+        "sha256": "b8d682daf7b63b7da19800f65d96d0bc33ee509911c317039987fcd0cbb7055c"
+      },
+      {
+        "name": "game_camera_shade",
+        "kind": "game",
+        "camera": [
+          0.0,
+          -10.284602165222168,
+          13.25671100616455
+        ],
+        "focus": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "orthoScale": null,
+        "verticalFov": 39.99999883637168,
+        "resolution": [
+          1280,
+          720
+        ],
+        "sha256": "69bf9ad9cc5c98e86bc53a07fb74d84d67ae578a316935b7c21c8691fca63d2a"
+      },
+      {
+        "name": "cafe_material_daylight",
+        "kind": "three",
+        "camera": [
+          2.867882251739502,
+          -4.115760326385498,
+          0.9000000357627869
+        ],
+        "focus": [
+          0.0,
+          -0.019999999552965164,
+          0.8600000143051147
+        ],
+        "orthoScale": 1.9800000190734863,
+        "verticalFov": null,
+        "resolution": [
+          960,
+          1120
+        ],
+        "sha256": "431ebbd3470acaa282e2845218198d6d0e1cf2716292411d72e87c5359122a07"
+      },
+      {
+        "name": "cafe_material_shade",
+        "kind": "three",
+        "camera": [
+          2.867882251739502,
+          -4.115760326385498,
+          0.9000000357627869
+        ],
+        "focus": [
+          0.0,
+          -0.019999999552965164,
+          0.8600000143051147
+        ],
+        "orthoScale": 1.9800000190734863,
+        "verticalFov": null,
+        "resolution": [
+          960,
+          1120
+        ],
+        "sha256": "98557e7ae698d9b456913ebd404ec5d23f7c6fdaccd5d30d2bfddc1c6f180455"
+      }
+    ]
+  },
+  "flatNormalCorrections": {
+    "Rain_hair_main": 2,
+    "Rain_body_nomask": 4,
+    "Rain_jeans": 4,
+    "Rain_shoes": 7
+  }
+}
