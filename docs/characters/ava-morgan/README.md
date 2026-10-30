@@ -1,5 +1,7 @@
 # Ava Morgan — 3D character reference package v0.1
 
+**Latest owner decision:** AI-first **2D design only** is approved. [Two final face/hair concepts A/B beside A03](../../../evidence/ava-design-ab/README.md) await selection. No external artist, full turnaround or 3D production is authorized. The production pause below remains in force.
+
 **Current status:** Rain Ava v0.2 is NO-GO; model production is paused. [Design/method decision proposal](RAIN_DESIGN_DECISION.md). Rain anatomy is retained; no mesh, rig, animation or GAME-049 integration work is authorized. The triangle cap remains 30,000.
 
 **Current ART-041 scope (owner instruction, 2026-10-30):** use actual Rain v3 meshes for one static visual prototype. The old procedural Ava is NO-GO. [Current final Rain visual refinement](../../../evidence/ava-rain-v02/README.md) and [verified source licence](RAIN_SOURCE_LICENSE.md) supersede conflicting production steps below. No rigging/animation/Unity work before a new explicit approval. Juniper Cafe and first-meeting game canon supersede the provisional Daily Bean/childhood-friend text in these historical concept notes. The concept boards below are not 3D model evidence.

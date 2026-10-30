@@ -38,10 +38,14 @@ source rig may be inspected and used only to extract a static pose; no rigging
 or animation production, Unity integration, game-repository changes, A03 changes,
 paid services, purchases or merge. Stop for the owner's visual GO/NO-GO.
 
-## Current ART-041 owner instruction — production paused
+## Current ART-041 owner instruction — 2D design GO, 3D production paused
 
 Rain Ava v0.2 is visually rejected (NO-GO). Keep Rain's approved base/anatomy,
 but do not change meshes or produce models, rigs, animations or integration.
-Only the character-design/method decision proposal and rejection status are in
-scope until a new explicit owner instruction. The hard triangle cap remains
-30,000; v0.2's 31,290 is over contract and not an approved budget exception.
+The owner now authorizes a structured AI-first design phase: exactly two final
+face/hair concept directions A/B, actual raster design images using built-in
+image generation, shown beside unchanged approved A03 as a style reference.
+No external character artist is to be hired. No full turnaround sheet yet.
+Stop for the owner's choice; this does not authorize mesh/rig/animation work.
+The hard triangle cap remains 30,000; v0.2's 31,290 is over contract and not an
+approved budget exception. No merge or life-sim-game changes.

@@ -1,0 +1,44 @@
+{
+  "phase": "2D concept choice, no 3D production",
+  "generatedWith": "built-in image_gen",
+  "selected": [
+    {
+      "file": "ava-a-natural.png",
+      "bytes": 1680212,
+      "sha256": "bd11c049c0d1cb939b278b97dd4ae2178cdb251171f5699ebc072984c0e0e9b3",
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "file": "a03-style-reference.png",
+      "bytes": 1338135,
+      "sha256": "95101a97e6e1916129fd10c342ccaad44ae634a33c42650cdf5e7a4759ac130b",
+      "size": [
+        1100,
+        1100
+      ]
+    },
+    {
+      "file": "ava-b-confident.png",
+      "bytes": 1907785,
+      "sha256": "b1706e420de878236ce6ccc0c856c6f0ec750412eebe1eaab9da7e90d67a5f39",
+      "size": [
+        1254,
+        1254
+      ]
+    }
+  ],
+  "comparison": {
+    "file": "a-b-a03-comparison.png",
+    "sha256": "77c2d2a0fdbb8bc37f7fd67bde7b231eaec225556ec30874256e14a95ebced38",
+    "size": [
+      1800,
+      770
+    ]
+  },
+  "layout": "Uniform resizing/placement/labels only; no portrait retouch or recolor; A03 original file unchanged",
+  "modelArtifactsCreated": false,
+  "approval": "pending owner A/B selection"
+}

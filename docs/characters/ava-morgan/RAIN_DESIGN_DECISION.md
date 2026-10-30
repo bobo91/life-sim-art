@@ -1,5 +1,7 @@
 # ART-041 — design före mer mesh
 
+**Beslut efter detta förslag:** ägaren godkänner först en AI-first 2D-designfas utan extern artist. [A/B-bilder och A03-jämförelse](../../../evidence/ava-design-ab/README.md). Artistrekommendationen nedan är historik och är inte ett uppdrag att anlita någon. Modellproduktionen förblir pausad.
+
 **Rain Ava v0.2 är visuellt NO-GO. Modellproduktionen är pausad.** Rain-basen och den förbättrade hals-/axel-/bröstanatomin behålls. 31 290 trianglar överskrider kontraktets 30 000 med **1 290 / 4,3 %**. Det tidigare lokala granskningsvärdet 32 000 ändrar inte kontraktet; v0.2 är inte en godkänd leverans.
 
 **Förslag till beslut:** beställningsunderlaget för nästa steg ska vara ett godkänt, eget 2D-designark för Ava. Därefter rekommenderas ett sammanhängande artistlett formpass i Blender med agentstöd. Inga fler småjusteringar av v0.2-ansiktet.
