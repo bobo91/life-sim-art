@@ -1,6 +1,6 @@
 # Ava B — separat Rain-huvudprototyp v0.1
 
-**För visuellt GO/NO-GO, inte produktionsgodkänd.** [Godkänt och låst B-ark](../ava-b-design-sheet-v01/README.md), [referenshashar](../../docs/characters/ava-morgan/AVA_B_REFERENCE_LOCK.json). Ingen ny alternativ identitet eller AI-bildgenerering i detta steg. Samtliga nya modellbilder är faktiska Blender-renderingar. Varken gamla procedur-Ava eller Rain Ava v0.2 används som geometri.
+**Slutligt visuellt NO-GO från ägaren 2026-10-31.** Fel ansiktsvolymer mot B, trötta/stela ögonlock, fel profilövergångar mellan näsa/mun/haka, sammanhängande hårmassa och otillräcklig identitet. Ingen ny iteration av detta huvud. Modellproduktion är pausad; [nytt metodbeslut](../../docs/characters/ava-morgan/AVA_B_METHOD_REVIEW.md). Bilder, Blender-källa och ZIP nedan är oförändrad historik. [Godkänt och låst B-ark](../ava-b-design-sheet-v01/README.md) och A03 påverkas inte. Den ursprungliga leveransbeskrivningen nedan är inte ett aktuellt GO.
 
 ![Neutral front, profil och trekvart](face-views.png)
 

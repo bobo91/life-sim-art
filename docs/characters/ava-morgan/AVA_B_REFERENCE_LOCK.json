@@ -1,5 +1,5 @@
 {
-  "decision": "Owner GO for Ava B design sheet and limited Rain v3 head/hair prototype",
+  "decision": "B design sheet stays approved and locked. First B 3D head prototype finally NO-GO; methods evaluation only.",
   "date": "2026-10-31",
   "designCommit": "454d346ba2b0bc70ea6e1c5cbe2a753a6025cc89",
   "neutralFormReference": {
@@ -16,7 +16,8 @@
     "notDefaultPose": true
   },
   "identityChangesOrFurtherAlternativeFaces": "not authorized",
-  "threeDimensionalScope": "Separate static head and hair candidate from original Rain v3; preserve neck and shoulder anatomy; stop at visual review",
+  "threeDimensionalScope": "Paused: first 3D head prototype finally rejected by owner on 2026-10-31; no further iteration. Current work is methods evaluation only.",
+  "headPrototypeStatus": "NO-GO: wrong B volumes, tired/stiff lids, incorrect nose/mouth/chin transitions, monolithic hair and missing identity. Preserve archive; do not refine or integrate.",
   "excluded": ["rigging", "animation", "Unity integration", "life-sim-game changes", "merge", "finished cafe outfit", "hand-detail production"],
   "rainV02Status": "visually rejected; not a geometry source",
   "finalTriangleCap": 30000

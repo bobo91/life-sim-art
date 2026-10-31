@@ -1,6 +1,6 @@
 # Ava Morgan — 3D character reference package v0.1
 
-**Latest owner decision (2026-10-31): B design sheet approved and locked.** [Reference lock and hashes](AVA_B_REFERENCE_LOCK.json). The owner authorizes a separate limited Rain-based head/hair prototype, now [delivered for visual GO/NO-GO](../../../evidence/ava-b-head-v01/README.md). Neutral front/profile/three-quarter control form; the smile is expression reference only. No more alternative faces, rigging, animation, Unity/game integration or merge. The selected B sheet supersedes the older identity/turnaround priorities and high-bun notes below.
+**Latest owner decision (2026-10-31): B design sheet approved/locked; first B 3D head finally NO-GO.** [Reference lock and hashes](AVA_B_REFERENCE_LOCK.json). [Rejected prototype archive](../../../evidence/ava-b-head-v01/README.md). No more iteration of that head. Model production is paused; [short ranked method decision](AVA_B_METHOD_REVIEW.md) proposes a bounded human-artist quality test. No new models, rigging, animation, Unity/game integration, hiring/purchases or merge. The selected B sheet supersedes the older identity/turnaround priorities and high-bun notes below.
 
 **Archived status:** Rain Ava v0.2 is NO-GO and is not a source for the B prototype. Rain anatomy is retained through a fresh original-source extraction. Work beyond the limited head/hair review remains paused. The final-model triangle cap remains 30,000.
 

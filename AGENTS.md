@@ -38,7 +38,7 @@ source rig may be inspected and used only to extract a static pose; no rigging
 or animation production, Unity integration, game-repository changes, A03 changes,
 paid services, purchases or merge. Stop for the owner's visual GO/NO-GO.
 
-## Current ART-041 owner instruction — B design locked; limited head/hair GO
+## Current ART-041 owner instruction — head prototype NO-GO; methods only
 
 The owner approved the Ava B head sheet in PR #42 on 2026-10-31. Its neutral
 front/profile/three-quarter are the fixed form reference; the discreet smile
@@ -46,14 +46,17 @@ is expression reference only, not the default pose. Preserve the reference
 images and identity. No more alternative-face generation. See the immutable
 image hashes in docs/characters/ava-morgan/AVA_B_REFERENCE_LOCK.json.
 
-Authorize a clearly separate static head/hair translation from original Rain
-v3, with actual face-volume edits and controlled artist-directed mesh work.
-Preserve Rain's working neck/shoulder anatomy. Rain Ava v0.2 remains NO-GO
-and must not be a geometry source. Show real Blender face views, direct 2D
-comparison, same-light/scale A03 and normal game camera. Document transferred
-forms, mismatches and expected remaining body/outfit budget briefly. Do not
-spend this phase on final cafe clothes, hand detail or a game import.
-Stop for separate visual GO/NO-GO. No rigging, animation, Unity integration,
-life-sim-game/A03 changes, purchases, paid services or merge. Keep PR #42 draft.
+The owner finally rejected Ava B's first 3D head/hair prototype on 2026-10-31:
+wrong facial volumes, tired/stiff lids, incorrect nose/mouth/chin profile
+transitions, monolithic hair and insufficient B identity. Do not make another
+iteration of that head or use it as the starting geometry for a new candidate.
+Preserve its files and images as NO-GO history; B design and A03 stay unchanged.
+Model production is paused. Current authorization is a short sourced practical
+comparison of a professional female basemesh, specialized character software,
+and a bounded human-artist sculpt pass with agents doing technical support.
+Rank by B fidelity, include cost/licence/agent capability/small future test and
+NPC-contract compatibility. Do not run the proposed tests now. No new model,
+sculpting, rigging, animation, Unity integration, life-sim-game/A03 changes,
+purchases, artist hiring/contact, paid services or merge. Keep PR #42 draft.
 The hard triangle cap remains 30,000; v0.2's 31,290 is over contract and not an
 approved budget exception. Do not damage the face with premature reduction.
