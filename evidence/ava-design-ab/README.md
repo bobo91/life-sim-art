@@ -1,6 +1,6 @@
 # Ava Morgan — val av ansiktsriktning A/B
 
-**Designfas, inväntar ägarens val.** A och B är AI-genererade 2D-koncept, inte modellbevis. A03 i mitten är en oförändrad befintlig Blender-rendering av den godkända karaktären. Inga nya 3D-modeller eller Blender-körningar har gjorts. Inget fullständigt turnaround-ark är framtaget.
+**Ägarens val 2026-10-31: B är Avas officiella visuella riktning.** A är inte valt, men inte kvalitetsunderkänt. [Nästa B-designark med sammanhängande huvudvyer](../ava-b-design-sheet-v01/README.md) inväntar separat godkännande. A och B nedan är bevarade AI-genererade 2D-koncept, inte modellbevis. A03 i mitten är en oförändrad befintlig Blender-rendering av den godkända karaktären. Inga nya 3D-modeller eller Blender-körningar har gjorts.
 
 ![A / verklig A03-referens / B](a-b-a03-comparison.png)
 
@@ -15,4 +15,4 @@ I båda fallen bevaras Rain-kroppens fungerande hals-, axel- och bröstanatomi. 
 
 A03-referens: `male-neutral-a03-v0.3`, `delivery-003/renders/face_three_quarter.png`. Snow Rig (CC) Blender Foundation | studio.blender.org — [Snow v4](https://studio.blender.org/characters/snow/v4/), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Endast A03-renderingen och respektive AI-utkast matades in som bildreferenser; inga andra foton eller 3D-meshar matades in. AI-koncept skapade för life-sim-art.
 
-**Stopp för val av A eller B.** Ingen extern artist har anlitats. 3D-produktion, riggning, animation, integration, merge och life-sim-game-ändringar är fortsatt pausade/förbjudna. v0.2 är fortsatt NO-GO och kontraktsgränsen för en framtida 3D-leverans är fortfarande 30 000 trianglar. Ett designval är inget rigg- eller produktionsgodkännande.
+**B valt; stopp för godkännande av nästa designark.** Ingen extern artist har anlitats. 3D-produktion, riggning, animation, integration, merge och life-sim-game-ändringar är fortsatt pausade/förbjudna. v0.2 är fortsatt NO-GO och kontraktsgränsen för en framtida 3D-leverans är fortfarande 30 000 trianglar. Ett designval är inget rigg- eller produktionsgodkännande.

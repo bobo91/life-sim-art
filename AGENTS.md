@@ -42,10 +42,13 @@ paid services, purchases or merge. Stop for the owner's visual GO/NO-GO.
 
 Rain Ava v0.2 is visually rejected (NO-GO). Keep Rain's approved base/anatomy,
 but do not change meshes or produce models, rigs, animations or integration.
-The owner now authorizes a structured AI-first design phase: exactly two final
-face/hair concept directions A/B, actual raster design images using built-in
-image generation, shown beside unchanged approved A03 as a style reference.
-No external character artist is to be hired. No full turnaround sheet yet.
-Stop for the owner's choice; this does not authorize mesh/rig/animation work.
+The owner selected alternative B as Ava's official visual direction on
+2026-10-31. Alternative A is unselected, not quality-rejected. The current
+authorization is a consistent 2D head design sheet: neutral front, clean
+profile and three-quarter, plus a warm discreet smile, with A03 comparison
+and explicit game-style simplifications. Inspect and correct contradictions
+before delivery. Use built-in image generation; no external character artist.
+Stop for the owner's sheet approval. This does not authorize new models,
+mesh edits, rigging, animation, Unity integration or a full-body turnaround.
 The hard triangle cap remains 30,000; v0.2's 31,290 is over contract and not an
 approved budget exception. No merge or life-sim-game changes.

@@ -19,5 +19,6 @@ draw.text((18,709),'AI-bilder = designunderlag. A03 = befintlig riktig rendering
 draw.text((18,741),'A03-källa: Snow Rig (CC) Blender Foundation | studio.blender.org | CC BY 4.0. AI-koncept: life-sim-art.',font=small,fill='#42473e')
 out=folder/'a-b-a03-comparison.png';canvas.save(out,optimize=True)
 manifest={'phase':'2D concept choice, no 3D production','generatedWith':'built-in image_gen','selected':records,'comparison':{'file':out.name,'sha256':hashlib.sha256(out.read_bytes()).hexdigest(),'size':list(canvas.size)},'layout':'Uniform resizing/placement/labels only; no portrait retouch or recolor; A03 original file unchanged','modelArtifactsCreated':False,'approval':'pending owner A/B selection'}
+manifest['approval']='Owner selected B as official direction on 2026-10-31; A unselected, not quality-rejected. Next 2D sheet awaits approval; no 3D production GO.'
 (folder/'manifest.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf8')
 print(json.dumps({'comparison':out.name,'selectedImages':2,'a03ImageUnmodified':True}))

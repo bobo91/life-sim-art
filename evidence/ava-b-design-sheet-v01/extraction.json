@@ -1,0 +1,21 @@
+{
+  "sourceSize": [
+    1536,
+    1024
+  ],
+  "sourceSha256": "9a9a66e06ae114aef7a9d616cbb68342621f4c0790567861d2b9472d0b573f5e",
+  "neutralCrop": [
+    0,
+    0,
+    1536,
+    508
+  ],
+  "threeQuarterSmileCrop": [
+    1024,
+    508,
+    1536,
+    1016
+  ],
+  "operations": "Lossless rectangular crops only; no repaint, warp or facial registration",
+  "excluded": "Redundant smiling front/profile; not modeling references"
+}

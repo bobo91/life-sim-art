@@ -1,0 +1,110 @@
+{
+  "phase": "Selected Ava B / 2D head sheet pending owner approval / no 3D production",
+  "generatedWith": "built-in image_gen",
+  "modelId": null,
+  "seed": null,
+  "generationReproducible": false,
+  "layoutCommand": "python scripts/compose_ava_b_sheet.py",
+  "files": [
+    {
+      "file": "ava-b-neutral-views.png",
+      "bytes": 769720,
+      "sha256": "08ca41f86d7ba806bcc5d5433ac4e0aa4b3f0f725fe2e962ab0a0ac421f77452",
+      "size": [
+        1536,
+        508
+      ]
+    },
+    {
+      "file": "ava-b-warm-smile.png",
+      "bytes": 267239,
+      "sha256": "eae58b55f901007bb93ad6c666509b963478ea9e96ea6d7dc062524f969f56c9",
+      "size": [
+        512,
+        508
+      ]
+    },
+    {
+      "file": "ava-b-model-sheet.png",
+      "bytes": 1401944,
+      "sha256": "dc4a144ab79384c60b88d1b1b8003dde14fdb18e0f187647db4baa2c6bb488d8",
+      "size": [
+        1600,
+        1332
+      ]
+    },
+    {
+      "file": "ava-b-proportion-guide.png",
+      "bytes": 859403,
+      "sha256": "6aac6d59753a10d085182657b59e228d9b8cffa9be47a08bb402c9422e406c99",
+      "size": [
+        1800,
+        750
+      ]
+    }
+  ],
+  "extraction": {
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "9a9a66e06ae114aef7a9d616cbb68342621f4c0790567861d2b9472d0b573f5e",
+    "neutralCrop": [
+      0,
+      0,
+      1536,
+      508
+    ],
+    "threeQuarterSmileCrop": [
+      1024,
+      508,
+      1536,
+      1016
+    ],
+    "operations": "Lossless rectangular crops only; no repaint, warp or facial registration",
+    "excluded": "Redundant smiling front/profile; not modeling references"
+  },
+  "identitySource": {
+    "file": "ava-b-confident.png",
+    "bytes": 1907785,
+    "sha256": "b1706e420de878236ce6ccc0c856c6f0ec750412eebe1eaab9da7e90d67a5f39",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  "styleSource": {
+    "file": "a03-style-reference.png",
+    "bytes": 1338135,
+    "sha256": "95101a97e6e1916129fd10c342ccaad44ae634a33c42650cdf5e7a4759ac130b",
+    "size": [
+      1100,
+      1100
+    ]
+  },
+  "a03Display": {
+    "crop": [
+      50,
+      73,
+      1050,
+      1073
+    ],
+    "displaySize": [
+      512,
+      512
+    ],
+    "operations": "Uniform resizing and cropping only; no recolor/repaint",
+    "physicalScaleClaimed": false
+  },
+  "actualBlenderOrUnityRuns": 0,
+  "modelArtifactsCreated": false,
+  "status": {
+    "directionB": "owner GO",
+    "sheet": "awaiting owner approval",
+    "alternativeA": "unselected, not quality-rejected",
+    "rainV02": "visual NO-GO",
+    "pr42": "draft",
+    "threeDimensionalProduction": "paused",
+    "triangleCap": 30000
+  }
+}

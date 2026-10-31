@@ -1,6 +1,6 @@
 # Ava Morgan — 3D character reference package v0.1
 
-**Latest owner decision:** AI-first **2D design only** is approved. [Two final face/hair concepts A/B beside A03](../../../evidence/ava-design-ab/README.md) await selection. No external artist, full turnaround or 3D production is authorized. The production pause below remains in force.
+**Latest owner decision (2026-10-31): B is Ava's official visual direction.** A is unselected, not quality-rejected. [Selected B head design sheet, neutral views, subtle smile and A03 comparison](../../../evidence/ava-b-design-sheet-v01/README.md) awaits sheet approval. This is **2D design only**; no new model, mesh editing, rigging, animation or integration is authorized. The production pause below remains in force. The selected B sheet supersedes the older identity/turnaround priorities and high-bun notes below.
 
 **Current status:** Rain Ava v0.2 is NO-GO; model production is paused. [Design/method decision proposal](RAIN_DESIGN_DECISION.md). Rain anatomy is retained; no mesh, rig, animation or GAME-049 integration work is authorized. The triangle cap remains 30,000.
 
