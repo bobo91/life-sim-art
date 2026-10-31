@@ -1,0 +1,12 @@
+{
+  "version": "ava-b-head-v0.1",
+  "releaseTag": "ava-b-head-v0.1",
+  "draft": true,
+  "asset": "ava-b-head-v0.1-review.zip",
+  "bytes": 18615142,
+  "sha256": "d01042bacf9d981b2df3c0fa2e7d205ae8dbf46462d3c881c870d45d70ac407a",
+  "payloadFiles": 39,
+  "prototypeOnly": true,
+  "finalTriangleCap": 30000,
+  "approval": "NO-GO: owner finally rejected first B head prototype on 2026-10-31. Archive only; do not refine or integrate. ZIP contents/hash unchanged."
+}

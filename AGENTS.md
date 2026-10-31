@@ -19,3 +19,50 @@ Generate all final 3D meshes and materials from scratch for a cohesive stylized 
 ART-001: headless Blender pipeline; ART-002: visual bible/palette; ART-003: house/tree/lamp; ART-004: original adult character and rig feasibility.
 ## Delivery
 Every PR states generated assets, preview locations, commands/tests actually run, quality limitations, Unity compatibility.
+
+## Owner-approved exception — ART-041 Rain v3 visual prototype (2026-10-30)
+
+The owner explicitly authorizes Blender Studio Rain v3 as Ava Morgan's base,
+free source acquisition, component licence verification, and controlled
+artist-directed editing of independent mesh copies. Preserve the downloaded
+original unchanged with hashes, attribution and modification records. Retain
+Rain's authored anatomy, especially neck/shoulders/chest/arm transitions; form
+Ava's identity and fitted cafe clothes on that base. Python may automate source
+preparation, rendering, export and provenance; it must not replace the character
+with new primitive/procedural body geometry. The rejected procedural Ava is not
+a source and remains NO-GO.
+
+Scope is one static visual prototype in draft PR #42 with real face/body,
+matched-pose A03 comparison and game-camera/daylight/shade renders. Existing
+source rig may be inspected and used only to extract a static pose; no rigging
+or animation production, Unity integration, game-repository changes, A03 changes,
+paid services, purchases or merge. Stop for the owner's visual GO/NO-GO.
+
+## Current ART-041 owner instruction — artist search/RFQ only; no production
+
+The owner approved the Ava B head sheet in PR #42 on 2026-10-31. Its neutral
+front/profile/three-quarter are the fixed form reference; the discreet smile
+is expression reference only, not the default pose. Preserve the reference
+images and identity. No more alternative-face generation. See the immutable
+image hashes in docs/characters/ava-morgan/AVA_B_REFERENCE_LOCK.json.
+
+The owner finally rejected Ava B's first 3D head/hair prototype on 2026-10-31:
+wrong facial volumes, tired/stiff lids, incorrect nose/mouth/chin profile
+transitions, monolithic hair and insufficient B identity. Do not make another
+iteration of that head or use it as the starting geometry for a new candidate.
+Preserve its files and images as NO-GO history; B design and A03 stay unchanged.
+Model production is paused. The owner selected method 3: a bounded manual
+artist sculpt pass on a fresh copy of original Rain. Current authorization is
+only public research into at most three named artists and prices, plus a short
+fixed-price head-test brief. Prioritize adult stylized faces, Blender, facial
+sculpting, hair and game-character work. Do not invent quotes or availability.
+The brief must require editable .blend, locked B fidelity, A03-matched neutral
+views, Rain credit, public editable-source rights and explicit acceptance of
+the AI-generated reference and agent-assisted downstream editing. None of this
+authorizes artist contact, hiring, booking, expenditure or running the test.
+Agents retain automation/export/QA; later game integration remains Claude's
+responsibility under a separate GO. No new model,
+sculpting, rigging, animation, Unity integration, life-sim-game/A03 changes,
+purchases, artist hiring/contact, paid services or merge. Keep PR #42 draft.
+The hard triangle cap remains 30,000; v0.2's 31,290 is over contract and not an
+approved budget exception. Do not damage the face with premature reduction.

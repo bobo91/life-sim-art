@@ -1,0 +1,56 @@
+{
+  "blender": "4.5.14 LTS",
+  "buildHash": "62c1db4208e8",
+  "python": "3.11.15 (main, Aug 12 2026, 16:53:25) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "background": true,
+  "devicesEnumerated": [
+    {
+      "name": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "type": "CPU",
+      "probe": "HIP"
+    },
+    {
+      "name": "AMD Radeon RX 9070 XT",
+      "type": "HIP",
+      "probe": "HIP"
+    },
+    {
+      "name": "AMD Radeon(TM) Graphics",
+      "type": "HIP",
+      "probe": "HIP"
+    },
+    {
+      "name": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "type": "CPU",
+      "probe": "CUDA"
+    },
+    {
+      "name": "AMD Radeon RX 9070 XT",
+      "type": "HIP",
+      "probe": "CUDA"
+    },
+    {
+      "name": "AMD Radeon(TM) Graphics",
+      "type": "HIP",
+      "probe": "CUDA"
+    },
+    {
+      "name": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "type": "CPU",
+      "probe": "OPTIX"
+    },
+    {
+      "name": "AMD Radeon RX 9070 XT",
+      "type": "HIP",
+      "probe": "OPTIX"
+    },
+    {
+      "name": "AMD Radeon(TM) Graphics",
+      "type": "HIP",
+      "probe": "OPTIX"
+    }
+  ],
+  "actualRenderDevice": "CPU",
+  "gpuRenderTested": false
+}

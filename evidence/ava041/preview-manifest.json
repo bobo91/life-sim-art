@@ -1,0 +1,443 @@
+{
+  "schema": "ava-art041-preview-transforms-1",
+  "sourceBuild": "build/ava041-final-005",
+  "renderInputs": 12,
+  "previewImages": 14,
+  "policy": "Complete source frames; no crop, retouch, source-color adjustment or enlargement. Game frames remain native 1280x720; other standalone previews at most 1200 pixels wide.",
+  "resampling": "Pillow LANCZOS for proportional downsamples only",
+  "a03ComparisonAttribution": [
+    "A03 comparison: modified Snow v4 | Snow Rig (CC) Blender Foundation | studio.blender.org",
+    "CC BY 4.0: https://creativecommons.org/licenses/by/4.0/",
+    "Source: https://studio.blender.org/characters/snow/v4/ | Ava: original procedural ART-041 candidate"
+  ],
+  "files": [
+    {
+      "path": "previews/front.png",
+      "sha256": "80b3ff860138fb1c2e217ebbd688717b672d424da91fc524cb0130358a534c0d",
+      "bytes": 1026760,
+      "dimensions": [
+        900,
+        1100
+      ],
+      "operation": "byte-identical standalone preview",
+      "sources": [
+        {
+          "name": "front",
+          "path": "renders/front.png",
+          "sha256": "80b3ff860138fb1c2e217ebbd688717b672d424da91fc524cb0130358a534c0d",
+          "dimensions": [
+            900,
+            1100
+          ]
+        }
+      ],
+      "crop": null,
+      "retouch": false,
+      "sourceColorAdjustment": false
+    },
+    {
+      "path": "previews/side.png",
+      "sha256": "3a35beb512bbb6b5c3a38d5ef5fdb140c74615572eba9276f15fce657154a514",
+      "bytes": 1008339,
+      "dimensions": [
+        900,
+        1100
+      ],
+      "operation": "byte-identical standalone preview",
+      "sources": [
+        {
+          "name": "side",
+          "path": "renders/side.png",
+          "sha256": "3a35beb512bbb6b5c3a38d5ef5fdb140c74615572eba9276f15fce657154a514",
+          "dimensions": [
+            900,
+            1100
+          ]
+        }
+      ],
+      "crop": null,
+      "retouch": false,
+      "sourceColorAdjustment": false
+    },
+    {
+      "path": "previews/back.png",
+      "sha256": "9266070173a8dac3502c4d44328764cdb6d43e4c50b1a6499b265dfee2bc17aa",
+      "bytes": 1029374,
+      "dimensions": [
+        900,
+        1100
+      ],
+      "operation": "byte-identical standalone preview",
+      "sources": [
+        {
+          "name": "back",
+          "path": "renders/back.png",
+          "sha256": "9266070173a8dac3502c4d44328764cdb6d43e4c50b1a6499b265dfee2bc17aa",
+          "dimensions": [
+            900,
+            1100
+          ]
+        }
+      ],
+      "crop": null,
+      "retouch": false,
+      "sourceColorAdjustment": false
+    },
+    {
+      "path": "previews/three_quarter.png",
+      "sha256": "1b06d85e92c6d74d7738f18d89f8502d38ba20dd5e958623ae2829b7a15c2a56",
+      "bytes": 1012597,
+      "dimensions": [
+        900,
+        1100
+      ],
+      "operation": "byte-identical standalone preview",
+      "sources": [
+        {
+          "name": "three_quarter",
+          "path": "renders/three_quarter.png",
+          "sha256": "1b06d85e92c6d74d7738f18d89f8502d38ba20dd5e958623ae2829b7a15c2a56",
+          "dimensions": [
+            900,
+            1100
+          ]
+        }
+      ],
+      "crop": null,
+      "retouch": false,
+      "sourceColorAdjustment": false
+    },
+    {
+      "path": "previews/isometric.png",
+      "sha256": "f111a71743754e5dce5fd04f7da97854aafea51e5a409a30dccb2de1c41bc456",
+      "bytes": 973714,
+      "dimensions": [
+        900,
+        1100
+      ],
+      "operation": "byte-identical standalone preview",
+      "sources": [
+        {
+          "name": "isometric",
+          "path": "renders/isometric.png",
+          "sha256": "f111a71743754e5dce5fd04f7da97854aafea51e5a409a30dccb2de1c41bc456",
+          "dimensions": [
+            900,
+            1100
+          ]
+        }
+      ],
+      "crop": null,
+      "retouch": false,
+      "sourceColorAdjustment": false
+    },
+    {
+      "path": "previews/face_front.png",
+      "sha256": "e5d8d0ad0b3502242b374518b3656889da90f7b462ecfa58a0a421c64ec62df4",
+      "bytes": 1097782,
+      "dimensions": [
+        1000,
+        1000
+      ],
+      "operation": "byte-identical standalone preview",
+      "sources": [
+        {
+          "name": "face_front",
+          "path": "renders/face_front.png",
+          "sha256": "e5d8d0ad0b3502242b374518b3656889da90f7b462ecfa58a0a421c64ec62df4",
+          "dimensions": [
+            1000,
+            1000
+          ]
+        }
+      ],
+      "crop": null,
+      "retouch": false,
+      "sourceColorAdjustment": false
+    },
+    {
+      "path": "previews/face_three_quarter.png",
+      "sha256": "3c41e7822db8b3ef93525c4358620471c8c099e72b0938a5b94b2a59bb51bcb5",
+      "bytes": 1103998,
+      "dimensions": [
+        1000,
+        1000
+      ],
+      "operation": "byte-identical standalone preview",
+      "sources": [
+        {
+          "name": "face_three_quarter",
+          "path": "renders/face_three_quarter.png",
+          "sha256": "3c41e7822db8b3ef93525c4358620471c8c099e72b0938a5b94b2a59bb51bcb5",
+          "dimensions": [
+            1000,
+            1000
+          ]
+        }
+      ],
+      "crop": null,
+      "retouch": false,
+      "sourceColorAdjustment": false
+    },
+    {
+      "path": "previews/cafe_daylight_full.png",
+      "sha256": "33ca6927cdbfe39779112963e425bc970fe8d44032315346e9528acfe6701306",
+      "bytes": 974469,
+      "dimensions": [
+        900,
+        1100
+      ],
+      "operation": "byte-identical standalone preview",
+      "sources": [
+        {
+          "name": "cafe_daylight_full",
+          "path": "renders/cafe_daylight_full.png",
+          "sha256": "33ca6927cdbfe39779112963e425bc970fe8d44032315346e9528acfe6701306",
+          "dimensions": [
+            900,
+            1100
+          ]
+        }
+      ],
+      "crop": null,
+      "retouch": false,
+      "sourceColorAdjustment": false
+    },
+    {
+      "path": "previews/cafe_daylight_face.png",
+      "sha256": "6b544d830a39d043f472ba7851dbbf59236b49ecbbe293fb7e0170648eb75153",
+      "bytes": 978927,
+      "dimensions": [
+        1000,
+        1000
+      ],
+      "operation": "byte-identical standalone preview",
+      "sources": [
+        {
+          "name": "cafe_daylight_face",
+          "path": "renders/cafe_daylight_face.png",
+          "sha256": "6b544d830a39d043f472ba7851dbbf59236b49ecbbe293fb7e0170648eb75153",
+          "dimensions": [
+            1000,
+            1000
+          ]
+        }
+      ],
+      "crop": null,
+      "retouch": false,
+      "sourceColorAdjustment": false
+    },
+    {
+      "path": "previews/game_16m_front.png",
+      "sha256": "b3b1d2c52714e6a5b1b9465b9cc9f53fc7dba80d6430c5ca9140a23fc3eb2c22",
+      "bytes": 863685,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "operation": "byte-identical native game frame",
+      "sources": [
+        {
+          "name": "game_16m_front",
+          "path": "renders/game_16m_front.png",
+          "sha256": "b3b1d2c52714e6a5b1b9465b9cc9f53fc7dba80d6430c5ca9140a23fc3eb2c22",
+          "dimensions": [
+            1280,
+            720
+          ]
+        }
+      ],
+      "crop": null,
+      "retouch": false,
+      "sourceColorAdjustment": false
+    },
+    {
+      "path": "previews/game_16m_back.png",
+      "sha256": "83999ebbe61de6f90964f649a034105a33a1e3fed7a08307550cbc366fb20b21",
+      "bytes": 904392,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "operation": "byte-identical native game frame",
+      "sources": [
+        {
+          "name": "game_16m_back",
+          "path": "renders/game_16m_back.png",
+          "sha256": "83999ebbe61de6f90964f649a034105a33a1e3fed7a08307550cbc366fb20b21",
+          "dimensions": [
+            1280,
+            720
+          ]
+        }
+      ],
+      "crop": null,
+      "retouch": false,
+      "sourceColorAdjustment": false
+    },
+    {
+      "path": "previews/ava_a03_same_scale.png",
+      "sha256": "de56a2845afb29ddb9bdef07832cb11df898be12b484fc0fdeb9f6380b763fcc",
+      "bytes": 713596,
+      "dimensions": [
+        1200,
+        980
+      ],
+      "operation": "proportional downsample plus separate attribution footer",
+      "sources": [
+        {
+          "name": "ava_a03_same_scale",
+          "path": "renders/ava_a03_same_scale.png",
+          "sha256": "68c087025da8752e61a875ad28b0a0a432dfad4ad7a16321b26141860693a59f",
+          "dimensions": [
+            1500,
+            1100
+          ]
+        }
+      ],
+      "crop": null,
+      "retouch": false,
+      "sourceColorAdjustment": false,
+      "renderRectangle": [
+        0,
+        0,
+        1200,
+        880
+      ],
+      "credit": [
+        "A03 comparison: modified Snow v4 | Snow Rig (CC) Blender Foundation | studio.blender.org",
+        "CC BY 4.0: https://creativecommons.org/licenses/by/4.0/",
+        "Source: https://studio.blender.org/characters/snow/v4/ | Ava: original procedural ART-041 candidate"
+      ]
+    },
+    {
+      "path": "previews/turnaround.png",
+      "sha256": "d79df805fdf9919c48208c1d66d18489c7ff4dd5b9625f171e037f221420e36f",
+      "bytes": 245298,
+      "dimensions": [
+        1200,
+        599
+      ],
+      "operation": "labelled contact sheet; proportional full-frame downsample",
+      "sources": [
+        {
+          "name": "front",
+          "path": "renders/front.png",
+          "sha256": "80b3ff860138fb1c2e217ebbd688717b672d424da91fc524cb0130358a534c0d",
+          "dimensions": [
+            900,
+            1100
+          ]
+        },
+        {
+          "name": "side",
+          "path": "renders/side.png",
+          "sha256": "3a35beb512bbb6b5c3a38d5ef5fdb140c74615572eba9276f15fce657154a514",
+          "dimensions": [
+            900,
+            1100
+          ]
+        },
+        {
+          "name": "back",
+          "path": "renders/back.png",
+          "sha256": "9266070173a8dac3502c4d44328764cdb6d43e4c50b1a6499b265dfee2bc17aa",
+          "dimensions": [
+            900,
+            1100
+          ]
+        }
+      ],
+      "crop": null,
+      "retouch": false,
+      "sourceColorAdjustment": false,
+      "panels": [
+        {
+          "source": "front",
+          "renderRectangle": [
+            20,
+            96,
+            377,
+            461
+          ]
+        },
+        {
+          "source": "side",
+          "renderRectangle": [
+            411,
+            96,
+            377,
+            461
+          ]
+        },
+        {
+          "source": "back",
+          "renderRectangle": [
+            802,
+            96,
+            377,
+            461
+          ]
+        }
+      ]
+    },
+    {
+      "path": "previews/game-camera-pair.png",
+      "sha256": "a96a66bb9f33b8d13d7a2d800c1e085a91c7667498cef391383d44eaaae39381",
+      "bytes": 1083763,
+      "dimensions": [
+        1280,
+        1608
+      ],
+      "operation": "labelled vertical pair; native source pixels unchanged",
+      "sources": [
+        {
+          "name": "game_16m_front",
+          "path": "renders/game_16m_front.png",
+          "sha256": "b3b1d2c52714e6a5b1b9465b9cc9f53fc7dba80d6430c5ca9140a23fc3eb2c22",
+          "dimensions": [
+            1280,
+            720
+          ]
+        },
+        {
+          "name": "game_16m_back",
+          "path": "renders/game_16m_back.png",
+          "sha256": "83999ebbe61de6f90964f649a034105a33a1e3fed7a08307550cbc366fb20b21",
+          "dimensions": [
+            1280,
+            720
+          ]
+        }
+      ],
+      "crop": null,
+      "retouch": false,
+      "sourceColorAdjustment": false,
+      "panels": [
+        {
+          "source": "game_16m_front",
+          "renderRectangle": [
+            0,
+            94,
+            1280,
+            720
+          ]
+        },
+        {
+          "source": "game_16m_back",
+          "renderRectangle": [
+            0,
+            848,
+            1280,
+            720
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "sourceHashesUnchanged": true,
+    "byteCopyHashesMatch": true,
+    "nativeGamePanelPixelsMatch": true
+  }
+}

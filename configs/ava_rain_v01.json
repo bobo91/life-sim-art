@@ -1,0 +1,18 @@
+{
+  "assetId": "chr_npc_ava_morgan_001",
+  "version": "rain-visual-v0.1",
+  "role": "Record of the fixed, versioned static recipe in reproduce_ava_rain.py; not a procedural body specification",
+  "blender": "4.5.14 LTS",
+  "pillow": "12.3.0",
+  "render": {"engine": "Cycles", "device": "CPU", "samples": 36, "seed": 41032, "viewTransform": "AgX"},
+  "freckleSeed": 41033,
+  "nativeStaticShapeValues": {"EyelidsClose.L/R": 0.32, "Smile.L/R": 0.09},
+  "heightMetres": 1.70,
+  "sourceZipSha256": "80217f163f6392dc829233d63c2cfb5e1376775bc34101ad14f39631fea70d24",
+  "sourceBlendSha256": "831ab6d837c679040285862b15dc9ee5180b018442a88aeaf92aaa7509b80258",
+  "budgets": {"staticTriangles": 30000, "materials": 10, "images": 8, "imageMaximumEdge": 2048},
+  "productionApproval": false,
+  "rigging": false,
+  "animationProduction": false,
+  "unityIntegration": false
+}

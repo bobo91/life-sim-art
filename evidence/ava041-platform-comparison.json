@@ -1,0 +1,167 @@
+{
+  "schema": "ava041-platform-geometry-comparison-1",
+  "windowsSha256": "35dcb5549c577305b72553595cd361cf90ca5efdb741b815cbb0d5c02c153f45",
+  "linuxSha256": "710035edd547f94b763cd0e3422bb6038aaa39e955b819635972a9793f2b0c56",
+  "byteIdentical": false,
+  "comparison": "Order-independent geometry comparison; array indices may be permuted. Quantized triangle/vertex positions use 1 micrometre cells.",
+  "meshes": [
+    {
+      "name": "Ava_apron_shaped_front_mesh",
+      "primitives": [
+        {
+          "verticesWindows": 1320,
+          "verticesLinux": 1320,
+          "triangles": 1916,
+          "orderedIndicesEqual": true,
+          "quantizedPositionMultisetEqual": true,
+          "quantizedTriangleGeometryEqual": true,
+          "maxBidirectionalNearestVertexMeters": 0
+        }
+      ]
+    },
+    {
+      "name": "Ava_leather_shoulder_strap_-1_mesh",
+      "primitives": [
+        {
+          "verticesWindows": 88,
+          "verticesLinux": 88,
+          "triangles": 168,
+          "orderedIndicesEqual": true,
+          "quantizedPositionMultisetEqual": true,
+          "quantizedTriangleGeometryEqual": true,
+          "maxBidirectionalNearestVertexMeters": 0
+        }
+      ]
+    },
+    {
+      "name": "AVA_Neck_mesh",
+      "primitives": [
+        {
+          "verticesWindows": 914,
+          "verticesLinux": 914,
+          "triangles": 1816,
+          "orderedIndicesEqual": false,
+          "quantizedPositionMultisetEqual": false,
+          "quantizedTriangleGeometryEqual": false,
+          "maxBidirectionalNearestVertexMeters": 0.015874704330123075
+        }
+      ]
+    },
+    {
+      "name": "AVA_Head_mesh",
+      "primitives": [
+        {
+          "verticesWindows": 4045,
+          "verticesLinux": 4045,
+          "triangles": 6965,
+          "orderedIndicesEqual": true,
+          "quantizedPositionMultisetEqual": true,
+          "quantizedTriangleGeometryEqual": true,
+          "maxBidirectionalNearestVertexMeters": 0
+        },
+        {
+          "verticesWindows": 618,
+          "verticesLinux": 618,
+          "triangles": 1064,
+          "orderedIndicesEqual": true,
+          "quantizedPositionMultisetEqual": true,
+          "quantizedTriangleGeometryEqual": true,
+          "maxBidirectionalNearestVertexMeters": 0
+        },
+        {
+          "verticesWindows": 746,
+          "verticesLinux": 746,
+          "triangles": 1308,
+          "orderedIndicesEqual": true,
+          "quantizedPositionMultisetEqual": true,
+          "quantizedTriangleGeometryEqual": true,
+          "maxBidirectionalNearestVertexMeters": 0
+        },
+        {
+          "verticesWindows": 909,
+          "verticesLinux": 909,
+          "triangles": 1618,
+          "orderedIndicesEqual": true,
+          "quantizedPositionMultisetEqual": true,
+          "quantizedTriangleGeometryEqual": true,
+          "maxBidirectionalNearestVertexMeters": 0
+        }
+      ]
+    },
+    {
+      "name": "AVA_HairCap_mesh",
+      "primitives": [
+        {
+          "verticesWindows": 3250,
+          "verticesLinux": 3250,
+          "triangles": 6390,
+          "orderedIndicesEqual": true,
+          "quantizedPositionMultisetEqual": true,
+          "quantizedTriangleGeometryEqual": true,
+          "maxBidirectionalNearestVertexMeters": 0
+        }
+      ]
+    },
+    {
+      "name": "Ava_jeans_rolled_cuff_-1_mesh",
+      "primitives": [
+        {
+          "verticesWindows": 1187,
+          "verticesLinux": 1187,
+          "triangles": 2362,
+          "orderedIndicesEqual": false,
+          "quantizedPositionMultisetEqual": false,
+          "quantizedTriangleGeometryEqual": false,
+          "maxBidirectionalNearestVertexMeters": 0.02477588223941937
+        }
+      ]
+    },
+    {
+      "name": "AVA_GoldHoop_-1_mesh",
+      "primitives": [
+        {
+          "verticesWindows": 400,
+          "verticesLinux": 400,
+          "triangles": 752,
+          "orderedIndicesEqual": true,
+          "quantizedPositionMultisetEqual": true,
+          "quantizedTriangleGeometryEqual": true,
+          "maxBidirectionalNearestVertexMeters": 0
+        }
+      ]
+    },
+    {
+      "name": "Ava_sweater_ribbed_neckline_mesh",
+      "primitives": [
+        {
+          "verticesWindows": 2022,
+          "verticesLinux": 2022,
+          "triangles": 3848,
+          "orderedIndicesEqual": false,
+          "quantizedPositionMultisetEqual": false,
+          "quantizedTriangleGeometryEqual": false,
+          "maxBidirectionalNearestVertexMeters": 0.024957983755060108
+        }
+      ]
+    },
+    {
+      "name": "Ava_sneaker_upper_-1_mesh",
+      "primitives": [
+        {
+          "verticesWindows": 448,
+          "verticesLinux": 448,
+          "triangles": 784,
+          "orderedIndicesEqual": true,
+          "quantizedPositionMultisetEqual": true,
+          "quantizedTriangleGeometryEqual": true,
+          "maxBidirectionalNearestVertexMeters": 0
+        }
+      ]
+    }
+  ],
+  "allQuantizedPositionMultisetsEqual": false,
+  "allQuantizedTriangleGeometryEqual": false,
+  "maxBidirectionalNearestVertexMeters": 0.024957983755060108,
+  "nearestVertexMetric": "Exact maximum of nearest-vertex distances in both directions, spatial grid accelerated with global fallback. Not a point-to-triangle surface Hausdorff bound.",
+  "conclusion": "Byte-identical reproduction is verified separately per platform. Platform outputs differ in remesh/decimation ordering and geometry; do not claim cross-platform identity. Both passed independent checks and published Linux renders were inspected."
+}

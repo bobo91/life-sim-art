@@ -1,0 +1,13 @@
+{
+  "file": "ava-rain-v0.2-final-review.zip",
+  "bytes": 67410598,
+  "sha256": "304a16f0caa26b26f05ed1da6f94e4be391e12af408e08175476d6c3901597b8",
+  "payloadFilesVerified": 61,
+  "glbSha256": "1ed51edf7fbb9118c953227a256ab5bf0706a05234676866c9f0af10c1f123ba",
+  "triangles": 31290,
+  "materialCount": 8,
+  "approval": "NO-GO: visually rejected by owner; model production paused",
+  "hardTriangleLimit": 30000,
+  "overBudgetTriangles": 1290,
+  "disposition": "Historical review artifact only; no rigging, animation or GAME-049 integration"
+}

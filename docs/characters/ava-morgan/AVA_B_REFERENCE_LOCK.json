@@ -1,0 +1,24 @@
+{
+  "decision": "B design sheet stays approved and locked. First B 3D head prototype finally NO-GO. Method 3 selected; artist search and RFQ preparation only, no contact or costs.",
+  "date": "2026-10-31",
+  "designCommit": "454d346ba2b0bc70ea6e1c5cbe2a753a6025cc89",
+  "neutralFormReference": {
+    "file": "evidence/ava-b-design-sheet-v01/ava-b-neutral-views.png",
+    "sha256": "08ca41f86d7ba806bcc5d5433ac4e0aa4b3f0f725fe2e962ab0a0ac421f77452"
+  },
+  "sheet": {
+    "file": "evidence/ava-b-design-sheet-v01/ava-b-model-sheet.png",
+    "sha256": "dc4a144ab79384c60b88d1b1b8003dde14fdb18e0f187647db4baa2c6bb488d8"
+  },
+  "expressionOnly": {
+    "file": "evidence/ava-b-design-sheet-v01/ava-b-warm-smile.png",
+    "sha256": "eae58b55f901007bb93ad6c666509b963478ea9e96ea6d7dc062524f969f56c9",
+    "notDefaultPose": true
+  },
+  "identityChangesOrFurtherAlternativeFaces": "not authorized",
+  "threeDimensionalScope": "Paused: first 3D head prototype finally rejected by owner on 2026-10-31; no further iteration. Current work is public artist/price research and a fixed-price head-test brief only. No model production, artist contact, booking or expenditure authorized.",
+  "headPrototypeStatus": "NO-GO: wrong B volumes, tired/stiff lids, incorrect nose/mouth/chin transitions, monolithic hair and missing identity. Preserve archive; do not refine or integrate.",
+  "excluded": ["rigging", "animation", "Unity integration", "life-sim-game changes", "merge", "finished cafe outfit", "hand-detail production"],
+  "rainV02Status": "visually rejected; not a geometry source",
+  "finalTriangleCap": 30000
+}

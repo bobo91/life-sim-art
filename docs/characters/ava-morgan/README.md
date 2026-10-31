@@ -1,5 +1,11 @@
 # Ava Morgan — 3D character reference package v0.1
 
+**Latest owner decision (2026-10-31): method 3 selected; artist search and RFQ preparation only.** [Artist shortlist and price findings](AVA_ARTIST_SHORTLIST.md) · [fixed-price head-test brief, not sent](AVA_HEAD_TEST_BRIEF.md). B stays approved/locked: [reference lock and hashes](AVA_B_REFERENCE_LOCK.json). [First B head: final NO-GO archive](../../../evidence/ava-b-head-v01/README.md); no further iteration of it. Model production is paused. No contact, booking, costs, models, rigging, animation, Unity/game integration or merge. A03 stays unchanged. [Previous method comparison](AVA_B_METHOD_REVIEW.md) is decision history, not an authorized budget. The selected B sheet supersedes the older identity/turnaround priorities and high-bun notes below.
+
+**Archived status:** Rain Ava v0.2 is NO-GO and is not a source for the B prototype. Rain anatomy is retained through a fresh original-source extraction. Work beyond the limited head/hair review remains paused. The final-model triangle cap remains 30,000.
+
+**Current ART-041 scope (owner instruction, 2026-10-30):** use actual Rain v3 meshes for one static visual prototype. The old procedural Ava is NO-GO. [Current final Rain visual refinement](../../../evidence/ava-rain-v02/README.md) and [verified source licence](RAIN_SOURCE_LICENSE.md) supersede conflicting production steps below. No rigging/animation/Unity work before a new explicit approval. Juniper Cafe and first-meeting game canon supersede the provisional Daily Bean/childhood-friend text in these historical concept notes. The concept boards below are not 3D model evidence.
+
 **Project:** Willow Creek / life-sim-art  
 **Character:** Ava Morgan, 29, café barista, childhood friend  
 **Status:** Approved *creative direction* by owner in chat; NOT an approved exact technical orthographic model sheet or completed 3D asset.

@@ -1,0 +1,18 @@
+{
+  "assetId": "ava-b-head-review-v01",
+  "scope": "Separate static Rain head/hair prototype; owner-approved B identity locked",
+  "seed": 41051,
+  "sourceSha256": "831ab6d837c679040285862b15dc9ee5180b018442a88aeaf92aaa7509b80258",
+  "a03Sha256": "dcd7681255f49fa704844492b0ffc6964e434ccb4ae59aaba7788b0af56ffd90",
+  "design": {
+    "commit": "454d346ba2b0bc70ea6e1c5cbe2a753a6025cc89",
+    "neutral": "08ca41f86d7ba806bcc5d5433ac4e0aa4b3f0f725fe2e962ab0a0ac421f77452",
+    "sheet": "dc4a144ab79384c60b88d1b1b8003dde14fdb18e0f187647db4baa2c6bb488d8"
+  },
+  "verticalCageStations": [[1.31,1.31],[1.343,1.333],[1.389,1.398],[1.413,1.427],[1.47326,1.497],[1.510,1.527],[1.560,1.600],[1.624,1.665]],
+  "widthStations": [[1.31,1.0],[1.35,1.04],[1.37,1.01],[1.40,0.99],[1.44,0.99],[1.48,0.97],[1.53,0.94],[1.624,0.92]],
+  "orbitalScale": 0.77,
+  "nativeNeutralLipEdits": {"LipsAdjust":1.0,"LipsWide.L":0.65,"LipsWide.R":0.65,"LipsPuff_Upper":-0.30,"LipsPuff_Lower":-0.32},
+  "faceCamera": {"focus":[0,-0.028,1.446],"orthoScale":0.53},
+  "finalBudgetPlan": {"cap":30000,"headHairTarget":16600,"remainingBodyClothesReserve":13000,"componentTargets":{"nativeFaceCage":12634,"eyes":1200,"brows":220,"lashes":144,"hair":2400},"note":"Planning allocation about29600 total, not an accepted final optimized model. Preserve facial topology in this prototype; later simplify nonfacial parts after visual GO."}
+}

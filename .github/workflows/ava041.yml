@@ -1,0 +1,120 @@
+name: ART-041 Ava static visual candidate
+
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/ava041.yml'
+      - 'scripts/*ava041*.py'
+      - 'configs/ava041*.json'
+      - 'docs/characters/ava-morgan/ART041*'
+      - 'evidence/ava041/**'
+      - 'reports/ava041/**'
+  workflow_dispatch:
+    inputs:
+      include_a03_comparison:
+        description: 'Render with the unchanged, SHA-pinned approved A03 static comparison'
+        type: boolean
+        default: true
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  static-candidate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install official pinned Blender and verify archive checksum
+        shell: bash
+        run: |
+          curl --fail --location --retry 3 https://download.blender.org/release/Blender4.5/blender-4.5.14-linux-x64.tar.xz --output "$RUNNER_TEMP/blender.tar.xz"
+          printf '%s  %s\n' '9ba871ff2ecd36526b77432745980b7e6664ecd0c7ca11c48849073dcfe06da3' "$RUNNER_TEMP/blender.tar.xz" | sha256sum --check -
+          tar --extract --file "$RUNNER_TEMP/blender.tar.xz" --directory "$RUNNER_TEMP"
+          printf 'BLENDER_BIN=%s\n' "$RUNNER_TEMP/blender-4.5.14-linux-x64/blender" >> "$GITHUB_ENV"
+      - name: Audit actual installed versions
+        shell: bash
+        run: |
+          python --version
+          "$BLENDER_BIN" --version
+      - name: Fetch and verify unchanged approved A03 comparison
+        if: github.event_name == 'pull_request' || inputs.include_a03_comparison
+        shell: bash
+        run: |
+          python - <<'PY'
+          import hashlib, pathlib, shutil, urllib.request, zipfile
+          folder = pathlib.Path('build/reference-a03')
+          folder.mkdir(parents=True)
+          archive_path = folder / 'male-neutral-a03-v0.3-review.zip'
+          url = 'https://github.com/bobo91/life-sim-art/releases/download/male-neutral-a03-v0.3/male-neutral-a03-v0.3-review.zip'
+          with urllib.request.urlopen(url, timeout=180) as response, archive_path.open('xb') as destination:
+              shutil.copyfileobj(response, destination)
+          assert hashlib.sha256(archive_path.read_bytes()).hexdigest() == '3ae53894ae1aef5c909a82d1c3d60b3f153005ca8dee0b11cfb646b2b09da6fc', 'A03 ZIP hash mismatch'
+          with zipfile.ZipFile(archive_path) as archive:
+              data = archive.read('character.blend')
+          assert hashlib.sha256(data).hexdigest() == 'dcd7681255f49fa704844492b0ffc6964e434ccb4ae59aaba7788b0af56ffd90', 'A03 source hash mismatch'
+          (folder / 'character.blend').write_bytes(data)
+          print('Approved static A03 ZIP and source hashes verified; comparison source only')
+          PY
+      - name: Generate original static Ava meshes, materials, export and actual renders
+        shell: bash
+        run: |
+          a03_args=()
+          if [ -f build/reference-a03/character.blend ]; then
+            a03_args=(--a03 build/reference-a03/character.blend)
+          fi
+          "$BLENDER_BIN" --background --factory-startup --offline-mode --disable-autoexec --python-exit-code 1 --python scripts/build_ava041.py -- --config configs/ava041.json --out build/ava041 "${a03_args[@]}"
+      - name: Reopen source, independently validate GLB and reimport export
+        shell: bash
+        run: |
+          "$BLENDER_BIN" --background --factory-startup --offline-mode --disable-autoexec --python-exit-code 1 --python scripts/validate_ava041.py -- --blend build/ava041/character.blend --glb build/ava041/chr_ava_morgan_041.glb --out build/ava041-validation.json
+      - name: Reproduce export in another process and check exact producer sources
+        shell: bash
+        run: |
+          "$BLENDER_BIN" --background --factory-startup --offline-mode --disable-autoexec --python-exit-code 1 --python scripts/build_ava041.py -- --config configs/ava041.json --out build/ava041-reproduce --views none
+          python - <<'PY'
+          import hashlib, json, pathlib
+          digest = lambda p: hashlib.sha256(pathlib.Path(p).read_bytes()).hexdigest()
+          first = pathlib.Path('build/ava041')
+          repeated = pathlib.Path('build/ava041-reproduce')
+          model = 'chr_ava_morgan_041.glb'
+          assert digest(first/model) == digest(repeated/model), 'GLB reproduction mismatch'
+          report = json.loads((first/'asset-report.json').read_text())
+          assert all(digest(pathlib.Path('scripts')/name) == value for name,value in report['sourceFiles'].items()), 'Producer source changed'
+          assert digest('configs/ava041.json') == report['configSha256'], 'Producer config changed'
+          result = {'status':'pass','byteIdenticalGlb':True,'glbSha256':digest(first/model),'producerSourcesVerified':True,'configVerified':True}
+          pathlib.Path('build/ava041-reproduction.json').write_text(json.dumps(result, indent=2)+'\n')
+          print(json.dumps(result))
+          PY
+      - name: Render static GLB roundtrip under the exact saved studio
+        shell: bash
+        run: |
+          "$BLENDER_BIN" --background --factory-startup --offline-mode --disable-autoexec --python-exit-code 1 --python scripts/render_ava041_roundtrip.py -- --build build/ava041 --out build/ava041-roundtrip
+          mkdir -p evidence/ava041/runtime
+          cp build/ava041-roundtrip/report.json evidence/ava041/runtime/ci-roundtrip.json
+          cp build/ava041-reproduction.json evidence/ava041/runtime/ci-reproduction.json
+      - name: Package exact source, model, renders and SHA256 index, then verify every entry
+        run: python scripts/package_ava041.py --build build/ava041 --validation build/ava041-validation.json --out build/artifacts/ava-morgan-visual-v0.1.0-review.1.zip
+      - name: Upload versioned static owner-review artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ava-morgan-visual-v0.1.0-review.1-${{ github.sha }}
+          path: build/artifacts/ava-morgan-visual-v0.1.0-review.1.zip*
+          if-no-files-found: error
+          retention-days: 30
+      - name: Retain validation diagnostics if generation or validation fails
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ava041-failed-diagnostics-${{ github.sha }}
+          path: |
+            build/ava041-validation.json
+            build/ava041/asset-report.json
+            build/ava041/render-metadata.json
+            build/ava041/environment.json
+          if-no-files-found: warn
+          retention-days: 14
