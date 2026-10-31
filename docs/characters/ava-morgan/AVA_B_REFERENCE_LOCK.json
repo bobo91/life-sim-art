@@ -1,5 +1,5 @@
 {
-  "decision": "B design sheet stays approved and locked. First B 3D head prototype finally NO-GO; methods evaluation only.",
+  "decision": "B design sheet stays approved and locked. First B 3D head prototype finally NO-GO. Method 3 selected; artist search and RFQ preparation only, no contact or costs.",
   "date": "2026-10-31",
   "designCommit": "454d346ba2b0bc70ea6e1c5cbe2a753a6025cc89",
   "neutralFormReference": {
@@ -16,7 +16,7 @@
     "notDefaultPose": true
   },
   "identityChangesOrFurtherAlternativeFaces": "not authorized",
-  "threeDimensionalScope": "Paused: first 3D head prototype finally rejected by owner on 2026-10-31; no further iteration. Current work is methods evaluation only.",
+  "threeDimensionalScope": "Paused: first 3D head prototype finally rejected by owner on 2026-10-31; no further iteration. Current work is public artist/price research and a fixed-price head-test brief only. No model production, artist contact, booking or expenditure authorized.",
   "headPrototypeStatus": "NO-GO: wrong B volumes, tired/stiff lids, incorrect nose/mouth/chin transitions, monolithic hair and missing identity. Preserve archive; do not refine or integrate.",
   "excluded": ["rigging", "animation", "Unity integration", "life-sim-game changes", "merge", "finished cafe outfit", "hand-detail production"],
   "rainV02Status": "visually rejected; not a geometry source",
