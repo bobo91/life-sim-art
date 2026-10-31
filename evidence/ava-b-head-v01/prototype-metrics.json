@@ -1,0 +1,59 @@
+{
+  "version": "ava-b-head-v0.1",
+  "designApprovedAndLocked": {
+    "commit": "454d346ba2b0bc70ea6e1c5cbe2a753a6025cc89",
+    "neutral": "08ca41f86d7ba806bcc5d5433ac4e0aa4b3f0f725fe2e962ab0a0ac421f77452",
+    "sheet": "dc4a144ab79384c60b88d1b1b8003dde14fdb18e0f187647db4baa2c6bb488d8"
+  },
+  "prototypeBaseHeadHairTriangles": 21822,
+  "nativeFaceBaseTriangles": 12634,
+  "nativeFaceVertices": 6395,
+  "previewSubdivisionHeadTriangles": 50540,
+  "headOnlyReviewGlbTriangles": 59728,
+  "unfinishedNativeContextTriangles": 48291,
+  "headMaterialCount": 6,
+  "imageTextures": [
+    {
+      "name": "ava_eyes_brown.png",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "ava_skin_atlas.png",
+      "size": [
+        2048,
+        2048
+      ]
+    }
+  ],
+  "bodyEditCoordinatesUnchanged": true,
+  "neckEditCoordinatesUnchanged": true,
+  "maximumHeadEditMetres": 0.06754140696810769,
+  "neckPreviewWeldToleranceMetres": 2e-05,
+  "rainSourceSha256": "831ab6d837c679040285862b15dc9ee5180b018442a88aeaf92aaa7509b80258",
+  "a03Sha256": "dcd7681255f49fa704844492b0ffc6964e434ccb4ae59aaba7788b0af56ffd90",
+  "canonicalBlendSha256": "d4a76fb4d1f8622b18c0200e33372c52d7a80f440b61699e88e1f540d79a0377",
+  "headOnlyGlbSha256": "56d5051a3b028d504ea8a3a22c6a082d5f6309fa25b17f3c0c247472634ae90e",
+  "glbSkins": 0,
+  "glbAnimations": 0,
+  "expectedFinalBudget": {
+    "cap": 30000,
+    "headHairTarget": 16600,
+    "remainingBodyClothesReserve": 13000,
+    "componentTargets": {
+      "nativeFaceCage": 12634,
+      "eyes": 1200,
+      "brows": 220,
+      "lashes": 144,
+      "hair": 2400
+    },
+    "note": "Planning allocation about29600 total, not an accepted final optimized model. Preserve facial topology in this prototype; later simplify nonfacial parts after visual GO."
+  },
+  "sourceRigOrEmbeddedTextsDelivered": false,
+  "blender": "4.5.14 LTS",
+  "renderer": "Cycles CPU,48 samples,AgX",
+  "unityTested": false,
+  "quality": "Still below A03 finish; head/hair prototype only, owner visual GO/NO-GO pending"
+}

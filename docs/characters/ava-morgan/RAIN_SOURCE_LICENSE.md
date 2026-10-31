@@ -26,6 +26,23 @@ Source: [Blender Studio Rain v3](https://studio.blender.org/characters/rain/v3/)
 
 A03 comparison only: unchanged approved static v0.3, SHA256 `dcd7681255f49fa704844492b0ffc6964e434ccb4ae59aaba7788b0af56ffd90`. Its base is [Snow v4](https://studio.blender.org/characters/snow/v4/), **Snow Rig (CC) Blender Foundation | studio.blender.org**, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). A03 is not included in Ava's exported asset or modified by this work.
 
-## v0.2 final static visual refinement
+## Separate approved-B head prototype v0.1 (2026-10-31)
+
+This derivative starts with a fresh neutral extraction from the exact native
+Rain file above, not the rejected Ava v0.2. The owner-approved AI-generated B
+sheet is a locked form reference; it is not image-to-mesh content. New static
+control-cage and local surface edits reshape Rain's actual head topology,
+sockets/lids, cheek/jaw/chin, nasal bridge and lip volumes. The native body and
+neck-junction edit coordinates remain unchanged. Disposable preview copies
+join the matching skin seam at 20-micrometre tolerance for a continuous skin
+surface. New tapered surface-projected brows and scalp-fitted controlled hair
+surfaces form the left part, low bun and thin wisps. Source-derived skin/eye
+maps are reused/downsampled, with newly seeded subtle freckles and broad hair
+vertex tones. Rain/Snow originals and approved 2D images are preserved.
+No old Ava geometry, source software, rig, action or animation is delivered.
+The head-only high-resolution GLB is a review artifact, not an approved game
+asset. Same Rain credit and CC BY 4.0 terms apply to the modified character.
+
+## Historical v0.2 static visual refinement — visually NO-GO
 
 Owner-requested follow-up uses the preserved v0.1 authoring copy. Native Rain lip-neutral/widening deltas and eyelid/brow selections guide static face edits; no rig or animation is produced. Jaw/cheek/nasal planes are refined while the neck junction, body and eye globes remain unsculpted. The actual source ponytail forms a tucked wrap with a local contact weld; original framing-lock attachments are retained. Existing garment surfaces receive restrained folds/drape, cloth UVs and two project-generated 256² knit/canvas normal images. The old procedural Ava is still excluded. Root translation alone recentres changed hair bounds; it does not alter anatomy or scale. Same Rain attribution/CC BY terms apply, with this modification notice. No additional third-party sources or code were acquired.

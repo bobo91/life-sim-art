@@ -1,0 +1,132 @@
+{
+  "phase": "Ava B limited head/hair prototype; visual GO/NO-GO pending",
+  "approvedDesignSha256": "08ca41f86d7ba806bcc5d5433ac4e0aa4b3f0f725fe2e962ab0a0ac421f77452",
+  "command": "python scripts/compose_ava_b_head_review.py --candidate <candidate> --outdir <new-output-directory>",
+  "inputs": {
+    "face_front": {
+      "path": "build/ava-b-head-v01/delivery-001/renders/face_front.png",
+      "bytes": 1089352,
+      "sha256": "8024aaf13034e76ca0ea0aaa1fc1e8da5d769a58355db1a8f2e96f374732a5e2",
+      "size": [
+        1000,
+        1000
+      ]
+    },
+    "face_profile": {
+      "path": "build/ava-b-head-v01/delivery-001/renders/face_profile.png",
+      "bytes": 1088624,
+      "sha256": "fada2bf617788869a2571aed9b6b76b87669df60fd3f18c6bc560aacfaaf8d1e",
+      "size": [
+        1000,
+        1000
+      ]
+    },
+    "face_three_quarter": {
+      "path": "build/ava-b-head-v01/delivery-001/renders/face_three_quarter.png",
+      "bytes": 1098429,
+      "sha256": "6b4761e0c246b597b3e4755c0e6f3a85fc62580e0c1b4d5d6fdb4b3b53d76ce8",
+      "size": [
+        1000,
+        1000
+      ]
+    },
+    "a03_face_front": {
+      "path": "build/ava-b-head-v01/delivery-001/renders/a03_face_front.png",
+      "bytes": 1112575,
+      "sha256": "327431be0dcfaa486325155deb6855ca12ada3a7511b6469d963194020e0c709",
+      "size": [
+        1000,
+        1000
+      ]
+    },
+    "a03_face_three_quarter": {
+      "path": "build/ava-b-head-v01/delivery-001/renders/a03_face_three_quarter.png",
+      "bytes": 1111334,
+      "sha256": "ce83c974861b69ef1e0a50851979391559e4c8d89248f86864ef00a17686da52",
+      "size": [
+        1000,
+        1000
+      ]
+    },
+    "comparison_ava_three_quarter": {
+      "path": "build/ava-b-head-v01/delivery-001/renders/comparison_ava_three_quarter.png",
+      "bytes": 1070855,
+      "sha256": "a04c1c9d6ee8c258c1b298cb266927838c0dfc164e3ffed620cd0931b64bd129",
+      "size": [
+        1000,
+        1000
+      ]
+    },
+    "normal_game_camera": {
+      "path": "build/ava-b-head-v01/delivery-001/renders/normal_game_camera.png",
+      "bytes": 879257,
+      "sha256": "8096ab2ec6dc82963f1778efa187b8daff97dc6c2dfa2a391b97f662e32731b7",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    "approved_neutral_2d": {
+      "path": "evidence/ava-b-design-sheet-v01/ava-b-neutral-views.png",
+      "bytes": 769720,
+      "sha256": "08ca41f86d7ba806bcc5d5433ac4e0aa4b3f0f725fe2e962ab0a0ac421f77452",
+      "size": [
+        1536,
+        508
+      ]
+    }
+  },
+  "outputs": {
+    "face-views.png": {
+      "path": "evidence/ava-b-head-v01/face-views.png",
+      "bytes": 604042,
+      "sha256": "94d033b63b557f0ed9b7005d41b92a883498cf141639578ef8345cc63d10b4ea",
+      "size": [
+        1800,
+        696
+      ]
+    },
+    "design-vs-model.png": {
+      "path": "evidence/ava-b-head-v01/design-vs-model.png",
+      "bytes": 1316354,
+      "sha256": "42706a8b53617011e0847a3525ef4927b8e7d88742090394a525f581b57a05d4",
+      "size": [
+        1536,
+        1300
+      ]
+    },
+    "A03same-scale.png": {
+      "path": "evidence/ava-b-head-v01/A03same-scale.png",
+      "bytes": 710985,
+      "sha256": "579310735e834fd0be7f1288f4de33acb172c4f46bc082d47a44d4b9d45f1379",
+      "size": [
+        1600,
+        920
+      ]
+    },
+    "normal_game_camera.png": {
+      "path": "evidence/ava-b-head-v01/normal_game_camera.png",
+      "bytes": 879257,
+      "sha256": "8096ab2ec6dc82963f1778efa187b8daff97dc6c2dfa2a391b97f662e32731b7",
+      "size": [
+        1280,
+        720
+      ]
+    }
+  },
+  "operations": "Pillow labels, placement and uniform whole-image resizing only; locked 2D source pasted at 1:1; no facial warp, repaint, recolour, crop or separate head normalization",
+  "scales": {
+    "faceViews": 0.54,
+    "designRow": 1.0,
+    "modelVsDesign": 0.512,
+    "a03AndAvaComparison": 0.72,
+    "nativeGameCamera": 1.0
+  },
+  "comparisonBasis": "Producer supplies the Ava/A03 complete 1000-square renders with identical camera, lighting and metre-scale scene. This layout applies the same scale to both and does not infer physical scale from pixels.",
+  "context": "Endast huvud och hår bedöms. Befintlig Rain-kropp i rest-T-pose; kläderna är inte färdig caféklädsel.",
+  "credit": "Rain Rig / Snow Rig (CC) Blender Foundation | studio.blender.org | CC BY 4.0 | Ava-bearbetning: life-sim-art",
+  "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "rainSourceUrl": "https://studio.blender.org/characters/rain/v3/",
+  "snowSourceUrl": "https://studio.blender.org/characters/snow/v4/",
+  "blenderInvokedByThisScript": false
+}

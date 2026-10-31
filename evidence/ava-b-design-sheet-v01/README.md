@@ -1,6 +1,6 @@
 # Ava Morgan — vald B-design, huvudark v01
 
-**B är ägarens officiella visuella riktning. Detta designark inväntar godkännande.** A är inte valt, men inte kvalitetsunderkänt. 2D-designunderlag, inte bevis på en ny 3D-modell.
+**Ägarens GO 2026-10-31: detta B-designark är godkänt och låst som Avas officiella visuella referens.** [Referenslås och bildhashar](../../docs/characters/ava-morgan/AVA_B_REFERENCE_LOCK.json). Neutrala vyer styr formen; leendet är endast uttrycksreferens. A är inte valt, men inte kvalitetsunderkänt. Bilderna nedan är oförändrade 2D-designunderlag. En separat begränsad Rain-baserad huvud-/hårprototyp är nu tillåten, med eget visuellt GO/NO-GO; ingen riggning/animation/integration.
 
 ![B: neutral front, ren profil, trekvart, varmt leende och verklig A03-referens](ava-b-model-sheet.png)
 
@@ -20,4 +20,4 @@
 
 A03-källa: `male-neutral-a03-v0.3`, `delivery-003/renders/face_three_quarter.png`; byteidentisk källkopia i [A/B-mappen](../ava-design-ab/a03-style-reference.png). Jämförelsen använder en likformig skalning/beskärning för liknande huvudstorlek på bild, inte fysisk skala. **Snow Rig (CC) Blender Foundation | studio.blender.org**, [Snow v4](https://studio.blender.org/characters/snow/v4/), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). A03-modell/release är oförändrade. Ava-bilder: AI-design för life-sim-art, med valt B som identitetsreferens och A03 enbart som stilreferens. Ingen Rain-mesh eller extern foto-/meshreferens matades in.
 
-**Stopp för ägarens designgodkännande.** Ingen ny modell, meshbearbetning, riggning, animation, Unity-/GAME-049-integration, merge eller ändring i life-sim-game. PR #42 förblir draft. Rain v0.2 är fortsatt NO-GO (31 290 trianglar); kontraktets gräns är 30 000.
+**Designgodkännande erhållet; bilderna är låsta.** Nästa tillåtna steg är en separat begränsad Rain-baserad huvud-/hårprototyp med eget visuellt GO/NO-GO. Ingen riggning, animation, Unity-/GAME-049-integration, merge eller ändring i life-sim-game. PR #42 förblir draft. Rain v0.2 är fortsatt NO-GO (31 290 trianglar); den slutliga modellens kontraktsgräns är 30 000. Ursprungligt manifest beskriver läget vid arkleveransen; referenslåset ovan dokumenterar ägarens senare GO.

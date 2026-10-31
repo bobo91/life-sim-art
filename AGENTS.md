@@ -38,17 +38,22 @@ source rig may be inspected and used only to extract a static pose; no rigging
 or animation production, Unity integration, game-repository changes, A03 changes,
 paid services, purchases or merge. Stop for the owner's visual GO/NO-GO.
 
-## Current ART-041 owner instruction — 2D design GO, 3D production paused
+## Current ART-041 owner instruction — B design locked; limited head/hair GO
 
-Rain Ava v0.2 is visually rejected (NO-GO). Keep Rain's approved base/anatomy,
-but do not change meshes or produce models, rigs, animations or integration.
-The owner selected alternative B as Ava's official visual direction on
-2026-10-31. Alternative A is unselected, not quality-rejected. The current
-authorization is a consistent 2D head design sheet: neutral front, clean
-profile and three-quarter, plus a warm discreet smile, with A03 comparison
-and explicit game-style simplifications. Inspect and correct contradictions
-before delivery. Use built-in image generation; no external character artist.
-Stop for the owner's sheet approval. This does not authorize new models,
-mesh edits, rigging, animation, Unity integration or a full-body turnaround.
+The owner approved the Ava B head sheet in PR #42 on 2026-10-31. Its neutral
+front/profile/three-quarter are the fixed form reference; the discreet smile
+is expression reference only, not the default pose. Preserve the reference
+images and identity. No more alternative-face generation. See the immutable
+image hashes in docs/characters/ava-morgan/AVA_B_REFERENCE_LOCK.json.
+
+Authorize a clearly separate static head/hair translation from original Rain
+v3, with actual face-volume edits and controlled artist-directed mesh work.
+Preserve Rain's working neck/shoulder anatomy. Rain Ava v0.2 remains NO-GO
+and must not be a geometry source. Show real Blender face views, direct 2D
+comparison, same-light/scale A03 and normal game camera. Document transferred
+forms, mismatches and expected remaining body/outfit budget briefly. Do not
+spend this phase on final cafe clothes, hand detail or a game import.
+Stop for separate visual GO/NO-GO. No rigging, animation, Unity integration,
+life-sim-game/A03 changes, purchases, paid services or merge. Keep PR #42 draft.
 The hard triangle cap remains 30,000; v0.2's 31,290 is over contract and not an
-approved budget exception. No merge or life-sim-game changes.
+approved budget exception. Do not damage the face with premature reduction.
